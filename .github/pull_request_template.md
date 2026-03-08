@@ -26,7 +26,7 @@ Please provide before/after screenshots for visual changes.
 
 ## Checklist
 
-- [ ] Follows [layer naming spec](docs/layer_spec.md)
+- [ ] Follows [layer naming spec](docs/layer_spec_en.md)
 - [ ] Did not modify files under `raw/`
 - [ ] TMX files open correctly in Tiled
 
@@ -57,6 +57,6 @@ Please provide before/after screenshots for visual changes.
 
 ## 检查清单
 
-- [ ] 遵循 [图层命名规范](docs/layer_spec.md)
+- [ ] 遵循 [图层命名规范](docs/layer_spec_zh-hans.md)
 - [ ] 未修改 `raw/` 目录下的文件
 - [ ] TMX 文件可在 Tiled 中正常打开

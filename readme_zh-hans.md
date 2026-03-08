@@ -88,7 +88,7 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
 你可以重命名图层、清理房间、添加碰撞数据、拼接世界地图，
 甚至只是修复文档中的一个错别字。
 
-👉 查看 [contributing.md](contributing.md) 了解详细的参与步骤。
+👉 查看 [contributing_zh-hans.md](contributing_zh-hans.md) 了解详细的参与步骤。
 
 ## ⚖️ 许可证
 
@@ -163,8 +163,11 @@ open-utdr-maps/
 ├── tilesets/               # 标准化贴图集（预留）
 ├── docs/                   # 文档
 │   ├── copyright.md        # 版权与法律声明
+│   ├── copyright_zh-hans.md
 │   ├── layer_spec.md       # 图层命名规范
-│   └── conversion_spec.md  # 地图转换说明
+│   ├── layer_spec_zh-hans.md
+│   ├── conversion_spec.md  # 地图转换说明
+│   └── conversion_spec_zh-hans.md
 ├── conversion_info/        # 转换元数据（TOML）
 └── scripts/                # 自动化脚本
 ```
@@ -183,7 +186,7 @@ open-utdr-maps/
 - 瓦片翻转/旋转标志
 - 游戏对象实例和摄像机视图
 
-详见 [docs/conversion_spec.md](docs/conversion_spec.md)。
+详见 [docs/conversion_spec_zh-hans.md](docs/conversion_spec_zh-hans.md)。
 
 ### 验证体系
 

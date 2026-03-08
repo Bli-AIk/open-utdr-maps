@@ -171,8 +171,11 @@ open-utdr-maps/
 ├── tilesets/               # Standardized tilesets (reserved for future use)
 ├── docs/                   # Documentation
 │   ├── copyright.md        # Copyright & legal notice
+│   ├── copyright_zh-hans.md
 │   ├── layer_spec.md       # Layer naming conventions
-│   └── conversion_spec.md  # How maps were converted
+│   ├── layer_spec_zh-hans.md
+│   ├── conversion_spec.md  # How maps were converted
+│   └── conversion_spec_zh-hans.md
 ├── conversion_info/        # Conversion metadata (TOML)
 └── scripts/                # Automation scripts
 ```
@@ -191,7 +194,7 @@ The conversion handles:
 - Tile flip/rotation flags
 - Game object instances and camera views
 
-See [docs/conversion_spec.md](docs/conversion_spec.md) for full details.
+See [docs/conversion_spec_en.md](docs/conversion_spec_en.md) for full details.
 
 ### Verification
 
