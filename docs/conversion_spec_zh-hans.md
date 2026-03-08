@@ -2,7 +2,7 @@
 
 ## 转换工具
 
-所有原始地图由 [gm2tiled](https://github.com/<owner>/gm2tiled) 从 GameMaker `data.win` 文件自动转换生成。
+所有原始地图由 [gm2tiled](https://github.com/Bli-AIk/gm2tiled) 从 GameMaker `data.win` 文件自动转换生成。
 
 ## 转换流程
 
