@@ -18,7 +18,7 @@ in [Tiled](https://www.mapeditor.org/) format.
 
 ## 🤔 What is this?
 
-Ever wanted to make a fangame or animation, but dreaded the thought of
+Ever wanted to make a fangame or animation/comic, but dreaded the thought of
 manually piecing together map assets from scratch?
 Or maybe you just wanted to revisit the layout of a favorite room
 but didn't know where to start?
