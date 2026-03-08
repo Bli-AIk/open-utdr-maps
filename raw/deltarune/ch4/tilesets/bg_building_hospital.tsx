@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.2" name="bg_building_hospital" tilewidth="236" tileheight="117" tilecount="0" columns="0">
-  <image source="../textures/bg_building_hospital.png" width="234" height="117"/>
-</tileset>
