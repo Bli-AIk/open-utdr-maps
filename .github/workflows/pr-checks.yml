@@ -207,6 +207,8 @@ jobs:
     name: PR description check
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Check PR body completeness
         run: |
           BODY=$(gh pr view ${{ github.event.pull_request.number }} --json body -q '.body')
