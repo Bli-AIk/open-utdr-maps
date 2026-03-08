@@ -4,190 +4,190 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_coretiles_wip.tsx"/>
-  <tileset firstgid="133" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="134" source="tilesets/obj_solidsmall.tsx"/>
-  <tileset firstgid="135" source="tilesets/obj_doorB.tsx"/>
-  <tileset firstgid="136" source="tilesets/obj_markerA.tsx"/>
-  <tileset firstgid="137" source="tilesets/obj_phonecall_room.tsx"/>
-  <tileset firstgid="138" source="tilesets/obj_hearthflame.tsx"/>
-  <tileset firstgid="139" source="tilesets/obj_darksausagenpc.tsx"/>
-  <tileset firstgid="140" source="tilesets/obj_overworldcontroller.tsx"/>
-  <tileset firstgid="141" source="tilesets/obj_core_lightstrip.tsx"/>
+  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="362" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="363" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="364" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="365" source="tilesets/obj_phonecall_room.tsx"/>
+  <tileset firstgid="366" source="tilesets/obj_hearthflame.tsx"/>
+  <tileset firstgid="367" source="tilesets/obj_darksausagenpc.tsx"/>
+  <tileset firstgid="368" source="tilesets/obj_overworldcontroller.tsx"/>
+  <tileset firstgid="369" source="tilesets/obj_core_lightstrip.tsx"/>
   <layer id="1" name="depth_1000000" width="16" height="17">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,13,3,3,15,0,0,0,0,0,0,0,0,0,0,0,0,23,2,4,24,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,22,23,23,24,0,0,0,0,0,0,0,0,0,0,0,0,22,23,23,24,0,0,0,0,0,0,0,0,0,0,0,0,40,23,23,42,0,0,0,0,0,0,0,0,0,0,0,0,73,22,24,75,0,0,0,0,0,0,0,0,0,0,0,0,0,22,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,24,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="133" type="obj_mainchara" x="140" y="309" width="19" height="29">
+    <object id="1" gid="361" type="obj_mainchara" x="140" y="309" width="19" height="29">
       <properties>
         <property name="instanceId" type="int" value="110510"/>
       </properties>
     </object>
-    <object id="2" gid="134" type="obj_solidsmall" x="120" y="200" width="20" height="20">
+    <object id="2" gid="362" type="obj_solidsmall" x="120" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110511"/>
       </properties>
     </object>
-    <object id="3" gid="134" type="obj_solidsmall" x="140" y="200" width="20" height="20">
+    <object id="3" gid="362" type="obj_solidsmall" x="140" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110512"/>
       </properties>
     </object>
-    <object id="4" gid="134" type="obj_solidsmall" x="160" y="200" width="20" height="20">
+    <object id="4" gid="362" type="obj_solidsmall" x="160" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110513"/>
       </properties>
     </object>
-    <object id="5" gid="134" type="obj_solidsmall" x="180" y="200" width="20" height="20">
+    <object id="5" gid="362" type="obj_solidsmall" x="180" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110514"/>
       </properties>
     </object>
-    <object id="6" gid="134" type="obj_solidsmall" x="120" y="300" width="20" height="20">
+    <object id="6" gid="362" type="obj_solidsmall" x="120" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110515"/>
       </properties>
     </object>
-    <object id="7" gid="134" type="obj_solidsmall" x="120" y="320" width="20" height="20">
+    <object id="7" gid="362" type="obj_solidsmall" x="120" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110516"/>
       </properties>
     </object>
-    <object id="8" gid="134" type="obj_solidsmall" x="120" y="340" width="20" height="20">
+    <object id="8" gid="362" type="obj_solidsmall" x="120" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110517"/>
       </properties>
     </object>
-    <object id="9" gid="134" type="obj_solidsmall" x="180" y="340" width="20" height="20">
+    <object id="9" gid="362" type="obj_solidsmall" x="180" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110518"/>
       </properties>
     </object>
-    <object id="10" gid="134" type="obj_solidsmall" x="180" y="320" width="20" height="20">
+    <object id="10" gid="362" type="obj_solidsmall" x="180" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110519"/>
       </properties>
     </object>
-    <object id="11" gid="134" type="obj_solidsmall" x="180" y="300" width="20" height="20">
+    <object id="11" gid="362" type="obj_solidsmall" x="180" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110520"/>
       </properties>
     </object>
-    <object id="12" gid="134" type="obj_solidsmall" x="100" y="280" width="20" height="20">
+    <object id="12" gid="362" type="obj_solidsmall" x="100" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110521"/>
       </properties>
     </object>
-    <object id="13" gid="134" type="obj_solidsmall" x="100" y="260" width="20" height="20">
+    <object id="13" gid="362" type="obj_solidsmall" x="100" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110522"/>
       </properties>
     </object>
-    <object id="14" gid="134" type="obj_solidsmall" x="100" y="240" width="20" height="20">
+    <object id="14" gid="362" type="obj_solidsmall" x="100" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110523"/>
       </properties>
     </object>
-    <object id="15" gid="134" type="obj_solidsmall" x="100" y="220" width="20" height="20">
+    <object id="15" gid="362" type="obj_solidsmall" x="100" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110524"/>
       </properties>
     </object>
-    <object id="16" gid="134" type="obj_solidsmall" x="200" y="220" width="20" height="20">
+    <object id="16" gid="362" type="obj_solidsmall" x="200" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110525"/>
       </properties>
     </object>
-    <object id="17" gid="134" type="obj_solidsmall" x="200" y="240" width="20" height="20">
+    <object id="17" gid="362" type="obj_solidsmall" x="200" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110526"/>
       </properties>
     </object>
-    <object id="18" gid="134" type="obj_solidsmall" x="200" y="260" width="20" height="20">
+    <object id="18" gid="362" type="obj_solidsmall" x="200" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110527"/>
       </properties>
     </object>
-    <object id="19" gid="134" type="obj_solidsmall" x="200" y="280" width="20" height="20">
+    <object id="19" gid="362" type="obj_solidsmall" x="200" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110528"/>
       </properties>
     </object>
-    <object id="20" gid="135" type="obj_doorB" x="160" y="340" width="20" height="20">
+    <object id="20" gid="363" type="obj_doorB" x="160" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110529"/>
       </properties>
     </object>
-    <object id="21" gid="135" type="obj_doorB" x="140" y="340" width="20" height="20">
+    <object id="21" gid="363" type="obj_doorB" x="140" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110530"/>
       </properties>
     </object>
-    <object id="22" gid="136" type="obj_markerA" x="150" y="300" width="20" height="20">
+    <object id="22" gid="364" type="obj_markerA" x="150" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110531"/>
       </properties>
     </object>
-    <object id="23" gid="137" type="obj_phonecall_room" x="120" y="260" width="20" height="20">
+    <object id="23" gid="365" type="obj_phonecall_room" x="120" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110532"/>
       </properties>
     </object>
-    <object id="24" gid="138" type="obj_hearthflame" x="156" y="171" width="15" height="11">
+    <object id="24" gid="366" type="obj_hearthflame" x="156" y="171" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110533"/>
       </properties>
     </object>
-    <object id="25" gid="138" type="obj_hearthflame" x="168" y="141" width="15" height="11">
+    <object id="25" gid="366" type="obj_hearthflame" x="168" y="141" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110534"/>
       </properties>
     </object>
-    <object id="26" gid="138" type="obj_hearthflame" x="90" y="149" width="15" height="11">
+    <object id="26" gid="366" type="obj_hearthflame" x="90" y="149" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110535"/>
       </properties>
     </object>
-    <object id="27" gid="138" type="obj_hearthflame" x="140" y="153" width="15" height="11">
+    <object id="27" gid="366" type="obj_hearthflame" x="140" y="153" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110536"/>
       </properties>
     </object>
-    <object id="28" gid="138" type="obj_hearthflame" x="118" y="137" width="15" height="11">
+    <object id="28" gid="366" type="obj_hearthflame" x="118" y="137" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110537"/>
       </properties>
     </object>
-    <object id="29" gid="138" type="obj_hearthflame" x="100" y="173" width="15" height="11">
+    <object id="29" gid="366" type="obj_hearthflame" x="100" y="173" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110538"/>
       </properties>
     </object>
-    <object id="30" gid="138" type="obj_hearthflame" x="198" y="137" width="15" height="11">
+    <object id="30" gid="366" type="obj_hearthflame" x="198" y="137" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110539"/>
       </properties>
     </object>
-    <object id="31" gid="138" type="obj_hearthflame" x="198" y="167" width="15" height="11">
+    <object id="31" gid="366" type="obj_hearthflame" x="198" y="167" width="15" height="11">
       <properties>
         <property name="instanceId" type="int" value="110540"/>
       </properties>
     </object>
-    <object id="32" gid="139" type="obj_darksausagenpc" x="148" y="243" width="23" height="39">
+    <object id="32" gid="367" type="obj_darksausagenpc" x="148" y="243" width="23" height="39">
       <properties>
         <property name="instanceId" type="int" value="110541"/>
       </properties>
     </object>
-    <object id="33" gid="140" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+    <object id="33" gid="368" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
       <properties>
         <property name="instanceId" type="int" value="110542"/>
       </properties>
     </object>
-    <object id="34" gid="141" type="obj_core_lightstrip" x="120" y="286" width="20" height="6">
+    <object id="34" gid="369" type="obj_core_lightstrip" x="120" y="286" width="20" height="6">
       <properties>
         <property name="instanceId" type="int" value="110543"/>
       </properties>
     </object>
-    <object id="35" gid="141" type="obj_core_lightstrip" x="200" y="286" width="20" height="6">
+    <object id="35" gid="369" type="obj_core_lightstrip" x="200" y="286" width="20" height="6">
       <properties>
         <property name="instanceId" type="int" value="110544"/>
       </properties>

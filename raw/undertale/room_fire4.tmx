@@ -4,90 +4,90 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_icecave.tsx"/>
-  <tileset firstgid="101" source="tilesets/obj_bounceright.tsx"/>
-  <tileset firstgid="102" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="103" source="tilesets/obj_notify_room.tsx"/>
-  <tileset firstgid="104" source="tilesets/obj_doorA.tsx"/>
-  <tileset firstgid="105" source="tilesets/obj_markerB.tsx"/>
-  <tileset firstgid="106" source="tilesets/obj_doorD.tsx"/>
-  <tileset firstgid="107" source="tilesets/obj_markerC.tsx"/>
-  <tileset firstgid="108" source="tilesets/obj_solidexwide.tsx"/>
-  <tileset firstgid="109" source="tilesets/obj_overworldcontroller.tsx"/>
+  <tileset firstgid="298" source="tilesets/obj_bounceright.tsx"/>
+  <tileset firstgid="299" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="300" source="tilesets/obj_notify_room.tsx"/>
+  <tileset firstgid="301" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="302" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="303" source="tilesets/obj_doorD.tsx"/>
+  <tileset firstgid="304" source="tilesets/obj_markerC.tsx"/>
+  <tileset firstgid="305" source="tilesets/obj_solidexwide.tsx"/>
+  <tileset firstgid="306" source="tilesets/obj_overworldcontroller.tsx"/>
   <layer id="1" name="depth_1000000" width="71" height="27">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,20,20,20,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,0,0,0,0,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,0,0,0,0,20,20,20,20,20,20,20,20,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="101" type="obj_bounceright" x="400" y="240" width="20" height="20">
+    <object id="1" gid="298" type="obj_bounceright" x="400" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113512"/>
       </properties>
     </object>
-    <object id="2" gid="101" type="obj_bounceright" x="520" y="240" width="20" height="20">
+    <object id="2" gid="298" type="obj_bounceright" x="520" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113513"/>
       </properties>
     </object>
-    <object id="3" gid="101" type="obj_bounceright" x="640" y="240" width="20" height="20">
+    <object id="3" gid="298" type="obj_bounceright" x="640" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113514"/>
       </properties>
     </object>
-    <object id="4" gid="101" type="obj_bounceright" x="400" y="60" width="20" height="20">
+    <object id="4" gid="298" type="obj_bounceright" x="400" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113515"/>
       </properties>
     </object>
-    <object id="5" gid="101" type="obj_bounceright" x="520" y="60" width="20" height="20">
+    <object id="5" gid="298" type="obj_bounceright" x="520" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113516"/>
       </properties>
     </object>
-    <object id="6" gid="101" type="obj_bounceright" x="640" y="60" width="20" height="20">
+    <object id="6" gid="298" type="obj_bounceright" x="640" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113517"/>
       </properties>
     </object>
-    <object id="7" gid="101" type="obj_bounceright" x="280" y="240" width="20" height="20">
+    <object id="7" gid="298" type="obj_bounceright" x="280" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113518"/>
       </properties>
     </object>
-    <object id="8" gid="101" type="obj_bounceright" x="280" y="60" width="20" height="20">
+    <object id="8" gid="298" type="obj_bounceright" x="280" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113519"/>
       </properties>
     </object>
-    <object id="9" gid="101" type="obj_bounceright" x="760" y="240" width="20" height="20">
+    <object id="9" gid="298" type="obj_bounceright" x="760" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113520"/>
       </properties>
     </object>
-    <object id="10" gid="101" type="obj_bounceright" x="760" y="60" width="20" height="20">
+    <object id="10" gid="298" type="obj_bounceright" x="760" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113521"/>
       </properties>
     </object>
-    <object id="11" gid="101" type="obj_bounceright" x="880" y="60" width="20" height="20">
+    <object id="11" gid="298" type="obj_bounceright" x="880" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113522"/>
       </properties>
     </object>
-    <object id="12" gid="101" type="obj_bounceright" x="1000" y="60" width="20" height="20">
+    <object id="12" gid="298" type="obj_bounceright" x="1000" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113523"/>
       </properties>
     </object>
-    <object id="13" gid="101" type="obj_bounceright" x="1000" y="240" width="20" height="20">
+    <object id="13" gid="298" type="obj_bounceright" x="1000" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113524"/>
       </properties>
     </object>
-    <object id="14" gid="101" type="obj_bounceright" x="880" y="240" width="20" height="20">
+    <object id="14" gid="298" type="obj_bounceright" x="880" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113525"/>
       </properties>
     </object>
-    <object id="15" gid="102" type="obj_mainchara" x="130" y="469" width="19" height="29">
+    <object id="15" gid="299" type="obj_mainchara" x="130" y="469" width="19" height="29">
       <properties>
         <property name="instanceId" type="int" value="113526"/>
       </properties>
@@ -97,72 +97,72 @@
         <property name="instanceId" type="int" value="113527"/>
       </properties>
     </object>
-    <object id="17" gid="103" type="obj_notify_room" x="130" y="340" width="20" height="20">
+    <object id="17" gid="300" type="obj_notify_room" x="130" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113528"/>
       </properties>
     </object>
-    <object id="18" gid="104" type="obj_doorA" x="1400" y="140" width="20" height="20">
+    <object id="18" gid="301" type="obj_doorA" x="1400" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113529"/>
       </properties>
     </object>
-    <object id="19" gid="104" type="obj_doorA" x="1400" y="160" width="20" height="20">
+    <object id="19" gid="301" type="obj_doorA" x="1400" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113530"/>
       </properties>
     </object>
-    <object id="20" gid="105" type="obj_markerB" x="1380" y="140" width="20" height="20">
+    <object id="20" gid="302" type="obj_markerB" x="1380" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113531"/>
       </properties>
     </object>
-    <object id="21" gid="106" type="obj_doorD" x="120" y="540" width="20" height="20">
+    <object id="21" gid="303" type="obj_doorD" x="120" y="540" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113532"/>
       </properties>
     </object>
-    <object id="22" gid="106" type="obj_doorD" x="140" y="540" width="20" height="20">
+    <object id="22" gid="303" type="obj_doorD" x="140" y="540" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113533"/>
       </properties>
     </object>
-    <object id="23" gid="107" type="obj_markerC" x="130" y="500" width="20" height="20">
+    <object id="23" gid="304" type="obj_markerC" x="130" y="500" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113534"/>
       </properties>
     </object>
-    <object id="24" gid="108" type="obj_solidexwide" x="420" y="100" width="80" height="20">
+    <object id="24" gid="305" type="obj_solidexwide" x="420" y="100" width="80" height="20">
       <properties>
         <property name="instanceId" type="int" value="113535"/>
       </properties>
     </object>
-    <object id="25" gid="108" type="obj_solidexwide" x="420" y="200" width="80" height="20">
+    <object id="25" gid="305" type="obj_solidexwide" x="420" y="200" width="80" height="20">
       <properties>
         <property name="instanceId" type="int" value="113536"/>
       </properties>
     </object>
-    <object id="26" gid="108" type="obj_solidexwide" x="340" y="200" width="80" height="20">
+    <object id="26" gid="305" type="obj_solidexwide" x="340" y="200" width="80" height="20">
       <properties>
         <property name="instanceId" type="int" value="113537"/>
       </properties>
     </object>
-    <object id="27" gid="108" type="obj_solidexwide" x="340" y="100" width="80" height="20">
+    <object id="27" gid="305" type="obj_solidexwide" x="340" y="100" width="80" height="20">
       <properties>
         <property name="instanceId" type="int" value="113538"/>
       </properties>
     </object>
-    <object id="28" gid="108" type="obj_solidexwide" x="500" y="200" width="80" height="20">
+    <object id="28" gid="305" type="obj_solidexwide" x="500" y="200" width="80" height="20">
       <properties>
         <property name="instanceId" type="int" value="113539"/>
       </properties>
     </object>
-    <object id="29" gid="108" type="obj_solidexwide" x="500" y="100" width="80" height="20">
+    <object id="29" gid="305" type="obj_solidexwide" x="500" y="100" width="80" height="20">
       <properties>
         <property name="instanceId" type="int" value="113540"/>
       </properties>
     </object>
-    <object id="30" gid="109" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+    <object id="30" gid="306" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
       <properties>
         <property name="instanceId" type="int" value="113541"/>
       </properties>

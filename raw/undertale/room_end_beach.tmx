@@ -4,34 +4,34 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_endtileset.tsx"/>
-  <tileset firstgid="45" source="tilesets/bg_beachicecream.tsx"/>
-  <tileset firstgid="46" source="tilesets/obj_endbeachanim.tsx"/>
+  <tileset firstgid="120" source="tilesets/bg_beachicecream.tsx"/>
+  <tileset firstgid="121" source="tilesets/obj_endbeachanim.tsx"/>
   <layer id="1" name="depth_1000000" width="16" height="12">
-    <data encoding="csv">9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="depth_1000000_tiles">
-    <object id="1" gid="13" x="0" y="140" width="20" height="60"/>
-    <object id="2" gid="13" x="20" y="140" width="20" height="60"/>
-    <object id="3" gid="13" x="40" y="140" width="20" height="60"/>
-    <object id="4" gid="13" x="60" y="140" width="20" height="60"/>
-    <object id="5" gid="13" x="80" y="140" width="20" height="60"/>
-    <object id="6" gid="13" x="100" y="140" width="20" height="60"/>
-    <object id="7" gid="13" x="120" y="140" width="20" height="60"/>
-    <object id="8" gid="13" x="140" y="140" width="20" height="60"/>
-    <object id="9" gid="21" x="0" y="240" width="20" height="60"/>
-    <object id="10" gid="21" x="20" y="240" width="20" height="60"/>
-    <object id="11" gid="21" x="40" y="240" width="20" height="60"/>
-    <object id="12" gid="21" x="60" y="240" width="20" height="60"/>
-    <object id="13" gid="21" x="80" y="240" width="20" height="60"/>
-    <object id="14" gid="21" x="100" y="240" width="20" height="60"/>
-    <object id="15" gid="21" x="120" y="240" width="20" height="60"/>
-    <object id="16" gid="21" x="140" y="240" width="20" height="60"/>
+    <object id="1" gid="36" x="0" y="140" width="20" height="60"/>
+    <object id="2" gid="36" x="20" y="140" width="20" height="60"/>
+    <object id="3" gid="36" x="40" y="140" width="20" height="60"/>
+    <object id="4" gid="36" x="60" y="140" width="20" height="60"/>
+    <object id="5" gid="36" x="80" y="140" width="20" height="60"/>
+    <object id="6" gid="36" x="100" y="140" width="20" height="60"/>
+    <object id="7" gid="36" x="120" y="140" width="20" height="60"/>
+    <object id="8" gid="36" x="140" y="140" width="20" height="60"/>
+    <object id="9" gid="57" x="0" y="240" width="20" height="60"/>
+    <object id="10" gid="57" x="20" y="240" width="20" height="60"/>
+    <object id="11" gid="57" x="40" y="240" width="20" height="60"/>
+    <object id="12" gid="57" x="60" y="240" width="20" height="60"/>
+    <object id="13" gid="57" x="80" y="240" width="20" height="60"/>
+    <object id="14" gid="57" x="100" y="240" width="20" height="60"/>
+    <object id="15" gid="57" x="120" y="240" width="20" height="60"/>
+    <object id="16" gid="57" x="140" y="240" width="20" height="60"/>
   </objectgroup>
   <objectgroup id="3" name="depth_900000_tiles">
-    <object id="17" gid="45" x="103" y="56" width="57" height="56"/>
+    <object id="17" gid="120" x="103" y="56" width="57" height="56"/>
   </objectgroup>
   <objectgroup id="4" name="objects">
-    <object id="18" gid="46" type="obj_endbeachanim" x="94" y="95" width="21" height="31">
+    <object id="18" gid="121" type="obj_endbeachanim" x="94" y="95" width="21" height="31">
       <properties>
         <property name="instanceId" type="int" value="113483"/>
       </properties>

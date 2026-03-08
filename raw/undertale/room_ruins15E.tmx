@@ -4,62 +4,62 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder2.tsx"/>
-  <tileset firstgid="51" source="tilesets/bg_ruinseasynam2.tsx"/>
-  <tileset firstgid="76" source="tilesets/bg_ruinseasynam3.tsx"/>
-  <tileset firstgid="131" source="tilesets/obj_solidtall.tsx"/>
-  <tileset firstgid="132" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="133" source="tilesets/obj_door_ruins13.tsx"/>
-  <tileset firstgid="134" source="tilesets/obj_markerX.tsx"/>
-  <tileset firstgid="135" source="tilesets/obj_solidlong.tsx"/>
-  <tileset firstgid="136" source="tilesets/obj_overworldcontroller.tsx"/>
+  <tileset firstgid="129" source="tilesets/bg_ruinseasynam2.tsx"/>
+  <tileset firstgid="201" source="tilesets/bg_ruinseasynam3.tsx"/>
+  <tileset firstgid="353" source="tilesets/obj_solidtall.tsx"/>
+  <tileset firstgid="354" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="355" source="tilesets/obj_door_ruins13.tsx"/>
+  <tileset firstgid="356" source="tilesets/obj_markerX.tsx"/>
+  <tileset firstgid="357" source="tilesets/obj_solidlong.tsx"/>
+  <tileset firstgid="358" source="tilesets/obj_overworldcontroller.tsx"/>
   <layer id="1" name="depth_1000000" width="16" height="12">
-    <data encoding="csv">0,59,59,59,59,59,59,59,59,59,59,59,59,59,59,0,0,55,52,52,52,52,52,0,0,51,52,52,52,52,54,0,0,55,52,52,52,52,52,0,0,51,52,52,52,52,54,0,0,55,52,52,52,52,52,0,0,51,52,52,52,52,54,0,0,55,1,1,1,1,106,106,106,106,107,1,1,1,54,0,0,55,1,1,1,111,111,111,111,111,112,1,1,1,54,0,0,55,1,1,1,111,111,111,111,111,112,1,1,1,54,0,0,55,1,1,1,111,111,111,111,111,112,1,1,1,54,0,0,55,1,1,1,116,116,116,116,116,117,1,1,1,54,0,0,64,54,54,54,54,54,54,54,54,54,54,54,54,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,158,151,151,151,151,151,151,151,151,151,151,151,151,159,0,0,144,131,131,131,131,132,0,0,130,131,131,131,131,142,0,0,144,131,131,131,131,132,0,0,130,131,131,131,131,142,0,0,144,139,139,139,139,140,0,0,138,139,139,139,139,142,0,0,144,1,1,1,1,290,290,290,290,291,1,1,1,142,0,0,144,1,1,1,297,298,298,298,298,299,1,1,1,142,0,0,144,1,1,1,297,298,298,298,298,299,1,1,1,142,0,0,144,1,1,1,297,298,298,298,298,299,1,1,1,142,0,0,144,1,1,1,305,306,306,306,306,307,1,1,1,142,0,0,166,135,135,135,135,135,135,135,135,135,135,135,135,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="depth_1000000_tiles">
-    <object id="1" gid="69" x="140" y="80" width="40" height="60"/>
+    <object id="1" gid="175" x="140" y="80" width="40" height="60"/>
   </objectgroup>
   <objectgroup id="3" name="objects">
-    <object id="2" gid="131" type="obj_solidtall" x="20" y="20" width="20" height="20">
+    <object id="2" gid="353" type="obj_solidtall" x="20" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100968"/>
       </properties>
     </object>
-    <object id="3" gid="131" type="obj_solidtall" x="280" y="20" width="20" height="20">
+    <object id="3" gid="353" type="obj_solidtall" x="280" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100969"/>
       </properties>
     </object>
-    <object id="4" gid="132" type="obj_mainchara" x="150" y="134" width="19" height="29">
+    <object id="4" gid="354" type="obj_mainchara" x="150" y="134" width="19" height="29">
       <properties>
         <property name="instanceId" type="int" value="100970"/>
       </properties>
     </object>
-    <object id="5" gid="133" type="obj_door_ruins13" x="140" y="85" width="20" height="20">
+    <object id="5" gid="355" type="obj_door_ruins13" x="140" y="85" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100971"/>
       </properties>
     </object>
-    <object id="6" gid="133" type="obj_door_ruins13" x="160" y="85" width="20" height="20">
+    <object id="6" gid="355" type="obj_door_ruins13" x="160" y="85" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100972"/>
       </properties>
     </object>
-    <object id="7" gid="134" type="obj_markerX" x="150" y="135" width="20" height="20">
+    <object id="7" gid="356" type="obj_markerX" x="150" y="135" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100973"/>
       </properties>
     </object>
-    <object id="8" gid="135" type="obj_solidlong" x="20" y="200" width="20" height="20">
+    <object id="8" gid="357" type="obj_solidlong" x="20" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100974"/>
       </properties>
     </object>
-    <object id="9" gid="135" type="obj_solidlong" x="20" y="80" width="20" height="20">
+    <object id="9" gid="357" type="obj_solidlong" x="20" y="80" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="100975"/>
       </properties>
     </object>
-    <object id="10" gid="136" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+    <object id="10" gid="358" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
       <properties>
         <property name="instanceId" type="int" value="100976"/>
       </properties>

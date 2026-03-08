@@ -4,165 +4,165 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_watertiles.tsx"/>
-  <tileset firstgid="81" source="tilesets/bg_watertiles_2.tsx"/>
-  <tileset firstgid="213" source="tilesets/bg_watertiles_supplement.tsx"/>
-  <tileset firstgid="228" source="tilesets/obj_glowshroom.tsx"/>
-  <tileset firstgid="229" source="tilesets/obj_waterboard.tsx"/>
-  <tileset firstgid="230" source="tilesets/obj_bellblossom.tsx"/>
-  <tileset firstgid="231" source="tilesets/obj_solidlongleft.tsx"/>
-  <tileset firstgid="232" source="tilesets/obj_solidtall_2.tsx"/>
-  <tileset firstgid="233" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="234" source="tilesets/obj_doorB.tsx"/>
-  <tileset firstgid="235" source="tilesets/obj_markerA.tsx"/>
-  <tileset firstgid="236" source="tilesets/obj_waterspot.tsx"/>
-  <tileset firstgid="237" source="tilesets/obj_waterstop.tsx"/>
-  <tileset firstgid="238" source="tilesets/obj_readable_room3.tsx"/>
-  <tileset firstgid="239" source="tilesets/obj_solidsmall.tsx"/>
-  <tileset firstgid="240" source="tilesets/obj_sign_room.tsx"/>
-  <tileset firstgid="241" source="tilesets/obj_doorA.tsx"/>
-  <tileset firstgid="242" source="tilesets/obj_markerB.tsx"/>
-  <tileset firstgid="243" source="tilesets/obj_solidthin.tsx"/>
-  <tileset firstgid="244" source="tilesets/obj_doorC.tsx"/>
-  <tileset firstgid="245" source="tilesets/obj_markerD.tsx"/>
-  <tileset firstgid="246" source="tilesets/obj_phonecall_room.tsx"/>
-  <tileset firstgid="247" source="tilesets/obj_solidlong.tsx"/>
-  <tileset firstgid="248" source="tilesets/obj_solidwide.tsx"/>
-  <tileset firstgid="249" source="tilesets/obj_overworldcontroller.tsx"/>
-  <tileset firstgid="250" source="tilesets/obj_waterfall_waterfall.tsx"/>
-  <tileset firstgid="251" source="tilesets/obj_dockanim.tsx"/>
+  <tileset firstgid="225" source="tilesets/bg_watertiles_2.tsx"/>
+  <tileset firstgid="585" source="tilesets/bg_watertiles_supplement.tsx"/>
+  <tileset firstgid="639" source="tilesets/obj_glowshroom.tsx"/>
+  <tileset firstgid="640" source="tilesets/obj_waterboard.tsx"/>
+  <tileset firstgid="641" source="tilesets/obj_bellblossom.tsx"/>
+  <tileset firstgid="642" source="tilesets/obj_solidlongleft.tsx"/>
+  <tileset firstgid="643" source="tilesets/obj_solidtall_2.tsx"/>
+  <tileset firstgid="644" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="645" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="646" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="647" source="tilesets/obj_waterspot.tsx"/>
+  <tileset firstgid="648" source="tilesets/obj_waterstop.tsx"/>
+  <tileset firstgid="649" source="tilesets/obj_readable_room3.tsx"/>
+  <tileset firstgid="650" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="651" source="tilesets/obj_sign_room.tsx"/>
+  <tileset firstgid="652" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="653" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="654" source="tilesets/obj_solidthin.tsx"/>
+  <tileset firstgid="655" source="tilesets/obj_doorC.tsx"/>
+  <tileset firstgid="656" source="tilesets/obj_markerD.tsx"/>
+  <tileset firstgid="657" source="tilesets/obj_phonecall_room.tsx"/>
+  <tileset firstgid="658" source="tilesets/obj_solidlong.tsx"/>
+  <tileset firstgid="659" source="tilesets/obj_solidwide.tsx"/>
+  <tileset firstgid="660" source="tilesets/obj_overworldcontroller.tsx"/>
+  <tileset firstgid="661" source="tilesets/obj_waterfall_waterfall.tsx"/>
+  <tileset firstgid="662" source="tilesets/obj_dockanim.tsx"/>
   <layer id="1" name="depth_1000000" width="25" height="25">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,81,82,187,187,187,81,0,0,0,0,0,0,0,0,0,0,0,0,93,92,92,92,92,92,92,92,93,175,175,175,92,92,92,92,92,92,92,92,92,94,0,0,0,82,92,92,92,92,92,92,92,93,175,175,175,92,92,92,92,92,92,92,92,92,81,0,0,0,82,92,92,0,0,92,92,92,93,175,175,175,92,92,92,92,92,92,92,92,92,81,0,0,0,82,103,103,0,0,103,103,103,104,175,175,175,103,103,103,103,103,103,103,103,103,81,0,0,0,82,126,126,126,126,126,126,126,126,150,150,151,126,126,126,126,126,126,126,126,126,81,0,0,0,82,126,126,126,126,126,126,126,150,150,151,126,126,126,126,126,126,126,126,126,126,81,0,0,0,82,126,126,126,126,126,126,126,126,150,150,140,126,126,126,126,126,126,126,126,126,81,0,0,0,82,126,126,126,126,126,126,126,126,126,150,151,126,126,126,126,126,126,126,126,126,81,0,0,0,104,81,81,81,81,81,81,126,126,139,150,151,126,126,126,126,126,126,126,126,126,81,0,0,0,0,0,0,0,0,0,0,82,126,150,150,151,126,126,126,126,126,126,126,126,126,81,0,92,92,92,92,92,92,92,92,92,93,139,151,126,126,126,126,126,126,126,126,126,126,126,81,0,92,92,92,92,92,92,92,92,92,93,150,150,139,140,126,126,126,126,126,126,126,126,126,81,0,92,92,92,92,92,92,92,92,92,93,150,150,150,151,126,126,126,126,126,126,126,126,126,81,0,92,92,92,92,92,92,92,92,92,93,150,150,150,151,126,126,126,126,126,126,126,137,126,81,0,92,92,0,92,92,92,0,92,92,93,150,150,150,151,126,126,126,126,126,126,126,126,126,81,0,103,103,103,103,103,103,103,103,103,214,150,150,150,151,126,126,126,126,126,126,126,126,126,0,0,126,126,126,126,126,126,126,139,126,87,150,150,150,151,126,126,126,126,126,126,126,126,126,92,92,126,126,126,126,139,126,126,126,126,126,163,163,163,163,126,126,126,126,126,126,126,126,126,92,92,98,98,98,98,98,98,98,98,98,98,150,150,150,151,126,126,126,126,126,126,126,126,126,126,103,0,0,0,0,0,0,81,81,81,93,150,150,150,151,126,139,139,139,139,139,139,139,139,139,139,0,0,81,81,81,81,105,0,0,82,150,127,150,151,126,150,150,150,150,150,150,150,150,150,150,0,0,81,0,0,0,0,0,0,82,150,150,150,151,137,150,150,150,150,150,150,150,150,150,150,0,0,81,0,0,0,0,0,0,104,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,81,105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,244,245,507,507,507,243,0,0,0,0,0,0,0,0,0,0,0,0,282,262,262,262,262,262,262,262,263,469,469,469,261,262,262,262,262,262,262,262,262,283,0,0,0,245,280,280,280,280,280,280,280,281,469,469,469,279,280,280,280,280,280,280,280,280,243,0,0,0,245,280,280,0,0,280,280,280,281,469,469,469,279,280,280,280,280,280,280,280,280,243,0,0,0,245,298,298,0,0,298,298,298,299,469,469,469,297,298,298,298,298,298,298,298,298,243,0,0,0,245,353,353,353,353,353,353,353,353,410,411,430,353,353,353,353,353,353,353,353,353,243,0,0,0,245,353,353,353,353,353,353,353,411,411,412,353,353,353,353,353,353,353,353,353,353,243,0,0,0,245,353,353,353,353,353,353,353,353,428,411,394,353,353,353,353,353,353,353,353,353,243,0,0,0,245,353,353,353,353,353,353,353,353,353,410,412,353,353,353,353,353,353,353,353,353,243,0,0,0,300,226,226,226,226,226,226,353,353,392,411,412,353,353,353,353,353,353,353,353,353,243,0,0,0,0,0,0,0,0,0,0,245,353,410,429,430,353,353,353,353,353,353,353,353,353,243,0,262,262,262,262,262,262,262,262,262,263,393,412,353,353,353,353,353,353,353,353,353,353,353,243,0,280,280,280,280,280,280,280,280,280,281,411,411,393,394,353,353,353,353,353,353,353,353,353,243,0,280,280,280,280,280,280,280,280,280,281,411,411,411,412,353,353,353,353,353,353,353,353,353,243,0,280,280,280,280,280,280,280,280,280,281,411,411,411,412,353,353,353,353,353,353,353,371,353,243,0,280,280,0,280,280,280,0,280,280,281,411,411,411,412,353,353,353,353,353,353,353,353,353,243,0,298,298,298,298,298,298,298,298,298,596,411,411,411,412,353,353,353,353,353,353,353,353,353,0,0,353,353,353,353,353,353,353,374,353,254,411,411,411,412,353,353,353,353,353,353,353,353,353,279,280,353,353,353,353,374,353,353,353,353,353,450,450,450,450,353,353,353,353,353,353,353,353,353,279,280,271,271,271,271,271,271,271,271,271,272,411,411,411,412,353,353,353,353,353,353,353,353,353,353,298,0,0,0,0,0,0,225,226,226,281,411,411,411,412,353,392,393,393,393,393,393,393,393,393,393,0,0,225,226,226,226,301,0,0,245,411,355,411,412,353,410,411,411,411,411,411,411,411,411,411,0,0,243,0,0,0,0,0,0,245,411,411,411,412,371,410,411,411,411,411,411,411,411,411,411,0,0,243,0,0,0,0,0,0,300,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,226,301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="depth_1000000_tiles">
-    <object id="1" gid="92" x="-20" y="220" width="20" height="20"/>
-    <object id="2" gid="92" x="-40" y="220" width="20" height="20"/>
-    <object id="3" gid="92" x="-20" y="240" width="20" height="20"/>
-    <object id="4" gid="92" x="-40" y="240" width="20" height="20"/>
-    <object id="5" gid="114" x="40" y="340" width="20" height="40"/>
-    <object id="6" gid="115" x="120" y="340" width="20" height="40"/>
-    <object id="7" gid="116" x="360" y="80" width="40" height="20"/>
-    <object id="8" gid="106" x="100" y="100" width="40" height="20"/>
-    <object id="9" gid="95" x="100" y="100" width="40" height="40"/>
-    <object id="10" gid="92" x="120" y="440" width="20" height="40"/>
-    <object id="11" gid="92" x="100" y="440" width="20" height="40"/>
-    <object id="12" gid="92" x="80" y="440" width="20" height="40"/>
-    <object id="13" gid="92" x="60" y="440" width="20" height="40"/>
-    <object id="14" gid="92" x="40" y="440" width="20" height="40"/>
-    <object id="15" gid="92" x="20" y="440" width="20" height="40"/>
-    <object id="16" gid="92" x="0" y="440" width="20" height="40"/>
-    <object id="17" gid="92" x="-20" y="440" width="20" height="40"/>
-    <object id="18" gid="92" x="460" y="340" width="40" height="20"/>
+    <object id="1" gid="262" x="-20" y="220" width="20" height="20"/>
+    <object id="2" gid="262" x="-40" y="220" width="20" height="20"/>
+    <object id="3" gid="262" x="-20" y="240" width="20" height="20"/>
+    <object id="4" gid="262" x="-40" y="240" width="20" height="20"/>
+    <object id="5" gid="316" x="40" y="340" width="20" height="40"/>
+    <object id="6" gid="317" x="120" y="340" width="20" height="40"/>
+    <object id="7" gid="337" x="360" y="80" width="40" height="20"/>
+    <object id="8" gid="302" x="100" y="100" width="40" height="20"/>
+    <object id="9" gid="284" x="100" y="100" width="40" height="40"/>
+    <object id="10" gid="280" x="120" y="440" width="20" height="40"/>
+    <object id="11" gid="280" x="100" y="440" width="20" height="40"/>
+    <object id="12" gid="280" x="80" y="440" width="20" height="40"/>
+    <object id="13" gid="280" x="60" y="440" width="20" height="40"/>
+    <object id="14" gid="280" x="40" y="440" width="20" height="40"/>
+    <object id="15" gid="280" x="20" y="440" width="20" height="40"/>
+    <object id="16" gid="280" x="0" y="440" width="20" height="40"/>
+    <object id="17" gid="280" x="-20" y="440" width="20" height="40"/>
+    <object id="18" gid="261" x="460" y="340" width="40" height="20"/>
   </objectgroup>
   <layer id="3" name="depth_950000" width="25" height="25">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,219,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,218,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,219,0,0,0,0,0,0,0,0,0,0,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,219,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,614,624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,623,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,593,0,0,624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,623,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,608,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,597,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,606,0,0,0,0,0,0,0,0,0,0,593,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,615,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="19" gid="228" type="obj_glowshroom" x="420" y="320" width="18" height="20">
+    <object id="19" gid="639" type="obj_glowshroom" x="420" y="320" width="18" height="20">
       <properties>
         <property name="instanceId" type="int" value="104094"/>
       </properties>
     </object>
-    <object id="20" gid="228" type="obj_glowshroom" x="320" y="160" width="18" height="20">
+    <object id="20" gid="639" type="obj_glowshroom" x="320" y="160" width="18" height="20">
       <properties>
         <property name="instanceId" type="int" value="104095"/>
       </properties>
     </object>
-    <object id="21" gid="228" type="obj_glowshroom" x="320" y="340" width="18" height="20">
+    <object id="21" gid="639" type="obj_glowshroom" x="320" y="340" width="18" height="20">
       <properties>
         <property name="instanceId" type="int" value="104096"/>
       </properties>
     </object>
-    <object id="22" gid="228" type="obj_glowshroom" x="420" y="200" width="18" height="20">
+    <object id="22" gid="639" type="obj_glowshroom" x="420" y="200" width="18" height="20">
       <properties>
         <property name="instanceId" type="int" value="104097"/>
       </properties>
     </object>
-    <object id="23" gid="229" type="obj_waterboard" x="340" y="219" width="20" height="19">
+    <object id="23" gid="640" type="obj_waterboard" x="340" y="219" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="104098"/>
       </properties>
     </object>
-    <object id="24" gid="229" type="obj_waterboard" x="380" y="219" width="20" height="19">
+    <object id="24" gid="640" type="obj_waterboard" x="380" y="219" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="104099"/>
       </properties>
     </object>
-    <object id="25" gid="229" type="obj_waterboard" x="380" y="259" width="20" height="19">
+    <object id="25" gid="640" type="obj_waterboard" x="380" y="259" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="104100"/>
       </properties>
     </object>
-    <object id="26" gid="229" type="obj_waterboard" x="340" y="259" width="20" height="19">
+    <object id="26" gid="640" type="obj_waterboard" x="340" y="259" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="104101"/>
       </properties>
     </object>
-    <object id="27" gid="230" type="obj_bellblossom" x="420" y="79" width="15" height="19">
+    <object id="27" gid="641" type="obj_bellblossom" x="420" y="79" width="15" height="19">
       <properties>
         <property name="instanceId" type="int" value="104102"/>
       </properties>
     </object>
-    <object id="28" gid="231" type="obj_solidlongleft" x="200" y="340" width="20" height="20">
+    <object id="28" gid="642" type="obj_solidlongleft" x="200" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104103"/>
       </properties>
     </object>
-    <object id="29" gid="232" type="obj_solidtall_2" x="460" y="380" width="20" height="40">
+    <object id="29" gid="643" type="obj_solidtall_2" x="460" y="380" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104104"/>
       </properties>
     </object>
-    <object id="30" gid="232" type="obj_solidtall_2" x="460" y="340" width="20" height="40">
+    <object id="30" gid="643" type="obj_solidtall_2" x="460" y="340" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104105"/>
       </properties>
     </object>
-    <object id="31" gid="232" type="obj_solidtall_2" x="460" y="300" width="20" height="40">
+    <object id="31" gid="643" type="obj_solidtall_2" x="460" y="300" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104106"/>
       </properties>
     </object>
-    <object id="32" gid="232" type="obj_solidtall_2" x="460" y="260" width="20" height="40">
+    <object id="32" gid="643" type="obj_solidtall_2" x="460" y="260" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104107"/>
       </properties>
     </object>
-    <object id="33" gid="232" type="obj_solidtall_2" x="460" y="220" width="20" height="40">
+    <object id="33" gid="643" type="obj_solidtall_2" x="460" y="220" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104108"/>
       </properties>
     </object>
-    <object id="34" gid="232" type="obj_solidtall_2" x="460" y="180" width="20" height="40">
+    <object id="34" gid="643" type="obj_solidtall_2" x="460" y="180" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104109"/>
       </properties>
     </object>
-    <object id="35" gid="232" type="obj_solidtall_2" x="460" y="140" width="20" height="40">
+    <object id="35" gid="643" type="obj_solidtall_2" x="460" y="140" width="20" height="40">
       <properties>
         <property name="instanceId" type="int" value="104110"/>
       </properties>
     </object>
-    <object id="36" gid="233" type="obj_mainchara" x="360" y="309" width="19" height="29">
+    <object id="36" gid="644" type="obj_mainchara" x="360" y="309" width="19" height="29">
       <properties>
         <property name="instanceId" type="int" value="104111"/>
       </properties>
     </object>
-    <object id="37" gid="234" type="obj_doorB" x="0" y="360" width="20" height="20">
+    <object id="37" gid="645" type="obj_doorB" x="0" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104112"/>
       </properties>
     </object>
-    <object id="38" gid="234" type="obj_doorB" x="0" y="380" width="20" height="20">
+    <object id="38" gid="645" type="obj_doorB" x="0" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104113"/>
       </properties>
     </object>
-    <object id="39" gid="234" type="obj_doorB" x="0" y="400" width="20" height="20">
+    <object id="39" gid="645" type="obj_doorB" x="0" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104114"/>
       </properties>
     </object>
-    <object id="40" gid="235" type="obj_markerA" x="20" y="360" width="20" height="20">
+    <object id="40" gid="646" type="obj_markerA" x="20" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104115"/>
       </properties>
@@ -172,1332 +172,1332 @@
         <property name="instanceId" type="int" value="104116"/>
       </properties>
     </object>
-    <object id="42" gid="236" type="obj_waterspot" x="200" y="360" width="20" height="20">
+    <object id="42" gid="647" type="obj_waterspot" x="200" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104117"/>
       </properties>
     </object>
-    <object id="43" gid="236" type="obj_waterspot" x="220" y="360" width="20" height="20">
+    <object id="43" gid="647" type="obj_waterspot" x="220" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104118"/>
       </properties>
     </object>
-    <object id="44" gid="236" type="obj_waterspot" x="260" y="360" width="20" height="20">
+    <object id="44" gid="647" type="obj_waterspot" x="260" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104119"/>
       </properties>
     </object>
-    <object id="45" gid="236" type="obj_waterspot" x="260" y="340" width="20" height="20">
+    <object id="45" gid="647" type="obj_waterspot" x="260" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104120"/>
       </properties>
     </object>
-    <object id="46" gid="236" type="obj_waterspot" x="260" y="300" width="20" height="20">
+    <object id="46" gid="647" type="obj_waterspot" x="260" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104121"/>
       </properties>
     </object>
-    <object id="47" gid="236" type="obj_waterspot" x="240" y="360" width="20" height="20">
+    <object id="47" gid="647" type="obj_waterspot" x="240" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104122"/>
       </properties>
     </object>
-    <object id="48" gid="237" type="obj_waterstop" x="240" y="240" width="20" height="20">
+    <object id="48" gid="648" type="obj_waterstop" x="240" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104123"/>
       </properties>
     </object>
-    <object id="49" gid="236" type="obj_waterspot" x="260" y="280" width="20" height="20">
+    <object id="49" gid="647" type="obj_waterspot" x="260" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104124"/>
       </properties>
     </object>
-    <object id="50" gid="236" type="obj_waterspot" x="260" y="260" width="20" height="20">
+    <object id="50" gid="647" type="obj_waterspot" x="260" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104125"/>
       </properties>
     </object>
-    <object id="51" gid="236" type="obj_waterspot" x="260" y="220" width="20" height="20">
+    <object id="51" gid="647" type="obj_waterspot" x="260" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104126"/>
       </properties>
     </object>
-    <object id="52" gid="236" type="obj_waterspot" x="260" y="200" width="20" height="20">
+    <object id="52" gid="647" type="obj_waterspot" x="260" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104127"/>
       </properties>
     </object>
-    <object id="53" gid="236" type="obj_waterspot" x="260" y="180" width="20" height="20">
+    <object id="53" gid="647" type="obj_waterspot" x="260" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104128"/>
       </properties>
     </object>
-    <object id="54" gid="236" type="obj_waterspot" x="260" y="160" width="20" height="20">
+    <object id="54" gid="647" type="obj_waterspot" x="260" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104129"/>
       </properties>
     </object>
-    <object id="55" gid="236" type="obj_waterspot" x="260" y="120" width="20" height="20">
+    <object id="55" gid="647" type="obj_waterspot" x="260" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104130"/>
       </properties>
     </object>
-    <object id="56" gid="237" type="obj_waterstop" x="200" y="100" width="20" height="20">
+    <object id="56" gid="648" type="obj_waterstop" x="200" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104131"/>
       </properties>
     </object>
-    <object id="57" gid="237" type="obj_waterstop" x="220" y="100" width="20" height="20">
+    <object id="57" gid="648" type="obj_waterstop" x="220" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104132"/>
       </properties>
     </object>
-    <object id="58" gid="237" type="obj_waterstop" x="240" y="100" width="20" height="20">
+    <object id="58" gid="648" type="obj_waterstop" x="240" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104133"/>
       </properties>
     </object>
-    <object id="59" gid="237" type="obj_waterstop" x="260" y="100" width="20" height="20">
+    <object id="59" gid="648" type="obj_waterstop" x="260" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104134"/>
       </properties>
     </object>
-    <object id="60" gid="238" type="obj_readable_room3" x="360" y="100" width="20" height="20">
+    <object id="60" gid="649" type="obj_readable_room3" x="360" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104135"/>
       </properties>
     </object>
-    <object id="61" gid="238" type="obj_readable_room3" x="380" y="100" width="20" height="20">
+    <object id="61" gid="649" type="obj_readable_room3" x="380" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104136"/>
       </properties>
     </object>
-    <object id="62" gid="239" type="obj_solidsmall" x="260" y="220" width="20" height="20">
+    <object id="62" gid="650" type="obj_solidsmall" x="260" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104137"/>
       </properties>
     </object>
-    <object id="63" gid="239" type="obj_solidsmall" x="260" y="260" width="20" height="20">
+    <object id="63" gid="650" type="obj_solidsmall" x="260" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104138"/>
       </properties>
     </object>
-    <object id="64" gid="239" type="obj_solidsmall" x="220" y="100" width="20" height="20">
+    <object id="64" gid="650" type="obj_solidsmall" x="220" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104139"/>
       </properties>
     </object>
-    <object id="65" gid="239" type="obj_solidsmall" x="240" y="100" width="20" height="20">
+    <object id="65" gid="650" type="obj_solidsmall" x="240" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104140"/>
       </properties>
     </object>
-    <object id="66" gid="239" type="obj_solidsmall" x="260" y="100" width="20" height="20">
+    <object id="66" gid="650" type="obj_solidsmall" x="260" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104141"/>
       </properties>
     </object>
-    <object id="67" gid="239" type="obj_solidsmall" x="200" y="100" width="20" height="20">
+    <object id="67" gid="650" type="obj_solidsmall" x="200" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104142"/>
       </properties>
     </object>
-    <object id="68" gid="239" type="obj_solidsmall" x="240" y="120" width="20" height="20">
+    <object id="68" gid="650" type="obj_solidsmall" x="240" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104143"/>
       </properties>
     </object>
-    <object id="69" gid="239" type="obj_solidsmall" x="240" y="140" width="20" height="20">
+    <object id="69" gid="650" type="obj_solidsmall" x="240" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104144"/>
       </properties>
     </object>
-    <object id="70" gid="239" type="obj_solidsmall" x="200" y="140" width="20" height="20">
+    <object id="70" gid="650" type="obj_solidsmall" x="200" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104145"/>
       </properties>
     </object>
-    <object id="71" gid="239" type="obj_solidsmall" x="260" y="340" width="20" height="20">
+    <object id="71" gid="650" type="obj_solidsmall" x="260" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104146"/>
       </properties>
     </object>
-    <object id="72" gid="239" type="obj_solidsmall" x="240" y="340" width="20" height="20">
+    <object id="72" gid="650" type="obj_solidsmall" x="240" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104147"/>
       </properties>
     </object>
-    <object id="73" gid="239" type="obj_solidsmall" x="240" y="300" width="20" height="20">
+    <object id="73" gid="650" type="obj_solidsmall" x="240" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104148"/>
       </properties>
     </object>
-    <object id="74" gid="239" type="obj_solidsmall" x="260" y="300" width="20" height="20">
+    <object id="74" gid="650" type="obj_solidsmall" x="260" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104149"/>
       </properties>
     </object>
-    <object id="75" gid="239" type="obj_solidsmall" x="260" y="280" width="20" height="20">
+    <object id="75" gid="650" type="obj_solidsmall" x="260" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104150"/>
       </properties>
     </object>
-    <object id="76" gid="239" type="obj_solidsmall" x="260" y="200" width="20" height="20">
+    <object id="76" gid="650" type="obj_solidsmall" x="260" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104151"/>
       </properties>
     </object>
-    <object id="77" gid="239" type="obj_solidsmall" x="240" y="160" width="20" height="20">
+    <object id="77" gid="650" type="obj_solidsmall" x="240" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104152"/>
       </properties>
     </object>
-    <object id="78" gid="239" type="obj_solidsmall" x="240" y="180" width="20" height="20">
+    <object id="78" gid="650" type="obj_solidsmall" x="240" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104153"/>
       </properties>
     </object>
-    <object id="79" gid="239" type="obj_solidsmall" x="260" y="320" width="20" height="20">
+    <object id="79" gid="650" type="obj_solidsmall" x="260" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104154"/>
       </properties>
     </object>
-    <object id="80" gid="236" type="obj_waterspot" x="260" y="320" width="20" height="20">
+    <object id="80" gid="647" type="obj_waterspot" x="260" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104155"/>
       </properties>
     </object>
-    <object id="81" gid="240" type="obj_sign_room" x="220" y="430" width="20" height="20">
+    <object id="81" gid="651" type="obj_sign_room" x="220" y="430" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104156"/>
       </properties>
     </object>
-    <object id="82" gid="239" type="obj_solidsmall" x="220" y="320" width="20" height="20">
+    <object id="82" gid="650" type="obj_solidsmall" x="220" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104157"/>
       </properties>
     </object>
-    <object id="83" gid="236" type="obj_waterspot" x="320" y="420" width="20" height="20">
+    <object id="83" gid="647" type="obj_waterspot" x="320" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104158"/>
       </properties>
     </object>
-    <object id="84" gid="236" type="obj_waterspot" x="340" y="420" width="20" height="20">
+    <object id="84" gid="647" type="obj_waterspot" x="340" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104159"/>
       </properties>
     </object>
-    <object id="85" gid="236" type="obj_waterspot" x="360" y="420" width="20" height="20">
+    <object id="85" gid="647" type="obj_waterspot" x="360" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104160"/>
       </properties>
     </object>
-    <object id="86" gid="236" type="obj_waterspot" x="380" y="420" width="20" height="20">
+    <object id="86" gid="647" type="obj_waterspot" x="380" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104161"/>
       </properties>
     </object>
-    <object id="87" gid="236" type="obj_waterspot" x="400" y="420" width="20" height="20">
+    <object id="87" gid="647" type="obj_waterspot" x="400" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104162"/>
       </properties>
     </object>
-    <object id="88" gid="236" type="obj_waterspot" x="420" y="420" width="20" height="20">
+    <object id="88" gid="647" type="obj_waterspot" x="420" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104163"/>
       </properties>
     </object>
-    <object id="89" gid="236" type="obj_waterspot" x="440" y="420" width="20" height="20">
+    <object id="89" gid="647" type="obj_waterspot" x="440" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104164"/>
       </properties>
     </object>
-    <object id="90" gid="236" type="obj_waterspot" x="460" y="420" width="20" height="20">
+    <object id="90" gid="647" type="obj_waterspot" x="460" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104165"/>
       </properties>
     </object>
-    <object id="91" gid="236" type="obj_waterspot" x="480" y="420" width="20" height="20">
+    <object id="91" gid="647" type="obj_waterspot" x="480" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104166"/>
       </properties>
     </object>
-    <object id="92" gid="237" type="obj_waterstop" x="500" y="420" width="20" height="20">
+    <object id="92" gid="648" type="obj_waterstop" x="500" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104167"/>
       </properties>
     </object>
-    <object id="93" gid="239" type="obj_solidsmall" x="320" y="420" width="20" height="20">
+    <object id="93" gid="650" type="obj_solidsmall" x="320" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104168"/>
       </properties>
     </object>
-    <object id="94" gid="239" type="obj_solidsmall" x="340" y="420" width="20" height="20">
+    <object id="94" gid="650" type="obj_solidsmall" x="340" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104169"/>
       </properties>
     </object>
-    <object id="95" gid="239" type="obj_solidsmall" x="360" y="420" width="20" height="20">
+    <object id="95" gid="650" type="obj_solidsmall" x="360" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104170"/>
       </properties>
     </object>
-    <object id="96" gid="239" type="obj_solidsmall" x="380" y="420" width="20" height="20">
+    <object id="96" gid="650" type="obj_solidsmall" x="380" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104171"/>
       </properties>
     </object>
-    <object id="97" gid="239" type="obj_solidsmall" x="400" y="420" width="20" height="20">
+    <object id="97" gid="650" type="obj_solidsmall" x="400" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104172"/>
       </properties>
     </object>
-    <object id="98" gid="239" type="obj_solidsmall" x="420" y="420" width="20" height="20">
+    <object id="98" gid="650" type="obj_solidsmall" x="420" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104173"/>
       </properties>
     </object>
-    <object id="99" gid="239" type="obj_solidsmall" x="440" y="420" width="20" height="20">
+    <object id="99" gid="650" type="obj_solidsmall" x="440" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104174"/>
       </properties>
     </object>
-    <object id="100" gid="239" type="obj_solidsmall" x="460" y="420" width="20" height="20">
+    <object id="100" gid="650" type="obj_solidsmall" x="460" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104175"/>
       </properties>
     </object>
-    <object id="101" gid="239" type="obj_solidsmall" x="480" y="420" width="20" height="20">
+    <object id="101" gid="650" type="obj_solidsmall" x="480" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104176"/>
       </properties>
     </object>
-    <object id="102" gid="239" type="obj_solidsmall" x="80" y="100" width="20" height="20">
+    <object id="102" gid="650" type="obj_solidsmall" x="80" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104177"/>
       </properties>
     </object>
-    <object id="103" gid="239" type="obj_solidsmall" x="60" y="100" width="20" height="20">
+    <object id="103" gid="650" type="obj_solidsmall" x="60" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104178"/>
       </properties>
     </object>
-    <object id="104" gid="239" type="obj_solidsmall" x="40" y="100" width="20" height="20">
+    <object id="104" gid="650" type="obj_solidsmall" x="40" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104179"/>
       </properties>
     </object>
-    <object id="105" gid="239" type="obj_solidsmall" x="40" y="120" width="20" height="20">
+    <object id="105" gid="650" type="obj_solidsmall" x="40" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104180"/>
       </properties>
     </object>
-    <object id="106" gid="239" type="obj_solidsmall" x="40" y="140" width="20" height="20">
+    <object id="106" gid="650" type="obj_solidsmall" x="40" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104181"/>
       </properties>
     </object>
-    <object id="107" gid="239" type="obj_solidsmall" x="40" y="160" width="20" height="20">
+    <object id="107" gid="650" type="obj_solidsmall" x="40" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104182"/>
       </properties>
     </object>
-    <object id="108" gid="239" type="obj_solidsmall" x="40" y="180" width="20" height="20">
+    <object id="108" gid="650" type="obj_solidsmall" x="40" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104183"/>
       </properties>
     </object>
-    <object id="109" gid="239" type="obj_solidsmall" x="40" y="200" width="20" height="20">
+    <object id="109" gid="650" type="obj_solidsmall" x="40" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104184"/>
       </properties>
     </object>
-    <object id="110" gid="239" type="obj_solidsmall" x="60" y="200" width="20" height="20">
+    <object id="110" gid="650" type="obj_solidsmall" x="60" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104185"/>
       </properties>
     </object>
-    <object id="111" gid="239" type="obj_solidsmall" x="80" y="200" width="20" height="20">
+    <object id="111" gid="650" type="obj_solidsmall" x="80" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104186"/>
       </properties>
     </object>
-    <object id="112" gid="239" type="obj_solidsmall" x="100" y="200" width="20" height="20">
+    <object id="112" gid="650" type="obj_solidsmall" x="100" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104187"/>
       </properties>
     </object>
-    <object id="113" gid="239" type="obj_solidsmall" x="120" y="200" width="20" height="20">
+    <object id="113" gid="650" type="obj_solidsmall" x="120" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104188"/>
       </properties>
     </object>
-    <object id="114" gid="239" type="obj_solidsmall" x="140" y="200" width="20" height="20">
+    <object id="114" gid="650" type="obj_solidsmall" x="140" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104189"/>
       </properties>
     </object>
-    <object id="115" gid="239" type="obj_solidsmall" x="160" y="200" width="20" height="20">
+    <object id="115" gid="650" type="obj_solidsmall" x="160" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104190"/>
       </properties>
     </object>
-    <object id="116" gid="239" type="obj_solidsmall" x="180" y="200" width="20" height="20">
+    <object id="116" gid="650" type="obj_solidsmall" x="180" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104191"/>
       </properties>
     </object>
-    <object id="117" gid="241" type="obj_doorA" x="480" y="420" width="20" height="20">
+    <object id="117" gid="652" type="obj_doorA" x="480" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104192"/>
       </properties>
     </object>
-    <object id="118" gid="241" type="obj_doorA" x="480" y="440" width="20" height="20">
+    <object id="118" gid="652" type="obj_doorA" x="480" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104193"/>
       </properties>
     </object>
-    <object id="119" gid="241" type="obj_doorA" x="480" y="460" width="20" height="20">
+    <object id="119" gid="652" type="obj_doorA" x="480" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104194"/>
       </properties>
     </object>
-    <object id="120" gid="242" type="obj_markerB" x="460" y="410" width="20" height="20">
+    <object id="120" gid="653" type="obj_markerB" x="460" y="410" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104195"/>
       </properties>
     </object>
-    <object id="121" gid="239" type="obj_solidsmall" x="200" y="340" width="20" height="20">
+    <object id="121" gid="650" type="obj_solidsmall" x="200" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104196"/>
       </properties>
     </object>
-    <object id="122" gid="239" type="obj_solidsmall" x="200" y="320" width="20" height="20">
+    <object id="122" gid="650" type="obj_solidsmall" x="200" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104197"/>
       </properties>
     </object>
-    <object id="123" gid="239" type="obj_solidsmall" x="200" y="300" width="20" height="20">
+    <object id="123" gid="650" type="obj_solidsmall" x="200" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104198"/>
       </properties>
     </object>
-    <object id="124" gid="239" type="obj_solidsmall" x="480" y="440" width="20" height="20">
+    <object id="124" gid="650" type="obj_solidsmall" x="480" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104199"/>
       </properties>
     </object>
-    <object id="125" gid="239" type="obj_solidsmall" x="460" y="440" width="20" height="20">
+    <object id="125" gid="650" type="obj_solidsmall" x="460" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104200"/>
       </properties>
     </object>
-    <object id="126" gid="239" type="obj_solidsmall" x="440" y="440" width="20" height="20">
+    <object id="126" gid="650" type="obj_solidsmall" x="440" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104201"/>
       </properties>
     </object>
-    <object id="127" gid="239" type="obj_solidsmall" x="420" y="440" width="20" height="20">
+    <object id="127" gid="650" type="obj_solidsmall" x="420" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104202"/>
       </properties>
     </object>
-    <object id="128" gid="239" type="obj_solidsmall" x="400" y="440" width="20" height="20">
+    <object id="128" gid="650" type="obj_solidsmall" x="400" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104203"/>
       </properties>
     </object>
-    <object id="129" gid="239" type="obj_solidsmall" x="380" y="440" width="20" height="20">
+    <object id="129" gid="650" type="obj_solidsmall" x="380" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104204"/>
       </properties>
     </object>
-    <object id="130" gid="239" type="obj_solidsmall" x="360" y="440" width="20" height="20">
+    <object id="130" gid="650" type="obj_solidsmall" x="360" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104205"/>
       </properties>
     </object>
-    <object id="131" gid="239" type="obj_solidsmall" x="360" y="460" width="20" height="20">
+    <object id="131" gid="650" type="obj_solidsmall" x="360" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104206"/>
       </properties>
     </object>
-    <object id="132" gid="239" type="obj_solidsmall" x="380" y="460" width="20" height="20">
+    <object id="132" gid="650" type="obj_solidsmall" x="380" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104207"/>
       </properties>
     </object>
-    <object id="133" gid="239" type="obj_solidsmall" x="400" y="460" width="20" height="20">
+    <object id="133" gid="650" type="obj_solidsmall" x="400" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104208"/>
       </properties>
     </object>
-    <object id="134" gid="239" type="obj_solidsmall" x="420" y="460" width="20" height="20">
+    <object id="134" gid="650" type="obj_solidsmall" x="420" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104209"/>
       </properties>
     </object>
-    <object id="135" gid="239" type="obj_solidsmall" x="440" y="460" width="20" height="20">
+    <object id="135" gid="650" type="obj_solidsmall" x="440" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104210"/>
       </properties>
     </object>
-    <object id="136" gid="239" type="obj_solidsmall" x="460" y="460" width="20" height="20">
+    <object id="136" gid="650" type="obj_solidsmall" x="460" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104211"/>
       </properties>
     </object>
-    <object id="137" gid="239" type="obj_solidsmall" x="480" y="460" width="20" height="20">
+    <object id="137" gid="650" type="obj_solidsmall" x="480" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104212"/>
       </properties>
     </object>
-    <object id="138" gid="236" type="obj_waterspot" x="420" y="440" width="20" height="20">
+    <object id="138" gid="647" type="obj_waterspot" x="420" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104213"/>
       </properties>
     </object>
-    <object id="139" gid="236" type="obj_waterspot" x="440" y="440" width="20" height="20">
+    <object id="139" gid="647" type="obj_waterspot" x="440" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104214"/>
       </properties>
     </object>
-    <object id="140" gid="236" type="obj_waterspot" x="460" y="440" width="20" height="20">
+    <object id="140" gid="647" type="obj_waterspot" x="460" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104215"/>
       </properties>
     </object>
-    <object id="141" gid="236" type="obj_waterspot" x="480" y="440" width="20" height="20">
+    <object id="141" gid="647" type="obj_waterspot" x="480" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104216"/>
       </properties>
     </object>
-    <object id="142" gid="236" type="obj_waterspot" x="200" y="140" width="20" height="20">
+    <object id="142" gid="647" type="obj_waterspot" x="200" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104217"/>
       </properties>
     </object>
-    <object id="143" gid="236" type="obj_waterspot" x="240" y="120" width="20" height="20">
+    <object id="143" gid="647" type="obj_waterspot" x="240" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104218"/>
       </properties>
     </object>
-    <object id="144" gid="236" type="obj_waterspot" x="240" y="140" width="20" height="20">
+    <object id="144" gid="647" type="obj_waterspot" x="240" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104219"/>
       </properties>
     </object>
-    <object id="145" gid="243" type="obj_solidthin" x="460" y="400" width="12" height="20">
+    <object id="145" gid="654" type="obj_solidthin" x="460" y="400" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104220"/>
       </properties>
     </object>
-    <object id="146" gid="243" type="obj_solidthin" x="480" y="400" width="12" height="20">
+    <object id="146" gid="654" type="obj_solidthin" x="480" y="400" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104221"/>
       </properties>
     </object>
-    <object id="147" gid="244" type="obj_doorC" x="100" y="90" width="20" height="20">
+    <object id="147" gid="655" type="obj_doorC" x="100" y="90" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104222"/>
       </properties>
     </object>
-    <object id="148" gid="244" type="obj_doorC" x="120" y="90" width="20" height="20">
+    <object id="148" gid="655" type="obj_doorC" x="120" y="90" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104223"/>
       </properties>
     </object>
-    <object id="149" gid="245" type="obj_markerD" x="110" y="110" width="20" height="20">
+    <object id="149" gid="656" type="obj_markerD" x="110" y="110" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104224"/>
       </properties>
     </object>
-    <object id="150" gid="246" type="obj_phonecall_room" x="140" y="120" width="20" height="20">
+    <object id="150" gid="657" type="obj_phonecall_room" x="140" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104225"/>
       </properties>
     </object>
-    <object id="151" gid="236" type="obj_waterspot" x="260" y="420" width="20" height="20">
+    <object id="151" gid="647" type="obj_waterspot" x="260" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104226"/>
       </properties>
     </object>
-    <object id="152" gid="239" type="obj_solidsmall" x="220" y="460" width="20" height="20">
+    <object id="152" gid="650" type="obj_solidsmall" x="220" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104227"/>
       </properties>
     </object>
-    <object id="153" gid="239" type="obj_solidsmall" x="220" y="420" width="20" height="20">
+    <object id="153" gid="650" type="obj_solidsmall" x="220" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104228"/>
       </properties>
     </object>
-    <object id="154" gid="239" type="obj_solidsmall" x="200" y="400" width="20" height="20">
+    <object id="154" gid="650" type="obj_solidsmall" x="200" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104229"/>
       </properties>
     </object>
-    <object id="155" gid="239" type="obj_solidsmall" x="240" y="400" width="20" height="20">
+    <object id="155" gid="650" type="obj_solidsmall" x="240" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104230"/>
       </properties>
     </object>
-    <object id="156" gid="239" type="obj_solidsmall" x="260" y="400" width="20" height="20">
+    <object id="156" gid="650" type="obj_solidsmall" x="260" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104231"/>
       </properties>
     </object>
-    <object id="157" gid="237" type="obj_waterstop" x="220" y="180" width="20" height="20">
+    <object id="157" gid="648" type="obj_waterstop" x="220" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104232"/>
       </properties>
     </object>
-    <object id="158" gid="237" type="obj_waterstop" x="200" y="160" width="20" height="20">
+    <object id="158" gid="648" type="obj_waterstop" x="200" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104233"/>
       </properties>
     </object>
-    <object id="159" gid="237" type="obj_waterstop" x="180" y="140" width="20" height="20">
+    <object id="159" gid="648" type="obj_waterstop" x="180" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104234"/>
       </properties>
     </object>
-    <object id="160" gid="237" type="obj_waterstop" x="280" y="180" width="20" height="20">
+    <object id="160" gid="648" type="obj_waterstop" x="280" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104235"/>
       </properties>
     </object>
-    <object id="161" gid="237" type="obj_waterstop" x="280" y="120" width="20" height="20">
+    <object id="161" gid="648" type="obj_waterstop" x="280" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104236"/>
       </properties>
     </object>
-    <object id="162" gid="237" type="obj_waterstop" x="260" y="140" width="20" height="20">
+    <object id="162" gid="648" type="obj_waterstop" x="260" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104237"/>
       </properties>
     </object>
-    <object id="163" gid="237" type="obj_waterstop" x="200" y="120" width="20" height="20">
+    <object id="163" gid="648" type="obj_waterstop" x="200" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104238"/>
       </properties>
     </object>
-    <object id="164" gid="237" type="obj_waterstop" x="260" y="240" width="20" height="20">
+    <object id="164" gid="648" type="obj_waterstop" x="260" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104239"/>
       </properties>
     </object>
-    <object id="165" gid="237" type="obj_waterstop" x="200" y="220" width="20" height="20">
+    <object id="165" gid="648" type="obj_waterstop" x="200" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104240"/>
       </properties>
     </object>
-    <object id="166" gid="237" type="obj_waterstop" x="180" y="240" width="20" height="20">
+    <object id="166" gid="648" type="obj_waterstop" x="180" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104241"/>
       </properties>
     </object>
-    <object id="167" gid="237" type="obj_waterstop" x="180" y="260" width="20" height="20">
+    <object id="167" gid="648" type="obj_waterstop" x="180" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104242"/>
       </properties>
     </object>
-    <object id="168" gid="237" type="obj_waterstop" x="180" y="280" width="20" height="20">
+    <object id="168" gid="648" type="obj_waterstop" x="180" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104243"/>
       </properties>
     </object>
-    <object id="169" gid="237" type="obj_waterstop" x="180" y="300" width="20" height="20">
+    <object id="169" gid="648" type="obj_waterstop" x="180" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104244"/>
       </properties>
     </object>
-    <object id="170" gid="237" type="obj_waterstop" x="180" y="320" width="20" height="20">
+    <object id="170" gid="648" type="obj_waterstop" x="180" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104245"/>
       </properties>
     </object>
-    <object id="171" gid="237" type="obj_waterstop" x="180" y="340" width="20" height="20">
+    <object id="171" gid="648" type="obj_waterstop" x="180" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104246"/>
       </properties>
     </object>
-    <object id="172" gid="237" type="obj_waterstop" x="180" y="360" width="20" height="20">
+    <object id="172" gid="648" type="obj_waterstop" x="180" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104247"/>
       </properties>
     </object>
-    <object id="173" gid="237" type="obj_waterstop" x="200" y="380" width="20" height="20">
+    <object id="173" gid="648" type="obj_waterstop" x="200" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104248"/>
       </properties>
     </object>
-    <object id="174" gid="237" type="obj_waterstop" x="220" y="380" width="20" height="20">
+    <object id="174" gid="648" type="obj_waterstop" x="220" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104249"/>
       </properties>
     </object>
-    <object id="175" gid="237" type="obj_waterstop" x="240" y="380" width="20" height="20">
+    <object id="175" gid="648" type="obj_waterstop" x="240" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104250"/>
       </properties>
     </object>
-    <object id="176" gid="237" type="obj_waterstop" x="260" y="380" width="20" height="20">
+    <object id="176" gid="648" type="obj_waterstop" x="260" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104251"/>
       </properties>
     </object>
-    <object id="177" gid="237" type="obj_waterstop" x="280" y="360" width="20" height="20">
+    <object id="177" gid="648" type="obj_waterstop" x="280" y="360" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104252"/>
       </properties>
     </object>
-    <object id="178" gid="237" type="obj_waterstop" x="180" y="400" width="20" height="20">
+    <object id="178" gid="648" type="obj_waterstop" x="180" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104253"/>
       </properties>
     </object>
-    <object id="179" gid="237" type="obj_waterstop" x="280" y="400" width="20" height="20">
+    <object id="179" gid="648" type="obj_waterstop" x="280" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104254"/>
       </properties>
     </object>
-    <object id="180" gid="237" type="obj_waterstop" x="180" y="420" width="20" height="20">
+    <object id="180" gid="648" type="obj_waterstop" x="180" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104255"/>
       </properties>
     </object>
-    <object id="181" gid="237" type="obj_waterstop" x="200" y="480" width="20" height="20">
+    <object id="181" gid="648" type="obj_waterstop" x="200" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104256"/>
       </properties>
     </object>
-    <object id="182" gid="237" type="obj_waterstop" x="240" y="480" width="20" height="20">
+    <object id="182" gid="648" type="obj_waterstop" x="240" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104257"/>
       </properties>
     </object>
-    <object id="183" gid="237" type="obj_waterstop" x="260" y="480" width="20" height="20">
+    <object id="183" gid="648" type="obj_waterstop" x="260" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104258"/>
       </properties>
     </object>
-    <object id="184" gid="237" type="obj_waterstop" x="300" y="480" width="20" height="20">
+    <object id="184" gid="648" type="obj_waterstop" x="300" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104259"/>
       </properties>
     </object>
-    <object id="185" gid="237" type="obj_waterstop" x="320" y="480" width="20" height="20">
+    <object id="185" gid="648" type="obj_waterstop" x="320" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104260"/>
       </properties>
     </object>
-    <object id="186" gid="237" type="obj_waterstop" x="340" y="480" width="20" height="20">
+    <object id="186" gid="648" type="obj_waterstop" x="340" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104261"/>
       </properties>
     </object>
-    <object id="187" gid="237" type="obj_waterstop" x="360" y="480" width="20" height="20">
+    <object id="187" gid="648" type="obj_waterstop" x="360" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104262"/>
       </properties>
     </object>
-    <object id="188" gid="237" type="obj_waterstop" x="380" y="480" width="20" height="20">
+    <object id="188" gid="648" type="obj_waterstop" x="380" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104263"/>
       </properties>
     </object>
-    <object id="189" gid="237" type="obj_waterstop" x="400" y="480" width="20" height="20">
+    <object id="189" gid="648" type="obj_waterstop" x="400" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104264"/>
       </properties>
     </object>
-    <object id="190" gid="237" type="obj_waterstop" x="420" y="480" width="20" height="20">
+    <object id="190" gid="648" type="obj_waterstop" x="420" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104265"/>
       </properties>
     </object>
-    <object id="191" gid="237" type="obj_waterstop" x="440" y="480" width="20" height="20">
+    <object id="191" gid="648" type="obj_waterstop" x="440" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104266"/>
       </properties>
     </object>
-    <object id="192" gid="237" type="obj_waterstop" x="460" y="480" width="20" height="20">
+    <object id="192" gid="648" type="obj_waterstop" x="460" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104267"/>
       </properties>
     </object>
-    <object id="193" gid="237" type="obj_waterstop" x="480" y="480" width="20" height="20">
+    <object id="193" gid="648" type="obj_waterstop" x="480" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104268"/>
       </properties>
     </object>
-    <object id="194" gid="239" type="obj_solidsmall" x="200" y="420" width="20" height="20">
+    <object id="194" gid="650" type="obj_solidsmall" x="200" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104269"/>
       </properties>
     </object>
-    <object id="195" gid="239" type="obj_solidsmall" x="200" y="440" width="20" height="20">
+    <object id="195" gid="650" type="obj_solidsmall" x="200" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104270"/>
       </properties>
     </object>
-    <object id="196" gid="239" type="obj_solidsmall" x="200" y="460" width="20" height="20">
+    <object id="196" gid="650" type="obj_solidsmall" x="200" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104271"/>
       </properties>
     </object>
-    <object id="197" gid="239" type="obj_solidsmall" x="240" y="420" width="20" height="20">
+    <object id="197" gid="650" type="obj_solidsmall" x="240" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104272"/>
       </properties>
     </object>
-    <object id="198" gid="239" type="obj_solidsmall" x="240" y="440" width="20" height="20">
+    <object id="198" gid="650" type="obj_solidsmall" x="240" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104273"/>
       </properties>
     </object>
-    <object id="199" gid="239" type="obj_solidsmall" x="240" y="460" width="20" height="20">
+    <object id="199" gid="650" type="obj_solidsmall" x="240" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104274"/>
       </properties>
     </object>
-    <object id="200" gid="239" type="obj_solidsmall" x="260" y="440" width="20" height="20">
+    <object id="200" gid="650" type="obj_solidsmall" x="260" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104275"/>
       </properties>
     </object>
-    <object id="201" gid="237" type="obj_waterstop" x="220" y="480" width="20" height="20">
+    <object id="201" gid="648" type="obj_waterstop" x="220" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104276"/>
       </properties>
     </object>
-    <object id="202" gid="237" type="obj_waterstop" x="180" y="460" width="20" height="20">
+    <object id="202" gid="648" type="obj_waterstop" x="180" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104277"/>
       </properties>
     </object>
-    <object id="203" gid="243" type="obj_solidthin" x="300" y="420" width="12" height="20">
+    <object id="203" gid="654" type="obj_solidthin" x="300" y="420" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104278"/>
       </properties>
     </object>
-    <object id="204" gid="239" type="obj_solidsmall" x="260" y="420" width="20" height="20">
+    <object id="204" gid="650" type="obj_solidsmall" x="260" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104279"/>
       </properties>
     </object>
-    <object id="205" gid="236" type="obj_waterspot" x="300" y="420" width="20" height="20">
+    <object id="205" gid="647" type="obj_waterspot" x="300" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104280"/>
       </properties>
     </object>
-    <object id="206" gid="237" type="obj_waterstop" x="200" y="200" width="20" height="20">
+    <object id="206" gid="648" type="obj_waterstop" x="200" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104281"/>
       </properties>
     </object>
-    <object id="207" gid="239" type="obj_solidsmall" x="240" y="320" width="20" height="20">
+    <object id="207" gid="650" type="obj_solidsmall" x="240" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104282"/>
       </properties>
     </object>
-    <object id="208" gid="239" type="obj_solidsmall" x="220" y="340" width="20" height="20">
+    <object id="208" gid="650" type="obj_solidsmall" x="220" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104283"/>
       </properties>
     </object>
-    <object id="209" gid="239" type="obj_solidsmall" x="220" y="300" width="20" height="20">
+    <object id="209" gid="650" type="obj_solidsmall" x="220" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104284"/>
       </properties>
     </object>
-    <object id="210" gid="239" type="obj_solidsmall" x="220" y="260" width="20" height="20">
+    <object id="210" gid="650" type="obj_solidsmall" x="220" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104285"/>
       </properties>
     </object>
-    <object id="211" gid="239" type="obj_solidsmall" x="260" y="460" width="20" height="20">
+    <object id="211" gid="650" type="obj_solidsmall" x="260" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104286"/>
       </properties>
     </object>
-    <object id="212" gid="239" type="obj_solidsmall" x="280" y="480" width="20" height="20">
+    <object id="212" gid="650" type="obj_solidsmall" x="280" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104287"/>
       </properties>
     </object>
-    <object id="213" gid="243" type="obj_solidthin" x="300" y="440" width="12" height="20">
+    <object id="213" gid="654" type="obj_solidthin" x="300" y="440" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104288"/>
       </properties>
     </object>
-    <object id="214" gid="243" type="obj_solidthin" x="300" y="460" width="12" height="20">
+    <object id="214" gid="654" type="obj_solidthin" x="300" y="460" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104289"/>
       </properties>
     </object>
-    <object id="215" gid="237" type="obj_waterstop" x="280" y="420" width="20" height="20">
+    <object id="215" gid="648" type="obj_waterstop" x="280" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104290"/>
       </properties>
     </object>
-    <object id="216" gid="237" type="obj_waterstop" x="280" y="440" width="20" height="20">
+    <object id="216" gid="648" type="obj_waterstop" x="280" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104291"/>
       </properties>
     </object>
-    <object id="217" gid="237" type="obj_waterstop" x="280" y="460" width="20" height="20">
+    <object id="217" gid="648" type="obj_waterstop" x="280" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104292"/>
       </properties>
     </object>
-    <object id="218" gid="236" type="obj_waterspot" x="300" y="440" width="20" height="20">
+    <object id="218" gid="647" type="obj_waterspot" x="300" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104293"/>
       </properties>
     </object>
-    <object id="219" gid="236" type="obj_waterspot" x="300" y="460" width="20" height="20">
+    <object id="219" gid="647" type="obj_waterspot" x="300" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104294"/>
       </properties>
     </object>
-    <object id="220" gid="236" type="obj_waterspot" x="260" y="460" width="20" height="20">
+    <object id="220" gid="647" type="obj_waterspot" x="260" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104295"/>
       </properties>
     </object>
-    <object id="221" gid="236" type="obj_waterspot" x="260" y="440" width="20" height="20">
+    <object id="221" gid="647" type="obj_waterspot" x="260" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104296"/>
       </properties>
     </object>
-    <object id="222" gid="237" type="obj_waterstop" x="180" y="440" width="20" height="20">
+    <object id="222" gid="648" type="obj_waterstop" x="180" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104297"/>
       </properties>
     </object>
-    <object id="223" gid="237" type="obj_waterstop" x="220" y="440" width="20" height="20">
+    <object id="223" gid="648" type="obj_waterstop" x="220" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104298"/>
       </properties>
     </object>
-    <object id="224" gid="239" type="obj_solidsmall" x="220" y="400" width="20" height="20">
+    <object id="224" gid="650" type="obj_solidsmall" x="220" y="400" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104299"/>
       </properties>
     </object>
-    <object id="225" gid="239" type="obj_solidsmall" x="180" y="220" width="20" height="20">
+    <object id="225" gid="650" type="obj_solidsmall" x="180" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104300"/>
       </properties>
     </object>
-    <object id="226" gid="239" type="obj_solidsmall" x="180" y="240" width="20" height="20">
+    <object id="226" gid="650" type="obj_solidsmall" x="180" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104301"/>
       </properties>
     </object>
-    <object id="227" gid="239" type="obj_solidsmall" x="180" y="260" width="20" height="20">
+    <object id="227" gid="650" type="obj_solidsmall" x="180" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104302"/>
       </properties>
     </object>
-    <object id="228" gid="239" type="obj_solidsmall" x="180" y="280" width="20" height="20">
+    <object id="228" gid="650" type="obj_solidsmall" x="180" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104303"/>
       </properties>
     </object>
-    <object id="229" gid="239" type="obj_solidsmall" x="180" y="300" width="20" height="20">
+    <object id="229" gid="650" type="obj_solidsmall" x="180" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104304"/>
       </properties>
     </object>
-    <object id="230" gid="239" type="obj_solidsmall" x="160" y="300" width="20" height="20">
+    <object id="230" gid="650" type="obj_solidsmall" x="160" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104305"/>
       </properties>
     </object>
-    <object id="231" gid="239" type="obj_solidsmall" x="140" y="300" width="20" height="20">
+    <object id="231" gid="650" type="obj_solidsmall" x="140" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104306"/>
       </properties>
     </object>
-    <object id="232" gid="239" type="obj_solidsmall" x="120" y="300" width="20" height="20">
+    <object id="232" gid="650" type="obj_solidsmall" x="120" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104307"/>
       </properties>
     </object>
-    <object id="233" gid="239" type="obj_solidsmall" x="100" y="300" width="20" height="20">
+    <object id="233" gid="650" type="obj_solidsmall" x="100" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104308"/>
       </properties>
     </object>
-    <object id="234" gid="239" type="obj_solidsmall" x="80" y="300" width="20" height="20">
+    <object id="234" gid="650" type="obj_solidsmall" x="80" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104309"/>
       </properties>
     </object>
-    <object id="235" gid="239" type="obj_solidsmall" x="60" y="300" width="20" height="20">
+    <object id="235" gid="650" type="obj_solidsmall" x="60" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104310"/>
       </properties>
     </object>
-    <object id="236" gid="239" type="obj_solidsmall" x="40" y="300" width="20" height="20">
+    <object id="236" gid="650" type="obj_solidsmall" x="40" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104311"/>
       </properties>
     </object>
-    <object id="237" gid="239" type="obj_solidsmall" x="20" y="300" width="20" height="20">
+    <object id="237" gid="650" type="obj_solidsmall" x="20" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104312"/>
       </properties>
     </object>
-    <object id="238" gid="239" type="obj_solidsmall" x="0" y="300" width="20" height="20">
+    <object id="238" gid="650" type="obj_solidsmall" x="0" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104313"/>
       </properties>
     </object>
-    <object id="239" gid="239" type="obj_solidsmall" x="180" y="440" width="20" height="20">
+    <object id="239" gid="650" type="obj_solidsmall" x="180" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104314"/>
       </properties>
     </object>
-    <object id="240" gid="239" type="obj_solidsmall" x="180" y="460" width="20" height="20">
+    <object id="240" gid="650" type="obj_solidsmall" x="180" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104315"/>
       </properties>
     </object>
-    <object id="241" gid="239" type="obj_solidsmall" x="180" y="480" width="20" height="20">
+    <object id="241" gid="650" type="obj_solidsmall" x="180" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104316"/>
       </properties>
     </object>
-    <object id="242" gid="239" type="obj_solidsmall" x="200" y="480" width="20" height="20">
+    <object id="242" gid="650" type="obj_solidsmall" x="200" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104317"/>
       </properties>
     </object>
-    <object id="243" gid="239" type="obj_solidsmall" x="220" y="480" width="20" height="20">
+    <object id="243" gid="650" type="obj_solidsmall" x="220" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104318"/>
       </properties>
     </object>
-    <object id="244" gid="239" type="obj_solidsmall" x="240" y="480" width="20" height="20">
+    <object id="244" gid="650" type="obj_solidsmall" x="240" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104319"/>
       </properties>
     </object>
-    <object id="245" gid="239" type="obj_solidsmall" x="260" y="480" width="20" height="20">
+    <object id="245" gid="650" type="obj_solidsmall" x="260" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104320"/>
       </properties>
     </object>
-    <object id="246" gid="239" type="obj_solidsmall" x="180" y="340" width="20" height="20">
+    <object id="246" gid="650" type="obj_solidsmall" x="180" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104321"/>
       </properties>
     </object>
-    <object id="247" gid="239" type="obj_solidsmall" x="180" y="320" width="20" height="20">
+    <object id="247" gid="650" type="obj_solidsmall" x="180" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104322"/>
       </properties>
     </object>
-    <object id="248" gid="237" type="obj_waterstop" x="280" y="220" width="20" height="20">
+    <object id="248" gid="648" type="obj_waterstop" x="280" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104323"/>
       </properties>
     </object>
-    <object id="249" gid="237" type="obj_waterstop" x="280" y="200" width="20" height="20">
+    <object id="249" gid="648" type="obj_waterstop" x="280" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104324"/>
       </properties>
     </object>
-    <object id="250" gid="237" type="obj_waterstop" x="280" y="160" width="20" height="20">
+    <object id="250" gid="648" type="obj_waterstop" x="280" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104325"/>
       </properties>
     </object>
-    <object id="251" gid="237" type="obj_waterstop" x="280" y="260" width="20" height="20">
+    <object id="251" gid="648" type="obj_waterstop" x="280" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104326"/>
       </properties>
     </object>
-    <object id="252" gid="237" type="obj_waterstop" x="280" y="280" width="20" height="20">
+    <object id="252" gid="648" type="obj_waterstop" x="280" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104327"/>
       </properties>
     </object>
-    <object id="253" gid="237" type="obj_waterstop" x="280" y="300" width="20" height="20">
+    <object id="253" gid="648" type="obj_waterstop" x="280" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104328"/>
       </properties>
     </object>
-    <object id="254" gid="237" type="obj_waterstop" x="280" y="320" width="20" height="20">
+    <object id="254" gid="648" type="obj_waterstop" x="280" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104329"/>
       </properties>
     </object>
-    <object id="255" gid="237" type="obj_waterstop" x="280" y="340" width="20" height="20">
+    <object id="255" gid="648" type="obj_waterstop" x="280" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104330"/>
       </properties>
     </object>
-    <object id="256" gid="236" type="obj_waterspot" x="200" y="240" width="20" height="20">
+    <object id="256" gid="647" type="obj_waterspot" x="200" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104331"/>
       </properties>
     </object>
-    <object id="257" gid="236" type="obj_waterspot" x="220" y="220" width="20" height="20">
+    <object id="257" gid="647" type="obj_waterspot" x="220" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104332"/>
       </properties>
     </object>
-    <object id="258" gid="236" type="obj_waterspot" x="220" y="200" width="20" height="20">
+    <object id="258" gid="647" type="obj_waterspot" x="220" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104333"/>
       </properties>
     </object>
-    <object id="259" gid="236" type="obj_waterspot" x="220" y="240" width="20" height="20">
+    <object id="259" gid="647" type="obj_waterspot" x="220" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104334"/>
       </properties>
     </object>
-    <object id="260" gid="236" type="obj_waterspot" x="240" y="260" width="20" height="20">
+    <object id="260" gid="647" type="obj_waterspot" x="240" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104335"/>
       </properties>
     </object>
-    <object id="261" gid="236" type="obj_waterspot" x="240" y="220" width="20" height="20">
+    <object id="261" gid="647" type="obj_waterspot" x="240" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104336"/>
       </properties>
     </object>
-    <object id="262" gid="236" type="obj_waterspot" x="220" y="160" width="20" height="20">
+    <object id="262" gid="647" type="obj_waterspot" x="220" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104337"/>
       </properties>
     </object>
-    <object id="263" gid="236" type="obj_waterspot" x="240" y="160" width="20" height="20">
+    <object id="263" gid="647" type="obj_waterspot" x="240" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104338"/>
       </properties>
     </object>
-    <object id="264" gid="236" type="obj_waterspot" x="240" y="180" width="20" height="20">
+    <object id="264" gid="647" type="obj_waterspot" x="240" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104339"/>
       </properties>
     </object>
-    <object id="265" gid="236" type="obj_waterspot" x="220" y="260" width="20" height="20">
+    <object id="265" gid="647" type="obj_waterspot" x="220" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104340"/>
       </properties>
     </object>
-    <object id="266" gid="236" type="obj_waterspot" x="240" y="300" width="20" height="20">
+    <object id="266" gid="647" type="obj_waterspot" x="240" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104341"/>
       </properties>
     </object>
-    <object id="267" gid="236" type="obj_waterspot" x="220" y="300" width="20" height="20">
+    <object id="267" gid="647" type="obj_waterspot" x="220" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104342"/>
       </properties>
     </object>
-    <object id="268" gid="236" type="obj_waterspot" x="200" y="300" width="20" height="20">
+    <object id="268" gid="647" type="obj_waterspot" x="200" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104343"/>
       </properties>
     </object>
-    <object id="269" gid="236" type="obj_waterspot" x="200" y="300" width="20" height="20">
+    <object id="269" gid="647" type="obj_waterspot" x="200" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104344"/>
       </properties>
     </object>
-    <object id="270" gid="236" type="obj_waterspot" x="200" y="320" width="20" height="20">
+    <object id="270" gid="647" type="obj_waterspot" x="200" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104345"/>
       </properties>
     </object>
-    <object id="271" gid="236" type="obj_waterspot" x="220" y="320" width="20" height="20">
+    <object id="271" gid="647" type="obj_waterspot" x="220" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104346"/>
       </properties>
     </object>
-    <object id="272" gid="236" type="obj_waterspot" x="240" y="320" width="20" height="20">
+    <object id="272" gid="647" type="obj_waterspot" x="240" y="320" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104347"/>
       </properties>
     </object>
-    <object id="273" gid="236" type="obj_waterspot" x="240" y="340" width="20" height="20">
+    <object id="273" gid="647" type="obj_waterspot" x="240" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104348"/>
       </properties>
     </object>
-    <object id="274" gid="236" type="obj_waterspot" x="220" y="340" width="20" height="20">
+    <object id="274" gid="647" type="obj_waterspot" x="220" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104349"/>
       </properties>
     </object>
-    <object id="275" gid="236" type="obj_waterspot" x="200" y="340" width="20" height="20">
+    <object id="275" gid="647" type="obj_waterspot" x="200" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104350"/>
       </properties>
     </object>
-    <object id="276" gid="236" type="obj_waterspot" x="200" y="420" width="20" height="20">
+    <object id="276" gid="647" type="obj_waterspot" x="200" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104351"/>
       </properties>
     </object>
-    <object id="277" gid="236" type="obj_waterspot" x="220" y="420" width="20" height="20">
+    <object id="277" gid="647" type="obj_waterspot" x="220" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104352"/>
       </properties>
     </object>
-    <object id="278" gid="236" type="obj_waterspot" x="240" y="420" width="20" height="20">
+    <object id="278" gid="647" type="obj_waterspot" x="240" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104353"/>
       </properties>
     </object>
-    <object id="279" gid="236" type="obj_waterspot" x="200" y="440" width="20" height="20">
+    <object id="279" gid="647" type="obj_waterspot" x="200" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104354"/>
       </properties>
     </object>
-    <object id="280" gid="236" type="obj_waterspot" x="240" y="440" width="20" height="20">
+    <object id="280" gid="647" type="obj_waterspot" x="240" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104355"/>
       </properties>
     </object>
-    <object id="281" gid="236" type="obj_waterspot" x="240" y="460" width="20" height="20">
+    <object id="281" gid="647" type="obj_waterspot" x="240" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104356"/>
       </properties>
     </object>
-    <object id="282" gid="236" type="obj_waterspot" x="220" y="460" width="20" height="20">
+    <object id="282" gid="647" type="obj_waterspot" x="220" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104357"/>
       </properties>
     </object>
-    <object id="283" gid="236" type="obj_waterspot" x="200" y="460" width="20" height="20">
+    <object id="283" gid="647" type="obj_waterspot" x="200" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104358"/>
       </properties>
     </object>
-    <object id="284" gid="239" type="obj_solidsmall" x="220" y="240" width="20" height="20">
+    <object id="284" gid="650" type="obj_solidsmall" x="220" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104359"/>
       </properties>
     </object>
-    <object id="285" gid="239" type="obj_solidsmall" x="220" y="220" width="20" height="20">
+    <object id="285" gid="650" type="obj_solidsmall" x="220" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104360"/>
       </properties>
     </object>
-    <object id="286" gid="239" type="obj_solidsmall" x="220" y="200" width="20" height="20">
+    <object id="286" gid="650" type="obj_solidsmall" x="220" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104361"/>
       </properties>
     </object>
-    <object id="287" gid="243" type="obj_solidthin" x="200" y="240" width="12" height="20">
+    <object id="287" gid="654" type="obj_solidthin" x="200" y="240" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104362"/>
       </properties>
     </object>
-    <object id="288" gid="243" type="obj_solidthin" x="240" y="220" width="12" height="20">
+    <object id="288" gid="654" type="obj_solidthin" x="240" y="220" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104363"/>
       </properties>
     </object>
-    <object id="289" gid="243" type="obj_solidthin" x="240" y="200" width="12" height="20">
+    <object id="289" gid="654" type="obj_solidthin" x="240" y="200" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104364"/>
       </properties>
     </object>
-    <object id="290" gid="236" type="obj_waterspot" x="240" y="200" width="20" height="20">
+    <object id="290" gid="647" type="obj_waterspot" x="240" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104365"/>
       </properties>
     </object>
-    <object id="291" gid="243" type="obj_solidthin" x="260" y="120" width="12" height="20">
+    <object id="291" gid="654" type="obj_solidthin" x="260" y="120" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104366"/>
       </properties>
     </object>
-    <object id="292" gid="243" type="obj_solidthin" x="220" y="160" width="12" height="20">
+    <object id="292" gid="654" type="obj_solidthin" x="220" y="160" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104367"/>
       </properties>
     </object>
-    <object id="293" gid="243" type="obj_solidthin" x="220" y="140" width="12" height="20">
+    <object id="293" gid="654" type="obj_solidthin" x="220" y="140" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104368"/>
       </properties>
     </object>
-    <object id="294" gid="243" type="obj_solidthin" x="220" y="120" width="12" height="20">
+    <object id="294" gid="654" type="obj_solidthin" x="220" y="120" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104369"/>
       </properties>
     </object>
-    <object id="295" gid="236" type="obj_waterspot" x="220" y="120" width="20" height="20">
+    <object id="295" gid="647" type="obj_waterspot" x="220" y="120" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104370"/>
       </properties>
     </object>
-    <object id="296" gid="236" type="obj_waterspot" x="220" y="140" width="20" height="20">
+    <object id="296" gid="647" type="obj_waterspot" x="220" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104371"/>
       </properties>
     </object>
-    <object id="297" gid="243" type="obj_solidthin" x="200" y="260" width="12" height="20">
+    <object id="297" gid="654" type="obj_solidthin" x="200" y="260" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104372"/>
       </properties>
     </object>
-    <object id="298" gid="243" type="obj_solidthin" x="200" y="280" width="12" height="20">
+    <object id="298" gid="654" type="obj_solidthin" x="200" y="280" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104373"/>
       </properties>
     </object>
-    <object id="299" gid="243" type="obj_solidthin" x="220" y="280" width="12" height="20">
+    <object id="299" gid="654" type="obj_solidthin" x="220" y="280" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104374"/>
       </properties>
     </object>
-    <object id="300" gid="243" type="obj_solidthin" x="240" y="280" width="12" height="20">
+    <object id="300" gid="654" type="obj_solidthin" x="240" y="280" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104375"/>
       </properties>
     </object>
-    <object id="301" gid="243" type="obj_solidthin" x="240" y="260" width="12" height="20">
+    <object id="301" gid="654" type="obj_solidthin" x="240" y="260" width="12" height="20">
       <properties>
         <property name="instanceId" type="int" value="104376"/>
       </properties>
     </object>
-    <object id="302" gid="236" type="obj_waterspot" x="200" y="260" width="20" height="20">
+    <object id="302" gid="647" type="obj_waterspot" x="200" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104377"/>
       </properties>
     </object>
-    <object id="303" gid="236" type="obj_waterspot" x="200" y="280" width="20" height="20">
+    <object id="303" gid="647" type="obj_waterspot" x="200" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104378"/>
       </properties>
     </object>
-    <object id="304" gid="236" type="obj_waterspot" x="220" y="280" width="20" height="20">
+    <object id="304" gid="647" type="obj_waterspot" x="220" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104379"/>
       </properties>
     </object>
-    <object id="305" gid="236" type="obj_waterspot" x="240" y="280" width="20" height="20">
+    <object id="305" gid="647" type="obj_waterspot" x="240" y="280" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104380"/>
       </properties>
     </object>
-    <object id="306" gid="237" type="obj_waterstop" x="500" y="440" width="20" height="20">
+    <object id="306" gid="648" type="obj_waterstop" x="500" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104381"/>
       </properties>
     </object>
-    <object id="307" gid="237" type="obj_waterstop" x="500" y="460" width="20" height="20">
+    <object id="307" gid="648" type="obj_waterstop" x="500" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104382"/>
       </properties>
@@ -1507,87 +1507,87 @@
         <property name="instanceId" type="int" value="104383"/>
       </properties>
     </object>
-    <object id="309" gid="239" type="obj_solidsmall" x="260" y="160" width="20" height="20">
+    <object id="309" gid="650" type="obj_solidsmall" x="260" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104384"/>
       </properties>
     </object>
-    <object id="310" gid="239" type="obj_solidsmall" x="260" y="180" width="20" height="20">
+    <object id="310" gid="650" type="obj_solidsmall" x="260" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104385"/>
       </properties>
     </object>
-    <object id="311" gid="247" type="obj_solidlong" x="140" y="100" width="20" height="20">
+    <object id="311" gid="658" type="obj_solidlong" x="140" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104386"/>
       </properties>
     </object>
-    <object id="312" gid="248" type="obj_solidwide" x="0" y="420" width="40" height="20">
+    <object id="312" gid="659" type="obj_solidwide" x="0" y="420" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104387"/>
       </properties>
     </object>
-    <object id="313" gid="248" type="obj_solidwide" x="40" y="420" width="40" height="20">
+    <object id="313" gid="659" type="obj_solidwide" x="40" y="420" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104388"/>
       </properties>
     </object>
-    <object id="314" gid="248" type="obj_solidwide" x="80" y="420" width="40" height="20">
+    <object id="314" gid="659" type="obj_solidwide" x="80" y="420" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104389"/>
       </properties>
     </object>
-    <object id="315" gid="248" type="obj_solidwide" x="120" y="420" width="40" height="20">
+    <object id="315" gid="659" type="obj_solidwide" x="120" y="420" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104390"/>
       </properties>
     </object>
-    <object id="316" gid="248" type="obj_solidwide" x="160" y="420" width="40" height="20">
+    <object id="316" gid="659" type="obj_solidwide" x="160" y="420" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104391"/>
       </properties>
     </object>
-    <object id="317" gid="248" type="obj_solidwide" x="200" y="360" width="40" height="20">
+    <object id="317" gid="659" type="obj_solidwide" x="200" y="360" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104392"/>
       </properties>
     </object>
-    <object id="318" gid="248" type="obj_solidwide" x="240" y="360" width="40" height="20">
+    <object id="318" gid="659" type="obj_solidwide" x="240" y="360" width="40" height="20">
       <properties>
         <property name="instanceId" type="int" value="104393"/>
       </properties>
     </object>
-    <object id="319" gid="249" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+    <object id="319" gid="660" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
       <properties>
         <property name="instanceId" type="int" value="104394"/>
       </properties>
     </object>
-    <object id="320" gid="250" type="obj_waterfall_waterfall" x="220" y="20" width="20" height="20">
+    <object id="320" gid="661" type="obj_waterfall_waterfall" x="220" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104395"/>
       </properties>
     </object>
-    <object id="321" gid="251" type="obj_dockanim" x="200" y="390" width="20" height="10">
+    <object id="321" gid="662" type="obj_dockanim" x="200" y="390" width="20" height="10">
       <properties>
         <property name="instanceId" type="int" value="104396"/>
       </properties>
     </object>
-    <object id="322" gid="251" type="obj_dockanim" x="220" y="390" width="20" height="10">
+    <object id="322" gid="662" type="obj_dockanim" x="220" y="390" width="20" height="10">
       <properties>
         <property name="instanceId" type="int" value="104397"/>
       </properties>
     </object>
-    <object id="323" gid="251" type="obj_dockanim" x="240" y="390" width="20" height="10">
+    <object id="323" gid="662" type="obj_dockanim" x="240" y="390" width="20" height="10">
       <properties>
         <property name="instanceId" type="int" value="104398"/>
       </properties>
     </object>
-    <object id="324" gid="251" type="obj_dockanim" x="260" y="390" width="20" height="10">
+    <object id="324" gid="662" type="obj_dockanim" x="260" y="390" width="20" height="10">
       <properties>
         <property name="instanceId" type="int" value="104399"/>
       </properties>
     </object>
-    <object id="325" gid="247" type="obj_solidlong" x="160" y="480" width="20" height="20">
+    <object id="325" gid="658" type="obj_solidlong" x="160" y="480" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104400"/>
       </properties>
