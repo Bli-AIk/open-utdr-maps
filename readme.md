@@ -27,7 +27,10 @@ but didn't know where to start?
 
 We've converted every room from Undertale and Deltarune (chapters 1–4) into
 the **[Tiled](https://www.mapeditor.org/) TMX/TSX format** —
-that's **1,333 rooms** in total, all verified for accuracy.
+that's **1,333 rooms** in total.
+These maps were auto-converted from game data, and while many are visually accurate,
+**some rooms may contain rendering artifacts, missing layers, or incorrect tile placements**.
+Quality varies — see the accuracy notes below.
 
 ### Why Tiled?
 
@@ -115,15 +118,17 @@ Infringing content will be removed upon request.
 
 ## 📊 What's already here
 
-| Game | Rooms | Pixel accuracy |
-|------|-------|---------------|
-| Undertale | 335 | ✅ 98.2% |
-| Deltarune Ch1 | 147 | ✅ 100% |
-| Deltarune Ch2 | 278 | ✅ 100% |
-| Deltarune Ch3 | 246 | ✅ 100% |
-| Deltarune Ch4 | 327 | ✅ 100% |
+| Game | Rooms | Auto-conversion quality |
+|------|-------|------------------------|
+| Undertale | 335 | ⚠️ Main rooms render well; some edge cases remain |
+| Deltarune Ch1 | 147 | ⚠️ Main rooms render well; quality varies for minor rooms |
+| Deltarune Ch2 | 278 | ⚠️ Main rooms render well; quality varies for minor rooms |
+| Deltarune Ch3 | 246 | ⚠️ Main rooms render well; quality varies for minor rooms |
+| Deltarune Ch4 | 327 | ⚠️ Main rooms render well; quality varies for minor rooms |
 
-> All **1,333 rooms** have been auto-converted and verified through pixel-level visual regression tests.
+> All **1,333 rooms** have been auto-converted. Automated pixel-level tests catch many issues,
+> but **some maps may still contain visual inaccuracies** — missing tiles, incorrect layering,
+> or conversion artifacts. Contributions to identify and fix these are very welcome!
 
 ## 🚀 Quick Start
 
@@ -190,9 +195,10 @@ See [docs/conversion_spec.md](docs/conversion_spec.md) for full details.
 
 ### Verification
 
-Every converted room is verified through automated visual regression tests
+Every converted room is checked through automated visual regression tests
 that compare the TMX output (rendered by `tmxrasterizer`) against an independent
-reference rendering of the original tile data.
+reference rendering of the original tile data. However, **these tests do not catch all issues** —
+some rooms may still have visual artifacts that require manual review.
 
 ## 🌟 Related Projects
 
