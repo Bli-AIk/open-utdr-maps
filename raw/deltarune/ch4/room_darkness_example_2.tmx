@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="64" height="48" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="24">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="37" source="tilesets/bg_darktiles1_tileset.tsx"/>
+  <tileset firstgid="158" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="860" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="861" source="tilesets/obj_npc_room_animated.tsx"/>
+  <tileset firstgid="862" source="tilesets/obj_darkness_overlay.tsx"/>
+  <tileset firstgid="863" source="tilesets/obj_window_shadow_maker.tsx"/>
+  <tileset firstgid="864" source="tilesets/obj_lightsource.tsx"/>
+  <tileset firstgid="865" source="tilesets/obj_darkness_illusion.tsx"/>
+  <tileset firstgid="866" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="867" source="tilesets/obj_lightsource_window.tsx"/>
+  <tileset firstgid="868" source="tilesets/obj_music_wobbler.tsx"/>
+  <tileset firstgid="869" source="tilesets/obj_darkness_interactable_example.tsx"/>
+  <layer id="1" name="TILES_BASE" width="32" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,225,226,0,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,0,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,0,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,0,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,0,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,0,230,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,231,232,0,236,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,238,0,242,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,244,0,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,278,0,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_WALL" width="32" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_DITHER" width="32" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="860" type="obj_mainchara" x="40" y="597" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="102098"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="15" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102099"/>
+      </properties>
+    </object>
+    <object id="3" gid="861" type="obj_npc_room_animated" x="784" y="474" width="52" height="45">
+      <properties>
+        <property name="instanceId" type="int" value="102100"/>
+      </properties>
+    </object>
+    <object id="4" gid="862" type="obj_darkness_overlay" x="80" y="60" width="40" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="102101"/>
+      </properties>
+    </object>
+    <object id="5" gid="863" type="obj_window_shadow_maker" x="40" y="152" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102102"/>
+      </properties>
+    </object>
+    <object id="6" gid="864" type="obj_lightsource" x="1094" y="698" width="51" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="102103"/>
+      </properties>
+    </object>
+    <object id="7" gid="865" type="obj_darkness_illusion" x="1099" y="497" width="39" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="102104"/>
+      </properties>
+    </object>
+    <object id="8" gid="866" type="obj_solidblocksized" x="0" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102105"/>
+      </properties>
+    </object>
+    <object id="9" gid="866" type="obj_solidblocksized" x="0" y="800" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102106"/>
+      </properties>
+    </object>
+    <object id="10" gid="866" type="obj_solidblocksized" x="1240" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102107"/>
+      </properties>
+    </object>
+    <object id="11" gid="867" type="obj_lightsource_window" x="320" y="708" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102108"/>
+      </properties>
+    </object>
+    <object id="12" gid="867" type="obj_lightsource_window" x="480" y="708" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102109"/>
+      </properties>
+    </object>
+    <object id="13" gid="867" type="obj_lightsource_window" x="640" y="708" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102110"/>
+      </properties>
+    </object>
+    <object id="14" gid="867" type="obj_lightsource_window" x="800" y="708" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102111"/>
+      </properties>
+    </object>
+    <object id="15" gid="867" type="obj_lightsource_window" x="960" y="708" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102112"/>
+      </properties>
+    </object>
+    <object id="16" gid="867" type="obj_lightsource_window" x="320" y="308" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102113"/>
+      </properties>
+    </object>
+    <object id="17" gid="867" type="obj_lightsource_window" x="480" y="308" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102114"/>
+      </properties>
+    </object>
+    <object id="18" gid="867" type="obj_lightsource_window" x="640" y="308" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102115"/>
+      </properties>
+    </object>
+    <object id="19" gid="867" type="obj_lightsource_window" x="800" y="308" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102116"/>
+      </properties>
+    </object>
+    <object id="20" gid="867" type="obj_lightsource_window" x="960" y="308" width="27" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="102117"/>
+      </properties>
+    </object>
+    <object id="21" gid="868" type="obj_music_wobbler" x="-12" y="92" width="20" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="102118"/>
+      </properties>
+    </object>
+    <object id="22" gid="869" type="obj_darkness_interactable_example" x="1099" y="498" width="39" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="102119"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="23" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

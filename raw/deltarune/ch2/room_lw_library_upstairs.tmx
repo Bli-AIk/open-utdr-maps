@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="15">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_readable_room1.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_markert.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="6" source="tilesets/obj_sdl_dark.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="231" y="226" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="100820"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_overworldc" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="100821"/>
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_readable_room1" x="204" y="164" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100822"/>
+      </properties>
+    </object>
+    <object id="4" type="obj_npc_library_upstairs" x="0" y="32" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="100823"/>
+      </properties>
+    </object>
+    <object id="5" gid="2" type="obj_readable_room1" x="244" y="164" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100824"/>
+      </properties>
+    </object>
+    <object id="6" gid="3" type="obj_markert" x="231" y="262" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="100825"/>
+      </properties>
+    </object>
+    <object id="7" gid="4" type="obj_soliddark" x="52" y="241" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100826"/>
+      </properties>
+    </object>
+    <object id="8" gid="4" type="obj_soliddark" x="263" y="241" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100827"/>
+      </properties>
+    </object>
+    <object id="9" gid="5" type="obj_doorW" x="213" y="251" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100828"/>
+      </properties>
+    </object>
+    <object id="10" gid="4" type="obj_soliddark" x="15" y="139" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100829"/>
+      </properties>
+    </object>
+    <object id="11" gid="4" type="obj_soliddark" x="280" y="139" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100830"/>
+      </properties>
+    </object>
+    <object id="12" gid="4" type="obj_soliddark" x="46" y="195" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100831"/>
+      </properties>
+    </object>
+    <object id="13" gid="6" type="obj_sdl_dark" x="33" y="222" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100832"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="14" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="320"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

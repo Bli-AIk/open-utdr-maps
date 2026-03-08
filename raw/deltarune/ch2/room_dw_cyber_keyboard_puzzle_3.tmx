@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="29">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="37" source="tilesets/bg_dw_cyber_tileset.tsx"/>
+  <tileset firstgid="543" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="544" source="tilesets/obj_ch2_keyboardpuzzle_controller.tsx"/>
+  <tileset firstgid="545" source="tilesets/obj_traffic_road_trigger.tsx"/>
+  <tileset firstgid="546" source="tilesets/obj_controller_keyboard_puzzle_3.tsx"/>
+  <tileset firstgid="547" source="tilesets/obj_musicer_cyber.tsx"/>
+  <tileset firstgid="548" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="549" source="tilesets/obj_markerw.tsx"/>
+  <tileset firstgid="550" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="551" source="tilesets/obj_solidblocksized_alt.tsx"/>
+  <tileset firstgid="552" source="tilesets/obj_cyber_wall_lights.tsx"/>
+  <tileset firstgid="553" source="tilesets/obj_cyber_wall_lights_right.tsx"/>
+  <tileset firstgid="554" source="tilesets/obj_cyber_wall_lights_left.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,166,166,166,166,166,166,166,166,165,0,0,0,0,0,40,153,205,205,205,205,205,205,205,205,163,42,0,0,0,40,38,54,54,54,54,54,54,54,54,54,54,39,42,0,0,53,54,54,54,54,54,54,54,54,54,54,54,54,55,0,0,53,54,54,54,54,54,54,54,54,54,54,54,54,55,0,0,66,51,54,54,54,54,54,54,54,54,54,54,52,68,0,0,79,66,67,67,67,67,51,52,67,67,67,67,68,81,0,0,122,79,80,80,80,81,53,55,79,80,80,80,81,127,0,0,0,122,123,123,123,127,53,55,122,123,123,123,127,0,0</data>
+  </layer>
+  <layer id="2" name="JA_TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,166,0,0,0,0,0,0,0,0,166,165,0,0,0,40,153,205,0,0,0,0,0,0,0,0,205,163,42,0,0,53,54,0,0,0,0,0,0,0,0,0,0,54,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_Overlay" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,10,10,10,10,10,0,0,10,10,10,10,10,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="543" type="obj_mainchara" x="302" y="418" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102647"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102648"/>
+      </properties>
+    </object>
+    <object id="3" gid="544" type="obj_ch2_keyboardpuzzle_controller" x="146" y="171" width="23" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="102649"/>
+      </properties>
+    </object>
+    <object id="4" gid="545" type="obj_traffic_road_trigger" x="80" y="364" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="102650"/>
+      </properties>
+    </object>
+    <object id="5" gid="545" type="obj_traffic_road_trigger" x="400" y="364" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="102651"/>
+      </properties>
+    </object>
+    <object id="6" gid="545" type="obj_traffic_road_trigger" x="40" y="324" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="102652"/>
+      </properties>
+    </object>
+    <object id="7" gid="546" type="obj_controller_keyboard_puzzle_3" x="-80" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102653"/>
+      </properties>
+    </object>
+    <object id="8" gid="547" type="obj_musicer_cyber" x="0" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="102654"/>
+      </properties>
+    </object>
+    <object id="9" gid="548" type="obj_doorW" x="280" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102655"/>
+      </properties>
+    </object>
+    <object id="10" gid="549" type="obj_markerw" x="302" y="454" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="102656"/>
+      </properties>
+    </object>
+    <object id="11" gid="550" type="obj_solidblocksized" x="240" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102657"/>
+      </properties>
+    </object>
+    <object id="12" gid="550" type="obj_solidblocksized" x="80" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102658"/>
+      </properties>
+    </object>
+    <object id="13" gid="550" type="obj_solidblocksized" x="40" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102659"/>
+      </properties>
+    </object>
+    <object id="14" gid="550" type="obj_solidblocksized" x="0" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102660"/>
+      </properties>
+    </object>
+    <object id="15" gid="550" type="obj_solidblocksized" x="0" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102661"/>
+      </properties>
+    </object>
+    <object id="16" gid="550" type="obj_solidblocksized" x="600" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102662"/>
+      </properties>
+    </object>
+    <object id="17" gid="550" type="obj_solidblocksized" x="560" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102663"/>
+      </properties>
+    </object>
+    <object id="18" gid="550" type="obj_solidblocksized" x="400" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102664"/>
+      </properties>
+    </object>
+    <object id="19" gid="550" type="obj_solidblocksized" x="360" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102665"/>
+      </properties>
+    </object>
+    <object id="20" gid="551" type="obj_solidblocksized_alt" x="560" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102666"/>
+      </properties>
+    </object>
+    <object id="21" gid="551" type="obj_solidblocksized_alt" x="40" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102667"/>
+      </properties>
+    </object>
+    <object id="22" gid="552" type="obj_cyber_wall_lights" x="120" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102668"/>
+      </properties>
+    </object>
+    <object id="23" gid="552" type="obj_cyber_wall_lights" x="362" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102669"/>
+      </properties>
+    </object>
+    <object id="24" gid="553" type="obj_cyber_wall_lights_right" x="520" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102670"/>
+      </properties>
+    </object>
+    <object id="25" gid="553" type="obj_cyber_wall_lights_right" x="560" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102671"/>
+      </properties>
+    </object>
+    <object id="26" gid="554" type="obj_cyber_wall_lights_left" x="80" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102672"/>
+      </properties>
+    </object>
+    <object id="27" gid="554" type="obj_cyber_wall_lights_left" x="40" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102673"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="28" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

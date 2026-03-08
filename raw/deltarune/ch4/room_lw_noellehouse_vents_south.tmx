@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="18">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_lw_noellehouse_vents_tileset.tsx"/>
+  <tileset firstgid="65" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="66" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="67" source="tilesets/obj_homealone_vent_airflow.tsx"/>
+  <tileset firstgid="68" source="tilesets/obj_homealone_solid.tsx"/>
+  <tileset firstgid="69" source="tilesets/obj_homealone_vent_hidden.tsx"/>
+  <layer id="1" name="TILES_Vents" width="48" height="12">
+    <data encoding="csv">2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,39,40,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,31,42,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,29,32,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,33,34,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="65" type="obj_mainchara" x="20" y="37" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="105134"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_overworldc" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="105135"/>
+      </properties>
+    </object>
+    <object id="3" type="obj_homealone_vent_overlay" x="0" y="20" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="105136"/>
+      </properties>
+    </object>
+    <object id="4" gid="66" type="obj_musicer_gen" x="40" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105137"/>
+      </properties>
+    </object>
+    <object id="5" gid="67" type="obj_homealone_vent_airflow" x="91" y="78" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="105138"/>
+      </properties>
+    </object>
+    <object id="6" gid="67" type="obj_homealone_vent_airflow" x="107" y="178" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="105139"/>
+      </properties>
+    </object>
+    <object id="7" gid="67" type="obj_homealone_vent_airflow" x="91" y="94" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="105140"/>
+      </properties>
+    </object>
+    <object id="8" gid="67" type="obj_homealone_vent_airflow" x="852" y="94" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="105141"/>
+      </properties>
+    </object>
+    <object id="9" type="obj_homealone_vent_airflow_controller" x="0" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="105142"/>
+      </properties>
+    </object>
+    <object id="10" gid="68" type="obj_homealone_solid" x="0" y="82" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105143"/>
+      </properties>
+    </object>
+    <object id="11" gid="68" type="obj_homealone_solid" x="108" y="98" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105144"/>
+      </properties>
+    </object>
+    <object id="12" gid="68" type="obj_homealone_solid" x="0" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105145"/>
+      </properties>
+    </object>
+    <object id="13" gid="69" type="obj_homealone_vent_hidden" x="845" y="0" width="29" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="105146"/>
+      </properties>
+    </object>
+    <object id="14" gid="69" type="obj_homealone_vent_hidden" x="86" y="269" width="29" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="105147"/>
+      </properties>
+    </object>
+    <object id="15" gid="68" type="obj_homealone_solid" x="108" y="198" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105148"/>
+      </properties>
+    </object>
+    <object id="16" gid="68" type="obj_homealone_solid" x="868" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105149"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="17" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="320"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

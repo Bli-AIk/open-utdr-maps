@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="104" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="64">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="704" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="705" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="706" source="tilesets/obj_overworld_bulletarea.tsx"/>
+  <tileset firstgid="707" source="tilesets/obj_rotating_bullet.tsx"/>
+  <tileset firstgid="708" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="709" source="tilesets/obj_cutscene_stairlooper.tsx"/>
+  <tileset firstgid="710" source="tilesets/obj_climbingarea.tsx"/>
+  <tileset firstgid="711" source="tilesets/ob_rotating_tower_black_bg.tsx"/>
+  <layer id="1" name="TILES" width="16" height="52">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,31,32,0,0,0,0,0,0,0,0,0,0,0,0,31,32,98,98,98,98,98,98,98,98,98,98,98,98,0,0,31,32,98,98,98,98,98,98,98,98,98,98,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,31,32,0,0,0,0,0,0,0,0,98,98,0,0,31,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="703" type="obj_mainchara" x="420" y="2017" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103180"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_rotating_tower_controller" x="40" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103181"/>
+      </properties>
+    </object>
+    <object id="3" type="obj_darkcontroller" x="0" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103182"/>
+      </properties>
+    </object>
+    <object id="4" gid="704" type="obj_doorAny" x="0" y="1720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103183"/>
+      </properties>
+    </object>
+    <object id="5" gid="705" type="obj_markerAny" x="26" y="1736" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103184"/>
+      </properties>
+    </object>
+    <object id="6" gid="705" type="obj_markerAny" x="482" y="877" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103185"/>
+      </properties>
+    </object>
+    <object id="7" gid="706" type="obj_overworld_bulletarea" x="258" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103186"/>
+      </properties>
+    </object>
+    <object id="8" gid="707" type="obj_rotating_bullet" x="312" y="-617" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103188"/>
+      </properties>
+    </object>
+    <object id="9" gid="707" type="obj_rotating_bullet" x="312" y="-713" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103189"/>
+      </properties>
+    </object>
+    <object id="10" gid="707" type="obj_rotating_bullet" x="311" y="-809" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103190"/>
+      </properties>
+    </object>
+    <object id="11" gid="707" type="obj_rotating_bullet" x="311" y="-905" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103191"/>
+      </properties>
+    </object>
+    <object id="12" gid="707" type="obj_rotating_bullet" x="311" y="-617" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103192"/>
+      </properties>
+    </object>
+    <object id="13" gid="707" type="obj_rotating_bullet" x="311" y="-617" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103193"/>
+      </properties>
+    </object>
+    <object id="14" gid="707" type="obj_rotating_bullet" x="311" y="-617" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103194"/>
+      </properties>
+    </object>
+    <object id="15" gid="707" type="obj_rotating_bullet" x="312" y="-713" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103195"/>
+      </properties>
+    </object>
+    <object id="16" gid="707" type="obj_rotating_bullet" x="311" y="-713" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103196"/>
+      </properties>
+    </object>
+    <object id="17" gid="707" type="obj_rotating_bullet" x="311" y="-713" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103197"/>
+      </properties>
+    </object>
+    <object id="18" gid="707" type="obj_rotating_bullet" x="312" y="-809" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103198"/>
+      </properties>
+    </object>
+    <object id="19" gid="707" type="obj_rotating_bullet" x="312" y="-809" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103199"/>
+      </properties>
+    </object>
+    <object id="20" gid="707" type="obj_rotating_bullet" x="311" y="-809" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103200"/>
+      </properties>
+    </object>
+    <object id="21" gid="707" type="obj_rotating_bullet" x="311" y="-905" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103201"/>
+      </properties>
+    </object>
+    <object id="22" gid="707" type="obj_rotating_bullet" x="311" y="-905" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103202"/>
+      </properties>
+    </object>
+    <object id="23" gid="707" type="obj_rotating_bullet" x="311" y="-905" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103203"/>
+      </properties>
+    </object>
+    <object id="24" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103204"/>
+      </properties>
+    </object>
+    <object id="25" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103205"/>
+      </properties>
+    </object>
+    <object id="26" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103206"/>
+      </properties>
+    </object>
+    <object id="27" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103207"/>
+      </properties>
+    </object>
+    <object id="28" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103208"/>
+      </properties>
+    </object>
+    <object id="29" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103209"/>
+      </properties>
+    </object>
+    <object id="30" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103210"/>
+      </properties>
+    </object>
+    <object id="31" gid="707" type="obj_rotating_bullet" x="311" y="-1840" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103211"/>
+      </properties>
+    </object>
+    <object id="32" gid="707" type="obj_rotating_bullet" x="310" y="-3266" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103212"/>
+      </properties>
+    </object>
+    <object id="33" gid="707" type="obj_rotating_bullet" x="311" y="-3266" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103213"/>
+      </properties>
+    </object>
+    <object id="34" gid="707" type="obj_rotating_bullet" x="311" y="-3336" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103214"/>
+      </properties>
+    </object>
+    <object id="35" gid="707" type="obj_rotating_bullet" x="311" y="-3336" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103215"/>
+      </properties>
+    </object>
+    <object id="36" gid="707" type="obj_rotating_bullet" x="311" y="-3406" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103216"/>
+      </properties>
+    </object>
+    <object id="37" gid="707" type="obj_rotating_bullet" x="311" y="-3406" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103217"/>
+      </properties>
+    </object>
+    <object id="38" gid="707" type="obj_rotating_bullet" x="311" y="-3476" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103218"/>
+      </properties>
+    </object>
+    <object id="39" gid="707" type="obj_rotating_bullet" x="311" y="-3476" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103219"/>
+      </properties>
+    </object>
+    <object id="40" gid="707" type="obj_rotating_bullet" x="310" y="-3546" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103220"/>
+      </properties>
+    </object>
+    <object id="41" gid="707" type="obj_rotating_bullet" x="312" y="-3546" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103221"/>
+      </properties>
+    </object>
+    <object id="42" gid="707" type="obj_rotating_bullet" x="311" y="-3616" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103222"/>
+      </properties>
+    </object>
+    <object id="43" gid="707" type="obj_rotating_bullet" x="312" y="-3616" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103223"/>
+      </properties>
+    </object>
+    <object id="44" gid="707" type="obj_rotating_bullet" x="311" y="-3686" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103224"/>
+      </properties>
+    </object>
+    <object id="45" gid="707" type="obj_rotating_bullet" x="311" y="-3686" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103225"/>
+      </properties>
+    </object>
+    <object id="46" gid="707" type="obj_rotating_bullet" x="310" y="-3196" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103226"/>
+      </properties>
+    </object>
+    <object id="47" gid="707" type="obj_rotating_bullet" x="310" y="-3196" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103227"/>
+      </properties>
+    </object>
+    <object id="48" gid="707" type="obj_rotating_bullet" x="309" y="-3126" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103228"/>
+      </properties>
+    </object>
+    <object id="49" gid="707" type="obj_rotating_bullet" x="309" y="-3126" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103229"/>
+      </properties>
+    </object>
+    <object id="50" gid="704" type="obj_doorAny" x="400" y="2100" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103230"/>
+      </properties>
+    </object>
+    <object id="51" gid="705" type="obj_markerAny" x="420" y="2054" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103231"/>
+      </properties>
+    </object>
+    <object id="52" gid="708" type="obj_solidblockDark" x="0" y="1800" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103232"/>
+      </properties>
+    </object>
+    <object id="53" gid="708" type="obj_solidblockDark" x="360" y="1840" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103233"/>
+      </properties>
+    </object>
+    <object id="54" gid="708" type="obj_solidblockDark" x="480" y="1680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103234"/>
+      </properties>
+    </object>
+    <object id="55" gid="708" type="obj_solidblockDark" x="343" y="1680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103235"/>
+      </properties>
+    </object>
+    <object id="56" gid="708" type="obj_solidblockDark" x="0" y="1680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103236"/>
+      </properties>
+    </object>
+    <object id="57" gid="708" type="obj_solidblockDark" x="343" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103237"/>
+      </properties>
+    </object>
+    <object id="58" gid="708" type="obj_solidblockDark" x="260" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103238"/>
+      </properties>
+    </object>
+    <object id="59" gid="709" type="obj_cutscene_stairlooper" x="106" y="931" width="23" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="103239"/>
+      </properties>
+    </object>
+    <object id="60" gid="710" type="obj_climbingarea" x="301" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103240"/>
+      </properties>
+    </object>
+    <object id="61" gid="711" type="ob_rotating_tower_black_bg" x="0" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103241"/>
+      </properties>
+    </object>
+    <object id="62" type="obj_rotating_bg_controller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103242"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="63" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

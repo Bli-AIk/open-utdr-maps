@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="2" nextobjectid="3" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_heart_another.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" type="obj_afinal_body" x="320" y="48" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="114027"/>
+      </properties>
+    </object>
+    <object id="2" gid="1" type="obj_heart_another" x="320" y="384" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="114028"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

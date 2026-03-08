@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="2" nextobjectid="4" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_heart_another.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_asriel_body.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" type="obj_roundedge" x="32" y="240" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="114024"/>
+      </properties>
+    </object>
+    <object id="2" gid="1" type="obj_heart_another" x="304" y="336" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="114025"/>
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_asriel_body" x="161" y="173" width="61" height="112">
+      <properties>
+        <property name="instanceId" type="int" value="114026"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

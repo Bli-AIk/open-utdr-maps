@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="128" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="10">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_mansion_top.tsx"/>
+  <tileset firstgid="100" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="101" source="tilesets/obj_ch2_scene27.tsx"/>
+  <tileset firstgid="102" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="103" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="104" source="tilesets/obj_soliddark.tsx"/>
+  <layer id="1" name="TILES" width="64" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,50,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="100" type="obj_mainchara" x="40" y="295" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107299"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="107300"/>
+      </properties>
+    </object>
+    <object id="3" gid="101" type="obj_ch2_scene27" x="0" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107301"/>
+      </properties>
+    </object>
+    <object id="4" gid="102" type="obj_markerA" x="42" y="331" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107302"/>
+      </properties>
+    </object>
+    <object id="5" gid="103" type="obj_doorB" x="-35" y="281" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107303"/>
+      </properties>
+    </object>
+    <object id="6" gid="104" type="obj_soliddark" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107304"/>
+      </properties>
+    </object>
+    <object id="7" gid="104" type="obj_soliddark" x="-10" y="379" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107305"/>
+      </properties>
+    </object>
+    <object id="8" gid="104" type="obj_soliddark" x="2550" y="258" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107306"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="9" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>
