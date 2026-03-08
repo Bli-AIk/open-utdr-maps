@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="17">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="35" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="617" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="618" source="tilesets/obj_bell_small_playable.tsx"/>
+  <tileset firstgid="619" source="tilesets/obj_solidblockDark.tsx"/>
+  <layer id="1" name="TILES_MAIN" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,43,44,41,42,43,44,41,42,43,44,0,0,0,0,47,48,49,50,47,48,49,50,47,48,49,50,0,0,0,0,47,48,49,50,47,48,49,50,47,48,49,50,0,0,0,0,128,129,129,129,129,129,129,129,129,129,129,130,0,0,0,0,134,135,135,135,135,135,135,135,135,135,135,136,0,0,0,0,140,141,141,141,141,165,166,141,141,141,141,142,0,0,0,0,146,146,146,146,146,134,136,146,146,146,146,146,0,0,0,0,146,146,146,146,146,134,136,146,146,146,146,146,0,0,0,0,146,146,146,146,146,134,136,146,146,146,146,146,0,0,0,0,146,146,146,146,146,134,136,146,146,146,146,146,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_DITHER" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,0,0,10,10,10,10,10,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_FAKE_MAIN" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,141,141,0,0,0,0,0,0,0,0,0,0,0,0,146,146,146,146,0,0,0,0,0,0,0,0,0,0,0,0,146,146,146,146,0,0,0,0,0,0,0,0,0,0,0,0,0,146,146,146,0,0,0,0,0,0,0,0,0,0,0,0,0,146,146,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_FAKE_DITHER" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,10,10,10,10,10,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="1" gid="617" type="obj_mainchara" x="320" y="237" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="102120"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102121"/>
+      </properties>
+    </object>
+    <object id="3" gid="618" type="obj_bell_small_playable" x="149" y="134" width="19" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102122"/>
+      </properties>
+    </object>
+    <object id="4" gid="618" type="obj_bell_small_playable" x="229" y="146" width="19" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102123"/>
+      </properties>
+    </object>
+    <object id="5" gid="618" type="obj_bell_small_playable" x="309" y="134" width="19" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102124"/>
+      </properties>
+    </object>
+    <object id="6" gid="618" type="obj_bell_small_playable" x="389" y="146" width="19" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102125"/>
+      </properties>
+    </object>
+    <object id="7" gid="618" type="obj_bell_small_playable" x="469" y="134" width="19" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102126"/>
+      </properties>
+    </object>
+    <object id="8" type="obj_bellListener" x="80" y="360" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102127"/>
+      </properties>
+    </object>
+    <object id="9" gid="619" type="obj_solidblockDark" x="40" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102128"/>
+      </properties>
+    </object>
+    <object id="10" gid="619" type="obj_solidblockDark" x="560" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102129"/>
+      </properties>
+    </object>
+    <object id="11" gid="619" type="obj_solidblockDark" x="360" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102130"/>
+      </properties>
+    </object>
+    <object id="12" gid="619" type="obj_solidblockDark" x="40" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102131"/>
+      </properties>
+    </object>
+    <object id="13" gid="619" type="obj_solidblockDark" x="40" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102132"/>
+      </properties>
+    </object>
+    <object id="14" gid="619" type="obj_solidblockDark" x="240" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102133"/>
+      </properties>
+    </object>
+    <object id="15" gid="619" type="obj_solidblockDark" x="360" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102134"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="views">
+    <object id="16" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="82" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="16">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_bf2_tileset.tsx"/>
+  <tileset firstgid="141" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="142" source="tilesets/obj_room_dungeon_2f.tsx"/>
+  <tileset firstgid="143" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="144" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="145" source="tilesets/obj_markerw.tsx"/>
+  <tileset firstgid="146" source="tilesets/obj_npc_king.tsx"/>
+  <layer id="1" name="TILES" width="41" height="12">
+    <data encoding="csv">0,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,122,0,0,0,0,0,127,113,114,114,114,114,113,114,115,114,114,113,115,114,113,114,114,129,0,127,100,100,106,100,108,100,100,101,107,100,100,100,100,100,100,129,0,0,0,0,0,127,111,0,0,0,0,0,85,86,0,0,0,0,0,0,0,0,129,0,127,106,107,108,100,107,108,100,100,100,108,100,100,106,100,100,129,0,0,0,0,0,127,0,0,0,0,0,0,0,110,0,0,0,111,0,0,117,0,129,0,127,113,114,115,114,114,113,114,114,114,114,115,113,114,114,114,112,121,121,121,121,121,109,111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0,127,110,0,110,0,0,0,118,0,0,0,0,0,0,0,118,99,100,100,100,100,100,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0,127,0,0,0,0,0,0,0,0,0,0,111,0,0,0,0,106,100,100,100,100,100,108,0,111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,114,114,114,114,114,115,0,0,110,0,0,110,0,0,117,0,0,117,0,0,110,0,129,0,127,0,0,0,0,110,0,0,0,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,129,0,0,135,124,0,0,125,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,0,0,0,0,127,0,0,129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,0,0,129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_PRISON" width="41" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,16,17,18,19,0,0,0,0,0,0,0,57,58,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,24,25,26,0,0,0,0,0,0,0,64,65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,30,31,32,33,0,0,0,0,0,0,0,71,72,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,37,38,39,40,0,0,0,0,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,44,45,46,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,51,52,53,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_BARS" width="41" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,80,82,80,80,80,80,80,81,82,80,80,82,80,80,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,87,87,89,87,87,88,87,87,89,87,87,87,87,88,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,89,87,87,87,87,87,87,87,87,87,87,87,87,87,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,87,87,87,89,87,87,87,88,87,87,88,87,87,87,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,94,94,94,94,94,94,94,95,94,94,94,94,95,94,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="141" type="obj_mainchara" x="143" y="293" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101802"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="101803"/>
+      </properties>
+    </object>
+    <object id="3" gid="142" type="obj_room_dungeon_2f" x="1044" y="305" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101804"/>
+      </properties>
+    </object>
+    <object id="4" gid="143" type="obj_soliddark" x="641" y="190" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101805"/>
+      </properties>
+    </object>
+    <object id="5" gid="143" type="obj_soliddark" x="278" y="402" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101806"/>
+      </properties>
+    </object>
+    <object id="6" gid="143" type="obj_soliddark" x="1561" y="300" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101807"/>
+      </properties>
+    </object>
+    <object id="7" gid="143" type="obj_soliddark" x="907" y="263" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101808"/>
+      </properties>
+    </object>
+    <object id="8" gid="143" type="obj_soliddark" x="40" y="129" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101809"/>
+      </properties>
+    </object>
+    <object id="9" gid="143" type="obj_soliddark" x="0" y="196" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101810"/>
+      </properties>
+    </object>
+    <object id="10" gid="143" type="obj_soliddark" x="40" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101811"/>
+      </properties>
+    </object>
+    <object id="11" gid="144" type="obj_doorW" x="110" y="490" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101812"/>
+      </properties>
+    </object>
+    <object id="12" gid="145" type="obj_markerw" x="150" y="434" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="101813"/>
+      </properties>
+    </object>
+    <object id="13" gid="143" type="obj_soliddark" x="200" y="399" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101814"/>
+      </properties>
+    </object>
+    <object id="14" gid="146" type="obj_npc_king" x="1196" y="210" width="50" height="53">
+      <properties>
+        <property name="instanceId" type="int" value="101815"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="15" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

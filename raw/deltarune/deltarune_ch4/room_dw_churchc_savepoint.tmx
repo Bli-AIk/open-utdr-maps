@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="64" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="33">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_c_tileset.tsx"/>
+  <tileset firstgid="271" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="853" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="854" source="tilesets/obj_dw_churchc_savepoint.tsx"/>
+  <tileset firstgid="855" source="tilesets/obj_savepoint.tsx"/>
+  <tileset firstgid="856" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="857" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="858" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="859" source="tilesets/obj_proxycandle.tsx"/>
+  <tileset firstgid="860" source="tilesets/obj_dw_churchc_savepoint_judgmentbell.tsx"/>
+  <layer id="1" name="TILES" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,751,752,753,754,0,0,0,0,0,0,0,0,0,0,0,0,757,758,759,760,0,0,0,0,0,0,0,0,0,0,0,0,763,764,765,766,0,0,0,0,0,0,0,0,0,0,0,0,769,770,771,772,0,0,0,0,0,0,0,0,0,0,0,0,775,776,777,778,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,0,0,0,0,0,327,327,327,327,0,0,0,0,0,0,0,368,368,368,368,368,368,368,368,368,368,368,368,368,368,0,0,368,368,368,368,368,368,368,368,368,368,368,368,368,368,0,0,0,0,0,0,0,0,368,368,0,0,0,0,0,0,0,0,0,0,0,0,0,0,368,368,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_SHADER" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,31,0,0,0,0,0,0,0,0,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,31,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_NEW_MID" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,48,48,48,48,48,48,48,48,48,48,48,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_NEW_BACK" width="16" height="32">
+    <data encoding="csv">224,224,224,224,224,224,0,0,0,0,224,224,224,211,224,224,211,215,213,215,211,215,0,0,0,0,215,213,215,211,215,213,211,224,213,224,211,224,0,0,0,0,224,213,224,211,224,213,211,215,212,221,212,215,0,0,0,0,215,212,221,212,215,213,211,224,213,0,211,224,0,0,0,0,224,213,0,211,224,213,211,215,213,0,211,215,0,0,0,0,215,213,0,211,215,213,211,224,213,0,211,224,0,0,0,0,224,213,0,211,224,213,211,215,213,0,211,215,0,0,0,0,215,213,0,211,215,213,211,224,213,0,211,224,227,0,0,227,224,213,0,211,224,213,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,263,227,0,0,227,262,0,0,0,0,0,0,0,0,0,0,245,0,0,0,0,244,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_NEW" width="16" height="32">
+    <data encoding="csv">131,154,131,131,131,154,137,0,0,139,154,131,131,131,154,131,131,154,131,131,131,154,146,0,0,148,154,131,131,131,154,131,131,154,131,131,131,154,155,0,0,157,154,131,131,131,154,131,130,127,128,129,130,127,164,0,0,157,127,128,129,130,127,128,139,136,137,138,139,136,155,0,0,157,136,137,138,139,136,137,148,145,146,147,148,145,155,0,0,157,145,146,147,148,145,146,157,154,155,156,157,154,155,0,0,157,154,155,156,157,154,155,166,154,164,165,166,154,155,0,0,157,154,164,165,166,154,164,174,127,174,174,174,127,245,217,218,244,127,174,174,174,127,174,212,136,212,212,212,136,245,217,218,244,136,212,212,212,136,212,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,0,0,0,0,0,245,217,218,244,0,0,0,0,0,0,0,226,227,227,227,228,14,6,14,6,226,227,227,227,228,0,0,37,38,39,40,39,39,39,39,39,39,39,39,39,41,0,0,55,56,56,57,57,57,57,57,57,57,57,57,57,59,0,0,28,28,28,28,28,28,5,6,28,28,28,28,28,28,0,0,0,0,0,0,0,0,14,15,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="1" gid="853" type="obj_mainchara" x="240" y="1113" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="110004"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="-40" y="-40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="110005"/>
+      </properties>
+    </object>
+    <object id="3" gid="854" type="obj_dw_churchc_savepoint" x="-40" y="9" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="110006"/>
+      </properties>
+    </object>
+    <object id="4" gid="855" type="obj_savepoint" x="240" y="1099" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="110007"/>
+      </properties>
+    </object>
+    <object id="5" gid="856" type="obj_markerAny" x="438" y="1150" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="110008"/>
+      </properties>
+    </object>
+    <object id="6" type="obj_layershader" x="0" y="840" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="110009"/>
+      </properties>
+    </object>
+    <object id="7" gid="857" type="obj_doorAny" x="280" y="256" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110010"/>
+      </properties>
+    </object>
+    <object id="8" gid="856" type="obj_markerAny" x="300" y="326" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="110011"/>
+      </properties>
+    </object>
+    <object id="9" gid="857" type="obj_doorAny" x="280" y="1314" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110012"/>
+      </properties>
+    </object>
+    <object id="10" gid="856" type="obj_markerAny" x="300" y="1268" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="110013"/>
+      </properties>
+    </object>
+    <object id="11" gid="858" type="obj_solidblocksized" x="240" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110014"/>
+      </properties>
+    </object>
+    <object id="12" gid="858" type="obj_solidblocksized" x="360" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110015"/>
+      </properties>
+    </object>
+    <object id="13" gid="858" type="obj_solidblocksized" x="400" y="1120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110016"/>
+      </properties>
+    </object>
+    <object id="14" gid="858" type="obj_solidblocksized" x="600" y="1160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110017"/>
+      </properties>
+    </object>
+    <object id="15" gid="858" type="obj_solidblocksized" x="360" y="1240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110018"/>
+      </properties>
+    </object>
+    <object id="16" gid="858" type="obj_solidblocksized" x="0" y="1240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110019"/>
+      </properties>
+    </object>
+    <object id="17" gid="858" type="obj_solidblocksized" x="0" y="1120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110020"/>
+      </properties>
+    </object>
+    <object id="18" gid="858" type="obj_solidblocksized" x="40" y="1120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="110021"/>
+      </properties>
+    </object>
+    <object id="19" gid="856" type="obj_markerAny" x="174" y="1150" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="110022"/>
+      </properties>
+    </object>
+    <object id="20" gid="859" type="obj_proxycandle" x="194" y="1026" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110023"/>
+      </properties>
+    </object>
+    <object id="21" gid="859" type="obj_proxycandle" x="434" y="1026" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110024"/>
+      </properties>
+    </object>
+    <object id="22" gid="859" type="obj_proxycandle" x="194" y="898" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110025"/>
+      </properties>
+    </object>
+    <object id="23" gid="859" type="obj_proxycandle" x="434" y="898" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110026"/>
+      </properties>
+    </object>
+    <object id="24" gid="859" type="obj_proxycandle" x="434" y="770" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110027"/>
+      </properties>
+    </object>
+    <object id="25" gid="859" type="obj_proxycandle" x="194" y="770" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110028"/>
+      </properties>
+    </object>
+    <object id="26" gid="859" type="obj_proxycandle" x="434" y="642" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110029"/>
+      </properties>
+    </object>
+    <object id="27" gid="859" type="obj_proxycandle" x="194" y="642" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110030"/>
+      </properties>
+    </object>
+    <object id="28" gid="859" type="obj_proxycandle" x="194" y="514" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110031"/>
+      </properties>
+    </object>
+    <object id="29" gid="859" type="obj_proxycandle" x="434" y="514" width="5" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="110032"/>
+      </properties>
+    </object>
+    <object id="30" type="obj_layershader" x="0" y="800" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="110033"/>
+      </properties>
+    </object>
+    <object id="31" gid="860" type="obj_dw_churchc_savepoint_judgmentbell" x="531" y="1058" width="19" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110034"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="views">
+    <object id="32" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

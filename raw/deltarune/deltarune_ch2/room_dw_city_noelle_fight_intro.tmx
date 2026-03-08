@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="64" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="5">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
+  <tileset firstgid="346" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="347" source="tilesets/obj_chaseenemy.tsx"/>
+  <layer id="1" name="BG_Tiles" width="32" height="12">
+    <data encoding="csv">0,0,0,122,123,133,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,122,123,133,134,245,245,245,245,245,245,245,245,246,245,245,245,244,245,245,245,245,245,245,245,246,0,0,0,0,0,0,0,122,123,133,134,260,260,260,260,260,260,260,260,261,260,260,260,259,260,260,260,260,260,260,260,261,0,0,0,0,0,0,0,122,123,133,134,275,275,275,275,275,275,275,275,276,275,275,275,274,275,275,275,275,275,275,275,276,0,0,0,0,0,0,0,122,123,133,134,290,290,290,290,290,290,290,290,291,95,95,95,289,290,290,290,290,290,290,290,291,0,0,0,0,0,0,0,122,123,133,134,305,305,305,305,305,305,305,305,306,128,128,128,304,305,305,305,305,305,305,305,306,0,0,0,0,0,0,0,122,123,128,100,95,95,95,95,95,95,95,95,95,128,128,128,95,95,95,95,95,95,95,95,128,0,0,0,0,0,0,0,122,123,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,0,0,0,0,0,0,0,201,202,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,0,0,0,0,0,0,0,216,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,0,128,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,128,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="346" type="obj_mainchara" x="180" y="76" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="104553"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104554"/>
+      </properties>
+    </object>
+    <object id="3" gid="347" type="obj_chaseenemy" x="680" y="160" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104555"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="4" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="58">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_cctiles.tsx"/>
+  <tileset firstgid="145" source="tilesets/bg_dw_castle_dojo_tileset.tsx"/>
+  <tileset firstgid="289" source="tilesets/bg_cc_throneroom_tiles_tileset.tsx"/>
+  <tileset firstgid="379" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="380" source="tilesets/obj_dojofx.tsx"/>
+  <tileset firstgid="381" source="tilesets/obj_room_castle_dojo.tsx"/>
+  <tileset firstgid="382" source="tilesets/obj_readable_room1.tsx"/>
+  <tileset firstgid="383" source="tilesets/obj_ch2_dojo_allstarsPlaylist.tsx"/>
+  <tileset firstgid="384" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="385" source="tilesets/obj_markerX.tsx"/>
+  <tileset firstgid="386" source="tilesets/obj_doorX.tsx"/>
+  <tileset firstgid="387" source="tilesets/obj_solidblocksized.tsx"/>
+  <objectgroup id="1" name="depth_1300000_tiles">
+    <object id="1" gid="2" x="320" y="160" width="40" height="40"/>
+    <object id="2" gid="2" x="360" y="160" width="40" height="40"/>
+    <object id="3" gid="2" x="400" y="160" width="40" height="40"/>
+    <object id="4" gid="14" x="200" y="320" width="40" height="40"/>
+    <object id="5" gid="14" x="240" y="320" width="40" height="40"/>
+    <object id="6" gid="7" x="280" y="360" width="40" height="40"/>
+    <object id="7" gid="7" x="280" y="400" width="40" height="40"/>
+    <object id="8" gid="7" x="280" y="440" width="40" height="40"/>
+    <object id="9" gid="9" x="320" y="360" width="40" height="40"/>
+    <object id="10" gid="9" x="320" y="400" width="40" height="40"/>
+    <object id="11" gid="9" x="320" y="440" width="40" height="40"/>
+    <object id="12" gid="14" x="360" y="320" width="40" height="40"/>
+    <object id="13" gid="14" x="400" y="320" width="40" height="40"/>
+    <object id="14" gid="7" x="280" y="480" width="40" height="40"/>
+    <object id="15" gid="9" x="320" y="480" width="40" height="40"/>
+    <object id="16" gid="3" x="520" y="160" width="40" height="40"/>
+    <object id="17" gid="1" x="80" y="160" width="40" height="40"/>
+    <object id="18" gid="2" x="120" y="160" width="40" height="40"/>
+    <object id="19" gid="2" x="160" y="160" width="40" height="40"/>
+    <object id="20" gid="2" x="200" y="160" width="40" height="40"/>
+    <object id="21" gid="2" x="240" y="160" width="40" height="40"/>
+    <object id="22" gid="2" x="280" y="160" width="40" height="40"/>
+    <object id="23" gid="7" x="80" y="200" width="40" height="40"/>
+    <object id="24" gid="7" x="80" y="240" width="40" height="40"/>
+    <object id="25" gid="7" x="80" y="280" width="40" height="40"/>
+    <object id="26" gid="13" x="80" y="320" width="40" height="40"/>
+    <object id="27" gid="14" x="120" y="320" width="40" height="40"/>
+    <object id="28" gid="14" x="160" y="320" width="40" height="40"/>
+    <object id="29" gid="14" x="440" y="320" width="40" height="40"/>
+    <object id="30" gid="14" x="480" y="320" width="40" height="40"/>
+    <object id="31" gid="15" x="520" y="320" width="40" height="40"/>
+    <object id="32" gid="9" x="520" y="280" width="40" height="40"/>
+    <object id="33" gid="9" x="520" y="240" width="40" height="40"/>
+    <object id="34" gid="9" x="520" y="200" width="40" height="40"/>
+    <object id="35" gid="2" x="440" y="160" width="40" height="40"/>
+    <object id="36" gid="2" x="480" y="160" width="40" height="40"/>
+    <object id="37" gid="4" x="320" y="320" width="40" height="40"/>
+    <object id="38" gid="5" x="280" y="320" width="40" height="40"/>
+  </objectgroup>
+  <layer id="2" name="BG_Bed" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,339,340,341,342,0,0,0,0,0,0,0,0,0,0,0,0,345,346,347,348,0,0,0,0,0,0,0,0,0,0,0,0,351,352,353,354,0,0,0,0,0,0,0,0,0,0,0,0,357,358,359,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_BG" width="16" height="12">
+    <data encoding="csv">0,0,182,0,0,0,0,0,0,0,0,0,0,184,0,0,0,0,182,0,0,0,0,0,0,0,0,0,0,184,0,0,0,0,182,0,0,0,0,0,0,0,0,0,0,184,0,0,0,0,220,157,157,157,0,0,0,0,0,0,0,184,0,0,0,0,170,171,171,171,171,171,171,171,171,171,171,234,0,0,0,0,182,0,157,157,0,0,0,0,0,0,0,184,0,0,0,0,220,244,244,244,0,0,0,0,244,244,244,221,0,0,0,0,220,244,244,244,0,0,0,0,244,244,244,221,0,0,0,0,220,244,244,244,0,0,0,0,244,244,244,221,0,0,0,0,267,195,195,195,195,268,269,195,195,195,195,270,0,0,0,0,0,0,0,167,168,280,281,191,192,0,0,0,0,0,0,0,0,0,0,179,180,280,281,203,204,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="39" gid="379" type="obj_mainchara" x="300" y="416" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101739"/>
+      </properties>
+    </object>
+    <object id="40" type="obj_darkcontroller" x="-40" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="101740"/>
+      </properties>
+    </object>
+    <object id="41" gid="380" type="obj_dojofx" x="290" y="60" width="56" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="101741"/>
+      </properties>
+    </object>
+    <object id="42" gid="381" type="obj_room_castle_dojo" x="-40" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101742"/>
+      </properties>
+    </object>
+    <object id="43" gid="382" type="obj_readable_room1" x="79" y="298" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101743"/>
+      </properties>
+    </object>
+    <object id="44" gid="383" type="obj_ch2_dojo_allstarsPlaylist" x="-40" y="95" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="101744"/>
+      </properties>
+    </object>
+    <object id="45" gid="384" type="obj_musicer_gen" x="-40" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101745"/>
+      </properties>
+    </object>
+    <object id="46" gid="385" type="obj_markerX" x="300" y="453" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="101746"/>
+      </properties>
+    </object>
+    <object id="47" gid="386" type="obj_doorX" x="280" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101747"/>
+      </properties>
+    </object>
+    <object id="48" gid="387" type="obj_solidblocksized" x="0" y="436" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101748"/>
+      </properties>
+    </object>
+    <object id="49" gid="387" type="obj_solidblocksized" x="0" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101749"/>
+      </properties>
+    </object>
+    <object id="50" gid="387" type="obj_solidblocksized" x="556" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101750"/>
+      </properties>
+    </object>
+    <object id="51" gid="387" type="obj_solidblocksized" x="356" y="436" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101751"/>
+      </properties>
+    </object>
+    <object id="52" gid="387" type="obj_solidblocksized" x="189" y="348" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101752"/>
+      </properties>
+    </object>
+    <object id="53" gid="387" type="obj_solidblocksized" x="84" y="334" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101753"/>
+      </properties>
+    </object>
+    <object id="54" gid="387" type="obj_solidblocksized" x="119" y="300" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101754"/>
+      </properties>
+    </object>
+    <object id="55" gid="387" type="obj_solidblocksized" x="189" y="338" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101755"/>
+      </properties>
+    </object>
+    <object id="56" gid="387" type="obj_solidblocksized" x="84" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101756"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="57" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

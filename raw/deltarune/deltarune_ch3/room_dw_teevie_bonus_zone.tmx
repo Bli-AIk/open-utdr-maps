@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="96" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="16">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
+  <tileset firstgid="271" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="272" source="tilesets/obj_room_teevie_bonus_zone.tsx"/>
+  <tileset firstgid="273" source="tilesets/obj_musicer_teevie.tsx"/>
+  <tileset firstgid="274" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="275" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="276" source="tilesets/obj_markerAny.tsx"/>
+  <layer id="1" name="TILES" width="48" height="12">
+    <data encoding="csv">19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,0,0,0,0,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,19,19,0,0,0,0,0,0,0,0,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,19,19,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,19,19,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,19,19,107,107,83,84,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,92,92,93,19,19,19,19,92,93,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,107,107,107,19,19,19,19,83,84,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,92,93,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,83,84,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="271" type="obj_mainchara" x="182" y="425" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="109296"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="109297"/>
+      </properties>
+    </object>
+    <object id="3" gid="272" type="obj_room_teevie_bonus_zone" x="40" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109298"/>
+      </properties>
+    </object>
+    <object id="4" gid="273" type="obj_musicer_teevie" x="80" y="24" width="26" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="109299"/>
+      </properties>
+    </object>
+    <object id="5" gid="274" type="obj_solidblocksized" x="80" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109300"/>
+      </properties>
+    </object>
+    <object id="6" gid="274" type="obj_solidblocksized" x="240" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109301"/>
+      </properties>
+    </object>
+    <object id="7" gid="275" type="obj_doorAny" x="1920" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109302"/>
+      </properties>
+    </object>
+    <object id="8" gid="276" type="obj_markerAny" x="181" y="463" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109303"/>
+      </properties>
+    </object>
+    <object id="9" gid="276" type="obj_markerAny" x="1873" y="254" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109304"/>
+      </properties>
+    </object>
+    <object id="10" gid="275" type="obj_doorAny" x="160" y="520" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109305"/>
+      </properties>
+    </object>
+    <object id="11" gid="274" type="obj_solidblocksized" x="80" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109306"/>
+      </properties>
+    </object>
+    <object id="12" gid="274" type="obj_solidblocksized" x="40" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109307"/>
+      </properties>
+    </object>
+    <object id="13" gid="274" type="obj_solidblocksized" x="1800" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109308"/>
+      </properties>
+    </object>
+    <object id="14" gid="274" type="obj_solidblocksized" x="480" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109309"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="15" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>
