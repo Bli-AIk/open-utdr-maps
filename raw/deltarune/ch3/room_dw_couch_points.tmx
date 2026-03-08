@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="16">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_noodles_tileset.tsx"/>
+  <tileset firstgid="241" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="242" source="tilesets/obj_dustpile.tsx"/>
+  <tileset firstgid="243" source="tilesets/obj_circlezoom.tsx"/>
+  <tileset firstgid="244" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="245" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="246" source="tilesets/obj_markerAny.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,40,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,41,14,15,14,15,14,15,14,94,0,0,0,0,0,0,40,41,40,41,40,41,40,50,51,41,0,0,0,0,0,0,40,41,40,41,40,41,40,41,40,41,0,0,0,0,0,0,40,41,24,25,40,41,40,41,40,41,0,0,0,0,0,0,40,41,40,41,40,41,40,41,40,41,0,0,0,0,0,0,27,28,40,41,40,41,40,41,40,41,0,0,0,0,0,0,132,67,66,67,66,67,66,67,66,67,0,0,0,0,0,0,160,0,160,0,0,0,160,0,0,160,0,0,0,0,0,0,173,0,173,0,0,0,173,0,0,173,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="241" type="obj_mainchara" x="143" y="64" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="108484"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108485"/>
+      </properties>
+    </object>
+    <object id="3" gid="242" type="obj_dustpile" x="133" y="314" width="63" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="108486"/>
+      </properties>
+    </object>
+    <object id="4" gid="242" type="obj_dustpile" x="223" y="145" width="63" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="108487"/>
+      </properties>
+    </object>
+    <object id="5" gid="242" type="obj_dustpile" x="276" y="276" width="63" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="108488"/>
+      </properties>
+    </object>
+    <object id="6" gid="242" type="obj_dustpile" x="389" y="117" width="63" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="108489"/>
+      </properties>
+    </object>
+    <object id="7" type="obj_ch3_couch_overworld_controller" x="0" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108490"/>
+      </properties>
+    </object>
+    <object id="8" gid="243" type="obj_circlezoom" x="0" y="94" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="108491"/>
+      </properties>
+    </object>
+    <object id="9" gid="244" type="obj_solidblocksized" x="80" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108492"/>
+      </properties>
+    </object>
+    <object id="10" gid="244" type="obj_solidblocksized" x="200" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108493"/>
+      </properties>
+    </object>
+    <object id="11" gid="244" type="obj_solidblocksized" x="80" y="418" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108494"/>
+      </properties>
+    </object>
+    <object id="12" gid="244" type="obj_solidblocksized" x="520" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108495"/>
+      </properties>
+    </object>
+    <object id="13" gid="245" type="obj_doorAny" x="80" y="0" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108496"/>
+      </properties>
+    </object>
+    <object id="14" gid="246" type="obj_markerAny" x="144" y="100" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108497"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="15" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="64" height="48" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="40">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="704" source="tilesets/obj_climb_kris.tsx"/>
+  <tileset firstgid="705" source="tilesets/obJ_climb_bulletspawner.tsx"/>
+  <tileset firstgid="706" source="tilesets/obj_climb_susie.tsx"/>
+  <tileset firstgid="707" source="tilesets/obj_climb_susie_controller.tsx"/>
+  <tileset firstgid="708" source="tilesets/obj_genmarker.tsx"/>
+  <tileset firstgid="709" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="710" source="tilesets/obj_climb_climbable.tsx"/>
+  <tileset firstgid="711" source="tilesets/obj_climb_hazardtile.tsx"/>
+  <tileset firstgid="712" source="tilesets/obj_climb_enemy.tsx"/>
+  <layer id="1" name="TILES" width="32" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,152,152,152,152,152,152,152,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,152,152,55,152,55,152,152,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,152,152,55,152,55,55,55,55,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,152,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,152,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,152,152,55,152,55,55,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,55,152,55,55,55,152,55,55,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,55,152,55,55,55,152,55,55,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,55,152,55,152,55,152,55,55,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,55,152,55,152,55,152,55,55,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,55,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,55,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,152,55,152,55,152,55,152,55,152,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,113,113,113,113,113,113,113,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,113,113,113,113,113,113,113,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="703" type="obj_mainchara" x="40" y="397" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101865"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="101866"/>
+      </properties>
+    </object>
+    <object id="3" gid="704" type="obj_climb_kris" x="325" y="832" width="27" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101867"/>
+      </properties>
+    </object>
+    <object id="4" gid="705" type="obJ_climb_bulletspawner" x="534" y="447" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101868"/>
+      </properties>
+    </object>
+    <object id="5" gid="705" type="obJ_climb_bulletspawner" x="534" y="407" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101869"/>
+      </properties>
+    </object>
+    <object id="6" gid="705" type="obJ_climb_bulletspawner" x="534" y="307" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101870"/>
+      </properties>
+    </object>
+    <object id="7" gid="706" type="obj_climb_susie" x="151" y="770" width="30" height="48">
+      <properties>
+        <property name="instanceId" type="int" value="101871"/>
+      </properties>
+    </object>
+    <object id="8" gid="707" type="obj_climb_susie_controller" x="160" y="690" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="101872"/>
+      </properties>
+    </object>
+    <object id="9" gid="707" type="obj_climb_susie_controller" x="400" y="770" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="101873"/>
+      </properties>
+    </object>
+    <object id="10" gid="707" type="obj_climb_susie_controller" x="320" y="730" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="101874"/>
+      </properties>
+    </object>
+    <object id="11" gid="708" type="obj_genmarker" x="240" y="621" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="101875"/>
+      </properties>
+    </object>
+    <object id="12" gid="709" type="obj_solidblockDark" x="0" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101876"/>
+      </properties>
+    </object>
+    <object id="13" gid="710" type="obj_climb_climbable" x="320" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101877"/>
+      </properties>
+    </object>
+    <object id="14" gid="710" type="obj_climb_climbable" x="360" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101878"/>
+      </properties>
+    </object>
+    <object id="15" gid="710" type="obj_climb_climbable" x="240" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101879"/>
+      </properties>
+    </object>
+    <object id="16" gid="710" type="obj_climb_climbable" x="400" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101880"/>
+      </properties>
+    </object>
+    <object id="17" gid="710" type="obj_climb_climbable" x="120" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101881"/>
+      </properties>
+    </object>
+    <object id="18" gid="710" type="obj_climb_climbable" x="400" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101882"/>
+      </properties>
+    </object>
+    <object id="19" gid="710" type="obj_climb_climbable" x="80" y="80" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101883"/>
+      </properties>
+    </object>
+    <object id="20" gid="711" type="obj_climb_hazardtile" x="120" y="880" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101884"/>
+      </properties>
+    </object>
+    <object id="21" gid="710" type="obj_climb_climbable" x="240" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101885"/>
+      </properties>
+    </object>
+    <object id="22" gid="710" type="obj_climb_climbable" x="400" y="520" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101886"/>
+      </properties>
+    </object>
+    <object id="23" gid="710" type="obj_climb_climbable" x="160" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101887"/>
+      </properties>
+    </object>
+    <object id="24" gid="710" type="obj_climb_climbable" x="120" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101888"/>
+      </properties>
+    </object>
+    <object id="25" gid="710" type="obj_climb_climbable" x="440" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101889"/>
+      </properties>
+    </object>
+    <object id="26" gid="710" type="obj_climb_climbable" x="440" y="680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101890"/>
+      </properties>
+    </object>
+    <object id="27" gid="710" type="obj_climb_climbable" x="120" y="680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101891"/>
+      </properties>
+    </object>
+    <object id="28" gid="710" type="obj_climb_climbable" x="280" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101892"/>
+      </properties>
+    </object>
+    <object id="29" gid="712" type="obj_climb_enemy" x="240" y="600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101893"/>
+      </properties>
+    </object>
+    <object id="30" gid="712" type="obj_climb_enemy" x="200" y="680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101894"/>
+      </properties>
+    </object>
+    <object id="31" gid="712" type="obj_climb_enemy" x="400" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101895"/>
+      </properties>
+    </object>
+    <object id="32" gid="712" type="obj_climb_enemy" x="400" y="680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101896"/>
+      </properties>
+    </object>
+    <object id="33" gid="712" type="obj_climb_enemy" x="200" y="600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101897"/>
+      </properties>
+    </object>
+    <object id="34" gid="712" type="obj_climb_enemy" x="320" y="520" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101898"/>
+      </properties>
+    </object>
+    <object id="35" gid="712" type="obj_climb_enemy" x="320" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101899"/>
+      </properties>
+    </object>
+    <object id="36" gid="712" type="obj_climb_enemy" x="320" y="600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101900"/>
+      </properties>
+    </object>
+    <object id="37" gid="712" type="obj_climb_enemy" x="120" y="760" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101901"/>
+      </properties>
+    </object>
+    <object id="38" gid="712" type="obj_climb_enemy" x="480" y="760" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101902"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="39" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

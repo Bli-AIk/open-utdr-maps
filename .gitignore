@@ -1,0 +1,20 @@
+# JetBrains Rider / IntelliJ IDEA
+.idea/
+*.iws
+*.sln.DotSettings.user
+
+# System
+.DS_Store
+Thumbs.db
+
+# Internal communication
+check*.txt
+AGENTS.md
+GEMINI.md
+agent_*.md
+ai_check.sh
+dev/
+logs/
+
+# UTMT extracted data (intermediate, not for distribution)
+**/extracted/

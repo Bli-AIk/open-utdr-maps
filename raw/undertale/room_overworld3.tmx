@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="6" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_overworldcontroller.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="260" y="369" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="113471"/>
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_markerA" x="120" y="360" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113472"/>
+      </properties>
+    </object>
+    <object id="3" gid="3" type="obj_doorB" x="0" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113473"/>
+      </properties>
+    </object>
+    <object id="4" gid="4" type="obj_overworldcontroller" x="0" y="64" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="113474"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="5" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

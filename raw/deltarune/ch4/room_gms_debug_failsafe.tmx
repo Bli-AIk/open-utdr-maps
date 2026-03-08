@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="2" nextobjectid="3">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_gms_debug_failsafe.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_gms_debug_failsafe" x="280" y="133" width="49" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="100000"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_gamecontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="100001"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

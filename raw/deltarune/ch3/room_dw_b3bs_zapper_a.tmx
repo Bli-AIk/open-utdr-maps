@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="80" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="35">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
+  <tileset firstgid="307" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="308" source="tilesets/obj_dw_b3bs_zapper_a.tsx"/>
+  <tileset firstgid="309" source="tilesets/obj_b3bs_stealth.tsx"/>
+  <tileset firstgid="310" source="tilesets/obj_b3bs_stealtharea.tsx"/>
+  <tileset firstgid="311" source="tilesets/obj_dw_ch3_b3bs_zapperhead.tsx"/>
+  <tileset firstgid="312" source="tilesets/obj_dw_ch3_b3bs_zappera_trashswitch.tsx"/>
+  <tileset firstgid="313" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="314" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="315" source="tilesets/obj_markerAny.tsx"/>
+  <layer id="1" name="FloorTiles" width="40" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,58,0,0,0,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,67,0,0,0,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,67,0,0,0,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,76,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,83,83,84,83,84,92,0,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,19,19,19,19,92,92,92,92,93,92,93,92,93,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FloorTiles_Accents" width="40" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="Foreground_Tiles" width="40" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="307" type="obj_mainchara" x="16" y="255" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="107595"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="107596"/>
+      </properties>
+    </object>
+    <object id="3" gid="308" type="obj_dw_b3bs_zapper_a" x="-40" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107597"/>
+      </properties>
+    </object>
+    <object id="4" gid="309" type="obj_b3bs_stealth" x="-40" y="56" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107598"/>
+      </properties>
+    </object>
+    <object id="5" gid="310" type="obj_b3bs_stealtharea" x="360" y="241" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="107599"/>
+      </properties>
+    </object>
+    <object id="6" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="368" y="440" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107600"/>
+      </properties>
+    </object>
+    <object id="7" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="436" y="465" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107601"/>
+      </properties>
+    </object>
+    <object id="8" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="488" y="422" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107602"/>
+      </properties>
+    </object>
+    <object id="9" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="537" y="472" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107603"/>
+      </properties>
+    </object>
+    <object id="10" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="608" y="432" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107604"/>
+      </properties>
+    </object>
+    <object id="11" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="662" y="465" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107605"/>
+      </properties>
+    </object>
+    <object id="12" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="721" y="430" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107606"/>
+      </properties>
+    </object>
+    <object id="13" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="778" y="463" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107607"/>
+      </properties>
+    </object>
+    <object id="14" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="835" y="425" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107608"/>
+      </properties>
+    </object>
+    <object id="15" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="898" y="465" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107609"/>
+      </properties>
+    </object>
+    <object id="16" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="961" y="430" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107610"/>
+      </properties>
+    </object>
+    <object id="17" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="1010" y="473" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107611"/>
+      </properties>
+    </object>
+    <object id="18" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="1090" y="478" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107612"/>
+      </properties>
+    </object>
+    <object id="19" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="1056" y="419" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107613"/>
+      </properties>
+    </object>
+    <object id="20" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="1147" y="419" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107614"/>
+      </properties>
+    </object>
+    <object id="21" gid="311" type="obj_dw_ch3_b3bs_zapperhead" x="1197" y="463" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107615"/>
+      </properties>
+    </object>
+    <object id="22" gid="312" type="obj_dw_ch3_b3bs_zappera_trashswitch" x="1392" y="197" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107616"/>
+      </properties>
+    </object>
+    <object id="23" gid="313" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107617"/>
+      </properties>
+    </object>
+    <object id="24" gid="313" type="obj_solidblocksized" x="-160" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107618"/>
+      </properties>
+    </object>
+    <object id="25" gid="314" type="obj_doorAny" x="-32" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107619"/>
+      </properties>
+    </object>
+    <object id="26" gid="313" type="obj_solidblocksized" x="200" y="216" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107620"/>
+      </properties>
+    </object>
+    <object id="27" gid="314" type="obj_doorAny" x="200" y="232" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107621"/>
+      </properties>
+    </object>
+    <object id="28" gid="315" type="obj_markerAny" x="220" y="264" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107622"/>
+      </properties>
+    </object>
+    <object id="29" gid="315" type="obj_markerAny" x="16" y="292" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107623"/>
+      </properties>
+    </object>
+    <object id="30" gid="313" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107624"/>
+      </properties>
+    </object>
+    <object id="31" gid="313" type="obj_solidblocksized" x="920" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107625"/>
+      </properties>
+    </object>
+    <object id="32" gid="313" type="obj_solidblocksized" x="276" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107626"/>
+      </properties>
+    </object>
+    <object id="33" gid="313" type="obj_solidblocksized" x="1480" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107627"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="34" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

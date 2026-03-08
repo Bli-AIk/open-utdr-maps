@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="3">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_dogcheck2.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_dogcheck2" x="280" y="242" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="108099"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="2" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

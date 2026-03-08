@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="128" height="48" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="52">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx"/>
+  <tileset firstgid="183" source="tilesets/bg_ch3_dw_tvland_backstage_tileset.tsx"/>
+  <tileset firstgid="623" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="624" source="tilesets/obj_dw_teevie_stealth_chaselamp.tsx"/>
+  <tileset firstgid="625" source="tilesets/obj_dw_teevie_stealth.tsx"/>
+  <tileset firstgid="626" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="627" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="628" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="629" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="630" source="tilesets/obj_dw_teevie_cameras.tsx"/>
+  <layer id="1" name="TILES" width="64" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,231,232,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,241,241,241,241,241,241,241,241,242,243,244,241,241,241,241,241,241,241,241,241,241,242,243,244,241,241,241,241,241,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_BG" width="64" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,26,27,21,21,21,21,21,21,21,21,21,21,21,21,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,4,0,20,21,27,27,27,27,27,27,27,27,27,27,27,21,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,10,0,26,27,21,21,21,21,21,21,21,21,21,21,21,27,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,10,0,20,21,27,0,0,0,0,0,0,0,0,0,0,21,20,21,0,0,0,0,0,0,0,0,20,21,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,16,0,26,27,21,0,0,0,0,0,0,0,0,0,0,27,26,27,0,0,0,0,0,0,0,0,26,27,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,20,21,20,21,20,21,20,21,27,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,26,0,26,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,20,0,20,26,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,26,0,26,20,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,20,0,20,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,20,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,26,27,26,0,26,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,26,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,20,21,20,0,20,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,20,26,27,0,2,3,3,3,3,3,3,3,0,0,0,0,0,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,26,27,26,0,26,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,26,20,21,0,8,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,21,20,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,26,20,21,20,21,20,21,20,21,20,21,0,0,0,0,20,26,27,0,8,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,27,26,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,20,26,27,26,27,26,27,26,27,26,27,0,0,0,0,26,20,21,0,14,15,15,15,15,15,15,15,0,0,0,0,0,0,0,0,0,21,20,26,0,0,0,0,0,0,0,21,20,21,0,0,0,0,0,21,20,21,0,0,0,0,0,0,20,26,27,21,20,21,20,21,20,21,20,21,0,0,0,0,20,21,20,21,20,21,20,21,20,21,20,21,0,0,0,0,0,0,0,0,0,20,21,20,0,0,0,0,0,0,0,27,26,27,0,0,0,0,0,27,26,27,0,0,0,0,0,0,26,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,26,20,21,20,21,20,21,20,21,20,21,20,0,0,0,0,0,0,0,0,0,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,21,20,26,20,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,20,21,20,21,20,21,20,21,20,21,20,21,0,0,0,0,0,0,0,0,0,20,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,26,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_Carpet" width="64" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,93,94,102,64,64,64,64,64,64,64,64,64,64,98,94,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,94,70,70,70,70,70,70,70,70,70,70,70,70,94,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,94,119,76,76,76,76,76,76,76,76,76,76,110,94,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,94,95,0,0,0,0,0,0,0,0,0,0,93,94,95,0,0,0,0,0,0,0,0,62,65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,94,95,0,0,0,0,0,0,0,0,0,0,93,94,95,0,0,0,0,0,0,0,0,68,71,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,98,94,102,64,64,64,64,64,64,64,64,64,64,98,94,102,64,64,64,64,64,64,64,64,98,70,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,117,70,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,70,78,0,62,63,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,65,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,70,78,0,68,69,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,71,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,70,78,0,74,100,114,76,76,76,76,76,76,76,76,76,76,76,76,76,117,100,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,70,78,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,98,70,78,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,83,84,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,76,76,76,117,100,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,89,90,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,100,102,64,64,64,64,64,64,64,64,66,0,0,0,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,100,70,70,70,70,70,70,70,70,70,72,0,0,0,0,93,100,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,100,114,76,76,76,76,76,76,76,76,90,0,0,0,0,74,100,102,64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,74,100,0,0,0,0,0,0,0,0,74,70,78,0,0,0,0,0,74,70,78,0,0,0,0,0,0,74,100,78,0,0,0,0,0,0,0,0,0,0,0,0,0,80,81,70,70,70,70,70,70,70,70,70,70,0,0,0,0,0,0,0,0,0,74,100,64,64,64,64,64,64,64,64,98,70,102,64,64,64,64,64,98,70,102,64,64,64,64,64,64,98,100,78,0,0,0,0,0,0,0,0,0,0,0,0,0,86,87,76,76,76,76,76,76,76,76,76,76,0,0,0,0,0,0,0,0,0,74,100,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="623" type="obj_mainchara" x="40" y="236" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="108930"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108931"/>
+      </properties>
+    </object>
+    <object id="3" gid="624" type="obj_dw_teevie_stealth_chaselamp" x="65" y="-234" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="108932"/>
+      </properties>
+    </object>
+    <object id="4" gid="625" type="obj_dw_teevie_stealth" x="-40" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="108933"/>
+      </properties>
+    </object>
+    <object id="5" gid="626" type="obj_musicer_gen" x="-40" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108934"/>
+      </properties>
+    </object>
+    <object id="6" type="obj_dw_teevie_bg" x="-80" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108935"/>
+      </properties>
+    </object>
+    <object id="7" gid="627" type="obj_solidblocksized" x="0" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108936"/>
+      </properties>
+    </object>
+    <object id="8" gid="627" type="obj_solidblocksized" x="0" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108937"/>
+      </properties>
+    </object>
+    <object id="9" gid="628" type="obj_doorAny" x="-40" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108938"/>
+      </properties>
+    </object>
+    <object id="10" gid="628" type="obj_doorAny" x="2560" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108939"/>
+      </properties>
+    </object>
+    <object id="11" gid="629" type="obj_markerAny" x="40" y="274" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108940"/>
+      </properties>
+    </object>
+    <object id="12" gid="629" type="obj_markerAny" x="2501" y="750" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108941"/>
+      </properties>
+    </object>
+    <object id="13" gid="628" type="obj_doorAny" x="320" y="0" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108942"/>
+      </properties>
+    </object>
+    <object id="14" gid="628" type="obj_doorAny" x="840" y="0" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108943"/>
+      </properties>
+    </object>
+    <object id="15" gid="629" type="obj_markerAny" x="881" y="79" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108944"/>
+      </properties>
+    </object>
+    <object id="16" gid="629" type="obj_markerAny" x="360" y="83" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108945"/>
+      </properties>
+    </object>
+    <object id="17" gid="627" type="obj_solidblocksized" x="400" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108946"/>
+      </properties>
+    </object>
+    <object id="18" gid="627" type="obj_solidblocksized" x="920" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108947"/>
+      </properties>
+    </object>
+    <object id="19" gid="627" type="obj_solidblocksized" x="200" y="600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108948"/>
+      </properties>
+    </object>
+    <object id="20" gid="627" type="obj_solidblocksized" x="200" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108949"/>
+      </properties>
+    </object>
+    <object id="21" gid="627" type="obj_solidblocksized" x="440" y="600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108950"/>
+      </properties>
+    </object>
+    <object id="22" gid="627" type="obj_solidblocksized" x="840" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108951"/>
+      </properties>
+    </object>
+    <object id="23" gid="627" type="obj_solidblocksized" x="440" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108952"/>
+      </properties>
+    </object>
+    <object id="24" gid="627" type="obj_solidblocksized" x="400" y="880" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108953"/>
+      </properties>
+    </object>
+    <object id="25" gid="627" type="obj_solidblocksized" x="1160" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108954"/>
+      </properties>
+    </object>
+    <object id="26" gid="627" type="obj_solidblocksized" x="1520" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108955"/>
+      </properties>
+    </object>
+    <object id="27" gid="627" type="obj_solidblocksized" x="1440" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108956"/>
+      </properties>
+    </object>
+    <object id="28" gid="627" type="obj_solidblocksized" x="1360" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108957"/>
+      </properties>
+    </object>
+    <object id="29" gid="627" type="obj_solidblocksized" x="1320" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108958"/>
+      </properties>
+    </object>
+    <object id="30" gid="627" type="obj_solidblocksized" x="1440" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108959"/>
+      </properties>
+    </object>
+    <object id="31" gid="627" type="obj_solidblocksized" x="1520" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108960"/>
+      </properties>
+    </object>
+    <object id="32" gid="627" type="obj_solidblocksized" x="2080" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108961"/>
+      </properties>
+    </object>
+    <object id="33" gid="627" type="obj_solidblocksized" x="1880" y="680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108962"/>
+      </properties>
+    </object>
+    <object id="34" gid="627" type="obj_solidblocksized" x="2160" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108963"/>
+      </properties>
+    </object>
+    <object id="35" gid="627" type="obj_solidblocksized" x="2080" y="800" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108964"/>
+      </properties>
+    </object>
+    <object id="36" gid="627" type="obj_solidblocksized" x="400" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108965"/>
+      </properties>
+    </object>
+    <object id="37" gid="627" type="obj_solidblocksized" x="400" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108966"/>
+      </properties>
+    </object>
+    <object id="38" gid="627" type="obj_solidblocksized" x="400" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108967"/>
+      </properties>
+    </object>
+    <object id="39" gid="627" type="obj_solidblocksized" x="840" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108968"/>
+      </properties>
+    </object>
+    <object id="40" gid="630" type="obj_dw_teevie_cameras" x="480" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108969"/>
+      </properties>
+    </object>
+    <object id="41" gid="630" type="obj_dw_teevie_cameras" x="960" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108970"/>
+      </properties>
+    </object>
+    <object id="42" gid="630" type="obj_dw_teevie_cameras" x="480" y="700" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108971"/>
+      </properties>
+    </object>
+    <object id="43" gid="630" type="obj_dw_teevie_cameras" x="880" y="700" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108972"/>
+      </properties>
+    </object>
+    <object id="44" gid="630" type="obj_dw_teevie_cameras" x="1200" y="700" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108973"/>
+      </properties>
+    </object>
+    <object id="45" gid="630" type="obj_dw_teevie_cameras" x="1560" y="540" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108974"/>
+      </properties>
+    </object>
+    <object id="46" gid="630" type="obj_dw_teevie_cameras" x="480" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108975"/>
+      </properties>
+    </object>
+    <object id="47" gid="630" type="obj_dw_teevie_cameras" x="1560" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108976"/>
+      </properties>
+    </object>
+    <object id="48" gid="630" type="obj_dw_teevie_cameras" x="200" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108977"/>
+      </properties>
+    </object>
+    <object id="49" gid="630" type="obj_dw_teevie_cameras" x="600" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108978"/>
+      </properties>
+    </object>
+    <object id="50" gid="630" type="obj_dw_teevie_cameras" x="720" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108979"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="51" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

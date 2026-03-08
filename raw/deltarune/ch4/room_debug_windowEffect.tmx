@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="96" height="54" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="26">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="704" source="tilesets/obj_dw_church_window_parallax.tsx"/>
+  <layer id="1" name="TILES" width="48" height="27">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,67,68,69,67,68,69,67,68,69,67,68,69,67,68,69,67,68,69,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,67,68,69,73,74,75,73,74,75,73,74,75,73,74,75,73,74,75,73,74,75,73,74,75,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,73,74,75,79,80,81,79,80,81,79,80,81,79,80,81,79,80,81,79,80,81,79,80,81,79,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,81,79,80,81,85,86,87,85,86,87,85,86,87,85,86,87,85,86,87,85,86,87,85,86,87,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,85,86,87,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,121,121,121,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,79,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,81,127,127,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,67,68,69,67,68,69,67,68,69,0,0,0,0,0,0,0,0,0,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,73,74,75,73,74,75,73,74,75,0,0,0,0,0,0,0,0,0,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,81,79,80,81,79,80,81,79,80,81,0,0,0,0,0,0,0,0,0,79,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,85,86,87,85,86,87,67,68,69,67,68,69,67,68,69,67,68,69,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,121,121,121,121,121,121,121,121,73,74,75,73,74,75,73,74,75,73,74,75,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,127,127,127,127,127,127,127,127,79,80,81,79,80,81,79,80,81,79,80,81,79,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,85,86,87,85,86,87,85,86,87,85,86,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,127,127,127,127,127,127,127,127,127,127,127,127,127,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="703" type="obj_mainchara" x="40" y="317" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101993"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="101994"/>
+      </properties>
+    </object>
+    <object id="3" gid="704" type="obj_dw_church_window_parallax" x="80" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="101995"/>
+      </properties>
+    </object>
+    <object id="4" gid="704" type="obj_dw_church_window_parallax" x="240" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="101996"/>
+      </properties>
+    </object>
+    <object id="5" gid="704" type="obj_dw_church_window_parallax" x="400" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="101997"/>
+      </properties>
+    </object>
+    <object id="6" gid="704" type="obj_dw_church_window_parallax" x="560" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="101998"/>
+      </properties>
+    </object>
+    <object id="7" gid="704" type="obj_dw_church_window_parallax" x="720" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="101999"/>
+      </properties>
+    </object>
+    <object id="8" gid="704" type="obj_dw_church_window_parallax" x="880" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102000"/>
+      </properties>
+    </object>
+    <object id="9" gid="704" type="obj_dw_church_window_parallax" x="1040" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102001"/>
+      </properties>
+    </object>
+    <object id="10" gid="704" type="obj_dw_church_window_parallax" x="1200" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102002"/>
+      </properties>
+    </object>
+    <object id="11" gid="704" type="obj_dw_church_window_parallax" x="1360" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102003"/>
+      </properties>
+    </object>
+    <object id="12" gid="704" type="obj_dw_church_window_parallax" x="1520" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102004"/>
+      </properties>
+    </object>
+    <object id="13" gid="704" type="obj_dw_church_window_parallax" x="1680" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102005"/>
+      </properties>
+    </object>
+    <object id="14" gid="704" type="obj_dw_church_window_parallax" x="1840" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102006"/>
+      </properties>
+    </object>
+    <object id="15" gid="704" type="obj_dw_church_window_parallax" x="1040" y="352" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102007"/>
+      </properties>
+    </object>
+    <object id="16" gid="704" type="obj_dw_church_window_parallax" x="1200" y="352" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102008"/>
+      </properties>
+    </object>
+    <object id="17" gid="704" type="obj_dw_church_window_parallax" x="1360" y="352" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102009"/>
+      </properties>
+    </object>
+    <object id="18" gid="704" type="obj_dw_church_window_parallax" x="1520" y="352" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102010"/>
+      </properties>
+    </object>
+    <object id="19" gid="704" type="obj_dw_church_window_parallax" x="1360" y="592" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102011"/>
+      </properties>
+    </object>
+    <object id="20" gid="704" type="obj_dw_church_window_parallax" x="1520" y="592" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102012"/>
+      </properties>
+    </object>
+    <object id="21" gid="704" type="obj_dw_church_window_parallax" x="240" y="632" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102013"/>
+      </properties>
+    </object>
+    <object id="22" gid="704" type="obj_dw_church_window_parallax" x="400" y="632" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102014"/>
+      </properties>
+    </object>
+    <object id="23" gid="704" type="obj_dw_church_window_parallax" x="560" y="632" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102015"/>
+      </properties>
+    </object>
+    <object id="24" gid="704" type="obj_dw_church_window_parallax" x="720" y="632" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102016"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="25" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

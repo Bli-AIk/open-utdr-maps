@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="66" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="74" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx"/>
+  <tileset firstgid="101" source="tilesets/obj_conveyorl.tsx"/>
+  <tileset firstgid="102" source="tilesets/obj_conveyord.tsx"/>
+  <tileset firstgid="103" source="tilesets/obj_solidextall_2.tsx"/>
+  <tileset firstgid="104" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="105" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="106" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="107" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="108" source="tilesets/obj_doorC.tsx"/>
+  <tileset firstgid="109" source="tilesets/obj_markerD.tsx"/>
+  <tileset firstgid="110" source="tilesets/obj_markert.tsx"/>
+  <tileset firstgid="111" source="tilesets/obj_door_t.tsx"/>
+  <tileset firstgid="112" source="tilesets/obj_solidexwide.tsx"/>
+  <tileset firstgid="113" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000000" width="66" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,1,0,0,0,0,0,0,0,0,1,1,6,6,0,0,0,0,0,0,0,1,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,1,1,0,0,0,0,0,0,1,1,1,6,6,6,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,6,6,6,6,6,0,0,1,1,1,1,1,1,6,6,6,6,6,6,6,6,6,6,1,1,1,0,0,0,0,1,1,1,1,6,6,6,6,0,0,0,0,0,6,6,6,1,1,1,1,1,1,1,1,6,6,6,0,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,0,1,1,1,1,1,1,1,1,1,0,0,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,6,6,6,6,6,6,6,6,6,1,0,0,0,0,0,0,0,0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,6,6,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="101" type="obj_conveyorl" x="940" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113542"/>
+      </properties>
+    </object>
+    <object id="2" gid="101" type="obj_conveyorl" x="720" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113543"/>
+      </properties>
+    </object>
+    <object id="3" gid="102" type="obj_conveyord" x="720" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113544"/>
+      </properties>
+    </object>
+    <object id="4" gid="101" type="obj_conveyorl" x="500" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113545"/>
+      </properties>
+    </object>
+    <object id="5" gid="101" type="obj_conveyorl" x="500" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113546"/>
+      </properties>
+    </object>
+    <object id="6" gid="101" type="obj_conveyorl" x="500" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113547"/>
+      </properties>
+    </object>
+    <object id="7" gid="101" type="obj_conveyorl" x="500" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113548"/>
+      </properties>
+    </object>
+    <object id="8" gid="101" type="obj_conveyorl" x="480" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113549"/>
+      </properties>
+    </object>
+    <object id="9" gid="101" type="obj_conveyorl" x="480" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113550"/>
+      </properties>
+    </object>
+    <object id="10" gid="101" type="obj_conveyorl" x="480" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113551"/>
+      </properties>
+    </object>
+    <object id="11" gid="101" type="obj_conveyorl" x="480" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113552"/>
+      </properties>
+    </object>
+    <object id="12" gid="101" type="obj_conveyorl" x="460" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113553"/>
+      </properties>
+    </object>
+    <object id="13" gid="101" type="obj_conveyorl" x="460" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113554"/>
+      </properties>
+    </object>
+    <object id="14" gid="101" type="obj_conveyorl" x="460" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113555"/>
+      </properties>
+    </object>
+    <object id="15" gid="101" type="obj_conveyorl" x="460" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113556"/>
+      </properties>
+    </object>
+    <object id="16" gid="101" type="obj_conveyorl" x="400" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113557"/>
+      </properties>
+    </object>
+    <object id="17" gid="101" type="obj_conveyorl" x="400" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113558"/>
+      </properties>
+    </object>
+    <object id="18" gid="101" type="obj_conveyorl" x="400" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113559"/>
+      </properties>
+    </object>
+    <object id="19" gid="101" type="obj_conveyorl" x="380" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113560"/>
+      </properties>
+    </object>
+    <object id="20" gid="101" type="obj_conveyorl" x="380" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113561"/>
+      </properties>
+    </object>
+    <object id="21" gid="101" type="obj_conveyorl" x="360" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113562"/>
+      </properties>
+    </object>
+    <object id="22" gid="101" type="obj_conveyorl" x="360" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113563"/>
+      </properties>
+    </object>
+    <object id="23" gid="101" type="obj_conveyorl" x="340" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113564"/>
+      </properties>
+    </object>
+    <object id="24" gid="101" type="obj_conveyorl" x="340" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113565"/>
+      </properties>
+    </object>
+    <object id="25" gid="101" type="obj_conveyorl" x="320" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113566"/>
+      </properties>
+    </object>
+    <object id="26" gid="101" type="obj_conveyorl" x="320" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113567"/>
+      </properties>
+    </object>
+    <object id="27" gid="101" type="obj_conveyorl" x="560" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113568"/>
+      </properties>
+    </object>
+    <object id="28" gid="101" type="obj_conveyorl" x="560" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113569"/>
+      </properties>
+    </object>
+    <object id="29" gid="101" type="obj_conveyorl" x="560" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113570"/>
+      </properties>
+    </object>
+    <object id="30" gid="101" type="obj_conveyorl" x="560" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113571"/>
+      </properties>
+    </object>
+    <object id="31" gid="101" type="obj_conveyorl" x="580" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113572"/>
+      </properties>
+    </object>
+    <object id="32" gid="101" type="obj_conveyorl" x="580" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113573"/>
+      </properties>
+    </object>
+    <object id="33" gid="101" type="obj_conveyorl" x="580" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113574"/>
+      </properties>
+    </object>
+    <object id="34" gid="101" type="obj_conveyorl" x="580" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113575"/>
+      </properties>
+    </object>
+    <object id="35" gid="101" type="obj_conveyorl" x="600" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113576"/>
+      </properties>
+    </object>
+    <object id="36" gid="101" type="obj_conveyorl" x="600" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113577"/>
+      </properties>
+    </object>
+    <object id="37" gid="101" type="obj_conveyorl" x="380" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113578"/>
+      </properties>
+    </object>
+    <object id="38" gid="101" type="obj_conveyorl" x="360" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113579"/>
+      </properties>
+    </object>
+    <object id="39" gid="101" type="obj_conveyorl" x="340" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113580"/>
+      </properties>
+    </object>
+    <object id="40" gid="101" type="obj_conveyorl" x="320" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113581"/>
+      </properties>
+    </object>
+    <object id="41" gid="101" type="obj_conveyorl" x="520" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113582"/>
+      </properties>
+    </object>
+    <object id="42" gid="101" type="obj_conveyorl" x="520" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113583"/>
+      </properties>
+    </object>
+    <object id="43" gid="101" type="obj_conveyorl" x="520" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113584"/>
+      </properties>
+    </object>
+    <object id="44" gid="101" type="obj_conveyorl" x="440" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113585"/>
+      </properties>
+    </object>
+    <object id="45" gid="101" type="obj_conveyorl" x="440" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113586"/>
+      </properties>
+    </object>
+    <object id="46" gid="101" type="obj_conveyorl" x="440" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113587"/>
+      </properties>
+    </object>
+    <object id="47" gid="101" type="obj_conveyorl" x="420" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113588"/>
+      </properties>
+    </object>
+    <object id="48" gid="101" type="obj_conveyorl" x="420" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113589"/>
+      </properties>
+    </object>
+    <object id="49" gid="101" type="obj_conveyorl" x="420" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113590"/>
+      </properties>
+    </object>
+    <object id="50" gid="101" type="obj_conveyorl" x="540" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113591"/>
+      </properties>
+    </object>
+    <object id="51" gid="101" type="obj_conveyorl" x="540" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113592"/>
+      </properties>
+    </object>
+    <object id="52" gid="101" type="obj_conveyorl" x="540" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113593"/>
+      </properties>
+    </object>
+    <object id="53" gid="103" type="obj_solidextall_2" x="1160" y="140" width="20" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="113594"/>
+      </properties>
+    </object>
+    <object id="54" gid="103" type="obj_solidextall_2" x="1260" y="100" width="20" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="113595"/>
+      </properties>
+    </object>
+    <object id="55" gid="104" type="obj_mainchara" x="1220" y="169" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="113596"/>
+      </properties>
+    </object>
+    <object id="56" type="obj_conveyorpuzzle1" x="60" y="20" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="113597"/>
+      </properties>
+    </object>
+    <object id="57" gid="105" type="obj_solidsmall" x="300" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113598"/>
+      </properties>
+    </object>
+    <object id="58" gid="105" type="obj_solidsmall" x="280" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113599"/>
+      </properties>
+    </object>
+    <object id="59" gid="105" type="obj_solidsmall" x="280" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113600"/>
+      </properties>
+    </object>
+    <object id="60" gid="105" type="obj_solidsmall" x="300" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113601"/>
+      </properties>
+    </object>
+    <object id="61" gid="106" type="obj_doorA" x="1200" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113602"/>
+      </properties>
+    </object>
+    <object id="62" gid="106" type="obj_doorA" x="1220" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113603"/>
+      </properties>
+    </object>
+    <object id="63" gid="107" type="obj_markerB" x="1210" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113604"/>
+      </properties>
+    </object>
+    <object id="64" gid="108" type="obj_doorC" x="0" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113605"/>
+      </properties>
+    </object>
+    <object id="65" gid="108" type="obj_doorC" x="0" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113606"/>
+      </properties>
+    </object>
+    <object id="66" gid="108" type="obj_doorC" x="0" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113607"/>
+      </properties>
+    </object>
+    <object id="67" gid="109" type="obj_markerD" x="20" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113608"/>
+      </properties>
+    </object>
+    <object id="68" gid="110" type="obj_markert" x="1280" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113609"/>
+      </properties>
+    </object>
+    <object id="69" gid="111" type="obj_door_t" x="1300" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113610"/>
+      </properties>
+    </object>
+    <object id="70" gid="111" type="obj_door_t" x="1300" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113611"/>
+      </properties>
+    </object>
+    <object id="71" gid="112" type="obj_solidexwide" x="1180" y="220" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113612"/>
+      </properties>
+    </object>
+    <object id="72" gid="113" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="113613"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="73" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

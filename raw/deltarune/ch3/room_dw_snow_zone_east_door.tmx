@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="16">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_room_snow_zone_east_door.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_sul_dark.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_sur_dark.tsx"/>
+  <tileset firstgid="6" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="7" source="tilesets/obj_markerAny.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="16" y="346" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="109940"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="109941"/>
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_room_snow_zone_east_door" x="40" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109942"/>
+      </properties>
+    </object>
+    <object id="4" gid="3" type="obj_solidblocksized" x="0" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109943"/>
+      </properties>
+    </object>
+    <object id="5" gid="3" type="obj_solidblocksized" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109944"/>
+      </properties>
+    </object>
+    <object id="6" gid="3" type="obj_solidblocksized" x="520" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109945"/>
+      </properties>
+    </object>
+    <object id="7" gid="3" type="obj_solidblocksized" x="640" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109946"/>
+      </properties>
+    </object>
+    <object id="8" gid="3" type="obj_solidblocksized" x="-40" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109947"/>
+      </properties>
+    </object>
+    <object id="9" gid="4" type="obj_sul_dark" x="370" y="324" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109948"/>
+      </properties>
+    </object>
+    <object id="10" gid="5" type="obj_sur_dark" x="467" y="344" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109949"/>
+      </properties>
+    </object>
+    <object id="11" gid="3" type="obj_solidblocksized" x="366" y="286" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109950"/>
+      </properties>
+    </object>
+    <object id="12" gid="3" type="obj_solidblocksized" x="464" y="287" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109951"/>
+      </properties>
+    </object>
+    <object id="13" gid="6" type="obj_doorAny" x="388" y="286" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109952"/>
+      </properties>
+    </object>
+    <object id="14" gid="7" type="obj_markerAny" x="16" y="384" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109953"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="15" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

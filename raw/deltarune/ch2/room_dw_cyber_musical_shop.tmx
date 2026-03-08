@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="36">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="37" source="tilesets/bg_dw_cyber_tileset.tsx"/>
+  <tileset firstgid="543" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="544" source="tilesets/obj_savepoint.tsx"/>
+  <tileset firstgid="545" source="tilesets/obj_bg_givedepth.tsx"/>
+  <tileset firstgid="546" source="tilesets/obj_ch2_room_cyber_shop.tsx"/>
+  <tileset firstgid="547" source="tilesets/obj_musicer_cyber.tsx"/>
+  <tileset firstgid="548" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="549" source="tilesets/obj_markeru.tsx"/>
+  <tileset firstgid="550" source="tilesets/obj_doorX_musfade.tsx"/>
+  <tileset firstgid="551" source="tilesets/obj_markert.tsx"/>
+  <tileset firstgid="552" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="553" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="554" source="tilesets/obj_cyber_wall_lights.tsx"/>
+  <tileset firstgid="555" source="tilesets/obj_cyber_wall_lights_left.tsx"/>
+  <tileset firstgid="556" source="tilesets/obj_cyber_wall_lights_right.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,41,41,41,41,41,41,41,41,41,41,42,0,0,0,0,53,54,54,54,54,54,54,54,54,54,54,55,0,0,0,0,53,54,54,54,54,54,54,54,54,54,54,39,41,41,41,0,53,54,54,54,54,54,54,54,54,54,54,52,67,67,67,0,53,54,54,54,54,54,54,54,54,54,54,55,80,80,80,0,66,67,67,67,67,67,67,51,52,67,67,68,132,93,93,0,79,80,80,80,80,80,80,53,55,80,80,81,0,0,0,0,92,93,93,93,93,93,132,53,55,132,93,94,0,0,0,0,0,0,0,0,0,0,0,53,55,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Overlay" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,0,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="543" type="obj_mainchara" x="443" y="178" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102232"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102233"/>
+      </properties>
+    </object>
+    <object id="3" gid="544" type="obj_savepoint" x="452" y="139" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="102234"/>
+      </properties>
+    </object>
+    <object id="4" gid="545" type="obj_bg_givedepth" x="3" y="63" width="23" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="102235"/>
+      </properties>
+    </object>
+    <object id="5" gid="546" type="obj_ch2_room_cyber_shop" x="40" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102236"/>
+      </properties>
+    </object>
+    <object id="6" gid="547" type="obj_musicer_cyber" x="-30" y="111" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="102237"/>
+      </properties>
+    </object>
+    <object id="7" gid="548" type="obj_doorW" x="320" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102238"/>
+      </properties>
+    </object>
+    <object id="8" gid="549" type="obj_markeru" x="340" y="454" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="102239"/>
+      </properties>
+    </object>
+    <object id="9" gid="550" type="obj_doorX_musfade" x="230" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102240"/>
+      </properties>
+    </object>
+    <object id="10" gid="548" type="obj_doorW" x="620" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102241"/>
+      </properties>
+    </object>
+    <object id="11" gid="551" type="obj_markert" x="576" y="256" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="102242"/>
+      </properties>
+    </object>
+    <object id="12" gid="552" type="obj_markerAny" x="252" y="288" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="102243"/>
+      </properties>
+    </object>
+    <object id="13" gid="553" type="obj_solidblocksized" x="400" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102244"/>
+      </properties>
+    </object>
+    <object id="14" gid="553" type="obj_solidblocksized" x="440" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102245"/>
+      </properties>
+    </object>
+    <object id="15" gid="553" type="obj_solidblocksized" x="520" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102246"/>
+      </properties>
+    </object>
+    <object id="16" gid="553" type="obj_solidblocksized" x="520" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102247"/>
+      </properties>
+    </object>
+    <object id="17" gid="553" type="obj_solidblocksized" x="520" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102248"/>
+      </properties>
+    </object>
+    <object id="18" gid="553" type="obj_solidblocksized" x="520" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102249"/>
+      </properties>
+    </object>
+    <object id="19" gid="553" type="obj_solidblocksized" x="0" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102250"/>
+      </properties>
+    </object>
+    <object id="20" gid="553" type="obj_solidblocksized" x="0" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102251"/>
+      </properties>
+    </object>
+    <object id="21" gid="553" type="obj_solidblocksized" x="40" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102252"/>
+      </properties>
+    </object>
+    <object id="22" gid="553" type="obj_solidblocksized" x="280" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102253"/>
+      </properties>
+    </object>
+    <object id="23" gid="553" type="obj_solidblocksized" x="306" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102254"/>
+      </properties>
+    </object>
+    <object id="24" gid="553" type="obj_solidblocksized" x="196" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102255"/>
+      </properties>
+    </object>
+    <object id="25" gid="553" type="obj_solidblocksized" x="40" y="244" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102256"/>
+      </properties>
+    </object>
+    <object id="26" gid="553" type="obj_solidblocksized" x="68" y="284" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102257"/>
+      </properties>
+    </object>
+    <object id="27" gid="553" type="obj_solidblocksized" x="74" y="286" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102258"/>
+      </properties>
+    </object>
+    <object id="28" gid="553" type="obj_solidblocksized" x="342" y="284" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102259"/>
+      </properties>
+    </object>
+    <object id="29" gid="553" type="obj_solidblocksized" x="346" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102260"/>
+      </properties>
+    </object>
+    <object id="30" gid="554" type="obj_cyber_wall_lights" x="80" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102261"/>
+      </properties>
+    </object>
+    <object id="31" gid="555" type="obj_cyber_wall_lights_left" x="40" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102262"/>
+      </properties>
+    </object>
+    <object id="32" gid="556" type="obj_cyber_wall_lights_right" x="480" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102263"/>
+      </properties>
+    </object>
+    <object id="33" gid="554" type="obj_cyber_wall_lights" x="400" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102264"/>
+      </properties>
+    </object>
+    <object id="34" gid="554" type="obj_cyber_wall_lights" x="520" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102265"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="35" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

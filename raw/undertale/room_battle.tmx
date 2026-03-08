@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="15" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_battlebg.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_fightbt.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_talkbt.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_itembt.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_sparebt.tsx"/>
+  <tileset firstgid="6" source="tilesets/obj_heart.tsx"/>
+  <tileset firstgid="7" source="tilesets/obj_hpname.tsx"/>
+  <tileset firstgid="8" source="tilesets/obj_uborder.tsx"/>
+  <tileset firstgid="9" source="tilesets/obj_lborder.tsx"/>
+  <tileset firstgid="10" source="tilesets/obj_dborder.tsx"/>
+  <tileset firstgid="11" source="tilesets/obj_rborder.tsx"/>
+  <tileset firstgid="12" source="tilesets/obj_battlefader.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_battlebg" x="0" y="236" width="609" height="236">
+      <properties>
+        <property name="instanceId" type="int" value="113945"/>
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_fightbt" x="32" y="474" width="110" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113946"/>
+      </properties>
+    </object>
+    <object id="3" gid="3" type="obj_talkbt" x="185" y="474" width="110" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113947"/>
+      </properties>
+    </object>
+    <object id="4" gid="4" type="obj_itembt" x="345" y="474" width="110" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113948"/>
+      </properties>
+    </object>
+    <object id="5" gid="5" type="obj_sparebt" x="500" y="474" width="110" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113949"/>
+      </properties>
+    </object>
+    <object id="6" gid="6" type="obj_heart" x="362" y="362" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="113950"/>
+      </properties>
+    </object>
+    <object id="7" gid="7" type="obj_hpname" x="240" y="410" width="23" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="113951"/>
+      </properties>
+    </object>
+    <object id="8" type="obj_battlecontroller" x="556" y="82" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="113952"/>
+      </properties>
+    </object>
+    <object id="9" gid="8" type="obj_uborder" x="32" y="255" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="113953"/>
+      </properties>
+    </object>
+    <object id="10" gid="9" type="obj_lborder" x="32" y="390" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="113954"/>
+      </properties>
+    </object>
+    <object id="11" gid="10" type="obj_dborder" x="32" y="390" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="113955"/>
+      </properties>
+    </object>
+    <object id="12" gid="11" type="obj_rborder" x="602" y="390" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="113956"/>
+      </properties>
+    </object>
+    <object id="13" gid="12" type="obj_battlefader" x="0" y="2" width="2" height="2">
+      <properties>
+        <property name="instanceId" type="int" value="113957"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="14" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

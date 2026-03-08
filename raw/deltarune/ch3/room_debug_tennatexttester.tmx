@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="3">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <objectgroup id="1" name="objects">
+    <object id="1" type="obj_debug_tennatexttester" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104110"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="2" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

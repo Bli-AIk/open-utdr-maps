@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="108" height="108" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="59">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx"/>
+  <tileset firstgid="183" source="tilesets/obj_camera_clamper.tsx"/>
+  <tileset firstgid="184" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="185" source="tilesets/obj_dw_teevie_maze_zapperpair.tsx"/>
+  <tileset firstgid="186" source="tilesets/obj_camera_controller.tsx"/>
+  <tileset firstgid="187" source="tilesets/obj_dw_teevie_maze.tsx"/>
+  <tileset firstgid="188" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="189" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="190" source="tilesets/obj_solidblocksized.tsx"/>
+  <layer id="1" name="TILES" width="54" height="54">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,33,33,33,33,33,33,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,33,46,46,46,46,46,0,46,46,46,46,46,46,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,33,33,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,0,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,0,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,0,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,0,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,33,33,0,33,33,33,33,0,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,33,33,33,33,33,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,46,46,46,46,46,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,46,46,46,46,46,0,33,33,33,33,33,33,33,33,33,33,46,46,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,33,46,46,33,33,33,33,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,41,41,41,41,41,41,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,41,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="183" type="obj_camera_clamper" x="80" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109023"/>
+      </properties>
+    </object>
+    <object id="2" gid="183" type="obj_camera_clamper" x="880" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109024"/>
+      </properties>
+    </object>
+    <object id="3" gid="183" type="obj_camera_clamper" x="320" y="1040" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109025"/>
+      </properties>
+    </object>
+    <object id="4" gid="183" type="obj_camera_clamper" x="80" y="1440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109026"/>
+      </properties>
+    </object>
+    <object id="5" gid="184" type="obj_mainchara" x="12" y="615" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="109027"/>
+      </properties>
+    </object>
+    <object id="6" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="109028"/>
+      </properties>
+    </object>
+    <object id="7" gid="185" type="obj_dw_teevie_maze_zapperpair" x="186" y="960" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109030"/>
+      </properties>
+    </object>
+    <object id="8" gid="185" type="obj_dw_teevie_maze_zapperpair" x="720" y="874" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109031"/>
+      </properties>
+    </object>
+    <object id="9" gid="185" type="obj_dw_teevie_maze_zapperpair" x="463" y="874" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109032"/>
+      </properties>
+    </object>
+    <object id="10" gid="185" type="obj_dw_teevie_maze_zapperpair" x="520" y="394" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109033"/>
+      </properties>
+    </object>
+    <object id="11" gid="185" type="obj_dw_teevie_maze_zapperpair" x="800" y="354" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109034"/>
+      </properties>
+    </object>
+    <object id="12" gid="185" type="obj_dw_teevie_maze_zapperpair" x="1080" y="594" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109035"/>
+      </properties>
+    </object>
+    <object id="13" gid="185" type="obj_dw_teevie_maze_zapperpair" x="920" y="754" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109036"/>
+      </properties>
+    </object>
+    <object id="14" gid="185" type="obj_dw_teevie_maze_zapperpair" x="1120" y="874" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109037"/>
+      </properties>
+    </object>
+    <object id="15" gid="185" type="obj_dw_teevie_maze_zapperpair" x="1800" y="1114" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109038"/>
+      </properties>
+    </object>
+    <object id="16" gid="185" type="obj_dw_teevie_maze_zapperpair" x="160" y="554" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109039"/>
+      </properties>
+    </object>
+    <object id="17" gid="185" type="obj_dw_teevie_maze_zapperpair" x="440" y="1194" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109040"/>
+      </properties>
+    </object>
+    <object id="18" gid="185" type="obj_dw_teevie_maze_zapperpair" x="160" y="1194" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109041"/>
+      </properties>
+    </object>
+    <object id="19" gid="186" type="obj_camera_controller" x="-40" y="12" width="16" height="12">
+      <properties>
+        <property name="instanceId" type="int" value="109042"/>
+      </properties>
+    </object>
+    <object id="20" type="obj_dw_teevie_bg" x="-40" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="109043"/>
+      </properties>
+    </object>
+    <object id="21" gid="185" type="obj_dw_teevie_maze_zapperpair" x="46" y="1634" width="44" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109044"/>
+      </properties>
+    </object>
+    <object id="22" gid="187" type="obj_dw_teevie_maze" x="-40" y="96" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="109045"/>
+      </properties>
+    </object>
+    <object id="23" gid="188" type="obj_doorAny" x="-34" y="640" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109046"/>
+      </properties>
+    </object>
+    <object id="24" gid="188" type="obj_doorAny" x="720" y="1394" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109047"/>
+      </properties>
+    </object>
+    <object id="25" gid="189" type="obj_markerAny" x="12" y="652" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109048"/>
+      </properties>
+    </object>
+    <object id="26" gid="189" type="obj_markerAny" x="742" y="1348" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109049"/>
+      </properties>
+    </object>
+    <object id="27" gid="188" type="obj_doorAny" x="1474" y="480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109050"/>
+      </properties>
+    </object>
+    <object id="28" gid="189" type="obj_markerAny" x="1430" y="492" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109051"/>
+      </properties>
+    </object>
+    <object id="29" gid="190" type="obj_solidblocksized" x="80" y="520" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109052"/>
+      </properties>
+    </object>
+    <object id="30" gid="190" type="obj_solidblocksized" x="640" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109053"/>
+      </properties>
+    </object>
+    <object id="31" gid="190" type="obj_solidblocksized" x="440" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109054"/>
+      </properties>
+    </object>
+    <object id="32" gid="190" type="obj_solidblocksized" x="40" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109055"/>
+      </properties>
+    </object>
+    <object id="33" gid="190" type="obj_solidblocksized" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109056"/>
+      </properties>
+    </object>
+    <object id="34" gid="190" type="obj_solidblocksized" x="280" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109057"/>
+      </properties>
+    </object>
+    <object id="35" gid="190" type="obj_solidblocksized" x="320" y="800" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109058"/>
+      </properties>
+    </object>
+    <object id="36" gid="190" type="obj_solidblocksized" x="360" y="840" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109059"/>
+      </properties>
+    </object>
+    <object id="37" gid="190" type="obj_solidblocksized" x="280" y="1000" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109060"/>
+      </properties>
+    </object>
+    <object id="38" gid="190" type="obj_solidblocksized" x="280" y="1040" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109061"/>
+      </properties>
+    </object>
+    <object id="39" gid="190" type="obj_solidblocksized" x="320" y="1320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109062"/>
+      </properties>
+    </object>
+    <object id="40" gid="190" type="obj_solidblocksized" x="800" y="1320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109063"/>
+      </properties>
+    </object>
+    <object id="41" gid="190" type="obj_solidblocksized" x="1760" y="1320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109064"/>
+      </properties>
+    </object>
+    <object id="42" gid="190" type="obj_solidblocksized" x="1920" y="1000" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109065"/>
+      </properties>
+    </object>
+    <object id="43" gid="190" type="obj_solidblocksized" x="320" y="1600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109066"/>
+      </properties>
+    </object>
+    <object id="44" gid="190" type="obj_solidblocksized" x="280" y="1720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109067"/>
+      </properties>
+    </object>
+    <object id="45" gid="190" type="obj_solidblocksized" x="40" y="1760" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109068"/>
+      </properties>
+    </object>
+    <object id="46" gid="190" type="obj_solidblocksized" x="0" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109069"/>
+      </properties>
+    </object>
+    <object id="47" gid="190" type="obj_solidblocksized" x="80" y="1080" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109070"/>
+      </properties>
+    </object>
+    <object id="48" gid="190" type="obj_solidblocksized" x="560" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109071"/>
+      </properties>
+    </object>
+    <object id="49" gid="190" type="obj_solidblocksized" x="600" y="720" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109072"/>
+      </properties>
+    </object>
+    <object id="50" gid="190" type="obj_solidblocksized" x="1400" y="560" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109073"/>
+      </properties>
+    </object>
+    <object id="51" gid="190" type="obj_solidblocksized" x="1400" y="920" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109074"/>
+      </properties>
+    </object>
+    <object id="52" gid="190" type="obj_solidblocksized" x="1400" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109075"/>
+      </properties>
+    </object>
+    <object id="53" gid="190" type="obj_solidblocksized" x="680" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109076"/>
+      </properties>
+    </object>
+    <object id="54" gid="188" type="obj_doorAny" x="1680" y="1400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109077"/>
+      </properties>
+    </object>
+    <object id="55" gid="189" type="obj_markerAny" x="1702" y="1354" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109078"/>
+      </properties>
+    </object>
+    <object id="56" gid="188" type="obj_doorAny" x="634" y="1640" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109079"/>
+      </properties>
+    </object>
+    <object id="57" gid="189" type="obj_markerAny" x="590" y="1652" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="109080"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="58" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

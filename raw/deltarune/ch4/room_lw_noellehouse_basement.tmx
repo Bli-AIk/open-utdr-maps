@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="18">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_homealone_basement_boombox.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_homealone_bell.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_homealone_solid.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_homealone_vent_hidden.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="140" y="137" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="107157"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_overworldc" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="107158"/>
+      </properties>
+    </object>
+    <object id="3" type="obj_noellehouse_basement" x="20" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="107159"/>
+      </properties>
+    </object>
+    <object id="4" gid="2" type="obj_homealone_basement_boombox" x="28" y="105" width="56" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="107160"/>
+      </properties>
+    </object>
+    <object id="5" gid="3" type="obj_homealone_bell" x="519" y="91" width="7" height="7">
+      <properties>
+        <property name="instanceId" type="int" value="107161"/>
+      </properties>
+    </object>
+    <object id="6" gid="3" type="obj_homealone_bell" x="609" y="105" width="7" height="7">
+      <properties>
+        <property name="instanceId" type="int" value="107162"/>
+      </properties>
+    </object>
+    <object id="7" gid="3" type="obj_homealone_bell" x="210" y="65" width="7" height="7">
+      <properties>
+        <property name="instanceId" type="int" value="107163"/>
+      </properties>
+    </object>
+    <object id="8" gid="3" type="obj_homealone_bell" x="243" y="60" width="7" height="7">
+      <properties>
+        <property name="instanceId" type="int" value="107164"/>
+      </properties>
+    </object>
+    <object id="9" gid="3" type="obj_homealone_bell" x="97" y="89" width="7" height="7">
+      <properties>
+        <property name="instanceId" type="int" value="107165"/>
+      </properties>
+    </object>
+    <object id="10" gid="3" type="obj_homealone_bell" x="441" y="81" width="7" height="7">
+      <properties>
+        <property name="instanceId" type="int" value="107166"/>
+      </properties>
+    </object>
+    <object id="11" gid="4" type="obj_homealone_solid" x="0" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107167"/>
+      </properties>
+    </object>
+    <object id="12" gid="4" type="obj_homealone_solid" x="0" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107168"/>
+      </properties>
+    </object>
+    <object id="13" gid="4" type="obj_homealone_solid" x="620" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107169"/>
+      </properties>
+    </object>
+    <object id="14" gid="4" type="obj_homealone_solid" x="23" y="40" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107170"/>
+      </properties>
+    </object>
+    <object id="15" gid="5" type="obj_homealone_vent_hidden" x="476" y="53" width="29" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107171"/>
+      </properties>
+    </object>
+    <object id="16" gid="4" type="obj_homealone_solid" x="496" y="40" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107172"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="17" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="320"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

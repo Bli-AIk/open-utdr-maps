@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="7" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_myhouse.tsx"/>
+  <tileset firstgid="5" source="tilesets/bg_mebed.tsx"/>
+  <tileset firstgid="6" source="tilesets/bg_mydrawer.tsx"/>
+  <tileset firstgid="7" source="tilesets/bg_mylamp.tsx"/>
+  <tileset firstgid="8" source="tilesets/bg_mywindow.tsx"/>
+  <tileset firstgid="9" source="tilesets/obj_endmyroom.tsx"/>
+  <layer id="1" name="depth_1000000" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,1,1,1,1,1,1,1,0,0,0,0,0,0,3,1,2,1,1,1,1,1,1,1,0,0,0,0,0,3,1,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,2,1,1,1,1,1,1,1,0,0,0,0,0,0,0,3,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_900000_tiles">
+    <object id="1" gid="5" x="220" y="154" width="36" height="54"/>
+    <object id="2" gid="6" x="180" y="112" width="31" height="52"/>
+    <object id="3" gid="7" x="110" y="109" width="16" height="39"/>
+    <object id="4" gid="8" x="130" y="84" width="46" height="44"/>
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="5" gid="9" type="obj_endmyroom" x="40" y="158" width="40" height="78">
+      <properties>
+        <property name="instanceId" type="int" value="113488"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="6" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

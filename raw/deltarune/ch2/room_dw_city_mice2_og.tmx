@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="58" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="46">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
+  <tileset firstgid="401" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="402" source="tilesets/obj_holemouse_block_clockwise.tsx"/>
+  <tileset firstgid="403" source="tilesets/obj_resetBell.tsx"/>
+  <tileset firstgid="404" source="tilesets/obj_holemouse_invis_clockwise.tsx"/>
+  <tileset firstgid="405" source="tilesets/obj_holemouse_invis_counterclockwise.tsx"/>
+  <tileset firstgid="406" source="tilesets/obj_holemouse_generator.tsx"/>
+  <tileset firstgid="407" source="tilesets/obj_holemouse_goal.tsx"/>
+  <tileset firstgid="408" source="tilesets/obj_holemouse_block_counterclockwise.tsx"/>
+  <tileset firstgid="409" source="tilesets/obj_mouseTrigger.tsx"/>
+  <tileset firstgid="410" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="411" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="412" source="tilesets/obj_forcefield.tsx"/>
+  <tileset firstgid="413" source="tilesets/obj_solidenemy.tsx"/>
+  <layer id="1" name="BG_Tiles" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,259,260,260,260,260,260,260,260,260,260,260,261,0,0,0,0,0,0,0,0,0,0,0,245,245,245,245,245,246,274,275,275,275,275,275,275,275,275,275,275,276,244,245,245,245,245,245,245,246,0,0,0,260,260,260,260,260,261,289,290,290,290,290,290,290,290,290,290,290,291,259,260,260,260,260,260,260,261,244,245,245,275,275,275,275,275,276,304,305,305,305,305,305,305,305,305,305,305,306,274,275,275,275,275,275,275,276,259,260,260,290,290,290,290,290,291,170,170,170,170,170,170,170,170,170,170,170,170,289,290,290,290,290,290,290,291,274,275,275,305,305,305,305,305,306,170,170,113,113,113,113,113,113,0,0,113,113,304,305,305,305,305,305,305,306,289,290,290,170,170,170,170,170,170,170,170,113,113,0,0,113,113,113,113,113,113,170,113,170,170,170,170,170,170,304,305,305,170,170,170,170,170,170,170,170,113,113,113,113,113,113,113,113,113,113,113,113,170,170,170,170,170,170,170,170,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,113,170,170,170,170,170,170,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="401" type="obj_mainchara" x="22" y="278" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107623"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="107624"/>
+      </properties>
+    </object>
+    <object id="3" gid="402" type="obj_holemouse_block_clockwise" x="-120" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107625"/>
+      </properties>
+    </object>
+    <object id="4" gid="403" type="obj_resetBell" x="-280" y="-90" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107626"/>
+      </properties>
+    </object>
+    <object id="5" gid="404" type="obj_holemouse_invis_clockwise" x="-120" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107627"/>
+      </properties>
+    </object>
+    <object id="6" gid="405" type="obj_holemouse_invis_counterclockwise" x="-120" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107628"/>
+      </properties>
+    </object>
+    <object id="7" gid="406" type="obj_holemouse_generator" x="320" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107629"/>
+      </properties>
+    </object>
+    <object id="8" gid="407" type="obj_holemouse_goal" x="720" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107630"/>
+      </properties>
+    </object>
+    <object id="9" gid="408" type="obj_holemouse_block_counterclockwise" x="-200" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107631"/>
+      </properties>
+    </object>
+    <object id="10" gid="402" type="obj_holemouse_block_clockwise" x="520" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107632"/>
+      </properties>
+    </object>
+    <object id="11" gid="408" type="obj_holemouse_block_counterclockwise" x="600" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107633"/>
+      </properties>
+    </object>
+    <object id="12" gid="402" type="obj_holemouse_block_clockwise" x="640" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107634"/>
+      </properties>
+    </object>
+    <object id="13" gid="402" type="obj_holemouse_block_clockwise" x="680" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107635"/>
+      </properties>
+    </object>
+    <object id="14" gid="403" type="obj_resetBell" x="280" y="190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107636"/>
+      </properties>
+    </object>
+    <object id="15" gid="409" type="obj_mouseTrigger" x="240" y="149" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="107637"/>
+      </properties>
+    </object>
+    <object id="16" gid="410" type="obj_markerA" x="22" y="314" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107638"/>
+      </properties>
+    </object>
+    <object id="17" gid="411" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107639"/>
+      </properties>
+    </object>
+    <object id="18" gid="411" type="obj_solidblocksized" x="640" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107640"/>
+      </properties>
+    </object>
+    <object id="19" gid="411" type="obj_solidblocksized" x="1040" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107641"/>
+      </properties>
+    </object>
+    <object id="20" gid="411" type="obj_solidblocksized" x="1040" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107642"/>
+      </properties>
+    </object>
+    <object id="21" gid="411" type="obj_solidblocksized" x="720" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107643"/>
+      </properties>
+    </object>
+    <object id="22" gid="411" type="obj_solidblocksized" x="240" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107644"/>
+      </properties>
+    </object>
+    <object id="23" gid="411" type="obj_solidblocksized" x="0" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107645"/>
+      </properties>
+    </object>
+    <object id="24" gid="411" type="obj_solidblocksized" x="400" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107646"/>
+      </properties>
+    </object>
+    <object id="25" gid="411" type="obj_solidblocksized" x="560" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107647"/>
+      </properties>
+    </object>
+    <object id="26" gid="412" type="obj_forcefield" x="840" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107648"/>
+      </properties>
+    </object>
+    <object id="27" gid="413" type="obj_solidenemy" x="-120" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107649"/>
+      </properties>
+    </object>
+    <object id="28" gid="413" type="obj_solidenemy" x="280" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107650"/>
+      </properties>
+    </object>
+    <object id="29" gid="413" type="obj_solidenemy" x="320" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107651"/>
+      </properties>
+    </object>
+    <object id="30" gid="413" type="obj_solidenemy" x="640" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107652"/>
+      </properties>
+    </object>
+    <object id="31" gid="413" type="obj_solidenemy" x="760" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107653"/>
+      </properties>
+    </object>
+    <object id="32" gid="413" type="obj_solidenemy" x="800" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107654"/>
+      </properties>
+    </object>
+    <object id="33" gid="413" type="obj_solidenemy" x="720" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107655"/>
+      </properties>
+    </object>
+    <object id="34" gid="413" type="obj_solidenemy" x="760" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107656"/>
+      </properties>
+    </object>
+    <object id="35" gid="413" type="obj_solidenemy" x="320" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107657"/>
+      </properties>
+    </object>
+    <object id="36" gid="413" type="obj_solidenemy" x="400" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107658"/>
+      </properties>
+    </object>
+    <object id="37" gid="413" type="obj_solidenemy" x="560" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107659"/>
+      </properties>
+    </object>
+    <object id="38" gid="404" type="obj_holemouse_invis_clockwise" x="360" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107660"/>
+      </properties>
+    </object>
+    <object id="39" gid="404" type="obj_holemouse_invis_clockwise" x="560" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107661"/>
+      </properties>
+    </object>
+    <object id="40" gid="404" type="obj_holemouse_invis_clockwise" x="400" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107662"/>
+      </properties>
+    </object>
+    <object id="41" gid="404" type="obj_holemouse_invis_clockwise" x="200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107663"/>
+      </properties>
+    </object>
+    <object id="42" gid="404" type="obj_holemouse_invis_clockwise" x="760" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107664"/>
+      </properties>
+    </object>
+    <object id="43" gid="404" type="obj_holemouse_invis_clockwise" x="320" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107665"/>
+      </properties>
+    </object>
+    <object id="44" gid="404" type="obj_holemouse_invis_clockwise" x="640" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107666"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="45" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

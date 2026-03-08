@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="14">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset_new.tsx"/>
+  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="704" source="tilesets/obj_dw_church_minorlegend.tsx"/>
+  <tileset firstgid="705" source="tilesets/obj_treasure_room.tsx"/>
+  <tileset firstgid="706" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="707" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="708" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="709" source="tilesets/obj_triggervolume.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,74,74,378,478,477,80,478,478,477,74,74,0,0,0,0,80,80,477,478,80,478,478,80,80,477,378,80,0,0,0,0,451,451,451,451,451,476,377,451,451,451,451,451,0,0,0,0,0,0,0,0,0,377,475,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="703" type="obj_mainchara" x="303" y="431" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103457"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103458"/>
+      </properties>
+    </object>
+    <object id="3" gid="704" type="obj_dw_church_minorlegend" x="320" y="169" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="103459"/>
+      </properties>
+    </object>
+    <object id="4" gid="705" type="obj_treasure_room" x="500" y="353" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="103460"/>
+      </properties>
+    </object>
+    <object id="5" gid="706" type="obj_solidblockDark" x="40" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103461"/>
+      </properties>
+    </object>
+    <object id="6" gid="706" type="obj_solidblockDark" x="80" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103462"/>
+      </properties>
+    </object>
+    <object id="7" gid="706" type="obj_solidblockDark" x="80" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103463"/>
+      </properties>
+    </object>
+    <object id="8" gid="707" type="obj_markerAny" x="303" y="468" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103464"/>
+      </properties>
+    </object>
+    <object id="9" gid="708" type="obj_doorAny" x="280" y="514" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103465"/>
+      </properties>
+    </object>
+    <object id="10" gid="706" type="obj_solidblockDark" x="560" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103466"/>
+      </properties>
+    </object>
+    <object id="11" gid="706" type="obj_solidblockDark" x="360" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103467"/>
+      </properties>
+    </object>
+    <object id="12" gid="709" type="obj_triggervolume" x="80" y="324" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="103468"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="13" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

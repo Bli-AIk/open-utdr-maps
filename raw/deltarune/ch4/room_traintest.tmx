@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="54">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_traintrack_corner_bottomright.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_traintrack_straight_vertical.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_traintrack_straight_horizontal.tsx"/>
+  <tileset firstgid="6" source="tilesets/obj_traintrack_switch.tsx"/>
+  <tileset firstgid="7" source="tilesets/obj_homealone_heart.tsx"/>
+  <tileset firstgid="8" source="tilesets/obj_traintrack_moving_center.tsx"/>
+  <tileset firstgid="9" source="tilesets/obj_train_switch.tsx"/>
+  <tileset firstgid="10" source="tilesets/obj_traintrack_goal.tsx"/>
+  <tileset firstgid="11" source="tilesets/obj_traintrack_corner_topright.tsx"/>
+  <tileset firstgid="12" source="tilesets/obj_traintrack_corner_bottomleft.tsx"/>
+  <tileset firstgid="13" source="tilesets/obj_train_controller.tsx"/>
+  <tileset firstgid="14" source="tilesets/obj_train_station.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="-40" y="137" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103976"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_overworldc" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103977"/>
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_traintrack_corner_bottomright" x="250" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103978"/>
+      </properties>
+    </object>
+    <object id="4" gid="3" type="obj_solidblockDark" x="-50" y="148" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103979"/>
+      </properties>
+    </object>
+    <object id="5" gid="4" type="obj_traintrack_straight_vertical" x="250" y="100" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103980"/>
+      </properties>
+    </object>
+    <object id="6" gid="4" type="obj_traintrack_straight_vertical" x="250" y="110" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103981"/>
+      </properties>
+    </object>
+    <object id="7" gid="5" type="obj_traintrack_straight_horizontal" x="110" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103982"/>
+      </properties>
+    </object>
+    <object id="8" gid="5" type="obj_traintrack_straight_horizontal" x="30" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103983"/>
+      </properties>
+    </object>
+    <object id="9" gid="5" type="obj_traintrack_straight_horizontal" x="40" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103984"/>
+      </properties>
+    </object>
+    <object id="10" gid="6" type="obj_traintrack_switch" x="80" y="140" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103985"/>
+      </properties>
+    </object>
+    <object id="11" gid="7" type="obj_homealone_heart" x="150" y="99" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="103986"/>
+      </properties>
+    </object>
+    <object id="12" gid="5" type="obj_traintrack_straight_horizontal" x="70" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103987"/>
+      </properties>
+    </object>
+    <object id="13" gid="8" type="obj_traintrack_moving_center" x="80" y="160" width="30" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103988"/>
+      </properties>
+    </object>
+    <object id="14" gid="9" type="obj_train_switch" x="120" y="100" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103989"/>
+      </properties>
+    </object>
+    <object id="15" gid="5" type="obj_traintrack_straight_horizontal" x="200" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103990"/>
+      </properties>
+    </object>
+    <object id="16" gid="5" type="obj_traintrack_straight_horizontal" x="120" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103991"/>
+      </properties>
+    </object>
+    <object id="17" gid="5" type="obj_traintrack_straight_horizontal" x="60" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103992"/>
+      </properties>
+    </object>
+    <object id="18" gid="5" type="obj_traintrack_straight_horizontal" x="50" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103993"/>
+      </properties>
+    </object>
+    <object id="19" gid="10" type="obj_traintrack_goal" x="250" y="70" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103994"/>
+      </properties>
+    </object>
+    <object id="20" gid="4" type="obj_traintrack_straight_vertical" x="90" y="140" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103995"/>
+      </properties>
+    </object>
+    <object id="21" gid="5" type="obj_traintrack_straight_horizontal" x="240" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103996"/>
+      </properties>
+    </object>
+    <object id="22" gid="4" type="obj_traintrack_straight_vertical" x="150" y="130" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103997"/>
+      </properties>
+    </object>
+    <object id="23" gid="4" type="obj_traintrack_straight_vertical" x="150" y="140" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103998"/>
+      </properties>
+    </object>
+    <object id="24" gid="4" type="obj_traintrack_straight_vertical" x="20" y="130" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103999"/>
+      </properties>
+    </object>
+    <object id="25" gid="11" type="obj_traintrack_corner_topright" x="20" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104000"/>
+      </properties>
+    </object>
+    <object id="26" gid="5" type="obj_traintrack_straight_horizontal" x="140" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104001"/>
+      </properties>
+    </object>
+    <object id="27" gid="5" type="obj_traintrack_straight_horizontal" x="130" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104002"/>
+      </properties>
+    </object>
+    <object id="28" gid="5" type="obj_traintrack_straight_horizontal" x="160" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104003"/>
+      </properties>
+    </object>
+    <object id="29" gid="12" type="obj_traintrack_corner_bottomleft" x="20" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104004"/>
+      </properties>
+    </object>
+    <object id="30" gid="4" type="obj_traintrack_straight_vertical" x="20" y="140" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104005"/>
+      </properties>
+    </object>
+    <object id="31" gid="5" type="obj_traintrack_straight_horizontal" x="30" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104006"/>
+      </properties>
+    </object>
+    <object id="32" gid="5" type="obj_traintrack_straight_horizontal" x="40" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104007"/>
+      </properties>
+    </object>
+    <object id="33" gid="5" type="obj_traintrack_straight_horizontal" x="50" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104008"/>
+      </properties>
+    </object>
+    <object id="34" gid="5" type="obj_traintrack_straight_horizontal" x="60" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104009"/>
+      </properties>
+    </object>
+    <object id="35" gid="2" type="obj_traintrack_corner_bottomright" x="90" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104010"/>
+      </properties>
+    </object>
+    <object id="36" gid="4" type="obj_traintrack_straight_vertical" x="220" y="140" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104011"/>
+      </properties>
+    </object>
+    <object id="37" gid="5" type="obj_traintrack_straight_horizontal" x="70" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104012"/>
+      </properties>
+    </object>
+    <object id="38" gid="5" type="obj_traintrack_straight_horizontal" x="80" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104013"/>
+      </properties>
+    </object>
+    <object id="39" gid="13" type="obj_train_controller" x="30" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104014"/>
+      </properties>
+    </object>
+    <object id="40" gid="8" type="obj_traintrack_moving_center" x="210" y="160" width="30" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104015"/>
+      </properties>
+    </object>
+    <object id="41" gid="12" type="obj_traintrack_corner_bottomleft" x="150" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104016"/>
+      </properties>
+    </object>
+    <object id="42" gid="5" type="obj_traintrack_straight_horizontal" x="160" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104017"/>
+      </properties>
+    </object>
+    <object id="43" gid="5" type="obj_traintrack_straight_horizontal" x="170" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104018"/>
+      </properties>
+    </object>
+    <object id="44" gid="5" type="obj_traintrack_straight_horizontal" x="180" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104019"/>
+      </properties>
+    </object>
+    <object id="45" gid="5" type="obj_traintrack_straight_horizontal" x="190" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104020"/>
+      </properties>
+    </object>
+    <object id="46" gid="2" type="obj_traintrack_corner_bottomright" x="220" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104021"/>
+      </properties>
+    </object>
+    <object id="47" gid="5" type="obj_traintrack_straight_horizontal" x="200" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104022"/>
+      </properties>
+    </object>
+    <object id="48" gid="5" type="obj_traintrack_straight_horizontal" x="210" y="150" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104023"/>
+      </properties>
+    </object>
+    <object id="49" gid="4" type="obj_traintrack_straight_vertical" x="250" y="90" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104024"/>
+      </properties>
+    </object>
+    <object id="50" gid="4" type="obj_traintrack_straight_vertical" x="250" y="80" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104025"/>
+      </properties>
+    </object>
+    <object id="51" gid="14" type="obj_train_station" x="170" y="120" width="30" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104026"/>
+      </properties>
+    </object>
+    <object id="52" gid="11" type="obj_traintrack_corner_topright" x="150" y="120" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104027"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="53" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="320"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

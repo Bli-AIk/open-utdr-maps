@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="58" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="47">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_sidewalk_animated_tileset.tsx"/>
+  <tileset firstgid="157" source="tilesets/bg_dw_city_street_tileset.tsx"/>
+  <tileset firstgid="289" source="tilesets/bg_dw_city_doors_tileset.tsx"/>
+  <tileset firstgid="421" source="tilesets/bg_dw_city_alley_tileset.tsx"/>
+  <tileset firstgid="553" source="tilesets/bg_dw_city_street_edges_tileset.tsx"/>
+  <tileset firstgid="793" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
+  <tileset firstgid="1193" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1194" source="tilesets/obj_holemouse_generator.tsx"/>
+  <tileset firstgid="1195" source="tilesets/obj_holemouse_goal.tsx"/>
+  <tileset firstgid="1196" source="tilesets/obj_rotationTile_track1.tsx"/>
+  <tileset firstgid="1197" source="tilesets/obj_rotationController_track.tsx"/>
+  <tileset firstgid="1198" source="tilesets/obj_rotationTile_track2.tsx"/>
+  <tileset firstgid="1199" source="tilesets/obj_rotationTile_track3.tsx"/>
+  <tileset firstgid="1200" source="tilesets/obj_npc_sign.tsx"/>
+  <tileset firstgid="1201" source="tilesets/obj_solidenemy.tsx"/>
+  <tileset firstgid="1202" source="tilesets/obj_controller_city_mice2.tsx"/>
+  <tileset firstgid="1203" source="tilesets/obj_mice2Switch.tsx"/>
+  <tileset firstgid="1204" source="tilesets/obj_cybercity_mousesign.tsx"/>
+  <tileset firstgid="1205" source="tilesets/obj_readable_room1.tsx"/>
+  <tileset firstgid="1206" source="tilesets/obj_cybercity_bg_sign.tsx"/>
+  <tileset firstgid="1207" source="tilesets/obj_weirdroute_manipulator.tsx"/>
+  <tileset firstgid="1208" source="tilesets/obj_musicer_city.tsx"/>
+  <tileset firstgid="1209" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="1210" source="tilesets/obj_forcefield.tsx"/>
+  <tileset firstgid="1211" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="1212" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="1213" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="1214" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="1215" source="tilesets/obj_holemouse_invis_counterclockwise.tsx"/>
+  <tileset firstgid="1216" source="tilesets/obj_holemouse_invis_clockwise.tsx"/>
+  <tileset firstgid="1217" source="tilesets/obj_camera_area.tsx"/>
+  <layer id="1" name="BG_Tiles" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,1052,1052,1052,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1037,1037,1037,1037,1037,1037,1038,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1052,1052,1052,1052,1052,1052,1053,0,1082,0,0,1082,1082,1082,1082,1082,1082,1036,1037,1037,1037,1037,1037,1037,1037,1038,1036,1037,1037,1067,1067,1067,1067,1067,1067,1068,0,1097,1097,1097,1097,1097,1097,1097,1097,1097,1051,1052,1052,1052,1052,1052,1052,1052,1053,1051,1052,1052,1082,1082,1082,1082,1082,1082,1083,962,962,962,962,962,962,962,962,962,962,1066,1067,1067,1067,1067,1067,1067,1067,1068,1066,1067,1067,1097,1097,1097,1097,1097,1097,1098,962,962,962,962,864,864,864,864,864,864,1081,1082,1082,1082,1082,1082,1082,1082,1083,1081,1082,1082,962,962,962,962,962,962,962,962,962,962,927,916,916,916,916,916,916,1096,1097,1097,1097,1097,1097,1097,1097,1098,1096,1097,1097,962,962,962,962,962,962,962,962,962,962,927,916,916,916,916,916,916,916,916,913,962,962,962,962,962,962,962,962,962,0,0,0,0,0,0,0,962,962,962,927,916,916,916,916,916,916,916,916,913,962,962,962,962,962,962,962,962,962,0,0,0,0,0,0,0,962,962,962,927,916,916,916,916,916,916,916,916,913,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,962,962,962,962,815,815,815,815,815,815,815,815,962,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Rooftop" width="29" height="12">
+    <data encoding="csv">592,593,594,684,667,668,669,592,593,594,684,670,671,672,680,681,682,667,668,669,670,671,672,684,589,590,591,670,671,684,606,606,606,680,681,682,0,606,606,0,0,0,0,0,0,0,680,681,682,606,606,606,606,602,603,604,606,606,668,669,606,606,606,606,684,0,606,606,0,0,0,0,0,0,0,606,606,606,606,684,606,606,606,606,684,684,589,681,682,684,606,606,606,606,0,606,606,0,0,0,0,0,0,0,684,606,606,606,684,684,606,606,606,684,684,602,684,606,684,684,606,606,606,0,0,0,0,0,0,0,0,0,0,684,0,0,684,606,684,684,684,684,684,684,684,684,606,684,606,606,606,606,0,0,0,0,0,0,0,0,0,0,684,0,0,684,606,606,606,684,684,684,684,684,684,606,684,684,606,606,606,0,0,0,0,0,0,0,0,0,0,684,0,0,684,606,606,606,684,684,684,0,684,684,684,684,684,684,684,606,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,589,590,591,606,606,606,667,668,669,657,658,659,684,606,606,667,668,669,684,684,579,580,581,684,657,658,659,606,606,602,603,604,606,579,580,581,681,682,670,671,657,658,659,606,680,681,589,590,591,592,593,594,684,670,671,672,657,658,659,684,579,580,592,593,594,606,606</data>
+  </layer>
+  <layer id="3" name="TILES_Alley" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,461,0,0,457,461,461,461,461,461,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,461,0,0,457,461,461,461,461,461,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,461,0,0,457,0,461,461,461,461,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,466,469,466,469,466,469,466,469,466,469,461,461,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,480,480,480,480,480,480,480,480,480,480,461,461,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,495,495,495,495,495,495,495,495,495,495,461,461,461,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,506,506,506,506,506,506,506,506,484,484,484,484,484,494,494,494,494,0,0,0,0,0,0,0,0,0,0,0,0,484,484,484,484,484,484,484,484,495,495,495,495,495,494,494,494,494,0,0,0,0,0,0,0,0,0,0,0,0,495,495,495,495,495,495,495,495,506,506,506,506,506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_City_Doors" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,175,176,177,178,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,185,186,187,188,189,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,196,197,198,199,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,205,205,205,205,205,205,205,205,205,205,205,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,216,216,216,216,216,216,216,216,216,216,216,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_Alley_Doors" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,351,352,353,349,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,362,363,364,360,361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,373,374,375,371,372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,350,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,360,361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="TILES_Sidewalk_Static" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,210,202,205,202,205,205,202,205,202,205,202,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="TILES_Sidewalk_Animated" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125,33,65,33,65,65,33,65,33,65,33,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="objects">
+    <object id="1" gid="1193" type="obj_mainchara" x="28" y="340" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="103605"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103606"/>
+      </properties>
+    </object>
+    <object id="3" gid="1194" type="obj_holemouse_generator" x="520" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103607"/>
+      </properties>
+    </object>
+    <object id="4" gid="1195" type="obj_holemouse_goal" x="680" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103608"/>
+      </properties>
+    </object>
+    <object id="5" gid="1196" type="obj_rotationTile_track1" x="440" y="320" width="60" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="103609"/>
+      </properties>
+    </object>
+    <object id="6" gid="1197" type="obj_rotationController_track" x="440" y="131" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="103610"/>
+      </properties>
+    </object>
+    <object id="7" gid="1198" type="obj_rotationTile_track2" x="560" y="320" width="40" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="103611"/>
+      </properties>
+    </object>
+    <object id="8" gid="1199" type="obj_rotationTile_track3" x="640" y="340" width="60" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="103612"/>
+      </properties>
+    </object>
+    <object id="9" gid="1197" type="obj_rotationController_track" x="560" y="131" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="103613"/>
+      </properties>
+    </object>
+    <object id="10" gid="1197" type="obj_rotationController_track" x="640" y="131" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="103614"/>
+      </properties>
+    </object>
+    <object id="11" gid="1200" type="obj_npc_sign" x="400" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103615"/>
+      </properties>
+    </object>
+    <object id="12" gid="1200" type="obj_npc_sign" x="440" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103616"/>
+      </properties>
+    </object>
+    <object id="13" gid="1200" type="obj_npc_sign" x="480" y="182" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103617"/>
+      </properties>
+    </object>
+    <object id="14" gid="1200" type="obj_npc_sign" x="520" y="186" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103618"/>
+      </properties>
+    </object>
+    <object id="15" gid="1200" type="obj_npc_sign" x="560" y="204" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103619"/>
+      </properties>
+    </object>
+    <object id="16" gid="1200" type="obj_npc_sign" x="600" y="184" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103620"/>
+      </properties>
+    </object>
+    <object id="17" gid="1200" type="obj_npc_sign" x="640" y="202" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103621"/>
+      </properties>
+    </object>
+    <object id="18" gid="1201" type="obj_solidenemy" x="760" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103622"/>
+      </properties>
+    </object>
+    <object id="19" gid="1202" type="obj_controller_city_mice2" x="400" y="-20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103623"/>
+      </properties>
+    </object>
+    <object id="20" gid="1203" type="obj_mice2Switch" x="860" y="322" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103624"/>
+      </properties>
+    </object>
+    <object id="21" gid="1204" type="obj_cybercity_mousesign" x="702" y="150" width="120" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103625"/>
+      </properties>
+    </object>
+    <object id="22" gid="1205" type="obj_readable_room1" x="758" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103626"/>
+      </properties>
+    </object>
+    <object id="23" gid="1205" type="obj_readable_room1" x="524" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103627"/>
+      </properties>
+    </object>
+    <object id="24" gid="1205" type="obj_readable_room1" x="684" y="266" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103628"/>
+      </properties>
+    </object>
+    <object id="25" gid="1206" type="obj_cybercity_bg_sign" x="20" y="229" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103629"/>
+      </properties>
+    </object>
+    <object id="26" gid="1207" type="obj_weirdroute_manipulator" x="0" y="-38" width="54" height="82">
+      <properties>
+        <property name="instanceId" type="int" value="103630"/>
+      </properties>
+    </object>
+    <object id="27" gid="1208" type="obj_musicer_city" x="-80" y="112" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103631"/>
+      </properties>
+    </object>
+    <object id="28" gid="1200" type="obj_npc_sign" x="364" y="70" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103632"/>
+      </properties>
+    </object>
+    <object id="29" gid="1209" type="obj_markerA" x="26" y="376" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103633"/>
+      </properties>
+    </object>
+    <object id="30" gid="1210" type="obj_forcefield" x="800" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103634"/>
+      </properties>
+    </object>
+    <object id="31" gid="1211" type="obj_solidblocksized" x="680" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103635"/>
+      </properties>
+    </object>
+    <object id="32" gid="1211" type="obj_solidblocksized" x="800" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103636"/>
+      </properties>
+    </object>
+    <object id="33" gid="1211" type="obj_solidblocksized" x="0" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103637"/>
+      </properties>
+    </object>
+    <object id="34" gid="1211" type="obj_solidblocksized" x="0" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103638"/>
+      </properties>
+    </object>
+    <object id="35" gid="1211" type="obj_solidblocksized" x="280" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103639"/>
+      </properties>
+    </object>
+    <object id="36" gid="1212" type="obj_doorB" x="0" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103640"/>
+      </properties>
+    </object>
+    <object id="37" gid="1213" type="obj_doorA" x="1140" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103641"/>
+      </properties>
+    </object>
+    <object id="38" gid="1214" type="obj_markerB" x="1096" y="336" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103642"/>
+      </properties>
+    </object>
+    <object id="39" gid="1215" type="obj_holemouse_invis_counterclockwise" x="720" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103643"/>
+      </properties>
+    </object>
+    <object id="40" gid="1215" type="obj_holemouse_invis_counterclockwise" x="0" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103644"/>
+      </properties>
+    </object>
+    <object id="41" gid="1216" type="obj_holemouse_invis_clockwise" x="280" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103645"/>
+      </properties>
+    </object>
+    <object id="42" gid="1216" type="obj_holemouse_invis_clockwise" x="560" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103646"/>
+      </properties>
+    </object>
+    <object id="43" gid="1216" type="obj_holemouse_invis_clockwise" x="680" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103647"/>
+      </properties>
+    </object>
+    <object id="44" gid="1216" type="obj_holemouse_invis_clockwise" x="240" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103648"/>
+      </properties>
+    </object>
+    <object id="45" gid="1217" type="obj_camera_area" x="360" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103649"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="9" name="views">
+    <object id="46" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>
