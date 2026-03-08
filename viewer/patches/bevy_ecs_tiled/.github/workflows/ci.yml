@@ -1,0 +1,144 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+    branches: [main, dev]
+
+env:
+  CARGO_TERM_COLOR: always
+  # Reduce compile time and cache size.
+  RUSTFLAGS: -Dwarnings -Zshare-generics=y -Zthreads=0 -C debuginfo=line-tables-only
+  RUSTDOCFLAGS: -Dwarnings -Zshare-generics=y -Zthreads=0 -C debuginfo=line-tables-only
+  toolchain: nightly-2025-06-26
+
+jobs:
+  # Run tests.
+  test:
+    name: Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.toolchain }}
+
+      - name: Restore Rust cache
+        id: cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          shared-key: ci
+
+      - name: Install build dependencies
+        run: sudo apt-get update; sudo apt-get install --no-install-recommends libasound2-dev libudev-dev libwayland-dev; sudo apt-get clean
+
+      - name: Run tests
+        run: |
+          cargo test --workspace --all-features --all-targets
+          # Workaround for https://github.com/rust-lang/cargo/issues/6669
+          cargo test --workspace --all-features --doc
+
+  # Run clippy lints.
+  clippy:
+    name: Clippy
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.toolchain }}
+          components: clippy
+
+      - name: Restore Rust cache
+        id: cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          shared-key: ci
+
+      - name: Install build dependencies
+        run: sudo apt-get update; sudo apt-get install --no-install-recommends libasound2-dev libudev-dev libwayland-dev; sudo apt-get clean
+
+      - name: Run clippy lints
+        run: cargo clippy --workspace --all-targets --all-features -- --deny warnings
+
+  # Check formatting.
+  format:
+    name: Format
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.toolchain }}
+          components: rustfmt
+
+      - name: Run cargo fmt
+        run: cargo fmt --all -- --check
+
+  # Check documentation.
+  doc:
+    name: Docs
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.toolchain }}
+
+      - name: Restore Rust cache
+        id: cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          shared-key: ci
+
+      - name: Install build dependencies
+        run: sudo apt-get update; sudo apt-get install --no-install-recommends libasound2-dev libudev-dev libwayland-dev; sudo apt-get clean
+
+      - name: Check documentation
+        run: cargo doc --workspace --all-features --document-private-items --no-deps
+
+  check:
+    name: Check features
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ env.toolchain }}
+
+      - name: Restore Rust cache
+        id: cache
+        uses: Swatinem/rust-cache@v2
+        with:
+          shared-key: ci
+          save-if: false
+
+      - name: Install build dependencies
+        run: sudo apt-get update; sudo apt-get install --no-install-recommends libasound2-dev libudev-dev libwayland-dev; sudo apt-get clean
+
+      - name: Install cargo-all-features
+        run: cargo install --force cargo-all-features
+
+      - name: Check project
+        run: cargo check-all-features

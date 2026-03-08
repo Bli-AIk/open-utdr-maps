@@ -1,0 +1,44 @@
+name: PR Auto-Label
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  label:
+    name: Auto-label PR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply labels
+        run: |
+          FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD)
+          LABELS=""
+
+          if echo "$FILES" | grep -q '^raw/'; then
+            LABELS="$LABELS raw-data"
+          fi
+          if echo "$FILES" | grep -q '^curated/'; then
+            LABELS="$LABELS curation"
+          fi
+          if echo "$FILES" | grep -qE '\.(md|txt)$|^docs/'; then
+            LABELS="$LABELS documentation"
+          fi
+          if echo "$FILES" | grep -qE '^viewer/|^scripts/|^\.github/|^justfile'; then
+            LABELS="$LABELS tooling"
+          fi
+          if echo "$FILES" | grep -qE '\.world$'; then
+            LABELS="$LABELS world-stitching"
+          fi
+
+          for label in $LABELS; do
+            gh pr edit ${{ github.event.pull_request.number }} --add-label "$label" || true
+          done
+        env:
+          GH_TOKEN: ${{ github.token }}

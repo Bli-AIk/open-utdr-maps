@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="39" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx"/>
+  <tileset firstgid="298" source="tilesets/bg_firetiles.tsx"/>
+  <tileset firstgid="658" source="tilesets/bg_elevtop.tsx"/>
+  <tileset firstgid="659" source="tilesets/bg_elevbelow.tsx"/>
+  <tileset firstgid="660" source="tilesets/bg_elevunit.tsx"/>
+  <tileset firstgid="661" source="tilesets/bg_elevarmR.tsx"/>
+  <tileset firstgid="662" source="tilesets/bg_elevarmL.tsx"/>
+  <tileset firstgid="663" source="tilesets/obj_elevatordoor.tsx"/>
+  <tileset firstgid="664" source="tilesets/obj_solidextall_2.tsx"/>
+  <tileset firstgid="665" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="666" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="667" source="tilesets/obj_door_s_musfade.tsx"/>
+  <tileset firstgid="668" source="tilesets/obj_markers.tsx"/>
+  <tileset firstgid="669" source="tilesets/obj_markerX.tsx"/>
+  <tileset firstgid="670" source="tilesets/obj_heatsflamesman.tsx"/>
+  <tileset firstgid="671" source="tilesets/obj_solidexwide.tsx"/>
+  <tileset firstgid="672" source="tilesets/obj_overworldcontroller.tsx"/>
+  <tileset firstgid="673" source="tilesets/obj_elevatorgem.tsx"/>
+  <tileset firstgid="674" source="tilesets/obj_elev_floorsign.tsx"/>
+  <tileset firstgid="675" source="tilesets/obj_door_ruins13.tsx"/>
+  <layer id="1" name="depth_1000000" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,451,451,451,451,451,451,451,0,1,451,451,451,451,452,0,0,302,302,302,302,302,302,302,302,302,302,302,302,302,303,0,0,320,320,320,320,320,320,320,320,320,320,320,320,320,321,0,0,335,335,335,335,335,335,335,335,335,335,335,335,335,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_tiles">
+    <object id="1" gid="451" x="-20" y="120" width="20" height="20"/>
+    <object id="2" gid="451" x="-40" y="120" width="20" height="20"/>
+    <object id="3" gid="375" x="140" y="120" width="40" height="20"/>
+    <object id="4" gid="492" x="120" y="0" width="20" height="20"/>
+    <object id="5" gid="494" x="180" y="0" width="20" height="20"/>
+    <object id="6" gid="658" x="100" y="100" width="120" height="100"/>
+    <object id="7" gid="659" x="120" y="222" width="82" height="42"/>
+    <object id="8" gid="660" x="120" y="249" width="83" height="27"/>
+  </objectgroup>
+  <objectgroup id="3" name="depth_700000_tiles">
+    <object id="9" gid="661" x="206" y="204" width="68" height="41"/>
+    <object id="10" gid="662" x="48" y="204" width="68" height="41"/>
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="11" gid="663" type="obj_elevatordoor" x="136" y="100" width="57" height="55">
+      <properties>
+        <property name="instanceId" type="int" value="110378"/>
+      </properties>
+    </object>
+    <object id="12" gid="664" type="obj_solidextall_2" x="280" y="160" width="20" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="110379"/>
+      </properties>
+    </object>
+    <object id="13" gid="665" type="obj_mainchara" x="100" y="144" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110380"/>
+      </properties>
+    </object>
+    <object id="14" gid="666" type="obj_solidsmall" x="120" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110381"/>
+      </properties>
+    </object>
+    <object id="15" gid="666" type="obj_solidsmall" x="180" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110382"/>
+      </properties>
+    </object>
+    <object id="16" gid="667" type="obj_door_s_musfade" x="140" y="95" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110383"/>
+      </properties>
+    </object>
+    <object id="17" gid="667" type="obj_door_s_musfade" x="160" y="95" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110384"/>
+      </properties>
+    </object>
+    <object id="18" gid="668" type="obj_markers" x="150" y="110" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110385"/>
+      </properties>
+    </object>
+    <object id="19" gid="669" type="obj_markerX" x="20" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110386"/>
+      </properties>
+    </object>
+    <object id="20" gid="670" type="obj_heatsflamesman" x="240" y="136" width="18" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="110387"/>
+      </properties>
+    </object>
+    <object id="21" gid="671" type="obj_solidexwide" x="0" y="175" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110388"/>
+      </properties>
+    </object>
+    <object id="22" gid="671" type="obj_solidexwide" x="80" y="175" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110389"/>
+      </properties>
+    </object>
+    <object id="23" gid="671" type="obj_solidexwide" x="160" y="175" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110390"/>
+      </properties>
+    </object>
+    <object id="24" gid="671" type="obj_solidexwide" x="240" y="175" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110391"/>
+      </properties>
+    </object>
+    <object id="25" gid="671" type="obj_solidexwide" x="200" y="100" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110392"/>
+      </properties>
+    </object>
+    <object id="26" gid="671" type="obj_solidexwide" x="40" y="100" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110393"/>
+      </properties>
+    </object>
+    <object id="27" gid="671" type="obj_solidexwide" x="-40" y="100" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110394"/>
+      </properties>
+    </object>
+    <object id="28" gid="672" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="110395"/>
+      </properties>
+    </object>
+    <object id="29" gid="673" type="obj_elevatorgem" x="136" y="212" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110396"/>
+      </properties>
+    </object>
+    <object id="30" gid="673" type="obj_elevatorgem" x="180" y="212" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110397"/>
+      </properties>
+    </object>
+    <object id="31" gid="673" type="obj_elevatorgem" x="136" y="239" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110398"/>
+      </properties>
+    </object>
+    <object id="32" gid="673" type="obj_elevatorgem" x="180" y="239" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110399"/>
+      </properties>
+    </object>
+    <object id="33" gid="674" type="obj_elev_floorsign" x="144" y="41" width="33" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="110400"/>
+      </properties>
+    </object>
+    <object id="34" type="obj_lavamusic" x="257" y="25" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="110401"/>
+      </properties>
+    </object>
+    <object id="35" gid="675" type="obj_door_ruins13" x="-3" y="156" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110402"/>
+      </properties>
+    </object>
+    <object id="36" gid="675" type="obj_door_ruins13" x="-3" y="137" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110403"/>
+      </properties>
+    </object>
+    <object id="37" gid="675" type="obj_door_ruins13" x="-3" y="117" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110404"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="38" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

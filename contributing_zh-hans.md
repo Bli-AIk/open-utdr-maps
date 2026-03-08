@@ -157,7 +157,7 @@ git push origin my-contribution
 
 ## 📏 图层命名规范
 
-创建或重命名图层时，请遵循 [docs/layer_spec.md](docs/layer_spec.md)。
+创建或重命名图层时，请遵循 [docs/layer_spec_zh-hans.md](docs/layer_spec_zh-hans.md)。
 
 快速参考：
 
@@ -177,9 +177,24 @@ git push origin my-contribution
 - [ ] 我**没有**修改 `raw/` 中的任何文件
 - [ ] 我的整理版地图在正确的 `curated/` 子目录中
 - [ ] 我的 TMX 文件在 Tiled 中可以正常打开
-- [ ] 我遵循了 [图层命名规范](docs/layer_spec.md)
+- [ ] 我遵循了 [图层命名规范](docs/layer_spec_zh-hans.md)
 - [ ] 视觉变更已附截图
 - [ ] 我在 PR 描述中说明了修改内容
+
+## 🤖 自动化 CI 检查
+
+当你提交 PR 时，会自动运行一系列检查。如果你的 PR 显示为 **Blocked（被阻止）**，不要紧张——以下是每项检查的说明和解决方法：
+
+| 检查项 | 作用 | 如何修复 |
+|--------|------|---------|
+| **Raw 文件保护** | 阻止修改 `raw/` 下文件的 PR。这些是自动生成的，不应手动编辑。 | 将你的改动放到 `curated/` 目录下。如果确实需要更新原始数据，维护者会添加 `raw-update` 标签。 |
+| **Curated 路径检查** | 确认整理版地图放在了正确的子目录（如 `curated/undertale/`、`curated/deltarune/deltarune_ch1/`）。 | 确保你的文件路径与 `raw/` 的目录结构一致。 |
+| **TMX/TSX XML 验证** | 检查所有 `.tmx` 和 `.tsx` 文件是否为合法的 XML。 | 在 Tiled 中打开文件并重新保存——Tiled 总是输出合法的 XML。 |
+| **图层命名检查** | 如果 curated 地图使用了不符合 [layer_spec.md](docs/layer_spec_zh-hans.md) 的图层名，会发出警告。 | 按规范重命名图层，或在 PR 中说明为什么需要自定义名称。 |
+| **文件大小检查** | 阻止超过 5MB（PNG 为 10MB）的文件。 | 检查是否意外提交了不必要的大文件。 |
+| **PR 描述检查** | 如果 PR 描述缺少模板中的关键部分，会发出警告。 | 按照 PR 模板完整填写描述。 |
+
+此外，所有 PR 都需要**至少 1 名维护者的审批**才能合并。
 
 ## 📜 署名政策
 

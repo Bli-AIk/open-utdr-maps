@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="128" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="15">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_mansion_top.tsx"/>
+  <tileset firstgid="91" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="92" source="tilesets/obj_ch2_scene26.tsx"/>
+  <tileset firstgid="93" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="94" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="95" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="96" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="97" source="tilesets/obj_doorAny.tsx"/>
+  <layer id="1" name="TILES" width="64" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="91" type="obj_mainchara" x="26" y="284" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="106121"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="106122"/>
+      </properties>
+    </object>
+    <object id="3" gid="92" type="obj_ch2_scene26" x="1120" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="106123"/>
+      </properties>
+    </object>
+    <object id="4" gid="93" type="obj_markerA" x="26" y="320" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="106124"/>
+      </properties>
+    </object>
+    <object id="5" gid="94" type="obj_doorB" x="0" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="106125"/>
+      </properties>
+    </object>
+    <object id="6" gid="95" type="obj_soliddark" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="106126"/>
+      </properties>
+    </object>
+    <object id="7" gid="95" type="obj_soliddark" x="-6" y="380" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="106127"/>
+      </properties>
+    </object>
+    <object id="8" gid="96" type="obj_markerB" x="2480" y="314" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="106128"/>
+      </properties>
+    </object>
+    <object id="9" gid="97" type="obj_doorAny" x="2543" y="296" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="106129"/>
+      </properties>
+    </object>
+    <object id="10" type="obj_ch2_scene26_wall" x="0" y="64" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="106130"/>
+      </properties>
+    </object>
+    <object id="11" type="obj_ch2_scene26_gigaqueen" x="0" y="96" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="106131"/>
+      </properties>
+    </object>
+    <object id="12" type="obj_ch2_scene27_queenhand" x="0" y="128" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="106132"/>
+      </properties>
+    </object>
+    <object id="13" type="obj_ch2_scene26_cityscape" x="0" y="32" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="106133"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="14" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

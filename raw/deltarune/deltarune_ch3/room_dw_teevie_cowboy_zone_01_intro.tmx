@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="13">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx"/>
+  <tileset firstgid="157" source="tilesets/bg_ch3_dw_tvland_backstage_tileset.tsx"/>
+  <tileset firstgid="531" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
+  <tileset firstgid="801" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="802" source="tilesets/obj_room_teevie_cowboy_intro_01.tsx"/>
+  <tileset firstgid="803" source="tilesets/obj_posterchecker.tsx"/>
+  <tileset firstgid="804" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="805" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="806" source="tilesets/obj_solidblocksized.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,256,257,257,257,257,257,257,257,257,257,257,257,257,257,257,0,205,206,269,236,236,236,236,236,236,236,236,236,236,236,236,0,205,206,207,0,0,0,0,0,0,0,0,0,0,0,0,0,205,206,207,0,0,0,0,0,0,0,0,0,0,0,0,0,205,206,207,0,0,0,0,0,0,0,0,0,0,0,0,0,205,206,207,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Backstage" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,749,749,749,749,749,749,749,749,749,749,749,749,0,637,0,0,729,720,721,720,721,720,721,720,721,720,721,720,0,0,0,0,738,720,721,720,721,720,721,720,721,720,721,720,0,0,0,0,738,720,721,720,721,720,721,720,721,720,721,720,0,0,0,0,738,720,721,720,721,720,721,720,721,720,721,720,0,0,0,0,742,742,742,742,742,742,742,742,742,742,742,742,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_Floor" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,649,649,649,649,649,649,649,649,649,649,649,649,0,0,0,0,734,735,734,743,744,735,734,735,743,744,734,735,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_BG" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,0,0,0,0,0,0,0,0,0,0,0,0,26,26,26,26,0,0,0,0,0,0,0,0,0,0,0,0,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,28,33,33,33,33,33,33,33,33,33,33,33,33,33,33,28,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_Carpet" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="TILES_Posters" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="TILES_Curtains" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,0,0,0,0,0,0,0,148,149,149,149,149,149,149,149,149,0,0,0,0,0,0,0,154,155,155,155,155,155,155,155,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="objects">
+    <object id="1" gid="801" type="obj_mainchara" x="12" y="233" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="108721"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108722"/>
+      </properties>
+    </object>
+    <object id="3" gid="802" type="obj_room_teevie_cowboy_intro_01" x="0" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108723"/>
+      </properties>
+    </object>
+    <object id="4" gid="803" type="obj_posterchecker" x="-80" y="43" width="32" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="108724"/>
+      </properties>
+    </object>
+    <object id="5" gid="804" type="obj_doorAny" x="-40" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108725"/>
+      </properties>
+    </object>
+    <object id="6" gid="804" type="obj_doorAny" x="640" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108726"/>
+      </properties>
+    </object>
+    <object id="7" gid="805" type="obj_markerAny" x="15" y="270" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108727"/>
+      </properties>
+    </object>
+    <object id="8" gid="805" type="obj_markerAny" x="592" y="270" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="108728"/>
+      </properties>
+    </object>
+    <object id="9" gid="806" type="obj_solidblocksized" x="0" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108729"/>
+      </properties>
+    </object>
+    <object id="10" gid="806" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108730"/>
+      </properties>
+    </object>
+    <object id="11" type="obj_dw_ch3_teevie_floor_light_controller" x="32" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108731"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="9" name="views">
+    <object id="12" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

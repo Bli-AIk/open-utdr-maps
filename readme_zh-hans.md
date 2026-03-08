@@ -18,14 +18,17 @@
 
 ## 🤔 这是什么？
 
-想做同人游戏或动画，却对从零开始整理地图素材感到头疼？
+想做同人游戏或动画漫画，却对从零开始整理地图素材感到头疼？
 或者只是想回顾一下原作某个房间的布局，却不知从何下手？
 
 **open-utdr-maps** 就是为你准备的。
 
 我们将 Undertale 和 Deltarune（第 1–4 章）的所有房间都转换成了
 **[Tiled](https://www.mapeditor.org/) TMX/TSX 格式** ——
-总计 **1,333 个房间**，全部经过精度验证。
+总计 **1,333 个房间**。
+这些地图由程序从游戏数据自动转换而来，虽然大部分在视觉上是准确的，
+但**部分房间可能存在渲染瑕疵、图层缺失或瓦片错位等问题**。
+质量因房间而异——详见下方的精度说明。
 
 ### 为什么选择 Tiled？
 
@@ -85,7 +88,7 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
 你可以重命名图层、清理房间、添加碰撞数据、拼接世界地图，
 甚至只是修复文档中的一个错别字。
 
-👉 查看 [contributing.md](contributing.md) 了解详细的参与步骤。
+👉 查看 [contributing_zh-hans.md](contributing_zh-hans.md) 了解详细的参与步骤。
 
 ## ⚖️ 许可证
 
@@ -107,15 +110,17 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
 
 ## 📊 已有内容
 
-| 游戏 | 房间数 | 像素精度 |
-|------|--------|---------|
-| Undertale | 335 | ✅ 98.2% |
-| Deltarune Ch1 | 147 | ✅ 100% |
-| Deltarune Ch2 | 278 | ✅ 100% |
-| Deltarune Ch3 | 246 | ✅ 100% |
-| Deltarune Ch4 | 327 | ✅ 100% |
+| 游戏 | 房间数 | 自动转换质量 |
+|------|--------|-------------|
+| Undertale | 335 | ⚠️ 主要关卡还原较好，部分房间有待改善 |
+| Deltarune Ch1 | 147 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
+| Deltarune Ch2 | 278 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
+| Deltarune Ch3 | 246 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
+| Deltarune Ch4 | 327 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
 
-> 全部 **1,333 个房间** 均已自动转换，并通过像素级视觉回归测试验证。
+> 全部 **1,333 个房间** 均已自动转换。自动化像素级测试能捕获许多问题，
+> 但**部分地图仍可能存在视觉上的不准确** — 缺失瓦片、图层错误或转换瑕疵等。
+> 非常欢迎帮助发现和修复这些问题！
 
 ## 🚀 快速开始
 
@@ -158,8 +163,11 @@ open-utdr-maps/
 ├── tilesets/               # 标准化贴图集（预留）
 ├── docs/                   # 文档
 │   ├── copyright.md        # 版权与法律声明
+│   ├── copyright_zh-hans.md
 │   ├── layer_spec.md       # 图层命名规范
-│   └── conversion_spec.md  # 地图转换说明
+│   ├── layer_spec_zh-hans.md
+│   ├── conversion_spec.md  # 地图转换说明
+│   └── conversion_spec_zh-hans.md
 ├── conversion_info/        # 转换元数据（TOML）
 └── scripts/                # 自动化脚本
 ```
@@ -178,12 +186,13 @@ open-utdr-maps/
 - 瓦片翻转/旋转标志
 - 游戏对象实例和摄像机视图
 
-详见 [docs/conversion_spec.md](docs/conversion_spec.md)。
+详见 [docs/conversion_spec_zh-hans.md](docs/conversion_spec_zh-hans.md)。
 
 ### 验证体系
 
-每个转换后的房间都通过自动化视觉回归测试验证——
+每个转换后的房间都通过自动化视觉回归测试进行检查——
 将 TMX 输出（由 `tmxrasterizer` 渲染）与从原始瓦片数据独立渲染的参考图进行逐像素对比。
+但**这些测试并不能捕获所有问题** — 部分房间仍可能存在需要人工审查的视觉瑕疵。
 
 ## 🌟 相关项目
 

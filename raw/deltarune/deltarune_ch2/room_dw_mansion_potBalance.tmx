@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="58" height="66" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="93">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_mansion_interior_tileset.tsx"/>
+  <tileset firstgid="261" source="tilesets/bg_dw_mansion_tileset.tsx"/>
+  <tileset firstgid="1035" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1036" source="tilesets/obj_racingline.tsx"/>
+  <tileset firstgid="1037" source="tilesets/obj_mansion_chandelier.tsx"/>
+  <tileset firstgid="1038" source="tilesets/obj_npc_butler.tsx"/>
+  <tileset firstgid="1039" source="tilesets/obj_mansion_vase.tsx"/>
+  <tileset firstgid="1040" source="tilesets/obj_mansion_art_frame.tsx"/>
+  <tileset firstgid="1041" source="tilesets/obj_queenvase.tsx"/>
+  <tileset firstgid="1042" source="tilesets/obj_triggervolume.tsx"/>
+  <tileset firstgid="1043" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="1044" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="1045" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="1046" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="1047" source="tilesets/obj_markerB.tsx"/>
+  <layer id="1" name="TILES" width="29" height="33">
+    <data encoding="csv">286,286,286,286,286,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,285,285,285,285,285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,303,303,303,303,303,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,321,321,321,321,321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,339,339,339,339,339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,292,292,292,292,292,292,292,292,292,292,292,292,292,292,292,292,292,0,0,0,0,0,0,292,292,292,292,292,725,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,0,0,0,0,0,0,328,328,328,328,328,743,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,0,0,0,0,0,0,0,0,0,0,0,327,328,328,328,328,328,328,328,328,328,328,328,328,328,743,313,313,744,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,291,292,292,292,292,292,292,292,292,292,292,292,292,292,725,313,313,726,292,292,292,293,0,0,0,0,0,0,0,309,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,311,0,0,0,0,0,0,0,309,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,311,0,0,0,0,0,0,0,327,328,328,328,743,313,313,744,328,328,328,328,328,328,328,328,328,328,328,328,328,329,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,313,313,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,292,292,292,725,313,313,726,292,292,292,292,292,292,292,292,292,292,292,292,292,293,0,0,0,0,0,0,0,309,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,726,292,292,0,0,0,0,0,309,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,313,744,328,328,0,0,0,0,0,327,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,328,329,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Mansion" width="29" height="33">
+    <data encoding="csv">253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,254,0,0,253,253,253,259,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,260,253,253,254,0,0,227,227,227,228,67,39,40,67,67,67,67,67,39,40,67,67,67,67,67,39,40,67,67,252,253,253,254,0,0,67,67,67,238,67,49,50,67,67,67,67,67,49,50,67,67,67,67,67,49,50,67,67,252,253,253,254,0,0,67,67,67,238,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,252,253,253,254,0,0,67,67,67,238,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,252,253,253,254,0,0,68,68,68,248,132,133,133,133,133,133,133,133,133,133,133,133,133,133,133,133,133,134,0,252,253,253,254,0,0,133,133,133,133,222,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,144,0,252,253,253,254,0,0,153,153,153,153,232,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,144,0,252,253,253,254,0,0,76,76,76,76,152,153,153,153,153,153,153,153,153,153,153,153,153,153,232,143,143,144,0,252,253,253,254,0,0,243,243,244,0,76,76,76,76,76,76,76,76,76,76,76,76,76,76,142,143,143,144,0,252,253,253,254,0,0,253,253,254,0,242,243,243,243,243,243,243,243,243,243,243,243,244,0,142,143,143,144,0,252,253,253,254,0,0,253,253,254,0,252,253,253,253,253,253,253,253,253,253,253,253,254,0,142,143,143,144,0,252,253,253,254,0,0,253,253,254,0,226,227,227,227,227,227,227,227,227,227,227,227,228,0,142,143,143,144,0,226,227,227,228,0,0,253,253,254,0,236,67,67,39,40,67,67,67,39,40,67,67,238,0,142,143,143,144,0,236,39,40,238,0,0,253,253,254,0,236,67,67,49,50,67,67,67,49,50,67,67,238,0,142,143,143,144,0,236,49,50,238,0,0,253,253,254,0,246,68,68,68,68,68,68,68,68,68,68,68,248,0,142,143,143,144,0,246,68,68,248,0,0,253,253,254,0,132,133,133,133,133,133,133,133,133,133,133,133,133,133,222,143,143,223,133,133,133,133,134,0,0,253,253,254,0,142,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,144,0,0,253,253,254,0,152,153,153,153,153,232,143,233,153,153,153,153,153,153,153,153,153,153,153,153,153,153,154,0,0,253,253,254,0,76,76,76,76,76,142,143,144,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,0,0,253,253,254,0,242,243,243,244,0,142,143,144,0,242,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,253,253,254,0,252,253,253,254,0,142,143,144,0,252,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,254,0,226,227,227,228,0,142,143,144,0,226,227,227,227,227,227,227,227,227,227,227,227,227,227,227,227,253,253,254,0,236,39,40,238,0,142,143,144,0,236,67,39,40,67,67,67,39,40,67,67,67,67,39,40,67,253,253,254,0,236,49,50,238,0,142,143,144,0,236,67,49,50,67,67,67,49,50,67,67,67,67,49,50,67,253,253,254,0,246,68,68,248,0,142,143,144,0,246,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,253,253,254,0,132,133,133,133,133,222,143,223,133,133,133,133,133,133,133,133,133,133,133,133,134,76,76,76,76,253,253,254,0,142,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,223,133,133,133,133,253,253,254,0,142,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,143,233,153,153,153,153,253,253,254,0,152,153,153,153,153,153,153,153,153,153,153,153,153,153,153,153,153,153,153,153,154,76,76,76,76,253,253,254,0,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,76,0,242,243,243,253,253,254,0,242,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,243,244,0,252,253,253</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="1035" type="obj_mainchara" x="26" y="300" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="104949"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104950"/>
+      </properties>
+    </object>
+    <object id="3" type="obj_controller_dw_mansion_potBalance" x="-280" y="480" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104952"/>
+      </properties>
+    </object>
+    <object id="4" gid="1036" type="obj_racingline" x="732" y="530" width="68" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104953"/>
+      </properties>
+    </object>
+    <object id="5" gid="1036" type="obj_racingline" x="827" y="1237" width="68" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="104954"/>
+      </properties>
+    </object>
+    <object id="6" gid="1037" type="obj_mansion_chandelier" x="300" y="185" width="160" height="185">
+      <properties>
+        <property name="instanceId" type="int" value="104963"/>
+      </properties>
+    </object>
+    <object id="7" gid="1037" type="obj_mansion_chandelier" x="580" y="185" width="160" height="185">
+      <properties>
+        <property name="instanceId" type="int" value="104964"/>
+      </properties>
+    </object>
+    <object id="8" gid="1038" type="obj_npc_butler" x="900" y="669" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104965"/>
+      </properties>
+    </object>
+    <object id="9" gid="1038" type="obj_npc_butler" x="700" y="669" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104966"/>
+      </properties>
+    </object>
+    <object id="10" gid="1038" type="obj_npc_butler" x="560" y="669" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104967"/>
+      </properties>
+    </object>
+    <object id="11" gid="1038" type="obj_npc_butler" x="420" y="669" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104968"/>
+      </properties>
+    </object>
+    <object id="12" gid="1038" type="obj_npc_butler" x="280" y="669" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104969"/>
+      </properties>
+    </object>
+    <object id="13" gid="1038" type="obj_npc_butler" x="330" y="1069" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104970"/>
+      </properties>
+    </object>
+    <object id="14" gid="1038" type="obj_npc_butler" x="510" y="1069" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104971"/>
+      </properties>
+    </object>
+    <object id="15" gid="1038" type="obj_npc_butler" x="630" y="1069" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104972"/>
+      </properties>
+    </object>
+    <object id="16" gid="1038" type="obj_npc_butler" x="750" y="1069" width="50" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="104973"/>
+      </properties>
+    </object>
+    <object id="17" gid="1039" type="obj_mansion_vase" x="1060" y="1080" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104974"/>
+      </properties>
+    </object>
+    <object id="18" gid="1039" type="obj_mansion_vase" x="220" y="200" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104975"/>
+      </properties>
+    </object>
+    <object id="19" gid="1039" type="obj_mansion_vase" x="500" y="200" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104976"/>
+      </properties>
+    </object>
+    <object id="20" gid="1039" type="obj_mansion_vase" x="780" y="200" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104977"/>
+      </properties>
+    </object>
+    <object id="21" gid="1040" type="obj_mansion_art_frame" x="40" y="180" width="40" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="104978"/>
+      </properties>
+    </object>
+    <object id="22" gid="1041" type="obj_queenvase" x="280" y="320" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104979"/>
+      </properties>
+    </object>
+    <object id="23" gid="1041" type="obj_queenvase" x="280" y="358" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104980"/>
+      </properties>
+    </object>
+    <object id="24" gid="1041" type="obj_queenvase" x="440" y="252" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104981"/>
+      </properties>
+    </object>
+    <object id="25" gid="1041" type="obj_queenvase" x="440" y="290" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104982"/>
+      </properties>
+    </object>
+    <object id="26" gid="1041" type="obj_queenvase" x="600" y="320" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104983"/>
+      </properties>
+    </object>
+    <object id="27" gid="1041" type="obj_queenvase" x="600" y="358" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104984"/>
+      </properties>
+    </object>
+    <object id="28" gid="1041" type="obj_queenvase" x="828" y="250" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104985"/>
+      </properties>
+    </object>
+    <object id="29" gid="1041" type="obj_queenvase" x="828" y="290" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104986"/>
+      </properties>
+    </object>
+    <object id="30" gid="1041" type="obj_queenvase" x="784" y="250" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104987"/>
+      </properties>
+    </object>
+    <object id="31" gid="1041" type="obj_queenvase" x="180" y="1090" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104988"/>
+      </properties>
+    </object>
+    <object id="32" gid="1041" type="obj_queenvase" x="180" y="1140" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104989"/>
+      </properties>
+    </object>
+    <object id="33" gid="1041" type="obj_queenvase" x="180" y="1190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104990"/>
+      </properties>
+    </object>
+    <object id="34" gid="1041" type="obj_queenvase" x="230" y="1180" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104991"/>
+      </properties>
+    </object>
+    <object id="35" gid="1041" type="obj_queenvase" x="280" y="1190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104992"/>
+      </properties>
+    </object>
+    <object id="36" gid="1041" type="obj_queenvase" x="330" y="1180" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104993"/>
+      </properties>
+    </object>
+    <object id="37" gid="1041" type="obj_queenvase" x="380" y="1190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104994"/>
+      </properties>
+    </object>
+    <object id="38" gid="1041" type="obj_queenvase" x="430" y="1180" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104995"/>
+      </properties>
+    </object>
+    <object id="39" gid="1041" type="obj_queenvase" x="230" y="1100" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104996"/>
+      </properties>
+    </object>
+    <object id="40" gid="1041" type="obj_queenvase" x="280" y="1090" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104997"/>
+      </properties>
+    </object>
+    <object id="41" gid="1041" type="obj_queenvase" x="480" y="1100" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104998"/>
+      </properties>
+    </object>
+    <object id="42" gid="1041" type="obj_queenvase" x="530" y="1090" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="104999"/>
+      </properties>
+    </object>
+    <object id="43" gid="1041" type="obj_queenvase" x="580" y="1100" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105000"/>
+      </properties>
+    </object>
+    <object id="44" gid="1041" type="obj_queenvase" x="630" y="1090" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105001"/>
+      </properties>
+    </object>
+    <object id="45" gid="1041" type="obj_queenvase" x="480" y="1190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105002"/>
+      </properties>
+    </object>
+    <object id="46" gid="1041" type="obj_queenvase" x="530" y="1180" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105003"/>
+      </properties>
+    </object>
+    <object id="47" gid="1041" type="obj_queenvase" x="580" y="1190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105004"/>
+      </properties>
+    </object>
+    <object id="48" gid="1041" type="obj_queenvase" x="630" y="1180" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105005"/>
+      </properties>
+    </object>
+    <object id="49" gid="1041" type="obj_queenvase" x="680" y="1100" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105006"/>
+      </properties>
+    </object>
+    <object id="50" gid="1041" type="obj_queenvase" x="680" y="1190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105007"/>
+      </properties>
+    </object>
+    <object id="51" gid="1042" type="obj_triggervolume" x="130" y="284" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105008"/>
+      </properties>
+    </object>
+    <object id="52" gid="1042" type="obj_triggervolume" x="890" y="1074" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105009"/>
+      </properties>
+    </object>
+    <object id="53" gid="1041" type="obj_queenvase" x="330" y="1100" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105010"/>
+      </properties>
+    </object>
+    <object id="54" gid="1042" type="obj_triggervolume" x="300" y="814" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105011"/>
+      </properties>
+    </object>
+    <object id="55" gid="1042" type="obj_triggervolume" x="700" y="634" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105012"/>
+      </properties>
+    </object>
+    <object id="56" gid="1042" type="obj_triggervolume" x="690" y="414" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105013"/>
+      </properties>
+    </object>
+    <object id="57" gid="1041" type="obj_queenvase" x="180" y="700" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105014"/>
+      </properties>
+    </object>
+    <object id="58" gid="1041" type="obj_queenvase" x="180" y="750" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105015"/>
+      </properties>
+    </object>
+    <object id="59" gid="1041" type="obj_queenvase" x="230" y="700" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105016"/>
+      </properties>
+    </object>
+    <object id="60" gid="1041" type="obj_queenvase" x="230" y="750" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105017"/>
+      </properties>
+    </object>
+    <object id="61" gid="1041" type="obj_queenvase" x="280" y="700" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105018"/>
+      </properties>
+    </object>
+    <object id="62" gid="1041" type="obj_queenvase" x="280" y="750" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105019"/>
+      </properties>
+    </object>
+    <object id="63" gid="1041" type="obj_queenvase" x="490" y="730" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105020"/>
+      </properties>
+    </object>
+    <object id="64" gid="1041" type="obj_queenvase" x="540" y="740" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105021"/>
+      </properties>
+    </object>
+    <object id="65" gid="1041" type="obj_queenvase" x="590" y="730" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105022"/>
+      </properties>
+    </object>
+    <object id="66" gid="1041" type="obj_queenvase" x="640" y="740" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105023"/>
+      </properties>
+    </object>
+    <object id="67" gid="1041" type="obj_queenvase" x="690" y="730" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105024"/>
+      </properties>
+    </object>
+    <object id="68" gid="1041" type="obj_queenvase" x="740" y="740" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105025"/>
+      </properties>
+    </object>
+    <object id="69" gid="1041" type="obj_queenvase" x="790" y="730" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105026"/>
+      </properties>
+    </object>
+    <object id="70" gid="1041" type="obj_queenvase" x="840" y="740" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105027"/>
+      </properties>
+    </object>
+    <object id="71" gid="1041" type="obj_queenvase" x="890" y="730" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105028"/>
+      </properties>
+    </object>
+    <object id="72" gid="1041" type="obj_queenvase" x="940" y="740" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105029"/>
+      </properties>
+    </object>
+    <object id="73" gid="1041" type="obj_queenvase" x="990" y="730" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105030"/>
+      </properties>
+    </object>
+    <object id="74" gid="1042" type="obj_triggervolume" x="320" y="1024" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105031"/>
+      </properties>
+    </object>
+    <object id="75" gid="1042" type="obj_triggervolume" x="400" y="654" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="105032"/>
+      </properties>
+    </object>
+    <object id="76" gid="1043" type="obj_doorB" x="0" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105033"/>
+      </properties>
+    </object>
+    <object id="77" gid="1044" type="obj_markerA" x="26" y="336" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="105034"/>
+      </properties>
+    </object>
+    <object id="78" gid="1045" type="obj_solidblocksized" x="0" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105035"/>
+      </properties>
+    </object>
+    <object id="79" gid="1045" type="obj_solidblocksized" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105036"/>
+      </properties>
+    </object>
+    <object id="80" gid="1045" type="obj_solidblocksized" x="160" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105037"/>
+      </properties>
+    </object>
+    <object id="81" gid="1045" type="obj_solidblocksized" x="480" y="840" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105038"/>
+      </properties>
+    </object>
+    <object id="82" gid="1045" type="obj_solidblocksized" x="160" y="1280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105039"/>
+      </properties>
+    </object>
+    <object id="83" gid="1045" type="obj_solidblocksized" x="120" y="680" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105040"/>
+      </properties>
+    </object>
+    <object id="84" gid="1045" type="obj_solidblocksized" x="160" y="840" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105041"/>
+      </properties>
+    </object>
+    <object id="85" gid="1045" type="obj_solidblocksized" x="880" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105042"/>
+      </properties>
+    </object>
+    <object id="86" gid="1045" type="obj_solidblocksized" x="1080" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105043"/>
+      </properties>
+    </object>
+    <object id="87" gid="1045" type="obj_solidblocksized" x="160" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105044"/>
+      </properties>
+    </object>
+    <object id="88" gid="1045" type="obj_solidblocksized" x="1000" y="1240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105045"/>
+      </properties>
+    </object>
+    <object id="89" gid="1045" type="obj_solidblocksized" x="1000" y="1120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="105046"/>
+      </properties>
+    </object>
+    <object id="90" gid="1046" type="obj_doorA" x="1140" y="1140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105047"/>
+      </properties>
+    </object>
+    <object id="91" gid="1047" type="obj_markerB" x="1096" y="1176" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="105048"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="92" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

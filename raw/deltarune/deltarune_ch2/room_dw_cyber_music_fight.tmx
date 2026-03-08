@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="11">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_cyber_tileset.tsx"/>
+  <tileset firstgid="417" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="418" source="tilesets/obj_ch2_cyber01.tsx"/>
+  <tileset firstgid="419" source="tilesets/obj_musicer_cyber.tsx"/>
+  <tileset firstgid="420" source="tilesets/obj_MovingPlat_dw_cyber_music_final.tsx"/>
+  <tileset firstgid="421" source="tilesets/obj_cyber_music_battleBullets.tsx"/>
+  <tileset firstgid="422" source="tilesets/obj_overworld_bulletarea.tsx"/>
+  <tileset firstgid="423" source="tilesets/obj_markerA.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="417" type="obj_mainchara" x="400" y="238" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102768"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="40" y="-40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102769"/>
+      </properties>
+    </object>
+    <object id="3" gid="418" type="obj_ch2_cyber01" x="80" y="-20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102770"/>
+      </properties>
+    </object>
+    <object id="4" type="obj_parallaxer_cyber" x="0" y="-40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="102771"/>
+      </properties>
+    </object>
+    <object id="5" gid="419" type="obj_musicer_cyber" x="-40" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="102772"/>
+      </properties>
+    </object>
+    <object id="6" gid="420" type="obj_MovingPlat_dw_cyber_music_final" x="183" y="300" width="140" height="140">
+      <properties>
+        <property name="instanceId" type="int" value="102773"/>
+      </properties>
+    </object>
+    <object id="7" gid="421" type="obj_cyber_music_battleBullets" x="120" y="-30" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102774"/>
+      </properties>
+    </object>
+    <object id="8" gid="422" type="obj_overworld_bulletarea" x="160" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102775"/>
+      </properties>
+    </object>
+    <object id="9" gid="423" type="obj_markerA" x="40" y="290" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="102776"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="10" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

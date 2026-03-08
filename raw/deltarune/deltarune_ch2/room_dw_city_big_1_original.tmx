@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="64" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="21">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_tileset.tsx"/>
+  <tileset firstgid="613" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
+  <tileset firstgid="958" source="tilesets/bg_dw_city_sidewalk_tileset.tsx"/>
+  <tileset firstgid="1198" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1199" source="tilesets/obj_npc_room.tsx"/>
+  <tileset firstgid="1200" source="tilesets/obj_chaseenemy.tsx"/>
+  <tileset firstgid="1201" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="1202" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="1203" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="1204" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="1205" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="1206" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="1207" source="tilesets/obj_markerw.tsx"/>
+  <tileset firstgid="1208" source="tilesets/obj_markerX.tsx"/>
+  <layer id="1" name="TILES" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,1114,1115,1116,0,0,1003,1182,0,0,0,0,0,0,0,0,0,0,1114,1115,1116,0,0,0,0,0,0,0,0,0,0,0,0,1114,1040,1116,0,0,1018,1197,0,0,0,0,0,0,0,0,0,0,1114,1040,1116,0,0,0,0,0,0,0,0,0,0,0,0,1114,1115,1116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1114,1115,1116,0,0,0,0,0,0,0,0,0,0,0,0,1114,1115,1116,1057,1051,1052,1051,1052,1051,1052,1051,1052,1051,1052,1051,1052,1053,1114,1025,1116,0,0,0,0,0,0,0,0,0,0,0,0,1114,1040,1116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1114,1040,1116,0,0,1179,1180,1181,0,0,0,0,0,0,0,1114,1115,1116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1114,1115,1116,0,0,1194,1195,1196,1186,0,0,0,1186,0,0,1114,1115,1116,0,0,0,0,0,0,0,0,0,0,973,0,0,0,1114,1025,1116,0,0,0,0,0,0,0,0,0,0,0,0,1114,1040,1116,1057,1058,1051,1052,1051,1052,1051,1052,1051,1052,1051,1052,1052,1053,1114,1040,1116,1057,1060,1058,1060,1058,1060,0,0,0,0,0,0,1114,1115,1116,1072,1066,1067,1065,1066,1067,1065,1066,1067,1065,1066,1067,1065,1068,1084,1084,1084,1072,1073,1073,1073,1073,1073,0,0,0,0,0,0,1114,1088,1089,1090,1088,1089,1090,1088,1089,1090,1088,1089,1090,1088,1089,1090,1088,1089,1090,1088,1089,1090,1088,1089,1090,1088,0,0,0,0,0,0,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,1103,0,0,0,0,0,0,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1111,1112,1118</data>
+  </layer>
+  <layer id="2" name="TILES_Alley" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,679,680,681,0,0,0,0,0,0,0,0,0,0,0,0,0,0,679,680,681,0,0,0,0,0,0,0,0,0,0,0,0,694,695,696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,694,695,696,0,0,0,0,0,0,857,857,857,860,857,858,709,710,711,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,710,711,0,0,0,0,0,0,872,872,872,872,872,873,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,891,892,887,887,890,888,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,902,902,902,902,902,908,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,917,917,920,921,917,918,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,706,707,706,707,649,707,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,727,728,729,729,722,723,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,742,743,744,744,737,738,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,757,758,759,759,752,753,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,830,831,830,831,774,775,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_City_Buildings" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,364,365,366,389,390,391,385,386,387,364,365,366,0,0,0,0,0,321,322,323,317,318,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,338,339,340,334,335,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,355,356,357,351,352,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,372,373,374,368,369,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,389,390,391,385,386,0,0,0,0,0,0,0,0,0,0,296,297,298,317,318,319,313,314,315,355,356,357,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_City_Foreground" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,96,97,0,129,130,131,0,146,147,0,129,130,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="1" gid="1198" type="obj_mainchara" x="280" y="78" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107556"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="107557"/>
+      </properties>
+    </object>
+    <object id="3" gid="1199" type="obj_npc_room" x="473" y="220" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107558"/>
+      </properties>
+    </object>
+    <object id="4" gid="1199" type="obj_npc_room" x="469" y="58" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107559"/>
+      </properties>
+    </object>
+    <object id="5" gid="1200" type="obj_chaseenemy" x="400" y="360" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107560"/>
+      </properties>
+    </object>
+    <object id="6" gid="1200" type="obj_chaseenemy" x="920" y="120" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107561"/>
+      </properties>
+    </object>
+    <object id="7" gid="1201" type="obj_soliddark" x="0" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107562"/>
+      </properties>
+    </object>
+    <object id="8" gid="1201" type="obj_soliddark" x="360" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107563"/>
+      </properties>
+    </object>
+    <object id="9" gid="1201" type="obj_soliddark" x="360" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107564"/>
+      </properties>
+    </object>
+    <object id="10" gid="1201" type="obj_soliddark" x="1040" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107565"/>
+      </properties>
+    </object>
+    <object id="11" gid="1201" type="obj_soliddark" x="0" y="520" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107566"/>
+      </properties>
+    </object>
+    <object id="12" gid="1202" type="obj_doorB" x="211" y="-1" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107567"/>
+      </properties>
+    </object>
+    <object id="13" gid="1203" type="obj_markerA" x="280" y="114" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107568"/>
+      </properties>
+    </object>
+    <object id="14" gid="1204" type="obj_doorW" x="889" y="4" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107569"/>
+      </properties>
+    </object>
+    <object id="15" gid="1204" type="obj_doorW" x="-22" y="284" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107570"/>
+      </properties>
+    </object>
+    <object id="16" gid="1205" type="obj_doorA" x="1266" y="270" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107571"/>
+      </properties>
+    </object>
+    <object id="17" gid="1206" type="obj_markerB" x="1200" y="354" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107572"/>
+      </properties>
+    </object>
+    <object id="18" gid="1207" type="obj_markerw" x="40" y="354" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107573"/>
+      </properties>
+    </object>
+    <object id="19" gid="1208" type="obj_markerX" x="960" y="114" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="107574"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="views">
+    <object id="20" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

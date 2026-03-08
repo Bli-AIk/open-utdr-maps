@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="47" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_torielroom.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="6" source="tilesets/obj_readable_room2.tsx"/>
+  <tileset firstgid="7" source="tilesets/obj_readable_room1.tsx"/>
+  <tileset firstgid="8" source="tilesets/obj_readable_room3.tsx"/>
+  <tileset firstgid="9" source="tilesets/obj_sockdrawer.tsx"/>
+  <tileset firstgid="10" source="tilesets/obj_cactus.tsx"/>
+  <tileset firstgid="11" source="tilesets/obj_smallchair.tsx"/>
+  <tileset firstgid="12" source="tilesets/obj_solidwide.tsx"/>
+  <tileset firstgid="13" source="tilesets/obj_overworldcontroller.tsx"/>
+  <objectgroup id="1" name="depth_1000000_tiles">
+    <object id="1" gid="1" x="30" y="248" width="240" height="240"/>
+  </objectgroup>
+  <objectgroup id="2" name="objects">
+    <object id="2" gid="2" type="obj_solidsmall" x="250" y="242" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101216"/>
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_solidsmall" x="30" y="222" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101217"/>
+      </properties>
+    </object>
+    <object id="4" gid="2" type="obj_solidsmall" x="30" y="192" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101218"/>
+      </properties>
+    </object>
+    <object id="5" gid="2" type="obj_solidsmall" x="70" y="202" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101219"/>
+      </properties>
+    </object>
+    <object id="6" gid="2" type="obj_solidsmall" x="70" y="182" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101220"/>
+      </properties>
+    </object>
+    <object id="7" gid="2" type="obj_solidsmall" x="70" y="162" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101221"/>
+      </properties>
+    </object>
+    <object id="8" gid="2" type="obj_solidsmall" x="190" y="92" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101222"/>
+      </properties>
+    </object>
+    <object id="9" gid="2" type="obj_solidsmall" x="210" y="92" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101223"/>
+      </properties>
+    </object>
+    <object id="10" gid="2" type="obj_solidsmall" x="230" y="92" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101224"/>
+      </properties>
+    </object>
+    <object id="11" gid="2" type="obj_solidsmall" x="250" y="112" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101225"/>
+      </properties>
+    </object>
+    <object id="12" gid="2" type="obj_solidsmall" x="250" y="132" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101226"/>
+      </properties>
+    </object>
+    <object id="13" gid="2" type="obj_solidsmall" x="250" y="152" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101227"/>
+      </properties>
+    </object>
+    <object id="14" gid="2" type="obj_solidsmall" x="250" y="172" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101228"/>
+      </properties>
+    </object>
+    <object id="15" gid="2" type="obj_solidsmall" x="250" y="192" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101229"/>
+      </properties>
+    </object>
+    <object id="16" gid="2" type="obj_solidsmall" x="250" y="222" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101230"/>
+      </properties>
+    </object>
+    <object id="17" gid="2" type="obj_solidsmall" x="250" y="202" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101231"/>
+      </properties>
+    </object>
+    <object id="18" gid="2" type="obj_solidsmall" x="135" y="97" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101232"/>
+      </properties>
+    </object>
+    <object id="19" gid="2" type="obj_solidsmall" x="150" y="97" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101233"/>
+      </properties>
+    </object>
+    <object id="20" gid="2" type="obj_solidsmall" x="170" y="97" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101234"/>
+      </properties>
+    </object>
+    <object id="21" gid="2" type="obj_solidsmall" x="90" y="147" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101235"/>
+      </properties>
+    </object>
+    <object id="22" gid="2" type="obj_solidsmall" x="90" y="127" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101236"/>
+      </properties>
+    </object>
+    <object id="23" gid="2" type="obj_solidsmall" x="90" y="107" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101237"/>
+      </properties>
+    </object>
+    <object id="24" gid="2" type="obj_solidsmall" x="110" y="97" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101238"/>
+      </properties>
+    </object>
+    <object id="25" gid="2" type="obj_solidsmall" x="65" y="222" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101239"/>
+      </properties>
+    </object>
+    <object id="26" gid="2" type="obj_solidsmall" x="78" y="242" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101240"/>
+      </properties>
+    </object>
+    <object id="27" gid="2" type="obj_solidsmall" x="60" y="242" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101241"/>
+      </properties>
+    </object>
+    <object id="28" gid="2" type="obj_solidsmall" x="140" y="242" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101242"/>
+      </properties>
+    </object>
+    <object id="29" gid="2" type="obj_solidsmall" x="160" y="242" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101243"/>
+      </properties>
+    </object>
+    <object id="30" gid="3" type="obj_mainchara" x="120" y="171" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="101244"/>
+      </properties>
+    </object>
+    <object id="31" gid="4" type="obj_doorB" x="110" y="252" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101245"/>
+      </properties>
+    </object>
+    <object id="32" gid="5" type="obj_markerA" x="110" y="222" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101246"/>
+      </properties>
+    </object>
+    <object id="33" gid="6" type="obj_readable_room2" x="65" y="222" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101247"/>
+      </properties>
+    </object>
+    <object id="34" gid="7" type="obj_readable_room1" x="70" y="192" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101248"/>
+      </properties>
+    </object>
+    <object id="35" gid="8" type="obj_readable_room3" x="90" y="112" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101249"/>
+      </properties>
+    </object>
+    <object id="36" gid="8" type="obj_readable_room3" x="90" y="132" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101250"/>
+      </properties>
+    </object>
+    <object id="37" gid="9" type="obj_sockdrawer" x="210" y="93" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101251"/>
+      </properties>
+    </object>
+    <object id="38" gid="6" type="obj_readable_room2" x="142" y="99" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101252"/>
+      </properties>
+    </object>
+    <object id="39" gid="6" type="obj_readable_room2" x="162" y="98" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101253"/>
+      </properties>
+    </object>
+    <object id="40" gid="10" type="obj_cactus" x="212" y="218" width="35" height="47">
+      <properties>
+        <property name="instanceId" type="int" value="101254"/>
+      </properties>
+    </object>
+    <object id="41" gid="11" type="obj_smallchair" x="94" y="175" width="17" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="101255"/>
+      </properties>
+    </object>
+    <object id="42" gid="12" type="obj_solidwide" x="30" y="242" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101256"/>
+      </properties>
+    </object>
+    <object id="43" gid="12" type="obj_solidwide" x="180" y="242" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101257"/>
+      </properties>
+    </object>
+    <object id="44" gid="12" type="obj_solidwide" x="220" y="242" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101258"/>
+      </properties>
+    </object>
+    <object id="45" gid="13" type="obj_overworldcontroller" x="20" y="46" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="101259"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="46" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

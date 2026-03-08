@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="26" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_truelab_tiles.tsx"/>
+  <tileset firstgid="71" source="tilesets/obj_labdoor.tsx"/>
+  <tileset firstgid="72" source="tilesets/obj_solidextall_2.tsx"/>
+  <tileset firstgid="73" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="74" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="75" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="76" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="77" source="tilesets/obj_doorBmusicfade.tsx"/>
+  <tileset firstgid="78" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="79" source="tilesets/obj_solidexwide.tsx"/>
+  <tileset firstgid="80" source="tilesets/obj_solidwide.tsx"/>
+  <tileset firstgid="81" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000000" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_tiles">
+    <object id="1" gid="9" x="120" y="120" width="60" height="60"/>
+    <object id="2" gid="8" x="60" y="120" width="20" height="60"/>
+    <object id="3" gid="13" x="220" y="120" width="20" height="60"/>
+    <object id="4" gid="10" x="80" y="120" width="40" height="60"/>
+    <object id="5" gid="10" x="180" y="120" width="40" height="60"/>
+    <object id="6" gid="8" x="240" y="140" width="80" height="60"/>
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="7" gid="71" type="obj_labdoor" x="120" y="120" width="20" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="112404"/>
+      </properties>
+    </object>
+    <object id="8" gid="72" type="obj_solidextall_2" x="40" y="200" width="20" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="112405"/>
+      </properties>
+    </object>
+    <object id="9" gid="73" type="obj_mainchara" x="120" y="169" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112406"/>
+      </properties>
+    </object>
+    <object id="10" gid="74" type="obj_doorA" x="300" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112407"/>
+      </properties>
+    </object>
+    <object id="11" gid="74" type="obj_doorA" x="300" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112408"/>
+      </properties>
+    </object>
+    <object id="12" gid="75" type="obj_markerB" x="280" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112409"/>
+      </properties>
+    </object>
+    <object id="13" gid="76" type="obj_solidsmall" x="60" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112410"/>
+      </properties>
+    </object>
+    <object id="14" gid="76" type="obj_solidsmall" x="220" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112411"/>
+      </properties>
+    </object>
+    <object id="15" gid="77" type="obj_doorBmusicfade" x="130" y="115" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112412"/>
+      </properties>
+    </object>
+    <object id="16" gid="78" type="obj_markerA" x="130" y="130" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112413"/>
+      </properties>
+    </object>
+    <object id="17" gid="79" type="obj_solidexwide" x="60" y="220" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112414"/>
+      </properties>
+    </object>
+    <object id="18" gid="79" type="obj_solidexwide" x="140" y="220" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112415"/>
+      </properties>
+    </object>
+    <object id="19" gid="79" type="obj_solidexwide" x="240" y="200" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112416"/>
+      </properties>
+    </object>
+    <object id="20" gid="79" type="obj_solidexwide" x="240" y="140" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112417"/>
+      </properties>
+    </object>
+    <object id="21" gid="80" type="obj_solidwide" x="200" y="120" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112418"/>
+      </properties>
+    </object>
+    <object id="22" gid="80" type="obj_solidwide" x="160" y="120" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112419"/>
+      </properties>
+    </object>
+    <object id="23" gid="80" type="obj_solidwide" x="80" y="120" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112420"/>
+      </properties>
+    </object>
+    <object id="24" gid="81" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="112421"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="25" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="11" nextobjectid="14">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_alley_animated_tileset.tsx"/>
+  <tileset firstgid="34" source="tilesets/bg_dw_city_alley_buildings_glitch_tileset.tsx"/>
+  <tileset firstgid="106" source="tilesets/bg_dw_city_sidewalk_animated_tileset.tsx"/>
+  <tileset firstgid="238" source="tilesets/bg_dw_city_street_tileset.tsx"/>
+  <tileset firstgid="348" source="tilesets/bg_dw_city_street_edges_tileset.tsx"/>
+  <tileset firstgid="556" source="tilesets/bg_dw_city_alley_tileset.tsx"/>
+  <tileset firstgid="666" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
+  <tileset firstgid="1011" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1012" source="tilesets/obj_readable_room1.tsx"/>
+  <tileset firstgid="1013" source="tilesets/obj_ch2_room_city_moss.tsx"/>
+  <tileset firstgid="1014" source="tilesets/obj_weirdroute_manipulator.tsx"/>
+  <tileset firstgid="1015" source="tilesets/obj_musicer_city.tsx"/>
+  <tileset firstgid="1016" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="1017" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="1018" source="tilesets/obj_markerX.tsx"/>
+  <layer id="1" name="TILES_Alley" width="16" height="12">
+    <data encoding="csv">910,910,911,909,910,910,910,910,910,910,910,910,910,911,0,0,0,0,926,924,0,925,925,925,925,925,925,925,925,926,0,0,0,0,926,939,940,940,940,955,940,940,940,940,940,941,0,0,0,0,926,954,955,955,955,955,955,955,955,955,955,941,0,0,0,0,926,969,970,970,970,970,970,970,970,970,970,971,0,0,0,0,926,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,926,857,758,759,760,768,767,768,766,768,766,768,767,768,0,0,926,772,792,792,792,792,792,792,792,792,792,792,781,781,0,0,926,909,910,910,910,910,910,910,910,910,910,911,792,791,0,0,926,924,0,0,0,0,0,0,0,0,0,926,0,0,0,0,926,924,0,0,0,0,0,0,0,0,0,926,0,0,0,0,926,924,0,0,0,0,0,0,0,0,0,926,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Alley_Sidewalk" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,636,604,601,604,601,604,601,604,601,604,601,604,604,0,0,0,611,615,615,615,615,615,615,615,615,615,615,615,615,0,0,0,614,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_City_Rooftops" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,374,375,0,0,0,0,0,0,0,0,0,0,0,0,0,0,387,388,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,445,445,0,0,0,0,0,0,0,0,0,0,0,0,0,0,462,463,0,0,0,0,0,0,0,0,0,0,0,0,0,0,475,476,0,0,0,0,0,0,0,0,0,0,0,0,0,0,479,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401</data>
+  </layer>
+  <layer id="4" name="TILES_City_Doors" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_Sidewalk_Static" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,286,283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="TILES_Sidewalk_Animated" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,170,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="TILES_Alley_Buildings_Glitch" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,70,0,0,0,86,0,0,0,0,0,0,0,0,0,102,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,0,0,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="8" name="TILES_Alley_Sidewalk_Glitch" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="9" name="objects">
+    <object id="1" gid="1011" type="obj_mainchara" x="348" y="255" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="104261"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104262"/>
+      </properties>
+    </object>
+    <object id="3" gid="1012" type="obj_readable_room1" x="441" y="162" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104263"/>
+      </properties>
+    </object>
+    <object id="4" gid="1013" type="obj_ch2_room_city_moss" x="0" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104264"/>
+      </properties>
+    </object>
+    <object id="5" gid="1012" type="obj_readable_room1" x="120" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104265"/>
+      </properties>
+    </object>
+    <object id="6" gid="1014" type="obj_weirdroute_manipulator" x="-80" y="162" width="54" height="82">
+      <properties>
+        <property name="instanceId" type="int" value="104266"/>
+      </properties>
+    </object>
+    <object id="7" gid="1015" type="obj_musicer_city" x="-40" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="104267"/>
+      </properties>
+    </object>
+    <object id="8" gid="1016" type="obj_soliddark" x="120" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104268"/>
+      </properties>
+    </object>
+    <object id="9" gid="1016" type="obj_soliddark" x="120" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104269"/>
+      </properties>
+    </object>
+    <object id="10" gid="1016" type="obj_soliddark" x="80" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104270"/>
+      </properties>
+    </object>
+    <object id="11" gid="1017" type="obj_doorW" x="620" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104271"/>
+      </properties>
+    </object>
+    <object id="12" gid="1018" type="obj_markerX" x="576" y="280" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="104272"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="10" name="views">
+    <object id="13" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

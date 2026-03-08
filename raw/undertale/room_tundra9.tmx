@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="33" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx"/>
+  <tileset firstgid="676" source="tilesets/obj_sur.tsx"/>
+  <tileset firstgid="677" source="tilesets/obj_sul.tsx"/>
+  <tileset firstgid="678" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="679" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="680" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="681" source="tilesets/obj_papyrus3.tsx"/>
+  <tileset firstgid="682" source="tilesets/obj_crossword.tsx"/>
+  <tileset firstgid="683" source="tilesets/obj_markerC.tsx"/>
+  <tileset firstgid="684" source="tilesets/obj_doorD.tsx"/>
+  <tileset firstgid="685" source="tilesets/obj_sdr.tsx"/>
+  <tileset firstgid="686" source="tilesets/obj_sdl.tsx"/>
+  <tileset firstgid="687" source="tilesets/obj_solidwide.tsx"/>
+  <tileset firstgid="688" source="tilesets/obj_solidlong.tsx"/>
+  <tileset firstgid="689" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000001" width="16" height="12">
+    <data encoding="csv">249,249,254,240,240,240,240,240,240,240,240,240,240,255,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000001_tiles">
+    <object id="1" gid="299" x="-20" y="120" width="100" height="80"/>
+    <object id="2" gid="299" x="40" y="100" width="100" height="80"/>
+    <object id="3" gid="299" x="120" y="100" width="100" height="80"/>
+    <object id="4" gid="299" x="200" y="100" width="100" height="80"/>
+    <object id="5" gid="299" x="280" y="120" width="100" height="80"/>
+  </objectgroup>
+  <layer id="3" name="depth_1000000" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,249,249,249,249,249,249,249,249,249,249,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,213,213,213,213,213,213,213,213,213,213,0,0,0,0,0,203,1,1,1,1,1,1,1,1,1,1,204,0,0,213,226,1,3,10,11,11,11,11,11,11,12,1,1,229,213,1,1,1,1,19,20,20,20,20,20,20,21,1,1,1,1,1,1,1,1,19,20,20,20,20,20,20,21,1,1,1,1,231,231,1,1,28,29,29,29,29,29,29,30,3,1,231,231,240,292,236,231,231,231,231,231,231,231,231,231,231,237,283,240,240,292,245,240,240,240,240,240,240,240,240,240,240,246,283,240,240,292,245,240,240,240,240,240,240,240,240,240,240,246,283,240</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_tiles">
+    <object id="6" gid="84" x="280" y="-20" width="20" height="20"/>
+    <object id="7" gid="84" x="280" y="0" width="20" height="20"/>
+  </objectgroup>
+  <objectgroup id="5" name="objects">
+    <object id="8" gid="676" type="obj_sur" x="260" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102136"/>
+      </properties>
+    </object>
+    <object id="9" gid="677" type="obj_sul" x="40" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102137"/>
+      </properties>
+    </object>
+    <object id="10" gid="678" type="obj_mainchara" x="40" y="149" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="102138"/>
+      </properties>
+    </object>
+    <object id="11" gid="679" type="obj_doorA" x="300" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102139"/>
+      </properties>
+    </object>
+    <object id="12" gid="679" type="obj_doorA" x="300" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102140"/>
+      </properties>
+    </object>
+    <object id="13" gid="680" type="obj_markerB" x="280" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102141"/>
+      </properties>
+    </object>
+    <object id="14" gid="679" type="obj_doorA" x="300" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102142"/>
+      </properties>
+    </object>
+    <object id="15" gid="681" type="obj_papyrus3" x="60" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102143"/>
+      </properties>
+    </object>
+    <object id="16" gid="682" type="obj_crossword" x="150" y="136" width="13" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="102144"/>
+      </properties>
+    </object>
+    <object id="17" gid="683" type="obj_markerC" x="20" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102145"/>
+      </properties>
+    </object>
+    <object id="18" gid="684" type="obj_doorD" x="0" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102146"/>
+      </properties>
+    </object>
+    <object id="19" gid="684" type="obj_doorD" x="0" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102147"/>
+      </properties>
+    </object>
+    <object id="20" gid="684" type="obj_doorD" x="0" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102148"/>
+      </properties>
+    </object>
+    <object id="21" gid="685" type="obj_sdr" x="260" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102149"/>
+      </properties>
+    </object>
+    <object id="22" gid="686" type="obj_sdl" x="40" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102150"/>
+      </properties>
+    </object>
+    <object id="23" gid="687" type="obj_solidwide" x="0" y="200" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102151"/>
+      </properties>
+    </object>
+    <object id="24" gid="687" type="obj_solidwide" x="0" y="100" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102152"/>
+      </properties>
+    </object>
+    <object id="25" gid="687" type="obj_solidwide" x="0" y="120" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102153"/>
+      </properties>
+    </object>
+    <object id="26" gid="687" type="obj_solidwide" x="280" y="100" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102154"/>
+      </properties>
+    </object>
+    <object id="27" gid="687" type="obj_solidwide" x="280" y="120" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102155"/>
+      </properties>
+    </object>
+    <object id="28" gid="687" type="obj_solidwide" x="280" y="200" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102156"/>
+      </properties>
+    </object>
+    <object id="29" gid="688" type="obj_solidlong" x="0" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102157"/>
+      </properties>
+    </object>
+    <object id="30" gid="688" type="obj_solidlong" x="0" y="80" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102158"/>
+      </properties>
+    </object>
+    <object id="31" gid="689" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="102159"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="views">
+    <object id="32" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

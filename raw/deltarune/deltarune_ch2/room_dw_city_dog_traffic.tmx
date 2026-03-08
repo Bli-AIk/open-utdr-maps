@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="104" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="13">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_street_tileset.tsx"/>
+  <tileset firstgid="111" source="tilesets/bg_dw_city_sidewalk_tileset.tsx"/>
+  <tileset firstgid="351" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="352" source="tilesets/obj_dogcar_controller.tsx"/>
+  <tileset firstgid="353" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="354" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="355" source="tilesets/obj_markerX.tsx"/>
+  <layer id="1" name="TILES" width="52" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,132,131,132,133,132,133,132,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,146,147,148,147,148,147,148,147,150,135,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,188,189,0,0,0,296,238,238,238,238,238,238,238,210,211,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,205,204,0,0,0,311,253,253,253,253,253,253,253,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,223,0,0,0,296,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,238,0,0,0,311,223,223,223,223,223,223,223,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,253,0,0,0,296,253,253,253,253,253,253,253,270,271,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,327,328,0,0,0,281,238,238,270,328,327,328,329,330,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,238,238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="Tiles_1" width="52" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,46,49,46,49,46,49,46,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,60,60,60,60,60,60,60,54,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,49,46,0,0,0,59,0,0,0,0,0,0,0,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,60,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,88,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,71,68,0,0,0,59,0,0,98,68,71,68,71,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="351" type="obj_mainchara" x="180" y="418" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="104235"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104236"/>
+      </properties>
+    </object>
+    <object id="3" gid="352" type="obj_dogcar_controller" x="1200" y="242" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="104237"/>
+      </properties>
+    </object>
+    <object id="4" gid="353" type="obj_doorW" x="160" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104238"/>
+      </properties>
+    </object>
+    <object id="5" gid="354" type="obj_soliddark" x="480" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104239"/>
+      </properties>
+    </object>
+    <object id="6" gid="354" type="obj_soliddark" x="480" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104240"/>
+      </properties>
+    </object>
+    <object id="7" gid="354" type="obj_soliddark" x="80" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104241"/>
+      </properties>
+    </object>
+    <object id="8" gid="354" type="obj_soliddark" x="80" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104242"/>
+      </properties>
+    </object>
+    <object id="9" gid="355" type="obj_markerX" x="180" y="454" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="104243"/>
+      </properties>
+    </object>
+    <object id="10" gid="354" type="obj_soliddark" x="80" y="480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104244"/>
+      </properties>
+    </object>
+    <object id="11" gid="354" type="obj_soliddark" x="240" y="480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104245"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="12" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

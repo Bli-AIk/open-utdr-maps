@@ -160,7 +160,7 @@ Fill in the template — describe what you changed and why.
 
 ## 📏 Layer naming conventions
 
-When creating or renaming layers, please follow [docs/layer_spec.md](docs/layer_spec.md).
+When creating or renaming layers, please follow [docs/layer_spec_en.md](docs/layer_spec_en.md).
 
 Quick reference:
 
@@ -180,9 +180,24 @@ Before submitting, please check:
 - [ ] I did **not** modify any files in `raw/`
 - [ ] My curated maps are in the correct `curated/` subdirectory
 - [ ] My TMX files open correctly in Tiled
-- [ ] I followed the [layer naming conventions](docs/layer_spec.md)
+- [ ] I followed the [layer naming conventions](docs/layer_spec_en.md)
 - [ ] I included screenshots for visual changes
 - [ ] I described my changes in the PR description
+
+## 🤖 Automated CI checks
+
+When you open a PR, several automated checks will run. If your PR shows as **Blocked**, don't panic — here's what each check does and how to fix it:
+
+| Check | What it does | How to fix |
+|-------|-------------|-----------|
+| **Raw files protection** | Blocks PRs that modify files in `raw/`. These are auto-generated and should not be edited. | Move your changes to `curated/` instead. If this is an authorized data update, a maintainer will add the `raw-update` label. |
+| **Curated path check** | Verifies that curated maps are in the correct subdirectory (e.g., `curated/undertale/`, `curated/deltarune/deltarune_ch1/`). | Make sure your file paths match the `raw/` directory structure. |
+| **TMX/TSX XML validation** | Checks that all `.tmx` and `.tsx` files are valid XML. | Open the file in Tiled and re-save it — Tiled always outputs valid XML. |
+| **Layer naming check** | Warns if curated maps use non-standard layer names (per [layer_spec.md](docs/layer_spec_en.md)). | Rename layers to follow the spec, or explain in your PR why a custom name is needed. |
+| **File size check** | Blocks files larger than 5MB (10MB for PNGs). | Check if you accidentally committed unnecessary large files. |
+| **PR description check** | Warns if your PR description is missing key sections from the template. | Fill in the PR template completely. |
+
+In addition, all PRs require **at least 1 approving review** from a maintainer before merging.
 
 ## 📜 Attribution policy
 

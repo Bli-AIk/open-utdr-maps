@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="41" height="25" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="32">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_closetinside.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_solidblock.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_insideclosetcutscene.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_fallpaper.tsx"/>
+  <objectgroup id="1" name="depth_1000000_tiles">
+    <object id="1" gid="1" x="40" y="133" width="125" height="73"/>
+  </objectgroup>
+  <objectgroup id="2" name="objects">
+    <object id="2" gid="2" type="obj_mainchara" x="85" y="128" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="100804"/>
+      </properties>
+    </object>
+    <object id="3" type="obj_overworldc" x="14" y="14" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="100805"/>
+      </properties>
+    </object>
+    <object id="4" gid="3" type="obj_solidblock" x="45" y="148" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100806"/>
+      </properties>
+    </object>
+    <object id="5" gid="3" type="obj_solidblock" x="30" y="115" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100807"/>
+      </properties>
+    </object>
+    <object id="6" gid="3" type="obj_solidblock" x="45" y="130" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100808"/>
+      </properties>
+    </object>
+    <object id="7" gid="4" type="obj_insideclosetcutscene" x="148" y="126" width="25" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="100809"/>
+      </properties>
+    </object>
+    <object id="8" gid="5" type="obj_fallpaper" x="58" y="122" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100810"/>
+      </properties>
+    </object>
+    <object id="9" gid="5" type="obj_fallpaper" x="66" y="118" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100811"/>
+      </properties>
+    </object>
+    <object id="10" gid="5" type="obj_fallpaper" x="70" y="122" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100812"/>
+      </properties>
+    </object>
+    <object id="11" gid="5" type="obj_fallpaper" x="78" y="120" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100813"/>
+      </properties>
+    </object>
+    <object id="12" gid="5" type="obj_fallpaper" x="86" y="126" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100814"/>
+      </properties>
+    </object>
+    <object id="13" gid="5" type="obj_fallpaper" x="92" y="116" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100815"/>
+      </properties>
+    </object>
+    <object id="14" gid="5" type="obj_fallpaper" x="96" y="122" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100816"/>
+      </properties>
+    </object>
+    <object id="15" gid="5" type="obj_fallpaper" x="110" y="116" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100817"/>
+      </properties>
+    </object>
+    <object id="16" gid="5" type="obj_fallpaper" x="114" y="124" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100818"/>
+      </properties>
+    </object>
+    <object id="17" gid="5" type="obj_fallpaper" x="126" y="116" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100819"/>
+      </properties>
+    </object>
+    <object id="18" gid="5" type="obj_fallpaper" x="130" y="122" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100820"/>
+      </properties>
+    </object>
+    <object id="19" gid="5" type="obj_fallpaper" x="142" y="126" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100821"/>
+      </properties>
+    </object>
+    <object id="20" gid="5" type="obj_fallpaper" x="146" y="118" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100822"/>
+      </properties>
+    </object>
+    <object id="21" gid="5" type="obj_fallpaper" x="152" y="120" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100823"/>
+      </properties>
+    </object>
+    <object id="22" gid="5" type="obj_fallpaper" x="158" y="116" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100824"/>
+      </properties>
+    </object>
+    <object id="23" gid="5" type="obj_fallpaper" x="162" y="126" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100825"/>
+      </properties>
+    </object>
+    <object id="24" gid="5" type="obj_fallpaper" x="166" y="122" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100826"/>
+      </properties>
+    </object>
+    <object id="25" gid="5" type="obj_fallpaper" x="172" y="116" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100827"/>
+      </properties>
+    </object>
+    <object id="26" gid="5" type="obj_fallpaper" x="176" y="124" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100828"/>
+      </properties>
+    </object>
+    <object id="27" gid="5" type="obj_fallpaper" x="186" y="120" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100829"/>
+      </properties>
+    </object>
+    <object id="28" gid="5" type="obj_fallpaper" x="192" y="116" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100830"/>
+      </properties>
+    </object>
+    <object id="29" gid="5" type="obj_fallpaper" x="198" y="124" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100831"/>
+      </properties>
+    </object>
+    <object id="30" gid="5" type="obj_fallpaper" x="206" y="120" width="20" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="100832"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="31" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="320"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

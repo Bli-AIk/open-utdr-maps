@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="86" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="178">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_checkerboard.tsx"/>
+  <tileset firstgid="92" source="tilesets/bg_chess_statue.tsx"/>
+  <tileset firstgid="93" source="tilesets/bg_chess_statue_naked.tsx"/>
+  <tileset firstgid="94" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="95" source="tilesets/obj_musicer_darkcliff.tsx"/>
+  <tileset firstgid="96" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="97" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="98" source="tilesets/obj_sdr.tsx"/>
+  <tileset firstgid="99" source="tilesets/obj_sdl.tsx"/>
+  <tileset firstgid="100" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="101" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="102" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="103" source="tilesets/obj_sur.tsx"/>
+  <tileset firstgid="104" source="tilesets/obj_sul.tsx"/>
+  <tileset firstgid="105" source="tilesets/obj_ponman_appear.tsx"/>
+  <objectgroup id="1" name="depth_1000000_tiles">
+    <object id="1" gid="5" x="0" y="240" width="40" height="40"/>
+    <object id="2" gid="5" x="40" y="240" width="40" height="40"/>
+    <object id="3" gid="5" x="80" y="240" width="40" height="40"/>
+    <object id="4" gid="5" x="120" y="240" width="40" height="40"/>
+    <object id="5" gid="5" x="160" y="240" width="40" height="40"/>
+    <object id="6" gid="5" x="200" y="240" width="40" height="40"/>
+    <object id="7" gid="5" x="240" y="240" width="40" height="40"/>
+    <object id="8" gid="5" x="280" y="240" width="40" height="40"/>
+    <object id="9" gid="5" x="320" y="240" width="40" height="40"/>
+    <object id="10" gid="5" x="360" y="240" width="40" height="40"/>
+    <object id="11" gid="5" x="400" y="240" width="40" height="40"/>
+    <object id="12" gid="5" x="440" y="240" width="40" height="40"/>
+    <object id="13" gid="5" x="480" y="240" width="40" height="40"/>
+    <object id="14" gid="23" x="840" y="400" width="120" height="40"/>
+    <object id="15" gid="24" x="1000" y="360" width="80" height="40"/>
+    <object id="16" gid="23" x="1000" y="400" width="120" height="40"/>
+    <object id="17" gid="23" x="1120" y="360" width="120" height="40"/>
+    <object id="18" gid="32" x="1440" y="400" width="40" height="40"/>
+    <object id="19" gid="32" x="1480" y="400" width="40" height="40"/>
+    <object id="20" gid="32" x="1520" y="400" width="40" height="40"/>
+    <object id="21" gid="32" x="1560" y="400" width="40" height="40"/>
+    <object id="22" gid="4" x="1400" y="240" width="40" height="40"/>
+    <object id="23" gid="4" x="1440" y="240" width="40" height="40"/>
+    <object id="24" gid="4" x="1480" y="240" width="40" height="40"/>
+    <object id="25" gid="4" x="1520" y="240" width="40" height="40"/>
+    <object id="26" gid="4" x="1560" y="240" width="40" height="40"/>
+    <object id="27" gid="9" x="1600" y="360" width="120" height="120"/>
+    <object id="28" gid="65" x="680" y="360" width="40" height="40"/>
+    <object id="29" gid="65" x="720" y="360" width="40" height="40"/>
+    <object id="30" gid="79" x="760" y="360" width="40" height="40"/>
+    <object id="31" gid="79" x="800" y="400" width="40" height="40"/>
+    <object id="32" gid="86" x="760" y="400" width="40" height="40"/>
+    <object id="33" gid="72" x="720" y="240" width="40" height="40"/>
+    <object id="34" gid="72" x="760" y="240" width="40" height="40"/>
+    <object id="35" gid="72" x="800" y="240" width="40" height="40"/>
+    <object id="36" gid="81" x="840" y="280" width="40" height="40"/>
+    <object id="37" gid="81" x="880" y="320" width="40" height="40"/>
+    <object id="38" gid="74" x="840" y="240" width="40" height="40"/>
+    <object id="39" gid="74" x="880" y="280" width="40" height="40"/>
+    <object id="40" gid="87" x="840" y="440" width="40" height="40"/>
+    <object id="41" gid="87" x="880" y="440" width="40" height="40"/>
+    <object id="42" gid="87" x="920" y="440" width="40" height="40"/>
+    <object id="43" gid="87" x="960" y="440" width="40" height="40"/>
+    <object id="44" gid="87" x="1040" y="440" width="40" height="40"/>
+    <object id="45" gid="87" x="1000" y="440" width="40" height="40"/>
+    <object id="46" gid="86" x="800" y="440" width="40" height="40"/>
+    <object id="47" gid="60" x="1160" y="400" width="40" height="40"/>
+    <object id="48" gid="60" x="1280" y="360" width="40" height="40"/>
+    <object id="49" gid="66" x="1320" y="360" width="40" height="40"/>
+    <object id="50" gid="66" x="1360" y="360" width="40" height="40"/>
+    <object id="51" gid="79" x="1400" y="360" width="40" height="40"/>
+  </objectgroup>
+  <objectgroup id="2" name="depth_900000_tiles">
+    <object id="52" gid="92" x="40" y="220" width="66" height="140"/>
+    <object id="53" gid="92" x="280" y="220" width="66" height="140"/>
+    <object id="54" gid="9" x="0" y="360" width="160" height="120"/>
+    <object id="55" gid="9" x="160" y="360" width="160" height="120"/>
+    <object id="56" gid="33" x="0" y="400" width="40" height="40"/>
+    <object id="57" gid="33" x="40" y="400" width="40" height="40"/>
+    <object id="58" gid="33" x="80" y="400" width="40" height="40"/>
+    <object id="59" gid="33" x="120" y="400" width="40" height="40"/>
+    <object id="60" gid="33" x="160" y="400" width="40" height="40"/>
+    <object id="61" gid="33" x="200" y="400" width="40" height="40"/>
+    <object id="62" gid="93" x="760" y="220" width="66" height="140"/>
+    <object id="63" gid="92" x="520" y="220" width="66" height="140"/>
+    <object id="64" gid="92" x="1240" y="220" width="66" height="140"/>
+    <object id="65" gid="92" x="1480" y="220" width="66" height="140"/>
+    <object id="66" gid="16" x="320" y="320" width="80" height="40"/>
+    <object id="67" gid="11" x="400" y="280" width="120" height="40"/>
+    <object id="68" gid="16" x="480" y="320" width="80" height="40"/>
+    <object id="69" gid="19" x="440" y="320" width="40" height="40"/>
+    <object id="70" gid="23" x="480" y="360" width="40" height="40"/>
+    <object id="71" gid="24" x="520" y="360" width="80" height="40"/>
+    <object id="72" gid="19" x="600" y="320" width="40" height="40"/>
+    <object id="73" gid="20" x="640" y="320" width="40" height="40"/>
+    <object id="74" gid="17" x="680" y="320" width="40" height="40"/>
+    <object id="75" gid="23" x="720" y="280" width="40" height="40"/>
+    <object id="76" gid="9" x="320" y="280" width="40" height="40"/>
+    <object id="77" gid="12" x="760" y="280" width="80" height="40"/>
+    <object id="78" gid="19" x="760" y="320" width="80" height="40"/>
+    <object id="79" gid="17" x="840" y="320" width="40" height="40"/>
+    <object id="80" gid="23" x="800" y="360" width="120" height="40"/>
+    <object id="81" gid="23" x="960" y="360" width="40" height="40"/>
+    <object id="82" gid="16" x="1280" y="320" width="80" height="40"/>
+    <object id="83" gid="23" x="1240" y="320" width="40" height="40"/>
+    <object id="84" gid="12" x="1400" y="360" width="80" height="120"/>
+    <object id="85" gid="11" x="1360" y="280" width="40" height="40"/>
+    <object id="86" gid="17" x="1480" y="360" width="80" height="80"/>
+    <object id="87" gid="10" x="1480" y="360" width="80" height="120"/>
+    <object id="88" gid="12" x="1560" y="360" width="40" height="120"/>
+    <object id="89" gid="92" x="1000" y="220" width="66" height="140"/>
+  </objectgroup>
+  <objectgroup id="3" name="depth_800000_tiles">
+    <object id="90" gid="60" x="320" y="360" width="40" height="40"/>
+    <object id="91" gid="66" x="240" y="400" width="40" height="40"/>
+    <object id="92" gid="66" x="280" y="400" width="40" height="40"/>
+    <object id="93" gid="67" x="320" y="400" width="40" height="40"/>
+    <object id="94" gid="65" x="360" y="360" width="40" height="40"/>
+    <object id="95" gid="65" x="400" y="360" width="40" height="40"/>
+    <object id="96" gid="79" x="440" y="360" width="40" height="40"/>
+    <object id="97" gid="60" x="640" y="360" width="40" height="40"/>
+    <object id="98" gid="81" x="520" y="280" width="40" height="40"/>
+    <object id="99" gid="72" x="560" y="280" width="40" height="40"/>
+    <object id="100" gid="72" x="600" y="280" width="40" height="40"/>
+    <object id="101" gid="65" x="480" y="400" width="40" height="40"/>
+    <object id="102" gid="65" x="520" y="400" width="40" height="40"/>
+    <object id="103" gid="65" x="560" y="400" width="40" height="40"/>
+    <object id="104" gid="65" x="600" y="400" width="40" height="40"/>
+    <object id="105" gid="86" x="440" y="400" width="40" height="40"/>
+    <object id="106" gid="67" x="640" y="400" width="40" height="40"/>
+    <object id="107" gid="74" x="520" y="240" width="40" height="40"/>
+    <object id="108" gid="58" x="640" y="280" width="40" height="40"/>
+    <object id="109" gid="52" x="680" y="240" width="40" height="40"/>
+    <object id="110" gid="51" x="640" y="240" width="40" height="40"/>
+    <object id="111" gid="79" x="1400" y="360" width="40" height="40"/>
+    <object id="112" gid="86" x="1400" y="400" width="40" height="40"/>
+    <object id="113" gid="58" x="1280" y="280" width="40" height="40"/>
+    <object id="114" gid="58" x="1160" y="320" width="40" height="40"/>
+    <object id="115" gid="73" x="920" y="320" width="40" height="40"/>
+    <object id="116" gid="73" x="960" y="320" width="40" height="40"/>
+    <object id="117" gid="73" x="1000" y="320" width="40" height="40"/>
+    <object id="118" gid="73" x="1040" y="320" width="40" height="40"/>
+    <object id="119" gid="73" x="1080" y="320" width="40" height="40"/>
+    <object id="120" gid="73" x="1120" y="320" width="40" height="40"/>
+    <object id="121" gid="73" x="1200" y="280" width="40" height="40"/>
+    <object id="122" gid="73" x="1240" y="280" width="40" height="40"/>
+    <object id="123" gid="73" x="1320" y="240" width="40" height="40"/>
+    <object id="124" gid="73" x="1360" y="240" width="40" height="40"/>
+    <object id="125" gid="51" x="1160" y="280" width="40" height="40"/>
+    <object id="126" gid="51" x="1280" y="240" width="40" height="40"/>
+    <object id="127" gid="66" x="1080" y="440" width="40" height="40"/>
+    <object id="128" gid="66" x="1120" y="440" width="40" height="40"/>
+    <object id="129" gid="66" x="1200" y="400" width="40" height="40"/>
+    <object id="130" gid="66" x="1240" y="400" width="40" height="40"/>
+    <object id="131" gid="67" x="1160" y="440" width="40" height="40"/>
+    <object id="132" gid="67" x="1280" y="400" width="40" height="40"/>
+    <object id="133" gid="66" x="1560" y="400" width="40" height="40"/>
+    <object id="134" gid="66" x="1600" y="400" width="40" height="40"/>
+    <object id="135" gid="66" x="1640" y="400" width="40" height="40"/>
+    <object id="136" gid="66" x="1680" y="400" width="40" height="40"/>
+    <object id="137" gid="52" x="1600" y="240" width="40" height="40"/>
+    <object id="138" gid="52" x="1640" y="240" width="40" height="40"/>
+    <object id="139" gid="52" x="1680" y="240" width="40" height="40"/>
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="140" gid="94" type="obj_mainchara" x="120" y="278" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101679"/>
+      </properties>
+    </object>
+    <object id="141" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="101680"/>
+      </properties>
+    </object>
+    <object id="142" type="obj_backgrounder_standard" x="46" y="8" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="101681"/>
+      </properties>
+    </object>
+    <object id="143" gid="95" type="obj_musicer_darkcliff" x="160" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101682"/>
+      </properties>
+    </object>
+    <object id="144" gid="96" type="obj_markerA" x="20" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101683"/>
+      </properties>
+    </object>
+    <object id="145" gid="97" type="obj_markerB" x="1660" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101684"/>
+      </properties>
+    </object>
+    <object id="146" gid="98" type="obj_sdr" x="320" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101685"/>
+      </properties>
+    </object>
+    <object id="147" gid="99" type="obj_sdl" x="440" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101686"/>
+      </properties>
+    </object>
+    <object id="148" gid="99" type="obj_sdl" x="1400" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101687"/>
+      </properties>
+    </object>
+    <object id="149" gid="99" type="obj_sdl" x="760" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101688"/>
+      </properties>
+    </object>
+    <object id="150" gid="99" type="obj_sdl" x="800" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101689"/>
+      </properties>
+    </object>
+    <object id="151" gid="98" type="obj_sdr" x="1160" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101690"/>
+      </properties>
+    </object>
+    <object id="152" gid="98" type="obj_sdr" x="1280" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101691"/>
+      </properties>
+    </object>
+    <object id="153" gid="98" type="obj_sdr" x="640" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101692"/>
+      </properties>
+    </object>
+    <object id="154" gid="100" type="obj_doorB" x="0" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101693"/>
+      </properties>
+    </object>
+    <object id="155" gid="101" type="obj_doorA" x="1700" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101694"/>
+      </properties>
+    </object>
+    <object id="156" gid="102" type="obj_soliddark" x="0" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101695"/>
+      </properties>
+    </object>
+    <object id="157" gid="102" type="obj_soliddark" x="0" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101696"/>
+      </properties>
+    </object>
+    <object id="158" gid="102" type="obj_soliddark" x="1400" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101697"/>
+      </properties>
+    </object>
+    <object id="159" gid="102" type="obj_soliddark" x="1320" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101698"/>
+      </properties>
+    </object>
+    <object id="160" gid="102" type="obj_soliddark" x="360" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101699"/>
+      </properties>
+    </object>
+    <object id="161" gid="102" type="obj_soliddark" x="480" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101700"/>
+      </properties>
+    </object>
+    <object id="162" gid="102" type="obj_soliddark" x="680" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101701"/>
+      </properties>
+    </object>
+    <object id="163" gid="102" type="obj_soliddark" x="840" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101702"/>
+      </properties>
+    </object>
+    <object id="164" gid="102" type="obj_soliddark" x="1200" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101703"/>
+      </properties>
+    </object>
+    <object id="165" gid="102" type="obj_soliddark" x="1320" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101704"/>
+      </properties>
+    </object>
+    <object id="166" gid="102" type="obj_soliddark" x="920" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101705"/>
+      </properties>
+    </object>
+    <object id="167" gid="102" type="obj_soliddark" x="1200" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101706"/>
+      </properties>
+    </object>
+    <object id="168" gid="102" type="obj_soliddark" x="560" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101707"/>
+      </properties>
+    </object>
+    <object id="169" gid="102" type="obj_soliddark" x="680" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101708"/>
+      </properties>
+    </object>
+    <object id="170" gid="103" type="obj_sur" x="520" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101709"/>
+      </properties>
+    </object>
+    <object id="171" gid="104" type="obj_sul" x="640" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101710"/>
+      </properties>
+    </object>
+    <object id="172" gid="103" type="obj_sur" x="840" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101711"/>
+      </properties>
+    </object>
+    <object id="173" gid="103" type="obj_sur" x="880" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101712"/>
+      </properties>
+    </object>
+    <object id="174" gid="104" type="obj_sul" x="1160" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101713"/>
+      </properties>
+    </object>
+    <object id="175" gid="104" type="obj_sul" x="1280" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101714"/>
+      </properties>
+    </object>
+    <object id="176" gid="105" type="obj_ponman_appear" x="764" y="108" width="29" height="44">
+      <properties>
+        <property name="instanceId" type="int" value="101715"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="5" name="views">
+    <object id="177" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

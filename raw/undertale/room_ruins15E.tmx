@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="12" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder2.tsx"/>
+  <tileset firstgid="129" source="tilesets/bg_ruinseasynam2.tsx"/>
+  <tileset firstgid="201" source="tilesets/bg_ruinseasynam3.tsx"/>
+  <tileset firstgid="353" source="tilesets/obj_solidtall.tsx"/>
+  <tileset firstgid="354" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="355" source="tilesets/obj_door_ruins13.tsx"/>
+  <tileset firstgid="356" source="tilesets/obj_markerX.tsx"/>
+  <tileset firstgid="357" source="tilesets/obj_solidlong.tsx"/>
+  <tileset firstgid="358" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000000" width="16" height="12">
+    <data encoding="csv">0,158,151,151,151,151,151,151,151,151,151,151,151,151,159,0,0,144,131,131,131,131,132,0,0,130,131,131,131,131,142,0,0,144,131,131,131,131,132,0,0,130,131,131,131,131,142,0,0,144,139,139,139,139,140,0,0,138,139,139,139,139,142,0,0,144,1,1,1,1,290,290,290,290,291,1,1,1,142,0,0,144,1,1,1,297,298,298,298,298,299,1,1,1,142,0,0,144,1,1,1,297,298,298,298,298,299,1,1,1,142,0,0,144,1,1,1,297,298,298,298,298,299,1,1,1,142,0,0,144,1,1,1,305,306,306,306,306,307,1,1,1,142,0,0,166,135,135,135,135,135,135,135,135,135,135,135,135,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_tiles">
+    <object id="1" gid="175" x="140" y="80" width="40" height="60"/>
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="2" gid="353" type="obj_solidtall" x="20" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100968"/>
+      </properties>
+    </object>
+    <object id="3" gid="353" type="obj_solidtall" x="280" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100969"/>
+      </properties>
+    </object>
+    <object id="4" gid="354" type="obj_mainchara" x="150" y="134" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="100970"/>
+      </properties>
+    </object>
+    <object id="5" gid="355" type="obj_door_ruins13" x="140" y="85" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100971"/>
+      </properties>
+    </object>
+    <object id="6" gid="355" type="obj_door_ruins13" x="160" y="85" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100972"/>
+      </properties>
+    </object>
+    <object id="7" gid="356" type="obj_markerX" x="150" y="135" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100973"/>
+      </properties>
+    </object>
+    <object id="8" gid="357" type="obj_solidlong" x="20" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100974"/>
+      </properties>
+    </object>
+    <object id="9" gid="357" type="obj_solidlong" x="20" y="80" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100975"/>
+      </properties>
+    </object>
+    <object id="10" gid="358" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="100976"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="11" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

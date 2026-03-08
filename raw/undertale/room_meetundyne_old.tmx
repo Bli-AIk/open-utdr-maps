@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="16" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_watertiles.tsx"/>
+  <tileset firstgid="225" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="226" source="tilesets/obj_sign_room.tsx"/>
+  <tileset firstgid="227" source="tilesets/obj_undyne1.tsx"/>
+  <tileset firstgid="228" source="tilesets/obj_fearundynenpc1.tsx"/>
+  <tileset firstgid="229" source="tilesets/obj_fearundynenpc2.tsx"/>
+  <tileset firstgid="230" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="231" source="tilesets/obj_doorD.tsx"/>
+  <tileset firstgid="232" source="tilesets/obj_markerC.tsx"/>
+  <tileset firstgid="233" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="234" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000000" width="28" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,45,44,44,44,44,44,44,44,43,44,44,44,44,44,44,44,44,0,0,44,44,44,44,44,44,44,44,44,45,58,58,58,58,58,58,58,43,44,44,44,44,44,44,44,44,0,0,58,58,58,58,58,58,58,58,58,59,114,114,114,114,114,114,114,57,58,58,58,58,58,58,58,58,0,0,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,0,0,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,0,0,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,0,0,0,0,0,114,114,0,0,114,114,114,114,114,114,114,114,114,114,114,114,114,0,0,0,0,0,0,0,0,0,0,0,114,114,0,0,0,0,114,114,114,114,114,114,114,114,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="depth_100" width="28" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,174,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,174,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,174,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,174,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,0,0,0,0,0,174,174,174,0,0,0,0,0,114,114,114,0,0,0,0,0,0,0,0,0,0,114,114,114,114,0,0,0,174,174,174,0,0,0,114,114,114,114,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="225" type="obj_mainchara" x="50" y="129" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="113906"/>
+      </properties>
+    </object>
+    <object id="2" gid="226" type="obj_sign_room" x="210" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113907"/>
+      </properties>
+    </object>
+    <object id="3" gid="227" type="obj_undyne1" x="295" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113908"/>
+      </properties>
+    </object>
+    <object id="4" gid="228" type="obj_fearundynenpc1" x="140" y="115" width="20" height="35">
+      <properties>
+        <property name="instanceId" type="int" value="113909"/>
+      </properties>
+    </object>
+    <object id="5" gid="229" type="obj_fearundynenpc2" x="140" y="163" width="23" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="113910"/>
+      </properties>
+    </object>
+    <object id="6" gid="230" type="obj_markerB" x="520" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113911"/>
+      </properties>
+    </object>
+    <object id="7" gid="231" type="obj_doorD" x="0" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113912"/>
+      </properties>
+    </object>
+    <object id="8" gid="231" type="obj_doorD" x="0" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113913"/>
+      </properties>
+    </object>
+    <object id="9" gid="231" type="obj_doorD" x="0" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113914"/>
+      </properties>
+    </object>
+    <object id="10" gid="232" type="obj_markerC" x="20" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113915"/>
+      </properties>
+    </object>
+    <object id="11" gid="233" type="obj_doorA" x="540" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113916"/>
+      </properties>
+    </object>
+    <object id="12" gid="233" type="obj_doorA" x="540" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113917"/>
+      </properties>
+    </object>
+    <object id="13" gid="233" type="obj_doorA" x="540" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113918"/>
+      </properties>
+    </object>
+    <object id="14" gid="234" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="113919"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="15" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

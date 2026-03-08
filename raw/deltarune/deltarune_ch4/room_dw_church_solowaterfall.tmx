@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="13">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="584" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="585" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="586" source="tilesets/obj_solidblockDark.tsx"/>
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,56,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,0,0,0,0,0,0,0,0,0,0,0,0,98,98,77,77,98,98,0,0,0,0,0,0,0,0,0,0,98,98,77,77,98,98,0,0,0,0,0,0,0,0,0,0,98,98,98,98,98,98,0,0,0,0,0,0,0,0,0,0,98,98,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,98,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="583" type="obj_mainchara" x="300" y="417" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103169"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103170"/>
+      </properties>
+    </object>
+    <object id="3" gid="584" type="obj_doorAny" x="280" y="500" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103171"/>
+      </properties>
+    </object>
+    <object id="4" gid="585" type="obj_markerAny" x="300" y="454" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="103172"/>
+      </properties>
+    </object>
+    <object id="5" gid="586" type="obj_solidblockDark" x="240" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103173"/>
+      </properties>
+    </object>
+    <object id="6" gid="586" type="obj_solidblockDark" x="360" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103174"/>
+      </properties>
+    </object>
+    <object id="7" gid="586" type="obj_solidblockDark" x="400" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103175"/>
+      </properties>
+    </object>
+    <object id="8" gid="586" type="obj_solidblockDark" x="440" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103176"/>
+      </properties>
+    </object>
+    <object id="9" gid="586" type="obj_solidblockDark" x="160" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103177"/>
+      </properties>
+    </object>
+    <object id="10" gid="586" type="obj_solidblockDark" x="160" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103178"/>
+      </properties>
+    </object>
+    <object id="11" gid="586" type="obj_solidblockDark" x="200" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103179"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="3" name="views">
+    <object id="12" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

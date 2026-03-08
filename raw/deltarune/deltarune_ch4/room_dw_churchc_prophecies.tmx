@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="206" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="103">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_c_tileset.tsx"/>
+  <tileset firstgid="271" source="tilesets/bg_dw_church_tileset.tsx"/>
+  <tileset firstgid="853" source="tilesets/obj_climb_climbable.tsx"/>
+  <tileset firstgid="854" source="tilesets/obj_climbstartertrig.tsx"/>
+  <tileset firstgid="855" source="tilesets/obj_climbstarter.tsx"/>
+  <tileset firstgid="856" source="tilesets/obj_climb_watergenerator.tsx"/>
+  <tileset firstgid="857" source="tilesets/obj_genmarker.tsx"/>
+  <tileset firstgid="858" source="tilesets/obj_ramarker.tsx"/>
+  <tileset firstgid="859" source="tilesets/obj_sumarker.tsx"/>
+  <tileset firstgid="860" source="tilesets/obj_krmarker.tsx"/>
+  <tileset firstgid="861" source="tilesets/obj_climb_landingstrip.tsx"/>
+  <tileset firstgid="862" source="tilesets/obj_climb_mover.tsx"/>
+  <tileset firstgid="863" source="tilesets/obj_trigger.tsx"/>
+  <tileset firstgid="864" source="tilesets/obj_camera_clamper.tsx"/>
+  <tileset firstgid="865" source="tilesets/obj_treasure_room.tsx"/>
+  <tileset firstgid="866" source="tilesets/obj_darkness_overlay.tsx"/>
+  <tileset firstgid="867" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="868" source="tilesets/obj_dw_churchc_prophecies.tsx"/>
+  <tileset firstgid="869" source="tilesets/obj_climb_destructableclimbarea.tsx"/>
+  <tileset firstgid="870" source="tilesets/obj_floorTrigger.tsx"/>
+  <tileset firstgid="871" source="tilesets/obj_parallaxer.tsx"/>
+  <tileset firstgid="872" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="873" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="874" source="tilesets/obj_solidblocksized.tsx"/>
+  <layer id="1" name="TILES" width="103" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,823,823,841,841,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,841,841,823,823,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,823,823,823,823,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,823,0,806,841,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,841,806,0,823,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,823,0,0,0,0,0,0,0,0,0,344,344,344,344,344,344,361,362,362,362,362,362,363,344,344,344,344,344,806,841,806,841,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,809,841,806,344,344,344,344,344,344,344,344,344,344,344,361,362,362,362,362,362,363,344,344,344,344,0,0,0,0,344,344,344,344,361,362,362,362,362,362,363,344,344,344,344,344,344,344,0,0,0,0,0,0,0,0,350,350,350,350,350,350,373,374,374,374,374,374,375,350,350,350,350,350,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,350,350,350,350,350,350,350,350,350,350,350,373,374,374,374,374,374,375,350,350,350,350,0,0,0,0,350,350,350,350,373,374,374,374,374,374,375,350,350,350,350,350,350,350,0,0,0,0,0,0,0,0,356,356,356,356,356,356,379,379,381,379,379,379,381,356,356,356,356,356,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,356,356,356,356,356,356,356,356,356,356,356,379,379,381,379,379,379,381,356,356,356,356,0,0,0,0,356,356,356,356,379,379,381,379,379,379,381,356,356,356,356,356,356,356,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,386,387,386,385,386,387,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,385,386,387,386,385,386,387,0,0,0,0,0,0,0,0,0,0,0,0,385,386,387,386,385,386,387,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,812,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FLOOR_GLOW" width="103" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_LOWER" width="103" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,136,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,185,185,185,0,0,0,0,0,0,0,0,0,0,0,0,136,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,185,185,185,185,185,0,0,0,0,0,0,0,0,0,0,136,241,241,241,241,0,250,250,250,250,250,250,0,250,250,250,0,250,250,250,250,250,250,0,250,250,250,250,250,250,250,250,250,250,250,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,136,241,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,212,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,0,0,0,0,0,232,232,232,232,232,232,0,232,232,232,0,232,232,232,0,232,232,0,232,232,0,232,0,232,0,232,0,232,212,212,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,0,0,0,0,0,241,215,215,215,215,215,241,215,215,215,241,215,215,215,241,215,215,241,215,215,241,215,241,215,241,215,241,215,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,0,0,0,0,0,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,250,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,215,0,0,0,0,0,0,154,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,212,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,241,241,241,241,0,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,232,241,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,241,241,241,241,0,241,241,241,241,241,241,232,241,241,241,232,241,250,241,232,241,241,232,241,241,232,241,232,241,232,241,232,241,241,241,241,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_MAIN" width="103" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,136,213,0,0,0,0,0,136,0,0,0,136,0,0,0,136,0,0,136,0,0,136,0,136,0,136,0,136,0,0,0,0,0,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,136,213,0,0,0,0,0,136,0,0,0,136,0,0,0,136,0,0,136,0,0,136,0,136,0,136,0,136,0,0,0,0,0,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,136,213,0,0,0,0,0,136,0,0,0,136,0,0,0,136,0,0,136,0,0,136,0,136,0,136,0,136,0,0,0,0,0,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,203,203,203,212,136,213,0,0,0,0,0,136,0,0,0,136,0,0,0,136,0,0,136,0,0,136,0,136,0,136,0,136,0,202,203,203,203,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,212,212,212,136,213,0,0,0,0,0,136,0,0,0,136,0,0,0,136,0,0,136,0,0,136,0,136,0,136,0,136,0,211,0,0,0,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,212,212,212,172,213,0,0,0,0,0,172,0,0,0,172,0,0,0,172,0,0,172,0,0,172,0,172,0,172,0,172,0,261,260,261,234,172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,261,261,234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,212,212,212,154,213,0,0,0,0,0,154,0,0,0,154,0,0,0,154,0,0,154,0,0,154,0,154,0,154,0,154,0,234,0,0,261,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243,0,0,0,0,0,0,0,0,0,200,201,10,5,10,20,37,38,39,40,39,40,41,21,6,10,2,3,212,212,154,212,0,0,0,0,0,154,0,0,0,154,0,0,0,154,0,0,154,0,0,154,0,154,0,154,0,154,0,243,0,4,31,19,6,19,2,3,19,5,10,20,37,38,39,40,39,40,41,21,15,10,10,0,0,0,0,10,6,10,20,37,38,39,40,39,40,41,21,10,10,10,4,2,3,0,0,0,0,0,0,0,0,182,183,10,4,10,29,55,56,57,58,57,58,59,30,10,10,11,12,212,212,154,213,0,0,0,0,0,154,0,0,0,154,0,0,0,154,0,0,154,0,0,154,0,154,0,154,0,154,0,211,0,19,19,19,13,19,11,12,19,10,10,29,55,56,57,58,57,58,59,30,5,10,10,0,0,0,0,10,10,4,29,55,56,57,58,57,58,59,30,10,5,6,10,11,12,0,0,0,0,0,0,0,0,209,210,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,212,212,154,213,0,0,0,0,0,154,0,0,0,154,0,0,0,154,0,0,154,0,0,154,0,154,0,154,0,154,0,211,0,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,0,0,0,0,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,221,221,221,221,154,222,0,0,0,0,0,154,0,0,0,154,0,0,0,154,0,0,154,0,0,154,0,154,0,154,0,154,0,220,221,221,221,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,154,0,0,0,0,0,0,154,0,0,0,154,0,0,0,154,0,0,154,0,0,154,0,154,0,154,0,154,0,0,0,0,0,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_MID" width="103" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,261,260,261,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243,0,0,234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,261,0,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="1" gid="853" type="obj_climb_climbable" x="640" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112316"/>
+      </properties>
+    </object>
+    <object id="2" gid="854" type="obj_climbstartertrig" x="640" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112317"/>
+      </properties>
+    </object>
+    <object id="3" gid="855" type="obj_climbstarter" x="640" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112318"/>
+      </properties>
+    </object>
+    <object id="4" gid="853" type="obj_climb_climbable" x="680" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112319"/>
+      </properties>
+    </object>
+    <object id="5" gid="853" type="obj_climb_climbable" x="1960" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112320"/>
+      </properties>
+    </object>
+    <object id="6" gid="855" type="obj_climbstarter" x="2080" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112321"/>
+      </properties>
+    </object>
+    <object id="7" gid="854" type="obj_climbstartertrig" x="2080" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112322"/>
+      </properties>
+    </object>
+    <object id="8" gid="853" type="obj_climb_climbable" x="3720" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112323"/>
+      </properties>
+    </object>
+    <object id="9" gid="854" type="obj_climbstartertrig" x="3720" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112324"/>
+      </properties>
+    </object>
+    <object id="10" gid="855" type="obj_climbstarter" x="3720" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112325"/>
+      </properties>
+    </object>
+    <object id="11" gid="856" type="obj_climb_watergenerator" x="3840" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112326"/>
+      </properties>
+    </object>
+    <object id="12" gid="853" type="obj_climb_climbable" x="760" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112327"/>
+      </properties>
+    </object>
+    <object id="13" gid="853" type="obj_climb_climbable" x="1960" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112328"/>
+      </properties>
+    </object>
+    <object id="14" gid="853" type="obj_climb_climbable" x="840" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112329"/>
+      </properties>
+    </object>
+    <object id="15" gid="857" type="obj_genmarker" x="230" y="71" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="112330"/>
+      </properties>
+    </object>
+    <object id="16" gid="857" type="obj_genmarker" x="2470" y="71" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="112331"/>
+      </properties>
+    </object>
+    <object id="17" gid="858" type="obj_ramarker" x="656" y="278" width="21" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112332"/>
+      </properties>
+    </object>
+    <object id="18" gid="859" type="obj_sumarker" x="610" y="276" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="112333"/>
+      </properties>
+    </object>
+    <object id="19" gid="860" type="obj_krmarker" x="640" y="293" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112334"/>
+      </properties>
+    </object>
+    <object id="20" gid="858" type="obj_ramarker" x="2096" y="278" width="21" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112335"/>
+      </properties>
+    </object>
+    <object id="21" gid="859" type="obj_sumarker" x="2050" y="276" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="112336"/>
+      </properties>
+    </object>
+    <object id="22" gid="860" type="obj_krmarker" x="2080" y="292" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112337"/>
+      </properties>
+    </object>
+    <object id="23" gid="860" type="obj_krmarker" x="560" y="-81" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112338"/>
+      </properties>
+    </object>
+    <object id="24" gid="860" type="obj_krmarker" x="2200" y="-81" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112339"/>
+      </properties>
+    </object>
+    <object id="25" gid="861" type="obj_climb_landingstrip" x="520" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112340"/>
+      </properties>
+    </object>
+    <object id="26" gid="861" type="obj_climb_landingstrip" x="2181" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112341"/>
+      </properties>
+    </object>
+    <object id="27" gid="862" type="obj_climb_mover" x="2080" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112342"/>
+      </properties>
+    </object>
+    <object id="28" gid="863" type="obj_trigger" x="240" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112343"/>
+      </properties>
+    </object>
+    <object id="29" gid="863" type="obj_trigger" x="2480" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112344"/>
+      </properties>
+    </object>
+    <object id="30" gid="863" type="obj_trigger" x="1320" y="450" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112345"/>
+      </properties>
+    </object>
+    <object id="31" gid="860" type="obj_krmarker" x="3160" y="-81" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112346"/>
+      </properties>
+    </object>
+    <object id="32" gid="861" type="obj_climb_landingstrip" x="3120" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112347"/>
+      </properties>
+    </object>
+    <object id="33" gid="864" type="obj_camera_clamper" x="2320" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112348"/>
+      </properties>
+    </object>
+    <object id="34" gid="865" type="obj_treasure_room" x="2860" y="315" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="112349"/>
+      </properties>
+    </object>
+    <object id="35" gid="863" type="obj_trigger" x="3840" y="490" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112350"/>
+      </properties>
+    </object>
+    <object id="36" gid="864" type="obj_camera_clamper" x="3000" y="-480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112351"/>
+      </properties>
+    </object>
+    <object id="37" gid="857" type="obj_genmarker" x="3230" y="71" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="112352"/>
+      </properties>
+    </object>
+    <object id="38" gid="863" type="obj_trigger" x="3240" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112353"/>
+      </properties>
+    </object>
+    <object id="39" gid="858" type="obj_ramarker" x="3736" y="267" width="21" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112354"/>
+      </properties>
+    </object>
+    <object id="40" gid="859" type="obj_sumarker" x="3690" y="265" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="112355"/>
+      </properties>
+    </object>
+    <object id="41" gid="860" type="obj_krmarker" x="3720" y="299" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112356"/>
+      </properties>
+    </object>
+    <object id="42" gid="864" type="obj_camera_clamper" x="520" y="-200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112357"/>
+      </properties>
+    </object>
+    <object id="43" gid="860" type="obj_krmarker" x="560" y="-201" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112358"/>
+      </properties>
+    </object>
+    <object id="44" gid="863" type="obj_trigger" x="840" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112359"/>
+      </properties>
+    </object>
+    <object id="45" type="obj_layershader" x="0" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="112360"/>
+      </properties>
+    </object>
+    <object id="46" gid="866" type="obj_darkness_overlay" x="40" y="100" width="40" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="112361"/>
+      </properties>
+    </object>
+    <object id="47" type="obj_layershader" x="0" y="-120" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="112362"/>
+      </properties>
+    </object>
+    <object id="48" type="obj_layershader" x="40" y="-80" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="112363"/>
+      </properties>
+    </object>
+    <object id="49" gid="867" type="obj_mainchara" x="12" y="295" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="112364"/>
+      </properties>
+    </object>
+    <object id="50" type="obj_darkcontroller" x="-40" y="-40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="112365"/>
+      </properties>
+    </object>
+    <object id="51" gid="868" type="obj_dw_churchc_prophecies" x="-40" y="9" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="112366"/>
+      </properties>
+    </object>
+    <object id="52" gid="869" type="obj_climb_destructableclimbarea" x="960" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112367"/>
+      </properties>
+    </object>
+    <object id="53" gid="869" type="obj_climb_destructableclimbarea" x="1000" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112368"/>
+      </properties>
+    </object>
+    <object id="54" gid="869" type="obj_climb_destructableclimbarea" x="1040" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112369"/>
+      </properties>
+    </object>
+    <object id="55" gid="869" type="obj_climb_destructableclimbarea" x="1120" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112370"/>
+      </properties>
+    </object>
+    <object id="56" gid="869" type="obj_climb_destructableclimbarea" x="1160" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112371"/>
+      </properties>
+    </object>
+    <object id="57" gid="869" type="obj_climb_destructableclimbarea" x="1200" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112372"/>
+      </properties>
+    </object>
+    <object id="58" gid="869" type="obj_climb_destructableclimbarea" x="1280" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112373"/>
+      </properties>
+    </object>
+    <object id="59" gid="869" type="obj_climb_destructableclimbarea" x="1320" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112374"/>
+      </properties>
+    </object>
+    <object id="60" gid="869" type="obj_climb_destructableclimbarea" x="1360" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112375"/>
+      </properties>
+    </object>
+    <object id="61" gid="869" type="obj_climb_destructableclimbarea" x="1440" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112376"/>
+      </properties>
+    </object>
+    <object id="62" gid="869" type="obj_climb_destructableclimbarea" x="1480" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112377"/>
+      </properties>
+    </object>
+    <object id="63" gid="869" type="obj_climb_destructableclimbarea" x="1560" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112378"/>
+      </properties>
+    </object>
+    <object id="64" gid="869" type="obj_climb_destructableclimbarea" x="1600" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112379"/>
+      </properties>
+    </object>
+    <object id="65" gid="869" type="obj_climb_destructableclimbarea" x="1680" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112380"/>
+      </properties>
+    </object>
+    <object id="66" gid="869" type="obj_climb_destructableclimbarea" x="1760" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112381"/>
+      </properties>
+    </object>
+    <object id="67" gid="869" type="obj_climb_destructableclimbarea" x="1840" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112382"/>
+      </properties>
+    </object>
+    <object id="68" gid="856" type="obj_climb_watergenerator" x="960" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112383"/>
+      </properties>
+    </object>
+    <object id="69" gid="856" type="obj_climb_watergenerator" x="1000" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112384"/>
+      </properties>
+    </object>
+    <object id="70" gid="856" type="obj_climb_watergenerator" x="1040" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112385"/>
+      </properties>
+    </object>
+    <object id="71" gid="856" type="obj_climb_watergenerator" x="1120" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112386"/>
+      </properties>
+    </object>
+    <object id="72" gid="856" type="obj_climb_watergenerator" x="1160" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112387"/>
+      </properties>
+    </object>
+    <object id="73" gid="856" type="obj_climb_watergenerator" x="1200" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112388"/>
+      </properties>
+    </object>
+    <object id="74" gid="856" type="obj_climb_watergenerator" x="1280" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112389"/>
+      </properties>
+    </object>
+    <object id="75" gid="856" type="obj_climb_watergenerator" x="1320" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112390"/>
+      </properties>
+    </object>
+    <object id="76" gid="856" type="obj_climb_watergenerator" x="1360" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112391"/>
+      </properties>
+    </object>
+    <object id="77" gid="856" type="obj_climb_watergenerator" x="1440" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112392"/>
+      </properties>
+    </object>
+    <object id="78" gid="856" type="obj_climb_watergenerator" x="1480" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112393"/>
+      </properties>
+    </object>
+    <object id="79" gid="856" type="obj_climb_watergenerator" x="1560" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112394"/>
+      </properties>
+    </object>
+    <object id="80" gid="856" type="obj_climb_watergenerator" x="1600" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112395"/>
+      </properties>
+    </object>
+    <object id="81" gid="856" type="obj_climb_watergenerator" x="1680" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112396"/>
+      </properties>
+    </object>
+    <object id="82" gid="856" type="obj_climb_watergenerator" x="1760" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112397"/>
+      </properties>
+    </object>
+    <object id="83" gid="856" type="obj_climb_watergenerator" x="1840" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112398"/>
+      </properties>
+    </object>
+    <object id="84" gid="863" type="obj_trigger" x="920" y="250" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112399"/>
+      </properties>
+    </object>
+    <object id="85" gid="870" type="obj_floorTrigger" x="3800" y="10" width="40" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112400"/>
+      </properties>
+    </object>
+    <object id="86" gid="863" type="obj_trigger" x="1410" y="250" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112401"/>
+      </properties>
+    </object>
+    <object id="87" gid="871" type="obj_parallaxer" x="0" y="130" width="61" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112402"/>
+      </properties>
+    </object>
+    <object id="88" gid="863" type="obj_trigger" x="900" y="250" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112403"/>
+      </properties>
+    </object>
+    <object id="89" gid="872" type="obj_doorAny" x="-74" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112404"/>
+      </properties>
+    </object>
+    <object id="90" gid="873" type="obj_markerAny" x="12" y="332" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="112405"/>
+      </properties>
+    </object>
+    <object id="91" gid="874" type="obj_solidblocksized" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112406"/>
+      </properties>
+    </object>
+    <object id="92" gid="874" type="obj_solidblocksized" x="0" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112407"/>
+      </properties>
+    </object>
+    <object id="93" gid="874" type="obj_solidblocksized" x="720" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112408"/>
+      </properties>
+    </object>
+    <object id="94" gid="874" type="obj_solidblocksized" x="2000" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112409"/>
+      </properties>
+    </object>
+    <object id="95" gid="874" type="obj_solidblocksized" x="2920" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112410"/>
+      </properties>
+    </object>
+    <object id="96" gid="874" type="obj_solidblocksized" x="2000" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112411"/>
+      </properties>
+    </object>
+    <object id="97" gid="874" type="obj_solidblocksized" x="2000" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112412"/>
+      </properties>
+    </object>
+    <object id="98" gid="874" type="obj_solidblocksized" x="3040" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112413"/>
+      </properties>
+    </object>
+    <object id="99" gid="874" type="obj_solidblocksized" x="3800" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112414"/>
+      </properties>
+    </object>
+    <object id="100" gid="874" type="obj_solidblocksized" x="3040" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112415"/>
+      </properties>
+    </object>
+    <object id="101" gid="874" type="obj_solidblocksized" x="3080" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112416"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="7" name="views">
+    <object id="102" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

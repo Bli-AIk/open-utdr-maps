@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="37" backgroundcolor="#376936">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx"/>
+  <tileset firstgid="298" source="tilesets/bg_firetiles.tsx"/>
+  <tileset firstgid="658" source="tilesets/obj_true_lavawaver.tsx"/>
+  <tileset firstgid="659" source="tilesets/obj_solidextall_2.tsx"/>
+  <tileset firstgid="660" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="661" source="tilesets/obj_npc_room.tsx"/>
+  <tileset firstgid="662" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="663" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="664" source="tilesets/obj_door_u.tsx"/>
+  <tileset firstgid="665" source="tilesets/obj_markeru.tsx"/>
+  <tileset firstgid="666" source="tilesets/obj_notify_room.tsx"/>
+  <tileset firstgid="667" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="668" source="tilesets/obj_solidexwide.tsx"/>
+  <tileset firstgid="669" source="tilesets/obj_overworldcontroller.tsx"/>
+  <tileset firstgid="670" source="tilesets/obj_lighttower.tsx"/>
+  <tileset firstgid="671" source="tilesets/obj_true_antiwaver.tsx"/>
+  <tileset firstgid="672" source="tilesets/obj_cogsmall.tsx"/>
+  <layer id="1" name="depth_1000000" width="16" height="12">
+    <data encoding="csv">299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,451,451,451,451,451,451,451,451,375,376,451,451,451,452,299,299,302,302,302,302,302,302,302,302,302,302,302,302,302,303,299,299,320,320,320,320,320,393,302,302,302,302,302,302,302,303,299,299,335,335,335,335,335,0,1,302,302,302,302,302,302,303,299,299,0,0,0,0,0,319,320,320,320,320,320,320,320,321,299,299,0,0,0,0,0,335,335,335,335,335,335,335,335,335,299,299,0,0,0,0,0,337,335,335,335,335,335,335,335,339,299,299</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_tiles">
+    <object id="1" gid="301" x="100" y="200" width="40" height="40"/>
+    <object id="2" gid="335" x="0" y="220" width="20" height="40"/>
+    <object id="3" gid="335" x="20" y="220" width="20" height="40"/>
+    <object id="4" gid="335" x="40" y="220" width="20" height="40"/>
+    <object id="5" gid="335" x="60" y="220" width="20" height="40"/>
+    <object id="6" gid="335" x="80" y="220" width="20" height="40"/>
+    <object id="7" gid="471" x="140" y="0" width="20" height="20"/>
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="8" gid="658" type="obj_true_lavawaver" x="260" y="40" width="100" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108458"/>
+      </properties>
+    </object>
+    <object id="9" gid="659" type="obj_solidextall_2" x="85" y="235" width="20" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="108459"/>
+      </properties>
+    </object>
+    <object id="10" gid="659" type="obj_solidextall_2" x="275" y="185" width="20" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="108460"/>
+      </properties>
+    </object>
+    <object id="11" gid="660" type="obj_mainchara" x="70" y="139" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108461"/>
+      </properties>
+    </object>
+    <object id="12" gid="661" type="obj_npc_room" x="140" y="194" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108462"/>
+      </properties>
+    </object>
+    <object id="13" gid="661" type="obj_npc_room" x="200" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108463"/>
+      </properties>
+    </object>
+    <object id="14" gid="662" type="obj_doorA" x="175" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108464"/>
+      </properties>
+    </object>
+    <object id="15" gid="662" type="obj_doorA" x="165" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108465"/>
+      </properties>
+    </object>
+    <object id="16" gid="663" type="obj_markerB" x="170" y="115" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108466"/>
+      </properties>
+    </object>
+    <object id="17" gid="664" type="obj_door_u" x="0" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108467"/>
+      </properties>
+    </object>
+    <object id="18" gid="664" type="obj_door_u" x="0" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108468"/>
+      </properties>
+    </object>
+    <object id="19" gid="664" type="obj_door_u" x="0" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108469"/>
+      </properties>
+    </object>
+    <object id="20" gid="665" type="obj_markeru" x="20" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108470"/>
+      </properties>
+    </object>
+    <object id="21" gid="666" type="obj_notify_room" x="149" y="123" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108471"/>
+      </properties>
+    </object>
+    <object id="22" gid="667" type="obj_solidsmall" x="275" y="205" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108472"/>
+      </properties>
+    </object>
+    <object id="23" gid="667" type="obj_solidsmall" x="265" y="215" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108473"/>
+      </properties>
+    </object>
+    <object id="24" gid="668" type="obj_solidexwide" x="0" y="105" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108474"/>
+      </properties>
+    </object>
+    <object id="25" gid="668" type="obj_solidexwide" x="80" y="105" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108475"/>
+      </properties>
+    </object>
+    <object id="26" gid="668" type="obj_solidexwide" x="195" y="105" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108476"/>
+      </properties>
+    </object>
+    <object id="27" gid="668" type="obj_solidexwide" x="5" y="175" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108477"/>
+      </properties>
+    </object>
+    <object id="28" gid="668" type="obj_solidexwide" x="105" y="215" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108478"/>
+      </properties>
+    </object>
+    <object id="29" gid="668" type="obj_solidexwide" x="190" y="215" width="80" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108479"/>
+      </properties>
+    </object>
+    <object id="30" gid="669" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="108480"/>
+      </properties>
+    </object>
+    <object id="31" gid="670" type="obj_lighttower" x="140" y="100" width="80" height="100">
+      <properties>
+        <property name="instanceId" type="int" value="108481"/>
+      </properties>
+    </object>
+    <object id="32" gid="671" type="obj_true_antiwaver" x="0" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108482"/>
+      </properties>
+    </object>
+    <object id="33" gid="672" type="obj_cogsmall" x="253" y="48" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="108483"/>
+      </properties>
+    </object>
+    <object id="34" gid="672" type="obj_cogsmall" x="293" y="68" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="108484"/>
+      </properties>
+    </object>
+    <object id="35" type="obj_lavamusic" x="60" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="108485"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="4" name="views">
+    <object id="36" class="view" x="0" y="0" width="320" height="240">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

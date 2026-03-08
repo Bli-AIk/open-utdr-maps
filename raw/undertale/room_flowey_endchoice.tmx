@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="9" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_fakeheart.tsx"/>
+  <tileset firstgid="2" source="tilesets/obj_flowey_wilt.tsx"/>
+  <tileset firstgid="3" source="tilesets/obj_lborder.tsx"/>
+  <tileset firstgid="4" source="tilesets/obj_dborder.tsx"/>
+  <tileset firstgid="5" source="tilesets/obj_uborder.tsx"/>
+  <tileset firstgid="6" source="tilesets/obj_rborder.tsx"/>
+  <tileset firstgid="7" source="tilesets/obj_battlefader.tsx"/>
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_fakeheart" x="308" y="328" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="114000"/>
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_flowey_wilt" x="280" y="179" width="54" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="114001"/>
+      </properties>
+    </object>
+    <object id="3" gid="3" type="obj_lborder" x="220" y="385" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="114002"/>
+      </properties>
+    </object>
+    <object id="4" gid="4" type="obj_dborder" x="220" y="385" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="114003"/>
+      </properties>
+    </object>
+    <object id="5" gid="5" type="obj_uborder" x="220" y="260" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="114004"/>
+      </properties>
+    </object>
+    <object id="6" gid="6" type="obj_rborder" x="405" y="385" width="5" height="5">
+      <properties>
+        <property name="instanceId" type="int" value="114005"/>
+      </properties>
+    </object>
+    <object id="7" gid="7" type="obj_battlefader" x="0" y="2" width="2" height="2">
+      <properties>
+        <property name="instanceId" type="int" value="114006"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="2" name="views">
+    <object id="8" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

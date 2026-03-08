@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="24">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
+  <tileset firstgid="346" source="tilesets/bg_dw_city_street_tileset.tsx"/>
+  <tileset firstgid="456" source="tilesets/bg_dw_city_street_edges_tileset.tsx"/>
+  <tileset firstgid="664" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="665" source="tilesets/obj_readable_room1.tsx"/>
+  <tileset firstgid="666" source="tilesets/obj_cybercity_balloon.tsx"/>
+  <tileset firstgid="667" source="tilesets/obj_weirdroute_manipulator.tsx"/>
+  <tileset firstgid="668" source="tilesets/obj_musicer_city.tsx"/>
+  <tileset firstgid="669" source="tilesets/obj_doorW.tsx"/>
+  <tileset firstgid="670" source="tilesets/obj_markerX.tsx"/>
+  <tileset firstgid="671" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="672" source="tilesets/obj_sprite_part_parallax_example.tsx"/>
+  <tileset firstgid="673" source="tilesets/obj_sprite_part_parallax_inverted.tsx"/>
+  <layer id="1" name="TILES_Rooftops" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,561,562,482,483,483,483,484,0,0,0,482,483,484,509,482,483,574,575,495,496,496,496,497,0,0,0,495,496,497,492,493,494,570,571,572,509,492,493,494,0,0,0,509,570,571,572,506,507,583,584,585,560,561,562,507,0,0,0,509,583,584,585,509,509</data>
+  </layer>
+  <layer id="2" name="TILES_City" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,365,366,367,0,0,0,365,366,367,0,0,0,365,366,367,0,376,377,378,0,0,0,376,377,378,0,0,0,376,377,378,0,387,388,389,0,0,0,387,388,389,0,0,0,387,388,389,0,394,391,394,391,394,391,394,391,394,391,394,391,394,391,394,391,408,408,408,408,408,408,408,408,408,408,408,408,408,408,408,408,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_Alley" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,82,68,84,0,0,0,0,0,0,0,0,0,0,0,0,0,97,83,99,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,69,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_Alley_Cones" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,229,229,229,0,0,0,0,0,0,0,0,0,0,0,0,0,229,0,229,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="1" gid="664" type="obj_mainchara" x="320" y="418" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="104190"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_darkcontroller" x="0" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104191"/>
+      </properties>
+    </object>
+    <object id="3" gid="665" type="obj_readable_room1" x="281" y="341" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104192"/>
+      </properties>
+    </object>
+    <object id="4" type="obj_ch2_susie_ralsei_fun" x="0" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="104193"/>
+      </properties>
+    </object>
+    <object id="5" gid="666" type="obj_cybercity_balloon" x="146" y="196" width="28" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="104194"/>
+      </properties>
+    </object>
+    <object id="6" gid="666" type="obj_cybercity_balloon" x="187" y="257" width="28" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="104195"/>
+      </properties>
+    </object>
+    <object id="7" gid="666" type="obj_cybercity_balloon" x="557" y="255" width="28" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="104196"/>
+      </properties>
+    </object>
+    <object id="8" gid="666" type="obj_cybercity_balloon" x="62" y="240" width="28" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="104197"/>
+      </properties>
+    </object>
+    <object id="9" gid="666" type="obj_cybercity_balloon" x="476" y="201" width="28" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="104198"/>
+      </properties>
+    </object>
+    <object id="10" gid="667" type="obj_weirdroute_manipulator" x="-120" y="442" width="54" height="82">
+      <properties>
+        <property name="instanceId" type="int" value="104199"/>
+      </properties>
+    </object>
+    <object id="11" gid="668" type="obj_musicer_city" x="-80" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="104200"/>
+      </properties>
+    </object>
+    <object id="12" gid="669" type="obj_doorW" x="280" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104201"/>
+      </properties>
+    </object>
+    <object id="13" gid="670" type="obj_markerX" x="320" y="454" width="38" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="104202"/>
+      </properties>
+    </object>
+    <object id="14" gid="671" type="obj_solidblocksized" x="240" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104203"/>
+      </properties>
+    </object>
+    <object id="15" gid="671" type="obj_solidblocksized" x="400" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104204"/>
+      </properties>
+    </object>
+    <object id="16" gid="671" type="obj_solidblocksized" x="360" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104205"/>
+      </properties>
+    </object>
+    <object id="17" gid="671" type="obj_solidblocksized" x="280" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104206"/>
+      </properties>
+    </object>
+    <object id="18" gid="671" type="obj_solidblocksized" x="280" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104207"/>
+      </properties>
+    </object>
+    <object id="19" gid="672" type="obj_sprite_part_parallax_example" x="384" y="72" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104208"/>
+      </properties>
+    </object>
+    <object id="20" gid="673" type="obj_sprite_part_parallax_inverted" x="64" y="72" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104209"/>
+      </properties>
+    </object>
+    <object id="21" gid="673" type="obj_sprite_part_parallax_inverted" x="448" y="136" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104210"/>
+      </properties>
+    </object>
+    <object id="22" gid="672" type="obj_sprite_part_parallax_example" x="128" y="136" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104211"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="views">
+    <object id="23" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>

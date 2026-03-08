@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="29">
+  <properties>
+    <property name="speed" type="int" value="0"/>
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx"/>
+  <tileset firstgid="913" source="tilesets/obj_gameshow_swordroute.tsx"/>
+  <tileset firstgid="914" source="tilesets/obj_board_controller.tsx"/>
+  <tileset firstgid="915" source="tilesets/obj_board_camera.tsx"/>
+  <tileset firstgid="916" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="917" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="918" source="tilesets/obj_mainchara_board.tsx"/>
+  <tileset firstgid="919" source="tilesets/obj_shadow_mantle_path.tsx"/>
+  <tileset firstgid="920" source="tilesets/obj_shadow_mantle_enemy.tsx"/>
+  <tileset firstgid="921" source="tilesets/obj_board_solid.tsx"/>
+  <layer id="1" name="BOARD_Tiles_4" width="25" height="25">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,401,401,401,401,401,401,401,401,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,402,402,402,402,402,402,402,402,402,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,402,402,401,402,401,402,401,402,401,402,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,402,401,402,402,402,402,401,402,402,402,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,402,402,402,401,402,402,402,402,401,402,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,402,401,402,401,402,401,402,401,402,402,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,402,402,402,402,402,402,402,402,402,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,401,401,401,401,401,401,401,401,401,401,401,401,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="BOARD_Tiles_3" width="25" height="25">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,385,385,385,385,385,385,385,385,385,385,385,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,385,386,386,386,386,386,386,386,386,386,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,386,386,385,386,385,386,385,386,385,386,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,386,385,386,386,386,386,385,386,386,386,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,386,386,386,385,386,386,386,386,385,386,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,386,385,386,385,386,385,386,385,386,386,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,386,386,386,386,386,386,386,386,386,385,385,0,0,0,0,0,0,0,0,0,0,0,0,0,385,385,385,385,385,385,385,385,385,385,385,385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="BOARD_Tiles_2" width="25" height="25">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,369,369,369,369,369,369,369,369,369,369,369,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,369,370,370,370,370,370,370,370,370,370,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,370,370,369,370,369,370,369,370,369,370,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,370,369,370,370,370,370,369,370,370,370,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,370,370,370,369,370,370,370,370,369,370,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,370,369,370,369,370,369,370,369,370,370,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,370,370,370,370,370,370,370,370,370,369,369,0,0,0,0,0,0,0,0,0,0,0,0,0,369,369,369,369,369,369,369,369,369,369,369,369,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="BOARD_Tiles_1" width="25" height="25">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,353,353,353,353,353,353,353,353,353,353,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,353,354,354,354,354,354,354,354,354,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,354,353,354,353,354,353,354,353,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,353,354,354,354,354,353,354,354,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,354,354,353,354,354,354,354,353,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,353,354,353,354,353,354,353,354,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,354,354,354,354,354,354,354,354,353,353,0,0,0,0,0,0,0,0,0,0,0,0,0,353,353,353,353,353,353,353,353,353,353,353,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="1" gid="913" type="obj_gameshow_swordroute" x="-64" y="16" width="7" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103834"/>
+      </properties>
+    </object>
+    <object id="2" type="obj_shadowmantle_crtcontroller" x="-80" y="40" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103835"/>
+      </properties>
+    </object>
+    <object id="3" type="obj_darkcontroller" x="-32" y="0" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103836"/>
+      </properties>
+    </object>
+    <object id="4" gid="914" type="obj_board_controller" x="-32" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103837"/>
+      </properties>
+    </object>
+    <object id="5" gid="915" type="obj_board_camera" x="-32" y="144" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103838"/>
+      </properties>
+    </object>
+    <object id="6" gid="916" type="obj_mainchara" x="-224" y="229" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103839"/>
+      </properties>
+    </object>
+    <object id="7" gid="917" type="obj_soliddark" x="-249" y="206" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103840"/>
+      </properties>
+    </object>
+    <object id="8" gid="918" type="obj_mainchara_board" x="304" y="272" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103841"/>
+      </properties>
+    </object>
+    <object id="9" gid="919" type="obj_shadow_mantle_path" x="192" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103842"/>
+      </properties>
+    </object>
+    <object id="10" type="obj_shadow_mantle_bg" x="128" y="64" width="0" height="0">
+      <properties>
+        <property name="instanceId" type="int" value="103843"/>
+      </properties>
+    </object>
+    <object id="11" gid="920" type="obj_shadow_mantle_enemy" x="304" y="208" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103844"/>
+      </properties>
+    </object>
+    <object id="12" gid="921" type="obj_board_solid" x="448" y="288" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103845"/>
+      </properties>
+    </object>
+    <object id="13" gid="921" type="obj_board_solid" x="128" y="320" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103846"/>
+      </properties>
+    </object>
+    <object id="14" gid="921" type="obj_board_solid" x="480" y="96" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103847"/>
+      </properties>
+    </object>
+    <object id="15" gid="921" type="obj_board_solid" x="128" y="96" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103848"/>
+      </properties>
+    </object>
+    <object id="16" gid="921" type="obj_board_solid" x="128" y="128" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103849"/>
+      </properties>
+    </object>
+    <object id="17" gid="921" type="obj_board_solid" x="160" y="128" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103850"/>
+      </properties>
+    </object>
+    <object id="18" gid="921" type="obj_board_solid" x="192" y="192" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103851"/>
+      </properties>
+    </object>
+    <object id="19" gid="921" type="obj_board_solid" x="224" y="160" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103852"/>
+      </properties>
+    </object>
+    <object id="20" gid="921" type="obj_board_solid" x="192" y="256" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103853"/>
+      </properties>
+    </object>
+    <object id="21" gid="921" type="obj_board_solid" x="256" y="224" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103854"/>
+      </properties>
+    </object>
+    <object id="22" gid="921" type="obj_board_solid" x="352" y="160" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103855"/>
+      </properties>
+    </object>
+    <object id="23" gid="921" type="obj_board_solid" x="288" y="160" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103856"/>
+      </properties>
+    </object>
+    <object id="24" gid="921" type="obj_board_solid" x="320" y="256" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103857"/>
+      </properties>
+    </object>
+    <object id="25" gid="921" type="obj_board_solid" x="384" y="256" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103858"/>
+      </properties>
+    </object>
+    <object id="26" gid="921" type="obj_board_solid" x="416" y="224" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103859"/>
+      </properties>
+    </object>
+    <object id="27" gid="921" type="obj_board_solid" x="416" y="160" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103860"/>
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="6" name="views">
+    <object id="28" class="view" x="0" y="0" width="640" height="480">
+      <properties>
+        <property name="portX" type="int" value="0"/>
+        <property name="portY" type="int" value="0"/>
+        <property name="portWidth" type="int" value="640"/>
+        <property name="portHeight" type="int" value="480"/>
+      </properties>
+    </object>
+  </objectgroup>
+</map>
