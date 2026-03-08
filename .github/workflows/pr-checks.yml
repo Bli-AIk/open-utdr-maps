@@ -1,0 +1,236 @@
+name: PR Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, labeled, unlabeled]
+
+permissions:
+  pull-requests: read
+  contents: read
+
+jobs:
+  raw-protection:
+    name: Raw files protection
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for raw/ modifications
+        run: |
+          RAW_CHANGES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'raw/' || true)
+
+          if [ -z "$RAW_CHANGES" ]; then
+            echo "✅ No changes to raw/ — all good."
+            exit 0
+          fi
+
+          echo "::group::Files changed in raw/"
+          echo "$RAW_CHANGES"
+          echo "::endgroup::"
+
+          # Check if PR has the bypass label
+          LABELS=$(gh pr view ${{ github.event.pull_request.number }} --json labels -q '.labels[].name')
+          if echo "$LABELS" | grep -q "raw-update"; then
+            echo "⚠️ raw/ files modified, but 'raw-update' label is present — bypassing protection."
+            exit 0
+          fi
+
+          echo "::error::❌ This PR modifies files in raw/. The raw/ directory contains auto-generated maps and should not be edited manually. If this is an authorized data update, add the 'raw-update' label to this PR."
+          exit 1
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+  curated-path:
+    name: Curated path check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate curated file paths
+        run: |
+          CURATED_FILES=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'curated/' || true)
+
+          if [ -z "$CURATED_FILES" ]; then
+            echo "✅ No curated files changed."
+            exit 0
+          fi
+
+          ERRORS=0
+          while IFS= read -r file; do
+            # Check curated files mirror the raw/ structure
+            EXPECTED_PATTERN="^curated/(undertale|deltarune/(deltarune_ch[1-4]))/"
+            if ! echo "$file" | grep -qE "$EXPECTED_PATTERN"; then
+              echo "::error file=$file::❌ File is not in a valid curated subdirectory. Expected: curated/undertale/ or curated/deltarune/deltarune_ch{1-4}/"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done <<< "$CURATED_FILES"
+
+          if [ $ERRORS -gt 0 ]; then
+            exit 1
+          fi
+          echo "✅ All curated files are in valid directories."
+
+  xml-validation:
+    name: TMX/TSX XML validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install xmllint
+        run: sudo apt-get install -y --no-install-recommends libxml2-utils
+
+      - name: Validate XML
+        run: |
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- '*.tmx' '*.tsx' || true)
+
+          if [ -z "$CHANGED" ]; then
+            echo "✅ No TMX/TSX files changed."
+            exit 0
+          fi
+
+          ERRORS=0
+          while IFS= read -r file; do
+            if [ ! -f "$file" ]; then
+              continue  # file was deleted
+            fi
+            if ! xmllint --noout "$file" 2>/dev/null; then
+              echo "::error file=$file::❌ Invalid XML in $file"
+              ERRORS=$((ERRORS + 1))
+            fi
+          done <<< "$CHANGED"
+
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::❌ $ERRORS file(s) contain invalid XML."
+            exit 1
+          fi
+
+          TOTAL=$(echo "$CHANGED" | wc -l)
+          echo "✅ All $TOTAL TMX/TSX files are valid XML."
+
+  layer-naming:
+    name: Layer naming check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check layer names in curated maps
+        run: |
+          CURATED_TMX=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'curated/**/*.tmx' || true)
+
+          if [ -z "$CURATED_TMX" ]; then
+            echo "✅ No curated TMX files changed."
+            exit 0
+          fi
+
+          # Allowed layer name patterns (from layer_spec.md)
+          ALLOWED_PATTERN="^(ground|decoration|collision|interaction|npc_spawn|trigger|event|views|instances)(_([0-9]+))?$"
+          # Also allow GMS2 original layer names and auto-generated Tiles_<depth>
+          AUTO_PATTERN="^Tiles_-?[0-9]+$"
+
+          WARNINGS=0
+          while IFS= read -r file; do
+            if [ ! -f "$file" ]; then
+              continue
+            fi
+            # Extract layer names from TMX
+            LAYERS=$(grep -oP '(?<=name=")[^"]+' "$file" | sort -u)
+            while IFS= read -r layer; do
+              if ! echo "$layer" | grep -qE "$ALLOWED_PATTERN" && ! echo "$layer" | grep -qE "$AUTO_PATTERN"; then
+                echo "::warning file=$file::⚠️ Non-standard layer name '$layer' in $file — see docs/layer_spec_en.md"
+                WARNINGS=$((WARNINGS + 1))
+              fi
+            done <<< "$LAYERS"
+          done <<< "$CURATED_TMX"
+
+          if [ $WARNINGS -gt 0 ]; then
+            echo "⚠️ $WARNINGS non-standard layer name(s) found. These are warnings — please check if they follow docs/layer_spec_en.md."
+          else
+            echo "✅ All layer names follow the naming spec."
+          fi
+
+  file-size:
+    name: File size check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for oversized files
+        run: |
+          MAX_SIZE_KB=5120  # 5MB
+          MAX_PNG_SIZE_KB=10240  # 10MB for textures
+
+          CHANGED=$(git diff --name-only origin/${{ github.base_ref }}...HEAD || true)
+
+          if [ -z "$CHANGED" ]; then
+            echo "✅ No files changed."
+            exit 0
+          fi
+
+          ERRORS=0
+          while IFS= read -r file; do
+            if [ ! -f "$file" ]; then
+              continue
+            fi
+
+            SIZE_KB=$(du -k "$file" | cut -f1)
+
+            # Higher threshold for PNG files
+            if echo "$file" | grep -qE '\.png$'; then
+              LIMIT=$MAX_PNG_SIZE_KB
+            else
+              LIMIT=$MAX_SIZE_KB
+            fi
+
+            if [ "$SIZE_KB" -gt "$LIMIT" ]; then
+              echo "::error file=$file::❌ File is ${SIZE_KB}KB, exceeding the ${LIMIT}KB limit."
+              ERRORS=$((ERRORS + 1))
+            fi
+          done <<< "$CHANGED"
+
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::❌ $ERRORS file(s) exceed the size limit."
+            exit 1
+          fi
+          echo "✅ All files are within size limits."
+
+  pr-description:
+    name: PR description check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR body completeness
+        run: |
+          BODY=$(gh pr view ${{ github.event.pull_request.number }} --json body -q '.body')
+
+          if [ -z "$BODY" ]; then
+            echo "::error::❌ PR description is empty. Please fill in the PR template."
+            exit 1
+          fi
+
+          # Check for key sections (either English or Chinese)
+          MISSING=""
+
+          if ! echo "$BODY" | grep -qiE "(Description of Changes|变更描述)"; then
+            MISSING="$MISSING 'Description/变更描述'"
+          fi
+
+          if ! echo "$BODY" | grep -qiE "(Type of Change|变更类型)"; then
+            MISSING="$MISSING 'Type of Change/变更类型'"
+          fi
+
+          if [ -n "$MISSING" ]; then
+            echo "::warning::⚠️ PR description may be missing sections:$MISSING — please use the PR template."
+          else
+            echo "✅ PR description contains required sections."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
