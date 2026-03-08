@@ -40,3 +40,5 @@ jobs:
           for label in $LABELS; do
             gh pr edit ${{ github.event.pull_request.number }} --add-label "$label" || true
           done
+        env:
+          GH_TOKEN: ${{ github.token }}
