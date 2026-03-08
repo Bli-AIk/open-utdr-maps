@@ -7,6 +7,7 @@ on:
     paths:
       - 'viewer/**'
       - 'raw/**'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
