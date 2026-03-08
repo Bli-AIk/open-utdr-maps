@@ -1,0 +1,154 @@
+[package]
+edition = "2021"
+name = "bevy_ecs_tiled"
+version = "0.11.2"
+
+authors = ["Steve Pryde <steve@stevepryde.com>", "Adrien Bon"]
+description = "A Bevy plugin for loading Tiled maps"
+homepage = "https://github.com/adrien-bon/bevy_ecs_tiled"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/adrien-bon/bevy_ecs_tiled"
+
+categories = ["game-development"]
+keywords = ["bevy", "tiled", "tilemap", "game", "2d"]
+exclude = ["assets/*", "res/*"]
+
+[features]
+default = ["render", "png"]
+
+# Expose image formats from bevy
+png = ["bevy/png"]
+bmp = ["bevy/bmp"]
+jpeg = ["bevy/jpeg"]
+gif = ["bevy/gif"]
+
+# Expose features of the bevy_ecs_tilemap crate.
+atlas = ["bevy_ecs_tilemap/atlas"]
+render = ["bevy_ecs_tilemap/render"]
+serde = ["bevy_ecs_tilemap/serde"]
+
+# Debug
+debug = ["bevy/bevy_gizmos", "bevy/bevy_text"]
+
+# Physics
+physics = []
+# rapier = ["bevy_rapier2d", "physics"]
+# rapier_debug = ["rapier", "bevy_rapier2d/debug-render-2d", "debug"]
+avian = ["dep:avian2d", "physics"]
+avian_debug = ["avian", "debug"]
+
+# WASM
+wasm = ["tiled/wasm"]
+
+# User Properties
+user_properties = ["dep:serde", "dep:serde_json"]
+
+[dependencies]
+# Main dependencies
+bevy = { version = "0.18", default-features = false }
+bevy_ecs_tilemap = { version = "0.18", default-features = false }
+tiled = { version = "0.15", features = ["world"] }
+
+# Utilities
+futures-lite = "2.6"
+log = "0.4"
+thiserror = "2.0"
+geo = "0.32"
+regex = "1.12"
+
+# Optional dependencies, enabled via features.
+# bevy_rapier2d = { version = "0.32", optional = true }
+avian2d = { version = "0.5", optional = true }
+serde = { version = "1.0", optional = true, features = ["derive"] }
+serde_json = { version = "1.0", optional = true }
+
+# docs.rs-specific configuration
+[package.metadata.docs.rs]
+#features = ["debug","user_properties","physics","avian","rapier"]
+features = ["debug","user_properties","physics","avian"]
+
+# cargo-all-features configuration
+[package.metadata.cargo-all-features]
+# only check 3 features at once
+max_combination_size = 3
+# do not check bevy images features since we don't directly use them
+denylist = ["png", "bmp", "jpeg", "gif"]
+
+[dev-dependencies]
+bevy = { version = "0.18", features = ["file_watcher"] }
+bevy-inspector-egui = "0.36"
+
+[[example]]
+name = "demo_platformer"
+required-features = ["avian", "user_properties"]
+
+[[example]]
+name = "map_basic"
+
+[[example]]
+name = "map_events"
+
+[[example]]
+name = "map_reload"
+
+[[example]]
+name = "map_settings"
+
+[[example]]
+name = "map_spawn_delay"
+
+[[example]]
+name = "map_anchor"
+required-features = ["debug"]
+
+[[example]]
+name = "orientation_hexagonal"
+required-features = ["debug"]
+
+[[example]]
+name = "orientation_isometric"
+required-features = ["debug"]
+
+[[example]]
+name = "orientation_orthogonal"
+required-features = ["debug"]
+
+[[example]]
+name = "physics_avian_controller"
+required-features = ["avian_debug"]
+
+[[example]]
+name = "physics_avian_settings"
+required-features = ["avian_debug"]
+
+[[example]]
+name = "physics_avian_orientation"
+required-features = ["avian_debug"]
+
+[[example]]
+name = "physics_custom"
+required-features = ["physics"]
+
+# [[example]]
+# name = "physics_rapier_controller"
+# required-features = ["rapier_debug"]
+
+# [[example]]
+# name = "physics_rapier_orientation"
+# required-features = ["rapier_debug"]
+
+# [[example]]
+# name = "physics_rapier_settings"
+# required-features = ["rapier_debug"]
+
+[[example]]
+name = "properties_basic"
+required-features = ["user_properties"]
+
+[[example]]
+name = "world_basic"
+
+[[example]]
+name = "world_chunking"
+required-features = ["debug"]

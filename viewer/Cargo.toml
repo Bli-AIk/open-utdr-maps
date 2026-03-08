@@ -1,0 +1,22 @@
+[package]
+name = "open-utdr-maps-viewer"
+version = "0.1.0"
+edition = "2024"
+publish = false
+license = "GPL-3.0-or-later"
+description = "Web viewer for the Open UTDR Maps collection"
+
+[dependencies]
+tiled_map_web_viewer = { git = "https://github.com/Bli-AIk/tiled_map_web_viewer.git", branch = "main" }
+bevy_ecs_tiled = "0.11"
+
+[profile.release]
+opt-level = "s"
+lto = "thin"
+codegen-units = 1
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+getrandom = { version = "0.2", features = ["js"] }
+
+[patch.crates-io]
+bevy_ecs_tiled = { path = "patches/bevy_ecs_tiled" }

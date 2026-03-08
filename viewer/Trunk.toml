@@ -1,0 +1,10 @@
+[build]
+dist = "dist"
+
+[[hooks]]
+stage = "pre_build"
+command = "python3"
+command_arguments = ["scripts/generate_manifest.py"]
+
+[watch]
+ignore = ["assets/manifest.txt"]
