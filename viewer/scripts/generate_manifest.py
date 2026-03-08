@@ -6,7 +6,7 @@ ASSETS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file
 OUTPUT = os.path.join(ASSETS_DIR, "manifest.txt")
 
 maps = []
-for root, _dirs, files in os.walk(ASSETS_DIR):
+for root, _dirs, files in os.walk(ASSETS_DIR, followlinks=True):
     for f in files:
         if f.endswith(".tmx"):
             rel = os.path.relpath(os.path.join(root, f), ASSETS_DIR)
