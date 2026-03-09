@@ -15,11 +15,33 @@ List the room names or areas that need curation.
 
 ## Curation Scope
 
+### 🧹 1. Data Curation
 - [ ] Layer renaming (per layer_spec.md)
-- [ ] Collision boundary annotation
-- [ ] NPC spawn point annotation
-- [ ] Event trigger annotation
-- [ ] World file stitching
+- [ ] Remove debug objects
+- [ ] Fix tile misalignment
+
+### 📐 2. Logic Layers
+- [ ] Collision boundary annotation (collision)
+- [ ] NPC spawn point annotation (npc_spawn)
+- [ ] Event trigger annotation (trigger)
+- [ ] Interaction object annotation (interaction)
+
+### 🌍 3. World Stitching
+- [ ] Create .world file
+- [ ] Connect multiple rooms
+
+### 📝 4. Documentation
+- [ ] Area introduction guides
+- [ ] Room descriptions
+- [ ] Translate documentation
+- [ ] Fix typos
+
+### 🔧 5. Tool Improvements
+- [ ] gm2tiled converter improvements
+- [ ] Automation scripts
+- [ ] Web map viewer improvements
+
+### Other
 - [ ] Other:
 
 ## References
