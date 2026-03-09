@@ -1,9 +1,14 @@
 ---
 name: Bug 报告
 about: 报告地图数据错误或转换问题
-title: '[Bug] '
+title: '[Bug | <GAME>] <area or description>'
 labels: bug
 ---
+
+<!--
+<GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
+<area or description>: 例如 "rm_mausoleum_entrance" 或 "room_ruins_1"
+-->
 
 ## 问题描述
 

@@ -1,9 +1,14 @@
 ---
 name: Bug Report
 about: Report map data errors or conversion issues
-title: '[Bug] '
+title: '[Bug | <GAME>] <area or description>'
 labels: bug
 ---
+
+<!--
+<GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
+<area or description>: e.g., "rm_mausoleum_entrance" or "room_ruins_1"
+-->
 
 ## Problem Description
 

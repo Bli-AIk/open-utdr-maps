@@ -1,9 +1,14 @@
 ---
 name: Curation Task
 about: Propose or claim map curation work
-title: '[Curation] '
+title: '[Curation | <GAME>] <area or description>'
 labels: curation
 ---
+
+<!--
+<GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
+<area or description>: e.g., "rm_mausoleum_entrance" or "room_ruins_1"
+-->
 
 ## Curation Goal
 

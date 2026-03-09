@@ -1,9 +1,14 @@
 ---
 name: 地图整理任务
 about: 提议或认领地图数据整理工作
-title: '[Curation] '
+title: '[Curation | <GAME>] <area or description>'
 labels: curation
 ---
+
+<!--
+<GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
+<area or description>: 例如 "rm_mausoleum_entrance" 或 "room_ruins_1"
+-->
 
 ## 整理目标
 
