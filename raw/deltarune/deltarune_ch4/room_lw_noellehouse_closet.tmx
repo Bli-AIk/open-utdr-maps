@@ -4,19 +4,19 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_lw_noellehouse_vents_tileset.tsx"/>
-  <tileset firstgid="49" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="50" source="tilesets/obj_ch4_PDC10C.tsx"/>
-  <tileset firstgid="51" source="tilesets/obj_bg_givedepth.tsx"/>
-  <tileset firstgid="52" source="tilesets/obj_homealone_solid.tsx"/>
-  <tileset firstgid="53" source="tilesets/obj_solidblockLight.tsx"/>
-  <tileset firstgid="54" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="55" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="56" source="tilesets/obj_homealone_vent_hidden.tsx"/>
+  <tileset firstgid="65" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="66" source="tilesets/obj_ch4_PDC10C.tsx"/>
+  <tileset firstgid="67" source="tilesets/obj_bg_givedepth.tsx"/>
+  <tileset firstgid="68" source="tilesets/obj_homealone_solid.tsx"/>
+  <tileset firstgid="69" source="tilesets/obj_solidblockLight.tsx"/>
+  <tileset firstgid="70" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="71" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="72" source="tilesets/obj_homealone_vent_hidden.tsx"/>
   <layer id="1" name="TILES_Vent" width="16" height="12">
     <data encoding="csv">2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,3,3,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="49" type="obj_mainchara" x="151" y="234" width="19" height="37">
+    <object id="1" gid="65" type="obj_mainchara" x="151" y="234" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="101304"/>
       </properties>
@@ -26,12 +26,12 @@
         <property name="instanceId" type="int" value="101305"/>
       </properties>
     </object>
-    <object id="3" gid="50" type="obj_ch4_PDC10C" x="0" y="40" width="20" height="20">
+    <object id="3" gid="66" type="obj_ch4_PDC10C" x="0" y="40" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101306"/>
       </properties>
     </object>
-    <object id="4" gid="51" type="obj_bg_givedepth" x="25" y="24" width="23" height="21">
+    <object id="4" gid="67" type="obj_bg_givedepth" x="25" y="24" width="23" height="21">
       <properties>
         <property name="instanceId" type="int" value="101307"/>
       </properties>
@@ -41,72 +41,72 @@
         <property name="instanceId" type="int" value="101308"/>
       </properties>
     </object>
-    <object id="6" gid="52" type="obj_homealone_solid" x="200" y="100" width="20" height="20">
+    <object id="6" gid="68" type="obj_homealone_solid" x="200" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101309"/>
       </properties>
     </object>
-    <object id="7" gid="52" type="obj_homealone_solid" x="100" y="100" width="20" height="20">
+    <object id="7" gid="68" type="obj_homealone_solid" x="100" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101310"/>
       </properties>
     </object>
-    <object id="8" gid="52" type="obj_homealone_solid" x="100" y="160" width="20" height="20">
+    <object id="8" gid="68" type="obj_homealone_solid" x="100" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101311"/>
       </properties>
     </object>
-    <object id="9" gid="52" type="obj_homealone_solid" x="200" y="160" width="20" height="20">
+    <object id="9" gid="68" type="obj_homealone_solid" x="200" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101312"/>
       </properties>
     </object>
-    <object id="10" gid="52" type="obj_homealone_solid" x="100" y="220" width="20" height="20">
+    <object id="10" gid="68" type="obj_homealone_solid" x="100" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101313"/>
       </properties>
     </object>
-    <object id="11" gid="52" type="obj_homealone_solid" x="120" y="20" width="20" height="20">
+    <object id="11" gid="68" type="obj_homealone_solid" x="120" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101314"/>
       </properties>
     </object>
-    <object id="12" gid="52" type="obj_homealone_solid" x="168" y="22" width="20" height="20">
+    <object id="12" gid="68" type="obj_homealone_solid" x="168" y="22" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101315"/>
       </properties>
     </object>
-    <object id="13" gid="53" type="obj_solidblockLight" x="200" y="100" width="20" height="20">
+    <object id="13" gid="69" type="obj_solidblockLight" x="200" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101316"/>
       </properties>
     </object>
-    <object id="14" gid="53" type="obj_solidblockLight" x="100" y="100" width="20" height="20">
+    <object id="14" gid="69" type="obj_solidblockLight" x="100" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101317"/>
       </properties>
     </object>
-    <object id="15" gid="54" type="obj_doorAny" x="135" y="276" width="40" height="40">
+    <object id="15" gid="70" type="obj_doorAny" x="135" y="276" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101318"/>
       </properties>
     </object>
-    <object id="16" gid="55" type="obj_markerAny" x="151" y="271" width="38" height="74">
+    <object id="16" gid="71" type="obj_markerAny" x="151" y="271" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="101319"/>
       </properties>
     </object>
-    <object id="17" gid="53" type="obj_solidblockLight" x="180" y="220" width="20" height="20">
+    <object id="17" gid="69" type="obj_solidblockLight" x="180" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101320"/>
       </properties>
     </object>
-    <object id="18" gid="53" type="obj_solidblockLight" x="100" y="220" width="20" height="20">
+    <object id="18" gid="69" type="obj_solidblockLight" x="100" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101321"/>
       </properties>
     </object>
-    <object id="19" gid="56" type="obj_homealone_vent_hidden" x="147" y="1" width="29" height="29">
+    <object id="19" gid="72" type="obj_homealone_vent_hidden" x="147" y="1" width="29" height="29">
       <properties>
         <property name="instanceId" type="int" value="101322"/>
       </properties>

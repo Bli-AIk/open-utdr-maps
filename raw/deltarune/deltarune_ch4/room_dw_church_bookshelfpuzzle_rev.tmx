@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="90" height="42" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="172">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="45" height="21" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="172">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_library_tileset_new.tsx"/>
-  <tileset firstgid="851" source="tilesets/obj_genmarker.tsx"/>
-  <tileset firstgid="852" source="tilesets/obj_musicer_dw_church.tsx"/>
-  <tileset firstgid="853" source="tilesets/obj_light_window_mask.tsx"/>
-  <tileset firstgid="854" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="855" source="tilesets/obj_dw_church_bookshelfpuzzle.tsx"/>
-  <tileset firstgid="856" source="tilesets/obj_treasure_room.tsx"/>
-  <tileset firstgid="857" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="858" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="859" source="tilesets/obj_floorTrigger.tsx"/>
-  <tileset firstgid="860" source="tilesets/obj_ramarker.tsx"/>
-  <tileset firstgid="861" source="tilesets/obj_sumarker.tsx"/>
-  <tileset firstgid="862" source="tilesets/obj_darkness_overlay.tsx"/>
-  <tileset firstgid="863" source="tilesets/obj_solid_temp_edge_maker.tsx"/>
-  <tileset firstgid="864" source="tilesets/obj_solid_temp.tsx"/>
+  <tileset firstgid="1024" source="tilesets/obj_genmarker.tsx"/>
+  <tileset firstgid="1025" source="tilesets/obj_musicer_dw_church.tsx"/>
+  <tileset firstgid="1026" source="tilesets/obj_light_window_mask.tsx"/>
+  <tileset firstgid="1027" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1028" source="tilesets/obj_dw_church_bookshelfpuzzle.tsx"/>
+  <tileset firstgid="1029" source="tilesets/obj_treasure_room.tsx"/>
+  <tileset firstgid="1030" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="1031" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="1032" source="tilesets/obj_floorTrigger.tsx"/>
+  <tileset firstgid="1033" source="tilesets/obj_ramarker.tsx"/>
+  <tileset firstgid="1034" source="tilesets/obj_sumarker.tsx"/>
+  <tileset firstgid="1035" source="tilesets/obj_darkness_overlay.tsx"/>
+  <tileset firstgid="1036" source="tilesets/obj_solid_temp_edge_maker.tsx"/>
+  <tileset firstgid="1037" source="tilesets/obj_solid_temp.tsx"/>
   <layer id="1" name="TILES" width="45" height="21">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,482,482,482,482,482,482,482,482,482,482,481,482,482,483,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,0,0,0,0,0,0,0,482,482,482,482,482,482,482,482,482,482,481,482,482,483,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,0,0,0,0,0,0,0,482,482,482,482,482,482,482,482,482,482,481,481,482,483,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,0,0,0,0,0,0,0,482,482,482,482,482,482,482,482,482,482,482,585,492,493,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,0,0,0,0,0,0,0,482,482,482,482,482,482,482,482,482,482,482,0,0,0,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,0,0,0,0,0,0,485,485,485,485,485,485,485,485,485,485,485,0,438,438,438,438,438,0,0,0,0,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,482,0,0,0,0,0,0,713,713,0,122,112,122,122,122,122,112,112,112,112,112,112,112,112,112,112,112,112,112,112,122,122,122,122,122,122,122,122,122,122,122,122,122,122,713,734,0,0,0,0,0,0,713,713,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,733,714,0,0,0,0,0,0,713,713,121,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,734,0,0,0,0,0,0,0,713,713,121,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,724,0,0,0,0,0,0,0,713,713,121,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,713,714,0,0,0,0,0,0,713,713,121,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,0,714,0,0,0,0,0,0,713,713,121,132,132,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,0,713,0,0,0,0,0,0,713,713,121,122,122,122,122,122,122,122,122,132,132,122,132,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,122,0,0,0,0,0,0,0,0,713,713,131,122,122,122,132,132,132,132,122,122,122,132,122,122,122,122,122,122,122,122,132,132,132,132,132,122,122,122,122,132,132,132,132,122,122,0,0,0,0,0,0,0,0,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,0,0,0,0,0,0,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,713,0,722,713,713,713,713,713,713,752,713,713,713,713,713,713,713,713,713,0,0,0,0,0,0,761,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,762,763,711,714,761,762,762,762,762,762,762,762,763,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,711,714,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
@@ -28,52 +28,52 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,742,742,742,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,562,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,562,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,561,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,552,0,0,0,0,0,0,0,571,0,0,0,0,561,0,0,0,0,0,0,0,0,0,562,0,0,0,0,0,0,0,0,0,0,0,0,0,0,552,0,0,0,0,0,0,0,0,0,0,0,0,0,552,0,0,0,0,0,0,0,0,0,0,0,551,0,0,0,0,0,0,561,552,0,0,0,0,0,0,0,0,0,571,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="1" gid="851" type="obj_genmarker" x="-40" y="1" width="1" height="1">
+    <object id="1" gid="1024" type="obj_genmarker" x="-40" y="1" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="112439"/>
       </properties>
     </object>
-    <object id="2" gid="852" type="obj_musicer_dw_church" x="120" y="144" width="26" height="24">
+    <object id="2" gid="1025" type="obj_musicer_dw_church" x="120" y="144" width="26" height="24">
       <properties>
         <property name="instanceId" type="int" value="112440"/>
       </properties>
     </object>
-    <object id="3" gid="851" type="obj_genmarker" x="976" y="423" width="1" height="1">
+    <object id="3" gid="1024" type="obj_genmarker" x="976" y="423" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="112441"/>
       </properties>
     </object>
-    <object id="4" gid="851" type="obj_genmarker" x="1209" y="423" width="1" height="1">
+    <object id="4" gid="1024" type="obj_genmarker" x="1209" y="423" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="112442"/>
       </properties>
     </object>
-    <object id="5" gid="853" type="obj_light_window_mask" x="320" y="413" width="65" height="333">
+    <object id="5" gid="1026" type="obj_light_window_mask" x="320" y="413" width="65" height="333">
       <properties>
         <property name="instanceId" type="int" value="112443"/>
       </properties>
     </object>
-    <object id="6" gid="853" type="obj_light_window_mask" x="520" y="413" width="65" height="333">
+    <object id="6" gid="1026" type="obj_light_window_mask" x="520" y="413" width="65" height="333">
       <properties>
         <property name="instanceId" type="int" value="112444"/>
       </properties>
     </object>
-    <object id="7" gid="853" type="obj_light_window_mask" x="720" y="413" width="65" height="333">
+    <object id="7" gid="1026" type="obj_light_window_mask" x="720" y="413" width="65" height="333">
       <properties>
         <property name="instanceId" type="int" value="112445"/>
       </properties>
     </object>
-    <object id="8" gid="853" type="obj_light_window_mask" x="1400" y="413" width="65" height="333">
+    <object id="8" gid="1026" type="obj_light_window_mask" x="1400" y="413" width="65" height="333">
       <properties>
         <property name="instanceId" type="int" value="112446"/>
       </properties>
     </object>
-    <object id="9" gid="853" type="obj_light_window_mask" x="1200" y="413" width="65" height="333">
+    <object id="9" gid="1026" type="obj_light_window_mask" x="1200" y="413" width="65" height="333">
       <properties>
         <property name="instanceId" type="int" value="112447"/>
       </properties>
     </object>
-    <object id="10" gid="854" type="obj_mainchara" x="1262" y="791" width="19" height="37">
+    <object id="10" gid="1027" type="obj_mainchara" x="1262" y="791" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="112448"/>
       </properties>
@@ -83,797 +83,797 @@
         <property name="instanceId" type="int" value="112449"/>
       </properties>
     </object>
-    <object id="12" gid="855" type="obj_dw_church_bookshelfpuzzle" x="-80" y="129" width="9" height="9">
+    <object id="12" gid="1028" type="obj_dw_church_bookshelfpuzzle" x="-80" y="129" width="9" height="9">
       <properties>
         <property name="instanceId" type="int" value="112450"/>
       </properties>
     </object>
-    <object id="13" gid="856" type="obj_treasure_room" x="80" y="1179" width="20" height="19">
+    <object id="13" gid="1029" type="obj_treasure_room" x="80" y="1179" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="112451"/>
       </properties>
     </object>
-    <object id="14" gid="857" type="obj_doorAny" x="1040" y="216" width="40" height="40">
+    <object id="14" gid="1030" type="obj_doorAny" x="1040" y="216" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112452"/>
       </properties>
     </object>
-    <object id="15" gid="858" type="obj_markerAny" x="1060" y="246" width="38" height="74">
+    <object id="15" gid="1031" type="obj_markerAny" x="1060" y="246" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="112453"/>
       </properties>
     </object>
-    <object id="16" gid="858" type="obj_markerAny" x="180" y="246" width="38" height="74">
+    <object id="16" gid="1031" type="obj_markerAny" x="180" y="246" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="112454"/>
       </properties>
     </object>
-    <object id="17" gid="857" type="obj_doorAny" x="160" y="216" width="40" height="40">
+    <object id="17" gid="1030" type="obj_doorAny" x="160" y="216" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112455"/>
       </properties>
     </object>
-    <object id="18" gid="859" type="obj_floorTrigger" x="184" y="240" width="40" height="10">
+    <object id="18" gid="1032" type="obj_floorTrigger" x="184" y="240" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112456"/>
       </properties>
     </object>
-    <object id="19" gid="860" type="obj_ramarker" x="1276" y="659" width="21" height="40">
+    <object id="19" gid="1033" type="obj_ramarker" x="1276" y="659" width="21" height="40">
       <properties>
         <property name="instanceId" type="int" value="112457"/>
       </properties>
     </object>
-    <object id="20" gid="861" type="obj_sumarker" x="1506" y="657" width="26" height="43">
+    <object id="20" gid="1034" type="obj_sumarker" x="1506" y="657" width="26" height="43">
       <properties>
         <property name="instanceId" type="int" value="112458"/>
       </properties>
     </object>
-    <object id="21" gid="862" type="obj_darkness_overlay" x="-320" y="100" width="40" height="60">
+    <object id="21" gid="1035" type="obj_darkness_overlay" x="-320" y="100" width="40" height="60">
       <properties>
         <property name="instanceId" type="int" value="112459"/>
       </properties>
     </object>
-    <object id="22" gid="859" type="obj_floorTrigger" x="1240" y="480" width="40" height="10">
+    <object id="22" gid="1032" type="obj_floorTrigger" x="1240" y="480" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112460"/>
       </properties>
     </object>
-    <object id="23" gid="859" type="obj_floorTrigger" x="1560" y="650" width="40" height="10">
+    <object id="23" gid="1032" type="obj_floorTrigger" x="1560" y="650" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112461"/>
       </properties>
     </object>
-    <object id="24" gid="859" type="obj_floorTrigger" x="1248" y="528" width="40" height="10">
+    <object id="24" gid="1032" type="obj_floorTrigger" x="1248" y="528" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112462"/>
       </properties>
     </object>
-    <object id="25" gid="859" type="obj_floorTrigger" x="1568" y="688" width="40" height="10">
+    <object id="25" gid="1032" type="obj_floorTrigger" x="1568" y="688" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112463"/>
       </properties>
     </object>
-    <object id="26" gid="859" type="obj_floorTrigger" x="808" y="488" width="40" height="10">
+    <object id="26" gid="1032" type="obj_floorTrigger" x="808" y="488" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112464"/>
       </properties>
     </object>
-    <object id="27" gid="859" type="obj_floorTrigger" x="810" y="450" width="40" height="10">
+    <object id="27" gid="1032" type="obj_floorTrigger" x="810" y="450" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112465"/>
       </properties>
     </object>
-    <object id="28" gid="859" type="obj_floorTrigger" x="408" y="440" width="40" height="10">
+    <object id="28" gid="1032" type="obj_floorTrigger" x="408" y="440" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112466"/>
       </properties>
     </object>
-    <object id="29" gid="859" type="obj_floorTrigger" x="408" y="488" width="40" height="10">
+    <object id="29" gid="1032" type="obj_floorTrigger" x="408" y="488" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112467"/>
       </properties>
     </object>
-    <object id="30" gid="859" type="obj_floorTrigger" x="1064" y="240" width="40" height="10">
+    <object id="30" gid="1032" type="obj_floorTrigger" x="1064" y="240" width="40" height="10">
       <properties>
         <property name="instanceId" type="int" value="112468"/>
       </properties>
     </object>
-    <object id="31" gid="858" type="obj_markerAny" x="1262" y="828" width="38" height="74">
+    <object id="31" gid="1031" type="obj_markerAny" x="1262" y="828" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="112469"/>
       </properties>
     </object>
-    <object id="32" gid="857" type="obj_doorAny" x="1240" y="874" width="40" height="40">
+    <object id="32" gid="1030" type="obj_doorAny" x="1240" y="874" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112470"/>
       </properties>
     </object>
-    <object id="33" gid="863" type="obj_solid_temp_edge_maker" x="760" y="600" width="40" height="40">
+    <object id="33" gid="1036" type="obj_solid_temp_edge_maker" x="760" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112471"/>
       </properties>
     </object>
-    <object id="34" gid="863" type="obj_solid_temp_edge_maker" x="680" y="600" width="40" height="40">
+    <object id="34" gid="1036" type="obj_solid_temp_edge_maker" x="680" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112472"/>
       </properties>
     </object>
-    <object id="35" gid="863" type="obj_solid_temp_edge_maker" x="800" y="360" width="40" height="40">
+    <object id="35" gid="1036" type="obj_solid_temp_edge_maker" x="800" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112473"/>
       </properties>
     </object>
-    <object id="36" gid="863" type="obj_solid_temp_edge_maker" x="880" y="360" width="40" height="40">
+    <object id="36" gid="1036" type="obj_solid_temp_edge_maker" x="880" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112474"/>
       </properties>
     </object>
-    <object id="37" gid="863" type="obj_solid_temp_edge_maker" x="1040" y="280" width="40" height="40">
+    <object id="37" gid="1036" type="obj_solid_temp_edge_maker" x="1040" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112475"/>
       </properties>
     </object>
-    <object id="38" gid="863" type="obj_solid_temp_edge_maker" x="760" y="240" width="40" height="40">
+    <object id="38" gid="1036" type="obj_solid_temp_edge_maker" x="760" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112476"/>
       </properties>
     </object>
-    <object id="39" gid="863" type="obj_solid_temp_edge_maker" x="640" y="320" width="40" height="40">
+    <object id="39" gid="1036" type="obj_solid_temp_edge_maker" x="640" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112477"/>
       </properties>
     </object>
-    <object id="40" gid="863" type="obj_solid_temp_edge_maker" x="1200" y="320" width="40" height="40">
+    <object id="40" gid="1036" type="obj_solid_temp_edge_maker" x="1200" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112478"/>
       </properties>
     </object>
-    <object id="41" gid="863" type="obj_solid_temp_edge_maker" x="1160" y="440" width="40" height="40">
+    <object id="41" gid="1036" type="obj_solid_temp_edge_maker" x="1160" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112479"/>
       </properties>
     </object>
-    <object id="42" gid="863" type="obj_solid_temp_edge_maker" x="1280" y="280" width="40" height="40">
+    <object id="42" gid="1036" type="obj_solid_temp_edge_maker" x="1280" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112480"/>
       </properties>
     </object>
-    <object id="43" gid="863" type="obj_solid_temp_edge_maker" x="1360" y="280" width="40" height="40">
+    <object id="43" gid="1036" type="obj_solid_temp_edge_maker" x="1360" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112481"/>
       </properties>
     </object>
-    <object id="44" gid="863" type="obj_solid_temp_edge_maker" x="1520" y="320" width="40" height="40">
+    <object id="44" gid="1036" type="obj_solid_temp_edge_maker" x="1520" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112482"/>
       </properties>
     </object>
-    <object id="45" gid="863" type="obj_solid_temp_edge_maker" x="1480" y="600" width="40" height="40">
+    <object id="45" gid="1036" type="obj_solid_temp_edge_maker" x="1480" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112483"/>
       </properties>
     </object>
-    <object id="46" gid="863" type="obj_solid_temp_edge_maker" x="1040" y="600" width="40" height="40">
+    <object id="46" gid="1036" type="obj_solid_temp_edge_maker" x="1040" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112484"/>
       </properties>
     </object>
-    <object id="47" gid="863" type="obj_solid_temp_edge_maker" x="1160" y="480" width="40" height="40">
+    <object id="47" gid="1036" type="obj_solid_temp_edge_maker" x="1160" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112485"/>
       </properties>
     </object>
-    <object id="48" gid="863" type="obj_solid_temp_edge_maker" x="1120" y="440" width="40" height="40">
+    <object id="48" gid="1036" type="obj_solid_temp_edge_maker" x="1120" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112486"/>
       </properties>
     </object>
-    <object id="49" gid="863" type="obj_solid_temp_edge_maker" x="1120" y="280" width="40" height="40">
+    <object id="49" gid="1036" type="obj_solid_temp_edge_maker" x="1120" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112487"/>
       </properties>
     </object>
-    <object id="50" gid="863" type="obj_solid_temp_edge_maker" x="1040" y="360" width="40" height="40">
+    <object id="50" gid="1036" type="obj_solid_temp_edge_maker" x="1040" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112488"/>
       </properties>
     </object>
-    <object id="51" gid="863" type="obj_solid_temp_edge_maker" x="760" y="280" width="40" height="40">
+    <object id="51" gid="1036" type="obj_solid_temp_edge_maker" x="760" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112489"/>
       </properties>
     </object>
-    <object id="52" gid="863" type="obj_solid_temp_edge_maker" x="1000" y="320" width="40" height="40">
+    <object id="52" gid="1036" type="obj_solid_temp_edge_maker" x="1000" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112490"/>
       </properties>
     </object>
-    <object id="53" gid="863" type="obj_solid_temp_edge_maker" x="1360" y="360" width="40" height="40">
+    <object id="53" gid="1036" type="obj_solid_temp_edge_maker" x="1360" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112491"/>
       </properties>
     </object>
-    <object id="54" gid="863" type="obj_solid_temp_edge_maker" x="1400" y="360" width="40" height="40">
+    <object id="54" gid="1036" type="obj_solid_temp_edge_maker" x="1400" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112492"/>
       </properties>
     </object>
-    <object id="55" gid="863" type="obj_solid_temp_edge_maker" x="1480" y="400" width="40" height="40">
+    <object id="55" gid="1036" type="obj_solid_temp_edge_maker" x="1480" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112493"/>
       </properties>
     </object>
-    <object id="56" gid="863" type="obj_solid_temp_edge_maker" x="1440" y="600" width="40" height="40">
+    <object id="56" gid="1036" type="obj_solid_temp_edge_maker" x="1440" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112494"/>
       </properties>
     </object>
-    <object id="57" gid="863" type="obj_solid_temp_edge_maker" x="880" y="400" width="40" height="40">
+    <object id="57" gid="1036" type="obj_solid_temp_edge_maker" x="880" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112495"/>
       </properties>
     </object>
-    <object id="58" gid="863" type="obj_solid_temp_edge_maker" x="960" y="360" width="40" height="40">
+    <object id="58" gid="1036" type="obj_solid_temp_edge_maker" x="960" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112496"/>
       </properties>
     </object>
-    <object id="59" gid="863" type="obj_solid_temp_edge_maker" x="800" y="320" width="40" height="40">
+    <object id="59" gid="1036" type="obj_solid_temp_edge_maker" x="800" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112497"/>
       </properties>
     </object>
-    <object id="60" gid="863" type="obj_solid_temp_edge_maker" x="720" y="360" width="40" height="40">
+    <object id="60" gid="1036" type="obj_solid_temp_edge_maker" x="720" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112498"/>
       </properties>
     </object>
-    <object id="61" gid="863" type="obj_solid_temp_edge_maker" x="720" y="280" width="40" height="40">
+    <object id="61" gid="1036" type="obj_solid_temp_edge_maker" x="720" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112499"/>
       </properties>
     </object>
-    <object id="62" gid="863" type="obj_solid_temp_edge_maker" x="600" y="280" width="40" height="40">
+    <object id="62" gid="1036" type="obj_solid_temp_edge_maker" x="600" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112500"/>
       </properties>
     </object>
-    <object id="63" gid="863" type="obj_solid_temp_edge_maker" x="640" y="360" width="40" height="40">
+    <object id="63" gid="1036" type="obj_solid_temp_edge_maker" x="640" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112501"/>
       </properties>
     </object>
-    <object id="64" gid="863" type="obj_solid_temp_edge_maker" x="1280" y="480" width="40" height="40">
+    <object id="64" gid="1036" type="obj_solid_temp_edge_maker" x="1280" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112502"/>
       </properties>
     </object>
-    <object id="65" gid="864" type="obj_solid_temp" x="1280" y="480" width="40" height="40">
+    <object id="65" gid="1037" type="obj_solid_temp" x="1280" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112503"/>
       </properties>
     </object>
-    <object id="66" gid="863" type="obj_solid_temp_edge_maker" x="840" y="560" width="40" height="40">
+    <object id="66" gid="1036" type="obj_solid_temp_edge_maker" x="840" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112504"/>
       </properties>
     </object>
-    <object id="67" gid="863" type="obj_solid_temp_edge_maker" x="840" y="440" width="40" height="40">
+    <object id="67" gid="1036" type="obj_solid_temp_edge_maker" x="840" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112505"/>
       </properties>
     </object>
-    <object id="68" gid="863" type="obj_solid_temp_edge_maker" x="760" y="520" width="40" height="40">
+    <object id="68" gid="1036" type="obj_solid_temp_edge_maker" x="760" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112506"/>
       </properties>
     </object>
-    <object id="69" gid="863" type="obj_solid_temp_edge_maker" x="880" y="520" width="40" height="40">
+    <object id="69" gid="1036" type="obj_solid_temp_edge_maker" x="880" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112507"/>
       </properties>
     </object>
-    <object id="70" gid="863" type="obj_solid_temp_edge_maker" x="920" y="560" width="40" height="40">
+    <object id="70" gid="1036" type="obj_solid_temp_edge_maker" x="920" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112508"/>
       </properties>
     </object>
-    <object id="71" gid="863" type="obj_solid_temp_edge_maker" x="120" y="560" width="40" height="40">
+    <object id="71" gid="1036" type="obj_solid_temp_edge_maker" x="120" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112509"/>
       </properties>
     </object>
-    <object id="72" gid="863" type="obj_solid_temp_edge_maker" x="200" y="400" width="40" height="40">
+    <object id="72" gid="1036" type="obj_solid_temp_edge_maker" x="200" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112510"/>
       </properties>
     </object>
-    <object id="73" gid="863" type="obj_solid_temp_edge_maker" x="160" y="360" width="40" height="40">
+    <object id="73" gid="1036" type="obj_solid_temp_edge_maker" x="160" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112511"/>
       </properties>
     </object>
-    <object id="74" gid="863" type="obj_solid_temp_edge_maker" x="200" y="280" width="40" height="40">
+    <object id="74" gid="1036" type="obj_solid_temp_edge_maker" x="200" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112512"/>
       </properties>
     </object>
-    <object id="75" gid="863" type="obj_solid_temp_edge_maker" x="280" y="280" width="40" height="40">
+    <object id="75" gid="1036" type="obj_solid_temp_edge_maker" x="280" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112513"/>
       </properties>
     </object>
-    <object id="76" gid="863" type="obj_solid_temp_edge_maker" x="480" y="280" width="40" height="40">
+    <object id="76" gid="1036" type="obj_solid_temp_edge_maker" x="480" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112514"/>
       </properties>
     </object>
-    <object id="77" gid="863" type="obj_solid_temp_edge_maker" x="320" y="280" width="40" height="40">
+    <object id="77" gid="1036" type="obj_solid_temp_edge_maker" x="320" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112515"/>
       </properties>
     </object>
-    <object id="78" gid="864" type="obj_solid_temp" x="440" y="440" width="40" height="40">
+    <object id="78" gid="1037" type="obj_solid_temp" x="440" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112516"/>
       </properties>
     </object>
-    <object id="79" gid="864" type="obj_solid_temp" x="120" y="240" width="40" height="40">
+    <object id="79" gid="1037" type="obj_solid_temp" x="120" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112517"/>
       </properties>
     </object>
-    <object id="80" gid="864" type="obj_solid_temp" x="80" y="240" width="40" height="40">
+    <object id="80" gid="1037" type="obj_solid_temp" x="80" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112518"/>
       </properties>
     </object>
-    <object id="81" gid="864" type="obj_solid_temp" x="320" y="240" width="40" height="40">
+    <object id="81" gid="1037" type="obj_solid_temp" x="320" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112519"/>
       </properties>
     </object>
-    <object id="82" gid="863" type="obj_solid_temp_edge_maker" x="560" y="200" width="40" height="40">
+    <object id="82" gid="1036" type="obj_solid_temp_edge_maker" x="560" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112520"/>
       </properties>
     </object>
-    <object id="83" gid="863" type="obj_solid_temp_edge_maker" x="560" y="280" width="40" height="40">
+    <object id="83" gid="1036" type="obj_solid_temp_edge_maker" x="560" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112521"/>
       </properties>
     </object>
-    <object id="84" gid="864" type="obj_solid_temp" x="520" y="200" width="40" height="40">
+    <object id="84" gid="1037" type="obj_solid_temp" x="520" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112522"/>
       </properties>
     </object>
-    <object id="85" gid="864" type="obj_solid_temp" x="640" y="200" width="40" height="40">
+    <object id="85" gid="1037" type="obj_solid_temp" x="640" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112523"/>
       </properties>
     </object>
-    <object id="86" gid="864" type="obj_solid_temp" x="560" y="160" width="40" height="40">
+    <object id="86" gid="1037" type="obj_solid_temp" x="560" y="160" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112524"/>
       </properties>
     </object>
-    <object id="87" gid="864" type="obj_solid_temp" x="760" y="200" width="40" height="40">
+    <object id="87" gid="1037" type="obj_solid_temp" x="760" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112525"/>
       </properties>
     </object>
-    <object id="88" gid="864" type="obj_solid_temp" x="1120" y="240" width="40" height="40">
+    <object id="88" gid="1037" type="obj_solid_temp" x="1120" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112526"/>
       </properties>
     </object>
-    <object id="89" gid="864" type="obj_solid_temp" x="1108" y="200" width="40" height="40">
+    <object id="89" gid="1037" type="obj_solid_temp" x="1108" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112527"/>
       </properties>
     </object>
-    <object id="90" gid="864" type="obj_solid_temp" x="1040" y="200" width="40" height="40">
+    <object id="90" gid="1037" type="obj_solid_temp" x="1040" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112528"/>
       </properties>
     </object>
-    <object id="91" gid="864" type="obj_solid_temp" x="1280" y="200" width="40" height="40">
+    <object id="91" gid="1037" type="obj_solid_temp" x="1280" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112529"/>
       </properties>
     </object>
-    <object id="92" gid="864" type="obj_solid_temp" x="1520" y="240" width="40" height="40">
+    <object id="92" gid="1037" type="obj_solid_temp" x="1520" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112530"/>
       </properties>
     </object>
-    <object id="93" gid="864" type="obj_solid_temp" x="240" y="240" width="40" height="40">
+    <object id="93" gid="1037" type="obj_solid_temp" x="240" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112531"/>
       </properties>
     </object>
-    <object id="94" gid="864" type="obj_solid_temp" x="1600" y="320" width="40" height="40">
+    <object id="94" gid="1037" type="obj_solid_temp" x="1600" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112532"/>
       </properties>
     </object>
-    <object id="95" gid="864" type="obj_solid_temp" x="1640" y="560" width="40" height="40">
+    <object id="95" gid="1037" type="obj_solid_temp" x="1640" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112533"/>
       </properties>
     </object>
-    <object id="96" gid="864" type="obj_solid_temp" x="1680" y="600" width="40" height="40">
+    <object id="96" gid="1037" type="obj_solid_temp" x="1680" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112534"/>
       </properties>
     </object>
-    <object id="97" gid="864" type="obj_solid_temp" x="720" y="240" width="40" height="40">
+    <object id="97" gid="1037" type="obj_solid_temp" x="720" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112535"/>
       </properties>
     </object>
-    <object id="98" gid="863" type="obj_solid_temp_edge_maker" x="200" y="360" width="40" height="40">
+    <object id="98" gid="1036" type="obj_solid_temp_edge_maker" x="200" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112536"/>
       </properties>
     </object>
-    <object id="99" gid="863" type="obj_solid_temp_edge_maker" x="640" y="280" width="40" height="40">
+    <object id="99" gid="1036" type="obj_solid_temp_edge_maker" x="640" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112537"/>
       </properties>
     </object>
-    <object id="100" gid="863" type="obj_solid_temp_edge_maker" x="720" y="400" width="40" height="40">
+    <object id="100" gid="1036" type="obj_solid_temp_edge_maker" x="720" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112538"/>
       </properties>
     </object>
-    <object id="101" gid="863" type="obj_solid_temp_edge_maker" x="640" y="440" width="40" height="40">
+    <object id="101" gid="1036" type="obj_solid_temp_edge_maker" x="640" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112539"/>
       </properties>
     </object>
-    <object id="102" gid="863" type="obj_solid_temp_edge_maker" x="680" y="480" width="40" height="40">
+    <object id="102" gid="1036" type="obj_solid_temp_edge_maker" x="680" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112540"/>
       </properties>
     </object>
-    <object id="103" gid="863" type="obj_solid_temp_edge_maker" x="600" y="520" width="40" height="40">
+    <object id="103" gid="1036" type="obj_solid_temp_edge_maker" x="600" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112541"/>
       </properties>
     </object>
-    <object id="104" gid="863" type="obj_solid_temp_edge_maker" x="680" y="520" width="40" height="40">
+    <object id="104" gid="1036" type="obj_solid_temp_edge_maker" x="680" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112542"/>
       </properties>
     </object>
-    <object id="105" gid="863" type="obj_solid_temp_edge_maker" x="640" y="520" width="40" height="40">
+    <object id="105" gid="1036" type="obj_solid_temp_edge_maker" x="640" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112543"/>
       </properties>
     </object>
-    <object id="106" gid="863" type="obj_solid_temp_edge_maker" x="680" y="440" width="40" height="40">
+    <object id="106" gid="1036" type="obj_solid_temp_edge_maker" x="680" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112544"/>
       </properties>
     </object>
-    <object id="107" gid="864" type="obj_solid_temp" x="793" y="440" width="40" height="40">
+    <object id="107" gid="1037" type="obj_solid_temp" x="793" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112545"/>
       </properties>
     </object>
-    <object id="108" gid="863" type="obj_solid_temp_edge_maker" x="840" y="520" width="40" height="40">
+    <object id="108" gid="1036" type="obj_solid_temp_edge_maker" x="840" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112546"/>
       </properties>
     </object>
-    <object id="109" gid="864" type="obj_solid_temp" x="1200" y="480" width="40" height="40">
+    <object id="109" gid="1037" type="obj_solid_temp" x="1200" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112547"/>
       </properties>
     </object>
-    <object id="110" gid="863" type="obj_solid_temp_edge_maker" x="320" y="440" width="40" height="40">
+    <object id="110" gid="1036" type="obj_solid_temp_edge_maker" x="320" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112548"/>
       </properties>
     </object>
-    <object id="111" gid="864" type="obj_solid_temp" x="398" y="440" width="40" height="40">
+    <object id="111" gid="1037" type="obj_solid_temp" x="398" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112549"/>
       </properties>
     </object>
-    <object id="112" gid="863" type="obj_solid_temp_edge_maker" x="400" y="440" width="40" height="40">
+    <object id="112" gid="1036" type="obj_solid_temp_edge_maker" x="400" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112550"/>
       </properties>
     </object>
-    <object id="113" gid="863" type="obj_solid_temp_edge_maker" x="440" y="440" width="40" height="40">
+    <object id="113" gid="1036" type="obj_solid_temp_edge_maker" x="440" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112551"/>
       </properties>
     </object>
-    <object id="114" gid="863" type="obj_solid_temp_edge_maker" x="520" y="360" width="40" height="40">
+    <object id="114" gid="1036" type="obj_solid_temp_edge_maker" x="520" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112552"/>
       </properties>
     </object>
-    <object id="115" gid="863" type="obj_solid_temp_edge_maker" x="480" y="400" width="40" height="40">
+    <object id="115" gid="1036" type="obj_solid_temp_edge_maker" x="480" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112553"/>
       </properties>
     </object>
-    <object id="116" gid="863" type="obj_solid_temp_edge_maker" x="480" y="360" width="40" height="40">
+    <object id="116" gid="1036" type="obj_solid_temp_edge_maker" x="480" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112554"/>
       </properties>
     </object>
-    <object id="117" gid="864" type="obj_solid_temp" x="720" y="673" width="40" height="40">
+    <object id="117" gid="1037" type="obj_solid_temp" x="720" y="673" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112555"/>
       </properties>
     </object>
-    <object id="118" gid="864" type="obj_solid_temp" x="579" y="234" width="40" height="40">
+    <object id="118" gid="1037" type="obj_solid_temp" x="579" y="234" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112556"/>
       </properties>
     </object>
-    <object id="119" gid="864" type="obj_solid_temp" x="1200" y="280" width="40" height="40">
+    <object id="119" gid="1037" type="obj_solid_temp" x="1200" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112557"/>
       </properties>
     </object>
-    <object id="120" gid="863" type="obj_solid_temp_edge_maker" x="840" y="600" width="40" height="40">
+    <object id="120" gid="1036" type="obj_solid_temp_edge_maker" x="840" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112558"/>
       </properties>
     </object>
-    <object id="121" gid="864" type="obj_solid_temp" x="840" y="640" width="40" height="40">
+    <object id="121" gid="1037" type="obj_solid_temp" x="840" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112559"/>
       </properties>
     </object>
-    <object id="122" gid="864" type="obj_solid_temp" x="640" y="640" width="40" height="40">
+    <object id="122" gid="1037" type="obj_solid_temp" x="640" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112560"/>
       </properties>
     </object>
-    <object id="123" gid="864" type="obj_solid_temp" x="1480" y="640" width="40" height="40">
+    <object id="123" gid="1037" type="obj_solid_temp" x="1480" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112561"/>
       </properties>
     </object>
-    <object id="124" gid="864" type="obj_solid_temp" x="1600" y="640" width="40" height="40">
+    <object id="124" gid="1037" type="obj_solid_temp" x="1600" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112562"/>
       </properties>
     </object>
-    <object id="125" gid="863" type="obj_solid_temp_edge_maker" x="560" y="600" width="40" height="40">
+    <object id="125" gid="1036" type="obj_solid_temp_edge_maker" x="560" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112563"/>
       </properties>
     </object>
-    <object id="126" gid="864" type="obj_solid_temp" x="480" y="680" width="40" height="40">
+    <object id="126" gid="1037" type="obj_solid_temp" x="480" y="680" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112564"/>
       </properties>
     </object>
-    <object id="127" gid="863" type="obj_solid_temp_edge_maker" x="440" y="640" width="40" height="40">
+    <object id="127" gid="1036" type="obj_solid_temp_edge_maker" x="440" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112565"/>
       </properties>
     </object>
-    <object id="128" gid="863" type="obj_solid_temp_edge_maker" x="560" y="560" width="40" height="40">
+    <object id="128" gid="1036" type="obj_solid_temp_edge_maker" x="560" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112566"/>
       </properties>
     </object>
-    <object id="129" gid="863" type="obj_solid_temp_edge_maker" x="480" y="640" width="40" height="40">
+    <object id="129" gid="1036" type="obj_solid_temp_edge_maker" x="480" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112567"/>
       </properties>
     </object>
-    <object id="130" gid="863" type="obj_solid_temp_edge_maker" x="480" y="600" width="40" height="40">
+    <object id="130" gid="1036" type="obj_solid_temp_edge_maker" x="480" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112568"/>
       </properties>
     </object>
-    <object id="131" gid="864" type="obj_solid_temp" x="1000" y="240" width="40" height="40">
+    <object id="131" gid="1037" type="obj_solid_temp" x="1000" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112569"/>
       </properties>
     </object>
-    <object id="132" gid="864" type="obj_solid_temp" x="840" y="640" width="40" height="40">
+    <object id="132" gid="1037" type="obj_solid_temp" x="840" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112570"/>
       </properties>
     </object>
-    <object id="133" gid="864" type="obj_solid_temp" x="1200" y="440" width="40" height="40">
+    <object id="133" gid="1037" type="obj_solid_temp" x="1200" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112571"/>
       </properties>
     </object>
-    <object id="134" gid="864" type="obj_solid_temp" x="1200" y="360" width="40" height="40">
+    <object id="134" gid="1037" type="obj_solid_temp" x="1200" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112572"/>
       </properties>
     </object>
-    <object id="135" gid="864" type="obj_solid_temp" x="680" y="680" width="40" height="40">
+    <object id="135" gid="1037" type="obj_solid_temp" x="680" y="680" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112573"/>
       </properties>
     </object>
-    <object id="136" gid="864" type="obj_solid_temp" x="1120" y="680" width="40" height="40">
+    <object id="136" gid="1037" type="obj_solid_temp" x="1120" y="680" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112574"/>
       </properties>
     </object>
-    <object id="137" gid="864" type="obj_solid_temp" x="560" y="320" width="40" height="40">
+    <object id="137" gid="1037" type="obj_solid_temp" x="560" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112575"/>
       </properties>
     </object>
-    <object id="138" gid="864" type="obj_solid_temp" x="640" y="400" width="40" height="40">
+    <object id="138" gid="1037" type="obj_solid_temp" x="640" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112576"/>
       </properties>
     </object>
-    <object id="139" gid="864" type="obj_solid_temp" x="80" y="400" width="40" height="40">
+    <object id="139" gid="1037" type="obj_solid_temp" x="80" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112577"/>
       </properties>
     </object>
-    <object id="140" gid="864" type="obj_solid_temp" x="1440" y="320" width="40" height="40">
+    <object id="140" gid="1037" type="obj_solid_temp" x="1440" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112578"/>
       </properties>
     </object>
-    <object id="141" gid="864" type="obj_solid_temp" x="1520" y="440" width="40" height="40">
+    <object id="141" gid="1037" type="obj_solid_temp" x="1520" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112579"/>
       </properties>
     </object>
-    <object id="142" gid="864" type="obj_solid_temp" x="880" y="440" width="40" height="40">
+    <object id="142" gid="1037" type="obj_solid_temp" x="880" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112580"/>
       </properties>
     </object>
-    <object id="143" gid="864" type="obj_solid_temp" x="1040" y="360" width="40" height="40">
+    <object id="143" gid="1037" type="obj_solid_temp" x="1040" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112581"/>
       </properties>
     </object>
-    <object id="144" gid="864" type="obj_solid_temp" x="1160" y="520" width="40" height="40">
+    <object id="144" gid="1037" type="obj_solid_temp" x="1160" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112582"/>
       </properties>
     </object>
-    <object id="145" gid="864" type="obj_solid_temp" x="720" y="480" width="40" height="40">
+    <object id="145" gid="1037" type="obj_solid_temp" x="720" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112583"/>
       </properties>
     </object>
-    <object id="146" gid="864" type="obj_solid_temp" x="1200" y="680" width="40" height="40">
+    <object id="146" gid="1037" type="obj_solid_temp" x="1200" y="680" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112584"/>
       </properties>
     </object>
-    <object id="147" gid="864" type="obj_solid_temp" x="1280" y="440" width="40" height="40">
+    <object id="147" gid="1037" type="obj_solid_temp" x="1280" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112585"/>
       </properties>
     </object>
-    <object id="148" gid="864" type="obj_solid_temp" x="760" y="720" width="40" height="40">
+    <object id="148" gid="1037" type="obj_solid_temp" x="760" y="720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112586"/>
       </properties>
     </object>
-    <object id="149" gid="864" type="obj_solid_temp" x="1600" y="320" width="40" height="40">
+    <object id="149" gid="1037" type="obj_solid_temp" x="1600" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112587"/>
       </properties>
     </object>
-    <object id="150" gid="864" type="obj_solid_temp" x="1680" y="720" width="40" height="40">
+    <object id="150" gid="1037" type="obj_solid_temp" x="1680" y="720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112588"/>
       </properties>
     </object>
-    <object id="151" gid="864" type="obj_solid_temp" x="1320" y="800" width="40" height="40">
+    <object id="151" gid="1037" type="obj_solid_temp" x="1320" y="800" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112589"/>
       </properties>
     </object>
-    <object id="152" gid="864" type="obj_solid_temp" x="1040" y="800" width="40" height="40">
+    <object id="152" gid="1037" type="obj_solid_temp" x="1040" y="800" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112590"/>
       </properties>
     </object>
-    <object id="153" gid="864" type="obj_solid_temp" x="1480" y="680" width="40" height="40">
+    <object id="153" gid="1037" type="obj_solid_temp" x="1480" y="680" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112591"/>
       </properties>
     </object>
-    <object id="154" gid="864" type="obj_solid_temp" x="840" y="440" width="40" height="40">
+    <object id="154" gid="1037" type="obj_solid_temp" x="840" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112592"/>
       </properties>
     </object>
-    <object id="155" gid="864" type="obj_solid_temp" x="640" y="600" width="40" height="40">
+    <object id="155" gid="1037" type="obj_solid_temp" x="640" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112593"/>
       </properties>
     </object>
-    <object id="156" gid="864" type="obj_solid_temp" x="320" y="360" width="40" height="40">
+    <object id="156" gid="1037" type="obj_solid_temp" x="320" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112594"/>
       </properties>
     </object>
-    <object id="157" gid="864" type="obj_solid_temp" x="320" y="440" width="40" height="40">
+    <object id="157" gid="1037" type="obj_solid_temp" x="320" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112595"/>
       </properties>
     </object>
-    <object id="158" gid="864" type="obj_solid_temp" x="440" y="440" width="40" height="40">
+    <object id="158" gid="1037" type="obj_solid_temp" x="440" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112596"/>
       </properties>
     </object>
-    <object id="159" gid="864" type="obj_solid_temp" x="200" y="360" width="40" height="40">
+    <object id="159" gid="1037" type="obj_solid_temp" x="200" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112597"/>
       </properties>
     </object>
-    <object id="160" gid="864" type="obj_solid_temp" x="120" y="440" width="40" height="40">
+    <object id="160" gid="1037" type="obj_solid_temp" x="120" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112598"/>
       </properties>
     </object>
-    <object id="161" gid="864" type="obj_solid_temp" x="80" y="800" width="40" height="40">
+    <object id="161" gid="1037" type="obj_solid_temp" x="80" y="800" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112599"/>
       </properties>
     </object>
-    <object id="162" gid="864" type="obj_solid_temp" x="240" y="640" width="40" height="40">
+    <object id="162" gid="1037" type="obj_solid_temp" x="240" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112600"/>
       </properties>
     </object>
-    <object id="163" gid="864" type="obj_solid_temp" x="320" y="720" width="40" height="40">
+    <object id="163" gid="1037" type="obj_solid_temp" x="320" y="720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112601"/>
       </properties>
     </object>
-    <object id="164" gid="864" type="obj_solid_temp" x="480" y="720" width="40" height="40">
+    <object id="164" gid="1037" type="obj_solid_temp" x="480" y="720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112602"/>
       </properties>
     </object>
-    <object id="165" gid="864" type="obj_solid_temp" x="560" y="680" width="40" height="40">
+    <object id="165" gid="1037" type="obj_solid_temp" x="560" y="680" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112603"/>
       </properties>
     </object>
-    <object id="166" gid="864" type="obj_solid_temp" x="680" y="520" width="40" height="40">
+    <object id="166" gid="1037" type="obj_solid_temp" x="680" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112604"/>
       </properties>
     </object>
-    <object id="167" gid="864" type="obj_solid_temp" x="800" y="440" width="40" height="40">
+    <object id="167" gid="1037" type="obj_solid_temp" x="800" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112605"/>
       </properties>
     </object>
-    <object id="168" gid="864" type="obj_solid_temp" x="240" y="320" width="40" height="40">
+    <object id="168" gid="1037" type="obj_solid_temp" x="240" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112606"/>
       </properties>
     </object>
-    <object id="169" gid="864" type="obj_solid_temp" x="440" y="320" width="40" height="40">
+    <object id="169" gid="1037" type="obj_solid_temp" x="440" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112607"/>
       </properties>
     </object>
-    <object id="170" gid="864" type="obj_solid_temp" x="480" y="440" width="40" height="40">
+    <object id="170" gid="1037" type="obj_solid_temp" x="480" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="112608"/>
       </properties>

@@ -5,14 +5,16 @@ platform = "Steam"
 
 [conversion]
 tool = "gm2tiled"
-tool_version = "0.1.0"
-tool_commit = "9ea8881"
+tool_version = "0.1.1"
+tool_commit = "e390f6b"
 utmt_version = "1.0.0+473b731a"
-tile_size = 20
-date = "2026-03-08"
+tile_size = 40
+date = "2026-03-21"
 
 [stats]
 total_rooms = 278
+total_tilesets = 621
+total_tile_objects = 145
 
 [notes]
 description = "从 Deltarune Chapter 2 data.win 完整转换全部 278 个房间"

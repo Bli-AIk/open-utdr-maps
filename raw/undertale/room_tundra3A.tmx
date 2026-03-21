@@ -1,191 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="9" nextobjectid="49" backgroundcolor="#000000">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="33" nextobjectid="49" backgroundcolor="#000000">
   <properties>
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx"/>
   <tileset firstgid="676" source="tilesets/bg_watertiles.tsx"/>
   <tileset firstgid="900" source="tilesets/bg_icewater.tsx"/>
-  <tileset firstgid="921" source="tilesets/obj_waterdivot_test.tsx"/>
-  <tileset firstgid="922" source="tilesets/obj_solidtall.tsx"/>
-  <tileset firstgid="923" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="924" source="tilesets/obj_solidsmall.tsx"/>
-  <tileset firstgid="925" source="tilesets/obj_markerA.tsx"/>
-  <tileset firstgid="926" source="tilesets/obj_doorB.tsx"/>
-  <tileset firstgid="927" source="tilesets/obj_ladiesfishingrod.tsx"/>
-  <tileset firstgid="928" source="tilesets/obj_sdr.tsx"/>
-  <tileset firstgid="929" source="tilesets/obj_solidlong.tsx"/>
-  <tileset firstgid="930" source="tilesets/obj_overworldcontroller.tsx"/>
-  <layer id="1" name="depth_1000001" width="16" height="12">
+  <tileset firstgid="921" source="tilesets/free_tile_p10_412_656_20x20.tsx"/>
+  <tileset firstgid="922" source="tilesets/free_tile_p9_1688_884_20x60.tsx"/>
+  <tileset firstgid="923" source="tilesets/free_tile_p9_1628_824_60x20.tsx"/>
+  <tileset firstgid="924" source="tilesets/free_tile_p9_1648_824_40x20.tsx"/>
+  <tileset firstgid="925" source="tilesets/free_tile_p9_1628_864_60x40.tsx"/>
+  <tileset firstgid="926" source="tilesets/free_tile_p9_1648_704_60x20.tsx"/>
+  <tileset firstgid="927" source="tilesets/free_tile_p9_1648_724_60x20.tsx"/>
+  <tileset firstgid="928" source="tilesets/free_tile_p9_1648_804_40x40.tsx"/>
+  <tileset firstgid="929" source="tilesets/free_tile_p9_1628_904_60x40.tsx"/>
+  <tileset firstgid="930" source="tilesets/free_tile_p9_1628_664_60x40.tsx"/>
+  <tileset firstgid="931" source="tilesets/free_tile_p9_1668_684_20x40.tsx"/>
+  <tileset firstgid="932" source="tilesets/free_tile_p9_1608_684_60x60.tsx"/>
+  <tileset firstgid="933" source="tilesets/free_tile_p9_1608_724_20x40.tsx"/>
+  <tileset firstgid="934" source="tilesets/obj_waterdivot_test.tsx"/>
+  <tileset firstgid="935" source="tilesets/obj_solidtall.tsx"/>
+  <tileset firstgid="936" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="937" source="tilesets/obj_solidsmall.tsx"/>
+  <tileset firstgid="938" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="939" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="940" source="tilesets/obj_ladiesfishingrod.tsx"/>
+  <tileset firstgid="941" source="tilesets/obj_sdr.tsx"/>
+  <tileset firstgid="942" source="tilesets/obj_solidlong.tsx"/>
+  <tileset firstgid="943" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000001_grid_0" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
-  <layer id="2" name="depth_1000000" width="16" height="12">
-    <data encoding="csv">1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,1,914,1,914,1,914,914,914,914,914,914,914,914,914,914,914,1,1,1,1,1,29,22,20,23,29,29,29,29,1,1,1,1,1,1,1,1,1,19,20,21,1,1,1,1,1,1,1,1,1,1,1,1,1,19,20,21,1,1,1,1,1,1,1,1,1,1,1,1,1,19,20,21,1,1,1,1,1,1,1</data>
+  <layer id="2" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,0,0,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="3" name="depth_1000000_tiles">
-    <object id="1" gid="776" x="-20" y="140" width="20" height="20"/>
-    <object id="2" gid="776" x="-40" y="140" width="20" height="20"/>
+  <objectgroup id="3" name="depth_1000000_free_1">
   </objectgroup>
-  <layer id="4" name="depth_999999" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,363,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,319,320,319,328,409,0,0,0,0,0,0,0,309,0,0,0,0,319,0,319,400,0,0,0,0,0,0,0,0,0,0,0,319,0,319,0,409,0,0,0,0,0,0,0,0,0,0,0,326,0,0,0,400,0,0,0,0,0,326,0,0,0,328,0</data>
+  <layer id="4" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="5" name="depth_999999_tiles">
-    <object id="3" gid="401" x="100" y="240" width="20" height="60"/>
-    <object id="4" gid="401" x="100" y="200" width="20" height="60"/>
-    <object id="5" gid="371" x="0" y="160" width="60" height="20"/>
-    <object id="6" gid="372" x="60" y="160" width="40" height="20"/>
-    <object id="7" gid="389" x="40" y="160" width="60" height="40"/>
-    <object id="8" gid="389" x="0" y="160" width="60" height="40"/>
-    <object id="9" gid="318" x="0" y="200" width="60" height="20"/>
-    <object id="10" gid="318" x="20" y="220" width="60" height="20"/>
-    <object id="11" gid="327" x="20" y="240" width="60" height="20"/>
-    <object id="12" gid="363" x="300" y="160" width="40" height="40"/>
-    <object id="13" gid="389" x="280" y="160" width="60" height="40"/>
-    <object id="14" gid="407" x="280" y="200" width="60" height="40"/>
-    <object id="15" gid="318" x="260" y="220" width="60" height="20"/>
-    <object id="16" gid="327" x="220" y="240" width="60" height="20"/>
-    <object id="17" gid="327" x="300" y="240" width="60" height="20"/>
-    <object id="18" gid="299" x="240" y="160" width="60" height="40"/>
-    <object id="19" gid="310" x="260" y="200" width="20" height="40"/>
-    <object id="20" gid="307" x="200" y="220" width="60" height="60"/>
-    <object id="21" gid="325" x="180" y="260" width="20" height="40"/>
+  <objectgroup id="5" name="depth_1000000_free_3">
   </objectgroup>
-  <layer id="6" name="depth_999" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,365,0,0,0,0,0,0,0,300,0,0,0,0,0,0,0,374,0,0,0,0,0,0,300,0,0,0,0,0,0,0,0,410,0,0,0,0,0,300,0,0,0,0,0,0,0,0,0,374,0,0,0,0,300,0,0,0,0,0,0,0,0,0,0,410,0,0,0,300,301,0,0,0,0,0,0,0,0,0,0,419,0,0,0,0,0,0,0,0,0,0</data>
+  <layer id="6" name="depth_1000000_grid_4" width="16" height="12">
+    <data encoding="csv">1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,11,11,11,11,11,0,0,11,11,11,11,11,11,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="7" name="objects">
-    <object id="22" gid="921" type="obj_waterdivot_test" x="40" y="83" width="5" height="3">
+  <objectgroup id="7" name="depth_1000000_free_5">
+  </objectgroup>
+  <layer id="8" name="depth_1000000_grid_6" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="9" name="depth_1000000_free_7">
+  </objectgroup>
+  <layer id="10" name="depth_1000000_grid_8" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="11" name="depth_1000000_free_9">
+  </objectgroup>
+  <layer id="12" name="depth_1000000_grid_10" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,11,0,0,0,0,0,0,0,0,0,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1</data>
+  </layer>
+  <objectgroup id="13" name="depth_1000000_free_11">
+  </objectgroup>
+  <layer id="14" name="depth_1000000_grid_12" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,776,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="15" name="depth_1000000_free_13">
+    <object id="1" gid="921" x="-20" y="140" width="20" height="20"/>
+    <object id="2" gid="921" x="-40" y="140" width="20" height="20"/>
+  </objectgroup>
+  <layer id="16" name="depth_1000000_grid_14" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,914,0,914,0,914,914,914,914,914,914,914,914,914,914,914,0,0,0,0,0,29,22,0,23,29,29,29,29,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="17" name="depth_999999_free_0">
+    <object id="3" gid="922" x="100" y="240" width="20" height="60"/>
+    <object id="4" gid="922" x="100" y="200" width="20" height="60"/>
+  </objectgroup>
+  <layer id="18" name="depth_999999_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,363,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="19" name="depth_999999_free_2">
+    <object id="5" gid="923" x="0" y="160" width="60" height="20"/>
+    <object id="6" gid="924" x="60" y="160" width="40" height="20"/>
+  </objectgroup>
+  <layer id="20" name="depth_999999_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,319,320,319,0,409,0,0,0,0,0,0,0,0,0,0,0,0,319,0,319,400,0,0,0,0,0,0,0,0,0,0,0,319,0,319,0,409,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="21" name="depth_999999_free_4">
+    <object id="7" gid="925" x="40" y="160" width="60" height="40"/>
+    <object id="8" gid="925" x="0" y="160" width="60" height="40"/>
+    <object id="9" gid="926" x="0" y="200" width="60" height="20"/>
+    <object id="10" gid="926" x="20" y="220" width="60" height="20"/>
+    <object id="11" gid="927" x="20" y="240" width="60" height="20"/>
+  </objectgroup>
+  <layer id="22" name="depth_999999_grid_5" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,326,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="23" name="depth_999999_free_6">
+    <object id="12" gid="928" x="300" y="160" width="40" height="40"/>
+    <object id="13" gid="925" x="280" y="160" width="60" height="40"/>
+    <object id="14" gid="929" x="280" y="200" width="60" height="40"/>
+    <object id="15" gid="926" x="260" y="220" width="60" height="20"/>
+    <object id="16" gid="927" x="220" y="240" width="60" height="20"/>
+    <object id="17" gid="927" x="300" y="240" width="60" height="20"/>
+  </objectgroup>
+  <layer id="24" name="depth_999999_grid_7" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,326,0,0,0,328,0</data>
+  </layer>
+  <objectgroup id="25" name="depth_999999_free_8">
+    <object id="18" gid="930" x="240" y="160" width="60" height="40"/>
+    <object id="19" gid="931" x="260" y="200" width="20" height="40"/>
+  </objectgroup>
+  <layer id="26" name="depth_999999_grid_9" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="27" name="depth_999999_free_10">
+    <object id="20" gid="932" x="200" y="220" width="60" height="60"/>
+    <object id="21" gid="933" x="180" y="260" width="20" height="40"/>
+  </objectgroup>
+  <layer id="28" name="depth_999999_grid_11" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,328,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="29" name="depth_999_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,365,0,0,0,0,0,0,0,300,0,0,0,0,0,0,0,374,0,0,0,0,0,0,300,0,0,0,0,0,0,0,0,410,0,0,0,0,0,300,0,0,0,0,0,0,0,0,0,374,0,0,0,0,300,0,0,0,0,0,0,0,0,0,0,410,0,0,0,300,301,0,0,0,0,0,0,0,0,0,0,374,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="30" name="depth_999_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,419,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="31" name="objects">
+    <object id="22" gid="934" type="obj_waterdivot_test" x="40" y="83" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101598"/>
       </properties>
     </object>
-    <object id="23" gid="921" type="obj_waterdivot_test" x="80" y="103" width="5" height="3">
+    <object id="23" gid="934" type="obj_waterdivot_test" x="80" y="103" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101599"/>
       </properties>
     </object>
-    <object id="24" gid="921" type="obj_waterdivot_test" x="140" y="83" width="5" height="3">
+    <object id="24" gid="934" type="obj_waterdivot_test" x="140" y="83" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101600"/>
       </properties>
     </object>
-    <object id="25" gid="921" type="obj_waterdivot_test" x="220" y="63" width="5" height="3">
+    <object id="25" gid="934" type="obj_waterdivot_test" x="220" y="63" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101601"/>
       </properties>
     </object>
-    <object id="26" gid="921" type="obj_waterdivot_test" x="260" y="83" width="5" height="3">
+    <object id="26" gid="934" type="obj_waterdivot_test" x="260" y="83" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101602"/>
       </properties>
     </object>
-    <object id="27" gid="921" type="obj_waterdivot_test" x="240" y="103" width="5" height="3">
+    <object id="27" gid="934" type="obj_waterdivot_test" x="240" y="103" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101603"/>
       </properties>
     </object>
-    <object id="28" gid="921" type="obj_waterdivot_test" x="180" y="103" width="5" height="3">
+    <object id="28" gid="934" type="obj_waterdivot_test" x="180" y="103" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101604"/>
       </properties>
     </object>
-    <object id="29" gid="921" type="obj_waterdivot_test" x="100" y="63" width="5" height="3">
+    <object id="29" gid="934" type="obj_waterdivot_test" x="100" y="63" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101605"/>
       </properties>
     </object>
-    <object id="30" gid="921" type="obj_waterdivot_test" x="20" y="103" width="5" height="3">
+    <object id="30" gid="934" type="obj_waterdivot_test" x="20" y="103" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101606"/>
       </properties>
     </object>
-    <object id="31" gid="921" type="obj_waterdivot_test" x="300" y="63" width="5" height="3">
+    <object id="31" gid="934" type="obj_waterdivot_test" x="300" y="63" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101607"/>
       </properties>
     </object>
-    <object id="32" gid="921" type="obj_waterdivot_test" x="0" y="63" width="5" height="3">
+    <object id="32" gid="934" type="obj_waterdivot_test" x="0" y="63" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101608"/>
       </properties>
     </object>
-    <object id="33" gid="921" type="obj_waterdivot_test" x="300" y="103" width="5" height="3">
+    <object id="33" gid="934" type="obj_waterdivot_test" x="300" y="103" width="5" height="3">
       <properties>
         <property name="instanceId" type="int" value="101609"/>
       </properties>
     </object>
-    <object id="34" gid="922" type="obj_solidtall" x="95" y="140" width="20" height="20">
+    <object id="34" gid="935" type="obj_solidtall" x="95" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101610"/>
       </properties>
     </object>
-    <object id="35" gid="923" type="obj_mainchara" x="180" y="189" width="19" height="29">
+    <object id="35" gid="936" type="obj_mainchara" x="180" y="189" width="19" height="29">
       <properties>
         <property name="instanceId" type="int" value="101611"/>
       </properties>
     </object>
-    <object id="36" gid="924" type="obj_solidsmall" x="190" y="240" width="20" height="20">
+    <object id="36" gid="937" type="obj_solidsmall" x="190" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101612"/>
       </properties>
     </object>
-    <object id="37" gid="925" type="obj_markerA" x="140" y="200" width="20" height="20">
+    <object id="37" gid="938" type="obj_markerA" x="140" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101613"/>
       </properties>
     </object>
-    <object id="38" gid="926" type="obj_doorB" x="115" y="240" width="20" height="20">
+    <object id="38" gid="939" type="obj_doorB" x="115" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101614"/>
       </properties>
     </object>
-    <object id="39" gid="926" type="obj_doorB" x="140" y="240" width="20" height="20">
+    <object id="39" gid="939" type="obj_doorB" x="140" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101615"/>
       </properties>
     </object>
-    <object id="40" gid="926" type="obj_doorB" x="165" y="240" width="20" height="20">
+    <object id="40" gid="939" type="obj_doorB" x="165" y="240" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101616"/>
       </properties>
     </object>
-    <object id="41" gid="927" type="obj_ladiesfishingrod" x="200" y="148" width="27" height="28">
+    <object id="41" gid="940" type="obj_ladiesfishingrod" x="200" y="148" width="27" height="28">
       <properties>
         <property name="instanceId" type="int" value="101617"/>
       </properties>
     </object>
-    <object id="42" gid="928" type="obj_sdr" x="200" y="220" width="20" height="20">
+    <object id="42" gid="941" type="obj_sdr" x="200" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101618"/>
       </properties>
     </object>
-    <object id="43" gid="928" type="obj_sdr" x="220" y="200" width="20" height="20">
+    <object id="43" gid="941" type="obj_sdr" x="220" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101619"/>
       </properties>
     </object>
-    <object id="44" gid="928" type="obj_sdr" x="240" y="180" width="20" height="20">
+    <object id="44" gid="941" type="obj_sdr" x="240" y="180" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101620"/>
       </properties>
     </object>
-    <object id="45" gid="929" type="obj_solidlong" x="75" y="140" width="20" height="20">
+    <object id="45" gid="942" type="obj_solidlong" x="75" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101621"/>
       </properties>
     </object>
-    <object id="46" gid="930" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+    <object id="46" gid="943" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
       <properties>
         <property name="instanceId" type="int" value="101622"/>
       </properties>
     </object>
-    <object id="47" gid="924" type="obj_solidsmall" x="260" y="160" width="20" height="20">
+    <object id="47" gid="937" type="obj_solidsmall" x="260" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="101623"/>
       </properties>
     </object>
   </objectgroup>
-  <objectgroup id="8" name="views">
+  <objectgroup id="32" name="views">
     <object id="48" class="view" x="0" y="0" width="320" height="240">
       <properties>
         <property name="portX" type="int" value="0"/>

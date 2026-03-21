@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="78" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="16">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="39" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="16">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_stage_tileset.tsx"/>
-  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="362" source="tilesets/obj_musicer_gen.tsx"/>
-  <tileset firstgid="363" source="tilesets/obj_solidblockDark.tsx"/>
-  <tileset firstgid="364" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="365" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="366" source="tilesets/obj_dw_green_room_wall_fx.tsx"/>
+  <tileset firstgid="401" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="402" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="403" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="404" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="405" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="406" source="tilesets/obj_dw_green_room_wall_fx.tsx"/>
   <layer id="1" name="TILES" width="39" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,260,260,259,260,260,259,260,260,259,260,260,259,260,260,259,260,0,0,0,0,0,0,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,0,0,0,0,0,0,236,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,0,0,0,0,0,0,236,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="361" type="obj_mainchara" x="262" y="421" width="19" height="37">
+    <object id="1" gid="401" type="obj_mainchara" x="262" y="421" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="113926"/>
       </properties>
@@ -24,7 +24,7 @@
         <property name="instanceId" type="int" value="113927"/>
       </properties>
     </object>
-    <object id="3" gid="362" type="obj_musicer_gen" x="40" y="20" width="20" height="20">
+    <object id="3" gid="402" type="obj_musicer_gen" x="40" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113928"/>
       </properties>
@@ -39,42 +39,42 @@
         <property name="instanceId" type="int" value="113930"/>
       </properties>
     </object>
-    <object id="6" gid="363" type="obj_solidblockDark" x="320" y="360" width="40" height="40">
+    <object id="6" gid="403" type="obj_solidblockDark" x="320" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="113931"/>
       </properties>
     </object>
-    <object id="7" gid="363" type="obj_solidblockDark" x="240" y="240" width="40" height="40">
+    <object id="7" gid="403" type="obj_solidblockDark" x="240" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="113932"/>
       </properties>
     </object>
-    <object id="8" gid="363" type="obj_solidblockDark" x="200" y="240" width="40" height="40">
+    <object id="8" gid="403" type="obj_solidblockDark" x="200" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="113933"/>
       </properties>
     </object>
-    <object id="9" gid="364" type="obj_doorAny" x="240" y="520" width="40" height="40">
+    <object id="9" gid="404" type="obj_doorAny" x="240" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="113934"/>
       </properties>
     </object>
-    <object id="10" gid="364" type="obj_doorAny" x="1560" y="280" width="40" height="40">
+    <object id="10" gid="404" type="obj_doorAny" x="1560" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="113935"/>
       </properties>
     </object>
-    <object id="11" gid="365" type="obj_markerAny" x="263" y="458" width="38" height="74">
+    <object id="11" gid="405" type="obj_markerAny" x="263" y="458" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="113936"/>
       </properties>
     </object>
-    <object id="12" gid="365" type="obj_markerAny" x="1503" y="301" width="38" height="74">
+    <object id="12" gid="405" type="obj_markerAny" x="1503" y="301" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="113937"/>
       </properties>
     </object>
-    <object id="13" gid="366" type="obj_dw_green_room_wall_fx" x="240" y="100" width="20" height="20">
+    <object id="13" gid="406" type="obj_dw_green_room_wall_fx" x="240" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113938"/>
       </properties>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="17">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="17">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
-  <tileset firstgid="271" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="272" source="tilesets/obj_dw_b3bs_jail1.tsx"/>
-  <tileset firstgid="273" source="tilesets/obj_musicer_gen.tsx"/>
-  <tileset firstgid="274" source="tilesets/obj_shortcut_door.tsx"/>
-  <tileset firstgid="275" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="276" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="277" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="307" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="308" source="tilesets/obj_dw_b3bs_jail1.tsx"/>
+  <tileset firstgid="309" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="310" source="tilesets/obj_shortcut_door.tsx"/>
+  <tileset firstgid="311" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="312" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="313" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="FloorTiles" width="25" height="12">
     <data encoding="csv">107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,19,19,19,57,58,59,61,61,61,61,61,61,61,61,61,61,61,61,61,62,57,58,19,19,19,0,0,0,66,67,59,60,60,61,60,61,61,60,61,60,61,60,60,61,62,66,67,0,0,0,52,53,56,66,67,59,60,60,61,60,61,61,60,61,60,61,60,60,61,62,66,67,55,52,53,53,53,65,66,67,59,60,60,61,60,61,61,60,61,60,61,60,60,61,62,66,67,64,53,53,53,52,65,75,76,68,69,69,70,69,70,70,69,70,69,70,69,69,70,71,75,76,64,53,52,53,53,65,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,64,53,53,52,53,74,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,73,52,53,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
@@ -21,7 +21,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,111,112,100,110,111,112,100,110,111,112,100,100,110,111,112,100,113,0,0,0,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="1" gid="271" type="obj_mainchara" x="570" y="233" width="19" height="37">
+    <object id="1" gid="307" type="obj_mainchara" x="570" y="233" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="108101"/>
       </properties>
@@ -31,67 +31,67 @@
         <property name="instanceId" type="int" value="108102"/>
       </properties>
     </object>
-    <object id="3" gid="272" type="obj_dw_b3bs_jail1" x="-40" y="16" width="16" height="16">
+    <object id="3" gid="308" type="obj_dw_b3bs_jail1" x="-40" y="16" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108103"/>
       </properties>
     </object>
-    <object id="4" gid="273" type="obj_musicer_gen" x="-40" y="60" width="20" height="20">
+    <object id="4" gid="309" type="obj_musicer_gen" x="-40" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="108104"/>
       </properties>
     </object>
-    <object id="5" gid="274" type="obj_shortcut_door" x="712" y="193" width="36" height="49">
+    <object id="5" gid="310" type="obj_shortcut_door" x="712" y="193" width="36" height="49">
       <properties>
         <property name="instanceId" type="int" value="108105"/>
       </properties>
     </object>
-    <object id="6" gid="275" type="obj_markerAny" x="728" y="270" width="38" height="74">
+    <object id="6" gid="311" type="obj_markerAny" x="728" y="270" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108106"/>
       </properties>
     </object>
-    <object id="7" gid="276" type="obj_doorAny" x="994" y="360" width="40" height="40">
+    <object id="7" gid="312" type="obj_doorAny" x="994" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108107"/>
       </properties>
     </object>
-    <object id="8" gid="275" type="obj_markerAny" x="950" y="372" width="38" height="74">
+    <object id="8" gid="311" type="obj_markerAny" x="950" y="372" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108108"/>
       </properties>
     </object>
-    <object id="9" gid="275" type="obj_markerAny" x="570" y="270" width="38" height="74">
+    <object id="9" gid="311" type="obj_markerAny" x="570" y="270" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108109"/>
       </properties>
     </object>
-    <object id="10" gid="277" type="obj_solidblocksized" x="0" y="280" width="40" height="40">
+    <object id="10" gid="313" type="obj_solidblocksized" x="0" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108110"/>
       </properties>
     </object>
-    <object id="11" gid="276" type="obj_doorAny" x="-34" y="360" width="40" height="40">
+    <object id="11" gid="312" type="obj_doorAny" x="-34" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108111"/>
       </properties>
     </object>
-    <object id="12" gid="275" type="obj_markerAny" x="12" y="372" width="38" height="74">
+    <object id="12" gid="311" type="obj_markerAny" x="12" y="372" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108112"/>
       </properties>
     </object>
-    <object id="13" gid="277" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+    <object id="13" gid="313" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108113"/>
       </properties>
     </object>
-    <object id="14" gid="277" type="obj_solidblocksized" x="880" y="280" width="40" height="40">
+    <object id="14" gid="313" type="obj_solidblocksized" x="880" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108114"/>
       </properties>
     </object>
-    <object id="15" gid="277" type="obj_solidblocksized" x="0" y="440" width="40" height="40">
+    <object id="15" gid="313" type="obj_solidblocksized" x="0" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108115"/>
       </properties>

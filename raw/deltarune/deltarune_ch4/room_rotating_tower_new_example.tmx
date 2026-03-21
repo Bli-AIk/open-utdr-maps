@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="1000" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="79">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="500" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="79">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
-  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="584" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="585" source="tilesets/obj_rotating_tower_controller_new.tsx"/>
-  <tileset firstgid="586" source="tilesets/obj_climb_spiketile.tsx"/>
-  <tileset firstgid="587" source="tilesets/obj_climb_wall.tsx"/>
-  <tileset firstgid="588" source="tilesets/obj_climb_waterbucket.tsx"/>
-  <tileset firstgid="589" source="tilesets/obj_climb_enemyspawner.tsx"/>
-  <tileset firstgid="590" source="tilesets/obj_climb_watergenerator.tsx"/>
-  <tileset firstgid="591" source="tilesets/obj_climbloc.tsx"/>
-  <tileset firstgid="592" source="tilesets/obj_climb_notsafe.tsx"/>
-  <tileset firstgid="593" source="tilesets/obj_climbstartertrig.tsx"/>
-  <tileset firstgid="594" source="tilesets/obj_climb_climbable.tsx"/>
-  <tileset firstgid="595" source="tilesets/obj_climb_eyewaterenemy.tsx"/>
-  <tileset firstgid="596" source="tilesets/obj_rotating_bullet_new.tsx"/>
-  <tileset firstgid="597" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="704" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="705" source="tilesets/obj_rotating_tower_controller_new.tsx"/>
+  <tileset firstgid="706" source="tilesets/obj_climb_spiketile.tsx"/>
+  <tileset firstgid="707" source="tilesets/obj_climb_wall.tsx"/>
+  <tileset firstgid="708" source="tilesets/obj_climb_waterbucket.tsx"/>
+  <tileset firstgid="709" source="tilesets/obj_climb_enemyspawner.tsx"/>
+  <tileset firstgid="710" source="tilesets/obj_climb_watergenerator.tsx"/>
+  <tileset firstgid="711" source="tilesets/obj_climbloc.tsx"/>
+  <tileset firstgid="712" source="tilesets/obj_climb_notsafe.tsx"/>
+  <tileset firstgid="713" source="tilesets/obj_climbstartertrig.tsx"/>
+  <tileset firstgid="714" source="tilesets/obj_climb_climbable.tsx"/>
+  <tileset firstgid="715" source="tilesets/obj_climb_eyewaterenemy.tsx"/>
+  <tileset firstgid="716" source="tilesets/obj_rotating_bullet_new.tsx"/>
+  <tileset firstgid="717" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="TILES" width="16" height="500">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,92,92,92,0,0,0,0,0,0,0,0,0,0,0,0,104,104,104,104,0,0,0,0,0,0,0,0,0,0,0,0,111,111,111,111,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,121,121,121,121,0,0,0,0,0,0,0,0,0,0,0,0,127,127,127,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="583" type="obj_mainchara" x="12" y="19735" width="19" height="37">
+    <object id="1" gid="703" type="obj_mainchara" x="12" y="19735" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="107335"/>
       </properties>
@@ -33,7 +33,7 @@
         <property name="instanceId" type="int" value="107336"/>
       </properties>
     </object>
-    <object id="3" gid="584" type="obj_markerAny" x="12" y="19772" width="38" height="74">
+    <object id="3" gid="704" type="obj_markerAny" x="12" y="19772" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107337"/>
       </properties>
@@ -43,367 +43,367 @@
         <property name="instanceId" type="int" value="107338"/>
       </properties>
     </object>
-    <object id="5" gid="585" type="obj_rotating_tower_controller_new" x="80" y="20" width="20" height="20">
+    <object id="5" gid="705" type="obj_rotating_tower_controller_new" x="80" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107339"/>
       </properties>
     </object>
-    <object id="6" gid="586" type="obj_climb_spiketile" x="320" y="19378" width="18" height="18">
+    <object id="6" gid="706" type="obj_climb_spiketile" x="320" y="19378" width="18" height="18">
       <properties>
         <property name="instanceId" type="int" value="107340"/>
       </properties>
     </object>
-    <object id="7" gid="586" type="obj_climb_spiketile" x="320" y="19338" width="18" height="18">
+    <object id="7" gid="706" type="obj_climb_spiketile" x="320" y="19338" width="18" height="18">
       <properties>
         <property name="instanceId" type="int" value="107341"/>
       </properties>
     </object>
-    <object id="8" gid="587" type="obj_climb_wall" x="360" y="18760" width="40" height="40">
+    <object id="8" gid="707" type="obj_climb_wall" x="360" y="18760" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107342"/>
       </properties>
     </object>
-    <object id="9" gid="588" type="obj_climb_waterbucket" x="160" y="19250" width="20" height="20">
+    <object id="9" gid="708" type="obj_climb_waterbucket" x="160" y="19250" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107343"/>
       </properties>
     </object>
-    <object id="10" gid="589" type="obj_climb_enemyspawner" x="280" y="18660" width="20" height="20">
+    <object id="10" gid="709" type="obj_climb_enemyspawner" x="280" y="18660" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107344"/>
       </properties>
     </object>
-    <object id="11" gid="588" type="obj_climb_waterbucket" x="240" y="19250" width="20" height="20">
+    <object id="11" gid="708" type="obj_climb_waterbucket" x="240" y="19250" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107345"/>
       </properties>
     </object>
-    <object id="12" gid="590" type="obj_climb_watergenerator" x="160" y="19060" width="20" height="20">
+    <object id="12" gid="710" type="obj_climb_watergenerator" x="160" y="19060" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107346"/>
       </properties>
     </object>
-    <object id="13" gid="590" type="obj_climb_watergenerator" x="240" y="19060" width="20" height="20">
+    <object id="13" gid="710" type="obj_climb_watergenerator" x="240" y="19060" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107347"/>
       </properties>
     </object>
-    <object id="14" gid="591" type="obj_climbloc" x="80" y="19735" width="19" height="37">
+    <object id="14" gid="711" type="obj_climbloc" x="80" y="19735" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="107348"/>
       </properties>
     </object>
-    <object id="15" gid="592" type="obj_climb_notsafe" x="-600" y="19376" width="16" height="16">
+    <object id="15" gid="712" type="obj_climb_notsafe" x="-600" y="19376" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="107349"/>
       </properties>
     </object>
-    <object id="16" gid="593" type="obj_climbstartertrig" x="140" y="19760" width="40" height="40">
+    <object id="16" gid="713" type="obj_climbstartertrig" x="140" y="19760" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107350"/>
       </properties>
     </object>
-    <object id="17" gid="594" type="obj_climb_climbable" x="320" y="19520" width="40" height="40">
+    <object id="17" gid="714" type="obj_climb_climbable" x="320" y="19520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107351"/>
       </properties>
     </object>
-    <object id="18" gid="594" type="obj_climb_climbable" x="320" y="19200" width="40" height="40">
+    <object id="18" gid="714" type="obj_climb_climbable" x="320" y="19200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107352"/>
       </properties>
     </object>
-    <object id="19" gid="594" type="obj_climb_climbable" x="80" y="19200" width="40" height="40">
+    <object id="19" gid="714" type="obj_climb_climbable" x="80" y="19200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107353"/>
       </properties>
     </object>
-    <object id="20" gid="594" type="obj_climb_climbable" x="80" y="18880" width="40" height="40">
+    <object id="20" gid="714" type="obj_climb_climbable" x="80" y="18880" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107354"/>
       </properties>
     </object>
-    <object id="21" gid="594" type="obj_climb_climbable" x="80" y="18840" width="40" height="40">
+    <object id="21" gid="714" type="obj_climb_climbable" x="80" y="18840" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107355"/>
       </properties>
     </object>
-    <object id="22" gid="594" type="obj_climb_climbable" x="600" y="18480" width="40" height="40">
+    <object id="22" gid="714" type="obj_climb_climbable" x="600" y="18480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107356"/>
       </properties>
     </object>
-    <object id="23" gid="594" type="obj_climb_climbable" x="200" y="18600" width="40" height="40">
+    <object id="23" gid="714" type="obj_climb_climbable" x="200" y="18600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107357"/>
       </properties>
     </object>
-    <object id="24" gid="594" type="obj_climb_climbable" x="80" y="19440" width="40" height="40">
+    <object id="24" gid="714" type="obj_climb_climbable" x="80" y="19440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107358"/>
       </properties>
     </object>
-    <object id="25" gid="595" type="obj_climb_eyewaterenemy" x="398" y="19530" width="25" height="12">
+    <object id="25" gid="715" type="obj_climb_eyewaterenemy" x="398" y="19530" width="25" height="12">
       <properties>
         <property name="instanceId" type="int" value="107359"/>
       </properties>
     </object>
-    <object id="26" gid="594" type="obj_climb_climbable" x="200" y="18160" width="40" height="40">
+    <object id="26" gid="714" type="obj_climb_climbable" x="200" y="18160" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107360"/>
       </properties>
     </object>
-    <object id="27" gid="594" type="obj_climb_climbable" x="200" y="18440" width="40" height="40">
+    <object id="27" gid="714" type="obj_climb_climbable" x="200" y="18440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107361"/>
       </properties>
     </object>
-    <object id="28" gid="595" type="obj_climb_eyewaterenemy" x="598" y="18450" width="25" height="12">
+    <object id="28" gid="715" type="obj_climb_eyewaterenemy" x="598" y="18450" width="25" height="12">
       <properties>
         <property name="instanceId" type="int" value="107362"/>
       </properties>
     </object>
-    <object id="29" gid="594" type="obj_climb_climbable" x="520" y="18720" width="40" height="40">
+    <object id="29" gid="714" type="obj_climb_climbable" x="520" y="18720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107363"/>
       </properties>
     </object>
-    <object id="30" gid="594" type="obj_climb_climbable" x="560" y="18560" width="40" height="40">
+    <object id="30" gid="714" type="obj_climb_climbable" x="560" y="18560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107364"/>
       </properties>
     </object>
-    <object id="31" gid="594" type="obj_climb_climbable" x="520" y="18840" width="40" height="40">
+    <object id="31" gid="714" type="obj_climb_climbable" x="520" y="18840" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107365"/>
       </properties>
     </object>
-    <object id="32" gid="594" type="obj_climb_climbable" x="440" y="18920" width="40" height="40">
+    <object id="32" gid="714" type="obj_climb_climbable" x="440" y="18920" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107366"/>
       </properties>
     </object>
-    <object id="33" gid="596" type="obj_rotating_bullet_new" x="434" y="19687" width="14" height="14">
+    <object id="33" gid="716" type="obj_rotating_bullet_new" x="434" y="19687" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107367"/>
       </properties>
     </object>
-    <object id="34" gid="596" type="obj_rotating_bullet_new" x="474" y="18327" width="14" height="14">
+    <object id="34" gid="716" type="obj_rotating_bullet_new" x="474" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107368"/>
       </properties>
     </object>
-    <object id="35" gid="596" type="obj_rotating_bullet_new" x="554" y="18327" width="14" height="14">
+    <object id="35" gid="716" type="obj_rotating_bullet_new" x="554" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107369"/>
       </properties>
     </object>
-    <object id="36" gid="596" type="obj_rotating_bullet_new" x="514" y="18327" width="14" height="14">
+    <object id="36" gid="716" type="obj_rotating_bullet_new" x="514" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107370"/>
       </properties>
     </object>
-    <object id="37" gid="596" type="obj_rotating_bullet_new" x="634" y="18327" width="14" height="14">
+    <object id="37" gid="716" type="obj_rotating_bullet_new" x="634" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107371"/>
       </properties>
     </object>
-    <object id="38" gid="596" type="obj_rotating_bullet_new" x="594" y="18327" width="14" height="14">
+    <object id="38" gid="716" type="obj_rotating_bullet_new" x="594" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107372"/>
       </properties>
     </object>
-    <object id="39" gid="596" type="obj_rotating_bullet_new" x="434" y="18327" width="14" height="14">
+    <object id="39" gid="716" type="obj_rotating_bullet_new" x="434" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107373"/>
       </properties>
     </object>
-    <object id="40" gid="596" type="obj_rotating_bullet_new" x="394" y="18327" width="14" height="14">
+    <object id="40" gid="716" type="obj_rotating_bullet_new" x="394" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107374"/>
       </properties>
     </object>
-    <object id="41" gid="596" type="obj_rotating_bullet_new" x="354" y="18327" width="14" height="14">
+    <object id="41" gid="716" type="obj_rotating_bullet_new" x="354" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107375"/>
       </properties>
     </object>
-    <object id="42" gid="596" type="obj_rotating_bullet_new" x="314" y="18327" width="14" height="14">
+    <object id="42" gid="716" type="obj_rotating_bullet_new" x="314" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107376"/>
       </properties>
     </object>
-    <object id="43" gid="596" type="obj_rotating_bullet_new" x="274" y="18327" width="14" height="14">
+    <object id="43" gid="716" type="obj_rotating_bullet_new" x="274" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107377"/>
       </properties>
     </object>
-    <object id="44" gid="596" type="obj_rotating_bullet_new" x="154" y="18327" width="14" height="14">
+    <object id="44" gid="716" type="obj_rotating_bullet_new" x="154" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107378"/>
       </properties>
     </object>
-    <object id="45" gid="596" type="obj_rotating_bullet_new" x="114" y="18327" width="14" height="14">
+    <object id="45" gid="716" type="obj_rotating_bullet_new" x="114" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107379"/>
       </properties>
     </object>
-    <object id="46" gid="596" type="obj_rotating_bullet_new" x="74" y="18327" width="14" height="14">
+    <object id="46" gid="716" type="obj_rotating_bullet_new" x="74" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107380"/>
       </properties>
     </object>
-    <object id="47" gid="596" type="obj_rotating_bullet_new" x="34" y="18327" width="14" height="14">
+    <object id="47" gid="716" type="obj_rotating_bullet_new" x="34" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107381"/>
       </properties>
     </object>
-    <object id="48" gid="596" type="obj_rotating_bullet_new" x="-6" y="18327" width="14" height="14">
+    <object id="48" gid="716" type="obj_rotating_bullet_new" x="-6" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107382"/>
       </properties>
     </object>
-    <object id="49" gid="596" type="obj_rotating_bullet_new" x="754" y="18327" width="14" height="14">
+    <object id="49" gid="716" type="obj_rotating_bullet_new" x="754" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107383"/>
       </properties>
     </object>
-    <object id="50" gid="596" type="obj_rotating_bullet_new" x="794" y="18327" width="14" height="14">
+    <object id="50" gid="716" type="obj_rotating_bullet_new" x="794" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107384"/>
       </properties>
     </object>
-    <object id="51" gid="596" type="obj_rotating_bullet_new" x="714" y="18327" width="14" height="14">
+    <object id="51" gid="716" type="obj_rotating_bullet_new" x="714" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107385"/>
       </properties>
     </object>
-    <object id="52" gid="596" type="obj_rotating_bullet_new" x="674" y="18327" width="14" height="14">
+    <object id="52" gid="716" type="obj_rotating_bullet_new" x="674" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107386"/>
       </properties>
     </object>
-    <object id="53" gid="596" type="obj_rotating_bullet_new" x="874" y="18327" width="14" height="14">
+    <object id="53" gid="716" type="obj_rotating_bullet_new" x="874" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107387"/>
       </properties>
     </object>
-    <object id="54" gid="596" type="obj_rotating_bullet_new" x="834" y="18327" width="14" height="14">
+    <object id="54" gid="716" type="obj_rotating_bullet_new" x="834" y="18327" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107388"/>
       </properties>
     </object>
-    <object id="55" gid="596" type="obj_rotating_bullet_new" x="34" y="18207" width="14" height="14">
+    <object id="55" gid="716" type="obj_rotating_bullet_new" x="34" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107389"/>
       </properties>
     </object>
-    <object id="56" gid="596" type="obj_rotating_bullet_new" x="74" y="18207" width="14" height="14">
+    <object id="56" gid="716" type="obj_rotating_bullet_new" x="74" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107390"/>
       </properties>
     </object>
-    <object id="57" gid="596" type="obj_rotating_bullet_new" x="-6" y="18207" width="14" height="14">
+    <object id="57" gid="716" type="obj_rotating_bullet_new" x="-6" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107391"/>
       </properties>
     </object>
-    <object id="58" gid="596" type="obj_rotating_bullet_new" x="874" y="18207" width="14" height="14">
+    <object id="58" gid="716" type="obj_rotating_bullet_new" x="874" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107392"/>
       </properties>
     </object>
-    <object id="59" gid="596" type="obj_rotating_bullet_new" x="834" y="18207" width="14" height="14">
+    <object id="59" gid="716" type="obj_rotating_bullet_new" x="834" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107393"/>
       </properties>
     </object>
-    <object id="60" gid="596" type="obj_rotating_bullet_new" x="794" y="18207" width="14" height="14">
+    <object id="60" gid="716" type="obj_rotating_bullet_new" x="794" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107394"/>
       </properties>
     </object>
-    <object id="61" gid="596" type="obj_rotating_bullet_new" x="754" y="18207" width="14" height="14">
+    <object id="61" gid="716" type="obj_rotating_bullet_new" x="754" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107395"/>
       </properties>
     </object>
-    <object id="62" gid="596" type="obj_rotating_bullet_new" x="714" y="18207" width="14" height="14">
+    <object id="62" gid="716" type="obj_rotating_bullet_new" x="714" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107396"/>
       </properties>
     </object>
-    <object id="63" gid="596" type="obj_rotating_bullet_new" x="674" y="18207" width="14" height="14">
+    <object id="63" gid="716" type="obj_rotating_bullet_new" x="674" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107397"/>
       </properties>
     </object>
-    <object id="64" gid="596" type="obj_rotating_bullet_new" x="634" y="18207" width="14" height="14">
+    <object id="64" gid="716" type="obj_rotating_bullet_new" x="634" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107398"/>
       </properties>
     </object>
-    <object id="65" gid="596" type="obj_rotating_bullet_new" x="594" y="18207" width="14" height="14">
+    <object id="65" gid="716" type="obj_rotating_bullet_new" x="594" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107399"/>
       </properties>
     </object>
-    <object id="66" gid="596" type="obj_rotating_bullet_new" x="554" y="18207" width="14" height="14">
+    <object id="66" gid="716" type="obj_rotating_bullet_new" x="554" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107400"/>
       </properties>
     </object>
-    <object id="67" gid="596" type="obj_rotating_bullet_new" x="434" y="18207" width="14" height="14">
+    <object id="67" gid="716" type="obj_rotating_bullet_new" x="434" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107401"/>
       </properties>
     </object>
-    <object id="68" gid="596" type="obj_rotating_bullet_new" x="394" y="18207" width="14" height="14">
+    <object id="68" gid="716" type="obj_rotating_bullet_new" x="394" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107402"/>
       </properties>
     </object>
-    <object id="69" gid="596" type="obj_rotating_bullet_new" x="354" y="18207" width="14" height="14">
+    <object id="69" gid="716" type="obj_rotating_bullet_new" x="354" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107403"/>
       </properties>
     </object>
-    <object id="70" gid="596" type="obj_rotating_bullet_new" x="314" y="18207" width="14" height="14">
+    <object id="70" gid="716" type="obj_rotating_bullet_new" x="314" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107404"/>
       </properties>
     </object>
-    <object id="71" gid="596" type="obj_rotating_bullet_new" x="274" y="18207" width="14" height="14">
+    <object id="71" gid="716" type="obj_rotating_bullet_new" x="274" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107405"/>
       </properties>
     </object>
-    <object id="72" gid="596" type="obj_rotating_bullet_new" x="234" y="18207" width="14" height="14">
+    <object id="72" gid="716" type="obj_rotating_bullet_new" x="234" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107406"/>
       </properties>
     </object>
-    <object id="73" gid="596" type="obj_rotating_bullet_new" x="194" y="18207" width="14" height="14">
+    <object id="73" gid="716" type="obj_rotating_bullet_new" x="194" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107407"/>
       </properties>
     </object>
-    <object id="74" gid="596" type="obj_rotating_bullet_new" x="154" y="18207" width="14" height="14">
+    <object id="74" gid="716" type="obj_rotating_bullet_new" x="154" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107408"/>
       </properties>
     </object>
-    <object id="75" gid="596" type="obj_rotating_bullet_new" x="114" y="18207" width="14" height="14">
+    <object id="75" gid="716" type="obj_rotating_bullet_new" x="114" y="18207" width="14" height="14">
       <properties>
         <property name="instanceId" type="int" value="107409"/>
       </properties>
     </object>
-    <object id="76" gid="594" type="obj_climb_climbable" x="240" y="17760" width="40" height="40">
+    <object id="76" gid="714" type="obj_climb_climbable" x="240" y="17760" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107410"/>
       </properties>
     </object>
-    <object id="77" gid="597" type="obj_solidblocksized" x="-760" y="19400" width="40" height="40">
+    <object id="77" gid="717" type="obj_solidblocksized" x="-760" y="19400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107411"/>
       </properties>

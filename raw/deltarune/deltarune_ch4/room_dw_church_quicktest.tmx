@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="8">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="8">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
-  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="584" source="tilesets/obj_solidblockDark.tsx"/>
-  <tileset firstgid="585" source="tilesets/obj_trigger.tsx"/>
-  <tileset firstgid="586" source="tilesets/obj_genmarker.tsx"/>
-  <tileset firstgid="587" source="tilesets/obj_dw_church_quicktest.tsx"/>
+  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="704" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="705" source="tilesets/obj_trigger.tsx"/>
+  <tileset firstgid="706" source="tilesets/obj_genmarker.tsx"/>
+  <tileset firstgid="707" source="tilesets/obj_dw_church_quicktest.tsx"/>
   <layer id="1" name="TILES" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,74,74,91,92,92,93,74,74,74,0,0,0,0,0,0,80,80,80,97,98,98,99,80,80,80,0,0,0,0,0,0,86,86,86,103,104,104,105,86,86,86,0,0,0,0,0,0,0,0,0,109,111,109,111,0,0,0,0,0,0,0,0,0,0,0,0,115,117,115,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="583" type="obj_mainchara" x="320" y="277" width="19" height="37">
+    <object id="1" gid="703" type="obj_mainchara" x="320" y="277" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="105991"/>
       </properties>
@@ -23,22 +23,22 @@
         <property name="instanceId" type="int" value="105992"/>
       </properties>
     </object>
-    <object id="3" gid="584" type="obj_solidblockDark" x="-160" y="360" width="40" height="40">
+    <object id="3" gid="704" type="obj_solidblockDark" x="-160" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105993"/>
       </properties>
     </object>
-    <object id="4" gid="585" type="obj_trigger" x="280" y="250" width="10" height="10">
+    <object id="4" gid="705" type="obj_trigger" x="280" y="250" width="10" height="10">
       <properties>
         <property name="instanceId" type="int" value="105994"/>
       </properties>
     </object>
-    <object id="5" gid="586" type="obj_genmarker" x="200" y="41" width="1" height="1">
+    <object id="5" gid="706" type="obj_genmarker" x="200" y="41" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="105995"/>
       </properties>
     </object>
-    <object id="6" gid="587" type="obj_dw_church_quicktest" x="-40" y="9" width="9" height="9">
+    <object id="6" gid="707" type="obj_dw_church_quicktest" x="-40" y="9" width="9" height="9">
       <properties>
         <property name="instanceId" type="int" value="105996"/>
       </properties>

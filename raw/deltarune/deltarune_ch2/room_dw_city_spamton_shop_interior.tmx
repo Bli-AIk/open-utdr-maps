@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="9">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="9">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_city_alleyway_tileset.tsx"/>
-  <tileset firstgid="346" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="347" source="tilesets/obj_soliddark.tsx"/>
-  <tileset firstgid="348" source="tilesets/obj_doorA.tsx"/>
-  <tileset firstgid="349" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="401" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="402" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="403" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="404" source="tilesets/obj_markerB.tsx"/>
   <layer id="1" name="TILES_Alley" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,129,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="346" type="obj_mainchara" x="298" y="381" width="19" height="38">
+    <object id="1" gid="401" type="obj_mainchara" x="298" y="381" width="19" height="38">
       <properties>
         <property name="instanceId" type="int" value="104556"/>
       </properties>
@@ -22,27 +22,27 @@
         <property name="instanceId" type="int" value="104557"/>
       </properties>
     </object>
-    <object id="3" gid="347" type="obj_soliddark" x="241" y="297" width="40" height="40">
+    <object id="3" gid="402" type="obj_soliddark" x="241" y="297" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="104558"/>
       </properties>
     </object>
-    <object id="4" gid="347" type="obj_soliddark" x="240" y="314" width="40" height="40">
+    <object id="4" gid="402" type="obj_soliddark" x="240" y="314" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="104559"/>
       </properties>
     </object>
-    <object id="5" gid="348" type="obj_doorA" x="228" y="479" width="20" height="20">
+    <object id="5" gid="403" type="obj_doorA" x="228" y="479" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104560"/>
       </properties>
     </object>
-    <object id="6" gid="349" type="obj_markerB" x="293" y="416" width="38" height="74">
+    <object id="6" gid="404" type="obj_markerB" x="293" y="416" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="104561"/>
       </properties>
     </object>
-    <object id="7" gid="347" type="obj_soliddark" x="361" y="314" width="40" height="40">
+    <object id="7" gid="402" type="obj_soliddark" x="361" y="314" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="104562"/>
       </properties>

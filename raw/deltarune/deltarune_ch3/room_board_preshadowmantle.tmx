@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="123" height="48" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="32">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="77" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="32">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx"/>
-  <tileset firstgid="913" source="tilesets/obj_gameshow_swordroute.tsx"/>
-  <tileset firstgid="914" source="tilesets/obj_board_controller.tsx"/>
-  <tileset firstgid="915" source="tilesets/obj_board_camera.tsx"/>
-  <tileset firstgid="916" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="917" source="tilesets/obj_mainchara_board.tsx"/>
-  <tileset firstgid="918" source="tilesets/obj_board_solid.tsx"/>
-  <tileset firstgid="919" source="tilesets/obj_board_preshadowmantle.tsx"/>
-  <tileset firstgid="920" source="tilesets/obj_board_shadowspotlight.tsx"/>
+  <tileset firstgid="1123" source="tilesets/obj_gameshow_swordroute.tsx"/>
+  <tileset firstgid="1124" source="tilesets/obj_board_controller.tsx"/>
+  <tileset firstgid="1125" source="tilesets/obj_board_camera.tsx"/>
+  <tileset firstgid="1126" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1127" source="tilesets/obj_mainchara_board.tsx"/>
+  <tileset firstgid="1128" source="tilesets/obj_board_solid.tsx"/>
+  <tileset firstgid="1129" source="tilesets/obj_board_preshadowmantle.tsx"/>
+  <tileset firstgid="1130" source="tilesets/obj_board_shadowspotlight.tsx"/>
   <layer id="1" name="BOARD_Tiles" width="77" height="30">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,353,353,353,353,353,353,353,353,353,353,353,0,0,0,0,0,353,353,353,353,353,353,353,353,353,353,353,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,353,354,354,354,354,354,354,354,354,354,353,0,0,0,0,0,353,353,354,354,354,354,354,354,354,354,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,354,353,354,353,354,353,354,353,354,353,0,0,0,0,0,353,354,354,353,354,353,354,353,354,353,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,353,354,354,354,354,353,354,354,354,353,0,0,0,0,0,353,354,353,354,354,354,354,353,354,354,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,354,354,353,354,354,354,354,353,354,353,0,0,0,0,0,353,354,354,354,353,354,354,354,354,353,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,353,354,353,354,353,354,353,354,354,353,0,0,0,0,0,353,354,353,354,353,354,353,354,353,354,354,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,354,354,354,354,354,354,354,354,354,353,353,0,0,0,0,0,353,354,354,354,354,354,354,354,354,354,353,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,353,353,353,353,353,354,354,353,353,353,353,353,0,0,0,0,0,353,353,353,353,353,354,354,353,353,353,353,353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,468,468,468,468,468,406,406,468,468,353,353,353,353,353,353,353,353,353,353,468,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,406,406,406,406,406,406,406,468,468,353,354,354,354,354,354,354,354,354,353,468,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,353,353,353,353,353,353,353,353,353,353,354,354,354,354,354,354,354,354,353,468,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,353,354,354,354,354,354,354,354,354,354,354,354,353,353,353,353,354,354,353,468,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,353,354,354,353,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,353,354,354,354,354,354,354,354,354,354,354,354,353,468,468,353,354,354,353,353,353,353,353,353,353,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,353,353,353,353,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,353,354,354,353,353,353,353,353,353,353,353,353,353,468,468,353,354,354,354,354,354,354,354,354,354,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,468,468,468,468,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,353,354,354,353,406,406,406,468,468,468,468,468,468,468,468,353,354,354,354,354,354,354,354,354,354,354,354,353,406,406,406,468,0,0,0,0,0,468,468,468,468,468,468,468,468,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,468,468,468,468,353,353,353,353,406,406,406,468,468,468,468,468,468,468,468,353,353,353,353,353,353,353,353,353,353,353,353,353,406,406,406,468,0,0,0,0,0,468,468,468,468,468,468,468,468,406,406,406,468,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="913" type="obj_gameshow_swordroute" x="-64" y="16" width="7" height="16">
+    <object id="1" gid="1123" type="obj_gameshow_swordroute" x="-64" y="16" width="7" height="16">
       <properties>
         <property name="instanceId" type="int" value="103804"/>
       </properties>
@@ -26,142 +26,142 @@
         <property name="instanceId" type="int" value="103805"/>
       </properties>
     </object>
-    <object id="3" gid="914" type="obj_board_controller" x="-32" y="112" width="16" height="16">
+    <object id="3" gid="1124" type="obj_board_controller" x="-32" y="112" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103806"/>
       </properties>
     </object>
-    <object id="4" gid="915" type="obj_board_camera" x="-32" y="144" width="16" height="16">
+    <object id="4" gid="1125" type="obj_board_camera" x="-32" y="144" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103807"/>
       </properties>
     </object>
-    <object id="5" gid="916" type="obj_mainchara" x="-224" y="229" width="19" height="37">
+    <object id="5" gid="1126" type="obj_mainchara" x="-224" y="229" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="103808"/>
       </properties>
     </object>
-    <object id="6" gid="917" type="obj_mainchara_board" x="304" y="512" width="16" height="16">
+    <object id="6" gid="1127" type="obj_mainchara_board" x="304" y="512" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103809"/>
       </properties>
     </object>
-    <object id="7" gid="918" type="obj_board_solid" x="352" y="512" width="32" height="32">
+    <object id="7" gid="1128" type="obj_board_solid" x="352" y="512" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103810"/>
       </properties>
     </object>
-    <object id="8" gid="918" type="obj_board_solid" x="896" y="256" width="32" height="32">
+    <object id="8" gid="1128" type="obj_board_solid" x="896" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103811"/>
       </properties>
     </object>
-    <object id="9" gid="919" type="obj_board_preshadowmantle" x="1056" y="258" width="16" height="16">
+    <object id="9" gid="1129" type="obj_board_preshadowmantle" x="1056" y="258" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103812"/>
       </properties>
     </object>
-    <object id="10" gid="920" type="obj_board_shadowspotlight" x="352" y="480" width="64" height="64">
+    <object id="10" gid="1130" type="obj_board_shadowspotlight" x="352" y="480" width="64" height="64">
       <properties>
         <property name="instanceId" type="int" value="103813"/>
       </properties>
     </object>
-    <object id="11" gid="918" type="obj_board_solid" x="1120" y="256" width="32" height="32">
+    <object id="11" gid="1128" type="obj_board_solid" x="1120" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103814"/>
       </properties>
     </object>
-    <object id="12" gid="918" type="obj_board_solid" x="1056" y="256" width="32" height="32">
+    <object id="12" gid="1128" type="obj_board_solid" x="1056" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103815"/>
       </properties>
     </object>
-    <object id="13" gid="918" type="obj_board_solid" x="832" y="352" width="32" height="32">
+    <object id="13" gid="1128" type="obj_board_solid" x="832" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103816"/>
       </properties>
     </object>
-    <object id="14" gid="918" type="obj_board_solid" x="1120" y="352" width="32" height="32">
+    <object id="14" gid="1128" type="obj_board_solid" x="1120" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103817"/>
       </properties>
     </object>
-    <object id="15" gid="918" type="obj_board_solid" x="768" y="576" width="32" height="32">
+    <object id="15" gid="1128" type="obj_board_solid" x="768" y="576" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103818"/>
       </properties>
     </object>
-    <object id="16" gid="918" type="obj_board_solid" x="640" y="448" width="32" height="32">
+    <object id="16" gid="1128" type="obj_board_solid" x="640" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103819"/>
       </properties>
     </object>
-    <object id="17" gid="918" type="obj_board_solid" x="128" y="352" width="32" height="32">
+    <object id="17" gid="1128" type="obj_board_solid" x="128" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103820"/>
       </properties>
     </object>
-    <object id="18" gid="918" type="obj_board_solid" x="128" y="384" width="32" height="32">
+    <object id="18" gid="1128" type="obj_board_solid" x="128" y="384" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103821"/>
       </properties>
     </object>
-    <object id="19" gid="918" type="obj_board_solid" x="288" y="384" width="32" height="32">
+    <object id="19" gid="1128" type="obj_board_solid" x="288" y="384" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103822"/>
       </properties>
     </object>
-    <object id="20" gid="918" type="obj_board_solid" x="352" y="416" width="32" height="32">
+    <object id="20" gid="1128" type="obj_board_solid" x="352" y="416" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103823"/>
       </properties>
     </object>
-    <object id="21" gid="918" type="obj_board_solid" x="288" y="416" width="32" height="32">
+    <object id="21" gid="1128" type="obj_board_solid" x="288" y="416" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103824"/>
       </properties>
     </object>
-    <object id="22" gid="918" type="obj_board_solid" x="128" y="512" width="32" height="32">
+    <object id="22" gid="1128" type="obj_board_solid" x="128" y="512" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103825"/>
       </properties>
     </object>
-    <object id="23" gid="918" type="obj_board_solid" x="288" y="576" width="32" height="32">
+    <object id="23" gid="1128" type="obj_board_solid" x="288" y="576" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103826"/>
       </properties>
     </object>
-    <object id="24" gid="918" type="obj_board_solid" x="1440" y="256" width="32" height="32">
+    <object id="24" gid="1128" type="obj_board_solid" x="1440" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103827"/>
       </properties>
     </object>
-    <object id="25" gid="919" type="obj_board_preshadowmantle" x="1600" y="258" width="16" height="16">
+    <object id="25" gid="1129" type="obj_board_preshadowmantle" x="1600" y="258" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103828"/>
       </properties>
     </object>
-    <object id="26" gid="918" type="obj_board_solid" x="1664" y="256" width="32" height="32">
+    <object id="26" gid="1128" type="obj_board_solid" x="1664" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103829"/>
       </properties>
     </object>
-    <object id="27" gid="918" type="obj_board_solid" x="1600" y="256" width="32" height="32">
+    <object id="27" gid="1128" type="obj_board_solid" x="1600" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103830"/>
       </properties>
     </object>
-    <object id="28" gid="918" type="obj_board_solid" x="1664" y="352" width="32" height="32">
+    <object id="28" gid="1128" type="obj_board_solid" x="1664" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103831"/>
       </properties>
     </object>
-    <object id="29" gid="918" type="obj_board_solid" x="1440" y="352" width="32" height="32">
+    <object id="29" gid="1128" type="obj_board_solid" x="1440" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103832"/>
       </properties>
     </object>
-    <object id="30" gid="918" type="obj_board_solid" x="1536" y="480" width="32" height="32">
+    <object id="30" gid="1128" type="obj_board_solid" x="1536" y="480" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103833"/>
       </properties>

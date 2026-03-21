@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.2" name="bg_prisontiles" tilewidth="80" tileheight="120" tilecount="2" columns="2">
+<tileset version="1.10" tiledversion="1.10.2" name="bg_prisontiles" tilewidth="40" tileheight="40" tilecount="16" columns="4">
   <image source="../textures/bg_prisontiles.png" width="160" height="160"/>
 </tileset>

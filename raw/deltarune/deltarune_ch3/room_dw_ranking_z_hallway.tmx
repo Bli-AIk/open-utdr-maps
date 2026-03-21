@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="14">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="14">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_ch3_dw_changing_room_tileset.tsx"/>
-  <tileset firstgid="197" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="198" source="tilesets/obj_musicer_gen.tsx"/>
-  <tileset firstgid="199" source="tilesets/obj_room_ranking_z_hallway.tsx"/>
-  <tileset firstgid="200" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="201" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="202" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="226" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="227" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="228" source="tilesets/obj_room_ranking_z_hallway.tsx"/>
+  <tileset firstgid="229" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="230" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="231" source="tilesets/obj_markerAny.tsx"/>
   <layer id="1" name="TILES" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,0,0,0,0,0,0,18,18,18,18,18,18,18,168,161,178,0,0,0,0,0,0,159,33,34,159,159,35,36,174,189,192,0,0,0,0,0,0,159,47,48,159,159,49,50,174,89,87,0,0,0,0,0,0,187,187,187,74,187,187,75,188,87,101,0,0,0,0,0,0,102,87,89,87,88,87,87,101,87,87,0,0,0,0,0,0,87,88,87,101,87,87,89,87,87,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="197" type="obj_mainchara" x="12" y="303" width="19" height="37">
+    <object id="1" gid="226" type="obj_mainchara" x="12" y="303" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="109654"/>
       </properties>
@@ -29,47 +29,47 @@
         <property name="instanceId" type="int" value="109656"/>
       </properties>
     </object>
-    <object id="4" gid="198" type="obj_musicer_gen" x="80" y="20" width="20" height="20">
+    <object id="4" gid="227" type="obj_musicer_gen" x="80" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="109657"/>
       </properties>
     </object>
-    <object id="5" gid="199" type="obj_room_ranking_z_hallway" x="120" y="20" width="20" height="20">
+    <object id="5" gid="228" type="obj_room_ranking_z_hallway" x="120" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="109658"/>
       </properties>
     </object>
-    <object id="6" gid="200" type="obj_solidblocksized" x="-40" y="400" width="40" height="40">
+    <object id="6" gid="229" type="obj_solidblocksized" x="-40" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109659"/>
       </properties>
     </object>
-    <object id="7" gid="200" type="obj_solidblocksized" x="400" y="240" width="40" height="40">
+    <object id="7" gid="229" type="obj_solidblocksized" x="400" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109660"/>
       </properties>
     </object>
-    <object id="8" gid="200" type="obj_solidblocksized" x="-40" y="120" width="40" height="40">
+    <object id="8" gid="229" type="obj_solidblocksized" x="-40" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109661"/>
       </properties>
     </object>
-    <object id="9" gid="201" type="obj_doorAny" x="-40" y="320" width="40" height="40">
+    <object id="9" gid="230" type="obj_doorAny" x="-40" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109662"/>
       </properties>
     </object>
-    <object id="10" gid="202" type="obj_markerAny" x="12" y="340" width="38" height="74">
+    <object id="10" gid="231" type="obj_markerAny" x="12" y="340" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="109663"/>
       </properties>
     </object>
-    <object id="11" gid="200" type="obj_solidblocksized" x="320" y="200" width="40" height="40">
+    <object id="11" gid="229" type="obj_solidblocksized" x="320" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109664"/>
       </properties>
     </object>
-    <object id="12" gid="202" type="obj_markerAny" x="340" y="237" width="38" height="74">
+    <object id="12" gid="231" type="obj_markerAny" x="340" y="237" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="109665"/>
       </properties>
