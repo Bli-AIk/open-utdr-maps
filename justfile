@@ -47,3 +47,11 @@ ci: fmt-check lint check
 clean:
     cd viewer && cargo clean
     rm -rf viewer/dist
+
+# Dry-run a raw -> curated room promotion and generate blacklist previews in dev/
+migrate-dry-run dataset="undertale" room="room_fire2":
+    python3 scripts/curation_migrate.py --game {{dataset}} --room {{room}} --dry-run
+
+# Promote a raw room into curated/ using the blacklist config
+migrate dataset="undertale" room="room_fire2":
+    python3 scripts/curation_migrate.py --game {{dataset}} --room {{room}}

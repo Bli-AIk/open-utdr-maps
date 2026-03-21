@@ -1,0 +1,26 @@
+# Blacklist rules for promoting a room from raw/ to curated/.
+# Update this file instead of hard-coding new cleanup rules in the script.
+
+[layer_names]
+exact = ["views"]
+
+[object_types]
+exact = [
+  "obj_overworldcontroller",
+  "obj_bouncetilecontoller",
+  "obj_underground_exit",
+]
+prefix = [
+  "obj_solid",
+  "obj_door",
+]
+
+[cleanup]
+remove_empty_object_layers = true
+
+# Optional per-room keeps. Use "<dataset>:<room>" as the key.
+# Example:
+# [rooms."undertale:room_fire2"]
+# keep_object_types_exact = ["obj_doorA"]
+# keep_object_types_prefix = []
+# keep_layer_names_exact = []
