@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.10.2" name="bg_dw_city_street_edges_tileset" tilewidth="40" tileheight="40" tilecount="240" columns="15">
+<tileset version="1.10" tiledversion="1.10.2" name="bg_dw_city_street_edges_tileset" tilewidth="40" tileheight="40" tilecount="208" columns="14" margin="2" spacing="4">
   <image source="../textures/bg_dw_city_street_edges_tileset.png" width="616" height="660"/>
 </tileset>

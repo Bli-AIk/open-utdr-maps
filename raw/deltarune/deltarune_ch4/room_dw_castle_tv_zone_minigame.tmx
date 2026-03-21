@@ -4,19 +4,19 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_stage_tileset.tsx"/>
-  <tileset firstgid="401" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="402" source="tilesets/obj_musicer_darkcastle.tsx"/>
-  <tileset firstgid="403" source="tilesets/obj_mike_slot.tsx"/>
-  <tileset firstgid="404" source="tilesets/obj_miccheck.tsx"/>
-  <tileset firstgid="405" source="tilesets/obj_solidblockDark.tsx"/>
-  <tileset firstgid="406" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="407" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="408" source="tilesets/obj_dw_green_room_wall_fx.tsx"/>
+  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="362" source="tilesets/obj_musicer_darkcastle.tsx"/>
+  <tileset firstgid="363" source="tilesets/obj_mike_slot.tsx"/>
+  <tileset firstgid="364" source="tilesets/obj_miccheck.tsx"/>
+  <tileset firstgid="365" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="366" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="367" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="368" source="tilesets/obj_dw_green_room_wall_fx.tsx"/>
   <layer id="1" name="TILES" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,259,259,259,259,259,259,259,259,259,259,259,259,259,259,2,0,227,237,237,237,237,237,237,237,237,237,237,237,237,237,2,0,227,237,237,237,237,237,237,237,237,237,237,237,237,237,2,0,227,237,237,237,237,237,237,237,237,237,237,237,237,227,2,0,227,227,227,227,227,227,237,237,227,227,227,227,227,227,0,0,227,227,227,227,227,227,237,237,227,227,227,227,227,227,0,0,227,227,227,227,227,227,237,237,227,227,227,227,227,227,0,0,0,0,0,0,0,0,237,237,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="401" type="obj_mainchara" x="301" y="417" width="19" height="37">
+    <object id="1" gid="361" type="obj_mainchara" x="301" y="417" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="114009"/>
       </properties>
@@ -36,7 +36,7 @@
         <property name="instanceId" type="int" value="114012"/>
       </properties>
     </object>
-    <object id="5" gid="402" type="obj_musicer_darkcastle" x="120" y="24" width="26" height="24">
+    <object id="5" gid="362" type="obj_musicer_darkcastle" x="120" y="24" width="26" height="24">
       <properties>
         <property name="instanceId" type="int" value="114013"/>
       </properties>
@@ -46,12 +46,12 @@
         <property name="instanceId" type="int" value="114014"/>
       </properties>
     </object>
-    <object id="7" gid="403" type="obj_mike_slot" x="240" y="284" width="78" height="4">
+    <object id="7" gid="363" type="obj_mike_slot" x="240" y="284" width="78" height="4">
       <properties>
         <property name="instanceId" type="int" value="114015"/>
       </properties>
     </object>
-    <object id="8" gid="404" type="obj_miccheck" x="80" y="361" width="51" height="61">
+    <object id="8" gid="364" type="obj_miccheck" x="80" y="361" width="51" height="61">
       <properties>
         <property name="instanceId" type="int" value="114016"/>
       </properties>
@@ -61,42 +61,42 @@
         <property name="instanceId" type="int" value="114017"/>
       </properties>
     </object>
-    <object id="10" gid="405" type="obj_solidblockDark" x="40" y="480" width="40" height="40">
+    <object id="10" gid="365" type="obj_solidblockDark" x="40" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="114018"/>
       </properties>
     </object>
-    <object id="11" gid="405" type="obj_solidblockDark" x="360" y="480" width="40" height="40">
+    <object id="11" gid="365" type="obj_solidblockDark" x="360" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="114019"/>
       </properties>
     </object>
-    <object id="12" gid="406" type="obj_doorAny" x="280" y="520" width="40" height="40">
+    <object id="12" gid="366" type="obj_doorAny" x="280" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="114020"/>
       </properties>
     </object>
-    <object id="13" gid="407" type="obj_markerAny" x="302" y="455" width="38" height="74">
+    <object id="13" gid="367" type="obj_markerAny" x="302" y="455" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="114021"/>
       </properties>
     </object>
-    <object id="14" gid="405" type="obj_solidblockDark" x="0" y="240" width="40" height="40">
+    <object id="14" gid="365" type="obj_solidblockDark" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="114022"/>
       </properties>
     </object>
-    <object id="15" gid="405" type="obj_solidblockDark" x="600" y="240" width="40" height="40">
+    <object id="15" gid="365" type="obj_solidblockDark" x="600" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="114023"/>
       </properties>
     </object>
-    <object id="16" gid="405" type="obj_solidblockDark" x="0" y="200" width="40" height="40">
+    <object id="16" gid="365" type="obj_solidblockDark" x="0" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="114024"/>
       </properties>
     </object>
-    <object id="17" gid="408" type="obj_dw_green_room_wall_fx" x="40" y="60" width="20" height="20">
+    <object id="17" gid="368" type="obj_dw_green_room_wall_fx" x="40" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="114025"/>
       </properties>

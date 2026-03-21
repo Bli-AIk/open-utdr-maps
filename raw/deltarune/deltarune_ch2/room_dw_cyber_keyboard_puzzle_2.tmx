@@ -4,37 +4,37 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_cyber_lines_tileset.tsx"/>
-  <tileset firstgid="21" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
-  <tileset firstgid="57" source="tilesets/bg_dw_cyber_tileset.tsx"/>
-  <tileset firstgid="563" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="564" source="tilesets/obj_ch2_keyboardpuzzle_controller.tsx"/>
-  <tileset firstgid="565" source="tilesets/obj_ch2_keyboardpuzzle_tile.tsx"/>
-  <tileset firstgid="566" source="tilesets/obj_controller_keyboard_puzzle_2.tsx"/>
-  <tileset firstgid="567" source="tilesets/obj_traffic_road_trigger.tsx"/>
-  <tileset firstgid="568" source="tilesets/obj_musicer_cyber.tsx"/>
-  <tileset firstgid="569" source="tilesets/obj_doorB.tsx"/>
-  <tileset firstgid="570" source="tilesets/obj_markerA.tsx"/>
-  <tileset firstgid="571" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="572" source="tilesets/obj_cyber_wall_lights.tsx"/>
-  <tileset firstgid="573" source="tilesets/obj_cyber_light_standalone.tsx"/>
-  <tileset firstgid="574" source="tilesets/obj_cyber_hole_lights.tsx"/>
+  <tileset firstgid="19" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="53" source="tilesets/bg_dw_cyber_tileset.tsx"/>
+  <tileset firstgid="469" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="470" source="tilesets/obj_ch2_keyboardpuzzle_controller.tsx"/>
+  <tileset firstgid="471" source="tilesets/obj_ch2_keyboardpuzzle_tile.tsx"/>
+  <tileset firstgid="472" source="tilesets/obj_controller_keyboard_puzzle_2.tsx"/>
+  <tileset firstgid="473" source="tilesets/obj_traffic_road_trigger.tsx"/>
+  <tileset firstgid="474" source="tilesets/obj_musicer_cyber.tsx"/>
+  <tileset firstgid="475" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="476" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="477" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="478" source="tilesets/obj_cyber_wall_lights.tsx"/>
+  <tileset firstgid="479" source="tilesets/obj_cyber_light_standalone.tsx"/>
+  <tileset firstgid="480" source="tilesets/obj_cyber_hole_lights.tsx"/>
   <layer id="1" name="TILES" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,184,186,186,186,186,186,186,186,186,185,0,0,0,0,60,61,261,235,225,235,225,235,225,235,225,183,62,0,61,61,58,74,74,74,74,74,74,74,74,74,74,74,75,0,87,87,71,74,74,235,74,235,74,235,74,235,74,74,75,0,100,100,73,74,72,87,87,87,87,87,87,87,87,87,88,0,113,113,73,74,260,210,211,209,211,210,211,209,211,222,101,0,143,143,86,87,88,113,113,139,139,139,139,113,113,224,114,0,0,0,99,100,101,113,139,139,139,139,139,139,113,224,114,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,180,182,182,182,182,182,182,182,182,181,0,0,0,0,56,57,257,231,221,231,221,231,221,231,221,179,58,0,57,57,54,70,70,70,70,70,70,70,70,70,70,70,71,0,83,83,67,70,70,231,70,231,70,231,70,231,70,70,71,0,96,96,69,70,68,83,83,83,83,83,83,83,83,83,84,0,109,109,69,70,256,206,207,205,207,206,207,205,207,218,97,0,139,139,82,83,84,109,109,135,135,135,135,109,109,220,110,0,0,0,95,96,97,109,135,135,135,135,135,135,109,220,110,0</data>
   </layer>
   <layer id="2" name="TILES_Overlay" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <layer id="3" name="TILES_Coverup" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,223,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,219,0,0</data>
   </layer>
   <layer id="4" name="TILES_Coverup_Overlay" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,30,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,28,0</data>
   </layer>
   <layer id="5" name="TILES_Lines" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,18,0,0,14,16,18,0,0,0,0</data>
   </layer>
   <objectgroup id="6" name="objects">
-    <object id="1" gid="563" type="obj_mainchara" x="26" y="260" width="19" height="38">
+    <object id="1" gid="469" type="obj_mainchara" x="26" y="260" width="19" height="38">
       <properties>
         <property name="instanceId" type="int" value="102064"/>
       </properties>
@@ -44,277 +44,277 @@
         <property name="instanceId" type="int" value="102065"/>
       </properties>
     </object>
-    <object id="3" gid="564" type="obj_ch2_keyboardpuzzle_controller" x="-54" y="11" width="23" height="21">
+    <object id="3" gid="470" type="obj_ch2_keyboardpuzzle_controller" x="-54" y="11" width="23" height="21">
       <properties>
         <property name="instanceId" type="int" value="102066"/>
       </properties>
     </object>
-    <object id="4" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="200" y="280" width="40" height="40">
+    <object id="4" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="200" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102067"/>
       </properties>
     </object>
-    <object id="5" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="280" y="280" width="40" height="40">
+    <object id="5" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="280" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102068"/>
       </properties>
     </object>
-    <object id="6" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="320" y="320" width="40" height="40">
+    <object id="6" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="320" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102069"/>
       </properties>
     </object>
-    <object id="7" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="400" y="320" width="40" height="40">
+    <object id="7" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="400" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102070"/>
       </properties>
     </object>
-    <object id="8" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="240" y="320" width="40" height="40">
+    <object id="8" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="240" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102071"/>
       </properties>
     </object>
-    <object id="9" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="320" y="240" width="40" height="40">
+    <object id="9" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="320" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102072"/>
       </properties>
     </object>
-    <object id="10" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="240" y="240" width="40" height="40">
+    <object id="10" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="240" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102073"/>
       </properties>
     </object>
-    <object id="11" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="360" y="280" width="40" height="40">
+    <object id="11" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="360" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102074"/>
       </properties>
     </object>
-    <object id="12" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="400" y="240" width="40" height="40">
+    <object id="12" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="400" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102075"/>
       </properties>
     </object>
-    <object id="13" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="440" y="280" width="40" height="40">
+    <object id="13" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="440" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102076"/>
       </properties>
     </object>
-    <object id="14" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="200" y="360" width="40" height="40">
+    <object id="14" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="200" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102077"/>
       </properties>
     </object>
-    <object id="15" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="280" y="360" width="40" height="40">
+    <object id="15" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="280" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102078"/>
       </properties>
     </object>
-    <object id="16" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="360" y="360" width="40" height="40">
+    <object id="16" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="360" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102079"/>
       </properties>
     </object>
-    <object id="17" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="440" y="360" width="40" height="40">
+    <object id="17" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="440" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102080"/>
       </properties>
     </object>
-    <object id="18" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="480" y="240" width="40" height="40">
+    <object id="18" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="480" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102081"/>
       </properties>
     </object>
-    <object id="19" gid="565" type="obj_ch2_keyboardpuzzle_tile" x="480" y="320" width="40" height="40">
+    <object id="19" gid="471" type="obj_ch2_keyboardpuzzle_tile" x="480" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102082"/>
       </properties>
     </object>
-    <object id="20" gid="566" type="obj_controller_keyboard_puzzle_2" x="-40" y="60" width="20" height="20">
+    <object id="20" gid="472" type="obj_controller_keyboard_puzzle_2" x="-40" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="102083"/>
       </properties>
     </object>
-    <object id="21" gid="567" type="obj_traffic_road_trigger" x="80" y="204" width="4" height="4">
+    <object id="21" gid="473" type="obj_traffic_road_trigger" x="80" y="204" width="4" height="4">
       <properties>
         <property name="instanceId" type="int" value="102084"/>
       </properties>
     </object>
-    <object id="22" gid="567" type="obj_traffic_road_trigger" x="160" y="244" width="4" height="4">
+    <object id="22" gid="473" type="obj_traffic_road_trigger" x="160" y="244" width="4" height="4">
       <properties>
         <property name="instanceId" type="int" value="102085"/>
       </properties>
     </object>
-    <object id="23" gid="567" type="obj_traffic_road_trigger" x="80" y="324" width="4" height="4">
+    <object id="23" gid="473" type="obj_traffic_road_trigger" x="80" y="324" width="4" height="4">
       <properties>
         <property name="instanceId" type="int" value="102086"/>
       </properties>
     </object>
-    <object id="24" gid="568" type="obj_musicer_cyber" x="0" y="-8" width="32" height="32">
+    <object id="24" gid="474" type="obj_musicer_cyber" x="0" y="-8" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="102087"/>
       </properties>
     </object>
-    <object id="25" gid="569" type="obj_doorB" x="0" y="260" width="20" height="20">
+    <object id="25" gid="475" type="obj_doorB" x="0" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="102088"/>
       </properties>
     </object>
-    <object id="26" gid="570" type="obj_markerA" x="26" y="296" width="38" height="74">
+    <object id="26" gid="476" type="obj_markerA" x="26" y="296" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="102089"/>
       </properties>
     </object>
-    <object id="27" gid="571" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+    <object id="27" gid="477" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102090"/>
       </properties>
     </object>
-    <object id="28" gid="571" type="obj_solidblocksized" x="40" y="200" width="40" height="40">
+    <object id="28" gid="477" type="obj_solidblocksized" x="40" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102091"/>
       </properties>
     </object>
-    <object id="29" gid="571" type="obj_solidblocksized" x="600" y="240" width="40" height="40">
+    <object id="29" gid="477" type="obj_solidblocksized" x="600" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102092"/>
       </properties>
     </object>
-    <object id="30" gid="571" type="obj_solidblocksized" x="200" y="400" width="40" height="40">
+    <object id="30" gid="477" type="obj_solidblocksized" x="200" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102093"/>
       </properties>
     </object>
-    <object id="31" gid="571" type="obj_solidblocksized" x="40" y="400" width="40" height="40">
+    <object id="31" gid="477" type="obj_solidblocksized" x="40" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102094"/>
       </properties>
     </object>
-    <object id="32" gid="571" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
+    <object id="32" gid="477" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102095"/>
       </properties>
     </object>
-    <object id="33" gid="571" type="obj_solidblocksized" x="200" y="320" width="40" height="40">
+    <object id="33" gid="477" type="obj_solidblocksized" x="200" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102096"/>
       </properties>
     </object>
-    <object id="34" gid="571" type="obj_solidblocksized" x="280" y="320" width="40" height="40">
+    <object id="34" gid="477" type="obj_solidblocksized" x="280" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102097"/>
       </properties>
     </object>
-    <object id="35" gid="571" type="obj_solidblocksized" x="360" y="320" width="40" height="40">
+    <object id="35" gid="477" type="obj_solidblocksized" x="360" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102098"/>
       </properties>
     </object>
-    <object id="36" gid="571" type="obj_solidblocksized" x="440" y="320" width="40" height="40">
+    <object id="36" gid="477" type="obj_solidblocksized" x="440" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102099"/>
       </properties>
     </object>
-    <object id="37" gid="571" type="obj_solidblocksized" x="200" y="240" width="40" height="40">
+    <object id="37" gid="477" type="obj_solidblocksized" x="200" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102100"/>
       </properties>
     </object>
-    <object id="38" gid="571" type="obj_solidblocksized" x="280" y="240" width="40" height="40">
+    <object id="38" gid="477" type="obj_solidblocksized" x="280" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102101"/>
       </properties>
     </object>
-    <object id="39" gid="571" type="obj_solidblocksized" x="360" y="240" width="40" height="40">
+    <object id="39" gid="477" type="obj_solidblocksized" x="360" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102102"/>
       </properties>
     </object>
-    <object id="40" gid="571" type="obj_solidblocksized" x="440" y="240" width="40" height="40">
+    <object id="40" gid="477" type="obj_solidblocksized" x="440" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102103"/>
       </properties>
     </object>
-    <object id="41" gid="571" type="obj_solidblocksized" x="80" y="480" width="40" height="40">
+    <object id="41" gid="477" type="obj_solidblocksized" x="80" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102104"/>
       </properties>
     </object>
-    <object id="42" gid="571" type="obj_solidblocksized" x="200" y="440" width="40" height="40">
+    <object id="42" gid="477" type="obj_solidblocksized" x="200" y="440" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102105"/>
       </properties>
     </object>
-    <object id="43" gid="572" type="obj_cyber_wall_lights" x="0" y="360" width="40" height="40">
+    <object id="43" gid="478" type="obj_cyber_wall_lights" x="0" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102106"/>
       </properties>
     </object>
-    <object id="44" gid="572" type="obj_cyber_wall_lights" x="80" y="480" width="40" height="40">
+    <object id="44" gid="478" type="obj_cyber_wall_lights" x="80" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102107"/>
       </properties>
     </object>
-    <object id="45" gid="572" type="obj_cyber_wall_lights" x="199" y="410" width="40" height="40">
+    <object id="45" gid="478" type="obj_cyber_wall_lights" x="199" y="410" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102108"/>
       </properties>
     </object>
-    <object id="46" gid="572" type="obj_cyber_wall_lights" x="532" y="401" width="40" height="40">
+    <object id="46" gid="478" type="obj_cyber_wall_lights" x="532" y="401" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102109"/>
       </properties>
     </object>
-    <object id="47" gid="573" type="obj_cyber_light_standalone" x="272" y="444" width="8" height="8">
+    <object id="47" gid="479" type="obj_cyber_light_standalone" x="272" y="444" width="8" height="8">
       <properties>
         <property name="instanceId" type="int" value="102110"/>
       </properties>
     </object>
-    <object id="48" gid="573" type="obj_cyber_light_standalone" x="358" y="445" width="8" height="8">
+    <object id="48" gid="479" type="obj_cyber_light_standalone" x="358" y="445" width="8" height="8">
       <properties>
         <property name="instanceId" type="int" value="102111"/>
       </properties>
     </object>
-    <object id="49" gid="573" type="obj_cyber_light_standalone" x="472" y="444" width="8" height="8">
+    <object id="49" gid="479" type="obj_cyber_light_standalone" x="472" y="444" width="8" height="8">
       <properties>
         <property name="instanceId" type="int" value="102112"/>
       </properties>
     </object>
-    <object id="50" gid="574" type="obj_cyber_hole_lights" x="200" y="240" width="40" height="40">
+    <object id="50" gid="480" type="obj_cyber_hole_lights" x="200" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102113"/>
       </properties>
     </object>
-    <object id="51" gid="574" type="obj_cyber_hole_lights" x="280" y="240" width="40" height="40">
+    <object id="51" gid="480" type="obj_cyber_hole_lights" x="280" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102114"/>
       </properties>
     </object>
-    <object id="52" gid="574" type="obj_cyber_hole_lights" x="360" y="240" width="40" height="40">
+    <object id="52" gid="480" type="obj_cyber_hole_lights" x="360" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102115"/>
       </properties>
     </object>
-    <object id="53" gid="574" type="obj_cyber_hole_lights" x="440" y="240" width="40" height="40">
+    <object id="53" gid="480" type="obj_cyber_hole_lights" x="440" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102116"/>
       </properties>
     </object>
-    <object id="54" gid="574" type="obj_cyber_hole_lights" x="440" y="320" width="40" height="40">
+    <object id="54" gid="480" type="obj_cyber_hole_lights" x="440" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102117"/>
       </properties>
     </object>
-    <object id="55" gid="574" type="obj_cyber_hole_lights" x="360" y="320" width="40" height="40">
+    <object id="55" gid="480" type="obj_cyber_hole_lights" x="360" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102118"/>
       </properties>
     </object>
-    <object id="56" gid="574" type="obj_cyber_hole_lights" x="280" y="320" width="40" height="40">
+    <object id="56" gid="480" type="obj_cyber_hole_lights" x="280" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102119"/>
       </properties>
     </object>
-    <object id="57" gid="574" type="obj_cyber_hole_lights" x="200" y="320" width="40" height="40">
+    <object id="57" gid="480" type="obj_cyber_hole_lights" x="200" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="102120"/>
       </properties>
