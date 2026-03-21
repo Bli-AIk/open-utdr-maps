@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="20" backgroundcolor="#000000">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="20" backgroundcolor="#000000">
   <properties>
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_endtileset.tsx"/>
   <tileset firstgid="120" source="tilesets/bg_beachicecream.tsx"/>
-  <tileset firstgid="121" source="tilesets/obj_endbeachanim.tsx"/>
-  <layer id="1" name="depth_1000000" width="16" height="12">
-    <data encoding="csv">29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  <tileset firstgid="121" source="tilesets/free_tile_p11_1484_352_20x60.tsx"/>
+  <tileset firstgid="122" source="tilesets/free_tile_p11_1484_412_20x60.tsx"/>
+  <tileset firstgid="123" source="tilesets/free_tile_p11_112_1440_57x56.tsx"/>
+  <tileset firstgid="124" source="tilesets/obj_endbeachanim.tsx"/>
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="2" name="depth_1000000_tiles">
-    <object id="1" gid="36" x="0" y="140" width="20" height="60"/>
-    <object id="2" gid="36" x="20" y="140" width="20" height="60"/>
-    <object id="3" gid="36" x="40" y="140" width="20" height="60"/>
-    <object id="4" gid="36" x="60" y="140" width="20" height="60"/>
-    <object id="5" gid="36" x="80" y="140" width="20" height="60"/>
-    <object id="6" gid="36" x="100" y="140" width="20" height="60"/>
-    <object id="7" gid="36" x="120" y="140" width="20" height="60"/>
-    <object id="8" gid="36" x="140" y="140" width="20" height="60"/>
-    <object id="9" gid="57" x="0" y="240" width="20" height="60"/>
-    <object id="10" gid="57" x="20" y="240" width="20" height="60"/>
-    <object id="11" gid="57" x="40" y="240" width="20" height="60"/>
-    <object id="12" gid="57" x="60" y="240" width="20" height="60"/>
-    <object id="13" gid="57" x="80" y="240" width="20" height="60"/>
-    <object id="14" gid="57" x="100" y="240" width="20" height="60"/>
-    <object id="15" gid="57" x="120" y="240" width="20" height="60"/>
-    <object id="16" gid="57" x="140" y="240" width="20" height="60"/>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="121" x="0" y="140" width="20" height="60"/>
+    <object id="2" gid="121" x="20" y="140" width="20" height="60"/>
+    <object id="3" gid="121" x="40" y="140" width="20" height="60"/>
+    <object id="4" gid="121" x="60" y="140" width="20" height="60"/>
+    <object id="5" gid="121" x="80" y="140" width="20" height="60"/>
+    <object id="6" gid="121" x="100" y="140" width="20" height="60"/>
+    <object id="7" gid="121" x="120" y="140" width="20" height="60"/>
+    <object id="8" gid="121" x="140" y="140" width="20" height="60"/>
   </objectgroup>
-  <objectgroup id="3" name="depth_900000_tiles">
-    <object id="17" gid="120" x="103" y="56" width="57" height="56"/>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="9" gid="122" x="0" y="240" width="20" height="60"/>
+    <object id="10" gid="122" x="20" y="240" width="20" height="60"/>
+    <object id="11" gid="122" x="40" y="240" width="20" height="60"/>
+    <object id="12" gid="122" x="60" y="240" width="20" height="60"/>
+    <object id="13" gid="122" x="80" y="240" width="20" height="60"/>
+    <object id="14" gid="122" x="100" y="240" width="20" height="60"/>
+    <object id="15" gid="122" x="120" y="240" width="20" height="60"/>
+    <object id="16" gid="122" x="140" y="240" width="20" height="60"/>
   </objectgroup>
-  <objectgroup id="4" name="objects">
-    <object id="18" gid="121" type="obj_endbeachanim" x="94" y="95" width="21" height="31">
+  <objectgroup id="5" name="depth_900000_free_0">
+    <object id="17" gid="123" x="103" y="56" width="57" height="56"/>
+  </objectgroup>
+  <objectgroup id="6" name="objects">
+    <object id="18" gid="124" type="obj_endbeachanim" x="94" y="95" width="21" height="31">
       <properties>
         <property name="instanceId" type="int" value="113483"/>
       </properties>
     </object>
   </objectgroup>
-  <objectgroup id="5" name="views">
+  <objectgroup id="7" name="views">
     <object id="19" class="view" x="160" y="0" width="320" height="240">
       <properties>
         <property name="portX" type="int" value="0"/>

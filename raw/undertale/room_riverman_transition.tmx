@@ -4,66 +4,67 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx"/>
-  <tileset firstgid="361" source="tilesets/obj_dogboat_thing.tsx"/>
-  <tileset firstgid="362" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="363" source="tilesets/obj_markerX.tsx"/>
-  <tileset firstgid="364" source="tilesets/obj_overworldcontroller.tsx"/>
-  <layer id="1" name="depth_1000000" width="33" height="12">
+  <tileset firstgid="361" source="tilesets/free_tile_p10_124_184_20x60.tsx"/>
+  <tileset firstgid="362" source="tilesets/obj_dogboat_thing.tsx"/>
+  <tileset firstgid="363" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="364" source="tilesets/obj_markerX.tsx"/>
+  <tileset firstgid="365" source="tilesets/obj_overworldcontroller.tsx"/>
+  <layer id="1" name="depth_1000000_grid_0" width="33" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="2" name="depth_1000000_tiles">
-    <object id="1" gid="169" x="0" y="200" width="20" height="60"/>
-    <object id="2" gid="169" x="20" y="200" width="20" height="60"/>
-    <object id="3" gid="169" x="40" y="200" width="20" height="60"/>
-    <object id="4" gid="169" x="60" y="200" width="20" height="60"/>
-    <object id="5" gid="169" x="80" y="200" width="20" height="60"/>
-    <object id="6" gid="169" x="100" y="200" width="20" height="60"/>
-    <object id="7" gid="169" x="120" y="200" width="20" height="60"/>
-    <object id="8" gid="169" x="140" y="200" width="20" height="60"/>
-    <object id="9" gid="169" x="160" y="200" width="20" height="60"/>
-    <object id="10" gid="169" x="180" y="200" width="20" height="60"/>
-    <object id="11" gid="169" x="200" y="200" width="20" height="60"/>
-    <object id="12" gid="169" x="220" y="200" width="20" height="60"/>
-    <object id="13" gid="169" x="240" y="200" width="20" height="60"/>
-    <object id="14" gid="169" x="260" y="200" width="20" height="60"/>
-    <object id="15" gid="169" x="280" y="200" width="20" height="60"/>
-    <object id="16" gid="169" x="300" y="200" width="20" height="60"/>
-    <object id="17" gid="169" x="320" y="200" width="20" height="60"/>
-    <object id="18" gid="169" x="340" y="200" width="20" height="60"/>
-    <object id="19" gid="169" x="360" y="200" width="20" height="60"/>
-    <object id="20" gid="169" x="380" y="200" width="20" height="60"/>
-    <object id="21" gid="169" x="400" y="200" width="20" height="60"/>
-    <object id="22" gid="169" x="420" y="200" width="20" height="60"/>
-    <object id="23" gid="169" x="440" y="200" width="20" height="60"/>
-    <object id="24" gid="169" x="460" y="200" width="20" height="60"/>
-    <object id="25" gid="169" x="480" y="200" width="20" height="60"/>
-    <object id="26" gid="169" x="500" y="200" width="20" height="60"/>
-    <object id="27" gid="169" x="520" y="200" width="20" height="60"/>
-    <object id="28" gid="169" x="540" y="200" width="20" height="60"/>
-    <object id="29" gid="169" x="560" y="200" width="20" height="60"/>
-    <object id="30" gid="169" x="580" y="200" width="20" height="60"/>
-    <object id="31" gid="169" x="600" y="200" width="20" height="60"/>
-    <object id="32" gid="169" x="620" y="200" width="20" height="60"/>
-    <object id="33" gid="169" x="640" y="200" width="20" height="60"/>
-    <object id="34" gid="169" x="660" y="200" width="20" height="60"/>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="361" x="0" y="200" width="20" height="60"/>
+    <object id="2" gid="361" x="20" y="200" width="20" height="60"/>
+    <object id="3" gid="361" x="40" y="200" width="20" height="60"/>
+    <object id="4" gid="361" x="60" y="200" width="20" height="60"/>
+    <object id="5" gid="361" x="80" y="200" width="20" height="60"/>
+    <object id="6" gid="361" x="100" y="200" width="20" height="60"/>
+    <object id="7" gid="361" x="120" y="200" width="20" height="60"/>
+    <object id="8" gid="361" x="140" y="200" width="20" height="60"/>
+    <object id="9" gid="361" x="160" y="200" width="20" height="60"/>
+    <object id="10" gid="361" x="180" y="200" width="20" height="60"/>
+    <object id="11" gid="361" x="200" y="200" width="20" height="60"/>
+    <object id="12" gid="361" x="220" y="200" width="20" height="60"/>
+    <object id="13" gid="361" x="240" y="200" width="20" height="60"/>
+    <object id="14" gid="361" x="260" y="200" width="20" height="60"/>
+    <object id="15" gid="361" x="280" y="200" width="20" height="60"/>
+    <object id="16" gid="361" x="300" y="200" width="20" height="60"/>
+    <object id="17" gid="361" x="320" y="200" width="20" height="60"/>
+    <object id="18" gid="361" x="340" y="200" width="20" height="60"/>
+    <object id="19" gid="361" x="360" y="200" width="20" height="60"/>
+    <object id="20" gid="361" x="380" y="200" width="20" height="60"/>
+    <object id="21" gid="361" x="400" y="200" width="20" height="60"/>
+    <object id="22" gid="361" x="420" y="200" width="20" height="60"/>
+    <object id="23" gid="361" x="440" y="200" width="20" height="60"/>
+    <object id="24" gid="361" x="460" y="200" width="20" height="60"/>
+    <object id="25" gid="361" x="480" y="200" width="20" height="60"/>
+    <object id="26" gid="361" x="500" y="200" width="20" height="60"/>
+    <object id="27" gid="361" x="520" y="200" width="20" height="60"/>
+    <object id="28" gid="361" x="540" y="200" width="20" height="60"/>
+    <object id="29" gid="361" x="560" y="200" width="20" height="60"/>
+    <object id="30" gid="361" x="580" y="200" width="20" height="60"/>
+    <object id="31" gid="361" x="600" y="200" width="20" height="60"/>
+    <object id="32" gid="361" x="620" y="200" width="20" height="60"/>
+    <object id="33" gid="361" x="640" y="200" width="20" height="60"/>
+    <object id="34" gid="361" x="660" y="200" width="20" height="60"/>
   </objectgroup>
   <objectgroup id="3" name="objects">
-    <object id="35" gid="361" type="obj_dogboat_thing" x="355" y="159" width="84" height="34">
+    <object id="35" gid="362" type="obj_dogboat_thing" x="355" y="159" width="84" height="34">
       <properties>
         <property name="instanceId" type="int" value="113993"/>
       </properties>
     </object>
-    <object id="36" gid="362" type="obj_mainchara" x="140" y="129" width="19" height="29">
+    <object id="36" gid="363" type="obj_mainchara" x="140" y="129" width="19" height="29">
       <properties>
         <property name="instanceId" type="int" value="113994"/>
       </properties>
     </object>
-    <object id="37" gid="363" type="obj_markerX" x="140" y="160" width="20" height="20">
+    <object id="37" gid="364" type="obj_markerX" x="140" y="160" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="113995"/>
       </properties>
     </object>
-    <object id="38" gid="364" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
+    <object id="38" gid="365" type="obj_overworldcontroller" x="20" y="44" width="16" height="24">
       <properties>
         <property name="instanceId" type="int" value="113996"/>
       </properties>

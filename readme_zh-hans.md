@@ -12,9 +12,9 @@
 **[Undertale](https://undertale.com/) / [Deltarune](https://deltarune.com/)** 开放地图仓库，
 所有地图采用 [Tiled](https://www.mapeditor.org/) 格式。
 
-| 英语                     | 简体中文 |
-|------------------------|------|
-| [English](./README.md) | 简体中文 |
+| 英语 | 简体中文 |
+|------|----------|
+| [English](./readme.md) | 简体中文 |
 
 ## 🤔 这是什么？
 
@@ -26,9 +26,9 @@
 我们将 Undertale 和 Deltarune（第 1–4 章）的所有房间都转换成了
 **[Tiled](https://www.mapeditor.org/) TMX/TSX 格式** ——
 总计 **1,333 个房间**。
-这些地图由程序从游戏数据自动转换而来，虽然大部分在视觉上是准确的，
-但**部分房间可能存在渲染瑕疵、图层缺失或瓦片错位等问题**。
-质量因房间而异——详见下方的精度说明。
+这些地图由程序从游戏数据自动转换而来，虽然很多房间在结构上已经比较准确，
+但**部分房间仍可能存在渲染瑕疵、对象支撑细节缺失或图层顺序不正确等问题**。
+质量因房间而异——详见下方的验证说明。
 
 ### 为什么选择 Tiled？
 
@@ -110,17 +110,18 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
 
 ## 📊 已有内容
 
-| 游戏 | 房间数 | 自动转换质量 |
-|------|--------|-------------|
-| Undertale | 335 | ⚠️ 主要关卡还原较好，部分房间有待改善 |
-| Deltarune Ch1 | 147 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
-| Deltarune Ch2 | 278 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
-| Deltarune Ch3 | 246 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
-| Deltarune Ch4 | 327 | ⚠️ 主要关卡还原较好，次要房间质量参差 |
+| 游戏 | 房间数 | 当前回归状态 |
+|------|--------|--------------|
+| Undertale | 335 | 265 `PASS` / 70 `NO_STATIC_MAP` / 0 `FAIL` |
+| Deltarune Ch1 | 147 | 111 `PASS` / 36 `NO_STATIC_MAP` / 0 `FAIL` |
+| Deltarune Ch2 | 278 | 204 `PASS` / 74 `NO_STATIC_MAP` / 0 `FAIL` |
+| Deltarune Ch3 | 246 | 160 `PASS` / 86 `NO_STATIC_MAP` / 0 `FAIL` |
+| Deltarune Ch4 | 327 | 231 `PASS` / 96 `NO_STATIC_MAP` / 0 `FAIL` |
 
-> 全部 **1,333 个房间** 均已自动转换。自动化像素级测试能捕获许多问题，
-> 但**部分地图仍可能存在视觉上的不准确** — 缺失瓦片、图层错误或转换瑕疵等。
-> 非常欢迎帮助发现和修复这些问题！
+> 全部 **1,333 个房间** 均已自动转换。
+> `PASS` 表示房间中的静态地图内容已经与独立参考渲染器逐像素匹配。
+> `NO_STATIC_MAP` 表示房间虽然转换成功，但其可见结果主要依赖对象、脚本或运行时绘制，
+> 暂时不适合用静态瓦片基线做阻塞性判定，因此仍需要人工审查。
 
 ## 🚀 快速开始
 
@@ -135,23 +136,24 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
    ```
    raw/undertale/room_ruins1.tmx
    ```
-4. 完成！贴图会从相邻的 `tilesets/` 文件夹自动加载。
+4. 完成！相关资源会从相邻的 `tilesets/`、`textures/`、`sprites/` 和 `tile_objects/` 文件夹自动加载。
 
 ### 目录浏览
 
 ```
 raw/
-├── undertale/          # 全部 335 个 Undertale 房间
+├── undertale/
 │   ├── room_ruins1.tmx
-│   ├── room_ruins2.tmx
-│   ├── ...
-│   └── tilesets/       # 共享贴图集文件（.tsx + .png）
+│   ├── sprites/
+│   ├── textures/
+│   ├── tile_objects/
+│   └── tilesets/
 │
 └── deltarune/
-    ├── ch1/            # 147 个房间 + tilesets/
-    ├── ch2/            # 278 个房间 + tilesets/
-    ├── ch3/            # 246 个房间 + tilesets/
-    └── ch4/            # 327 个房间 + tilesets/
+    ├── deltarune_ch1/
+    ├── deltarune_ch2/
+    ├── deltarune_ch3/
+    └── deltarune_ch4/
 ```
 
 ## 📂 仓库结构
@@ -161,13 +163,13 @@ open-utdr-maps/
 ├── raw/                    # 自动转换的原始地图（由 gm2tiled 生成，请勿手动修改）
 ├── curated/                # 社区整理版（清理、标注后的版本）
 ├── tilesets/               # 标准化贴图集（预留）
-├── docs/                   # 文档
-│   ├── copyright.md        # 版权与法律声明
+├── docs/
+│   ├── conversion_spec_en.md
+│   ├── conversion_spec_zh-hans.md
+│   ├── copyright_en.md
 │   ├── copyright_zh-hans.md
-│   ├── layer_spec.md       # 图层命名规范
-│   ├── layer_spec_zh-hans.md
-│   ├── conversion_spec.md  # 地图转换说明
-│   └── conversion_spec_zh-hans.md
+│   ├── layer_spec_en.md
+│   └── layer_spec_zh-hans.md
 ├── conversion_info/        # 转换元数据（TOML）
 └── scripts/                # 自动化脚本
 ```
@@ -181,8 +183,9 @@ open-utdr-maps/
 
 转换处理了以下技术细节：
 - GMS1 传统瓦片和 GMS2 原生瓦片图层
+- 通过生成 `tile_objects/` 资源处理非网格对齐或混合尺寸的零散瓦片
 - 贴图集边框和间距（GMS2 `OutputBorderX/Y`）
-- 瓦片图层网格缩放（如 40×40 瓦片在 20×20 地图网格上的处理）
+- 房间级别的 tile grid 检测
 - 瓦片翻转/旋转标志
 - 游戏对象实例和摄像机视图
 
@@ -190,9 +193,10 @@ open-utdr-maps/
 
 ### 验证体系
 
-每个转换后的房间都通过自动化视觉回归测试进行检查——
-将 TMX 输出（由 `tmxrasterizer` 渲染）与从原始瓦片数据独立渲染的参考图进行逐像素对比。
-但**这些测试并不能捕获所有问题** — 部分房间仍可能存在需要人工审查的视觉瑕疵。
+每个转换后的房间都通过 `gm2tiled_regress` 进行自动化逐像素回归检查。
+该工具会分别渲染原始静态地图数据和转换后的 Tiled 模型，再逐像素比较结果。
+没有稳定静态地图基线的房间会被记为 `NO_STATIC_MAP`，而不是直接记为 `FAIL`，
+这类房间仍然需要人工审查。
 
 ## 🌟 相关项目
 

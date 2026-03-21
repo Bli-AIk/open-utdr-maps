@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="102" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="40">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="51" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="40">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_backstage_tileset.tsx"/>
-  <tileset firstgid="375" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx"/>
-  <tileset firstgid="531" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
-  <tileset firstgid="565" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="566" source="tilesets/obj_savepoint.tsx"/>
-  <tileset firstgid="567" source="tilesets/obj_musicer_teevie.tsx"/>
-  <tileset firstgid="568" source="tilesets/obj_room_teevie_intro.tsx"/>
-  <tileset firstgid="569" source="tilesets/obj_posterchecker.tsx"/>
-  <tileset firstgid="570" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="571" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="572" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="573" source="tilesets/obj_dw_ch3_funny_stanchion_controller.tsx"/>
-  <tileset firstgid="574" source="tilesets/obj_dw_ch3_teevie_floor_light.tsx"/>
-  <tileset firstgid="575" source="tilesets/obj_dw_ch3_teevie_screen_gold.tsx"/>
-  <tileset firstgid="576" source="tilesets/obj_dw_teevie_statue.tsx"/>
-  <tileset firstgid="577" source="tilesets/obj_shortcut_door.tsx"/>
-  <tileset firstgid="578" source="tilesets/obj_dw_teevie_cameras.tsx"/>
+  <tileset firstgid="441" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx"/>
+  <tileset firstgid="623" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="659" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="660" source="tilesets/obj_savepoint.tsx"/>
+  <tileset firstgid="661" source="tilesets/obj_musicer_teevie.tsx"/>
+  <tileset firstgid="662" source="tilesets/obj_room_teevie_intro.tsx"/>
+  <tileset firstgid="663" source="tilesets/obj_posterchecker.tsx"/>
+  <tileset firstgid="664" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="665" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="666" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="667" source="tilesets/obj_dw_ch3_funny_stanchion_controller.tsx"/>
+  <tileset firstgid="668" source="tilesets/obj_dw_ch3_teevie_floor_light.tsx"/>
+  <tileset firstgid="669" source="tilesets/obj_dw_ch3_teevie_screen_gold.tsx"/>
+  <tileset firstgid="670" source="tilesets/obj_dw_teevie_statue.tsx"/>
+  <tileset firstgid="671" source="tilesets/obj_shortcut_door.tsx"/>
+  <tileset firstgid="672" source="tilesets/obj_dw_teevie_cameras.tsx"/>
   <layer id="1" name="TILES_Dither" width="51" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630,630</data>
   </layer>
   <layer id="2" name="TILES_Carpet" width="51" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,401,400,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,395,394,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,421,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,467,466,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,461,460,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <layer id="3" name="TILES_BG" width="51" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,377,378,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,376,377,377,377,377,377,377,377,377,377,377,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,383,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,383,383,383,383,383,383,383,383,383,383,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,388,389,389,389,389,389,389,389,389,389,389,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,414,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,420,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,426,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,415,402,407,407,402,407,407,402,407,407,402,407,407,402,407,407,402,407,407,402,407,407,402,407,407,407,407,407,407,407,407,407,407,407,407,407,407,407,407,407,407,407,407,402,407,407,402,407,407,402,407,407,408,0,0,408,0,0,408,0,0,408,0,0,408,0,0,408,0,0,408,0,0,408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,408,0,0,408,0,0,408,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,443,444,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,442,443,443,443,443,443,443,443,443,443,443,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,450,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,448,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,449,450,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,448,449,449,449,449,449,449,449,449,449,449,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,455,456,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,454,455,455,455,455,455,455,455,455,455,455,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,480,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,486,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,492,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,481,468,473,473,468,473,473,468,473,473,468,473,473,468,473,473,468,473,473,468,473,473,468,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,473,468,473,473,468,473,473,468,473,473,474,0,0,474,0,0,474,0,0,474,0,0,474,0,0,474,0,0,474,0,0,474,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,474,0,0,474,0,0,474,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <layer id="4" name="TILES_Props2" width="51" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
@@ -36,7 +36,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,0,0,0,0,0,0,52,53,0,0,0,0,0,0,21,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,0,0,30,31,0,0,0,0,0,0,63,64,0,0,0,0,0,0,32,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,31,0,0,41,42,0,0,0,0,0,0,74,75,0,0,0,0,0,0,43,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="6" name="objects">
-    <object id="1" gid="565" type="obj_mainchara" x="1663" y="223" width="19" height="37">
+    <object id="1" gid="659" type="obj_mainchara" x="1663" y="223" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="108565"/>
       </properties>
@@ -46,12 +46,12 @@
         <property name="instanceId" type="int" value="108566"/>
       </properties>
     </object>
-    <object id="3" gid="566" type="obj_savepoint" x="1664" y="215" width="20" height="19">
+    <object id="3" gid="660" type="obj_savepoint" x="1664" y="215" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="108567"/>
       </properties>
     </object>
-    <object id="4" gid="567" type="obj_musicer_teevie" x="80" y="24" width="26" height="24">
+    <object id="4" gid="661" type="obj_musicer_teevie" x="80" y="24" width="26" height="24">
       <properties>
         <property name="instanceId" type="int" value="108568"/>
       </properties>
@@ -61,157 +61,157 @@
         <property name="instanceId" type="int" value="108569"/>
       </properties>
     </object>
-    <object id="6" gid="568" type="obj_room_teevie_intro" x="40" y="20" width="20" height="20">
+    <object id="6" gid="662" type="obj_room_teevie_intro" x="40" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="108570"/>
       </properties>
     </object>
-    <object id="7" gid="569" type="obj_posterchecker" x="-120" y="43" width="32" height="43">
+    <object id="7" gid="663" type="obj_posterchecker" x="-120" y="43" width="32" height="43">
       <properties>
         <property name="instanceId" type="int" value="108571"/>
       </properties>
     </object>
-    <object id="8" gid="570" type="obj_solidblocksized" x="-40" y="200" width="40" height="40">
+    <object id="8" gid="664" type="obj_solidblocksized" x="-40" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108572"/>
       </properties>
     </object>
-    <object id="9" gid="571" type="obj_doorAny" x="-40" y="240" width="40" height="40">
+    <object id="9" gid="665" type="obj_doorAny" x="-40" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108573"/>
       </properties>
     </object>
-    <object id="10" gid="571" type="obj_doorAny" x="2040" y="240" width="40" height="40">
+    <object id="10" gid="665" type="obj_doorAny" x="2040" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108574"/>
       </properties>
     </object>
-    <object id="11" gid="572" type="obj_markerAny" x="40" y="274" width="38" height="74">
+    <object id="11" gid="666" type="obj_markerAny" x="40" y="274" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108575"/>
       </properties>
     </object>
-    <object id="12" gid="572" type="obj_markerAny" x="1984" y="263" width="38" height="74">
+    <object id="12" gid="666" type="obj_markerAny" x="1984" y="263" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108576"/>
       </properties>
     </object>
-    <object id="13" gid="570" type="obj_solidblocksized" x="-40" y="360" width="40" height="40">
+    <object id="13" gid="664" type="obj_solidblocksized" x="-40" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="108577"/>
       </properties>
     </object>
-    <object id="14" gid="573" type="obj_dw_ch3_funny_stanchion_controller" x="1000" y="218" width="20" height="21">
+    <object id="14" gid="667" type="obj_dw_ch3_funny_stanchion_controller" x="1000" y="218" width="20" height="21">
       <properties>
         <property name="instanceId" type="int" value="108578"/>
       </properties>
     </object>
-    <object id="15" gid="573" type="obj_dw_ch3_funny_stanchion_controller" x="0" y="318" width="20" height="21">
+    <object id="15" gid="667" type="obj_dw_ch3_funny_stanchion_controller" x="0" y="318" width="20" height="21">
       <properties>
         <property name="instanceId" type="int" value="108579"/>
       </properties>
     </object>
-    <object id="16" gid="574" type="obj_dw_ch3_teevie_floor_light" x="60" y="208" width="10" height="8">
+    <object id="16" gid="668" type="obj_dw_ch3_teevie_floor_light" x="60" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108580"/>
       </properties>
     </object>
-    <object id="17" gid="574" type="obj_dw_ch3_teevie_floor_light" x="220" y="208" width="10" height="8">
+    <object id="17" gid="668" type="obj_dw_ch3_teevie_floor_light" x="220" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108581"/>
       </properties>
     </object>
-    <object id="18" gid="574" type="obj_dw_ch3_teevie_floor_light" x="380" y="208" width="10" height="8">
+    <object id="18" gid="668" type="obj_dw_ch3_teevie_floor_light" x="380" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108582"/>
       </properties>
     </object>
-    <object id="19" gid="574" type="obj_dw_ch3_teevie_floor_light" x="540" y="208" width="10" height="8">
+    <object id="19" gid="668" type="obj_dw_ch3_teevie_floor_light" x="540" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108583"/>
       </properties>
     </object>
-    <object id="20" gid="574" type="obj_dw_ch3_teevie_floor_light" x="700" y="208" width="10" height="8">
+    <object id="20" gid="668" type="obj_dw_ch3_teevie_floor_light" x="700" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108584"/>
       </properties>
     </object>
-    <object id="21" gid="574" type="obj_dw_ch3_teevie_floor_light" x="860" y="208" width="10" height="8">
+    <object id="21" gid="668" type="obj_dw_ch3_teevie_floor_light" x="860" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108585"/>
       </properties>
     </object>
-    <object id="22" gid="574" type="obj_dw_ch3_teevie_floor_light" x="1940" y="208" width="10" height="8">
+    <object id="22" gid="668" type="obj_dw_ch3_teevie_floor_light" x="1940" y="208" width="10" height="8">
       <properties>
         <property name="instanceId" type="int" value="108586"/>
       </properties>
     </object>
-    <object id="23" gid="575" type="obj_dw_ch3_teevie_screen_gold" x="200" y="142" width="80" height="62">
+    <object id="23" gid="669" type="obj_dw_ch3_teevie_screen_gold" x="200" y="142" width="80" height="62">
       <properties>
         <property name="instanceId" type="int" value="108587"/>
       </properties>
     </object>
-    <object id="24" gid="575" type="obj_dw_ch3_teevie_screen_gold" x="520" y="142" width="80" height="62">
+    <object id="24" gid="669" type="obj_dw_ch3_teevie_screen_gold" x="520" y="142" width="80" height="62">
       <properties>
         <property name="instanceId" type="int" value="108588"/>
       </properties>
     </object>
-    <object id="25" gid="575" type="obj_dw_ch3_teevie_screen_gold" x="840" y="142" width="80" height="62">
+    <object id="25" gid="669" type="obj_dw_ch3_teevie_screen_gold" x="840" y="142" width="80" height="62">
       <properties>
         <property name="instanceId" type="int" value="108589"/>
       </properties>
     </object>
-    <object id="26" gid="575" type="obj_dw_ch3_teevie_screen_gold" x="1640" y="142" width="80" height="62">
+    <object id="26" gid="669" type="obj_dw_ch3_teevie_screen_gold" x="1640" y="142" width="80" height="62">
       <properties>
         <property name="instanceId" type="int" value="108590"/>
       </properties>
     </object>
-    <object id="27" gid="576" type="obj_dw_teevie_statue" x="120" y="222" width="62" height="142">
+    <object id="27" gid="670" type="obj_dw_teevie_statue" x="120" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108591"/>
       </properties>
     </object>
-    <object id="28" gid="576" type="obj_dw_teevie_statue" x="360" y="222" width="62" height="142">
+    <object id="28" gid="670" type="obj_dw_teevie_statue" x="360" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108592"/>
       </properties>
     </object>
-    <object id="29" gid="576" type="obj_dw_teevie_statue" x="440" y="222" width="62" height="142">
+    <object id="29" gid="670" type="obj_dw_teevie_statue" x="440" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108593"/>
       </properties>
     </object>
-    <object id="30" gid="576" type="obj_dw_teevie_statue" x="680" y="222" width="62" height="142">
+    <object id="30" gid="670" type="obj_dw_teevie_statue" x="680" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108594"/>
       </properties>
     </object>
-    <object id="31" gid="576" type="obj_dw_teevie_statue" x="760" y="222" width="62" height="142">
+    <object id="31" gid="670" type="obj_dw_teevie_statue" x="760" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108595"/>
       </properties>
     </object>
-    <object id="32" gid="576" type="obj_dw_teevie_statue" x="1000" y="222" width="62" height="142">
+    <object id="32" gid="670" type="obj_dw_teevie_statue" x="1000" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108596"/>
       </properties>
     </object>
-    <object id="33" gid="576" type="obj_dw_teevie_statue" x="1560" y="222" width="62" height="142">
+    <object id="33" gid="670" type="obj_dw_teevie_statue" x="1560" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108597"/>
       </properties>
     </object>
-    <object id="34" gid="576" type="obj_dw_teevie_statue" x="1800" y="222" width="62" height="142">
+    <object id="34" gid="670" type="obj_dw_teevie_statue" x="1800" y="222" width="62" height="142">
       <properties>
         <property name="instanceId" type="int" value="108598"/>
       </properties>
     </object>
-    <object id="35" gid="577" type="obj_shortcut_door" x="1814" y="151" width="36" height="49">
+    <object id="35" gid="671" type="obj_shortcut_door" x="1814" y="151" width="36" height="49">
       <properties>
         <property name="instanceId" type="int" value="108599"/>
       </properties>
     </object>
-    <object id="36" gid="572" type="obj_markerAny" x="1831" y="229" width="38" height="74">
+    <object id="36" gid="666" type="obj_markerAny" x="1831" y="229" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="108600"/>
       </properties>
@@ -221,7 +221,7 @@
         <property name="instanceId" type="int" value="108601"/>
       </properties>
     </object>
-    <object id="38" gid="578" type="obj_dw_teevie_cameras" x="960" y="140" width="20" height="20">
+    <object id="38" gid="672" type="obj_dw_teevie_cameras" x="960" y="140" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="108602"/>
       </properties>

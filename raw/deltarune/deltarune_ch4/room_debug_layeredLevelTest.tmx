@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="13">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="13">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_test_tileset.tsx"/>
-  <tileset firstgid="241" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="242" source="tilesets/obj_heightfloor.tsx"/>
-  <tileset firstgid="243" source="tilesets/obj_solidblockDark.tsx"/>
-  <tileset firstgid="244" source="tilesets/obj_climbingarea.tsx"/>
-  <tileset firstgid="245" source="tilesets/obj_heightfloor_changer.tsx"/>
+  <tileset firstgid="273" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="274" source="tilesets/obj_heightfloor.tsx"/>
+  <tileset firstgid="275" source="tilesets/obj_solidblockDark.tsx"/>
+  <tileset firstgid="276" source="tilesets/obj_climbingarea.tsx"/>
+  <tileset firstgid="277" source="tilesets/obj_heightfloor_changer.tsx"/>
   <layer id="1" name="TILES_FLOOR_0" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,5,3,3,3,3,3,3,3,3,4,0,0,8,9,9,9,9,9,9,9,9,9,9,9,9,10,0,0,14,15,15,15,15,15,15,15,15,15,15,15,15,16,0,0,20,21,21,21,21,21,21,21,21,21,21,21,21,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
@@ -16,7 +16,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,3,3,4,0,0,0,0,0,0,0,0,0,14,9,15,15,15,30,10,0,0,0,0,0,0,0,0,0,20,0,21,21,21,8,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="3" name="objects">
-    <object id="1" gid="241" type="obj_mainchara" x="80" y="277" width="19" height="37">
+    <object id="1" gid="273" type="obj_mainchara" x="80" y="277" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="101982"/>
       </properties>
@@ -26,47 +26,47 @@
         <property name="instanceId" type="int" value="101983"/>
       </properties>
     </object>
-    <object id="3" gid="242" type="obj_heightfloor" x="160" y="120" width="40" height="40">
+    <object id="3" gid="274" type="obj_heightfloor" x="160" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101984"/>
       </properties>
     </object>
-    <object id="4" gid="242" type="obj_heightfloor" x="360" y="200" width="40" height="40">
+    <object id="4" gid="274" type="obj_heightfloor" x="360" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101985"/>
       </properties>
     </object>
-    <object id="5" gid="243" type="obj_solidblockDark" x="240" y="240" width="40" height="40">
+    <object id="5" gid="275" type="obj_solidblockDark" x="240" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101986"/>
       </properties>
     </object>
-    <object id="6" gid="243" type="obj_solidblockDark" x="600" y="280" width="40" height="40">
+    <object id="6" gid="275" type="obj_solidblockDark" x="600" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101987"/>
       </properties>
     </object>
-    <object id="7" gid="243" type="obj_solidblockDark" x="0" y="400" width="40" height="40">
+    <object id="7" gid="275" type="obj_solidblockDark" x="0" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101988"/>
       </properties>
     </object>
-    <object id="8" gid="243" type="obj_solidblockDark" x="0" y="280" width="40" height="40">
+    <object id="8" gid="275" type="obj_solidblockDark" x="0" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101989"/>
       </properties>
     </object>
-    <object id="9" gid="243" type="obj_solidblockDark" x="0" y="240" width="40" height="40">
+    <object id="9" gid="275" type="obj_solidblockDark" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101990"/>
       </properties>
     </object>
-    <object id="10" gid="244" type="obj_climbingarea" x="200" y="200" width="40" height="40">
+    <object id="10" gid="276" type="obj_climbingarea" x="200" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101991"/>
       </properties>
     </object>
-    <object id="11" gid="245" type="obj_heightfloor_changer" x="200" y="200" width="40" height="40">
+    <object id="11" gid="277" type="obj_heightfloor_changer" x="200" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101992"/>
       </properties>

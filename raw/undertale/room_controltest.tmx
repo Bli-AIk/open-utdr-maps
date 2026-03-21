@@ -1,43 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="21" backgroundcolor="#000000">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="19" backgroundcolor="#000000">
   <properties>
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_smallhouse_gr.tsx"/>
   <tileset firstgid="2" source="tilesets/bg_smalltree_gr.tsx"/>
   <tileset firstgid="3" source="tilesets/bg_exitsign.tsx"/>
-  <tileset firstgid="4" source="tilesets/obj_controltest.tsx"/>
-  <objectgroup id="1" name="depth_1100000_tiles">
-    <object id="1" gid="1" x="76" y="176" width="16" height="16"/>
-    <object id="2" gid="1" x="224" y="176" width="16" height="16"/>
-    <object id="3" gid="2" x="96" y="168" width="16" height="16"/>
-    <object id="4" gid="2" x="116" y="164" width="16" height="16"/>
-    <object id="5" gid="2" x="188" y="164" width="16" height="16"/>
-    <object id="6" gid="2" x="212" y="164" width="16" height="16"/>
-    <object id="7" gid="2" x="200" y="188" width="16" height="16"/>
-    <object id="8" gid="2" x="112" y="188" width="16" height="16"/>
-    <object id="9" gid="2" x="92" y="196" width="16" height="16"/>
-    <object id="10" gid="2" x="224" y="200" width="16" height="16"/>
-    <object id="11" gid="2" x="244" y="184" width="16" height="16"/>
-    <object id="12" gid="2" x="72" y="200" width="16" height="16"/>
-    <object id="13" gid="2" x="72" y="224" width="16" height="16"/>
-    <object id="14" gid="2" x="100" y="216" width="16" height="16"/>
-    <object id="15" gid="2" x="212" y="220" width="16" height="16"/>
-    <object id="16" gid="2" x="240" y="220" width="16" height="16"/>
-    <object id="17" gid="2" x="192" y="208" width="16" height="16"/>
+  <tileset firstgid="4" source="tilesets/free_tile_p11_484_1960_16x16.tsx"/>
+  <tileset firstgid="5" source="tilesets/free_tile_p11_1616_820_16x16.tsx"/>
+  <tileset firstgid="6" source="tilesets/free_tile_p11_664_1428_66x28.tsx"/>
+  <tileset firstgid="7" source="tilesets/obj_controltest.tsx"/>
+  <objectgroup id="1" name="depth_1100000_free_0">
+    <object id="1" gid="4" x="76" y="176" width="16" height="16"/>
   </objectgroup>
-  <objectgroup id="2" name="depth_1000000_tiles">
-    <object id="18" gid="3" x="128" y="232" width="66" height="28"/>
+  <layer id="2" name="depth_1100000_grid_1" width="20" height="15">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1100000_free_2">
+    <object id="2" gid="5" x="96" y="168" width="16" height="16"/>
+    <object id="3" gid="5" x="116" y="164" width="16" height="16"/>
+    <object id="4" gid="5" x="188" y="164" width="16" height="16"/>
+    <object id="5" gid="5" x="212" y="164" width="16" height="16"/>
+    <object id="6" gid="5" x="200" y="188" width="16" height="16"/>
+    <object id="7" gid="5" x="112" y="188" width="16" height="16"/>
+    <object id="8" gid="5" x="92" y="196" width="16" height="16"/>
+    <object id="9" gid="5" x="224" y="200" width="16" height="16"/>
+    <object id="10" gid="5" x="244" y="184" width="16" height="16"/>
+    <object id="11" gid="5" x="72" y="200" width="16" height="16"/>
+    <object id="12" gid="5" x="72" y="224" width="16" height="16"/>
+    <object id="13" gid="5" x="100" y="216" width="16" height="16"/>
+    <object id="14" gid="5" x="212" y="220" width="16" height="16"/>
+    <object id="15" gid="5" x="240" y="220" width="16" height="16"/>
   </objectgroup>
-  <objectgroup id="3" name="objects">
-    <object id="19" gid="4" type="obj_controltest" x="144" y="180" width="32" height="32">
+  <layer id="4" name="depth_1100000_grid_3" width="20" height="15">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_1000000_free_0">
+    <object id="16" gid="6" x="128" y="232" width="66" height="28"/>
+  </objectgroup>
+  <objectgroup id="6" name="objects">
+    <object id="17" gid="7" type="obj_controltest" x="144" y="180" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="113492"/>
       </properties>
     </object>
   </objectgroup>
-  <objectgroup id="4" name="views">
-    <object id="20" class="view" x="0" y="0" width="320" height="240">
+  <objectgroup id="7" name="views">
+    <object id="18" class="view" x="0" y="0" width="320" height="240">
       <properties>
         <property name="portX" type="int" value="0"/>
         <property name="portY" type="int" value="0"/>

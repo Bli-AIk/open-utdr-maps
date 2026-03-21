@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="7" backgroundcolor="#000000">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="7" backgroundcolor="#000000">
   <properties>
     <property name="speed" type="int" value="30"/>
   </properties>
@@ -8,24 +8,37 @@
   <tileset firstgid="18" source="tilesets/bg_mydrawer.tsx"/>
   <tileset firstgid="19" source="tilesets/bg_mylamp.tsx"/>
   <tileset firstgid="20" source="tilesets/bg_mywindow.tsx"/>
-  <tileset firstgid="21" source="tilesets/obj_endmyroom.tsx"/>
-  <layer id="1" name="depth_1000000" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,3,5,5,5,5,5,5,5,0,0,0,0,0,0,9,5,3,5,5,5,5,5,5,5,0,0,0,0,0,9,5,5,3,5,5,5,5,5,5,5,0,0,0,0,0,0,0,6,7,2,2,2,2,2,2,2,0,0,0,0,0,0,0,10,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  <tileset firstgid="21" source="tilesets/free_tile_p7_360_1168_36x54.tsx"/>
+  <tileset firstgid="22" source="tilesets/free_tile_p7_1552_368_31x52.tsx"/>
+  <tileset firstgid="23" source="tilesets/free_tile_p7_608_1556_16x39.tsx"/>
+  <tileset firstgid="24" source="tilesets/free_tile_p7_364_568_46x44.tsx"/>
+  <tileset firstgid="25" source="tilesets/obj_endmyroom.tsx"/>
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="2" name="depth_900000_tiles">
-    <object id="1" gid="17" x="220" y="154" width="36" height="54"/>
-    <object id="2" gid="18" x="180" y="112" width="31" height="52"/>
-    <object id="3" gid="19" x="110" y="109" width="16" height="39"/>
-    <object id="4" gid="20" x="130" y="84" width="46" height="44"/>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,9,4,3,0,0,0,0,0,0,0,0,0,0,0,0,9,5,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,0,0,0,0,0,0,0,5,0,5,5,5,5,5,5,5,0,0,0,0,0,0,0,5,0,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_900000_free_0">
+    <object id="1" gid="21" x="220" y="154" width="36" height="54"/>
+    <object id="2" gid="22" x="180" y="112" width="31" height="52"/>
+    <object id="3" gid="23" x="110" y="109" width="16" height="39"/>
+    <object id="4" gid="24" x="130" y="84" width="46" height="44"/>
   </objectgroup>
-  <objectgroup id="3" name="objects">
-    <object id="5" gid="21" type="obj_endmyroom" x="40" y="158" width="40" height="78">
+  <objectgroup id="6" name="objects">
+    <object id="5" gid="25" type="obj_endmyroom" x="40" y="158" width="40" height="78">
       <properties>
         <property name="instanceId" type="int" value="113488"/>
       </properties>
     </object>
   </objectgroup>
-  <objectgroup id="4" name="views">
+  <objectgroup id="7" name="views">
     <object id="6" class="view" x="0" y="0" width="320" height="240">
       <properties>
         <property name="portX" type="int" value="0"/>

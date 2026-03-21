@@ -5,15 +5,16 @@ platform = "Steam"
 
 [conversion]
 tool = "gm2tiled"
-tool_version = "0.1.0"
-tool_commit = "9ea8881"
+tool_version = "0.1.2"
+tool_commit = "c036dd1"
 utmt_version = "1.0.0+473b731a"
 tile_size = 20
-date = "2026-03-08"
+date = "2026-03-21"
 
 [stats]
 total_rooms = 335
-total_tilesets = 784
+total_tilesets = 1442
+total_tile_objects = 658
 
 [notes]
 description = "从 Undertale data.win 完整转换全部 335 个房间"

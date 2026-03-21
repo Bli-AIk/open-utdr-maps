@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="33" backgroundcolor="#000000">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="33" backgroundcolor="#000000">
   <properties>
     <property name="speed" type="int" value="30"/>
   </properties>
@@ -18,10 +18,15 @@
   <tileset firstgid="347" source="tilesets/obj_markerA.tsx"/>
   <tileset firstgid="348" source="tilesets/obj_solidexwide.tsx"/>
   <tileset firstgid="349" source="tilesets/obj_overworldcontroller.tsx"/>
-  <layer id="1" name="depth_1000000" width="16" height="12">
-    <data encoding="csv">0,0,0,0,301,302,302,302,302,302,302,303,0,0,0,0,0,0,0,0,304,305,305,305,305,305,305,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,307,308,308,308,308,308,308,309,0,0,0,0,0,0,0,0,313,314,314,314,316,317,318,315,0,0,0,0,0,0,0,0,329,330,330,323,325,322,330,331,0,0,0,0,0,0,0,0,0,0,0,324,325,326,0,0,0,0,0,0,0,0,0,0,0,0,0,324,325,326,0,0,0,0,0,0</data>
+  <objectgroup id="1" name="depth_1000000_free_0">
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,301,302,302,302,302,302,302,303,0,0,0,0,0,0,0,0,304,305,305,305,305,305,305,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,307,308,308,308,308,308,308,309,0,0,0,0,0,0,0,0,313,314,314,314,316,317,318,315,0,0,0,0,0,0,0,0,329,330,330,325,325,325,330,331,0,0,0,0,0,0,0,0,0,0,0,324,325,326,0,0,0,0,0,0,0,0,0,0,0,0,0,324,325,326,0,0,0,0,0,0</data>
   </layer>
-  <objectgroup id="2" name="objects">
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,323,0,322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
     <object id="1" gid="339" type="obj_whitebox_o" x="140" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="109539"/>
@@ -178,7 +183,7 @@
       </properties>
     </object>
   </objectgroup>
-  <objectgroup id="3" name="views">
+  <objectgroup id="5" name="views">
     <object id="32" class="view" x="0" y="0" width="320" height="240">
       <properties>
         <property name="portX" type="int" value="0"/>

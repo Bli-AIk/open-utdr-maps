@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="11">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="11">
   <properties>
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_battleLayer.tsx"/>
-  <tileset firstgid="169" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
-  <tileset firstgid="203" source="tilesets/bg_darktiles1_tileset.tsx"/>
-  <tileset firstgid="303" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="304" source="tilesets/obj_overworld_bulletarea.tsx"/>
-  <tileset firstgid="305" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="197" source="tilesets/bg_dw_dither_overlay_tileset.tsx"/>
+  <tileset firstgid="233" source="tilesets/bg_darktiles1_tileset.tsx"/>
+  <tileset firstgid="354" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="355" source="tilesets/obj_overworld_bulletarea.tsx"/>
+  <tileset firstgid="356" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="TILES_BASE" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,205,205,205,205,205,205,205,206,0,205,205,205,205,205,205,210,208,210,210,210,210,210,210,211,0,215,215,215,215,215,215,215,210,210,210,210,210,210,210,211,0,220,220,220,220,220,220,209,210,210,210,210,210,210,210,211,0,225,225,225,225,225,225,214,210,210,210,210,210,210,210,216,0,225,225,225,225,225,225,219,220,220,220,220,220,220,220,221,0,225,225,225,225,225,225,223,225,225,225,225,225,225,225,226,0,225,225,225,225,225,225,224,225,225,225,225,225,225,225,217,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,234,235,235,235,235,235,235,235,236,0,235,235,235,235,235,235,240,238,240,240,240,240,240,240,241,0,245,245,245,245,245,245,245,240,240,240,240,240,240,240,241,0,250,250,250,250,250,250,239,240,240,240,240,240,240,240,241,0,255,255,255,255,255,255,244,240,240,240,240,240,240,240,246,0,255,255,255,255,255,255,249,250,250,250,250,250,250,250,251,0,255,255,255,255,255,255,253,255,255,255,255,255,255,255,256,0,255,255,255,255,255,255,254,255,255,255,255,255,255,255,247,0</data>
   </layer>
   <layer id="2" name="TILES_DITHER" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,178,178,178,178,178,178,0,0,0,0,0,0,0,0,0,0,176,176,176,176,176,176,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,206,206,206,206,206,206,0,0,0,0,0,0,0,0,0,0,204,204,204,204,204,204,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <layer id="3" name="TILES_BATTLEBORDER" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,3,3,3,3,4,0,3,3,3,3,3,3,0,0,0,0,0,0,0,0,11,0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,16,17,17,17,17,17,17,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="1" gid="303" type="obj_mainchara" x="20" y="219" width="19" height="37">
+    <object id="1" gid="354" type="obj_mainchara" x="20" y="219" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="101437"/>
       </properties>
@@ -29,37 +29,37 @@
         <property name="instanceId" type="int" value="101438"/>
       </properties>
     </object>
-    <object id="3" gid="304" type="obj_overworld_bulletarea" x="240" y="200" width="40" height="40">
+    <object id="3" gid="355" type="obj_overworld_bulletarea" x="240" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101439"/>
       </properties>
     </object>
-    <object id="4" gid="305" type="obj_solidblocksized" x="0" y="320" width="40" height="40">
+    <object id="4" gid="356" type="obj_solidblocksized" x="0" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101440"/>
       </properties>
     </object>
-    <object id="5" gid="305" type="obj_solidblocksized" x="200" y="360" width="40" height="40">
+    <object id="5" gid="356" type="obj_solidblocksized" x="200" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101441"/>
       </properties>
     </object>
-    <object id="6" gid="305" type="obj_solidblocksized" x="240" y="400" width="40" height="40">
+    <object id="6" gid="356" type="obj_solidblocksized" x="240" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101442"/>
       </properties>
     </object>
-    <object id="7" gid="305" type="obj_solidblocksized" x="600" y="200" width="40" height="40">
+    <object id="7" gid="356" type="obj_solidblocksized" x="600" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101443"/>
       </properties>
     </object>
-    <object id="8" gid="305" type="obj_solidblocksized" x="200" y="160" width="40" height="40">
+    <object id="8" gid="356" type="obj_solidblocksized" x="200" y="160" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101444"/>
       </properties>
     </object>
-    <object id="9" gid="305" type="obj_solidblocksized" x="0" y="200" width="40" height="40">
+    <object id="9" gid="356" type="obj_solidblocksized" x="0" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101445"/>
       </properties>
