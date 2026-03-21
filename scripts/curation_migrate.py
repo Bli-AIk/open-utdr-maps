@@ -48,6 +48,7 @@ class RoomOverrides:
 class BlacklistConfig:
     layer_names_exact: frozenset[str]
     object_types_exact: frozenset[str]
+    object_types_keep_exact: frozenset[str]
     object_types_prefix: tuple[str, ...]
     remove_empty_object_layers: bool
     room_overrides: dict[str, RoomOverrides]
@@ -282,6 +283,7 @@ def load_blacklist_config(path: Path) -> BlacklistConfig:
     return BlacklistConfig(
         layer_names_exact=frozenset(raw.get("layer_names", {}).get("exact", [])),
         object_types_exact=frozenset(raw.get("object_types", {}).get("exact", [])),
+        object_types_keep_exact=frozenset(raw.get("object_types", {}).get("keep_exact", [])),
         object_types_prefix=tuple(raw.get("object_types", {}).get("prefix", [])),
         remove_empty_object_layers=bool(raw.get("cleanup", {}).get("remove_empty_object_layers", True)),
         room_overrides=room_overrides,
@@ -384,6 +386,8 @@ def match_layer_rule(layer_name: str, config: BlacklistConfig, overrides: RoomOv
 
 def match_object_rule(object_type: str, config: BlacklistConfig, overrides: RoomOverrides) -> str | None:
     if not object_type:
+        return None
+    if object_type in config.object_types_keep_exact or object_type in overrides.keep_object_types_exact:
         return None
     if object_type in config.object_types_exact and object_type not in overrides.keep_object_types_exact:
         return f"object-exact:{object_type}"
