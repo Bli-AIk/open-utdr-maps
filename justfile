@@ -52,6 +52,10 @@ clean:
 migrate-dry-run dataset="undertale" room="room_fire2":
     python3 scripts/curation_migrate.py --game {{dataset}} --room {{room}} --dry-run
 
+# Build a global preview catalog for all blacklist-matched sprites
+blacklist-audit:
+    python3 scripts/curation_migrate.py --audit-blacklist
+
 # Promote a raw room into curated/ using the blacklist config
 migrate dataset="undertale" room="room_fire2":
     python3 scripts/curation_migrate.py --game {{dataset}} --room {{room}}
