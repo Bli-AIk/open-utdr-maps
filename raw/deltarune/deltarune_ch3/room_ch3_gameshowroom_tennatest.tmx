@@ -5,14 +5,14 @@
   </properties>
   <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_lights_tileset.tsx"/>
   <tileset firstgid="73" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
-  <tileset firstgid="379" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="380" source="tilesets/obj_ch3_GSA02.tsx"/>
-  <tileset firstgid="381" source="tilesets/obj_ch3_GSA06.tsx"/>
-  <tileset firstgid="382" source="tilesets/obj_ch3_GSB03.tsx"/>
-  <tileset firstgid="383" source="tilesets/obj_ch3_GSC07.tsx"/>
-  <tileset firstgid="384" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="385" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="386" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="343" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="344" source="tilesets/obj_ch3_GSA02.tsx"/>
+  <tileset firstgid="345" source="tilesets/obj_ch3_GSA06.tsx"/>
+  <tileset firstgid="346" source="tilesets/obj_ch3_GSB03.tsx"/>
+  <tileset firstgid="347" source="tilesets/obj_ch3_GSC07.tsx"/>
+  <tileset firstgid="348" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="349" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="350" source="tilesets/obj_markerAny.tsx"/>
   <layer id="1" name="BGTiles" width="16" height="12">
     <data encoding="csv">175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175</data>
   </layer>
@@ -20,7 +20,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="3" name="objects">
-    <object id="1" gid="379" type="obj_mainchara" x="294" y="233" width="19" height="37">
+    <object id="1" gid="343" type="obj_mainchara" x="294" y="233" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="107873"/>
       </properties>
@@ -30,17 +30,17 @@
         <property name="instanceId" type="int" value="107874"/>
       </properties>
     </object>
-    <object id="3" gid="380" type="obj_ch3_GSA02" x="40" y="20" width="20" height="20">
+    <object id="3" gid="344" type="obj_ch3_GSA02" x="40" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107875"/>
       </properties>
     </object>
-    <object id="4" gid="381" type="obj_ch3_GSA06" x="80" y="20" width="20" height="20">
+    <object id="4" gid="345" type="obj_ch3_GSA06" x="80" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107876"/>
       </properties>
     </object>
-    <object id="5" gid="382" type="obj_ch3_GSB03" x="120" y="20" width="20" height="20">
+    <object id="5" gid="346" type="obj_ch3_GSB03" x="120" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107877"/>
       </properties>
@@ -50,37 +50,37 @@
         <property name="instanceId" type="int" value="107878"/>
       </properties>
     </object>
-    <object id="7" gid="383" type="obj_ch3_GSC07" x="200" y="20" width="20" height="20">
+    <object id="7" gid="347" type="obj_ch3_GSC07" x="200" y="20" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107879"/>
       </properties>
     </object>
-    <object id="8" gid="384" type="obj_solidblocksized" x="-40" y="240" width="40" height="40">
+    <object id="8" gid="348" type="obj_solidblocksized" x="-40" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107880"/>
       </properties>
     </object>
-    <object id="9" gid="384" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
+    <object id="9" gid="348" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107881"/>
       </properties>
     </object>
-    <object id="10" gid="384" type="obj_solidblocksized" x="640" y="240" width="40" height="40">
+    <object id="10" gid="348" type="obj_solidblocksized" x="640" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107882"/>
       </properties>
     </object>
-    <object id="11" gid="384" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+    <object id="11" gid="348" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107883"/>
       </properties>
     </object>
-    <object id="12" gid="385" type="obj_doorAny" x="630" y="261" width="40" height="40">
+    <object id="12" gid="349" type="obj_doorAny" x="630" y="261" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107884"/>
       </properties>
     </object>
-    <object id="13" gid="386" type="obj_markerAny" x="583" y="294" width="38" height="74">
+    <object id="13" gid="350" type="obj_markerAny" x="583" y="294" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107885"/>
       </properties>

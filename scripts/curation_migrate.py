@@ -150,7 +150,7 @@ def main() -> int:
     tree = ET.parse(raw_room)
     root = tree.getroot()
     tilesets = parse_tilesets(root, raw_dir)
-    removed_entries = apply_blacklist(root, config, room_key)
+    removed_entries = apply_blacklist(root, config, room_key, dataset, room_name)
     used_sources = collect_used_tileset_sources(root, tilesets)
     prune_unused_tilesets(root, used_sources)
 

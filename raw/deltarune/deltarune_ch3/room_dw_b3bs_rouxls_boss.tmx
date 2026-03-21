@@ -4,10 +4,10 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
-  <tileset firstgid="307" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="308" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="309" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="310" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="271" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="272" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="273" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="274" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="FloorTiles" width="16" height="12">
     <data encoding="csv">0,0,0,120,121,0,0,0,0,0,0,0,0,0,0,0,128,128,128,129,0,0,0,0,0,0,0,0,0,0,0,0,47,46,47,58,0,0,0,0,0,0,0,0,0,0,0,0,47,46,47,67,0,0,0,0,0,0,0,0,0,0,0,0,47,46,47,67,0,0,0,0,0,0,0,0,0,0,0,0,47,46,47,76,93,92,93,92,93,92,93,92,0,0,0,0,84,83,84,83,84,83,84,83,84,83,84,83,0,0,0,0,93,92,93,92,93,92,93,92,93,92,93,92,0,0,0,0,0,0,0,0,84,83,84,83,84,83,84,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
@@ -18,7 +18,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,100,101,102,103,104,100,101,102,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="1" gid="307" type="obj_mainchara" x="16" y="237" width="19" height="37">
+    <object id="1" gid="271" type="obj_mainchara" x="16" y="237" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="107486"/>
       </properties>
@@ -33,37 +33,37 @@
         <property name="instanceId" type="int" value="107488"/>
       </properties>
     </object>
-    <object id="4" gid="308" type="obj_markerAny" x="16" y="274" width="38" height="74">
+    <object id="4" gid="272" type="obj_markerAny" x="16" y="274" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107489"/>
       </properties>
     </object>
-    <object id="5" gid="309" type="obj_doorAny" x="-32" y="240" width="40" height="40">
+    <object id="5" gid="273" type="obj_doorAny" x="-32" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107490"/>
       </properties>
     </object>
-    <object id="6" gid="310" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+    <object id="6" gid="274" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107491"/>
       </properties>
     </object>
-    <object id="7" gid="310" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
+    <object id="7" gid="274" type="obj_solidblocksized" x="0" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107492"/>
       </properties>
     </object>
-    <object id="8" gid="310" type="obj_solidblocksized" x="120" y="200" width="40" height="40">
+    <object id="8" gid="274" type="obj_solidblocksized" x="120" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107493"/>
       </properties>
     </object>
-    <object id="9" gid="310" type="obj_solidblocksized" x="120" y="400" width="40" height="40">
+    <object id="9" gid="274" type="obj_solidblocksized" x="120" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107494"/>
       </properties>
     </object>
-    <object id="10" gid="310" type="obj_solidblocksized" x="480" y="240" width="40" height="40">
+    <object id="10" gid="274" type="obj_solidblocksized" x="480" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107495"/>
       </properties>

@@ -4,27 +4,27 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_mansion_tileset.tsx"/>
-  <tileset firstgid="901" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="902" source="tilesets/obj_traffic_car_generator.tsx"/>
-  <tileset firstgid="903" source="tilesets/obj_traffic_switch.tsx"/>
-  <tileset firstgid="904" source="tilesets/obj_charmarker.tsx"/>
-  <tileset firstgid="905" source="tilesets/obj_carKiller.tsx"/>
-  <tileset firstgid="906" source="tilesets/obj_carTurner.tsx"/>
-  <tileset firstgid="907" source="tilesets/obj_holemouse_invis_counterclockwise.tsx"/>
-  <tileset firstgid="908" source="tilesets/obj_controller_mansion_traffic_old.tsx"/>
-  <tileset firstgid="909" source="tilesets/obj_mouseTrigger.tsx"/>
-  <tileset firstgid="910" source="tilesets/obj_holemouse_generator.tsx"/>
-  <tileset firstgid="911" source="tilesets/obj_musicer_mansion.tsx"/>
-  <tileset firstgid="912" source="tilesets/obj_doorB.tsx"/>
-  <tileset firstgid="913" source="tilesets/obj_markerA.tsx"/>
-  <tileset firstgid="914" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="915" source="tilesets/obj_doorA.tsx"/>
-  <tileset firstgid="916" source="tilesets/obj_markerB.tsx"/>
+  <tileset firstgid="775" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="776" source="tilesets/obj_traffic_car_generator.tsx"/>
+  <tileset firstgid="777" source="tilesets/obj_traffic_switch.tsx"/>
+  <tileset firstgid="778" source="tilesets/obj_charmarker.tsx"/>
+  <tileset firstgid="779" source="tilesets/obj_carKiller.tsx"/>
+  <tileset firstgid="780" source="tilesets/obj_carTurner.tsx"/>
+  <tileset firstgid="781" source="tilesets/obj_holemouse_invis_counterclockwise.tsx"/>
+  <tileset firstgid="782" source="tilesets/obj_controller_mansion_traffic_old.tsx"/>
+  <tileset firstgid="783" source="tilesets/obj_mouseTrigger.tsx"/>
+  <tileset firstgid="784" source="tilesets/obj_holemouse_generator.tsx"/>
+  <tileset firstgid="785" source="tilesets/obj_musicer_mansion.tsx"/>
+  <tileset firstgid="786" source="tilesets/obj_doorB.tsx"/>
+  <tileset firstgid="787" source="tilesets/obj_markerA.tsx"/>
+  <tileset firstgid="788" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="789" source="tilesets/obj_doorA.tsx"/>
+  <tileset firstgid="790" source="tilesets/obj_markerB.tsx"/>
   <layer id="1" name="TILES" width="125" height="40">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,22,23,23,23,23,23,23,23,23,23,23,24,22,23,23,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,40,41,41,41,41,41,41,41,41,41,41,42,40,41,41,42,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,58,59,59,0,59,59,59,59,59,59,59,60,58,59,59,60,61,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,76,77,77,77,77,77,77,77,77,77,77,78,76,77,77,78,79,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="901" type="obj_mainchara" x="32" y="1418" width="19" height="38">
+    <object id="1" gid="775" type="obj_mainchara" x="32" y="1418" width="19" height="38">
       <properties>
         <property name="instanceId" type="int" value="107035"/>
       </properties>
@@ -34,197 +34,197 @@
         <property name="instanceId" type="int" value="107036"/>
       </properties>
     </object>
-    <object id="3" gid="902" type="obj_traffic_car_generator" x="650" y="291" width="39" height="29">
+    <object id="3" gid="776" type="obj_traffic_car_generator" x="650" y="291" width="39" height="29">
       <properties>
         <property name="instanceId" type="int" value="107037"/>
       </properties>
     </object>
-    <object id="4" gid="902" type="obj_traffic_car_generator" x="750" y="291" width="39" height="29">
+    <object id="4" gid="776" type="obj_traffic_car_generator" x="750" y="291" width="39" height="29">
       <properties>
         <property name="instanceId" type="int" value="107038"/>
       </properties>
     </object>
-    <object id="5" gid="902" type="obj_traffic_car_generator" x="850" y="291" width="39" height="29">
+    <object id="5" gid="776" type="obj_traffic_car_generator" x="850" y="291" width="39" height="29">
       <properties>
         <property name="instanceId" type="int" value="107039"/>
       </properties>
     </object>
-    <object id="6" gid="902" type="obj_traffic_car_generator" x="950" y="291" width="39" height="29">
+    <object id="6" gid="776" type="obj_traffic_car_generator" x="950" y="291" width="39" height="29">
       <properties>
         <property name="instanceId" type="int" value="107040"/>
       </properties>
     </object>
-    <object id="7" gid="903" type="obj_traffic_switch" x="600" y="1331" width="19" height="51">
+    <object id="7" gid="777" type="obj_traffic_switch" x="600" y="1331" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107041"/>
       </properties>
     </object>
-    <object id="8" gid="903" type="obj_traffic_switch" x="1040" y="1331" width="19" height="51">
+    <object id="8" gid="777" type="obj_traffic_switch" x="1040" y="1331" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107042"/>
       </properties>
     </object>
-    <object id="9" gid="903" type="obj_traffic_switch" x="600" y="651" width="19" height="51">
+    <object id="9" gid="777" type="obj_traffic_switch" x="600" y="651" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107043"/>
       </properties>
     </object>
-    <object id="10" gid="904" type="obj_charmarker" x="560" y="1422" width="40" height="40">
+    <object id="10" gid="778" type="obj_charmarker" x="560" y="1422" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107044"/>
       </properties>
     </object>
-    <object id="11" gid="904" type="obj_charmarker" x="510" y="1422" width="40" height="40">
+    <object id="11" gid="778" type="obj_charmarker" x="510" y="1422" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107045"/>
       </properties>
     </object>
-    <object id="12" gid="904" type="obj_charmarker" x="460" y="1422" width="40" height="40">
+    <object id="12" gid="778" type="obj_charmarker" x="460" y="1422" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107046"/>
       </properties>
     </object>
-    <object id="13" gid="905" type="obj_carKiller" x="760" y="980" width="20" height="20">
+    <object id="13" gid="779" type="obj_carKiller" x="760" y="980" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107047"/>
       </properties>
     </object>
-    <object id="14" gid="905" type="obj_carKiller" x="960" y="340" width="20" height="20">
+    <object id="14" gid="779" type="obj_carKiller" x="960" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107048"/>
       </properties>
     </object>
-    <object id="15" gid="905" type="obj_carKiller" x="960" y="1300" width="20" height="20">
+    <object id="15" gid="779" type="obj_carKiller" x="960" y="1300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107049"/>
       </properties>
     </object>
-    <object id="16" gid="905" type="obj_carKiller" x="640" y="620" width="20" height="20">
+    <object id="16" gid="779" type="obj_carKiller" x="640" y="620" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107050"/>
       </properties>
     </object>
-    <object id="17" gid="906" type="obj_carTurner" x="1120" y="440" width="20" height="20">
+    <object id="17" gid="780" type="obj_carTurner" x="1120" y="440" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107051"/>
       </properties>
     </object>
-    <object id="18" gid="903" type="obj_traffic_switch" x="1400" y="349" width="19" height="51">
+    <object id="18" gid="777" type="obj_traffic_switch" x="1400" y="349" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107052"/>
       </properties>
     </object>
-    <object id="19" gid="903" type="obj_traffic_switch" x="2360" y="349" width="19" height="51">
+    <object id="19" gid="777" type="obj_traffic_switch" x="2360" y="349" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107053"/>
       </properties>
     </object>
-    <object id="20" gid="903" type="obj_traffic_switch" x="3320" y="349" width="19" height="51">
+    <object id="20" gid="777" type="obj_traffic_switch" x="3320" y="349" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107054"/>
       </properties>
     </object>
-    <object id="21" gid="903" type="obj_traffic_switch" x="3680" y="349" width="19" height="51">
+    <object id="21" gid="777" type="obj_traffic_switch" x="3680" y="349" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107055"/>
       </properties>
     </object>
-    <object id="22" gid="907" type="obj_holemouse_invis_counterclockwise" x="4320" y="460" width="20" height="20">
+    <object id="22" gid="781" type="obj_holemouse_invis_counterclockwise" x="4320" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107056"/>
       </properties>
     </object>
-    <object id="23" gid="905" type="obj_carKiller" x="840" y="980" width="20" height="20">
+    <object id="23" gid="779" type="obj_carKiller" x="840" y="980" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107057"/>
       </properties>
     </object>
-    <object id="24" gid="908" type="obj_controller_mansion_traffic_old" x="1160" y="220" width="20" height="20">
+    <object id="24" gid="782" type="obj_controller_mansion_traffic_old" x="1160" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107058"/>
       </properties>
     </object>
-    <object id="25" gid="909" type="obj_mouseTrigger" x="4080" y="349" width="19" height="51">
+    <object id="25" gid="783" type="obj_mouseTrigger" x="4080" y="349" width="19" height="51">
       <properties>
         <property name="instanceId" type="int" value="107059"/>
       </properties>
     </object>
-    <object id="26" gid="910" type="obj_holemouse_generator" x="4320" y="380" width="20" height="20">
+    <object id="26" gid="784" type="obj_holemouse_generator" x="4320" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107060"/>
       </properties>
     </object>
-    <object id="27" gid="911" type="obj_musicer_mansion" x="0" y="1272" width="32" height="32">
+    <object id="27" gid="785" type="obj_musicer_mansion" x="0" y="1272" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="107061"/>
       </properties>
     </object>
-    <object id="28" gid="912" type="obj_doorB" x="0" y="1380" width="20" height="20">
+    <object id="28" gid="786" type="obj_doorB" x="0" y="1380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107062"/>
       </properties>
     </object>
-    <object id="29" gid="913" type="obj_markerA" x="32" y="1454" width="38" height="74">
+    <object id="29" gid="787" type="obj_markerA" x="32" y="1454" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107063"/>
       </properties>
     </object>
-    <object id="30" gid="914" type="obj_solidblocksized" x="0" y="1360" width="40" height="40">
+    <object id="30" gid="788" type="obj_solidblocksized" x="0" y="1360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107064"/>
       </properties>
     </object>
-    <object id="31" gid="914" type="obj_solidblocksized" x="640" y="1120" width="40" height="40">
+    <object id="31" gid="788" type="obj_solidblocksized" x="640" y="1120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107065"/>
       </properties>
     </object>
-    <object id="32" gid="914" type="obj_solidblocksized" x="840" y="760" width="40" height="40">
+    <object id="32" gid="788" type="obj_solidblocksized" x="840" y="760" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107066"/>
       </properties>
     </object>
-    <object id="33" gid="914" type="obj_solidblocksized" x="600" y="400" width="40" height="40">
+    <object id="33" gid="788" type="obj_solidblocksized" x="600" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107067"/>
       </properties>
     </object>
-    <object id="34" gid="914" type="obj_solidblocksized" x="1040" y="480" width="40" height="40">
+    <object id="34" gid="788" type="obj_solidblocksized" x="1040" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107068"/>
       </properties>
     </object>
-    <object id="35" gid="914" type="obj_solidblocksized" x="0" y="1520" width="40" height="40">
+    <object id="35" gid="788" type="obj_solidblocksized" x="0" y="1520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107069"/>
       </properties>
     </object>
-    <object id="36" gid="914" type="obj_solidblocksized" x="600" y="360" width="40" height="40">
+    <object id="36" gid="788" type="obj_solidblocksized" x="600" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107070"/>
       </properties>
     </object>
-    <object id="37" gid="914" type="obj_solidblocksized" x="1280" y="360" width="40" height="40">
+    <object id="37" gid="788" type="obj_solidblocksized" x="1280" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107071"/>
       </properties>
     </object>
-    <object id="38" gid="914" type="obj_solidblocksized" x="1320" y="400" width="40" height="40">
+    <object id="38" gid="788" type="obj_solidblocksized" x="1320" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107072"/>
       </properties>
     </object>
-    <object id="39" gid="914" type="obj_solidblocksized" x="1080" y="480" width="40" height="40">
+    <object id="39" gid="788" type="obj_solidblocksized" x="1080" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107073"/>
       </properties>
     </object>
-    <object id="40" gid="915" type="obj_doorA" x="4980" y="420" width="20" height="20">
+    <object id="40" gid="789" type="obj_doorA" x="4980" y="420" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107074"/>
       </properties>
     </object>
-    <object id="41" gid="916" type="obj_markerB" x="4900" y="427" width="38" height="74">
+    <object id="41" gid="790" type="obj_markerB" x="4900" y="427" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107075"/>
       </properties>

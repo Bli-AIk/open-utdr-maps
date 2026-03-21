@@ -164,6 +164,32 @@ raw/
     └── deltarune_ch4/
 ```
 
+### Promote raw maps into curated/
+
+This repo also ships a local helper for promoting one room from `raw/` to `curated/` without manually chasing every `.tsx` and `.png` dependency.
+
+Quick examples:
+
+```bash
+# Preview what would be removed and copied
+just migrate-dry-run dataset=undertale room=room_fire2
+
+# Build a global review folder for all blacklist-matched sprites
+just blacklist-audit
+
+# Actually copy one room and its dependencies into curated/
+just migrate dataset=deltarune_ch2 room=room_dw_city_big_2
+```
+
+Key files:
+
+- `scripts/curation_migrate.py` — promotion helper
+- `scripts/curation_blacklist.toml` — blacklist / allowlist config
+- `dev/curation_migration_preview/` — per-room local preview output
+- `dev/curation_blacklist_audit/` — global blacklist review output
+
+The `dev/` directory is intentionally git-ignored. Use it to review blacklist hits before deciding whether a rule is safe.
+
 ## 📂 Repository Structure
 
 ```
@@ -179,7 +205,8 @@ open-utdr-maps/
 │   ├── layer_spec_en.md
 │   └── layer_spec_zh-hans.md
 ├── conversion_info/        # Conversion metadata (TOML)
-└── scripts/                # Automation scripts
+├── scripts/                # Automation scripts, including raw -> curated helpers
+└── dev/                    # Local review output (ignored by git)
 ```
 
 ## 🔧 Technical Background

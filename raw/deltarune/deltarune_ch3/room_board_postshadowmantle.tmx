@@ -4,68 +4,68 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx"/>
-  <tileset firstgid="1123" source="tilesets/obj_gameshow_swordroute.tsx"/>
-  <tileset firstgid="1124" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="1125" source="tilesets/obj_bpush2_stucktrigger.tsx"/>
-  <tileset firstgid="1126" source="tilesets/obj_treasure_room.tsx"/>
-  <tileset firstgid="1127" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="1128" source="tilesets/obj_board_controller.tsx"/>
-  <tileset firstgid="1129" source="tilesets/obj_board_camera.tsx"/>
-  <tileset firstgid="1130" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="1131" source="tilesets/obj_mainchara_board.tsx"/>
-  <tileset firstgid="1132" source="tilesets/obj_board_solid.tsx"/>
-  <tileset firstgid="1133" source="tilesets/obj_board_trigger.tsx"/>
-  <tileset firstgid="1134" source="tilesets/obj_board_npc.tsx"/>
+  <tileset firstgid="913" source="tilesets/obj_gameshow_swordroute.tsx"/>
+  <tileset firstgid="914" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="915" source="tilesets/obj_bpush2_stucktrigger.tsx"/>
+  <tileset firstgid="916" source="tilesets/obj_treasure_room.tsx"/>
+  <tileset firstgid="917" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="918" source="tilesets/obj_board_controller.tsx"/>
+  <tileset firstgid="919" source="tilesets/obj_board_camera.tsx"/>
+  <tileset firstgid="920" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="921" source="tilesets/obj_mainchara_board.tsx"/>
+  <tileset firstgid="922" source="tilesets/obj_board_solid.tsx"/>
+  <tileset firstgid="923" source="tilesets/obj_board_trigger.tsx"/>
+  <tileset firstgid="924" source="tilesets/obj_board_npc.tsx"/>
   <layer id="1" name="BOARD_Tiles" width="20" height="15">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,406,406,406,406,406,406,406,406,406,406,406,406,0,0,0,0,0,0,0,0,353,353,353,353,406,406,406,406,406,406,406,406,0,0,0,0,0,0,0,0,353,354,354,353,406,406,406,406,406,406,406,406,0,0,0,0,0,0,0,0,353,353,353,353,353,353,353,353,353,353,353,353,0,0,0,0,0,0,0,0,353,354,354,354,354,354,354,354,354,354,354,354,0,0,0,0,0,0,0,0,353,354,354,353,353,353,353,353,353,353,353,353,0,0,0,0,0,0,0,0,353,354,354,353,406,406,406,406,406,406,406,406,0,0,0,0,0,0,0,0,353,354,356,353,406,406,406,406,406,406,406,406,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="1123" type="obj_gameshow_swordroute" x="-64" y="16" width="7" height="16">
+    <object id="1" gid="913" type="obj_gameshow_swordroute" x="-64" y="16" width="7" height="16">
       <properties>
         <property name="instanceId" type="int" value="103886"/>
       </properties>
     </object>
-    <object id="2" gid="1124" type="obj_solidblocksized" x="0" y="417" width="40" height="40">
+    <object id="2" gid="914" type="obj_solidblocksized" x="0" y="417" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103887"/>
       </properties>
     </object>
-    <object id="3" gid="1124" type="obj_solidblocksized" x="224" y="262" width="40" height="40">
+    <object id="3" gid="914" type="obj_solidblocksized" x="224" y="262" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103888"/>
       </properties>
     </object>
-    <object id="4" gid="1124" type="obj_solidblocksized" x="-8" y="30" width="40" height="40">
+    <object id="4" gid="914" type="obj_solidblocksized" x="-8" y="30" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103889"/>
       </properties>
     </object>
-    <object id="5" gid="1124" type="obj_solidblocksized" x="128" y="40" width="40" height="40">
+    <object id="5" gid="914" type="obj_solidblocksized" x="128" y="40" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103890"/>
       </properties>
     </object>
-    <object id="6" gid="1124" type="obj_solidblocksized" x="614" y="232" width="40" height="40">
+    <object id="6" gid="914" type="obj_solidblocksized" x="614" y="232" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103891"/>
       </properties>
     </object>
-    <object id="7" gid="1125" type="obj_bpush2_stucktrigger" x="160" y="80" width="16" height="16">
+    <object id="7" gid="915" type="obj_bpush2_stucktrigger" x="160" y="80" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103892"/>
       </properties>
     </object>
-    <object id="8" gid="1124" type="obj_solidblocksized" x="-8" y="383" width="40" height="40">
+    <object id="8" gid="914" type="obj_solidblocksized" x="-8" y="383" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103893"/>
       </properties>
     </object>
-    <object id="9" gid="1126" type="obj_treasure_room" x="176" y="147" width="20" height="19">
+    <object id="9" gid="916" type="obj_treasure_room" x="176" y="147" width="20" height="19">
       <properties>
         <property name="instanceId" type="int" value="103894"/>
       </properties>
     </object>
-    <object id="10" gid="1127" type="obj_doorAny" x="634" y="384" width="40" height="40">
+    <object id="10" gid="917" type="obj_doorAny" x="634" y="384" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103895"/>
       </properties>
@@ -75,52 +75,52 @@
         <property name="instanceId" type="int" value="103896"/>
       </properties>
     </object>
-    <object id="12" gid="1128" type="obj_board_controller" x="-32" y="112" width="16" height="16">
+    <object id="12" gid="918" type="obj_board_controller" x="-32" y="112" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103897"/>
       </properties>
     </object>
-    <object id="13" gid="1129" type="obj_board_camera" x="-32" y="144" width="16" height="16">
+    <object id="13" gid="919" type="obj_board_camera" x="-32" y="144" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103898"/>
       </properties>
     </object>
-    <object id="14" gid="1130" type="obj_mainchara" x="-224" y="229" width="19" height="37">
+    <object id="14" gid="920" type="obj_mainchara" x="-224" y="229" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="103899"/>
       </properties>
     </object>
-    <object id="15" gid="1131" type="obj_mainchara_board" x="176" y="304" width="16" height="16">
+    <object id="15" gid="921" type="obj_mainchara_board" x="176" y="304" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103900"/>
       </properties>
     </object>
-    <object id="16" gid="1132" type="obj_board_solid" x="224" y="256" width="32" height="32">
+    <object id="16" gid="922" type="obj_board_solid" x="224" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103901"/>
       </properties>
     </object>
-    <object id="17" gid="1132" type="obj_board_solid" x="160" y="352" width="32" height="32">
+    <object id="17" gid="922" type="obj_board_solid" x="160" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103902"/>
       </properties>
     </object>
-    <object id="18" gid="1132" type="obj_board_solid" x="160" y="32" width="32" height="32">
+    <object id="18" gid="922" type="obj_board_solid" x="160" y="32" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103903"/>
       </properties>
     </object>
-    <object id="19" gid="1132" type="obj_board_solid" x="608" y="64" width="32" height="32">
+    <object id="19" gid="922" type="obj_board_solid" x="608" y="64" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103904"/>
       </properties>
     </object>
-    <object id="20" gid="1132" type="obj_board_solid" x="0" y="409" width="32" height="32">
+    <object id="20" gid="922" type="obj_board_solid" x="0" y="409" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103905"/>
       </properties>
     </object>
-    <object id="21" gid="1132" type="obj_board_solid" x="0" y="32" width="32" height="32">
+    <object id="21" gid="922" type="obj_board_solid" x="0" y="32" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="103906"/>
       </properties>
@@ -130,27 +130,27 @@
         <property name="instanceId" type="int" value="103907"/>
       </properties>
     </object>
-    <object id="23" gid="1133" type="obj_board_trigger" x="542" y="208" width="16" height="16">
+    <object id="23" gid="923" type="obj_board_trigger" x="542" y="208" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103908"/>
       </properties>
     </object>
-    <object id="24" gid="1133" type="obj_board_trigger" x="576" y="272" width="16" height="16">
+    <object id="24" gid="923" type="obj_board_trigger" x="576" y="272" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103909"/>
       </properties>
     </object>
-    <object id="25" gid="1133" type="obj_board_trigger" x="576" y="387" width="16" height="16">
+    <object id="25" gid="923" type="obj_board_trigger" x="576" y="387" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103910"/>
       </properties>
     </object>
-    <object id="26" gid="1133" type="obj_board_trigger" x="608" y="367" width="16" height="16">
+    <object id="26" gid="923" type="obj_board_trigger" x="608" y="367" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="103911"/>
       </properties>
     </object>
-    <object id="27" gid="1134" type="obj_board_npc" x="176" y="176" width="13" height="16">
+    <object id="27" gid="924" type="obj_board_npc" x="176" y="176" width="13" height="16">
       <properties>
         <property name="instanceId" type="int" value="103912"/>
       </properties>

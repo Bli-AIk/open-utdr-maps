@@ -4,148 +4,148 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/spr_susiezilla_isometric_tileset2.tsx"/>
-  <tileset firstgid="157" source="tilesets/obj_solidblock.tsx"/>
-  <tileset firstgid="158" source="tilesets/obj_building_breakable.tsx"/>
-  <tileset firstgid="159" source="tilesets/obj_house_breakable.tsx"/>
-  <tileset firstgid="160" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="161" source="tilesets/obj_susiezilla.tsx"/>
-  <tileset firstgid="162" source="tilesets/obj_car_breakable.tsx"/>
-  <tileset firstgid="163" source="tilesets/obj_tree_breakable.tsx"/>
+  <tileset firstgid="105" source="tilesets/obj_solidblock.tsx"/>
+  <tileset firstgid="106" source="tilesets/obj_building_breakable.tsx"/>
+  <tileset firstgid="107" source="tilesets/obj_house_breakable.tsx"/>
+  <tileset firstgid="108" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="109" source="tilesets/obj_susiezilla.tsx"/>
+  <tileset firstgid="110" source="tilesets/obj_car_breakable.tsx"/>
+  <tileset firstgid="111" source="tilesets/obj_tree_breakable.tsx"/>
   <layer id="1" name="Tiles_1" width="120" height="30">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,75,76,77,0,0,0,0,0,72,73,74,75,76,77,0,0,0,0,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,75,76,77,0,0,0,72,73,74,75,76,77,0,0,0,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,42,40,41,42,40,41,42,49,50,40,41,42,40,41,44,45,46,47,48,49,40,41,42,43,40,41,42,43,40,41,42,43,40,41,42,40,41,42,43,40,41,42,43,44,45,46,47,48,49,40,41,42,42,43,44,45,46,47,48,49,40,41,42,43,44,45,46,47,48,49,41,42,43,40,41,42,43,40,41,42,43,40,41,42,42,43,44,45,46,47,48,49,41,42,43,44,45,46,47,48,49,41,42,43,44,45,46,47,48,0,0,0,0,0,0,0,0,0,0,0,55,53,54,55,53,54,55,62,63,53,54,55,53,54,57,58,59,60,61,62,53,54,55,56,53,54,55,56,53,54,55,56,53,54,55,53,54,55,56,53,54,55,56,57,58,59,60,61,62,53,54,55,55,56,57,58,59,60,61,62,53,54,55,56,57,58,59,60,61,62,54,55,56,53,54,55,56,53,54,55,56,53,54,55,55,56,57,58,59,60,61,62,54,55,56,57,58,59,60,61,62,54,55,56,57,58,59,60,61,0,0,0,0,0,0,0,0,0,0,0,68,66,67,68,66,67,68,0,0,66,67,0,66,67,70,71,72,73,74,75,66,67,68,69,66,67,68,69,66,67,68,69,66,67,68,66,67,68,69,66,67,68,69,70,71,72,73,74,75,66,67,68,69,0,70,71,72,73,74,75,66,67,68,69,70,71,72,73,74,75,67,68,69,66,67,68,69,66,67,68,69,66,67,68,69,0,70,71,72,73,74,75,67,68,69,70,71,72,73,74,75,67,68,69,70,71,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,88,89,90,0,0,0,0,0,85,86,87,88,89,90,0,0,0,0,85,86,87,88,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,88,89,90,0,0,0,85,86,87,88,89,90,0,0,0,85,86,87,88,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,88,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,103,0,0,0,0,0,98,99,100,101,102,103,0,0,0,0,98,99,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,103,0,0,0,98,99,100,101,102,103,0,0,0,98,99,100,101,102,103,0,0,0,0,0,0,0,0,40,41,42,43,40,41,42,43,40,41,42,43,40,41,42,43,40,41,42,44,45,46,47,48,42,43,40,41,42,43,40,41,42,43,40,41,42,42,40,41,42,43,40,41,42,43,40,41,44,45,46,47,48,49,40,41,42,42,43,44,45,46,47,48,49,40,41,42,43,44,45,46,47,48,49,41,42,43,40,41,42,43,40,41,42,43,40,41,42,42,43,44,45,46,47,48,49,41,42,43,44,45,46,47,48,49,41,42,43,44,45,46,47,48,77,0,0,0,0,0,53,54,55,56,53,54,55,56,53,54,55,56,53,54,55,56,53,54,55,57,58,59,60,61,55,56,53,54,55,56,53,54,55,56,53,54,55,55,53,54,55,56,53,54,55,56,53,54,57,58,59,60,61,62,53,54,55,55,56,57,58,59,60,61,62,53,54,55,56,57,58,59,60,61,62,54,55,56,53,54,55,56,53,54,55,56,53,54,55,55,56,57,58,59,60,61,62,54,55,56,57,58,59,60,61,62,54,55,56,57,58,59,60,61,90,0,0,0,0,0,66,67,68,69,66,67,68,69,66,67,68,69,66,67,68,69,66,67,0,70,71,72,73,74,75,90,66,67,68,69,66,67,68,69,66,67,68,69,66,67,0,0,66,67,0,0,66,67,70,71,72,73,74,75,66,67,68,69,0,70,71,72,73,74,75,66,67,68,69,70,71,72,73,74,75,67,68,69,66,67,68,69,66,67,68,69,66,67,68,69,0,70,71,72,73,74,75,67,68,69,70,71,72,73,74,75,67,68,69,70,71,72,73,74,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,75,76,77,0,0,0,0,0,72,73,74,75,76,77,0,0,0,0,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,75,76,77,0,0,0,72,73,74,75,76,77,0,0,0,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,72,73,74,75,76,77,0,0,0,0,85,72,73,74,75,76,77,0,0,0,85,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,72,73,74,75,76,77,0,0,85,72,73,74,75,76,77,0,0,85,72,73,74,75,76,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,88,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,85,86,87,88,89,90,0,0,0,0,98,85,86,87,88,89,90,0,0,0,98,85,86,87,88,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,85,86,87,88,89,90,0,0,98,85,86,87,88,89,90,0,0,98,85,86,87,88,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,103,0,0,0,0,0,98,99,100,101,102,103,0,0,0,0,98,99,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,99,100,101,102,103,0,0,0,98,99,100,101,102,103,0,0,0,98,99,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="157" type="obj_solidblock" x="-114" y="192" width="20" height="20">
+    <object id="1" gid="105" type="obj_solidblock" x="-114" y="192" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104111"/>
       </properties>
     </object>
-    <object id="2" gid="157" type="obj_solidblock" x="3" y="79" width="20" height="20">
+    <object id="2" gid="105" type="obj_solidblock" x="3" y="79" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104112"/>
       </properties>
     </object>
-    <object id="3" gid="157" type="obj_solidblock" x="0" y="369" width="20" height="20">
+    <object id="3" gid="105" type="obj_solidblock" x="0" y="369" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104113"/>
       </properties>
     </object>
-    <object id="4" gid="157" type="obj_solidblock" x="1918" y="200" width="20" height="20">
+    <object id="4" gid="105" type="obj_solidblock" x="1918" y="200" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="104114"/>
       </properties>
     </object>
-    <object id="5" gid="158" type="obj_building_breakable" x="164" y="105" width="1" height="1">
+    <object id="5" gid="106" type="obj_building_breakable" x="164" y="105" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104115"/>
       </properties>
     </object>
-    <object id="6" gid="158" type="obj_building_breakable" x="86" y="105" width="1" height="1">
+    <object id="6" gid="106" type="obj_building_breakable" x="86" y="105" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104116"/>
       </properties>
     </object>
-    <object id="7" gid="158" type="obj_building_breakable" x="12" y="105" width="1" height="1">
+    <object id="7" gid="106" type="obj_building_breakable" x="12" y="105" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104117"/>
       </properties>
     </object>
-    <object id="8" gid="158" type="obj_building_breakable" x="251" y="105" width="1" height="1">
+    <object id="8" gid="106" type="obj_building_breakable" x="251" y="105" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104118"/>
       </properties>
     </object>
-    <object id="9" gid="158" type="obj_building_breakable" x="601" y="114" width="1" height="1">
+    <object id="9" gid="106" type="obj_building_breakable" x="601" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104119"/>
       </properties>
     </object>
-    <object id="10" gid="158" type="obj_building_breakable" x="732" y="114" width="1" height="1">
+    <object id="10" gid="106" type="obj_building_breakable" x="732" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104120"/>
       </properties>
     </object>
-    <object id="11" gid="158" type="obj_building_breakable" x="900" y="114" width="1" height="1">
+    <object id="11" gid="106" type="obj_building_breakable" x="900" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104121"/>
       </properties>
     </object>
-    <object id="12" gid="158" type="obj_building_breakable" x="1070" y="114" width="1" height="1">
+    <object id="12" gid="106" type="obj_building_breakable" x="1070" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104122"/>
       </properties>
     </object>
-    <object id="13" gid="158" type="obj_building_breakable" x="1222" y="114" width="1" height="1">
+    <object id="13" gid="106" type="obj_building_breakable" x="1222" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104123"/>
       </properties>
     </object>
-    <object id="14" gid="158" type="obj_building_breakable" x="1144" y="114" width="1" height="1">
+    <object id="14" gid="106" type="obj_building_breakable" x="1144" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104124"/>
       </properties>
     </object>
-    <object id="15" gid="158" type="obj_building_breakable" x="1436" y="114" width="1" height="1">
+    <object id="15" gid="106" type="obj_building_breakable" x="1436" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104125"/>
       </properties>
     </object>
-    <object id="16" gid="158" type="obj_building_breakable" x="1559" y="114" width="1" height="1">
+    <object id="16" gid="106" type="obj_building_breakable" x="1559" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104126"/>
       </properties>
     </object>
-    <object id="17" gid="159" type="obj_house_breakable" x="212" y="171" width="1" height="1">
+    <object id="17" gid="107" type="obj_house_breakable" x="212" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104127"/>
       </properties>
     </object>
-    <object id="18" gid="159" type="obj_house_breakable" x="536" y="184" width="1" height="1">
+    <object id="18" gid="107" type="obj_house_breakable" x="536" y="184" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104128"/>
       </properties>
     </object>
-    <object id="19" gid="159" type="obj_house_breakable" x="677" y="171" width="1" height="1">
+    <object id="19" gid="107" type="obj_house_breakable" x="677" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104129"/>
       </properties>
     </object>
-    <object id="20" gid="159" type="obj_house_breakable" x="853" y="171" width="1" height="1">
+    <object id="20" gid="107" type="obj_house_breakable" x="853" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104130"/>
       </properties>
     </object>
-    <object id="21" gid="158" type="obj_building_breakable" x="810" y="114" width="1" height="1">
+    <object id="21" gid="106" type="obj_building_breakable" x="810" y="114" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104131"/>
       </properties>
     </object>
-    <object id="22" gid="159" type="obj_house_breakable" x="1015" y="171" width="1" height="1">
+    <object id="22" gid="107" type="obj_house_breakable" x="1015" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104132"/>
       </properties>
     </object>
-    <object id="23" gid="159" type="obj_house_breakable" x="1295" y="188" width="1" height="1">
+    <object id="23" gid="107" type="obj_house_breakable" x="1295" y="188" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104133"/>
       </properties>
     </object>
-    <object id="24" gid="159" type="obj_house_breakable" x="1364" y="171" width="1" height="1">
+    <object id="24" gid="107" type="obj_house_breakable" x="1364" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104134"/>
       </properties>
     </object>
-    <object id="25" gid="159" type="obj_house_breakable" x="1509" y="171" width="1" height="1">
+    <object id="25" gid="107" type="obj_house_breakable" x="1509" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104135"/>
       </properties>
     </object>
-    <object id="26" gid="159" type="obj_house_breakable" x="1652" y="171" width="1" height="1">
+    <object id="26" gid="107" type="obj_house_breakable" x="1652" y="171" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104136"/>
       </properties>
     </object>
-    <object id="27" gid="160" type="obj_mainchara" x="-46" y="209" width="19" height="37">
+    <object id="27" gid="108" type="obj_mainchara" x="-46" y="209" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="104137"/>
       </properties>
@@ -160,267 +160,267 @@
         <property name="instanceId" type="int" value="104139"/>
       </properties>
     </object>
-    <object id="30" gid="161" type="obj_susiezilla" x="110" y="234" width="1" height="1">
+    <object id="30" gid="109" type="obj_susiezilla" x="110" y="234" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104140"/>
       </properties>
     </object>
-    <object id="31" gid="162" type="obj_car_breakable" x="206" y="213" width="1" height="1">
+    <object id="31" gid="110" type="obj_car_breakable" x="206" y="213" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104141"/>
       </properties>
     </object>
-    <object id="32" gid="159" type="obj_house_breakable" x="241" y="235" width="1" height="1">
+    <object id="32" gid="107" type="obj_house_breakable" x="241" y="235" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104142"/>
       </properties>
     </object>
-    <object id="33" gid="159" type="obj_house_breakable" x="181" y="235" width="1" height="1">
+    <object id="33" gid="107" type="obj_house_breakable" x="181" y="235" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104143"/>
       </properties>
     </object>
-    <object id="34" gid="159" type="obj_house_breakable" x="25" y="235" width="1" height="1">
+    <object id="34" gid="107" type="obj_house_breakable" x="25" y="235" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104144"/>
       </properties>
     </object>
-    <object id="35" gid="159" type="obj_house_breakable" x="276" y="271" width="1" height="1">
+    <object id="35" gid="107" type="obj_house_breakable" x="276" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104145"/>
       </properties>
     </object>
-    <object id="36" gid="159" type="obj_house_breakable" x="353" y="271" width="1" height="1">
+    <object id="36" gid="107" type="obj_house_breakable" x="353" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104146"/>
       </properties>
     </object>
-    <object id="37" gid="159" type="obj_house_breakable" x="398" y="271" width="1" height="1">
+    <object id="37" gid="107" type="obj_house_breakable" x="398" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104147"/>
       </properties>
     </object>
-    <object id="38" gid="159" type="obj_house_breakable" x="561" y="271" width="1" height="1">
+    <object id="38" gid="107" type="obj_house_breakable" x="561" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104148"/>
       </properties>
     </object>
-    <object id="39" gid="159" type="obj_house_breakable" x="516" y="271" width="1" height="1">
+    <object id="39" gid="107" type="obj_house_breakable" x="516" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104149"/>
       </properties>
     </object>
-    <object id="40" gid="159" type="obj_house_breakable" x="867" y="320" width="1" height="1">
+    <object id="40" gid="107" type="obj_house_breakable" x="867" y="320" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104150"/>
       </properties>
     </object>
-    <object id="41" gid="159" type="obj_house_breakable" x="941" y="230" width="1" height="1">
+    <object id="41" gid="107" type="obj_house_breakable" x="941" y="230" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104151"/>
       </properties>
     </object>
-    <object id="42" gid="159" type="obj_house_breakable" x="962" y="250" width="1" height="1">
+    <object id="42" gid="107" type="obj_house_breakable" x="962" y="250" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104152"/>
       </properties>
     </object>
-    <object id="43" gid="159" type="obj_house_breakable" x="984" y="271" width="1" height="1">
+    <object id="43" gid="107" type="obj_house_breakable" x="984" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104153"/>
       </properties>
     </object>
-    <object id="44" gid="159" type="obj_house_breakable" x="1031" y="271" width="1" height="1">
+    <object id="44" gid="107" type="obj_house_breakable" x="1031" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104154"/>
       </properties>
     </object>
-    <object id="45" gid="159" type="obj_house_breakable" x="1068" y="271" width="1" height="1">
+    <object id="45" gid="107" type="obj_house_breakable" x="1068" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104155"/>
       </properties>
     </object>
-    <object id="46" gid="159" type="obj_house_breakable" x="1053" y="242" width="1" height="1">
+    <object id="46" gid="107" type="obj_house_breakable" x="1053" y="242" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104156"/>
       </properties>
     </object>
-    <object id="47" gid="159" type="obj_house_breakable" x="1006" y="229" width="1" height="1">
+    <object id="47" gid="107" type="obj_house_breakable" x="1006" y="229" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104157"/>
       </properties>
     </object>
-    <object id="48" gid="159" type="obj_house_breakable" x="1157" y="271" width="1" height="1">
+    <object id="48" gid="107" type="obj_house_breakable" x="1157" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104158"/>
       </properties>
     </object>
-    <object id="49" gid="159" type="obj_house_breakable" x="1258" y="271" width="1" height="1">
+    <object id="49" gid="107" type="obj_house_breakable" x="1258" y="271" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104159"/>
       </properties>
     </object>
-    <object id="50" gid="159" type="obj_house_breakable" x="1398" y="316" width="1" height="1">
+    <object id="50" gid="107" type="obj_house_breakable" x="1398" y="316" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104160"/>
       </properties>
     </object>
-    <object id="51" gid="159" type="obj_house_breakable" x="1438" y="316" width="1" height="1">
+    <object id="51" gid="107" type="obj_house_breakable" x="1438" y="316" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104161"/>
       </properties>
     </object>
-    <object id="52" gid="159" type="obj_house_breakable" x="1583" y="316" width="1" height="1">
+    <object id="52" gid="107" type="obj_house_breakable" x="1583" y="316" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104162"/>
       </properties>
     </object>
-    <object id="53" gid="159" type="obj_house_breakable" x="1715" y="316" width="1" height="1">
+    <object id="53" gid="107" type="obj_house_breakable" x="1715" y="316" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104163"/>
       </properties>
     </object>
-    <object id="54" gid="163" type="obj_tree_breakable" x="752" y="222" width="1" height="1">
+    <object id="54" gid="111" type="obj_tree_breakable" x="752" y="222" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104164"/>
       </properties>
     </object>
-    <object id="55" gid="163" type="obj_tree_breakable" x="772" y="240" width="1" height="1">
+    <object id="55" gid="111" type="obj_tree_breakable" x="772" y="240" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104165"/>
       </properties>
     </object>
-    <object id="56" gid="163" type="obj_tree_breakable" x="795" y="262" width="1" height="1">
+    <object id="56" gid="111" type="obj_tree_breakable" x="795" y="262" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104166"/>
       </properties>
     </object>
-    <object id="57" gid="163" type="obj_tree_breakable" x="873" y="220" width="1" height="1">
+    <object id="57" gid="111" type="obj_tree_breakable" x="873" y="220" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104167"/>
       </properties>
     </object>
-    <object id="58" gid="163" type="obj_tree_breakable" x="843" y="220" width="1" height="1">
+    <object id="58" gid="111" type="obj_tree_breakable" x="843" y="220" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104168"/>
       </properties>
     </object>
-    <object id="59" gid="163" type="obj_tree_breakable" x="815" y="220" width="1" height="1">
+    <object id="59" gid="111" type="obj_tree_breakable" x="815" y="220" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104169"/>
       </properties>
     </object>
-    <object id="60" gid="163" type="obj_tree_breakable" x="818" y="239" width="1" height="1">
+    <object id="60" gid="111" type="obj_tree_breakable" x="818" y="239" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104170"/>
       </properties>
     </object>
-    <object id="61" gid="163" type="obj_tree_breakable" x="847" y="239" width="1" height="1">
+    <object id="61" gid="111" type="obj_tree_breakable" x="847" y="239" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104171"/>
       </properties>
     </object>
-    <object id="62" gid="163" type="obj_tree_breakable" x="895" y="240" width="1" height="1">
+    <object id="62" gid="111" type="obj_tree_breakable" x="895" y="240" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104172"/>
       </properties>
     </object>
-    <object id="63" gid="163" type="obj_tree_breakable" x="913" y="262" width="1" height="1">
+    <object id="63" gid="111" type="obj_tree_breakable" x="913" y="262" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104173"/>
       </properties>
     </object>
-    <object id="64" gid="163" type="obj_tree_breakable" x="883" y="262" width="1" height="1">
+    <object id="64" gid="111" type="obj_tree_breakable" x="883" y="262" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104174"/>
       </properties>
     </object>
-    <object id="65" gid="163" type="obj_tree_breakable" x="855" y="262" width="1" height="1">
+    <object id="65" gid="111" type="obj_tree_breakable" x="855" y="262" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104175"/>
       </properties>
     </object>
-    <object id="66" gid="163" type="obj_tree_breakable" x="827" y="262" width="1" height="1">
+    <object id="66" gid="111" type="obj_tree_breakable" x="827" y="262" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104176"/>
       </properties>
     </object>
-    <object id="67" gid="163" type="obj_tree_breakable" x="1532" y="221" width="1" height="1">
+    <object id="67" gid="111" type="obj_tree_breakable" x="1532" y="221" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104177"/>
       </properties>
     </object>
-    <object id="68" gid="163" type="obj_tree_breakable" x="1502" y="221" width="1" height="1">
+    <object id="68" gid="111" type="obj_tree_breakable" x="1502" y="221" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104178"/>
       </properties>
     </object>
-    <object id="69" gid="163" type="obj_tree_breakable" x="1472" y="221" width="1" height="1">
+    <object id="69" gid="111" type="obj_tree_breakable" x="1472" y="221" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104179"/>
       </properties>
     </object>
-    <object id="70" gid="163" type="obj_tree_breakable" x="1439" y="221" width="1" height="1">
+    <object id="70" gid="111" type="obj_tree_breakable" x="1439" y="221" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104180"/>
       </properties>
     </object>
-    <object id="71" gid="163" type="obj_tree_breakable" x="1492" y="242" width="1" height="1">
+    <object id="71" gid="111" type="obj_tree_breakable" x="1492" y="242" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104181"/>
       </properties>
     </object>
-    <object id="72" gid="163" type="obj_tree_breakable" x="1522" y="242" width="1" height="1">
+    <object id="72" gid="111" type="obj_tree_breakable" x="1522" y="242" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104182"/>
       </properties>
     </object>
-    <object id="73" gid="163" type="obj_tree_breakable" x="1557" y="241" width="1" height="1">
+    <object id="73" gid="111" type="obj_tree_breakable" x="1557" y="241" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104183"/>
       </properties>
     </object>
-    <object id="74" gid="163" type="obj_tree_breakable" x="1575" y="264" width="1" height="1">
+    <object id="74" gid="111" type="obj_tree_breakable" x="1575" y="264" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104184"/>
       </properties>
     </object>
-    <object id="75" gid="163" type="obj_tree_breakable" x="1483" y="264" width="1" height="1">
+    <object id="75" gid="111" type="obj_tree_breakable" x="1483" y="264" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104185"/>
       </properties>
     </object>
-    <object id="76" gid="163" type="obj_tree_breakable" x="1681" y="169" width="1" height="1">
+    <object id="76" gid="111" type="obj_tree_breakable" x="1681" y="169" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104186"/>
       </properties>
     </object>
-    <object id="77" gid="163" type="obj_tree_breakable" x="1857" y="173" width="1" height="1">
+    <object id="77" gid="111" type="obj_tree_breakable" x="1857" y="173" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104187"/>
       </properties>
     </object>
-    <object id="78" gid="163" type="obj_tree_breakable" x="1825" y="302" width="1" height="1">
+    <object id="78" gid="111" type="obj_tree_breakable" x="1825" y="302" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104188"/>
       </properties>
     </object>
-    <object id="79" gid="163" type="obj_tree_breakable" x="1879" y="287" width="1" height="1">
+    <object id="79" gid="111" type="obj_tree_breakable" x="1879" y="287" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104189"/>
       </properties>
     </object>
-    <object id="80" gid="163" type="obj_tree_breakable" x="1852" y="330" width="1" height="1">
+    <object id="80" gid="111" type="obj_tree_breakable" x="1852" y="330" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104190"/>
       </properties>
     </object>
-    <object id="81" gid="163" type="obj_tree_breakable" x="1897" y="363" width="1" height="1">
+    <object id="81" gid="111" type="obj_tree_breakable" x="1897" y="363" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104191"/>
       </properties>
     </object>
-    <object id="82" gid="163" type="obj_tree_breakable" x="1885" y="328" width="1" height="1">
+    <object id="82" gid="111" type="obj_tree_breakable" x="1885" y="328" width="1" height="1">
       <properties>
         <property name="instanceId" type="int" value="104192"/>
       </properties>

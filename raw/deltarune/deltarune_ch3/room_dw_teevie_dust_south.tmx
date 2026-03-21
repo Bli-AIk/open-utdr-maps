@@ -4,18 +4,18 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_noodles_tileset.tsx"/>
-  <tileset firstgid="241" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="242" source="tilesets/obj_dw_wobbler.tsx"/>
-  <tileset firstgid="243" source="tilesets/obj_npc_room.tsx"/>
-  <tileset firstgid="244" source="tilesets/obj_musicer_gen.tsx"/>
-  <tileset firstgid="245" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="246" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="247" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="209" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="210" source="tilesets/obj_dw_wobbler.tsx"/>
+  <tileset firstgid="211" source="tilesets/obj_npc_room.tsx"/>
+  <tileset firstgid="212" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="213" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="214" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="215" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="TILES" width="21" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,93,94,0,0,93,94,0,0,93,94,0,0,93,94,0,0,0,0,0,0,0,132,133,0,0,132,133,0,0,132,133,0,0,132,133,0,0,0,0,0,0,0,160,160,0,0,160,160,0,0,160,160,0,0,160,160,0,0,0,0,0,0,0,173,173,0,0,173,173,0,0,173,173,0,0,173,173,0,0,0,0,0,0,0,186,186,0,0,186,186,0,0,186,186,0,0,186,186,0,0,0,0,0,0,15,14,15,14,15,14,15,14,15,14,15,14,15,108,14,15,108,0,0,0,0,41,40,50,51,41,40,107,40,120,40,41,40,107,40,40,120,40,0,0,0,0,67,66,67,66,67,66,133,132,133,40,41,132,133,132,132,133,132,0,0,0,0,160,0,0,0,160,0,0,0,160,40,41,160,0,0,0,0,160,0,0,0,0,173,0,0,0,173,0,0,0,173,40,41,173,0,0,0,0,173,0,0,0,0,186,0,0,0,0,0,0,0,0,40,41,0,0,93,15,14,15,14,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="241" type="obj_mainchara" x="12" y="263" width="19" height="37">
+    <object id="1" gid="209" type="obj_mainchara" x="12" y="263" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="109879"/>
       </properties>
@@ -25,92 +25,92 @@
         <property name="instanceId" type="int" value="109880"/>
       </properties>
     </object>
-    <object id="3" gid="242" type="obj_dw_wobbler" x="56" y="43" width="14" height="30">
+    <object id="3" gid="210" type="obj_dw_wobbler" x="56" y="43" width="14" height="30">
       <properties>
         <property name="instanceId" type="int" value="109881"/>
       </properties>
     </object>
-    <object id="4" gid="242" type="obj_dw_wobbler" x="216" y="41" width="14" height="30">
+    <object id="4" gid="210" type="obj_dw_wobbler" x="216" y="41" width="14" height="30">
       <properties>
         <property name="instanceId" type="int" value="109882"/>
       </properties>
     </object>
-    <object id="5" gid="242" type="obj_dw_wobbler" x="376" y="39" width="14" height="30">
+    <object id="5" gid="210" type="obj_dw_wobbler" x="376" y="39" width="14" height="30">
       <properties>
         <property name="instanceId" type="int" value="109883"/>
       </properties>
     </object>
-    <object id="6" gid="242" type="obj_dw_wobbler" x="536" y="37" width="14" height="30">
+    <object id="6" gid="210" type="obj_dw_wobbler" x="536" y="37" width="14" height="30">
       <properties>
         <property name="instanceId" type="int" value="109884"/>
       </properties>
     </object>
-    <object id="7" gid="243" type="obj_npc_room" x="586" y="226" width="34" height="30">
+    <object id="7" gid="211" type="obj_npc_room" x="586" y="226" width="34" height="30">
       <properties>
         <property name="instanceId" type="int" value="109885"/>
       </properties>
     </object>
-    <object id="8" gid="244" type="obj_musicer_gen" x="-40" y="60" width="20" height="20">
+    <object id="8" gid="212" type="obj_musicer_gen" x="-40" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="109886"/>
       </properties>
     </object>
-    <object id="9" gid="245" type="obj_doorAny" x="-34" y="280" width="40" height="40">
+    <object id="9" gid="213" type="obj_doorAny" x="-34" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109887"/>
       </properties>
     </object>
-    <object id="10" gid="246" type="obj_markerAny" x="12" y="300" width="38" height="74">
+    <object id="10" gid="214" type="obj_markerAny" x="12" y="300" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="109888"/>
       </properties>
     </object>
-    <object id="11" gid="245" type="obj_doorAny" x="360" y="514" width="40" height="40">
+    <object id="11" gid="213" type="obj_doorAny" x="360" y="514" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109889"/>
       </properties>
     </object>
-    <object id="12" gid="246" type="obj_markerAny" x="380" y="468" width="38" height="74">
+    <object id="12" gid="214" type="obj_markerAny" x="380" y="468" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="109890"/>
       </properties>
     </object>
-    <object id="13" gid="247" type="obj_solidblocksized" x="-280" y="376" width="40" height="40">
+    <object id="13" gid="215" type="obj_solidblocksized" x="-280" y="376" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109891"/>
       </properties>
     </object>
-    <object id="14" gid="247" type="obj_solidblocksized" x="0" y="378" width="40" height="40">
+    <object id="14" gid="215" type="obj_solidblocksized" x="0" y="378" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109892"/>
       </properties>
     </object>
-    <object id="15" gid="247" type="obj_solidblocksized" x="40" y="378" width="40" height="40">
+    <object id="15" gid="215" type="obj_solidblocksized" x="40" y="378" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109893"/>
       </properties>
     </object>
-    <object id="16" gid="247" type="obj_solidblocksized" x="0" y="244" width="40" height="40">
+    <object id="16" gid="215" type="obj_solidblocksized" x="0" y="244" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109894"/>
       </properties>
     </object>
-    <object id="17" gid="247" type="obj_solidblocksized" x="680" y="280" width="40" height="40">
+    <object id="17" gid="215" type="obj_solidblocksized" x="680" y="280" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109895"/>
       </properties>
     </object>
-    <object id="18" gid="247" type="obj_solidblocksized" x="320" y="400" width="40" height="40">
+    <object id="18" gid="215" type="obj_solidblocksized" x="320" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109896"/>
       </properties>
     </object>
-    <object id="19" gid="247" type="obj_solidblocksized" x="440" y="400" width="40" height="40">
+    <object id="19" gid="215" type="obj_solidblocksized" x="440" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109897"/>
       </properties>
     </object>
-    <object id="20" gid="247" type="obj_solidblocksized" x="440" y="378" width="40" height="40">
+    <object id="20" gid="215" type="obj_solidblocksized" x="440" y="378" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109898"/>
       </properties>

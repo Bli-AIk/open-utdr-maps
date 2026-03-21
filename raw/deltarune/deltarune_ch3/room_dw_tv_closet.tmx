@@ -4,14 +4,14 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
-  <tileset firstgid="307" source="tilesets/bg_ch3_dw_tvland_backstage_tileset.tsx"/>
-  <tileset firstgid="747" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="748" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="749" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="750" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="751" source="tilesets/obj_sdr.tsx"/>
+  <tileset firstgid="271" source="tilesets/bg_ch3_dw_tvland_backstage_tileset.tsx"/>
+  <tileset firstgid="645" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="646" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="647" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="648" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="649" source="tilesets/obj_sdr.tsx"/>
   <layer id="1" name="TILES" width="24" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,320,0,0,0,0,0,0,0,0,331,331,331,331,331,331,331,331,331,331,331,331,331,331,331,331,0,0,0,0,0,0,0,0,342,342,342,342,342,342,342,342,342,342,342,342,342,342,342,342,0,0,0,0,0,0,0,0,353,353,353,353,353,353,353,353,353,353,353,353,353,353,353,353,0,0,0,0,0,0,0,0,365,365,365,365,365,365,365,365,365,365,365,365,365,365,365,365,0,0,0,0,0,0,0,0,376,376,376,376,376,376,376,376,376,376,376,376,376,376,376,376,0,0,0,0,0,0,0,0,387,387,387,387,387,387,387,387,387,387,387,387,387,387,387,387,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,284,0,0,0,0,0,0,0,0,295,295,295,295,295,295,295,295,295,295,295,295,295,295,295,295,0,0,0,0,0,0,0,0,306,306,306,306,306,306,306,306,306,306,306,306,306,306,306,306,0,0,0,0,0,0,0,0,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,317,0,0,0,0,0,0,0,0,329,329,329,329,329,329,329,329,329,329,329,329,329,329,329,329,0,0,0,0,0,0,0,0,340,340,340,340,340,340,340,340,340,340,340,340,340,340,340,340,0,0,0,0,0,0,0,0,351,351,351,351,351,351,351,351,351,351,351,351,351,351,351,351,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <layer id="2" name="Tiles_1" width="24" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,84,83,84,93,92,93,92,93,92,93,92,93,92,83,84,83,84,83,84,93,92,93,92,93,93,92,93,83,84,83,84,83,84,83,84,83,84,92,93,92,93,92,93,0,0,0,0,0,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,0,0,0,0,0,0,0,0,0,19,19,19,19,19,19,19,19,19,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
@@ -20,7 +20,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,100,101,100,101,100,101,0,0,0,109,110,102,112,113,0,109,100,101,100,101,100,101,0,0,0,0,0,100,101,0,0,0,0,0,0,0,109,100,101,113,101,112,113,0,0,0,113,101,112,113,0,0,0,109,0,109,110,111,111,103,104,113,0,109,113,0,0,102,113,109,109,113,0,0,102,113,109,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,110,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,113,110,102,113,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="1" gid="747" type="obj_mainchara" x="16" y="235" width="19" height="37">
+    <object id="1" gid="645" type="obj_mainchara" x="16" y="235" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="106410"/>
       </properties>
@@ -35,37 +35,37 @@
         <property name="instanceId" type="int" value="106412"/>
       </properties>
     </object>
-    <object id="4" gid="748" type="obj_solidblocksized" x="-40" y="360" width="40" height="40">
+    <object id="4" gid="646" type="obj_solidblocksized" x="-40" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="106413"/>
       </properties>
     </object>
-    <object id="5" gid="748" type="obj_solidblocksized" x="-40" y="200" width="40" height="40">
+    <object id="5" gid="646" type="obj_solidblocksized" x="-40" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="106414"/>
       </properties>
     </object>
-    <object id="6" gid="749" type="obj_doorAny" x="-40" y="240" width="40" height="40">
+    <object id="6" gid="647" type="obj_doorAny" x="-40" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="106415"/>
       </properties>
     </object>
-    <object id="7" gid="750" type="obj_markerAny" x="17" y="272" width="38" height="74">
+    <object id="7" gid="648" type="obj_markerAny" x="17" y="272" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="106416"/>
       </properties>
     </object>
-    <object id="8" gid="751" type="obj_sdr" x="760" y="260" width="20" height="20">
+    <object id="8" gid="649" type="obj_sdr" x="760" y="260" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="106417"/>
       </properties>
     </object>
-    <object id="9" gid="751" type="obj_sdr" x="800" y="220" width="20" height="20">
+    <object id="9" gid="649" type="obj_sdr" x="800" y="220" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="106418"/>
       </properties>
     </object>
-    <object id="10" gid="751" type="obj_sdr" x="720" y="300" width="20" height="20">
+    <object id="10" gid="649" type="obj_sdr" x="720" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="106419"/>
       </properties>

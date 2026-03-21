@@ -4,24 +4,24 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
-  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="704" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="705" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="706" source="tilesets/obj_climb_climbable.tsx"/>
-  <tileset firstgid="707" source="tilesets/obj_climbloc.tsx"/>
-  <tileset firstgid="708" source="tilesets/obj_climb_watergenerator.tsx"/>
-  <tileset firstgid="709" source="tilesets/obj_climb_waterbucket.tsx"/>
-  <tileset firstgid="710" source="tilesets/obj_climb_notsafe.tsx"/>
-  <tileset firstgid="711" source="tilesets/obj_climbstarter.tsx"/>
-  <tileset firstgid="712" source="tilesets/obj_climbstartertrig.tsx"/>
-  <tileset firstgid="713" source="tilesets/obj_climb_mover.tsx"/>
-  <tileset firstgid="714" source="tilesets/obj_bell_small_playable.tsx"/>
-  <tileset firstgid="715" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="584" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="585" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="586" source="tilesets/obj_climb_climbable.tsx"/>
+  <tileset firstgid="587" source="tilesets/obj_climbloc.tsx"/>
+  <tileset firstgid="588" source="tilesets/obj_climb_watergenerator.tsx"/>
+  <tileset firstgid="589" source="tilesets/obj_climb_waterbucket.tsx"/>
+  <tileset firstgid="590" source="tilesets/obj_climb_notsafe.tsx"/>
+  <tileset firstgid="591" source="tilesets/obj_climbstarter.tsx"/>
+  <tileset firstgid="592" source="tilesets/obj_climbstartertrig.tsx"/>
+  <tileset firstgid="593" source="tilesets/obj_climb_mover.tsx"/>
+  <tileset firstgid="594" source="tilesets/obj_bell_small_playable.tsx"/>
+  <tileset firstgid="595" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="TILES" width="34" height="24">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,92,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,104,129,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,97,124,92,92,92,92,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,103,104,104,104,104,104,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,121,121,121,121,121,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,127,127,127,127,127,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,92,92,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,104,104,104,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,111,111,111,111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,121,121,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,127,127,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="703" type="obj_mainchara" x="12" y="695" width="19" height="37">
+    <object id="1" gid="583" type="obj_mainchara" x="12" y="695" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="105555"/>
       </properties>
@@ -31,227 +31,227 @@
         <property name="instanceId" type="int" value="105556"/>
       </properties>
     </object>
-    <object id="3" gid="704" type="obj_doorAny" x="1354" y="200" width="40" height="40">
+    <object id="3" gid="584" type="obj_doorAny" x="1354" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105557"/>
       </properties>
     </object>
-    <object id="4" gid="705" type="obj_markerAny" x="1309" y="212" width="38" height="74">
+    <object id="4" gid="585" type="obj_markerAny" x="1309" y="212" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="105558"/>
       </properties>
     </object>
-    <object id="5" gid="704" type="obj_doorAny" x="-34" y="720" width="40" height="40">
+    <object id="5" gid="584" type="obj_doorAny" x="-34" y="720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105559"/>
       </properties>
     </object>
-    <object id="6" gid="705" type="obj_markerAny" x="12" y="732" width="38" height="74">
+    <object id="6" gid="585" type="obj_markerAny" x="12" y="732" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="105560"/>
       </properties>
     </object>
-    <object id="7" gid="706" type="obj_climb_climbable" x="-680" y="360" width="40" height="40">
+    <object id="7" gid="586" type="obj_climb_climbable" x="-680" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105561"/>
       </properties>
     </object>
-    <object id="8" gid="707" type="obj_climbloc" x="80" y="695" width="19" height="37">
+    <object id="8" gid="587" type="obj_climbloc" x="80" y="695" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="105562"/>
       </properties>
     </object>
-    <object id="9" gid="708" type="obj_climb_watergenerator" x="-400" y="380" width="20" height="20">
+    <object id="9" gid="588" type="obj_climb_watergenerator" x="-400" y="380" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105563"/>
       </properties>
     </object>
-    <object id="10" gid="709" type="obj_climb_waterbucket" x="-400" y="410" width="20" height="20">
+    <object id="10" gid="589" type="obj_climb_waterbucket" x="-400" y="410" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105564"/>
       </properties>
     </object>
-    <object id="11" gid="710" type="obj_climb_notsafe" x="-600" y="336" width="16" height="16">
+    <object id="11" gid="590" type="obj_climb_notsafe" x="-600" y="336" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="105565"/>
       </properties>
     </object>
-    <object id="12" gid="706" type="obj_climb_climbable" x="200" y="760" width="40" height="40">
+    <object id="12" gid="586" type="obj_climb_climbable" x="200" y="760" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105566"/>
       </properties>
     </object>
-    <object id="13" gid="706" type="obj_climb_climbable" x="200" y="640" width="40" height="40">
+    <object id="13" gid="586" type="obj_climb_climbable" x="200" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105567"/>
       </properties>
     </object>
-    <object id="14" gid="706" type="obj_climb_climbable" x="200" y="520" width="40" height="40">
+    <object id="14" gid="586" type="obj_climb_climbable" x="200" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105568"/>
       </properties>
     </object>
-    <object id="15" gid="706" type="obj_climb_climbable" x="200" y="560" width="40" height="40">
+    <object id="15" gid="586" type="obj_climb_climbable" x="200" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105569"/>
       </properties>
     </object>
-    <object id="16" gid="706" type="obj_climb_climbable" x="440" y="560" width="40" height="40">
+    <object id="16" gid="586" type="obj_climb_climbable" x="440" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105570"/>
       </properties>
     </object>
-    <object id="17" gid="706" type="obj_climb_climbable" x="320" y="560" width="40" height="40">
+    <object id="17" gid="586" type="obj_climb_climbable" x="320" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105571"/>
       </properties>
     </object>
-    <object id="18" gid="706" type="obj_climb_climbable" x="200" y="320" width="40" height="40">
+    <object id="18" gid="586" type="obj_climb_climbable" x="200" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105572"/>
       </properties>
     </object>
-    <object id="19" gid="706" type="obj_climb_climbable" x="200" y="200" width="40" height="40">
+    <object id="19" gid="586" type="obj_climb_climbable" x="200" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105573"/>
       </properties>
     </object>
-    <object id="20" gid="706" type="obj_climb_climbable" x="200" y="80" width="40" height="40">
+    <object id="20" gid="586" type="obj_climb_climbable" x="200" y="80" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105574"/>
       </properties>
     </object>
-    <object id="21" gid="706" type="obj_climb_climbable" x="200" y="120" width="40" height="40">
+    <object id="21" gid="586" type="obj_climb_climbable" x="200" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105575"/>
       </properties>
     </object>
-    <object id="22" gid="706" type="obj_climb_climbable" x="440" y="120" width="40" height="40">
+    <object id="22" gid="586" type="obj_climb_climbable" x="440" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105576"/>
       </properties>
     </object>
-    <object id="23" gid="706" type="obj_climb_climbable" x="320" y="120" width="40" height="40">
+    <object id="23" gid="586" type="obj_climb_climbable" x="320" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105577"/>
       </properties>
     </object>
-    <object id="24" gid="706" type="obj_climb_climbable" x="640" y="320" width="40" height="40">
+    <object id="24" gid="586" type="obj_climb_climbable" x="640" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105578"/>
       </properties>
     </object>
-    <object id="25" gid="706" type="obj_climb_climbable" x="640" y="200" width="40" height="40">
+    <object id="25" gid="586" type="obj_climb_climbable" x="640" y="200" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105579"/>
       </properties>
     </object>
-    <object id="26" gid="706" type="obj_climb_climbable" x="640" y="80" width="40" height="40">
+    <object id="26" gid="586" type="obj_climb_climbable" x="640" y="80" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105580"/>
       </properties>
     </object>
-    <object id="27" gid="706" type="obj_climb_climbable" x="640" y="120" width="40" height="40">
+    <object id="27" gid="586" type="obj_climb_climbable" x="640" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105581"/>
       </properties>
     </object>
-    <object id="28" gid="706" type="obj_climb_climbable" x="880" y="120" width="40" height="40">
+    <object id="28" gid="586" type="obj_climb_climbable" x="880" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105582"/>
       </properties>
     </object>
-    <object id="29" gid="706" type="obj_climb_climbable" x="760" y="120" width="40" height="40">
+    <object id="29" gid="586" type="obj_climb_climbable" x="760" y="120" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105583"/>
       </properties>
     </object>
-    <object id="30" gid="706" type="obj_climb_climbable" x="640" y="760" width="40" height="40">
+    <object id="30" gid="586" type="obj_climb_climbable" x="640" y="760" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105584"/>
       </properties>
     </object>
-    <object id="31" gid="706" type="obj_climb_climbable" x="640" y="640" width="40" height="40">
+    <object id="31" gid="586" type="obj_climb_climbable" x="640" y="640" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105585"/>
       </properties>
     </object>
-    <object id="32" gid="706" type="obj_climb_climbable" x="640" y="520" width="40" height="40">
+    <object id="32" gid="586" type="obj_climb_climbable" x="640" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105586"/>
       </properties>
     </object>
-    <object id="33" gid="706" type="obj_climb_climbable" x="640" y="560" width="40" height="40">
+    <object id="33" gid="586" type="obj_climb_climbable" x="640" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105587"/>
       </properties>
     </object>
-    <object id="34" gid="706" type="obj_climb_climbable" x="880" y="560" width="40" height="40">
+    <object id="34" gid="586" type="obj_climb_climbable" x="880" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105588"/>
       </properties>
     </object>
-    <object id="35" gid="706" type="obj_climb_climbable" x="760" y="560" width="40" height="40">
+    <object id="35" gid="586" type="obj_climb_climbable" x="760" y="560" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105589"/>
       </properties>
     </object>
-    <object id="36" gid="711" type="obj_climbstarter" x="200" y="740" width="20" height="20">
+    <object id="36" gid="591" type="obj_climbstarter" x="200" y="740" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105590"/>
       </properties>
     </object>
-    <object id="37" gid="712" type="obj_climbstartertrig" x="140" y="720" width="40" height="40">
+    <object id="37" gid="592" type="obj_climbstartertrig" x="140" y="720" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105591"/>
       </properties>
     </object>
-    <object id="38" gid="713" type="obj_climb_mover" x="480" y="740" width="20" height="20">
+    <object id="38" gid="593" type="obj_climb_mover" x="480" y="740" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105592"/>
       </properties>
     </object>
-    <object id="39" gid="713" type="obj_climb_mover" x="600" y="620" width="20" height="20">
+    <object id="39" gid="593" type="obj_climb_mover" x="600" y="620" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105593"/>
       </properties>
     </object>
-    <object id="40" gid="713" type="obj_climb_mover" x="480" y="500" width="20" height="20">
+    <object id="40" gid="593" type="obj_climb_mover" x="480" y="500" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105594"/>
       </properties>
     </object>
-    <object id="41" gid="713" type="obj_climb_mover" x="640" y="460" width="20" height="20">
+    <object id="41" gid="593" type="obj_climb_mover" x="640" y="460" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105595"/>
       </properties>
     </object>
-    <object id="42" gid="713" type="obj_climb_mover" x="480" y="60" width="20" height="20">
+    <object id="42" gid="593" type="obj_climb_mover" x="480" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105596"/>
       </properties>
     </object>
-    <object id="43" gid="711" type="obj_climbstarter" x="920" y="60" width="20" height="20">
+    <object id="43" gid="591" type="obj_climbstarter" x="920" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="105597"/>
       </properties>
     </object>
-    <object id="44" gid="707" type="obj_climbloc" x="1080" y="55" width="19" height="37">
+    <object id="44" gid="587" type="obj_climbloc" x="1080" y="55" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="105598"/>
       </properties>
     </object>
-    <object id="45" gid="712" type="obj_climbstartertrig" x="1040" y="80" width="40" height="40">
+    <object id="45" gid="592" type="obj_climbstartertrig" x="1040" y="80" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105599"/>
       </properties>
     </object>
-    <object id="46" gid="714" type="obj_bell_small_playable" x="271" y="558" width="19" height="20">
+    <object id="46" gid="594" type="obj_bell_small_playable" x="271" y="558" width="19" height="20">
       <properties>
         <property name="instanceId" type="int" value="105600"/>
       </properties>
     </object>
-    <object id="47" gid="715" type="obj_solidblocksized" x="-760" y="360" width="40" height="40">
+    <object id="47" gid="595" type="obj_solidblocksized" x="-760" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="105601"/>
       </properties>

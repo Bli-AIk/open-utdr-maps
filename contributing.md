@@ -62,6 +62,36 @@ The maps in `raw/` are auto-generated and may have:
 > ⚠️ **Never modify files in `raw/`** — those are the original auto-generated maps.
 > Always save your work to `curated/`.
 
+### Helper script: raw -> curated promotion
+
+If you do not want to copy dependencies by hand, use the local helper:
+
+```bash
+# Preview one room first
+just migrate-dry-run dataset=undertale room=room_fire2
+
+# Promote one room into curated/
+just migrate dataset=undertale room=room_fire2
+```
+
+What it does:
+
+1. Parses the selected `raw/.../<room>.tmx`
+2. Collects referenced `.tsx` files
+3. Collects referenced `.png` files from those `.tsx`
+4. Applies the blacklist from `scripts/curation_blacklist.toml`
+5. Writes a review folder under `dev/curation_migration_preview/...`
+6. Copies the cleaned room plus dependencies into the matching `curated/` subtree
+
+Before changing blacklist rules, build the global review folder:
+
+```bash
+just blacklist-audit
+```
+
+That command writes all blacklist-matched sprite previews to `dev/curation_blacklist_audit/`.
+Use it to catch false positives before promoting rooms.
+
 ### 📐 2. Logic layers *(future work)*
 
 > 💡 This is **not a current priority**. You can skip this for now, or wait until the
@@ -144,6 +174,7 @@ git checkout -b my-contribution
 
 - Open maps in Tiled, make edits, save
 - Put curated maps in the right `curated/` subdirectory
+- Or start from the helper script above, then continue cleanup in Tiled
 
 ### 4. Commit and push
 

@@ -62,6 +62,36 @@
 > ⚠️ **永远不要修改 `raw/` 中的文件** — 那些是原始的自动生成地图。
 > 请将你的工作成果保存到 `curated/`。
 
+### 辅助脚本：raw -> curated 提升
+
+如果你不想手动复制依赖文件，可以直接使用仓库自带的本地辅助脚本：
+
+```bash
+# 先 dry-run 预览
+just migrate-dry-run dataset=undertale room=room_fire2
+
+# 真正提升一个房间到 curated/
+just migrate dataset=undertale room=room_fire2
+```
+
+脚本会做这些事：
+
+1. 解析目标 `raw/.../<room>.tmx`
+2. 收集它引用的 `.tsx`
+3. 再从这些 `.tsx` 收集它们引用的 `.png`
+4. 按 `scripts/curation_blacklist.toml` 执行黑名单清理
+5. 在 `dev/curation_migration_preview/...` 生成本地审阅目录
+6. 将清理后的房间和依赖复制到对应的 `curated/` 子目录
+
+在调整黑名单规则前，建议先生成全局审阅目录：
+
+```bash
+just blacklist-audit
+```
+
+这个命令会把所有命中黑名单的 sprite 预览输出到 `dev/curation_blacklist_audit/`，
+方便你先排查误杀项，再决定是否调整规则。
+
 ### 📐 2. 逻辑图层 *（未来工作）*
 
 > 💡 这**不是当前的工作重点**。你可以暂时跳过，或等待社区通过讨论建立统一规范后再参与。
@@ -141,6 +171,7 @@ git checkout -b my-contribution
 
 - 在 Tiled 中打开地图，编辑，保存
 - 将整理后的地图放到正确的 `curated/` 子目录
+- 也可以先用上面的辅助脚本生成起始版本，再继续在 Tiled 中整理
 
 ### 4. 提交并推送
 
