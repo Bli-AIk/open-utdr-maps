@@ -93,6 +93,12 @@ Most contributions don't require any programming — just
 You can rename layers, clean up rooms, add collision data, stitch worlds together,
 or even just fix a typo in the docs.
 
+When opening a GitHub Issue, please use **English** so discussion and triage stay consistent.
+Issue titles use the format `[Type | GAME | EMOJI] Description`, where the emoji reflects the primary work type:
+`🧹` data curation, `📐` logic layers, `🌍` world stitching, `📝` documentation, `🔧` tool improvements.
+We also use matching labels such as `data-curation`, `logic-layers`, `world-stitching`, `documentation`, and `tooling`
+to make the queue easier to filter.
+
 👉 See [contributing.md](contributing.md) for a step-by-step guide.
 
 ## ⚖️ Licensing

@@ -88,6 +88,12 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
 你可以重命名图层、清理房间、添加碰撞数据、拼接世界地图，
 甚至只是修复文档中的一个错别字。
 
+在 GitHub 上创建 Issue 时，请统一使用**英文**，方便后续分流与维护。
+Issue 标题格式为 `[Type | GAME | EMOJI] Description`，其中 emoji 用来表示主要工作类型：
+`🧹` 数据整理，`📐` 逻辑图层，`🌍` 世界拼接，`📝` 文档完善，`🔧` 工具改进。
+仓库也会配套使用 `data-curation`、`logic-layers`、`world-stitching`、`documentation`、`tooling`
+等标签，方便筛选任务。
+
 👉 查看 [contributing_zh-hans.md](contributing_zh-hans.md) 了解详细的参与步骤。
 
 ## ⚖️ 许可证

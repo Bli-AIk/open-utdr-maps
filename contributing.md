@@ -149,12 +149,41 @@ Our workflow is simple:
 > You can also share your edited files directly in the Issue if that's easier.
 > We're here to help — not to gatekeep.
 
+### Issue language, titles, and labels
+
+Please keep Issues in **English**, even if discussion later happens in multiple languages.
+
+Use this title format:
+
+```text
+[Type | GAME | EMOJI] Description
+```
+
+Examples:
+
+```text
+[Curation | UNDERTALE | 🧹] Garbage Dump cleanup
+[Bug | DELTARUNE CH2 | 📐] Missing collision rectangles in room_dw_city_big_2
+```
+
+Choose the emoji based on the primary work type:
+
+| Emoji | Meaning | Label |
+|-------|---------|-------|
+| `🧹` | Data curation | `data-curation` |
+| `📐` | Logic layers | `logic-layers` |
+| `🌍` | World stitching | `world-stitching` |
+| `📝` | Documentation | `documentation` |
+| `🔧` | Tool improvements | `tooling` |
+
+Issue templates apply the base labels automatically. Maintainers may add or adjust labels after triage.
+
 ## 🚀 Step-by-step: Your first contribution
 
 ### 0. Open an Issue
 
 Go to [Issues](../../issues) and create a new one. Describe what you'd like to work on
-(e.g., "Clean up room_ruins1 layers"). Check that no one else has claimed it yet!
+(e.g., `[Curation | UNDERTALE | 🧹] room_ruins1 cleanup`). Check that no one else has claimed it yet!
 
 ### 1. Fork and clone
 

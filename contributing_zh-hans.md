@@ -146,12 +146,41 @@ Tiled 支持 `.world` 文件，可以将多个地图连接在一起。
 > 你也可以直接在 Issue 中分享修改后的文件，这样也行。
 > 我们在这里是为了帮助你，而不是设置门槛。
 
+### Issue 的语言、标题和标签
+
+Issue 请统一使用**英文**，这样更方便后续分流、检索和维护。
+
+标题格式如下：
+
+```text
+[Type | GAME | EMOJI] Description
+```
+
+示例：
+
+```text
+[Curation | UNDERTALE | 🧹] Garbage Dump cleanup
+[Bug | DELTARUNE CH2 | 📐] Missing collision rectangles in room_dw_city_big_2
+```
+
+emoji 需要和主要工作类型对应：
+
+| Emoji | 含义 | 标签 |
+|-------|------|------|
+| `🧹` | 数据整理 | `data-curation` |
+| `📐` | 逻辑图层 | `logic-layers` |
+| `🌍` | 世界拼接 | `world-stitching` |
+| `📝` | 文档完善 | `documentation` |
+| `🔧` | 工具改进 | `tooling` |
+
+Issue 模板会自动附加基础标签，维护者后续可以继续补充或调整标签。
+
 ## 🚀 手把手教程：你的第一次贡献
 
 ### 0. 提 Issue
 
 前往 [Issues](../../issues) 创建一个新的 Issue。描述你想做的事情
-（比如"清理 room_ruins1 的图层"）。先检查一下有没有人已经在做了！
+（比如 `[Curation | UNDERTALE | 🧹] room_ruins1 cleanup`）。先检查一下有没有人已经在做了！
 
 ### 1. Fork 并克隆
 
