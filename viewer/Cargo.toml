@@ -7,7 +7,7 @@ license = "GPL-3.0-or-later"
 description = "Web viewer for the Open UTDR Maps collection"
 
 [dependencies]
-tiled_map_web_viewer = { path = "../../tiled_map_web_viewer" }
+tiled_map_web_viewer = "0.2"
 bevy_ecs_tiled = "0.11"
 
 [profile.release]

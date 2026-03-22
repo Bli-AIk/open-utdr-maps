@@ -5497,7 +5497,9 @@ dependencies = [
 
 [[package]]
 name = "tiled_map_web_viewer"
-version = "0.1.2"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "46ce622c4fc2096083054dcba222a7b8d0b1860d69b2ed515bb838f5f79b3428"
 dependencies = [
  "bevy",
  "bevy_ecs_tiled",
