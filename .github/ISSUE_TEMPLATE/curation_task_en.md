@@ -1,7 +1,7 @@
 ---
 name: Curation Task
 about: Propose or claim map curation work
-title: '[Curation | <GAME> | 🧹] <area or description>'
+title: '[Curation | <GAME> | <EMOJI>] <area or description>'
 labels: curation, help wanted
 ---
 
@@ -11,6 +11,12 @@ Use the title prefix for quick scanning in the issue list.
 This template applies the base "curation" and "help wanted" labels automatically; maintainers may add more labels after triage.
 
 <GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
+<EMOJI>: choose the primary work type for this issue:
+  🧹 = Data Curation
+  📐 = Logic Layers
+  🌍 = World Stitching
+  📝 = Documentation
+  🔧 = Tool Improvements
 <area or description>: e.g., "rm_mausoleum_entrance" or "room_ruins_1"
 -->
 
