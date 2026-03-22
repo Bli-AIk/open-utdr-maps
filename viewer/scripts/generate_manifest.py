@@ -55,6 +55,42 @@ def parse_map_properties(tmx_path: Path) -> dict[str, str]:
     return properties
 
 
+def tone_for_badge(label: str, *, kind: str) -> str:
+    if kind == "section":
+        return "success" if label == "curated" else "muted"
+    if kind == "visual_status":
+        return {
+            "curated": "success",
+            "reviewed_clean": "info",
+            "seeded": "warning",
+            "needs_work": "danger",
+            "unreviewed": "muted",
+        }.get(label, "accent")
+    if kind == "scope":
+        return {
+            "normal": "info",
+            "system": "muted",
+            "archival": "warning",
+        }.get(label, "muted")
+    return "muted"
+
+
+def build_details(source: str, dataset: str, props: dict[str, str]) -> list[dict[str, str]]:
+    details: list[dict[str, str]] = [
+        {"label": "Source", "value": source},
+        {"label": "Dataset", "value": dataset},
+    ]
+    if visual := props.get("visual_status"):
+        details.append({"label": "Visual Status", "value": visual})
+    if logic := props.get("logic_status"):
+        details.append({"label": "Logic Status", "value": logic})
+    if scope := props.get("scope"):
+        details.append({"label": "Scope", "value": scope})
+    if notes := props.get("notes"):
+        details.append({"label": "Notes", "value": notes})
+    return details
+
+
 def collect_entries() -> list[dict[str, object]]:
     entries: list[dict[str, object]] = []
     for source_dir in ("raw", "curated"):
@@ -63,17 +99,40 @@ def collect_entries() -> list[dict[str, object]]:
             continue
         for tmx_path in sorted(root.rglob("*.tmx")):
             rel_path = tmx_path.relative_to(REPO_ROOT).as_posix()
+            dataset = dataset_for_path(Path(rel_path))
+            props = parse_map_properties(tmx_path)
+            badges = [
+                {
+                    "label": source_dir,
+                    "tone": tone_for_badge(source_dir, kind="section"),
+                }
+            ]
+            if visual := props.get("visual_status"):
+                badges.append(
+                    {
+                        "label": visual,
+                        "tone": tone_for_badge(visual, kind="visual_status"),
+                    }
+                )
+            elif source_dir == "curated":
+                badges.append({"label": "metadata missing", "tone": "danger"})
+
+            if scope := props.get("scope"):
+                badges.append(
+                    {
+                        "label": scope,
+                        "tone": tone_for_badge(scope, kind="scope"),
+                    }
+                )
+
             entry = {
                 "path": rel_path,
-                "source": source_dir,
-                "dataset": dataset_for_path(Path(rel_path)),
-                "room_name": tmx_path.stem,
-                "visual_status": None,
-                "logic_status": None,
-                "scope": None,
-                "notes": None,
+                "title": tmx_path.stem,
+                "section": source_dir,
+                "category": dataset,
+                "badges": badges,
+                "details": build_details(source_dir, dataset, props),
             }
-            entry.update(parse_map_properties(tmx_path))
             entries.append(entry)
     return entries
 
