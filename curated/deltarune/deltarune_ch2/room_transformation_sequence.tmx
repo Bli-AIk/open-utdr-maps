@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="5">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_thrash_transformation_controller.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_thrash_transformation_original.tsx" />
+  <tileset firstgid="3" source="tilesets/obj_anime_bg_controller.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_thrash_transformation_controller" x="299" y="278" width="23" height="70">
+      <properties>
+        <property name="instanceId" type="int" value="108092" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_thrash_transformation_original" x="285" y="256" width="52" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="108093" />
+      </properties>
+    </object>
+    <object id="3" gid="3" type="obj_anime_bg_controller" x="0" y="480" width="640" height="480">
+      <properties>
+        <property name="instanceId" type="int" value="108094" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

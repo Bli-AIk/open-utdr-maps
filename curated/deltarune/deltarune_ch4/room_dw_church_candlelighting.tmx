@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="49" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="39">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx" />
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="584" source="tilesets/obj_parallaxer.tsx" />
+  <tileset firstgid="585" source="tilesets/obj_church_candleLighter.tsx" />
+  <tileset firstgid="586" source="tilesets/obj_darkness_overlay.tsx" />
+  <tileset firstgid="588" source="tilesets/obj_sdr_dark.tsx" />
+  <tileset firstgid="589" source="tilesets/obj_sul_dark.tsx" />
+  <tileset firstgid="592" source="tilesets/obj_overworld_bulletarea.tsx" />
+  <layer id="1" name="PARALLAX_1" width="49" height="12">
+    <data encoding="csv">0,0,156,0,0,156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,156,0,0,156,0,0,0,162,0,0,162,0,0,156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,156,0,0,162,0,0,162,0,0,0,168,0,0,168,0,0,162,0,0,156,0,0,156,0,0,156,0,0,156,0,0,156,0,0,156,0,0,156,0,0,156,0,0,156,0,0,156,0,0,162,0,0,168,0,0,168,0,0,0,0,0,0,0,0,0,168,0,0,162,0,0,162,0,0,162,0,0,162,0,0,162,0,0,162,0,0,162,0,0,162,0,0,162,0,0,162,0,0,168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,0,0,168,0,0,168,0,0,168,0,0,168,0,0,168,0,0,168,0,0,168,0,0,168,0,0,168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES" width="49" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,74,74,74,74,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,74,74,74,74,74,86,86,86,86,86,146,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,147,86,86,86,86,86,121,121,121,121,121,121,146,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,147,121,121,121,121,121,121,121,121,121,121,121,121,121,146,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,147,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,146,74,74,74,74,74,74,103,104,105,74,74,103,104,105,74,74,103,104,105,74,74,103,104,105,74,74,74,74,74,74,74,147,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,86,86,86,86,86,86,109,111,111,86,86,109,111,111,86,86,109,111,111,86,86,109,111,111,86,86,86,86,86,86,86,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,115,115,117,121,121,115,116,115,121,121,115,116,117,121,121,115,116,115,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121,121</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="583" type="obj_mainchara" x="40" y="197" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="102136" />
+      </properties>
+    </object>
+    <object id="8" gid="584" type="obj_parallaxer" x="-40" y="50" width="61" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="102143" />
+      </properties>
+    </object>
+    <object id="9" gid="585" type="obj_church_candleLighter" x="840" y="194" width="36" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="102144" />
+      </properties>
+    </object>
+    <object id="10" gid="586" type="obj_darkness_overlay" x="-80" y="-20" width="40" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="102145" />
+      </properties>
+    </object>
+    <object id="17" gid="588" type="obj_sdr_dark" x="1600" y="412" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102152" />
+      </properties>
+    </object>
+    <object id="18" gid="588" type="obj_sdr_dark" x="1640" y="372" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102153" />
+      </properties>
+    </object>
+    <object id="19" gid="588" type="obj_sdr_dark" x="1680" y="332" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102154" />
+      </properties>
+    </object>
+    <object id="20" gid="588" type="obj_sdr_dark" x="1720" y="292" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102155" />
+      </properties>
+    </object>
+    <object id="21" gid="589" type="obj_sul_dark" x="1717" y="217" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102156" />
+      </properties>
+    </object>
+    <object id="22" gid="589" type="obj_sul_dark" x="1678" y="256" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102157" />
+      </properties>
+    </object>
+    <object id="23" gid="589" type="obj_sul_dark" x="1639" y="295" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102158" />
+      </properties>
+    </object>
+    <object id="24" gid="589" type="obj_sul_dark" x="1600" y="334" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102159" />
+      </properties>
+    </object>
+    <object id="35" gid="588" type="obj_sdr_dark" x="1732" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102170" />
+      </properties>
+    </object>
+    <object id="36" gid="589" type="obj_sul_dark" x="1573" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102171" />
+      </properties>
+    </object>
+    <object id="37" gid="592" type="obj_overworld_bulletarea" x="360" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102172" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

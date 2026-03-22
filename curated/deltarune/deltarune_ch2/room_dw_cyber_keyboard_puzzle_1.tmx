@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="51">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="35" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="451" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="453" source="tilesets/obj_ch2_keyboardpuzzle_tile.tsx" />
+  <tileset firstgid="454" source="tilesets/obj_nubertQueenScreen.tsx" />
+  <tileset firstgid="455" source="tilesets/obj_treasure_room.tsx" />
+  <tileset firstgid="456" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="457" source="tilesets/obj_forcefield.tsx" />
+  <tileset firstgid="458" source="tilesets/obj_musicer_cyber.tsx" />
+  <tileset firstgid="463" source="tilesets/obj_traffic_road_trigger.tsx" />
+  <tileset firstgid="464" source="tilesets/obj_camera_area.tsx" />
+  <tileset firstgid="465" source="tilesets/obj_cyber_wall_lights.tsx" />
+  <tileset firstgid="466" source="tilesets/obj_cyber_wall_lights_left.tsx" />
+  <tileset firstgid="467" source="tilesets/obj_cyber_wall_lights_right.tsx" />
+  <tileset firstgid="468" source="tilesets/obj_cyber_hole_lights.tsx" />
+  <layer id="1" name="TILES" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,39,39,39,39,39,40,0,0,0,38,39,229,164,164,164,164,164,164,164,164,163,0,0,0,51,50,65,65,65,65,65,66,0,0,0,51,52,37,241,149,203,150,203,150,203,148,240,39,39,39,36,53,78,78,78,78,78,79,0,0,39,36,52,52,52,213,52,213,52,213,52,213,50,65,65,65,49,53,121,121,121,121,121,125,0,0,65,65,65,65,65,174,65,175,65,175,65,176,66,77,78,79,51,37,39,39,39,39,39,40,0,0,78,78,78,78,78,177,188,189,188,189,188,200,79,117,91,92,64,65,65,65,65,65,65,66,0,0,91,91,91,91,91,201,91,91,91,117,91,202,92,130,130,130,77,78,78,78,78,78,78,79,0,0,121,121,121,121,121,215,117,117,117,117,117,216,125,0,0,0,90,91,91,91,91,91,91,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,121,121,121,121,121,121,125,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Overlay" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,10,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_Coverup_1" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,117,117,117,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_Coverup_2" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_Coverup_Overlay" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="1" gid="451" type="obj_mainchara" x="26" y="260" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101896" />
+      </properties>
+    </object>
+    <object id="4" gid="453" type="obj_ch2_keyboardpuzzle_tile" x="240" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101899" />
+      </properties>
+    </object>
+    <object id="5" gid="453" type="obj_ch2_keyboardpuzzle_tile" x="320" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101900" />
+      </properties>
+    </object>
+    <object id="6" gid="453" type="obj_ch2_keyboardpuzzle_tile" x="320" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101901" />
+      </properties>
+    </object>
+    <object id="7" gid="453" type="obj_ch2_keyboardpuzzle_tile" x="400" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101902" />
+      </properties>
+    </object>
+    <object id="8" gid="453" type="obj_ch2_keyboardpuzzle_tile" x="240" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101903" />
+      </properties>
+    </object>
+    <object id="9" gid="453" type="obj_ch2_keyboardpuzzle_tile" x="400" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101904" />
+      </properties>
+    </object>
+    <object id="10" gid="454" type="obj_nubertQueenScreen" x="752" y="257" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="101905" />
+      </properties>
+    </object>
+    <object id="11" gid="455" type="obj_treasure_room" x="900" y="318" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101906" />
+      </properties>
+    </object>
+    <object id="12" gid="456" type="obj_npc_room" x="944" y="160" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="101907" />
+      </properties>
+    </object>
+    <object id="13" gid="457" type="obj_forcefield" x="560" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101908" />
+      </properties>
+    </object>
+    <object id="14" gid="458" type="obj_musicer_cyber" x="-240" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101909" />
+      </properties>
+    </object>
+    <object id="34" gid="463" type="obj_traffic_road_trigger" x="160" y="244" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="101929" />
+      </properties>
+    </object>
+    <object id="35" gid="463" type="obj_traffic_road_trigger" x="40" y="235" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="101930" />
+      </properties>
+    </object>
+    <object id="36" gid="464" type="obj_camera_area" x="0" y="120" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101931" />
+      </properties>
+    </object>
+    <object id="37" gid="465" type="obj_cyber_wall_lights" x="0" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101932" />
+      </properties>
+    </object>
+    <object id="38" gid="465" type="obj_cyber_wall_lights" x="680" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101933" />
+      </properties>
+    </object>
+    <object id="39" gid="466" type="obj_cyber_wall_lights_left" x="640" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101934" />
+      </properties>
+    </object>
+    <object id="40" gid="467" type="obj_cyber_wall_lights_right" x="920" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101935" />
+      </properties>
+    </object>
+    <object id="41" gid="467" type="obj_cyber_wall_lights_right" x="920" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101936" />
+      </properties>
+    </object>
+    <object id="42" gid="465" type="obj_cyber_wall_lights" x="720" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101937" />
+      </properties>
+    </object>
+    <object id="43" gid="465" type="obj_cyber_wall_lights" x="232" y="371" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101938" />
+      </properties>
+    </object>
+    <object id="44" gid="465" type="obj_cyber_wall_lights" x="452" y="361" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101939" />
+      </properties>
+    </object>
+    <object id="45" gid="465" type="obj_cyber_wall_lights" x="520" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101940" />
+      </properties>
+    </object>
+    <object id="46" gid="468" type="obj_cyber_hole_lights" x="200" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101941" />
+      </properties>
+    </object>
+    <object id="47" gid="468" type="obj_cyber_hole_lights" x="280" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101942" />
+      </properties>
+    </object>
+    <object id="48" gid="468" type="obj_cyber_hole_lights" x="360" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101943" />
+      </properties>
+    </object>
+    <object id="49" gid="468" type="obj_cyber_hole_lights" x="440" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101944" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

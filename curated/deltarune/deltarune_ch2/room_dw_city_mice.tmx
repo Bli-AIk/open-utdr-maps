@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="13" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="47">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_alleyway_tileset.tsx" />
+  <tileset firstgid="346" source="tilesets/bg_dw_city_alley_tileset.tsx" />
+  <tileset firstgid="456" source="tilesets/bg_dw_city_street_edges_tileset.tsx" />
+  <tileset firstgid="664" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="665" source="tilesets/obj_holemouse_generator.tsx" />
+  <tileset firstgid="666" source="tilesets/obj_holemouse_goal.tsx" />
+  <tileset firstgid="667" source="tilesets/obj_resetBell.tsx" />
+  <tileset firstgid="668" source="tilesets/obj_mouseSpawnSwitch.tsx" />
+  <tileset firstgid="670" source="tilesets/obj_holemouse_invis_clockwise.tsx" />
+  <tileset firstgid="672" source="tilesets/obj_npc_sign.tsx" />
+  <tileset firstgid="673" source="tilesets/obj_holemouse_block_clockwise_moveable.tsx" />
+  <tileset firstgid="674" source="tilesets/obj_cybercity_mousesign.tsx" />
+  <tileset firstgid="675" source="tilesets/obj_musicer_city.tsx" />
+  <tileset firstgid="676" source="tilesets/obj_weirdroute_manipulator.tsx" />
+  <layer id="1" name="BG_Tiles" width="16" height="13">
+    <data encoding="csv">0,0,0,0,0,244,245,245,245,245,245,246,112,112,0,0,0,0,0,0,0,259,260,260,260,260,260,261,112,112,0,0,0,0,0,0,0,274,275,275,275,275,275,276,112,112,0,0,0,0,0,244,246,289,290,290,290,290,290,291,112,112,0,0,0,0,0,259,261,304,305,305,305,305,305,306,112,112,0,0,0,0,0,289,276,170,170,170,170,170,170,170,112,112,0,0,0,0,0,289,291,128,170,128,128,128,170,170,112,112,0,0,0,0,0,304,306,128,128,128,128,128,128,170,112,112,0,0,0,0,0,170,170,128,128,128,128,128,170,170,112,112,0,0,0,0,0,170,170,128,0,128,128,128,128,128,128,0,0,0,0,0,0,170,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,170,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,170,170,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Rooftops" width="16" height="13">
+    <data encoding="csv">509,509,509,573,574,575,482,483,484,583,584,585,0,0,495,496,509,482,483,484,503,509,495,496,497,509,509,509,0,0,503,482,503,495,496,497,509,509,509,509,503,509,509,509,0,0,503,495,560,561,562,509,509,509,509,509,503,509,509,509,0,0,570,571,573,574,575,509,509,509,509,509,503,509,509,509,0,0,583,584,503,509,509,509,0,0,0,0,0,0,0,0,0,0,503,509,503,503,503,0,0,0,0,0,0,0,0,0,0,0,492,493,493,494,509,0,0,0,0,0,0,0,0,0,0,0,505,506,506,507,509,0,0,0,0,0,0,0,0,0,0,0,503,503,518,519,509,0,0,0,0,0,0,0,0,0,0,0,503,503,570,571,572,0,0,482,484,509,509,509,509,509,509,509,482,483,583,584,585,0,0,495,497,509,509,509,509,509,509,509,495,496,596,597,598,0,0,586,509,509,509,587,509,509,492,561,561,562</data>
+  </layer>
+  <layer id="3" name="TILES_Buildings" width="16" height="13">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,365,366,394,391,394,391,394,391,397,0,0,0,0,0,0,0,376,377,0,420,0,0,0,420,420,0,0,0,0,0,0,0,387,388,0,0,0,0,0,0,420,0,0,0,0,0,0,0,394,397,0,0,0,0,0,420,420,0,0,0,0,0,0,0,420,420,0,420,0,0,0,0,0,0,420,0,0,0,0,0,420,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,420,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="BG_Tiles_Brighter" width="16" height="13">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,199,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,229,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,229,0,0,0,0,0,0,229,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_Cones" width="16" height="13">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,229,229,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="1" gid="664" type="obj_mainchara" x="500" y="44" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="103081" />
+      </properties>
+    </object>
+    <object id="3" gid="665" type="obj_holemouse_generator" x="200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103083" />
+      </properties>
+    </object>
+    <object id="4" gid="666" type="obj_holemouse_goal" x="320" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103084" />
+      </properties>
+    </object>
+    <object id="5" gid="667" type="obj_resetBell" x="438" y="153" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103085" />
+      </properties>
+    </object>
+    <object id="6" gid="668" type="obj_mouseSpawnSwitch" x="160" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103086" />
+      </properties>
+    </object>
+    <object id="8" gid="670" type="obj_holemouse_invis_clockwise" x="560" y="-60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103088" />
+      </properties>
+    </object>
+    <object id="11" gid="672" type="obj_npc_sign" x="280" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103091" />
+      </properties>
+    </object>
+    <object id="12" gid="673" type="obj_holemouse_block_clockwise_moveable" x="320" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103092" />
+      </properties>
+    </object>
+    <object id="13" gid="673" type="obj_holemouse_block_clockwise_moveable" x="200" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103093" />
+      </properties>
+    </object>
+    <object id="14" gid="674" type="obj_cybercity_mousesign" x="278" y="455" width="120" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103094" />
+      </properties>
+    </object>
+    <object id="16" gid="675" type="obj_musicer_city" x="-80" y="112" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103096" />
+      </properties>
+    </object>
+    <object id="17" gid="676" type="obj_weirdroute_manipulator" x="-80" y="42" width="54" height="82">
+      <properties>
+        <property name="instanceId" type="int" value="103097" />
+      </properties>
+    </object>
+    <object id="18" gid="670" type="obj_holemouse_invis_clockwise" x="80" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103098" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

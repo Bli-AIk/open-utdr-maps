@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="58" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="130" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="137" source="tilesets/obj_solidrailing.tsx" />
+  <tileset firstgid="138" source="tilesets/obj_solidrailing2.tsx" />
+  <tileset firstgid="139" source="tilesets/obj_solidrailing3.tsx" />
+  <tileset firstgid="140" source="tilesets/obj_staircollission.tsx" />
+  <tileset firstgid="141" source="tilesets/obj_stairstep.tsx" />
+  <tileset firstgid="146" source="tilesets/obj_lock_and_key.tsx" />
+  <objectgroup id="2" name="objects">
+    <object id="5" gid="130" type="obj_mainchara" x="88" y="209" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="111657" />
+      </properties>
+    </object>
+    <object id="22" gid="137" type="obj_solidrailing" x="68" y="141" width="158" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="111674" />
+      </properties>
+    </object>
+    <object id="23" gid="138" type="obj_solidrailing2" x="68" y="129" width="6" height="75">
+      <properties>
+        <property name="instanceId" type="int" value="111675" />
+      </properties>
+    </object>
+    <object id="24" gid="139" type="obj_solidrailing3" x="220" y="128" width="6" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="111676" />
+      </properties>
+    </object>
+    <object id="25" gid="140" type="obj_staircollission" x="72" y="119" width="148" height="65">
+      <properties>
+        <property name="instanceId" type="int" value="111677" />
+      </properties>
+    </object>
+    <object id="26" gid="141" type="obj_stairstep" x="206" y="86" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111678" />
+      </properties>
+    </object>
+    <object id="27" gid="141" type="obj_stairstep" x="198" y="88" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111679" />
+      </properties>
+    </object>
+    <object id="28" gid="141" type="obj_stairstep" x="190" y="90" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111680" />
+      </properties>
+    </object>
+    <object id="29" gid="141" type="obj_stairstep" x="182" y="88" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111681" />
+      </properties>
+    </object>
+    <object id="30" gid="141" type="obj_stairstep" x="174" y="92" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111682" />
+      </properties>
+    </object>
+    <object id="31" gid="141" type="obj_stairstep" x="166" y="88" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111683" />
+      </properties>
+    </object>
+    <object id="32" gid="141" type="obj_stairstep" x="158" y="90" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111684" />
+      </properties>
+    </object>
+    <object id="33" gid="141" type="obj_stairstep" x="150" y="92" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111685" />
+      </properties>
+    </object>
+    <object id="34" gid="141" type="obj_stairstep" x="142" y="94" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111686" />
+      </properties>
+    </object>
+    <object id="35" gid="141" type="obj_stairstep" x="134" y="96" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111687" />
+      </properties>
+    </object>
+    <object id="36" gid="141" type="obj_stairstep" x="126" y="96" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="111688" />
+      </properties>
+    </object>
+    <object id="46" gid="146" type="obj_lock_and_key" x="226" y="119" width="57" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="111698" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="33">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_cc_throneroom_tiles.tsx" />
+  <tileset firstgid="91" source="tilesets/bg_cctiles.tsx" />
+  <tileset firstgid="235" source="tilesets/free_tile_p4_366_966_120x120.tsx" />
+  <tileset firstgid="236" source="tilesets/free_tile_p4_406_686_80x40.tsx" />
+  <tileset firstgid="237" source="tilesets/free_tile_p4_446_646_40x40.tsx" />
+  <tileset firstgid="238" source="tilesets/free_tile_p4_446_726_40x40.tsx" />
+  <tileset firstgid="239" source="tilesets/free_tile_p4_202_566_40x40.tsx" />
+  <tileset firstgid="240" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="244" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="246" source="tilesets/obj_bluhpainting.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,115,0,0,0,0,0,0,117,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,117,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,117,0,0,0,0,0,0,0,0,91,92,92,92,92,92,92,93,0,0,0,0,0,0,0,0,97,0,0,0,0,0,0,99,0,0,0,0,0,0,0,0,97,0,0,0,0,0,0,99,0,0,0,0,0,0,0,0,97,0,0,0,0,0,0,99,0,0,0,0,0,0,0,0,103,104,104,95,94,104,104,105,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="239" x="210" y="70" width="40" height="40" />
+  </objectgroup>
+  <objectgroup id="3" name="depth_950000_free_0">
+    <object id="2" gid="235" x="180" y="230" width="120" height="120" />
+    <object id="3" gid="236" x="390" y="180" width="80" height="40" />
+  </objectgroup>
+  <layer id="4" name="depth_950000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_950000_free_2">
+    <object id="4" gid="237" x="190" y="290" width="40" height="40" />
+    <object id="5" gid="237" x="270" y="280" width="40" height="40" />
+    <object id="6" gid="237" x="370" y="300" width="40" height="40" />
+    <object id="7" gid="238" x="410" y="240" width="40" height="40" />
+  </objectgroup>
+  <objectgroup id="6" name="objects">
+    <object id="8" gid="240" type="obj_mainchara" x="300" y="427" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101376" />
+      </properties>
+    </object>
+    <object id="19" gid="244" type="obj_npc_room" x="330" y="141" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="101387" />
+      </properties>
+    </object>
+    <object id="28" gid="246" type="obj_bluhpainting" x="300" y="70" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101396" />
+      </properties>
+    </object>
+    <object id="29" gid="246" type="obj_bluhpainting" x="340" y="70" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101397" />
+      </properties>
+    </object>
+    <object id="30" gid="246" type="obj_bluhpainting" x="380" y="70" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101398" />
+      </properties>
+    </object>
+    <object id="31" gid="246" type="obj_bluhpainting" x="420" y="70" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101399" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="36" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_pipezone_tiles.tsx" />
+  <tileset firstgid="382" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="389" source="tilesets/obj_lighttower.tsx" />
+  <tileset firstgid="391" source="tilesets/obj_hotland_bottomedge.tsx" />
+  <tileset firstgid="392" source="tilesets/obj_cogsmall.tsx" />
+  <tileset firstgid="393" source="tilesets/obj_diamondkid.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="16">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,7,7,7,3,0,0,0,0,0,0,0,0,0,0,0,6,7,7,7,8,0,0,0,0,0,0,0,0,0,0,0,6,7,7,7,8,0,0,0,0,0,0,0,0,1,2,2,7,7,7,7,7,2,2,3,0,0,0,0,0,6,7,7,7,7,7,7,7,7,7,8,0,0,0,0,0,6,7,7,7,7,7,7,7,7,7,8,0,0,0,0,0,11,12,12,12,7,7,7,12,12,12,13,0,0,0,0,0,0,0,0,0,6,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,8,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="16">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="depth_500000_grid_0" width="16" height="16">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="7" gid="382" type="obj_mainchara" x="160" y="249" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109576" />
+      </properties>
+    </object>
+    <object id="21" gid="389" type="obj_lighttower" x="130" y="100" width="80" height="100">
+      <properties>
+        <property name="instanceId" type="int" value="109590" />
+      </properties>
+    </object>
+    <object id="26" gid="391" type="obj_hotland_bottomedge" x="60" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109595" />
+      </properties>
+    </object>
+    <object id="27" gid="391" type="obj_hotland_bottomedge" x="280" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109596" />
+      </properties>
+    </object>
+    <object id="28" gid="392" type="obj_cogsmall" x="93" y="28" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109597" />
+      </properties>
+    </object>
+    <object id="29" gid="392" type="obj_cogsmall" x="33" y="88" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109598" />
+      </properties>
+    </object>
+    <object id="30" gid="392" type="obj_cogsmall" x="233" y="28" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109599" />
+      </properties>
+    </object>
+    <object id="31" gid="392" type="obj_cogsmall" x="293" y="88" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109600" />
+      </properties>
+    </object>
+    <object id="32" gid="393" type="obj_diamondkid" x="80" y="212" width="24" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="109601" />
+      </properties>
+    </object>
+    <object id="33" gid="393" type="obj_diamondkid" x="240" y="212" width="24" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="109602" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

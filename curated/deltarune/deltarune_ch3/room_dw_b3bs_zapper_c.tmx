@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="24">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="271" source="tilesets/bg_dw_noodles_tileset.tsx" />
+  <tileset firstgid="479" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="480" source="tilesets/obj_b3bs_zapper_c.tsx" />
+  <tileset firstgid="481" source="tilesets/obj_b3bs_stealtharea.tsx" />
+  <tileset firstgid="482" source="tilesets/obj_dw_ch3_b3bs_zapperhead.tsx" />
+  <tileset firstgid="483" source="tilesets/obj_treasure_room.tsx" />
+  <layer id="1" name="FloorTiles" width="16" height="12">
+    <data encoding="csv">0,310,311,0,0,376,377,310,311,310,0,0,0,0,0,0,0,310,311,0,0,402,403,402,403,402,0,0,0,0,0,0,0,310,307,0,0,427,428,427,428,427,0,0,0,0,0,0,0,376,311,284,285,440,441,440,441,440,0,0,0,0,0,0,0,297,298,310,311,440,441,440,441,440,0,0,0,0,0,0,0,310,311,376,307,453,454,453,454,453,284,285,360,284,285,0,0,402,403,389,390,364,363,364,363,364,376,307,307,308,377,0,0,430,0,389,390,336,337,336,337,336,389,390,390,389,390,0,0,443,0,402,403,0,0,0,0,0,402,403,402,403,402,0,0,456,0,430,430,0,0,0,0,0,430,0,0,0,430,0,0,0,0,443,443,0,0,0,0,0,443,0,0,0,443,0,0,0,0,456,456,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FloorTiles_Accents" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="479" type="obj_mainchara" x="60" y="37" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="107751" />
+      </properties>
+    </object>
+    <object id="3" gid="480" type="obj_b3bs_zapper_c" x="-40" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107753" />
+      </properties>
+    </object>
+    <object id="4" gid="481" type="obj_b3bs_stealtharea" x="220" y="241" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="107754" />
+      </properties>
+    </object>
+    <object id="5" gid="482" type="obj_dw_ch3_b3bs_zapperhead" x="360" y="400" width="17" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="107755" />
+      </properties>
+    </object>
+    <object id="6" gid="483" type="obj_treasure_room" x="480" y="259" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="107756" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

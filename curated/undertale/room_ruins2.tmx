@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="34" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder.tsx" />
+  <tileset firstgid="17" source="tilesets/bg_ruinsplaceholder2.tsx" />
+  <tileset firstgid="145" source="tilesets/bg_ruinseasynam2.tsx" />
+  <tileset firstgid="217" source="tilesets/obj_floorswitch1.tsx" />
+  <tileset firstgid="218" source="tilesets/obj_wallswitchcut1.tsx" />
+  <tileset firstgid="219" source="tilesets/obj_ruinsdoor1.tsx" />
+  <tileset firstgid="221" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="230" source="tilesets/obj_toroverworld3.tsx" />
+  <tileset firstgid="232" source="tilesets/obj_toribuster.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,2,2,51,0,0,57,2,147,2,0,0,0,0,0,0,148,2,197,51,0,0,57,2,147,2,57,0,0,0,0,0,148,49,49,50,0,0,58,49,155,49,57,57,0,0,0,0,156,1,1,17,6,6,1,1,1,1,58,57,0,0,0,0,19,1,1,37,26,46,1,17,52,17,1,58,0,0,0,0,19,1,1,26,26,17,1,1,48,1,1,19,0,0,0,0,19,1,1,26,26,1,1,17,48,17,17,19,0,0,0,0,19,1,1,45,6,38,1,1,48,1,17,19,0,0,0,0,19,1,1,1,45,6,38,1,55,1,1,19,0,0,0,0,0,0,19,1,1,6,6,1,1,1,19,0,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="depth_100000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,174,167,167,168,0,0,166,167,167,167,175,0,0,0,0,174,0,147,147,148,0,0,146,147,0,147,166,175,0,0,0,160,0,147,0,148,0,0,146,147,0,147,146,166,175,0,0,160,0,155,155,156,0,0,154,155,0,155,146,146,158,0,0,160,0,104,0,0,0,0,0,0,0,103,154,146,158,0,0,160,0,0,0,0,0,0,0,0,0,0,103,154,158,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,72,96,0,0,0,0,0,0,0,0,95,71,0,0,0,0,0,0,72,96,0,0,0,0,0,95,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="217" type="obj_floorswitch1" x="180" y="152" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="100138" />
+      </properties>
+    </object>
+    <object id="2" gid="217" type="obj_floorswitch1" x="220" y="152" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="100139" />
+      </properties>
+    </object>
+    <object id="3" gid="217" type="obj_floorswitch1" x="200" y="132" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="100140" />
+      </properties>
+    </object>
+    <object id="4" gid="217" type="obj_floorswitch1" x="220" y="112" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="100141" />
+      </properties>
+    </object>
+    <object id="5" gid="217" type="obj_floorswitch1" x="180" y="112" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="100142" />
+      </properties>
+    </object>
+    <object id="6" gid="217" type="obj_floorswitch1" x="200" y="172" width="16" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="100143" />
+      </properties>
+    </object>
+    <object id="7" gid="218" type="obj_wallswitchcut1" x="200" y="63" width="7" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="100144" />
+      </properties>
+    </object>
+    <object id="8" gid="219" type="obj_ruinsdoor1" x="120" y="80" width="40" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="100145" />
+      </properties>
+    </object>
+    <object id="11" gid="221" type="obj_mainchara" x="140" y="129" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="100148" />
+      </properties>
+    </object>
+    <object id="27" gid="230" type="obj_toroverworld3" x="140" y="152" width="25" height="52">
+      <properties>
+        <property name="instanceId" type="int" value="100164" />
+      </properties>
+    </object>
+    <object id="29" gid="232" type="obj_toribuster" x="130" y="64" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100166" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

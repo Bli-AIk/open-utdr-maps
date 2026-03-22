@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="39" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx" />
+  <tileset firstgid="298" source="tilesets/bg_firetiles.tsx" />
+  <tileset firstgid="663" source="tilesets/free_tile_p10_184_980_20x20.tsx" />
+  <tileset firstgid="664" source="tilesets/free_tile_p10_104_900_40x20.tsx" />
+  <tileset firstgid="665" source="tilesets/free_tile_p10_284_1020_20x20.tsx" />
+  <tileset firstgid="666" source="tilesets/free_tile_p10_324_1020_20x20.tsx" />
+  <tileset firstgid="667" source="tilesets/free_tile_p11_1340_1324_120x100.tsx" />
+  <tileset firstgid="668" source="tilesets/free_tile_p11_4_1892_82x42.tsx" />
+  <tileset firstgid="669" source="tilesets/free_tile_p10_332_2016_83x27.tsx" />
+  <tileset firstgid="670" source="tilesets/free_tile_p11_1972_200_68x41.tsx" />
+  <tileset firstgid="671" source="tilesets/free_tile_p11_148_2000_68x41.tsx" />
+  <tileset firstgid="672" source="tilesets/obj_elevatordoor.tsx" />
+  <tileset firstgid="674" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="679" source="tilesets/obj_heatsflamesman.tsx" />
+  <tileset firstgid="682" source="tilesets/obj_elevatorgem.tsx" />
+  <tileset firstgid="683" source="tilesets/obj_elev_floorsign.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,451,451,451,451,451,451,0,0,1,451,451,451,451,452,0,0,302,302,302,302,302,302,302,302,302,302,302,302,302,303,0,0,320,320,320,320,320,320,320,320,320,320,320,320,320,321,0,0,335,335,335,335,335,335,335,335,335,335,335,335,335,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="663" x="-20" y="120" width="20" height="20" />
+    <object id="2" gid="663" x="-40" y="120" width="20" height="20" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="3" gid="664" x="140" y="120" width="40" height="20" />
+    <object id="4" gid="665" x="120" y="0" width="20" height="20" />
+    <object id="5" gid="666" x="180" y="0" width="20" height="20" />
+    <object id="6" gid="667" x="100" y="100" width="120" height="100" />
+    <object id="7" gid="668" x="120" y="222" width="82" height="42" />
+    <object id="8" gid="669" x="120" y="249" width="83" height="27" />
+  </objectgroup>
+  <objectgroup id="5" name="depth_700000_free_0">
+    <object id="9" gid="670" x="206" y="204" width="68" height="41" />
+    <object id="10" gid="671" x="48" y="204" width="68" height="41" />
+  </objectgroup>
+  <objectgroup id="6" name="objects">
+    <object id="11" gid="672" type="obj_elevatordoor" x="136" y="100" width="57" height="55">
+      <properties>
+        <property name="instanceId" type="int" value="110378" />
+      </properties>
+    </object>
+    <object id="13" gid="674" type="obj_mainchara" x="100" y="144" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110380" />
+      </properties>
+    </object>
+    <object id="20" gid="679" type="obj_heatsflamesman" x="240" y="136" width="18" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="110387" />
+      </properties>
+    </object>
+    <object id="29" gid="682" type="obj_elevatorgem" x="136" y="212" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110396" />
+      </properties>
+    </object>
+    <object id="30" gid="682" type="obj_elevatorgem" x="180" y="212" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110397" />
+      </properties>
+    </object>
+    <object id="31" gid="682" type="obj_elevatorgem" x="136" y="239" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110398" />
+      </properties>
+    </object>
+    <object id="32" gid="682" type="obj_elevatorgem" x="180" y="239" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="110399" />
+      </properties>
+    </object>
+    <object id="33" gid="683" type="obj_elev_floorsign" x="144" y="41" width="33" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="110400" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

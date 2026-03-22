@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="25">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_cc_throneroom_tiles.tsx" />
+  <tileset firstgid="91" source="tilesets/bg_cctiles.tsx" />
+  <tileset firstgid="235" source="tilesets/free_tile_p4_326_806_160x160.tsx" />
+  <tileset firstgid="236" source="tilesets/free_tile_p4_286_1006_40x80.tsx" />
+  <tileset firstgid="237" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="238" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="240" source="tilesets/obj_npc_room_animated.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,92,92,92,92,92,92,92,92,92,92,93,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,99,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,99,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,99,0,0,0,0,103,104,104,104,104,0,0,104,104,104,104,105,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,97,99,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_950000_free_0">
+    <object id="1" gid="235" x="40" y="240" width="160" height="160" />
+  </objectgroup>
+  <layer id="3" name="depth_950000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,85,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_950000_free_2">
+    <object id="2" gid="236" x="400" y="380" width="40" height="80" />
+    <object id="3" gid="236" x="440" y="380" width="40" height="80" />
+    <object id="4" gid="236" x="480" y="380" width="40" height="80" />
+  </objectgroup>
+  <objectgroup id="5" name="objects">
+    <object id="5" gid="237" type="obj_mainchara" x="300" y="427" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101400" />
+      </properties>
+    </object>
+    <object id="7" gid="238" type="obj_npc_room" x="240" y="90" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="101402" />
+      </properties>
+    </object>
+    <object id="9" gid="240" type="obj_npc_room_animated" x="440" y="165" width="52" height="45">
+      <properties>
+        <property name="instanceId" type="int" value="101404" />
+      </properties>
+    </object>
+    <object id="12" gid="238" type="obj_npc_room" x="460" y="230" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="101407" />
+      </properties>
+    </object>
+    <object id="13" gid="238" type="obj_npc_room" x="80" y="230" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="101408" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

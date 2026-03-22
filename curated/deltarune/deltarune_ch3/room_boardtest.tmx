@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="73">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx" />
+  <tileset firstgid="913" source="tilesets/obj_ch3_gameshow.tsx" />
+  <tileset firstgid="914" source="tilesets/obj_board_controller.tsx" />
+  <tileset firstgid="915" source="tilesets/obj_board_camera.tsx" />
+  <tileset firstgid="916" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="919" source="tilesets/obj_board_camerashifter.tsx" />
+  <tileset firstgid="920" source="tilesets/obj_board_basicSpace.tsx" />
+  <tileset firstgid="921" source="tilesets/obj_board_oasis_old.tsx" />
+  <tileset firstgid="922" source="tilesets/obj_mainchara_board.tsx" />
+  <tileset firstgid="923" source="tilesets/obj_board_dodgetile.tsx" />
+  <tileset firstgid="924" source="tilesets/obj_board_quiztile.tsx" />
+  <tileset firstgid="925" source="tilesets/obj_board_freeroam_warp_touch.tsx" />
+  <tileset firstgid="926" source="tilesets/obj_board_npc.tsx" />
+  <tileset firstgid="927" source="tilesets/obj_board_touch_warp.tsx" />
+  <tileset firstgid="928" source="tilesets/obj_board_enemy_pricklycactus.tsx" />
+  <tileset firstgid="929" source="tilesets/obj_board_enemy_flower.tsx" />
+  <layer id="1" name="BOARD_Tiles" width="60" height="60">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18,18,18,18,18,18,18,18,18,131,132,132,132,132,132,132,132,132,132,132,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,20,21,21,21,21,21,21,21,22,18,313,329,296,296,330,276,328,296,296,296,330,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,36,37,37,37,37,37,37,37,38,18,147,297,195,197,297,292,297,195,196,197,297,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,52,53,53,53,70,37,69,53,54,18,147,297,211,213,360,296,362,211,212,213,297,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18,10,18,52,53,54,18,18,18,147,297,211,213,149,148,147,211,212,213,297,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,25,8,8,57,8,8,42,18,18,18,18,147,297,227,229,328,329,330,227,228,229,297,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18,26,18,18,9,18,18,18,18,147,344,296,296,361,361,361,296,296,296,362,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18,18,18,18,9,18,18,18,18,163,297,164,164,164,164,164,164,164,164,164,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,51,51,51,51,51,51,9,51,51,51,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,18,18,18,18,18,18,9,18,18,18,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,18,40,8,8,41,8,74,18,18,18,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,18,9,18,18,9,18,18,18,18,18,51,0,0,0,0,0,0,0,0,0,0,0,0,0,131,132,132,132,132,132,132,132,132,132,132,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,18,56,8,8,58,18,18,18,40,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,162,162,162,162,162,162,162,162,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,18,9,18,18,9,18,18,18,9,18,51,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,130,162,162,162,162,162,146,162,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,18,72,8,8,73,8,8,8,74,18,51,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,162,162,162,162,162,162,162,162,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,51,51,51,51,51,51,51,51,51,51,51,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,130,162,162,162,162,162,162,162,130,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,146,162,131,132,179,132,133,130,276,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,146,147,289,290,291,149,162,292,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,163,164,164,147,305,306,307,149,164,164,164,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="913" type="obj_ch3_gameshow" x="-24" y="-40" width="48" height="139">
+      <properties>
+        <property name="instanceId" type="int" value="101504" />
+      </properties>
+    </object>
+    <object id="3" gid="914" type="obj_board_controller" x="-32" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101506" />
+      </properties>
+    </object>
+    <object id="4" gid="915" type="obj_board_camera" x="-32" y="144" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101507" />
+      </properties>
+    </object>
+    <object id="5" gid="916" type="obj_mainchara" x="-224" y="229" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101508" />
+      </properties>
+    </object>
+    <object id="18" gid="919" type="obj_board_camerashifter" x="352" y="352" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101521" />
+      </properties>
+    </object>
+    <object id="19" gid="919" type="obj_board_camerashifter" x="352" y="320" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101522" />
+      </properties>
+    </object>
+    <object id="20" gid="920" type="obj_board_basicSpace" x="160" y="240" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101523" />
+      </properties>
+    </object>
+    <object id="21" gid="920" type="obj_board_basicSpace" x="256" y="240" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101524" />
+      </properties>
+    </object>
+    <object id="22" gid="920" type="obj_board_basicSpace" x="352" y="272" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101525" />
+      </properties>
+    </object>
+    <object id="23" gid="920" type="obj_board_basicSpace" x="352" y="400" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101526" />
+      </properties>
+    </object>
+    <object id="24" gid="920" type="obj_board_basicSpace" x="288" y="400" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101527" />
+      </properties>
+    </object>
+    <object id="25" gid="920" type="obj_board_basicSpace" x="192" y="400" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101528" />
+      </properties>
+    </object>
+    <object id="26" gid="920" type="obj_board_basicSpace" x="192" y="464" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101529" />
+      </properties>
+    </object>
+    <object id="27" gid="920" type="obj_board_basicSpace" x="288" y="464" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101530" />
+      </properties>
+    </object>
+    <object id="28" gid="920" type="obj_board_basicSpace" x="192" y="528" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101531" />
+      </properties>
+    </object>
+    <object id="29" gid="920" type="obj_board_basicSpace" x="288" y="528" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101532" />
+      </properties>
+    </object>
+    <object id="30" gid="920" type="obj_board_basicSpace" x="416" y="528" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101533" />
+      </properties>
+    </object>
+    <object id="31" gid="920" type="obj_board_basicSpace" x="416" y="464" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101534" />
+      </properties>
+    </object>
+    <object id="32" gid="921" type="obj_board_oasis_old" x="352" y="240" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101535" />
+      </properties>
+    </object>
+    <object id="33" gid="922" type="obj_mainchara_board" x="160" y="240" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101536" />
+      </properties>
+    </object>
+    <object id="36" gid="920" type="obj_board_basicSpace" x="256" y="272" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101539" />
+      </properties>
+    </object>
+    <object id="37" gid="923" type="obj_board_dodgetile" x="256" y="288" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101540" />
+      </properties>
+    </object>
+    <object id="38" gid="920" type="obj_board_basicSpace" x="320" y="240" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101541" />
+      </properties>
+    </object>
+    <object id="39" gid="924" type="obj_board_quiztile" x="320" y="256" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101542" />
+      </properties>
+    </object>
+    <object id="40" gid="924" type="obj_board_quiztile" x="192" y="480" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101543" />
+      </properties>
+    </object>
+    <object id="43" gid="925" type="obj_board_freeroam_warp_touch" x="1088" y="608" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101546" />
+      </properties>
+    </object>
+    <object id="52" gid="926" type="obj_board_npc" x="1248" y="624" width="13" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101555" />
+      </properties>
+    </object>
+    <object id="53" gid="920" type="obj_board_basicSpace" x="256" y="208" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101556" />
+      </properties>
+    </object>
+    <object id="54" gid="927" type="obj_board_touch_warp" x="256" y="220" width="28" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="101557" />
+      </properties>
+    </object>
+    <object id="55" gid="926" type="obj_board_npc" x="960" y="464" width="13" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="101558" />
+      </properties>
+    </object>
+    <object id="56" gid="928" type="obj_board_enemy_pricklycactus" x="192" y="270" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101559" />
+      </properties>
+    </object>
+    <object id="57" gid="928" type="obj_board_enemy_pricklycactus" x="192" y="366" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101560" />
+      </properties>
+    </object>
+    <object id="58" gid="928" type="obj_board_enemy_pricklycactus" x="448" y="398" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101561" />
+      </properties>
+    </object>
+    <object id="59" gid="923" type="obj_board_dodgetile" x="288" y="480" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101562" />
+      </properties>
+    </object>
+    <object id="60" gid="928" type="obj_board_enemy_pricklycactus" x="320" y="366" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101563" />
+      </properties>
+    </object>
+    <object id="61" gid="928" type="obj_board_enemy_pricklycactus" x="320" y="494" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101564" />
+      </properties>
+    </object>
+    <object id="62" gid="928" type="obj_board_enemy_pricklycactus" x="160" y="526" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101565" />
+      </properties>
+    </object>
+    <object id="63" gid="928" type="obj_board_enemy_pricklycactus" x="160" y="398" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101566" />
+      </properties>
+    </object>
+    <object id="64" gid="928" type="obj_board_enemy_pricklycactus" x="320" y="430" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101567" />
+      </properties>
+    </object>
+    <object id="65" gid="928" type="obj_board_enemy_pricklycactus" x="416" y="430" width="14" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101568" />
+      </properties>
+    </object>
+    <object id="66" gid="923" type="obj_board_dodgetile" x="192" y="416" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101569" />
+      </properties>
+    </object>
+    <object id="67" gid="923" type="obj_board_dodgetile" x="288" y="416" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101570" />
+      </properties>
+    </object>
+    <object id="68" gid="923" type="obj_board_dodgetile" x="416" y="544" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101571" />
+      </properties>
+    </object>
+    <object id="69" gid="929" type="obj_board_enemy_flower" x="384" y="494" width="12" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101572" />
+      </properties>
+    </object>
+    <object id="70" gid="929" type="obj_board_enemy_flower" x="224" y="366" width="12" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101573" />
+      </properties>
+    </object>
+    <object id="71" gid="929" type="obj_board_enemy_flower" x="448" y="238" width="12" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="101574" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="51">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="4" source="tilesets/bg_darkfield_tiles.tsx" />
+  <tileset firstgid="76" source="tilesets/bg_neoruins.tsx" />
+  <tileset firstgid="124" source="tilesets/bg_checkerboard.tsx" />
+  <tileset firstgid="219" source="tilesets/free_tile_p6_1437_269_66x140.tsx" />
+  <tileset firstgid="220" source="tilesets/free_tile_p5_926_978_120x80.tsx" />
+  <tileset firstgid="221" source="tilesets/free_tile_p5_1530_450_210x182.tsx" />
+  <tileset firstgid="222" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="225" source="tilesets/obj_musicer_field.tsx" />
+  <tileset firstgid="230" source="tilesets/obj_chaseenemy.tsx" />
+  <tileset firstgid="233" source="tilesets/obj_purplegrass.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="26" height="12">
+    <data encoding="csv">0,0,0,18,82,82,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,82,82,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,82,82,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,82,82,16,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,0,23,24,82,82,22,23,0,0,18,82,82,82,82,82,82,16,0,0,0,0,0,0,0,0,0,18,82,82,82,82,82,82,22,23,24,82,82,82,82,82,82,22,23,23,23,23,0,0,0,0,0,18,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,0,0,0,0,0,18,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,0,0,0,0,0,18,82,82,82,82,82,82,10,11,12,82,82,82,82,82,82,10,11,11,11,11,0,0,0,0,0,0,11,12,82,82,10,11,0,0,18,82,82,82,82,82,82,16,0,0,0,0,0,0,0,0,0,0,0,18,82,82,16,0,0,0,0,11,11,11,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,18,82,82,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="220" x="880" y="320" width="120" height="80" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,127,127,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,155,155,155,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="2" gid="221" x="460" y="142" width="210" height="182" />
+    <object id="3" gid="221" x="440" y="622" width="210" height="182" />
+    <object id="4" gid="219" x="940" y="220" width="66" height="140" />
+    <object id="5" gid="219" x="340" y="180" width="66" height="140" />
+    <object id="6" gid="219" x="720" y="180" width="66" height="140" />
+    <object id="7" gid="219" x="340" y="500" width="66" height="140" />
+    <object id="8" gid="219" x="720" y="500" width="66" height="140" />
+  </objectgroup>
+  <layer id="5" name="depth_990000_grid_0" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="depth_11000_free_0">
+    <object id="9" gid="219" x="940" y="440" width="66" height="140" />
+  </objectgroup>
+  <objectgroup id="7" name="objects">
+    <object id="10" gid="222" type="obj_mainchara" x="760" y="278" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101580" />
+      </properties>
+    </object>
+    <object id="14" gid="225" type="obj_musicer_field" x="940" y="62" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101584" />
+      </properties>
+    </object>
+    <object id="19" gid="230" type="obj_chaseenemy" x="520" y="210" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101589" />
+      </properties>
+    </object>
+    <object id="44" gid="233" type="obj_purplegrass" x="160" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101614" />
+      </properties>
+    </object>
+    <object id="45" gid="233" type="obj_purplegrass" x="80" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101615" />
+      </properties>
+    </object>
+    <object id="46" gid="233" type="obj_purplegrass" x="160" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101616" />
+      </properties>
+    </object>
+    <object id="47" gid="233" type="obj_purplegrass" x="320" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101617" />
+      </properties>
+    </object>
+    <object id="48" gid="233" type="obj_purplegrass" x="440" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101618" />
+      </properties>
+    </object>
+    <object id="49" gid="233" type="obj_purplegrass" x="680" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101619" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

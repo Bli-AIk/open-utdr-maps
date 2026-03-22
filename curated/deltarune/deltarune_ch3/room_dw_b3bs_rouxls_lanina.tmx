@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="97">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx" />
+  <tileset firstgid="271" source="tilesets/bg_board_adventure_tileset.tsx" />
+  <tileset firstgid="1183" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="1184" source="tilesets/obj_b3bs_console.tsx" />
+  <tileset firstgid="1185" source="tilesets/obj_musicer_b3bs.tsx" />
+  <tileset firstgid="1189" source="tilesets/obj_board_controller.tsx" />
+  <tileset firstgid="1190" source="tilesets/obj_board_camera.tsx" />
+  <tileset firstgid="1191" source="tilesets/obj_board_bridgespawner.tsx" />
+  <tileset firstgid="1192" source="tilesets/obj_board_resettile.tsx" />
+  <tileset firstgid="1193" source="tilesets/obj_dw_b3bs_idcardpuzzle_pond.tsx" />
+  <tileset firstgid="1194" source="tilesets/obj_board_flowers.tsx" />
+  <tileset firstgid="1195" source="tilesets/obj_board_treasuremarker.tsx" />
+  <tileset firstgid="1196" source="tilesets/obj_dw_b3bs_rouxls_lanina.tsx" />
+  <tileset firstgid="1197" source="tilesets/obj_board_solvedtrigger.tsx" />
+  <tileset firstgid="1198" source="tilesets/obj_dw_b3bs_rouxls_lanina_elninapondprogress.tsx" />
+  <layer id="1" name="FloorTiles" width="16" height="12">
+    <data encoding="csv">107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,57,58,59,35,35,35,35,35,35,35,35,35,35,62,57,58,66,67,59,35,35,35,35,35,35,35,35,35,35,62,66,67,66,67,59,35,35,35,35,35,35,35,35,35,35,62,66,67,66,67,59,35,35,35,35,35,35,35,35,35,35,62,66,67,75,76,68,69,70,70,69,70,69,70,69,70,70,71,75,76,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,0,84,83,84,83,84,83,84,83,84,83,84,83,84,83,0,0,93,92,93,92,93,92,93,92,93,92,93,92,93,92,0,0,84,83,84,83,84,83,84,83,84,83,84,83,84,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FloorTiles_Accents" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="BOARD_Tiles_objects">
+    <object id="1" gid="357" x="128" y="64" width="32" height="32" />
+    <object id="2" gid="357" x="160" y="64" width="32" height="32" />
+    <object id="3" gid="357" x="192" y="64" width="32" height="32" />
+    <object id="4" gid="357" x="224" y="64" width="32" height="32" />
+    <object id="5" gid="357" x="256" y="64" width="32" height="32" />
+    <object id="6" gid="357" x="288" y="64" width="32" height="32" />
+    <object id="7" gid="357" x="320" y="64" width="32" height="32" />
+    <object id="8" gid="357" x="352" y="64" width="32" height="32" />
+    <object id="9" gid="357" x="384" y="64" width="32" height="32" />
+    <object id="10" gid="368" x="416" y="64" width="32" height="32" />
+    <object id="11" gid="368" x="448" y="64" width="32" height="32" />
+    <object id="12" gid="368" x="480" y="64" width="32" height="32" />
+    <object id="13" gid="357" x="128" y="96" width="32" height="32" />
+    <object id="14" gid="288" x="160" y="96" width="32" height="32" />
+    <object id="15" gid="288" x="192" y="96" width="32" height="32" />
+    <object id="16" gid="357" x="224" y="96" width="32" height="32" />
+    <object id="17" gid="357" x="256" y="96" width="32" height="32" />
+    <object id="18" gid="357" x="288" y="96" width="32" height="32" />
+    <object id="19" gid="288" x="320" y="96" width="32" height="32" />
+    <object id="20" gid="288" x="352" y="96" width="32" height="32" />
+    <object id="21" gid="288" x="384" y="96" width="32" height="32" />
+    <object id="22" gid="368" x="416" y="96" width="32" height="32" />
+    <object id="23" gid="368" x="448" y="96" width="32" height="32" />
+    <object id="24" gid="368" x="480" y="96" width="32" height="32" />
+    <object id="25" gid="357" x="128" y="128" width="32" height="32" />
+    <object id="26" gid="288" x="160" y="128" width="32" height="32" />
+    <object id="27" gid="288" x="192" y="128" width="32" height="32" />
+    <object id="28" gid="368" x="224" y="128" width="32" height="32" />
+    <object id="29" gid="368" x="256" y="128" width="32" height="32" />
+    <object id="30" gid="368" x="288" y="128" width="32" height="32" />
+    <object id="31" gid="288" x="320" y="128" width="32" height="32" />
+    <object id="32" gid="288" x="352" y="128" width="32" height="32" />
+    <object id="33" gid="288" x="384" y="128" width="32" height="32" />
+    <object id="34" gid="368" x="416" y="128" width="32" height="32" />
+    <object id="35" gid="368" x="448" y="128" width="32" height="32" />
+    <object id="36" gid="368" x="480" y="128" width="32" height="32" />
+    <object id="37" gid="357" x="128" y="160" width="32" height="32" />
+    <object id="38" gid="288" x="160" y="160" width="32" height="32" />
+    <object id="39" gid="288" x="192" y="160" width="32" height="32" />
+    <object id="40" gid="368" x="224" y="160" width="32" height="32" />
+    <object id="41" gid="368" x="256" y="160" width="32" height="32" />
+    <object id="42" gid="368" x="288" y="160" width="32" height="32" />
+    <object id="43" gid="288" x="320" y="160" width="32" height="32" />
+    <object id="44" gid="288" x="352" y="160" width="32" height="32" />
+    <object id="45" gid="288" x="384" y="160" width="32" height="32" />
+    <object id="46" gid="288" x="416" y="160" width="32" height="32" />
+    <object id="47" gid="288" x="448" y="160" width="32" height="32" />
+    <object id="48" gid="357" x="480" y="160" width="32" height="32" />
+    <object id="49" gid="357" x="128" y="192" width="32" height="32" />
+    <object id="50" gid="357" x="160" y="192" width="32" height="32" />
+    <object id="51" gid="357" x="192" y="192" width="32" height="32" />
+    <object id="52" gid="357" x="224" y="192" width="32" height="32" />
+    <object id="53" gid="357" x="256" y="192" width="32" height="32" />
+    <object id="54" gid="357" x="288" y="192" width="32" height="32" />
+    <object id="55" gid="357" x="320" y="192" width="32" height="32" />
+    <object id="56" gid="357" x="352" y="192" width="32" height="32" />
+    <object id="57" gid="357" x="384" y="192" width="32" height="32" />
+    <object id="58" gid="357" x="416" y="192" width="32" height="32" />
+    <object id="59" gid="357" x="448" y="192" width="32" height="32" />
+    <object id="60" gid="357" x="480" y="192" width="32" height="32" />
+    <object id="61" gid="357" x="512" y="192" width="32" height="32" />
+  </objectgroup>
+  <layer id="4" name="Foreground_Tiles" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,101,102,103,104,100,101,102,103,104,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="62" gid="1183" type="obj_mainchara" x="16" y="237" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="107447" />
+      </properties>
+    </object>
+    <object id="65" gid="1184" type="obj_b3bs_console" x="329" y="227" width="38" height="17">
+      <properties>
+        <property name="instanceId" type="int" value="107450" />
+      </properties>
+    </object>
+    <object id="66" gid="1185" type="obj_musicer_b3bs" x="-40" y="24" width="26" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="107451" />
+      </properties>
+    </object>
+    <object id="75" gid="1189" type="obj_board_controller" x="-64" y="80" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107460" />
+      </properties>
+    </object>
+    <object id="76" gid="1190" type="obj_board_camera" x="-96" y="80" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107461" />
+      </properties>
+    </object>
+    <object id="77" gid="1191" type="obj_board_bridgespawner" x="384" y="80" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107462" />
+      </properties>
+    </object>
+    <object id="78" gid="1191" type="obj_board_bridgespawner" x="320" y="80" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107463" />
+      </properties>
+    </object>
+    <object id="79" gid="1192" type="obj_board_resettile" x="448" y="144" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107464" />
+      </properties>
+    </object>
+    <object id="80" gid="1191" type="obj_board_bridgespawner" x="352" y="80" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107465" />
+      </properties>
+    </object>
+    <object id="81" gid="1193" type="obj_dw_b3bs_idcardpuzzle_pond" x="224" y="98" width="3" height="2">
+      <properties>
+        <property name="instanceId" type="int" value="107466" />
+      </properties>
+    </object>
+    <object id="82" gid="1194" type="obj_board_flowers" x="160" y="109" width="12" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107467" />
+      </properties>
+    </object>
+    <object id="83" gid="1194" type="obj_board_flowers" x="192" y="77" width="12" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107468" />
+      </properties>
+    </object>
+    <object id="84" gid="1194" type="obj_board_flowers" x="192" y="109" width="12" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107469" />
+      </properties>
+    </object>
+    <object id="85" gid="1194" type="obj_board_flowers" x="192" y="141" width="12" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107470" />
+      </properties>
+    </object>
+    <object id="86" gid="1194" type="obj_board_flowers" x="160" y="141" width="12" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107471" />
+      </properties>
+    </object>
+    <object id="87" gid="1195" type="obj_board_treasuremarker" x="160" y="80" width="14" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107472" />
+      </properties>
+    </object>
+    <object id="88" gid="1196" type="obj_dw_b3bs_rouxls_lanina" x="-32" y="80" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107473" />
+      </properties>
+    </object>
+    <object id="89" gid="1197" type="obj_board_solvedtrigger" x="224" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107474" />
+      </properties>
+    </object>
+    <object id="90" gid="1198" type="obj_dw_b3bs_rouxls_lanina_elninapondprogress" x="416" y="72" width="48" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107475" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

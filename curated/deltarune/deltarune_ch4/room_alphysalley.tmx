@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="14">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="4" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="6" source="tilesets/obj_lw_rain_effect.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="150" y="227" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="100783" />
+      </properties>
+    </object>
+    <object id="5" gid="4" type="obj_npc_room" x="140" y="119" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="100790" />
+      </properties>
+    </object>
+    <object id="8" gid="6" type="obj_lw_rain_effect" x="-56" y="14" width="29" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="100793" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

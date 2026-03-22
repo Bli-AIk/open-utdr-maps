@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="11">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_bf2_tileset.tsx" />
+  <tileset firstgid="141" source="tilesets/bg_darktiles1_tileset.tsx" />
+  <tileset firstgid="241" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="242" source="tilesets/obj_overworld_bulletarea.tsx" />
+  <layer id="1" name="TILES_BASE" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,142,143,143,143,143,143,143,143,144,0,143,143,143,143,143,143,148,146,148,148,148,148,148,148,149,0,153,153,153,153,153,153,153,148,148,148,148,148,148,148,149,0,158,158,158,158,158,158,147,148,148,148,148,148,148,148,149,0,163,163,163,163,163,163,152,148,148,148,148,148,148,148,154,0,163,163,163,163,163,163,157,158,158,158,158,158,158,158,159,0,163,163,163,163,163,163,161,163,163,163,163,163,163,163,164,0,163,163,163,163,163,163,162,163,163,163,163,163,163,163,155,0</data>
+  </layer>
+  <layer id="2" name="TILES_BATTLEBORDER" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="241" type="obj_mainchara" x="20" y="219" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101973" />
+      </properties>
+    </object>
+    <object id="3" gid="242" type="obj_overworld_bulletarea" x="-120" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101975" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

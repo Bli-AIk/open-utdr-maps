@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="47" height="14" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="51">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_cyber_battle_tileset.tsx" />
+  <tileset firstgid="443" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="477" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="893" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="894" source="tilesets/obj_beatFlashOW.tsx" />
+  <tileset firstgid="895" source="tilesets/obj_beatbulletroom.tsx" />
+  <tileset firstgid="896" source="tilesets/obj_musicer_cyber.tsx" />
+  <tileset firstgid="897" source="tilesets/obj_forcefield.tsx" />
+  <tileset firstgid="898" source="tilesets/obj_overworld_bulletarea.tsx" />
+  <tileset firstgid="899" source="tilesets/obj_chaseenemy.tsx" />
+  <tileset firstgid="901" source="tilesets/obj_cybercity_bg_sign.tsx" />
+  <tileset firstgid="902" source="tilesets/obj_queenscreen_dance.tsx" />
+  <tileset firstgid="903" source="tilesets/obj_viroarrow.tsx" />
+  <tileset firstgid="914" source="tilesets/obj_cyber_wall_lights.tsx" />
+  <tileset firstgid="915" source="tilesets/obj_cyber_wall_lights_right.tsx" />
+  <tileset firstgid="916" source="tilesets/obj_cyber_wall_lights_left.tsx" />
+  <tileset firstgid="917" source="tilesets/obj_cyber_tree_spin.tsx" />
+  <layer id="1" name="TILES" width="47" height="14">
+    <data encoding="csv">0,0,0,0,0,0,493,495,0,0,559,559,559,559,559,559,0,0,559,559,559,559,559,559,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,559,559,559,559,559,559,0,0,559,559,559,559,559,559,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,559,559,559,559,559,559,0,0,559,559,559,559,559,559,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,559,559,559,559,559,559,0,0,559,559,559,559,559,559,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,559,559,559,559,559,559,0,0,559,559,559,559,559,559,0,0,493,495,0,0,0,0,0,0,480,481,481,481,481,481,482,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,572,572,572,572,572,572,0,0,572,572,572,572,572,572,0,0,493,495,0,0,0,0,0,0,493,494,494,494,494,494,495,0,0,0,0,0,0,481,481,481,481,481,481,478,479,481,482,559,559,559,559,559,559,480,482,559,559,559,559,559,559,480,481,478,479,481,481,481,481,481,481,478,494,494,494,494,494,479,481,481,481,481,481,481,507,507,507,507,507,507,507,507,507,508,572,572,572,572,572,572,493,495,572,572,572,572,572,572,506,507,507,507,507,507,507,507,507,507,491,494,494,494,494,494,492,507,507,507,507,507,507,520,520,520,520,520,520,520,520,520,521,546,546,546,546,546,546,493,495,546,546,546,546,546,546,519,520,520,520,520,520,520,520,520,520,493,494,494,494,494,494,495,520,520,520,520,520,520,533,533,533,533,533,533,533,533,533,534,559,559,559,559,559,559,493,495,559,559,559,559,559,559,532,533,533,533,533,533,533,533,533,559,506,507,507,507,507,507,508,559,533,533,533,533,533,563,563,563,563,563,563,563,563,563,567,563,563,563,563,563,563,493,495,563,563,563,563,563,563,562,563,563,563,563,563,563,563,563,572,519,520,520,520,520,520,521,572,563,563,563,563,563,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,532,533,533,533,533,533,534,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,562,563,563,563,563,563,567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,493,495,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Overlay" width="47" height="14">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,0,0,452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,452,0,0,0,0,0,0,0,452,452,452,452,452,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,452,452,452,452,452,452,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_TreeOverlay" width="47" height="14">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,452,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="TILES_BATTLEBORDER" width="47" height="14">
+    <data encoding="csv">0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,4,5,5,5,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,425,441,441,441,441,441,441,426,425,441,441,441,441,441,441,426,0,17,19,0,0,0,0,0,0,17,0,0,0,0,0,19,0,0,0,0,0,0,5,5,5,5,5,5,2,3,5,6,44,44,44,44,44,44,4,6,44,44,44,44,44,44,4,5,2,3,5,5,5,5,5,5,2,0,0,0,0,0,3,5,5,5,5,5,5,31,31,31,31,31,31,31,31,31,32,441,441,441,441,441,441,17,19,441,441,441,441,441,441,30,31,31,31,31,31,31,31,31,31,15,0,0,0,0,0,16,31,31,31,31,31,31,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,17,19,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,17,0,0,0,0,0,19,43,43,43,43,43,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,31,31,31,31,31,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,43,43,43,43,43,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="1" gid="893" type="obj_mainchara" x="26" y="260" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102012" />
+      </properties>
+    </object>
+    <object id="3" gid="894" type="obj_beatFlashOW" x="400" y="238" width="10" height="362">
+      <properties>
+        <property name="instanceId" type="int" value="102014" />
+      </properties>
+    </object>
+    <object id="4" gid="894" type="obj_beatFlashOW" x="482" y="238" width="10" height="362">
+      <properties>
+        <property name="instanceId" type="int" value="102015" />
+      </properties>
+    </object>
+    <object id="5" gid="894" type="obj_beatFlashOW" x="562" y="238" width="10" height="362">
+      <properties>
+        <property name="instanceId" type="int" value="102016" />
+      </properties>
+    </object>
+    <object id="6" gid="894" type="obj_beatFlashOW" x="720" y="238" width="10" height="362">
+      <properties>
+        <property name="instanceId" type="int" value="102017" />
+      </properties>
+    </object>
+    <object id="7" gid="894" type="obj_beatFlashOW" x="802" y="238" width="10" height="362">
+      <properties>
+        <property name="instanceId" type="int" value="102018" />
+      </properties>
+    </object>
+    <object id="8" gid="894" type="obj_beatFlashOW" x="882" y="238" width="10" height="362">
+      <properties>
+        <property name="instanceId" type="int" value="102019" />
+      </properties>
+    </object>
+    <object id="9" gid="895" type="obj_beatbulletroom" x="120" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102021" />
+      </properties>
+    </object>
+    <object id="10" gid="896" type="obj_musicer_cyber" x="0" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="102022" />
+      </properties>
+    </object>
+    <object id="11" gid="897" type="obj_forcefield" x="1000" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102025" />
+      </properties>
+    </object>
+    <object id="12" gid="898" type="obj_overworld_bulletarea" x="320" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102026" />
+      </properties>
+    </object>
+    <object id="13" gid="899" type="obj_chaseenemy" x="1450" y="264" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102027" />
+      </properties>
+    </object>
+    <object id="17" gid="901" type="obj_cybercity_bg_sign" x="1200" y="80" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102031" />
+      </properties>
+    </object>
+    <object id="18" gid="902" type="obj_queenscreen_dance" x="336" y="197" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="102032" />
+      </properties>
+    </object>
+    <object id="19" gid="902" type="obj_queenscreen_dance" x="656" y="197" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="102033" />
+      </properties>
+    </object>
+    <object id="20" gid="902" type="obj_queenscreen_dance" x="976" y="197" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="102034" />
+      </properties>
+    </object>
+    <object id="21" gid="903" type="obj_viroarrow" x="1054" y="250" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="102035" />
+      </properties>
+    </object>
+    <object id="41" gid="914" type="obj_cyber_wall_lights" x="0" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102055" />
+      </properties>
+    </object>
+    <object id="42" gid="915" type="obj_cyber_wall_lights_right" x="360" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102056" />
+      </properties>
+    </object>
+    <object id="43" gid="916" type="obj_cyber_wall_lights_left" x="960" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102057" />
+      </properties>
+    </object>
+    <object id="44" gid="914" type="obj_cyber_wall_lights" x="1000" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102058" />
+      </properties>
+    </object>
+    <object id="45" gid="914" type="obj_cyber_wall_lights" x="1640" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102059" />
+      </properties>
+    </object>
+    <object id="46" gid="915" type="obj_cyber_wall_lights_right" x="1600" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102060" />
+      </properties>
+    </object>
+    <object id="47" gid="916" type="obj_cyber_wall_lights_left" x="1360" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102061" />
+      </properties>
+    </object>
+    <object id="48" gid="914" type="obj_cyber_wall_lights" x="1400" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102062" />
+      </properties>
+    </object>
+    <object id="49" gid="917" type="obj_cyber_tree_spin" x="60" y="160" width="60" height="80">
+      <properties>
+        <property name="instanceId" type="int" value="102063" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

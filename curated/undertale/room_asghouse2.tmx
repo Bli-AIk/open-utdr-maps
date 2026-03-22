@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="57" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="129" source="tilesets/obj_chairiel.tsx" />
+  <tileset firstgid="131" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="139" source="tilesets/obj_lchair_grey.tsx" />
+  <tileset firstgid="140" source="tilesets/obj_rchair_grey.tsx" />
+  <tileset firstgid="141" source="tilesets/obj_uchair_grey.tsx" />
+  <tileset firstgid="142" source="tilesets/obj_diningtable_grey.tsx" />
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="129" type="obj_chairiel" x="100" y="95" width="47" height="52">
+      <properties>
+        <property name="instanceId" type="int" value="111709" />
+      </properties>
+    </object>
+    <object id="3" gid="131" type="obj_mainchara" x="200" y="135" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="111711" />
+      </properties>
+    </object>
+    <object id="33" gid="139" type="obj_lchair_grey" x="49" y="179" width="17" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="111741" />
+      </properties>
+    </object>
+    <object id="34" gid="140" type="obj_rchair_grey" x="157" y="181" width="17" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="111742" />
+      </properties>
+    </object>
+    <object id="35" gid="141" type="obj_uchair_grey" x="87" y="144" width="21" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111743" />
+      </properties>
+    </object>
+    <object id="36" gid="141" type="obj_uchair_grey" x="115" y="144" width="21" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111744" />
+      </properties>
+    </object>
+    <object id="37" gid="142" type="obj_diningtable_grey" x="66" y="194" width="91" height="50">
+      <properties>
+        <property name="instanceId" type="int" value="111745" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

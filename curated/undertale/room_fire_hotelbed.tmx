@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="12" nextobjectid="33" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_hoteltile.tsx" />
+  <tileset firstgid="81" source="tilesets/bg_hotelbed.tsx" />
+  <tileset firstgid="97" source="tilesets/free_tile_p10_2008_1048_36x60.tsx" />
+  <tileset firstgid="98" source="tilesets/free_tile_p11_236_1488_77x30.tsx" />
+  <tileset firstgid="99" source="tilesets/free_tile_p11_1424_420_40x20.tsx" />
+  <tileset firstgid="100" source="tilesets/free_tile_p11_1444_460_20x40.tsx" />
+  <tileset firstgid="101" source="tilesets/free_tile_p11_1424_440_40x20.tsx" />
+  <tileset firstgid="103" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="104" source="tilesets/obj_bedlump.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,40,41,41,41,41,41,41,41,41,42,0,0,0,0,0,0,47,48,48,48,48,48,48,48,48,49,0,0,0,0,0,0,55,55,55,55,55,55,55,55,55,55,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_900000_free_0">
+    <object id="1" gid="97" x="60" y="75" width="36" height="60" />
+    <object id="2" gid="97" x="222" y="75" width="36" height="60" />
+    <object id="3" gid="98" x="123" y="35" width="77" height="30" />
+  </objectgroup>
+  <layer id="3" name="depth_500000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,81,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_500000_free_1">
+    <object id="4" gid="99" x="140" y="60" width="40" height="20" />
+  </objectgroup>
+  <layer id="5" name="depth_500000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="depth_500000_free_3">
+    <object id="5" gid="100" x="200" y="80" width="20" height="40" />
+  </objectgroup>
+  <layer id="7" name="depth_500000_grid_4" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="depth_500000_free_5">
+    <object id="6" gid="101" x="140" y="80" width="40" height="20" />
+  </objectgroup>
+  <layer id="9" name="depth_500000_grid_6" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,0,0,0,0,0,0,0,0,0,0,0,89,90,90,90,90,91,0,0,0,0,0,0,0,0,0,0,89,90,90,90,90,91,0,0,0,0,0,0,0,0,0,0,89,90,90,90,90,91,0,0,0,0,0,0,0,0,0,0,93,94,94,94,94,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="10" name="objects">
+    <object id="13" gid="103" type="obj_mainchara" x="150" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110359" />
+      </properties>
+    </object>
+    <object id="14" gid="104" type="obj_bedlump" x="140" y="93" width="33" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="110360" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

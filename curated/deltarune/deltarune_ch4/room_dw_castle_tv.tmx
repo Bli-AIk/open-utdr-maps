@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="24">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_stage_tileset.tsx" />
+  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="363" source="tilesets/obj_musicer_darkcastle.tsx" />
+  <tileset firstgid="364" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="368" source="tilesets/obj_dw_green_room_wall_fx.tsx" />
+  <layer id="1" name="TILES" width="24" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,260,260,260,260,0,0,0,0,0,0,260,260,260,260,260,260,260,260,260,260,260,260,260,260,236,236,236,236,260,260,0,0,0,0,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,0,0,0,0,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,236,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,236,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,236,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,236,236,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="361" type="obj_mainchara" x="100" y="280" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="111338" />
+      </properties>
+    </object>
+    <object id="4" gid="363" type="obj_musicer_darkcastle" x="80" y="24" width="26" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="111341" />
+      </properties>
+    </object>
+    <object id="5" gid="364" type="obj_savepoint" x="100" y="276" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="111342" />
+      </properties>
+    </object>
+    <object id="19" gid="368" type="obj_dw_green_room_wall_fx" x="80" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="111356" />
+      </properties>
+    </object>
+    <object id="20" gid="368" type="obj_dw_green_room_wall_fx" x="640" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="111357" />
+      </properties>
+    </object>
+    <object id="21" gid="368" type="obj_dw_green_room_wall_fx" x="800" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="111358" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

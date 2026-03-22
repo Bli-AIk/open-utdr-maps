@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="23">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="35" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="451" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="456" source="tilesets/obj_cyber_light.tsx" />
+  <tileset firstgid="457" source="tilesets/obj_cyber_wall_lights.tsx" />
+  <tileset firstgid="458" source="tilesets/obj_cyber_wall_lights_left.tsx" />
+  <tileset firstgid="459" source="tilesets/obj_cyber_wall_lights_right.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,39,39,39,39,39,40,0,0,0,0,0,0,0,0,51,52,52,52,52,52,52,37,39,39,39,39,0,0,0,0,51,52,52,52,52,52,52,50,65,65,65,65,0,0,0,0,64,65,65,65,65,65,65,66,78,78,78,78,0,0,0,0,77,78,78,78,78,78,78,79,91,91,91,91,0,0,0,0,90,91,91,91,91,91,91,92,91,91,91,91,0,0,0,0,90,91,91,91,91,91,91,92,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Overlay" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,0,0,0,0,10,10,10,10,10,10,10,10,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="451" type="obj_mainchara" x="280" y="238" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101522" />
+      </properties>
+    </object>
+    <object id="11" gid="456" type="obj_cyber_light" x="-38" y="84" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101532" />
+      </properties>
+    </object>
+    <object id="12" gid="456" type="obj_cyber_light" x="72" y="144" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101533" />
+      </properties>
+    </object>
+    <object id="13" gid="456" type="obj_cyber_light" x="212" y="64" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101534" />
+      </properties>
+    </object>
+    <object id="14" gid="456" type="obj_cyber_light" x="372" y="104" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101535" />
+      </properties>
+    </object>
+    <object id="15" gid="456" type="obj_cyber_light" x="522" y="44" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101536" />
+      </properties>
+    </object>
+    <object id="16" gid="456" type="obj_cyber_light" x="592" y="164" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101537" />
+      </properties>
+    </object>
+    <object id="17" gid="456" type="obj_cyber_light" x="732" y="94" width="8" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="101538" />
+      </properties>
+    </object>
+    <object id="18" gid="457" type="obj_cyber_wall_lights" x="200" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101539" />
+      </properties>
+    </object>
+    <object id="19" gid="457" type="obj_cyber_wall_lights" x="480" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101540" />
+      </properties>
+    </object>
+    <object id="20" gid="458" type="obj_cyber_wall_lights_left" x="160" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101541" />
+      </properties>
+    </object>
+    <object id="21" gid="459" type="obj_cyber_wall_lights_right" x="440" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101542" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

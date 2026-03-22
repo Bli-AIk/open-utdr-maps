@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="5">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/o_boxingcontroller.tsx" />
+  <tileset firstgid="2" source="tilesets/o_boxingqueen.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="o_boxingcontroller" x="244" y="192" width="99" height="90">
+      <properties>
+        <property name="instanceId" type="int" value="108095" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="o_boxingqueen" x="148" y="62" width="99" height="152">
+      <properties>
+        <property name="instanceId" type="int" value="108096" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

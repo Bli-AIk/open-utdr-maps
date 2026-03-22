@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="4">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="140" y="137" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101370" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

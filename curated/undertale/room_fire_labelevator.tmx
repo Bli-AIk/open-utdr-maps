@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="34" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx" />
+  <tileset firstgid="298" source="tilesets/bg_hoteltile.tsx" />
+  <tileset firstgid="375" source="tilesets/free_tile_p9_1060_1368_40x60.tsx" />
+  <tileset firstgid="376" source="tilesets/free_tile_p9_1080_1368_40x60.tsx" />
+  <tileset firstgid="377" source="tilesets/free_tile_p9_1080_1368_20x60.tsx" />
+  <tileset firstgid="378" source="tilesets/obj_finalelevatorpanel.tsx" />
+  <tileset firstgid="379" source="tilesets/obj_mainchara.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,343,343,343,343,343,343,0,0,0,0,0,0,0,0,0,0,343,343,343,343,343,343,0,0,0,0,0,0,0,0,0,0,343,343,343,343,343,343,0,0,0,0,0,0,0,0,0,0,0,0,343,343,0,0,0,0,0,0,0,0,0,0,0,0,0,0,343,343,0,0,0,0,0,0,0,0,0,0,0,0,0,0,343,343,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="375" x="100" y="120" width="40" height="60" />
+    <object id="2" gid="376" x="180" y="120" width="40" height="60" />
+    <object id="3" gid="377" x="140" y="120" width="20" height="60" />
+    <object id="4" gid="377" x="160" y="120" width="20" height="60" />
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="5" gid="378" type="obj_finalelevatorpanel" x="140" y="100" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112344" />
+      </properties>
+    </object>
+    <object id="6" gid="379" type="obj_mainchara" x="160" y="169" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112345" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

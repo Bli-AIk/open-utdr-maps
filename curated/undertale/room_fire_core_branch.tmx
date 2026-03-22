@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="25" nextobjectid="77" backgroundcolor="#ffffff">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_firetiles.tsx" />
+  <tileset firstgid="361" source="tilesets/bg_coretiles_wip.tsx" />
+  <tileset firstgid="721" source="tilesets/bg_coretiles_erase.tsx" />
+  <tileset firstgid="831" source="tilesets/free_tile_p10_284_980_20x20.tsx" />
+  <tileset firstgid="832" source="tilesets/free_tile_p10_4_512_40x20.tsx" />
+  <tileset firstgid="833" source="tilesets/free_tile_p10_24_472_20x20.tsx" />
+  <tileset firstgid="834" source="tilesets/free_tile_p10_84_432_20x20.tsx" />
+  <tileset firstgid="836" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="837" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="852" source="tilesets/obj_core_lightline_m.tsx" />
+  <tileset firstgid="853" source="tilesets/obj_core_glowbg.tsx" />
+  <tileset firstgid="854" source="tilesets/obj_core_lightstrip.tsx" />
+  <tileset firstgid="855" source="tilesets/obj_core_lightstrip_m.tsx" />
+  <layer id="1" name="depth_1000020_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,361,362,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,142,382,0,0,142,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_0">
+    <object id="1" gid="831" x="-40" y="140" width="20" height="20" />
+    <object id="2" gid="831" x="-20" y="140" width="20" height="20" />
+    <object id="3" gid="831" x="-20" y="80" width="20" height="20" />
+    <object id="4" gid="831" x="-40" y="80" width="20" height="20" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,416,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,452,0,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_2">
+    <object id="5" gid="832" x="220" y="100" width="40" height="20" />
+    <object id="6" gid="832" x="260" y="100" width="40" height="20" />
+  </objectgroup>
+  <layer id="5" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,416,416,416,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,419,435,0,0,0,433,418,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="depth_1000000_free_4">
+    <object id="7" gid="833" x="-20" y="60" width="20" height="20" />
+    <object id="8" gid="833" x="-40" y="60" width="20" height="20" />
+    <object id="9" gid="833" x="-60" y="60" width="20" height="20" />
+  </objectgroup>
+  <layer id="7" name="depth_1000000_grid_5" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,381,0,0,0,0,0,0,0,0,0,0,398,398,398,398,398,399,0,0,0,397,398,398,398,398,398,398,0,0,0,0,0,0,0,0,0,415,416,416,416,416,416,416,0,0,0,0,0,0,0,0,0,415,0,0,416,416,416,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="depth_1000000_free_6">
+    <object id="10" gid="832" x="-40" y="160" width="40" height="20" />
+    <object id="11" gid="832" x="-60" y="160" width="40" height="20" />
+    <object id="12" gid="832" x="0" y="160" width="40" height="20" />
+    <object id="13" gid="832" x="40" y="160" width="40" height="20" />
+    <object id="14" gid="832" x="80" y="160" width="40" height="20" />
+  </objectgroup>
+  <layer id="9" name="depth_1000000_grid_7" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="11" name="depth_1000000_grid_9" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,384,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="13" name="depth_1000000_grid_11" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,383,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="14" name="depth_1000000_free_12">
+    <object id="15" gid="834" x="140" y="260" width="20" height="20" />
+  </objectgroup>
+  <layer id="15" name="depth_1000000_grid_13" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,538,539,0,0,0,0,0,538,539,0,0,0,0,452,453,452,451,0,0,0,0,0,0,0,0,0,0,0,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,451,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,651,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="16" name="depth_1000000_free_14">
+    <object id="16" gid="832" x="220" y="160" width="40" height="20" />
+    <object id="17" gid="832" x="260" y="160" width="40" height="20" />
+    <object id="18" gid="832" x="300" y="160" width="40" height="20" />
+  </objectgroup>
+  <layer id="17" name="depth_1000000_grid_15" width="16" height="12">
+    <data encoding="csv">380,380,380,380,380,0,382,383,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,383,384,0,0,0,0,0,0,0,0,0,0,0,0,0,382,383,384,0,0,0,0,0,0,0,0,0,0,0,0,0,382,383,384,0,0,0,0,0,0,0,0,0,0,0,0,0,382,383,384,0,0,0,0,0,0,0,142,142,142,142,142,142,0,0,0,142,142,142,142,142,142,142,142,142,142,142,142,142,0,0,0,142,142,142,142,142,142,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,790,790,790,790,790,790,0,0,0,790,790,790,790,790,790,790,799,800,801,800,801,800,0,0,0,800,800,799,800,800,801,0,810,810,810,810,810,810,0,0,0,810,810,810,810,810,810,0,823,823,823,823,821,824,0,0,0,823,823,823,823,823,823,823</data>
+  </layer>
+  <objectgroup id="18" name="depth_1000000_free_16">
+    <object id="19" gid="834" x="140" y="0" width="20" height="20" />
+  </objectgroup>
+  <layer id="19" name="depth_1000000_grid_17" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,658,384,361,362,362,362,362,362,362,0,0,0,0,0,0,0,658,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,0,0,0,0,0,0,0,0,0,0,0,0,0,0,364,365,366,0,0,0,0,0,0,0,0,0,0,0,0,0,400,401,402,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="20" name="depth_900000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="22" name="depth_900000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,0,0,0,0,0,0,0,0,0,643,0,0,0,0,0,676,0,0,0,0,0,0,0,0,0,679,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="23" name="objects">
+    <object id="24" gid="836" type="obj_mainchara" x="140" y="159" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110778" />
+      </properties>
+    </object>
+    <object id="25" gid="837" type="obj_savepoint" x="140" y="121" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="110779" />
+      </properties>
+    </object>
+    <object id="56" gid="852" type="obj_core_lightline_m" x="0" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110810" />
+      </properties>
+    </object>
+    <object id="57" gid="852" type="obj_core_lightline_m" x="20" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110811" />
+      </properties>
+    </object>
+    <object id="58" gid="852" type="obj_core_lightline_m" x="40" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110812" />
+      </properties>
+    </object>
+    <object id="59" gid="852" type="obj_core_lightline_m" x="60" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110813" />
+      </properties>
+    </object>
+    <object id="60" gid="852" type="obj_core_lightline_m" x="80" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110814" />
+      </properties>
+    </object>
+    <object id="61" gid="852" type="obj_core_lightline_m" x="100" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110815" />
+      </properties>
+    </object>
+    <object id="62" gid="852" type="obj_core_lightline_m" x="180" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110816" />
+      </properties>
+    </object>
+    <object id="63" gid="852" type="obj_core_lightline_m" x="200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110817" />
+      </properties>
+    </object>
+    <object id="64" gid="852" type="obj_core_lightline_m" x="220" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110818" />
+      </properties>
+    </object>
+    <object id="65" gid="852" type="obj_core_lightline_m" x="240" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110819" />
+      </properties>
+    </object>
+    <object id="66" gid="852" type="obj_core_lightline_m" x="260" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110820" />
+      </properties>
+    </object>
+    <object id="67" gid="852" type="obj_core_lightline_m" x="280" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110821" />
+      </properties>
+    </object>
+    <object id="68" gid="852" type="obj_core_lightline_m" x="300" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110822" />
+      </properties>
+    </object>
+    <object id="69" gid="853" type="obj_core_glowbg" x="0" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110823" />
+      </properties>
+    </object>
+    <object id="70" gid="854" type="obj_core_lightstrip" x="180" y="86" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110824" />
+      </properties>
+    </object>
+    <object id="71" gid="854" type="obj_core_lightstrip" x="120" y="86" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110825" />
+      </properties>
+    </object>
+    <object id="72" gid="855" type="obj_core_lightstrip_m" x="180" y="146" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110826" />
+      </properties>
+    </object>
+    <object id="73" gid="855" type="obj_core_lightstrip_m" x="0" y="146" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110827" />
+      </properties>
+    </object>
+    <object id="74" gid="855" type="obj_core_lightstrip_m" x="0" y="86" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110828" />
+      </properties>
+    </object>
+    <object id="75" gid="855" type="obj_core_lightstrip_m" x="200" y="86" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110829" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

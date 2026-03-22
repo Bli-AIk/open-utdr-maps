@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="11" nextobjectid="37" backgroundcolor="#376936">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx" />
+  <tileset firstgid="298" source="tilesets/bg_firetiles.tsx" />
+  <tileset firstgid="658" source="tilesets/free_tile_p10_64_820_40x40.tsx" />
+  <tileset firstgid="659" source="tilesets/free_tile_p10_24_860_20x40.tsx" />
+  <tileset firstgid="660" source="tilesets/free_tile_p10_224_1000_20x20.tsx" />
+  <tileset firstgid="661" source="tilesets/obj_true_lavawaver.tsx" />
+  <tileset firstgid="663" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="664" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="673" source="tilesets/obj_lighttower.tsx" />
+  <tileset firstgid="675" source="tilesets/obj_cogsmall.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,451,451,451,451,451,0,0,0,0,0,0,0,0,0,0,0,302,302,302,302,302,0,0,0,0,0,0,0,0,0,0,0,320,320,320,320,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="658" x="100" y="200" width="40" height="40" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,451,451,451,375,376,451,451,451,0,0,0,0,0,0,0,0,302,302,302,302,302,302,302,302,303,0,0,0,0,0,0,0,393,302,302,302,302,302,302,302,303,0,0,0,0,0,0,0,0,0,302,302,302,302,302,302,303,0,0,0,0,0,0,0,0,0,320,320,320,320,320,320,321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="2" gid="659" x="0" y="220" width="20" height="40" />
+    <object id="3" gid="659" x="20" y="220" width="20" height="40" />
+    <object id="4" gid="659" x="40" y="220" width="20" height="40" />
+    <object id="5" gid="659" x="60" y="220" width="20" height="40" />
+    <object id="6" gid="659" x="80" y="220" width="20" height="40" />
+  </objectgroup>
+  <layer id="5" name="depth_1000000_grid_4" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,335,335,335,335,335,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,335,335,335,335,335,335,335,335,335,0,0,0,0,0,0,0,337,335,335,335,335,335,335,335,339,0,0</data>
+  </layer>
+  <objectgroup id="6" name="depth_1000000_free_5">
+    <object id="7" gid="660" x="140" y="0" width="20" height="20" />
+  </objectgroup>
+  <layer id="7" name="depth_1000000_grid_6" width="16" height="12">
+    <data encoding="csv">299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,299,299,299,299,299,299,299,0,0,0,0,299,299,299,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,299</data>
+  </layer>
+  <layer id="8" name="depth_1000000_grid_7" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,319,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="9" name="objects">
+    <object id="8" gid="661" type="obj_true_lavawaver" x="260" y="40" width="100" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108458" />
+      </properties>
+    </object>
+    <object id="11" gid="663" type="obj_mainchara" x="70" y="139" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108461" />
+      </properties>
+    </object>
+    <object id="12" gid="664" type="obj_npc_room" x="140" y="194" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108462" />
+      </properties>
+    </object>
+    <object id="13" gid="664" type="obj_npc_room" x="200" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108463" />
+      </properties>
+    </object>
+    <object id="31" gid="673" type="obj_lighttower" x="140" y="100" width="80" height="100">
+      <properties>
+        <property name="instanceId" type="int" value="108481" />
+      </properties>
+    </object>
+    <object id="33" gid="675" type="obj_cogsmall" x="253" y="48" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="108483" />
+      </properties>
+    </object>
+    <object id="34" gid="675" type="obj_cogsmall" x="293" y="68" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="108484" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="14">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_mansion_interior_tileset.tsx" />
+  <tileset firstgid="261" source="tilesets/bg_dw_mansion_tileset.tsx" />
+  <tileset firstgid="1035" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="1036" source="tilesets/obj_npc_room.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,303,303,303,303,303,303,0,0,0,0,0,0,0,0,0,0,321,321,321,321,321,321,0,0,0,0,0,0,0,0,0,0,287,287,287,287,287,287,0,0,0,0,0,0,0,0,0,0,339,339,339,339,339,339,0,0,0,0,0,0,0,0,0,0,291,292,292,292,292,293,0,0,0,0,0,0,0,0,0,0,309,310,310,310,310,311,0,0,0,0,0,0,0,0,0,0,309,310,310,310,310,311,0,0,0,0,0,0,0,0,0,0,327,328,743,744,328,329,0,0,0,0,0,0,0,0,0,0,0,0,309,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,309,311,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Interior" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,252,253,253,253,253,254,0,0,0,0,0,0,0,0,0,0,226,227,227,227,227,228,0,0,0,0,0,0,0,0,0,0,236,0,0,0,0,238,0,0,0,0,0,0,0,0,0,0,236,0,0,0,0,238,0,0,0,0,0,0,0,0,0,0,246,68,68,68,68,248,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76,76,0,0,76,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="1035" type="obj_mainchara" x="302" y="418" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="105862" />
+      </properties>
+    </object>
+    <object id="3" gid="1036" type="obj_npc_room" x="210" y="78" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="105864" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

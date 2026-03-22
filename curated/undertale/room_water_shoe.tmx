@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="54" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_watertiles.tsx" />
+  <tileset firstgid="585" source="tilesets/bg_watertiles_supplement.tsx" />
+  <tileset firstgid="639" source="tilesets/free_tile_p10_392_696_20x60.tsx" />
+  <tileset firstgid="640" source="tilesets/free_tile_p10_372_696_20x60.tsx" />
+  <tileset firstgid="641" source="tilesets/free_tile_p10_64_284_20x40.tsx" />
+  <tileset firstgid="642" source="tilesets/obj_glowshroom.tsx" />
+  <tileset firstgid="645" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="646" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="649" source="tilesets/obj_tallgrass.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="639" x="300" y="220" width="20" height="60" />
+    <object id="2" gid="639" x="280" y="220" width="20" height="60" />
+    <object id="3" gid="639" x="260" y="220" width="20" height="60" />
+    <object id="4" gid="639" x="240" y="220" width="20" height="60" />
+    <object id="5" gid="639" x="240" y="100" width="20" height="60" />
+    <object id="6" gid="639" x="260" y="100" width="20" height="60" />
+    <object id="7" gid="639" x="280" y="100" width="20" height="60" />
+    <object id="8" gid="639" x="300" y="100" width="20" height="60" />
+    <object id="9" gid="640" x="220" y="100" width="20" height="60" />
+    <object id="10" gid="640" x="220" y="220" width="20" height="60" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="11" gid="641" x="60" y="40" width="20" height="40" />
+    <object id="12" gid="641" x="80" y="40" width="20" height="40" />
+    <object id="13" gid="641" x="100" y="40" width="20" height="40" />
+    <object id="14" gid="641" x="120" y="40" width="20" height="40" />
+    <object id="15" gid="641" x="140" y="40" width="20" height="40" />
+    <object id="16" gid="641" x="160" y="40" width="20" height="40" />
+    <object id="17" gid="641" x="180" y="40" width="20" height="40" />
+    <object id="18" gid="641" x="200" y="40" width="20" height="40" />
+    <object id="19" gid="641" x="320" y="40" width="20" height="40" />
+    <object id="20" gid="641" x="340" y="40" width="20" height="40" />
+    <object id="21" gid="641" x="220" y="40" width="20" height="40" />
+    <object id="22" gid="641" x="240" y="40" width="20" height="40" />
+    <object id="23" gid="641" x="260" y="40" width="20" height="40" />
+    <object id="24" gid="641" x="280" y="40" width="20" height="40" />
+    <object id="25" gid="641" x="300" y="40" width="20" height="40" />
+  </objectgroup>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,596,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,597,586,586,586,586,586,586,586,587,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="objects">
+    <object id="26" gid="642" type="obj_glowshroom" x="100" y="180" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105261" />
+      </properties>
+    </object>
+    <object id="27" gid="642" type="obj_glowshroom" x="180" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105262" />
+      </properties>
+    </object>
+    <object id="28" gid="642" type="obj_glowshroom" x="100" y="100" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105263" />
+      </properties>
+    </object>
+    <object id="29" gid="642" type="obj_glowshroom" x="180" y="80" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="105264" />
+      </properties>
+    </object>
+    <object id="35" gid="645" type="obj_mainchara" x="180" y="129" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="105270" />
+      </properties>
+    </object>
+    <object id="36" gid="646" type="obj_npc_room" x="140" y="147" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="105271" />
+      </properties>
+    </object>
+    <object id="45" gid="649" type="obj_tallgrass" x="132" y="150" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="105280" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

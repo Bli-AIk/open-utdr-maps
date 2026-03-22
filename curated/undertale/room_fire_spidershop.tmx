@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="12" nextobjectid="62" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="298" source="tilesets/bg_watertiles_2.tsx" />
+  <tileset firstgid="658" source="tilesets/bg_pipezone_tiles.tsx" />
+  <tileset firstgid="1038" source="tilesets/free_tile_p10_884_1044_20x20.tsx" />
+  <tileset firstgid="1039" source="tilesets/free_tile_p10_884_1024_20x20.tsx" />
+  <tileset firstgid="1040" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="1041" source="tilesets/obj_smallweb.tsx" />
+  <tileset firstgid="1042" source="tilesets/obj_bigweb.tsx" />
+  <tileset firstgid="1043" source="tilesets/obj_spidertable.tsx" />
+  <tileset firstgid="1051" source="tilesets/obj_sign_room.tsx" />
+  <tileset firstgid="1052" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="1053" source="tilesets/obj_spidergirl_shop.tsx" />
+  <tileset firstgid="1056" source="tilesets/obj_hotland_bottomedge.tsx" />
+  <tileset firstgid="1057" source="tilesets/obj_spiderstrand.tsx" />
+  <tileset firstgid="1058" source="tilesets/obj_hotland_rededge.tsx" />
+  <layer id="2" name="depth_1000000_grid_1" width="24" height="12">
+    <data encoding="csv">382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,659,659,659,659,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,669,669,669,669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="1" gid="1038" x="-20" y="160" width="20" height="20" />
+  </objectgroup>
+  <layer id="4" name="depth_1000000_grid_3" width="24" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,664,664,664,664,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_1000000_free_4">
+    <object id="2" gid="1039" x="-20" y="140" width="20" height="20" />
+  </objectgroup>
+  <layer id="6" name="depth_1000000_grid_5" width="24" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,667,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,659,659,659,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,0,0,0,0,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,0,0,0,0,664,664,664,664,664,664,664,664,664,664,664,664,664,664,664,669,669,669,669,669,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="depth_1000000_grid_6" width="24" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,664,664,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,668,669,669,669,669,669,669,669,669,669,669,669,669,669,670,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="9" name="depth_990000_grid_1" width="24" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,660,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,658,667,666,660,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,667,0,0,666,659,659,659,659,659,659,659,659,659,659,659,659,659,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,662,0,0,0,0,0,0,0,0,0,0,0,0,0,661,0,0,0,0,0,674,674,674,674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,674,674,674,674,674,0,0,0,400,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,382,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="10" name="objects">
+    <object id="3" gid="1040" type="obj_mainchara" x="100" y="149" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109243" />
+      </properties>
+    </object>
+    <object id="4" gid="1041" type="obj_smallweb" x="270" y="119" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="109244" />
+      </properties>
+    </object>
+    <object id="5" gid="1042" type="obj_bigweb" x="310" y="112" width="34" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="109245" />
+      </properties>
+    </object>
+    <object id="6" gid="1043" type="obj_spidertable" x="146" y="126" width="72" height="26">
+      <properties>
+        <property name="instanceId" type="int" value="109246" />
+      </properties>
+    </object>
+    <object id="22" gid="1051" type="obj_sign_room" x="230" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109262" />
+      </properties>
+    </object>
+    <object id="23" gid="1052" type="obj_npc_room" x="297" y="158" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109263" />
+      </properties>
+    </object>
+    <object id="25" gid="1053" type="obj_spidergirl_shop" x="168" y="115" width="26" height="35">
+      <properties>
+        <property name="instanceId" type="int" value="109265" />
+      </properties>
+    </object>
+    <object id="48" gid="1056" type="obj_hotland_bottomedge" x="80" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109288" />
+      </properties>
+    </object>
+    <object id="49" gid="1056" type="obj_hotland_bottomedge" x="-20" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109289" />
+      </properties>
+    </object>
+    <object id="50" gid="1056" type="obj_hotland_bottomedge" x="480" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109290" />
+      </properties>
+    </object>
+    <object id="51" gid="1057" type="obj_spiderstrand" x="120" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109291" />
+      </properties>
+    </object>
+    <object id="52" gid="1057" type="obj_spiderstrand" x="260" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109292" />
+      </properties>
+    </object>
+    <object id="53" gid="1057" type="obj_spiderstrand" x="180" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109293" />
+      </properties>
+    </object>
+    <object id="54" gid="1057" type="obj_spiderstrand" x="220" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109294" />
+      </properties>
+    </object>
+    <object id="55" gid="1057" type="obj_spiderstrand" x="140" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109295" />
+      </properties>
+    </object>
+    <object id="56" gid="1057" type="obj_spiderstrand" x="200" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109296" />
+      </properties>
+    </object>
+    <object id="57" gid="1057" type="obj_spiderstrand" x="160" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109297" />
+      </properties>
+    </object>
+    <object id="58" gid="1057" type="obj_spiderstrand" x="240" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109298" />
+      </properties>
+    </object>
+    <object id="59" gid="1057" type="obj_spiderstrand" x="280" y="18" width="2" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109299" />
+      </properties>
+    </object>
+    <object id="60" gid="1058" type="obj_hotland_rededge" x="220" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109300" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

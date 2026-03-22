@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="6">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_chaseenemy.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="280" y="357" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="100005" />
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_chaseenemy" x="480" y="360" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="100007" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

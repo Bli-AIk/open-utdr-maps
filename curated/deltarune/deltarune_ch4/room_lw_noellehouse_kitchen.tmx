@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="34" height="13" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="55">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_lw_noellehouse_vents_tileset.tsx" />
+  <tileset firstgid="49" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="52" source="tilesets/obj_homealone_piano.tsx" />
+  <tileset firstgid="53" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="57" source="tilesets/obj_homealone_solid.tsx" />
+  <tileset firstgid="58" source="tilesets/obj_homealone_vent_hidden.tsx" />
+  <layer id="1" name="TILES_Vent" width="34" height="13">
+    <data encoding="csv">2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</data>
+  </layer>
+  <layer id="2" name="TILES_Vent_Offset" width="34" height="13">
+    <data encoding="csv">2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,11,31,32,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,27,28,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,28,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="49" type="obj_mainchara" x="253" y="131" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101140" />
+      </properties>
+    </object>
+    <object id="11" gid="52" type="obj_homealone_piano" x="564" y="185" width="72" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="101150" />
+      </properties>
+    </object>
+    <object id="14" gid="53" type="obj_savepoint" x="253" y="111" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="101153" />
+      </properties>
+    </object>
+    <object id="36" gid="57" type="obj_homealone_solid" x="117" y="30" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101175" />
+      </properties>
+    </object>
+    <object id="37" gid="57" type="obj_homealone_solid" x="0" y="72" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101176" />
+      </properties>
+    </object>
+    <object id="38" gid="57" type="obj_homealone_solid" x="160" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101177" />
+      </properties>
+    </object>
+    <object id="39" gid="57" type="obj_homealone_solid" x="648" y="30" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101178" />
+      </properties>
+    </object>
+    <object id="40" gid="57" type="obj_homealone_solid" x="80" y="240" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101179" />
+      </properties>
+    </object>
+    <object id="45" gid="57" type="obj_homealone_solid" x="1" y="12" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101184" />
+      </properties>
+    </object>
+    <object id="46" gid="57" type="obj_homealone_solid" x="48" y="12" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101185" />
+      </properties>
+    </object>
+    <object id="47" gid="57" type="obj_homealone_solid" x="80" y="73" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101186" />
+      </properties>
+    </object>
+    <object id="48" gid="57" type="obj_homealone_solid" x="116" y="57" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101187" />
+      </properties>
+    </object>
+    <object id="49" gid="57" type="obj_homealone_solid" x="113" y="70" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101188" />
+      </properties>
+    </object>
+    <object id="50" gid="57" type="obj_homealone_solid" x="48" y="72" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101189" />
+      </properties>
+    </object>
+    <object id="51" gid="58" type="obj_homealone_vent_hidden" x="-29" y="61" width="29" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="101190" />
+      </properties>
+    </object>
+    <object id="52" gid="58" type="obj_homealone_vent_hidden" x="25" y="1" width="29" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="101191" />
+      </properties>
+    </object>
+    <object id="53" gid="58" type="obj_homealone_vent_hidden" x="25" y="289" width="29" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="101192" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

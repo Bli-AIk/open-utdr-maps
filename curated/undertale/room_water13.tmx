@@ -1,0 +1,671 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="32" tilewidth="20" tileheight="20" infinite="0" nextlayerid="20" nextobjectid="305" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_watertiles.tsx" />
+  <tileset firstgid="225" source="tilesets/bg_watertiles_2.tsx" />
+  <tileset firstgid="585" source="tilesets/free_tile_p10_44_284_20x40.tsx" />
+  <tileset firstgid="586" source="tilesets/obj_runaway.tsx" />
+  <tileset firstgid="587" source="tilesets/obj_waterboard.tsx" />
+  <tileset firstgid="589" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="590" source="tilesets/obj_tallgrass.tsx" />
+  <tileset firstgid="593" source="tilesets/obj_waterstop.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,0,0,0,0,0,0,0,115,0,0,0,0,0,115,115,115,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_1000000_grid_4" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="depth_1000000_grid_5" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,0,0,0,0,0,0,0,0,115,115,115,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="depth_1000000_grid_6" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,115,0,0,0,0,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,0,0,0,0,0,0,115,115,115,115,115,115,115,115,115,115,115,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,115,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,115,0,0,0,0,0,115,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="8" name="depth_1000000_grid_7" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="9" name="depth_1000000_grid_8" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,115,115,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,115,115,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="10" name="depth_1000000_grid_9" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,115,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="11" name="depth_1000000_grid_10" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,115,115,0,0,0,0,0,0,0,0,0,115,115,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,397,398,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="13" name="depth_1000000_grid_12" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,414,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="15" name="depth_1000000_grid_14" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,398,0,0,0,0,0,0,0,0,0,396,0,0,0,0,0,0,397,397,398,0,0,0,396,397,397,0,0,0,0,0,0,0,0,0,416,0,0,0,414,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,397,398,0,0,0,396,397,0,0,0,0,0,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="16" name="depth_1000000_free_15">
+    <object id="1" gid="585" x="300" y="440" width="20" height="40" />
+  </objectgroup>
+  <layer id="17" name="depth_1000000_grid_16" width="16" height="32">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,225,301,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,261,283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,479,261,0,0,0,0,0,0,0,0,0,0,0,0,0,0,479,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,497,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,225,0,0,0,0,0,0,0,0,0,0,0,0,0,397,397,243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,243,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,261,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,497,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="18" name="objects">
+    <object id="2" gid="586" type="obj_runaway" x="138" y="204" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113136" />
+      </properties>
+    </object>
+    <object id="3" gid="587" type="obj_waterboard" x="90" y="491" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="113137" />
+      </properties>
+    </object>
+    <object id="4" gid="587" type="obj_waterboard" x="92" y="409" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="113138" />
+      </properties>
+    </object>
+    <object id="5" gid="587" type="obj_waterboard" x="190" y="411" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="113139" />
+      </properties>
+    </object>
+    <object id="10" gid="589" type="obj_mainchara" x="140" y="569" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="113144" />
+      </properties>
+    </object>
+    <object id="11" gid="590" type="obj_tallgrass" x="32" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113145" />
+      </properties>
+    </object>
+    <object id="12" gid="590" type="obj_tallgrass" x="64" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113146" />
+      </properties>
+    </object>
+    <object id="13" gid="590" type="obj_tallgrass" x="96" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113147" />
+      </properties>
+    </object>
+    <object id="14" gid="590" type="obj_tallgrass" x="128" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113148" />
+      </properties>
+    </object>
+    <object id="15" gid="590" type="obj_tallgrass" x="160" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113149" />
+      </properties>
+    </object>
+    <object id="16" gid="590" type="obj_tallgrass" x="192" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113150" />
+      </properties>
+    </object>
+    <object id="17" gid="590" type="obj_tallgrass" x="224" y="154" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113151" />
+      </properties>
+    </object>
+    <object id="171" gid="593" type="obj_waterstop" x="80" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113305" />
+      </properties>
+    </object>
+    <object id="172" gid="593" type="obj_waterstop" x="80" y="500" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113306" />
+      </properties>
+    </object>
+    <object id="173" gid="593" type="obj_waterstop" x="100" y="500" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113307" />
+      </properties>
+    </object>
+    <object id="174" gid="593" type="obj_waterstop" x="100" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113308" />
+      </properties>
+    </object>
+    <object id="175" gid="593" type="obj_waterstop" x="100" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113309" />
+      </properties>
+    </object>
+    <object id="176" gid="593" type="obj_waterstop" x="80" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113310" />
+      </properties>
+    </object>
+    <object id="177" gid="593" type="obj_waterstop" x="80" y="400" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113311" />
+      </properties>
+    </object>
+    <object id="178" gid="593" type="obj_waterstop" x="100" y="400" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113312" />
+      </properties>
+    </object>
+    <object id="179" gid="593" type="obj_waterstop" x="120" y="360" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113313" />
+      </properties>
+    </object>
+    <object id="180" gid="593" type="obj_waterstop" x="120" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113314" />
+      </properties>
+    </object>
+    <object id="181" gid="593" type="obj_waterstop" x="120" y="440" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113315" />
+      </properties>
+    </object>
+    <object id="182" gid="593" type="obj_waterstop" x="120" y="460" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113316" />
+      </properties>
+    </object>
+    <object id="183" gid="593" type="obj_waterstop" x="120" y="520" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113317" />
+      </properties>
+    </object>
+    <object id="184" gid="593" type="obj_waterstop" x="160" y="520" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113318" />
+      </properties>
+    </object>
+    <object id="185" gid="593" type="obj_waterstop" x="160" y="460" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113319" />
+      </properties>
+    </object>
+    <object id="186" gid="593" type="obj_waterstop" x="160" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113320" />
+      </properties>
+    </object>
+    <object id="187" gid="593" type="obj_waterstop" x="160" y="500" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113321" />
+      </properties>
+    </object>
+    <object id="188" gid="593" type="obj_waterstop" x="160" y="440" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113322" />
+      </properties>
+    </object>
+    <object id="189" gid="593" type="obj_waterstop" x="180" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113323" />
+      </properties>
+    </object>
+    <object id="190" gid="593" type="obj_waterstop" x="200" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113324" />
+      </properties>
+    </object>
+    <object id="191" gid="593" type="obj_waterstop" x="200" y="400" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113325" />
+      </properties>
+    </object>
+    <object id="192" gid="593" type="obj_waterstop" x="180" y="400" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113326" />
+      </properties>
+    </object>
+    <object id="193" gid="593" type="obj_waterstop" x="160" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113327" />
+      </properties>
+    </object>
+    <object id="194" gid="593" type="obj_waterstop" x="160" y="360" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113328" />
+      </properties>
+    </object>
+    <object id="195" gid="593" type="obj_waterstop" x="180" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113329" />
+      </properties>
+    </object>
+    <object id="196" gid="593" type="obj_waterstop" x="200" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113330" />
+      </properties>
+    </object>
+    <object id="197" gid="593" type="obj_waterstop" x="220" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113331" />
+      </properties>
+    </object>
+    <object id="198" gid="593" type="obj_waterstop" x="240" y="320" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113332" />
+      </properties>
+    </object>
+    <object id="199" gid="593" type="obj_waterstop" x="100" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113333" />
+      </properties>
+    </object>
+    <object id="200" gid="593" type="obj_waterstop" x="60" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113334" />
+      </properties>
+    </object>
+    <object id="201" gid="593" type="obj_waterstop" x="80" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113335" />
+      </properties>
+    </object>
+    <object id="202" gid="593" type="obj_waterstop" x="40" y="320" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113336" />
+      </properties>
+    </object>
+    <object id="203" gid="593" type="obj_waterstop" x="260" y="440" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113337" />
+      </properties>
+    </object>
+    <object id="204" gid="593" type="obj_waterstop" x="280" y="440" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113338" />
+      </properties>
+    </object>
+    <object id="205" gid="593" type="obj_waterstop" x="260" y="460" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113339" />
+      </properties>
+    </object>
+    <object id="206" gid="593" type="obj_waterstop" x="260" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113340" />
+      </properties>
+    </object>
+    <object id="207" gid="593" type="obj_waterstop" x="260" y="500" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113341" />
+      </properties>
+    </object>
+    <object id="208" gid="593" type="obj_waterstop" x="280" y="500" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113342" />
+      </properties>
+    </object>
+    <object id="209" gid="593" type="obj_waterstop" x="300" y="480" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113343" />
+      </properties>
+    </object>
+    <object id="210" gid="593" type="obj_waterstop" x="300" y="460" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113344" />
+      </properties>
+    </object>
+    <object id="211" gid="590" type="obj_tallgrass" x="64" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113345" />
+      </properties>
+    </object>
+    <object id="212" gid="590" type="obj_tallgrass" x="96" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113346" />
+      </properties>
+    </object>
+    <object id="213" gid="590" type="obj_tallgrass" x="128" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113347" />
+      </properties>
+    </object>
+    <object id="214" gid="590" type="obj_tallgrass" x="160" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113348" />
+      </properties>
+    </object>
+    <object id="215" gid="590" type="obj_tallgrass" x="192" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113349" />
+      </properties>
+    </object>
+    <object id="216" gid="590" type="obj_tallgrass" x="192" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113350" />
+      </properties>
+    </object>
+    <object id="217" gid="590" type="obj_tallgrass" x="160" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113351" />
+      </properties>
+    </object>
+    <object id="218" gid="590" type="obj_tallgrass" x="128" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113352" />
+      </properties>
+    </object>
+    <object id="219" gid="590" type="obj_tallgrass" x="96" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113353" />
+      </properties>
+    </object>
+    <object id="220" gid="590" type="obj_tallgrass" x="64" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113354" />
+      </properties>
+    </object>
+    <object id="221" gid="590" type="obj_tallgrass" x="64" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113355" />
+      </properties>
+    </object>
+    <object id="222" gid="590" type="obj_tallgrass" x="96" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113356" />
+      </properties>
+    </object>
+    <object id="223" gid="590" type="obj_tallgrass" x="128" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113357" />
+      </properties>
+    </object>
+    <object id="224" gid="590" type="obj_tallgrass" x="160" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113358" />
+      </properties>
+    </object>
+    <object id="225" gid="590" type="obj_tallgrass" x="192" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113359" />
+      </properties>
+    </object>
+    <object id="226" gid="590" type="obj_tallgrass" x="192" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113360" />
+      </properties>
+    </object>
+    <object id="227" gid="590" type="obj_tallgrass" x="160" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113361" />
+      </properties>
+    </object>
+    <object id="228" gid="590" type="obj_tallgrass" x="128" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113362" />
+      </properties>
+    </object>
+    <object id="229" gid="590" type="obj_tallgrass" x="96" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113363" />
+      </properties>
+    </object>
+    <object id="230" gid="590" type="obj_tallgrass" x="64" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113364" />
+      </properties>
+    </object>
+    <object id="231" gid="590" type="obj_tallgrass" x="64" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113365" />
+      </properties>
+    </object>
+    <object id="232" gid="590" type="obj_tallgrass" x="128" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113366" />
+      </properties>
+    </object>
+    <object id="233" gid="590" type="obj_tallgrass" x="160" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113367" />
+      </properties>
+    </object>
+    <object id="234" gid="590" type="obj_tallgrass" x="192" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113368" />
+      </properties>
+    </object>
+    <object id="235" gid="590" type="obj_tallgrass" x="192" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113369" />
+      </properties>
+    </object>
+    <object id="236" gid="590" type="obj_tallgrass" x="160" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113370" />
+      </properties>
+    </object>
+    <object id="237" gid="590" type="obj_tallgrass" x="128" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113371" />
+      </properties>
+    </object>
+    <object id="238" gid="590" type="obj_tallgrass" x="96" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113372" />
+      </properties>
+    </object>
+    <object id="239" gid="590" type="obj_tallgrass" x="96" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113373" />
+      </properties>
+    </object>
+    <object id="240" gid="590" type="obj_tallgrass" x="64" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113374" />
+      </properties>
+    </object>
+    <object id="241" gid="590" type="obj_tallgrass" x="64" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113375" />
+      </properties>
+    </object>
+    <object id="242" gid="590" type="obj_tallgrass" x="96" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113376" />
+      </properties>
+    </object>
+    <object id="243" gid="590" type="obj_tallgrass" x="128" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113377" />
+      </properties>
+    </object>
+    <object id="244" gid="590" type="obj_tallgrass" x="160" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113378" />
+      </properties>
+    </object>
+    <object id="245" gid="590" type="obj_tallgrass" x="192" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113379" />
+      </properties>
+    </object>
+    <object id="246" gid="590" type="obj_tallgrass" x="192" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113380" />
+      </properties>
+    </object>
+    <object id="247" gid="590" type="obj_tallgrass" x="160" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113381" />
+      </properties>
+    </object>
+    <object id="248" gid="590" type="obj_tallgrass" x="128" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113382" />
+      </properties>
+    </object>
+    <object id="249" gid="590" type="obj_tallgrass" x="96" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113383" />
+      </properties>
+    </object>
+    <object id="250" gid="590" type="obj_tallgrass" x="64" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113384" />
+      </properties>
+    </object>
+    <object id="251" gid="590" type="obj_tallgrass" x="80" y="496" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113385" />
+      </properties>
+    </object>
+    <object id="252" gid="590" type="obj_tallgrass" x="80" y="416" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113386" />
+      </properties>
+    </object>
+    <object id="253" gid="590" type="obj_tallgrass" x="176" y="416" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113387" />
+      </properties>
+    </object>
+    <object id="256" gid="590" type="obj_tallgrass" x="32" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113390" />
+      </properties>
+    </object>
+    <object id="257" gid="590" type="obj_tallgrass" x="32" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113391" />
+      </properties>
+    </object>
+    <object id="258" gid="590" type="obj_tallgrass" x="32" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113392" />
+      </properties>
+    </object>
+    <object id="259" gid="590" type="obj_tallgrass" x="32" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113393" />
+      </properties>
+    </object>
+    <object id="260" gid="590" type="obj_tallgrass" x="32" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113394" />
+      </properties>
+    </object>
+    <object id="261" gid="590" type="obj_tallgrass" x="32" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113395" />
+      </properties>
+    </object>
+    <object id="262" gid="590" type="obj_tallgrass" x="32" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113396" />
+      </properties>
+    </object>
+    <object id="263" gid="590" type="obj_tallgrass" x="32" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113397" />
+      </properties>
+    </object>
+    <object id="264" gid="590" type="obj_tallgrass" x="224" y="170" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113398" />
+      </properties>
+    </object>
+    <object id="265" gid="590" type="obj_tallgrass" x="224" y="186" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113399" />
+      </properties>
+    </object>
+    <object id="266" gid="590" type="obj_tallgrass" x="224" y="202" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113400" />
+      </properties>
+    </object>
+    <object id="267" gid="590" type="obj_tallgrass" x="224" y="218" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113401" />
+      </properties>
+    </object>
+    <object id="268" gid="590" type="obj_tallgrass" x="224" y="234" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113402" />
+      </properties>
+    </object>
+    <object id="269" gid="590" type="obj_tallgrass" x="224" y="250" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113403" />
+      </properties>
+    </object>
+    <object id="270" gid="590" type="obj_tallgrass" x="224" y="266" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113404" />
+      </properties>
+    </object>
+    <object id="271" gid="590" type="obj_tallgrass" x="224" y="282" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113405" />
+      </properties>
+    </object>
+    <object id="272" gid="590" type="obj_tallgrass" x="32" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113406" />
+      </properties>
+    </object>
+    <object id="273" gid="590" type="obj_tallgrass" x="64" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113407" />
+      </properties>
+    </object>
+    <object id="274" gid="590" type="obj_tallgrass" x="96" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113408" />
+      </properties>
+    </object>
+    <object id="275" gid="590" type="obj_tallgrass" x="128" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113409" />
+      </properties>
+    </object>
+    <object id="276" gid="590" type="obj_tallgrass" x="160" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113410" />
+      </properties>
+    </object>
+    <object id="277" gid="590" type="obj_tallgrass" x="192" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113411" />
+      </properties>
+    </object>
+    <object id="278" gid="590" type="obj_tallgrass" x="224" y="298" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="113412" />
+      </properties>
+    </object>
+    <object id="297" gid="593" type="obj_waterstop" x="280" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113431" />
+      </properties>
+    </object>
+    <object id="298" gid="593" type="obj_waterstop" x="280" y="360" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113432" />
+      </properties>
+    </object>
+    <object id="299" gid="593" type="obj_waterstop" x="280" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113433" />
+      </properties>
+    </object>
+    <object id="300" gid="593" type="obj_waterstop" x="280" y="320" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113434" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

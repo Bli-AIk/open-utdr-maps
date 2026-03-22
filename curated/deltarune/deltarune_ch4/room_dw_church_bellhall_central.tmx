@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="13">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx" />
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="584" source="tilesets/obj_dw_church_organ.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,68,68,68,91,68,68,68,68,68,68,93,68,68,68,68,74,74,74,74,97,74,74,74,74,74,74,99,74,74,74,74,74,74,74,74,97,74,74,74,74,74,74,99,74,74,74,74,80,80,80,80,103,104,104,104,104,104,104,105,80,80,80,80,85,86,87,85,109,111,111,111,109,109,111,111,85,86,87,85,121,121,121,121,115,117,117,117,115,115,117,117,121,121,121,121</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="583" type="obj_mainchara" x="26" y="299" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103517" />
+      </properties>
+    </object>
+    <object id="3" gid="584" type="obj_dw_church_organ" x="180" y="231" width="161" height="191">
+      <properties>
+        <property name="instanceId" type="int" value="103519" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

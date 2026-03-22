@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="21" tilewidth="20" tileheight="20" infinite="0" nextlayerid="11" nextobjectid="44" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_coretiles_wip.tsx" />
+  <tileset firstgid="361" source="tilesets/free_tile_p10_44_472_20x20.tsx" />
+  <tileset firstgid="362" source="tilesets/free_tile_p10_64_532_20x60.tsx" />
+  <tileset firstgid="363" source="tilesets/free_tile_p10_64_512_40x20.tsx" />
+  <tileset firstgid="366" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="373" source="tilesets/obj_darksausagenpc.tsx" />
+  <tileset firstgid="375" source="tilesets/obj_darktotem_anim.tsx" />
+  <tileset firstgid="376" source="tilesets/obj_core_lightstrip.tsx" />
+  <tileset firstgid="377" source="tilesets/obj_bigcoredoor_anim.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="21">
+    <data encoding="csv">0,0,0,0,0,0,55,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,0,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,0,23,23,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="361" x="180" y="0" width="20" height="20" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="21">
+    <data encoding="csv">0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,5,5,6,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,42,0,0,0,0,0,0,0,0,0,0,0,40,0,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_1000000_grid_4" width="16" height="21">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="depth_1000000_free_5">
+    <object id="2" gid="362" x="60" y="220" width="20" height="60" />
+    <object id="3" gid="362" x="60" y="300" width="20" height="60" />
+    <object id="4" gid="362" x="240" y="220" width="20" height="60" />
+    <object id="5" gid="362" x="240" y="300" width="20" height="60" />
+    <object id="6" gid="362" x="60" y="140" width="20" height="60" />
+    <object id="7" gid="362" x="240" y="140" width="20" height="60" />
+    <object id="8" gid="363" x="140" y="280" width="40" height="20" />
+    <object id="9" gid="363" x="140" y="180" width="40" height="20" />
+  </objectgroup>
+  <layer id="7" name="depth_1000000_grid_6" width="16" height="21">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,0,0,0,0,75,0,0,0,0,0,0,0,0,0,0,0,73,0,0,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="8" name="depth_900000_grid_0" width="16" height="21">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,262,263,264,265,0,0,0,0,0,0,0,0,0,0,0,0,280,0,0,301,0,0,0,0,0,0,0,0,0,0,0,0,298,0,0,301,0,0,0,0,0,0,0,0,0,0,0,263,319,0,0,316,263,0,0,0,0,0,0,0,0,0,0,0,0,262,265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,316,319,0,0,0,0,0,0,0,0,0,0,0,0,264,265,0,0,262,317,0,0,0,0,0,0,0,0,0,0,0,298,0,0,301,0,0,0,0,0,0,0,0,0,0,0,0,298,0,0,301,0,0,0,0,0,0,0,0,0,0,0,0,316,263,264,319,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="9" name="objects">
+    <object id="18" gid="366" type="obj_mainchara" x="140" y="329" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110553" />
+      </properties>
+    </object>
+    <object id="28" gid="373" type="obj_darksausagenpc" x="120" y="219" width="23" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="110563" />
+      </properties>
+    </object>
+    <object id="30" gid="375" type="obj_darktotem_anim" x="60" y="299" width="20" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="110565" />
+      </properties>
+    </object>
+    <object id="31" gid="375" type="obj_darktotem_anim" x="60" y="219" width="20" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="110566" />
+      </properties>
+    </object>
+    <object id="32" gid="375" type="obj_darktotem_anim" x="60" y="139" width="20" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="110567" />
+      </properties>
+    </object>
+    <object id="33" gid="375" type="obj_darktotem_anim" x="240" y="139" width="20" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="110568" />
+      </properties>
+    </object>
+    <object id="34" gid="375" type="obj_darktotem_anim" x="240" y="219" width="20" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="110569" />
+      </properties>
+    </object>
+    <object id="35" gid="375" type="obj_darktotem_anim" x="240" y="299" width="20" height="59">
+      <properties>
+        <property name="instanceId" type="int" value="110570" />
+      </properties>
+    </object>
+    <object id="36" gid="376" type="obj_core_lightstrip" x="100" y="346" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110571" />
+      </properties>
+    </object>
+    <object id="37" gid="376" type="obj_core_lightstrip" x="120" y="366" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110572" />
+      </properties>
+    </object>
+    <object id="38" gid="376" type="obj_core_lightstrip" x="220" y="346" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110573" />
+      </properties>
+    </object>
+    <object id="39" gid="376" type="obj_core_lightstrip" x="200" y="366" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110574" />
+      </properties>
+    </object>
+    <object id="40" gid="376" type="obj_core_lightstrip" x="120" y="86" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110575" />
+      </properties>
+    </object>
+    <object id="41" gid="376" type="obj_core_lightstrip" x="200" y="86" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110576" />
+      </properties>
+    </object>
+    <object id="42" gid="377" type="obj_bigcoredoor_anim" x="120" y="96" width="78" height="76">
+      <properties>
+        <property name="instanceId" type="int" value="110577" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

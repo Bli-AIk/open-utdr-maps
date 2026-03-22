@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="26" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_truelab_tiles.tsx" />
+  <tileset firstgid="71" source="tilesets/free_tile_p11_908_1236_60x60.tsx" />
+  <tileset firstgid="72" source="tilesets/free_tile_p11_888_1236_20x60.tsx" />
+  <tileset firstgid="73" source="tilesets/free_tile_p11_988_1236_20x60.tsx" />
+  <tileset firstgid="74" source="tilesets/free_tile_p11_928_1236_40x60.tsx" />
+  <tileset firstgid="75" source="tilesets/free_tile_p11_888_1236_80x60.tsx" />
+  <tileset firstgid="76" source="tilesets/obj_labdoor.tsx" />
+  <tileset firstgid="78" source="tilesets/obj_mainchara.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="71" x="120" y="120" width="60" height="60" />
+    <object id="2" gid="72" x="60" y="120" width="20" height="60" />
+    <object id="3" gid="73" x="220" y="120" width="20" height="60" />
+    <object id="4" gid="74" x="80" y="120" width="40" height="60" />
+    <object id="5" gid="74" x="180" y="120" width="40" height="60" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="6" gid="75" x="240" y="140" width="80" height="60" />
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="7" gid="76" type="obj_labdoor" x="120" y="120" width="20" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="112404" />
+      </properties>
+    </object>
+    <object id="9" gid="78" type="obj_mainchara" x="120" y="169" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112406" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

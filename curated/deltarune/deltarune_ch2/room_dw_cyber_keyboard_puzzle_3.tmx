@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="29">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="35" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="451" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="453" source="tilesets/obj_traffic_road_trigger.tsx" />
+  <tileset firstgid="455" source="tilesets/obj_musicer_cyber.tsx" />
+  <tileset firstgid="460" source="tilesets/obj_cyber_wall_lights.tsx" />
+  <tileset firstgid="461" source="tilesets/obj_cyber_wall_lights_right.tsx" />
+  <tileset firstgid="462" source="tilesets/obj_cyber_wall_lights_left.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,162,164,164,164,164,164,164,164,164,163,0,0,0,0,0,38,151,203,203,203,203,203,203,203,203,161,40,0,0,0,38,36,52,52,52,52,52,52,52,52,52,52,37,40,0,0,51,52,52,52,52,52,52,52,52,52,52,52,52,53,0,0,51,52,52,52,52,52,52,52,52,52,52,52,52,53,0,0,64,49,52,52,52,52,52,52,52,52,52,52,50,66,0,0,77,64,65,65,65,65,49,50,65,65,65,65,66,79,0,0,120,77,78,78,78,79,51,53,77,78,78,78,79,125,0,0,0,120,121,121,121,125,51,53,120,121,121,121,125,0,0</data>
+  </layer>
+  <layer id="2" name="JA_TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,162,164,0,0,0,0,0,0,0,0,164,163,0,0,0,38,151,203,0,0,0,0,0,0,0,0,203,161,40,0,0,51,52,0,0,0,0,0,0,0,0,0,0,52,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_Overlay" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,10,10,10,10,10,0,0,10,10,10,10,10,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="451" type="obj_mainchara" x="302" y="418" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102647" />
+      </properties>
+    </object>
+    <object id="4" gid="453" type="obj_traffic_road_trigger" x="80" y="364" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="102650" />
+      </properties>
+    </object>
+    <object id="5" gid="453" type="obj_traffic_road_trigger" x="400" y="364" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="102651" />
+      </properties>
+    </object>
+    <object id="6" gid="453" type="obj_traffic_road_trigger" x="40" y="324" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="102652" />
+      </properties>
+    </object>
+    <object id="8" gid="455" type="obj_musicer_cyber" x="0" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="102654" />
+      </properties>
+    </object>
+    <object id="22" gid="460" type="obj_cyber_wall_lights" x="120" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102668" />
+      </properties>
+    </object>
+    <object id="23" gid="460" type="obj_cyber_wall_lights" x="362" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102669" />
+      </properties>
+    </object>
+    <object id="24" gid="461" type="obj_cyber_wall_lights_right" x="520" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102670" />
+      </properties>
+    </object>
+    <object id="25" gid="461" type="obj_cyber_wall_lights_right" x="560" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102671" />
+      </properties>
+    </object>
+    <object id="26" gid="462" type="obj_cyber_wall_lights_left" x="80" y="440" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102672" />
+      </properties>
+    </object>
+    <object id="27" gid="462" type="obj_cyber_wall_lights_left" x="40" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102673" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

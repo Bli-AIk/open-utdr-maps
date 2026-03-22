@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="9" nextobjectid="46" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder.tsx" />
+  <tileset firstgid="17" source="tilesets/bg_ruinseasynam2.tsx" />
+  <tileset firstgid="89" source="tilesets/bg_ruinseasynam3.tsx" />
+  <tileset firstgid="241" source="tilesets/free_tile_p11_760_1216_20x20.tsx" />
+  <tileset firstgid="242" source="tilesets/obj_fakewatershadowr.tsx" />
+  <tileset firstgid="243" source="tilesets/obj_fakewatershadowl.tsx" />
+  <tileset firstgid="244" source="tilesets/obj_fakewaterr.tsx" />
+  <tileset firstgid="245" source="tilesets/obj_fakewaterl.tsx" />
+  <tileset firstgid="248" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="252" source="tilesets/obj_candydish1.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,27,27,27,27,27,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="241" x="120" y="70" width="20" height="20" />
+    <object id="2" gid="241" x="140" y="70" width="20" height="20" />
+    <object id="3" gid="241" x="160" y="70" width="20" height="20" />
+    <object id="4" gid="241" x="180" y="70" width="20" height="20" />
+    <object id="5" gid="241" x="200" y="70" width="20" height="20" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,46,39,39,39,39,39,39,39,39,47,0,0,0,0,0,0,32,19,19,19,19,19,19,19,19,30,0,0,0,0,0,0,32,19,19,19,19,19,19,19,19,30,0,0,0,0,0,0,32,27,27,0,0,0,0,0,0,30,0,0,0,0,0,0,32,169,171,0,0,0,0,169,171,30,0,0,0,0,0,0,32,172,174,0,0,0,0,172,174,30,0,0,0,0,0,0,32,172,174,0,178,0,0,172,174,30,0,0,0,0,0,0,32,172,174,0,0,0,0,172,174,30,0,0,0,0,0,0,32,172,174,0,0,0,0,172,174,30,0,0,0,0,0,0,32,172,174,0,0,0,0,172,174,30,0,0,0,0,0,0,54,23,23,24,0,0,22,23,23,55,0,0,0,0,0,0,0,0,0,32,0,0,30,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="depth_999999_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,178,178,179,0,0,0,0,0,0,0,0,0,0,0,0,185,187,0,187,0,0,0,0,0,0,0,0,0,0,0,0,185,187,0,187,0,0,0,0,0,0,0,0,0,0,0,0,193,194,194,195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_999999_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,194,194,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,178,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="depth_999999_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,181,183,183,184,0,0,0,0,0,0,0,0,0,0,0,0,181,183,183,184,0,0,0,0,0,0,0,0,0,0,0,0,181,183,183,184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="7" name="objects">
+    <object id="6" gid="242" type="obj_fakewatershadowr" x="220" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100486" />
+      </properties>
+    </object>
+    <object id="7" gid="242" type="obj_fakewatershadowr" x="100" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100487" />
+      </properties>
+    </object>
+    <object id="8" gid="243" type="obj_fakewatershadowl" x="80" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100488" />
+      </properties>
+    </object>
+    <object id="9" gid="243" type="obj_fakewatershadowl" x="200" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100489" />
+      </properties>
+    </object>
+    <object id="10" gid="244" type="obj_fakewaterr" x="220" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100490" />
+      </properties>
+    </object>
+    <object id="11" gid="244" type="obj_fakewaterr" x="220" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100491" />
+      </properties>
+    </object>
+    <object id="12" gid="244" type="obj_fakewaterr" x="220" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100492" />
+      </properties>
+    </object>
+    <object id="13" gid="244" type="obj_fakewaterr" x="220" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100493" />
+      </properties>
+    </object>
+    <object id="14" gid="244" type="obj_fakewaterr" x="220" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100494" />
+      </properties>
+    </object>
+    <object id="15" gid="244" type="obj_fakewaterr" x="100" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100495" />
+      </properties>
+    </object>
+    <object id="16" gid="244" type="obj_fakewaterr" x="100" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100496" />
+      </properties>
+    </object>
+    <object id="17" gid="244" type="obj_fakewaterr" x="100" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100497" />
+      </properties>
+    </object>
+    <object id="18" gid="244" type="obj_fakewaterr" x="100" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100498" />
+      </properties>
+    </object>
+    <object id="19" gid="244" type="obj_fakewaterr" x="100" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100499" />
+      </properties>
+    </object>
+    <object id="20" gid="245" type="obj_fakewaterl" x="80" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100500" />
+      </properties>
+    </object>
+    <object id="21" gid="245" type="obj_fakewaterl" x="80" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100501" />
+      </properties>
+    </object>
+    <object id="22" gid="245" type="obj_fakewaterl" x="80" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100502" />
+      </properties>
+    </object>
+    <object id="23" gid="245" type="obj_fakewaterl" x="80" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100503" />
+      </properties>
+    </object>
+    <object id="24" gid="245" type="obj_fakewaterl" x="80" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100504" />
+      </properties>
+    </object>
+    <object id="25" gid="245" type="obj_fakewaterl" x="200" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100505" />
+      </properties>
+    </object>
+    <object id="26" gid="245" type="obj_fakewaterl" x="200" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100506" />
+      </properties>
+    </object>
+    <object id="27" gid="245" type="obj_fakewaterl" x="200" y="160" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100507" />
+      </properties>
+    </object>
+    <object id="28" gid="245" type="obj_fakewaterl" x="200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100508" />
+      </properties>
+    </object>
+    <object id="29" gid="245" type="obj_fakewaterl" x="200" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100509" />
+      </properties>
+    </object>
+    <object id="34" gid="248" type="obj_mainchara" x="150" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="100514" />
+      </properties>
+    </object>
+    <object id="42" gid="252" type="obj_candydish1" x="150" y="122" width="20" height="27">
+      <properties>
+        <property name="instanceId" type="int" value="100522" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

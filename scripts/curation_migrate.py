@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import argparse
+import csv
+import hashlib
 import json
 import re
 import shutil
@@ -26,6 +28,7 @@ CURATED_ROOT = REPO_ROOT / "curated"
 DEFAULT_CONFIG = Path(__file__).with_name("curation_blacklist.toml")
 DEFAULT_PREVIEW_ROOT = REPO_ROOT / "dev" / "curation_migration_preview"
 DEFAULT_AUDIT_ROOT = REPO_ROOT / "dev" / "curation_blacklist_audit"
+DEFAULT_SUGGEST_ROOT = REPO_ROOT / "dev" / "curation_blacklist_exact_matches"
 TILED_GID_MASK = 0x1FFF_FFFF
 
 DATASET_DIRS = {
@@ -50,7 +53,9 @@ class BlacklistConfig:
     object_types_exact: frozenset[str]
     object_types_keep_exact: frozenset[str]
     object_types_prefix: tuple[str, ...]
+    object_fingerprint_exact: frozenset[tuple[int, int, str]]
     remove_empty_object_layers: bool
+    remove_rectangle_objects_without_gid: bool
     room_overrides: dict[str, RoomOverrides]
 
 
@@ -112,6 +117,17 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Scan all raw rooms and build a global preview catalog for blacklisted sprites",
     )
+    parser.add_argument(
+        "--suggest-exact-blacklist",
+        action="store_true",
+        help="Find non-blacklisted object sprites that are pixel-identical to current blacklist sprites",
+    )
+    parser.add_argument(
+        "--suggest-root",
+        type=Path,
+        default=DEFAULT_SUGGEST_ROOT,
+        help="Directory for exact-match blacklist suggestion output",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Do not write curated files")
     parser.add_argument("--force", action="store_true", help="Overwrite curated files without prompting")
     return parser.parse_args()
@@ -122,6 +138,8 @@ def main() -> int:
     config = load_blacklist_config(args.config)
     if args.audit_blacklist:
         return run_audit_mode(args, config)
+    if args.suggest_exact_blacklist:
+        return run_exact_suggestion_mode(args, config)
 
     dataset = args.game or prompt_dataset()
     room_name = normalize_room_name(args.room or prompt_room())
@@ -150,7 +168,15 @@ def main() -> int:
     tree = ET.parse(raw_room)
     root = tree.getroot()
     tilesets = parse_tilesets(root, raw_dir)
-    removed_entries = apply_blacklist(root, config, room_key, dataset, room_name)
+    removed_entries = apply_blacklist(
+        root,
+        config,
+        room_key,
+        dataset,
+        room_name,
+        fingerprint_cache={},
+        tilesets=tilesets,
+    )
     used_sources = collect_used_tileset_sources(root, tilesets)
     prune_unused_tilesets(root, used_sources)
 
@@ -189,6 +215,7 @@ def run_audit_mode(args: argparse.Namespace, config: BlacklistConfig) -> int:
     all_entries: list[RemovedEntry] = []
     unique_sprite_manifest: dict[tuple[str, str | None, int, str], dict[str, object]] = {}
     tsx_cache: dict[Path, tuple[str, int, int, int, int, int, str | None, Path | None]] = {}
+    fingerprint_cache: dict[tuple[Path, int, int, int, int, int, int], tuple[int, int, str]] = {}
 
     for dataset in datasets:
         raw_dir = DATASET_DIRS[dataset]
@@ -196,7 +223,15 @@ def run_audit_mode(args: argparse.Namespace, config: BlacklistConfig) -> int:
             room_name = raw_room.stem
             root = ET.parse(raw_room).getroot()
             tilesets = parse_tilesets(root, raw_dir, tsx_cache)
-            removed_entries = apply_blacklist(root, config, f"{dataset}:{room_name}", dataset, room_name)
+            removed_entries = apply_blacklist(
+                root,
+                config,
+                f"{dataset}:{room_name}",
+                dataset,
+                room_name,
+                fingerprint_cache=fingerprint_cache,
+                tilesets=tilesets,
+            )
             all_entries.extend(removed_entries)
 
             for entry in removed_entries:
@@ -237,6 +272,129 @@ def run_audit_mode(args: argparse.Namespace, config: BlacklistConfig) -> int:
 
     write_audit_outputs(audit_root, all_entries, unique_sprite_manifest, datasets)
     print_audit_summary(audit_root, all_entries, unique_sprite_manifest, datasets)
+    return 0
+
+
+def run_exact_suggestion_mode(args: argparse.Namespace, config: BlacklistConfig) -> int:
+    if Image is None:
+        raise SystemExit("Pillow is required for --suggest-exact-blacklist.")
+
+    datasets = [args.game] if args.game else sorted(DATASET_DIRS)
+    suggest_root = args.suggest_root
+    if suggest_root.exists():
+        shutil.rmtree(suggest_root)
+    suggest_root.mkdir(parents=True, exist_ok=True)
+    preview_dir = suggest_root / "suggested_sprites"
+    preview_dir.mkdir(parents=True, exist_ok=True)
+
+    tsx_cache: dict[Path, tuple[str, int, int, int, int, int, str | None, Path | None]] = {}
+    fingerprint_cache: dict[tuple[Path, int, int, int, int, int, int], tuple[int, int, str]] = {}
+    blacklisted_by_fingerprint: dict[tuple[int, int, str], list[dict[str, object]]] = {}
+    candidate_by_fingerprint: dict[tuple[int, int, str], list[dict[str, object]]] = {}
+
+    for dataset in datasets:
+        raw_dir = DATASET_DIRS[dataset]
+        for raw_room in sorted(raw_dir.glob("*.tmx")):
+            room_name = raw_room.stem
+            room_key = f"{dataset}:{room_name}"
+            root = ET.parse(raw_room).getroot()
+            tilesets = parse_tilesets(root, raw_dir, tsx_cache)
+            overrides = config.room_overrides.get(room_key, RoomOverrides(frozenset(), frozenset(), tuple()))
+
+            for layer in root.findall("objectgroup"):
+                if match_layer_rule(layer.get("name", ""), config, overrides):
+                    continue
+                for obj in layer.findall("object[@gid]"):
+                    object_type = obj.get("type", "")
+                    if not object_type or object_type in config.object_types_keep_exact:
+                        continue
+                    if object_type in overrides.keep_object_types_exact:
+                        continue
+                    if any(object_type.startswith(prefix) for prefix in overrides.keep_object_types_prefix):
+                        continue
+
+                    gid = int(obj.get("gid", "0"))
+                    fingerprint = compute_sprite_fingerprint(gid, tilesets, fingerprint_cache)
+                    if fingerprint is None:
+                        continue
+
+                    record = {
+                        "dataset": dataset,
+                        "room_name": room_name,
+                        "layer_name": layer.get("name", ""),
+                        "object_id": obj.get("id"),
+                        "object_type": object_type,
+                        "gid": mask_gid(gid),
+                    }
+
+                    reason = match_object_rule(object_type, config, overrides)
+                    if reason is None:
+                        reason = match_object_fingerprint_rule(
+                            obj=obj,
+                            object_type=object_type,
+                            config=config,
+                            overrides=overrides,
+                            tilesets=tilesets,
+                            fingerprint_cache=fingerprint_cache,
+                        )
+                    if reason:
+                        record["reason"] = reason
+                        blacklisted_by_fingerprint.setdefault(fingerprint, []).append(record)
+                    else:
+                        candidate_by_fingerprint.setdefault(fingerprint, []).append(record)
+
+    suggestions: list[dict[str, object]] = []
+    preview_cache: dict[tuple[str, int], str | None] = {}
+    for fingerprint, candidates in candidate_by_fingerprint.items():
+        blacklist_matches = blacklisted_by_fingerprint.get(fingerprint)
+        if not blacklist_matches:
+            continue
+
+        matches_by_type: dict[str, dict[str, object]] = {}
+        for record in candidates:
+            object_type = str(record["object_type"])
+            suggestion = matches_by_type.get(object_type)
+            if suggestion is None:
+                preview_key = (object_type, int(record["gid"]))
+                preview_file = preview_cache.get(preview_key)
+                if preview_key not in preview_cache:
+                    preview_file = write_exact_match_preview(
+                        preview_dir,
+                        object_type=object_type,
+                        gid=int(record["gid"]),
+                        dataset=str(record["dataset"]),
+                        room_name=str(record["room_name"]),
+                    )
+                    preview_cache[preview_key] = preview_file
+
+                suggestion = {
+                    "object_type": object_type,
+                    "preview_file": preview_file,
+                    "fingerprint": {
+                        "width": fingerprint[0],
+                        "height": fingerprint[1],
+                        "sha256": fingerprint[2],
+                    },
+                    "occurrences": 0,
+                    "sample_rooms": [],
+                    "matched_blacklist_object_types": sorted(
+                        {str(match["object_type"]) for match in blacklist_matches if match.get("object_type")}
+                    ),
+                    "matched_blacklist_rules": sorted(
+                        {str(match["reason"]) for match in blacklist_matches if match.get("reason")}
+                    ),
+                }
+                matches_by_type[object_type] = suggestion
+
+            suggestion["occurrences"] = int(suggestion["occurrences"]) + 1
+            sample_rooms = set(suggestion["sample_rooms"])
+            sample_rooms.add(f"{record['dataset']}/{record['room_name']}")
+            suggestion["sample_rooms"] = sorted(sample_rooms)[:10]
+
+        suggestions.extend(matches_by_type.values())
+
+    write_exact_suggestion_outputs(suggest_root, suggestions, datasets)
+    print_exact_suggestion_summary(suggest_root, suggestions, datasets)
     return 0
 
 
@@ -285,7 +443,14 @@ def load_blacklist_config(path: Path) -> BlacklistConfig:
         object_types_exact=frozenset(raw.get("object_types", {}).get("exact", [])),
         object_types_keep_exact=frozenset(raw.get("object_types", {}).get("keep_exact", [])),
         object_types_prefix=tuple(raw.get("object_types", {}).get("prefix", [])),
+        object_fingerprint_exact=frozenset(
+            parse_fingerprint_spec(spec)
+            for spec in raw.get("object_fingerprints", {}).get("exact", [])
+        ),
         remove_empty_object_layers=bool(raw.get("cleanup", {}).get("remove_empty_object_layers", True)),
+        remove_rectangle_objects_without_gid=bool(
+            raw.get("cleanup", {}).get("remove_rectangle_objects_without_gid", True)
+        ),
         room_overrides=room_overrides,
     )
 
@@ -343,12 +508,19 @@ def parse_tilesets(
     return tilesets
 
 
+def parse_fingerprint_spec(value: str) -> tuple[int, int, str]:
+    width, height, sha256 = value.split(":", 2)
+    return (int(width), int(height), sha256.lower())
+
+
 def apply_blacklist(
     root: ET.Element,
     config: BlacklistConfig,
     room_key: str,
     dataset: str,
     room_name: str,
+    fingerprint_cache: dict[tuple[Path, int, int, int, int, int, int], tuple[int, int, str]] | None = None,
+    tilesets: list[TilesetInfo] | None = None,
 ) -> list[RemovedEntry]:
     removed: list[RemovedEntry] = []
     overrides = config.room_overrides.get(
@@ -368,6 +540,17 @@ def apply_blacklist(
         for obj in list(layer.findall("object")):
             obj_type = obj.get("type", "")
             object_reason = match_object_rule(obj_type, config, overrides)
+            if object_reason is None:
+                object_reason = match_object_fingerprint_rule(
+                    obj=obj,
+                    object_type=obj_type,
+                    config=config,
+                    overrides=overrides,
+                    tilesets=tilesets or [],
+                    fingerprint_cache=fingerprint_cache or {},
+                )
+            if object_reason is None and should_remove_rectangle_object(obj, config, overrides):
+                object_reason = "object-rect:no-gid"
             if object_reason:
                 removed.append(build_removed_entry(layer, obj, object_reason, dataset, room_name))
                 layer.remove(obj)
@@ -387,14 +570,62 @@ def match_layer_rule(layer_name: str, config: BlacklistConfig, overrides: RoomOv
 def match_object_rule(object_type: str, config: BlacklistConfig, overrides: RoomOverrides) -> str | None:
     if not object_type:
         return None
-    if object_type in config.object_types_keep_exact or object_type in overrides.keep_object_types_exact:
+    if is_object_type_kept(object_type, config, overrides):
         return None
-    if object_type in config.object_types_exact and object_type not in overrides.keep_object_types_exact:
+    if object_type in config.object_types_exact:
         return f"object-exact:{object_type}"
     for prefix in config.object_types_prefix:
         if object_type.startswith(prefix) and prefix not in overrides.keep_object_types_prefix:
             return f"object-prefix:{prefix}"
     return None
+
+
+def match_object_fingerprint_rule(
+    *,
+    obj: ET.Element,
+    object_type: str,
+    config: BlacklistConfig,
+    overrides: RoomOverrides,
+    tilesets: list[TilesetInfo],
+    fingerprint_cache: dict[tuple[Path, int, int, int, int, int, int], tuple[int, int, str]],
+) -> str | None:
+    if obj.get("gid") is None or not config.object_fingerprint_exact:
+        return None
+    if object_type and is_object_type_kept(object_type, config, overrides):
+        return None
+    fingerprint = compute_sprite_fingerprint(int(obj.get("gid", "0")), tilesets, fingerprint_cache)
+    if fingerprint is None or fingerprint not in config.object_fingerprint_exact:
+        return None
+    width, height, sha256 = fingerprint
+    return f"object-fingerprint:{width}x{height}:{sha256[:8]}"
+
+
+def is_object_type_kept(object_type: str, config: BlacklistConfig, overrides: RoomOverrides) -> bool:
+    if not object_type:
+        return False
+    if object_type in config.object_types_keep_exact or object_type in overrides.keep_object_types_exact:
+        return True
+    return any(object_type.startswith(prefix) for prefix in overrides.keep_object_types_prefix)
+
+
+def should_remove_rectangle_object(
+    obj: ET.Element,
+    config: BlacklistConfig,
+    overrides: RoomOverrides,
+) -> bool:
+    if not config.remove_rectangle_objects_without_gid:
+        return False
+    if obj.get("gid") is not None:
+        return False
+
+    object_type = obj.get("type", "")
+    if is_object_type_kept(object_type, config, overrides):
+        return False
+
+    for child_tag in ("ellipse", "point", "polygon", "polyline", "text"):
+        if obj.find(child_tag) is not None:
+            return False
+    return True
 
 
 def build_removed_entry(
@@ -475,6 +706,55 @@ def resolve_tileset(gid: int, tilesets: list[TilesetInfo]) -> TilesetInfo | None
         else:
             break
     return match
+
+
+def compute_sprite_fingerprint(
+    gid: int,
+    tilesets: list[TilesetInfo],
+    fingerprint_cache: dict[tuple[Path, int, int, int, int, int, int], tuple[int, int, str]],
+) -> tuple[int, int, str] | None:
+    if Image is None:
+        return None
+
+    masked_gid = mask_gid(gid)
+    tileset = resolve_tileset(masked_gid, tilesets)
+    if tileset is None or tileset.image_path is None or not tileset.image_path.is_file():
+        return None
+    if masked_gid < tileset.first_gid or tileset.columns <= 0 or tileset.tile_width <= 0 or tileset.tile_height <= 0:
+        return None
+
+    local_id = masked_gid - tileset.first_gid
+    key = (
+        tileset.image_path,
+        local_id,
+        tileset.tile_width,
+        tileset.tile_height,
+        tileset.columns,
+        tileset.margin,
+        tileset.spacing,
+    )
+    cached = fingerprint_cache.get(key)
+    if cached is not None:
+        return cached
+
+    column = local_id % tileset.columns
+    row = local_id // tileset.columns
+    crop_x = tileset.margin + column * (tileset.tile_width + tileset.spacing)
+    crop_y = tileset.margin + row * (tileset.tile_height + tileset.spacing)
+    crop_box = (
+        crop_x,
+        crop_y,
+        crop_x + tileset.tile_width,
+        crop_y + tileset.tile_height,
+    )
+
+    with Image.open(tileset.image_path) as image:
+        cropped = image.crop(crop_box).convert("RGBA")
+        digest = hashlib.sha256(cropped.tobytes()).hexdigest()
+        cached = (cropped.width, cropped.height, digest)
+
+    fingerprint_cache[key] = cached
+    return cached
 
 
 def write_preview_assets(
@@ -638,6 +918,103 @@ def write_audit_outputs(
     for rule, count in sorted(by_rule.items()):
         lines.append(f"  - {rule}: {count}")
     (audit_root / "summary.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_exact_match_preview(
+    preview_dir: Path,
+    *,
+    object_type: str,
+    gid: int,
+    dataset: str,
+    room_name: str,
+) -> str | None:
+    raw_dir = DATASET_DIRS[dataset]
+    raw_room = raw_dir / f"{room_name}.tmx"
+    if not raw_room.is_file():
+        return None
+    root = ET.parse(raw_room).getroot()
+    tilesets = parse_tilesets(root, raw_dir)
+    entry = RemovedEntry(
+        dataset=dataset,
+        room_name=room_name,
+        layer_name="",
+        layer_id=None,
+        object_id=None,
+        object_type=object_type,
+        gid=gid,
+        reason="exact-match-suggestion",
+    )
+    filename = (
+        f"{slugify(object_type)}__gid{gid}__{slugify(dataset)}__{slugify(room_name)}.png"
+    )
+    return maybe_write_preview_sprite(preview_dir, 0, entry, tilesets, forced_filename=filename)
+
+
+def write_exact_suggestion_outputs(
+    suggest_root: Path,
+    suggestions: list[dict[str, object]],
+    datasets: list[str],
+) -> None:
+    ordered = sorted(suggestions, key=lambda item: (str(item["object_type"]), -int(item["occurrences"])))
+    (suggest_root / "candidates.json").write_text(
+        json.dumps(ordered, indent=2, ensure_ascii=True) + "\n",
+        encoding="utf-8",
+    )
+
+    with (suggest_root / "candidates.csv").open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(
+            [
+                "object_type",
+                "occurrences",
+                "width",
+                "height",
+                "sha256",
+                "matched_blacklist_object_types",
+                "matched_blacklist_rules",
+                "sample_rooms",
+                "preview_file",
+            ]
+        )
+        for item in ordered:
+            fingerprint = item["fingerprint"]
+            writer.writerow(
+                [
+                    item["object_type"],
+                    item["occurrences"],
+                    fingerprint["width"],
+                    fingerprint["height"],
+                    fingerprint["sha256"],
+                    ";".join(item["matched_blacklist_object_types"]),
+                    ";".join(item["matched_blacklist_rules"]),
+                    ";".join(item["sample_rooms"]),
+                    item["preview_file"] or "",
+                ]
+            )
+
+    lines = [
+        f"datasets: {', '.join(datasets)}",
+        f"suggested_object_types: {len(ordered)}",
+        "",
+        "top_candidates:",
+    ]
+    for item in ordered[:50]:
+        lines.append(
+            "  - "
+            f"{item['object_type']}: occurrences={item['occurrences']}, "
+            f"matches={', '.join(item['matched_blacklist_object_types'])}"
+        )
+    (suggest_root / "summary.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def print_exact_suggestion_summary(
+    suggest_root: Path,
+    suggestions: list[dict[str, object]],
+    datasets: list[str],
+) -> None:
+    print(f"Suggestion datasets: {', '.join(datasets)}")
+    print(f"Suggestion output: {suggest_root}")
+    print(f"Suggested object types: {len(suggestions)}")
 
 
 def print_audit_summary(

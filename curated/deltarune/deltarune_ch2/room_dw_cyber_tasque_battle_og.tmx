@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="33" height="27" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="53">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="417" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="418" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="419" source="tilesets/obj_queenscreen.tsx" />
+  <tileset firstgid="422" source="tilesets/obj_forcefield.tsx" />
+  <tileset firstgid="423" source="tilesets/obj_musicer_cyber.tsx" />
+  <layer id="1" name="TILES" width="33" height="27">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,18,19,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,2,18,3,5,6,0,0,0,0,0,0,0,0,0,0,31,31,31,31,31,31,31,31,31,31,31,31,31,15,16,31,31,31,31,31,31,15,19,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,45,17,19,43,44,44,44,44,45,17,3,5,5,5,5,5,6,0,0,0,0,57,57,57,57,57,57,57,57,57,57,57,57,58,17,19,56,57,57,57,57,58,17,16,31,31,31,31,15,19,0,0,0,0,87,87,87,87,87,87,87,87,87,87,87,87,91,17,19,86,87,87,87,87,91,17,19,43,44,44,45,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,17,19,56,57,57,58,17,3,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,17,19,86,87,87,91,17,16,31,31,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,17,19,0,0,0,0,17,19,43,44,45,0,0,0,0,0,0,0,0,0,0,0,4,5,5,2,3,5,5,6,0,0,0,17,19,0,0,0,0,17,19,56,57,58,0,0,0,0,0,0,0,0,0,0,0,17,16,31,31,31,31,15,19,0,0,0,17,3,5,5,5,5,2,19,86,87,91,0,0,0,0,0,0,0,0,0,0,0,17,19,43,44,44,45,17,19,0,0,0,17,16,31,31,31,31,31,32,0,0,0,0,0,0,0,0,0,0,4,5,5,5,2,19,56,57,57,58,17,19,0,0,0,17,19,43,44,44,44,44,45,0,0,0,0,0,0,0,0,0,0,30,31,31,31,15,19,86,87,87,91,17,19,0,0,0,17,19,56,57,57,57,57,58,0,0,0,0,0,0,0,0,0,0,43,44,44,45,17,19,0,0,0,0,17,19,0,0,0,17,19,86,87,87,87,87,91,0,0,0,0,0,0,0,0,0,0,56,57,57,58,17,3,5,5,5,5,2,19,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,87,87,91,30,31,31,31,31,31,15,19,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,44,44,44,44,45,17,3,5,5,5,2,3,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,56,57,57,57,57,58,30,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,57,57,57,57,57,57,57,57,57,57,57,57,57,57,57,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="417" type="obj_mainchara" x="58" y="252" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107406" />
+      </properties>
+    </object>
+    <object id="3" gid="418" type="obj_npc_room" x="1197" y="443" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107408" />
+      </properties>
+    </object>
+    <object id="4" gid="418" type="obj_npc_room" x="252" y="680" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107409" />
+      </properties>
+    </object>
+    <object id="5" gid="419" type="obj_queenscreen" x="975" y="513" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107410" />
+      </properties>
+    </object>
+    <object id="6" gid="419" type="obj_queenscreen" x="536" y="737" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107411" />
+      </properties>
+    </object>
+    <object id="9" gid="419" type="obj_queenscreen" x="754" y="824" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107414" />
+      </properties>
+    </object>
+    <object id="11" gid="419" type="obj_queenscreen" x="416" y="185" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107416" />
+      </properties>
+    </object>
+    <object id="12" gid="419" type="obj_queenscreen" x="316" y="617" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107417" />
+      </properties>
+    </object>
+    <object id="13" gid="419" type="obj_queenscreen" x="1096" y="257" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107418" />
+      </properties>
+    </object>
+    <object id="15" gid="422" type="obj_forcefield" x="680" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107420" />
+      </properties>
+    </object>
+    <object id="16" gid="423" type="obj_musicer_cyber" x="0" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="107421" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

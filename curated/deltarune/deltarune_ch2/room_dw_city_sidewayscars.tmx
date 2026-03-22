@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="9">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_sidewalk_tileset.tsx" />
+  <tileset firstgid="241" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="242" source="tilesets/obj_traffic_car_generator.tsx" />
+  <tileset firstgid="244" source="tilesets/obj_traffic_switch.tsx" />
+  <layer id="1" name="TILES" width="20" height="20">
+    <data encoding="csv">0,0,0,0,0,0,0,143,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,127,0,0,0,0,0,0,0,0,0,0,0,87,88,87,88,87,88,87,143,142,0,0,0,0,0,0,0,0,0,0,0,102,103,102,103,102,103,102,143,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,142,0,0,0,0,0,0,0,0,0,0,0,118,116,117,118,116,117,118,116,117,118,116,117,118,116,117,118,116,117,118,116,133,131,132,133,131,132,133,131,132,133,131,132,133,131,132,133,131,132,133,131,148,146,147,148,146,147,148,146,147,148,146,147,148,146,147,148,146,147,148,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="241" type="obj_mainchara" x="40" y="238" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="108085" />
+      </properties>
+    </object>
+    <object id="3" gid="242" type="obj_traffic_car_generator" x="0" y="431" width="39" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108087" />
+      </properties>
+    </object>
+    <object id="5" gid="244" type="obj_traffic_switch" x="240" y="331" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="108089" />
+      </properties>
+    </object>
+    <object id="6" gid="244" type="obj_traffic_switch" x="360" y="331" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="108090" />
+      </properties>
+    </object>
+    <object id="7" gid="242" type="obj_traffic_car_generator" x="722" y="489" width="39" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="108091" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

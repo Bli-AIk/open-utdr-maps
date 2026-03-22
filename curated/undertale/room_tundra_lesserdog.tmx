@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="69" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx" />
+  <tileset firstgid="676" source="tilesets/free_tile_p9_1608_404_60x20.tsx" />
+  <tileset firstgid="678" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="679" source="tilesets/obj_dogpillarparent.tsx" />
+  <tileset firstgid="680" source="tilesets/obj_dogneckparent.tsx" />
+  <tileset firstgid="681" source="tilesets/obj_dogneck2.tsx" />
+  <tileset firstgid="682" source="tilesets/obj_dogpillar2.tsx" />
+  <tileset firstgid="683" source="tilesets/obj_dogpillar3.tsx" />
+  <tileset firstgid="684" source="tilesets/obj_dogneck3.tsx" />
+  <tileset firstgid="685" source="tilesets/obj_dogpillar4.tsx" />
+  <tileset firstgid="686" source="tilesets/obj_dogneck4.tsx" />
+  <tileset firstgid="687" source="tilesets/obj_dogpillar5.tsx" />
+  <tileset firstgid="688" source="tilesets/obj_dogneck5.tsx" />
+  <tileset firstgid="689" source="tilesets/obj_dogroom_npc.tsx" />
+  <tileset firstgid="690" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="691" source="tilesets/obj_dogehouse.tsx" />
+  <tileset firstgid="692" source="tilesets/obj_dogehouseback.tsx" />
+  <tileset firstgid="693" source="tilesets/obj_sign_room.tsx" />
+  <objectgroup id="1" name="depth_1000500_free_0">
+    <object id="1" gid="676" x="60" y="60" width="60" height="20" />
+    <object id="2" gid="676" x="60" y="40" width="60" height="20" />
+    <object id="3" gid="676" x="60" y="20" width="60" height="20" />
+    <object id="4" gid="676" x="140" y="60" width="60" height="20" />
+    <object id="5" gid="676" x="140" y="40" width="60" height="20" />
+    <object id="6" gid="676" x="140" y="20" width="60" height="20" />
+    <object id="7" gid="676" x="280" y="60" width="60" height="20" />
+    <object id="8" gid="676" x="280" y="40" width="60" height="20" />
+    <object id="9" gid="676" x="280" y="20" width="60" height="20" />
+    <object id="10" gid="676" x="400" y="60" width="60" height="20" />
+    <object id="11" gid="676" x="400" y="40" width="60" height="20" />
+    <object id="12" gid="676" x="400" y="20" width="60" height="20" />
+  </objectgroup>
+  <layer id="2" name="depth_1000500_grid_1" width="28" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,183,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,183,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,183,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1000000_grid_0" width="28" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,218,1,1,1,219,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47,48,48,48,48,48,48,48,48,10,11,11,11,12,48,48,48,48,48,48,48,48,48,48,48,46,0,0,51,1,2,1,1,1,1,1,1,19,20,20,20,21,1,1,1,1,1,1,1,1,1,2,1,58,59,59,60,1,1,2,1,1,1,1,1,28,22,20,23,30,1,2,1,1,1,1,10,11,11,11,11,12,1,1,10,11,11,11,11,11,11,11,11,11,13,20,14,11,11,11,11,11,11,11,13,20,20,20,20,21,1,1,19,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,23,29,29,30,1,1,28,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,30,2,1,40,41,41,42,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,49,0,0,51,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,49,0,0,65,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,64,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="14" gid="678" type="obj_mainchara" x="360" y="173" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="102588" />
+      </properties>
+    </object>
+    <object id="15" gid="679" type="obj_dogpillarparent" x="100" y="120" width="25" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="102589" />
+      </properties>
+    </object>
+    <object id="16" gid="680" type="obj_dogneckparent" x="140" y="100" width="56" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102590" />
+      </properties>
+    </object>
+    <object id="17" gid="681" type="obj_dogneck2" x="298" y="193" width="43" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="102591" />
+      </properties>
+    </object>
+    <object id="18" gid="682" type="obj_dogpillar2" x="240" y="185" width="53" height="65">
+      <properties>
+        <property name="instanceId" type="int" value="102592" />
+      </properties>
+    </object>
+    <object id="19" gid="683" type="obj_dogpillar3" x="320" y="105" width="78" height="65">
+      <properties>
+        <property name="instanceId" type="int" value="102593" />
+      </properties>
+    </object>
+    <object id="20" gid="684" type="obj_dogneck3" x="400" y="101" width="40" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="102594" />
+      </properties>
+    </object>
+    <object id="21" gid="685" type="obj_dogpillar4" x="460" y="214" width="28" height="74">
+      <properties>
+        <property name="instanceId" type="int" value="102595" />
+      </properties>
+    </object>
+    <object id="22" gid="686" type="obj_dogneck4" x="400" y="203" width="46" height="23">
+      <properties>
+        <property name="instanceId" type="int" value="102596" />
+      </properties>
+    </object>
+    <object id="23" gid="687" type="obj_dogpillar5" x="120" y="207" width="72" height="57">
+      <properties>
+        <property name="instanceId" type="int" value="102597" />
+      </properties>
+    </object>
+    <object id="24" gid="688" type="obj_dogneck5" x="80" y="206" width="36" height="26">
+      <properties>
+        <property name="instanceId" type="int" value="102598" />
+      </properties>
+    </object>
+    <object id="25" gid="689" type="obj_dogroom_npc" x="460" y="99" width="18" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102599" />
+      </properties>
+    </object>
+    <object id="26" gid="690" type="obj_savepoint" x="360" y="199" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="102600" />
+      </properties>
+    </object>
+    <object id="27" gid="691" type="obj_dogehouse" x="220" y="99" width="59" height="79">
+      <properties>
+        <property name="instanceId" type="int" value="102601" />
+      </properties>
+    </object>
+    <object id="28" gid="692" type="obj_dogehouseback" x="220" y="56" width="41" height="36">
+      <properties>
+        <property name="instanceId" type="int" value="102602" />
+      </properties>
+    </object>
+    <object id="29" gid="693" type="obj_sign_room" x="280" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="102603" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

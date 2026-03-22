@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="14" nextobjectid="80" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_watertiles.tsx" />
+  <tileset firstgid="225" source="tilesets/bg_watertiles_2.tsx" />
+  <tileset firstgid="585" source="tilesets/free_tile_p10_392_696_20x60.tsx" />
+  <tileset firstgid="586" source="tilesets/free_tile_p10_392_716_20x40.tsx" />
+  <tileset firstgid="587" source="tilesets/free_tile_p10_64_284_20x40.tsx" />
+  <tileset firstgid="588" source="tilesets/free_tile_p10_24_184_20x40.tsx" />
+  <tileset firstgid="589" source="tilesets/free_tile_p10_84_224_20x20.tsx" />
+  <tileset firstgid="591" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="594" source="tilesets/obj_carrybird.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="585" x="240" y="100" width="20" height="60" />
+    <object id="2" gid="585" x="260" y="100" width="20" height="60" />
+    <object id="3" gid="585" x="280" y="100" width="20" height="60" />
+    <object id="4" gid="585" x="300" y="100" width="20" height="60" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,142,143,0,0,0,0,0,0,0,0,0,0,0,0,0,141,142,143,0,0,0,0,0,0,0,0,0,0,0,0,0,141,142,143,0,0,0,0,0,0,0,0,0,0,0,0,0,142,142,142,0,0,0,0,0,0,0,0,17,0,0,0,158,142,142,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,2,0,2,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="5" gid="585" x="120" y="100" width="20" height="60" />
+    <object id="6" gid="585" x="100" y="100" width="20" height="60" />
+    <object id="7" gid="585" x="80" y="100" width="20" height="60" />
+    <object id="8" gid="585" x="60" y="100" width="20" height="60" />
+    <object id="9" gid="585" x="40" y="100" width="20" height="60" />
+    <object id="10" gid="585" x="20" y="100" width="20" height="60" />
+    <object id="11" gid="585" x="0" y="100" width="20" height="60" />
+  </objectgroup>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,128,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_1000000_free_4">
+    <object id="12" gid="586" x="200" y="100" width="20" height="40" />
+  </objectgroup>
+  <layer id="6" name="depth_1000000_grid_5" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,0,0,0,128,0,0,0,0,0,0,0,0,0,0,0,142,142,142,0,142,0,0,0,0,0,0,0,0,0,0,0,142,142,142,0,156,0,0,0,0,351,351,351,351,351,369,369,0,0,0,0,0,0,0,0,0,351,351,351,351,351,351,351,0,0,0,0,0,0,0,0,0,351,351,351,351,351,351,351,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="7" name="depth_1000000_free_6">
+    <object id="13" gid="587" x="0" y="40" width="20" height="40" />
+    <object id="14" gid="587" x="20" y="40" width="20" height="40" />
+    <object id="15" gid="587" x="40" y="40" width="20" height="40" />
+    <object id="16" gid="587" x="60" y="40" width="20" height="40" />
+    <object id="17" gid="587" x="80" y="40" width="20" height="40" />
+    <object id="18" gid="587" x="100" y="40" width="20" height="40" />
+    <object id="19" gid="587" x="120" y="40" width="20" height="40" />
+    <object id="20" gid="587" x="140" y="40" width="20" height="40" />
+    <object id="21" gid="587" x="160" y="40" width="20" height="40" />
+    <object id="22" gid="587" x="180" y="40" width="20" height="40" />
+    <object id="23" gid="587" x="200" y="40" width="20" height="40" />
+    <object id="24" gid="587" x="220" y="40" width="20" height="40" />
+    <object id="25" gid="587" x="240" y="40" width="20" height="40" />
+    <object id="26" gid="587" x="260" y="40" width="20" height="40" />
+    <object id="27" gid="587" x="280" y="40" width="20" height="40" />
+    <object id="28" gid="587" x="300" y="40" width="20" height="40" />
+    <object id="29" gid="587" x="320" y="40" width="20" height="40" />
+  </objectgroup>
+  <layer id="8" name="depth_1000000_grid_7" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,424,424,424,424,424,424,424,424,424,424,424,424,424,424,424,424,0,427,0,427,0,427,0,0,0,0,0,427,0,0,0,0</data>
+  </layer>
+  <objectgroup id="9" name="depth_1000000_free_8">
+    <object id="30" gid="588" x="0" y="200" width="20" height="40" />
+    <object id="31" gid="588" x="20" y="200" width="20" height="40" />
+    <object id="32" gid="588" x="40" y="200" width="20" height="40" />
+    <object id="33" gid="588" x="60" y="200" width="20" height="40" />
+    <object id="34" gid="588" x="80" y="200" width="20" height="40" />
+    <object id="35" gid="588" x="100" y="200" width="20" height="40" />
+    <object id="36" gid="588" x="120" y="200" width="20" height="40" />
+    <object id="37" gid="588" x="200" y="200" width="20" height="40" />
+    <object id="38" gid="588" x="220" y="200" width="20" height="40" />
+    <object id="39" gid="588" x="240" y="200" width="20" height="40" />
+    <object id="40" gid="588" x="260" y="200" width="20" height="40" />
+    <object id="41" gid="588" x="280" y="200" width="20" height="40" />
+    <object id="42" gid="588" x="300" y="200" width="20" height="40" />
+    <object id="43" gid="588" x="320" y="200" width="20" height="40" />
+    <object id="44" gid="588" x="340" y="200" width="20" height="40" />
+    <object id="45" gid="588" x="360" y="200" width="20" height="40" />
+  </objectgroup>
+  <layer id="10" name="depth_1000000_grid_9" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,427,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,427,0,427,0,0,0,427,0,427</data>
+  </layer>
+  <objectgroup id="11" name="depth_1000000_free_10">
+    <object id="46" gid="589" x="270" y="140" width="20" height="20" />
+  </objectgroup>
+  <objectgroup id="12" name="objects">
+    <object id="49" gid="591" type="obj_mainchara" x="80" y="129" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="105290" />
+      </properties>
+    </object>
+    <object id="54" gid="594" type="obj_carrybird" x="240" y="139" width="15" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="105295" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

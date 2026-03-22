@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="3" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_roomofdog.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_roomofdog" x="144" y="115" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="114015" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

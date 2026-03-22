@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="72">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_mansion_acid_tileset.tsx" />
+  <tileset firstgid="217" source="tilesets/bg_dw_mansion_tileset.tsx" />
+  <tileset firstgid="991" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="992" source="tilesets/obj_bridgeSwappable.tsx" />
+  <tileset firstgid="993" source="tilesets/obj_bridgeSwapper.tsx" />
+  <tileset firstgid="994" source="tilesets/obj_chaseenemy.tsx" />
+  <layer id="1" name="TILES_Pathway" width="20" height="24">
+    <data encoding="csv">448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,607,608,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,625,626,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448,448</data>
+  </layer>
+  <layer id="2" name="TILES_Islands" width="20" height="24">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,20,20,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,28,28,28,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,36,36,36,36,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,21,0,0,19,20,21,0,0,19,20,21,0,0,0,0,0,0,0,27,28,29,0,0,27,28,29,0,0,27,28,29,0,0,0,0,0,0,0,27,28,29,0,0,35,36,37,0,0,35,36,37,0,0,0,0,0,0,0,35,36,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,20,20,20,20,21,0,0,0,0,0,0,0,0,0,0,0,0,0,27,77,77,77,77,77,29,0,0,0,0,0,0,0,0,0,0,0,0,0,35,36,36,36,36,36,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,21,0,0,19,20,21,0,0,19,20,21,0,0,19,20,21,0,0,27,28,29,0,0,27,28,29,0,0,27,28,29,0,0,27,28,29,0,0,27,28,29,0,0,35,36,37,0,0,35,36,37,0,0,35,36,37,0,0,27,28,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,91,92,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,60,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="991" type="obj_mainchara" x="60" y="898" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="108015" />
+      </properties>
+    </object>
+    <object id="3" gid="992" type="obj_bridgeSwappable" x="120" y="780" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108017" />
+      </properties>
+    </object>
+    <object id="4" gid="992" type="obj_bridgeSwappable" x="320" y="780" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108018" />
+      </properties>
+    </object>
+    <object id="5" gid="993" type="obj_bridgeSwapper" x="200" y="760" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108019" />
+      </properties>
+    </object>
+    <object id="6" gid="992" type="obj_bridgeSwappable" x="240" y="660" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108020" />
+      </properties>
+    </object>
+    <object id="7" gid="992" type="obj_bridgeSwappable" x="520" y="780" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108021" />
+      </properties>
+    </object>
+    <object id="8" gid="993" type="obj_bridgeSwapper" x="400" y="760" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108022" />
+      </properties>
+    </object>
+    <object id="9" gid="992" type="obj_bridgeSwappable" x="640" y="660" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108023" />
+      </properties>
+    </object>
+    <object id="10" gid="992" type="obj_bridgeSwappable" x="640" y="500" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108024" />
+      </properties>
+    </object>
+    <object id="11" gid="993" type="obj_bridgeSwapper" x="440" y="600" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108025" />
+      </properties>
+    </object>
+    <object id="12" gid="992" type="obj_bridgeSwappable" x="240" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108026" />
+      </properties>
+    </object>
+    <object id="13" gid="993" type="obj_bridgeSwapper" x="200" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108027" />
+      </properties>
+    </object>
+    <object id="14" gid="992" type="obj_bridgeSwappable" x="320" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108028" />
+      </properties>
+    </object>
+    <object id="15" gid="992" type="obj_bridgeSwappable" x="240" y="540" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108029" />
+      </properties>
+    </object>
+    <object id="16" gid="992" type="obj_bridgeSwappable" x="720" y="580" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108030" />
+      </properties>
+    </object>
+    <object id="17" gid="993" type="obj_bridgeSwapper" x="280" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108031" />
+      </properties>
+    </object>
+    <object id="18" gid="992" type="obj_bridgeSwappable" x="560" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108032" />
+      </properties>
+    </object>
+    <object id="19" gid="993" type="obj_bridgeSwapper" x="600" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108033" />
+      </properties>
+    </object>
+    <object id="20" gid="992" type="obj_bridgeSwappable" x="360" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108034" />
+      </properties>
+    </object>
+    <object id="21" gid="992" type="obj_bridgeSwappable" x="520" y="420" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108035" />
+      </properties>
+    </object>
+    <object id="22" gid="993" type="obj_bridgeSwapper" x="440" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108036" />
+      </properties>
+    </object>
+    <object id="23" gid="992" type="obj_bridgeSwappable" x="640" y="20" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108037" />
+      </properties>
+    </object>
+    <object id="24" gid="994" type="obj_chaseenemy" x="288" y="40" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="108038" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

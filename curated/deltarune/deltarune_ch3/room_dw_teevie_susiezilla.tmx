@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="50">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx" />
+  <tileset firstgid="271" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx" />
+  <tileset firstgid="427" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="428" source="tilesets/obj_dw_teevie_susiezilla.tsx" />
+  <tileset firstgid="430" source="tilesets/obj_dw_ch3_funny_stanchion_controller.tsx" />
+  <tileset firstgid="435" source="tilesets/obj_susiezilla_house_single.tsx" />
+  <tileset firstgid="436" source="tilesets/obj_dw_teevie_susiezilla_ropeenemy.tsx" />
+  <tileset firstgid="437" source="tilesets/obj_confettikiller.tsx" />
+  <layer id="1" name="Tiles_TV_BG" width="48" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="Tiles_TV_FLOOR" width="48" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,296,290,291,290,291,290,291,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,291,290,291,297,296,297,296,296,297,296,297,296,297,296,297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,297,296,297,296,297,296,297,297,296,297,296,297,291,290,291,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,291,291,290,291,297,296,297,296,311,311,311,311,311,297,296,297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,297,296,311,311,311,311,311,303,303,298,303,303,311,311,311,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,311,311,311,303,303,298,303,303,0,0,304,0,0,303,298,303,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,303,298,303,0,0,304,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="Tiles_TV_Carpet" width="48" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,334,334,334,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,332,334,334,334,334,340,340,340,340,348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,338,340,340,340,340,346,346,346,346,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,356,346,346,346,346,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="backstagetiles" width="48" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,107,107,107,107,107,107,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,52,53,52,56,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,65,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,52,53,52,65,55,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,53,53,65,64,52,53,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,53,52,53,74,64,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,84,83,84,64,53,52,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,93,92,93,73,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,84,83,84,83,84,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,93,92,93,92,93,92,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,19,19,19,19</data>
+  </layer>
+  <layer id="5" name="backstagetiles_accent" width="48" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,224,224,234,78,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,224,224,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="1" gid="427" type="obj_mainchara" x="12" y="235" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="108770" />
+      </properties>
+    </object>
+    <object id="4" gid="428" type="obj_dw_teevie_susiezilla" x="-40" y="176" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="108773" />
+      </properties>
+    </object>
+    <object id="6" gid="430" type="obj_dw_ch3_funny_stanchion_controller" x="-20" y="218" width="20" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="108775" />
+      </properties>
+    </object>
+    <object id="7" gid="430" type="obj_dw_ch3_funny_stanchion_controller" x="-20" y="318" width="20" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="108776" />
+      </properties>
+    </object>
+    <object id="20" gid="435" type="obj_susiezilla_house_single" x="546" y="270" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108789" />
+      </properties>
+    </object>
+    <object id="21" gid="435" type="obj_susiezilla_house_single" x="586" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108790" />
+      </properties>
+    </object>
+    <object id="22" gid="435" type="obj_susiezilla_house_single" x="594" y="334" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108791" />
+      </properties>
+    </object>
+    <object id="23" gid="435" type="obj_susiezilla_house_single" x="506" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108792" />
+      </properties>
+    </object>
+    <object id="24" gid="435" type="obj_susiezilla_house_single" x="514" y="334" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108793" />
+      </properties>
+    </object>
+    <object id="25" gid="435" type="obj_susiezilla_house_single" x="466" y="270" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108794" />
+      </properties>
+    </object>
+    <object id="26" gid="435" type="obj_susiezilla_house_single" x="426" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108795" />
+      </properties>
+    </object>
+    <object id="27" gid="435" type="obj_susiezilla_house_single" x="434" y="334" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108796" />
+      </properties>
+    </object>
+    <object id="28" gid="435" type="obj_susiezilla_house_single" x="386" y="270" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108797" />
+      </properties>
+    </object>
+    <object id="29" gid="436" type="obj_dw_teevie_susiezilla_ropeenemy" x="714" y="213" width="52" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="108798" />
+      </properties>
+    </object>
+    <object id="30" gid="436" type="obj_dw_teevie_susiezilla_ropeenemy" x="821" y="315" width="52" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="108799" />
+      </properties>
+    </object>
+    <object id="31" gid="436" type="obj_dw_teevie_susiezilla_ropeenemy" x="1118" y="221" width="52" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="108800" />
+      </properties>
+    </object>
+    <object id="32" gid="436" type="obj_dw_teevie_susiezilla_ropeenemy" x="921" y="206" width="52" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="108801" />
+      </properties>
+    </object>
+    <object id="33" gid="436" type="obj_dw_teevie_susiezilla_ropeenemy" x="1016" y="291" width="52" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="108802" />
+      </properties>
+    </object>
+    <object id="34" gid="435" type="obj_susiezilla_house_single" x="1400" y="270" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108803" />
+      </properties>
+    </object>
+    <object id="35" gid="435" type="obj_susiezilla_house_single" x="1440" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108804" />
+      </properties>
+    </object>
+    <object id="36" gid="435" type="obj_susiezilla_house_single" x="1448" y="334" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108805" />
+      </properties>
+    </object>
+    <object id="37" gid="435" type="obj_susiezilla_house_single" x="1360" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108806" />
+      </properties>
+    </object>
+    <object id="38" gid="435" type="obj_susiezilla_house_single" x="1368" y="334" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108807" />
+      </properties>
+    </object>
+    <object id="39" gid="435" type="obj_susiezilla_house_single" x="1320" y="270" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108808" />
+      </properties>
+    </object>
+    <object id="40" gid="435" type="obj_susiezilla_house_single" x="1280" y="200" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108809" />
+      </properties>
+    </object>
+    <object id="41" gid="435" type="obj_susiezilla_house_single" x="1288" y="334" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108810" />
+      </properties>
+    </object>
+    <object id="42" gid="435" type="obj_susiezilla_house_single" x="1480" y="270" width="18" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="108811" />
+      </properties>
+    </object>
+    <object id="48" gid="437" type="obj_confettikiller" x="1600" y="-4" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="108817" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

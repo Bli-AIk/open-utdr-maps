@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="37">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_tem_school.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="3" source="tilesets/obj_schooldesk.tsx" />
+  <tileset firstgid="4" source="tilesets/obj_alphysdesk.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_tem_school" x="209" y="147" width="27" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100942" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_mainchara" x="260" y="147" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="100943" />
+      </properties>
+    </object>
+    <object id="4" gid="3" type="obj_schooldesk" x="68" y="143" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100945" />
+      </properties>
+    </object>
+    <object id="5" gid="3" type="obj_schooldesk" x="138" y="143" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100946" />
+      </properties>
+    </object>
+    <object id="6" gid="3" type="obj_schooldesk" x="206" y="143" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100947" />
+      </properties>
+    </object>
+    <object id="7" gid="3" type="obj_schooldesk" x="68" y="174" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100948" />
+      </properties>
+    </object>
+    <object id="8" gid="3" type="obj_schooldesk" x="138" y="174" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100949" />
+      </properties>
+    </object>
+    <object id="9" gid="3" type="obj_schooldesk" x="206" y="174" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100950" />
+      </properties>
+    </object>
+    <object id="10" gid="3" type="obj_schooldesk" x="68" y="206" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100951" />
+      </properties>
+    </object>
+    <object id="11" gid="3" type="obj_schooldesk" x="138" y="206" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100952" />
+      </properties>
+    </object>
+    <object id="12" gid="3" type="obj_schooldesk" x="206" y="206" width="39" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="100953" />
+      </properties>
+    </object>
+    <object id="13" gid="4" type="obj_alphysdesk" x="100" y="107" width="94" height="44">
+      <properties>
+        <property name="instanceId" type="int" value="100954" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

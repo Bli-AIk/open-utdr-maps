@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="37" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="17">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx" />
+  <tileset firstgid="157" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="159" source="tilesets/obj_musicer_darkcastle.tsx" />
+  <tileset firstgid="163" source="tilesets/obj_dw_blue_starry_wall.tsx" />
+  <layer id="1" name="TILES" width="37" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,70,46,70,46,70,46,70,46,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,70,46,70,46,70,46,70,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,70,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="157" type="obj_mainchara" x="941" y="432" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="111323" />
+      </properties>
+    </object>
+    <object id="4" gid="159" type="obj_musicer_darkcastle" x="0" y="64" width="26" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="111326" />
+      </properties>
+    </object>
+    <object id="15" gid="163" type="obj_dw_blue_starry_wall" x="80" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="111337" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

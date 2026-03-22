@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="25">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="35" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="451" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="457" source="tilesets/obj_musicer_cyber.tsx" />
+  <tileset firstgid="459" source="tilesets/obj_cyber_wall_lights.tsx" />
+  <tileset firstgid="460" source="tilesets/obj_cyber_wall_lights_right.tsx" />
+  <tileset firstgid="461" source="tilesets/obj_cyber_wall_lights_left.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,39,39,39,39,39,39,39,39,39,40,0,0,0,0,51,52,52,52,52,52,52,52,52,52,52,53,0,0,39,39,36,52,52,52,52,52,52,52,52,52,52,37,39,39,65,65,49,52,52,52,52,52,52,52,52,52,52,50,65,65,78,78,51,52,52,52,52,52,52,52,52,52,52,53,78,78,91,91,64,65,65,65,65,65,65,65,65,65,65,66,91,91,117,91,77,78,78,78,78,78,78,78,78,78,78,79,91,91,117,91,90,91,91,91,91,91,91,91,91,91,91,118,91,91,130,91,116,91,117,91,91,91,91,117,91,117,91,92,91,91,0,0,90,91,91,91,91,91,91,91,91,91,91,92,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Overlay" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0,10,10,0,0,10,10,10,10,10,10,10,10,10,10,10,10,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="451" type="obj_mainchara" x="450" y="179" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101945" />
+      </properties>
+    </object>
+    <object id="8" gid="457" type="obj_musicer_cyber" x="40" y="32" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101952" />
+      </properties>
+    </object>
+    <object id="19" gid="459" type="obj_cyber_wall_lights" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101963" />
+      </properties>
+    </object>
+    <object id="20" gid="459" type="obj_cyber_wall_lights" x="120" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101964" />
+      </properties>
+    </object>
+    <object id="21" gid="459" type="obj_cyber_wall_lights" x="560" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101965" />
+      </properties>
+    </object>
+    <object id="22" gid="460" type="obj_cyber_wall_lights_right" x="520" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101966" />
+      </properties>
+    </object>
+    <object id="23" gid="461" type="obj_cyber_wall_lights_left" x="80" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101967" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

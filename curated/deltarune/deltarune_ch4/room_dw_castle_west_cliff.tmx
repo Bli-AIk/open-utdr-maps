@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="12">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_treasure_room.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="300" y="297" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101518" />
+      </properties>
+    </object>
+    <object id="4" gid="2" type="obj_treasure_room" x="120" y="339" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="101521" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="31" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_spiderroom.tsx" />
+  <tileset firstgid="13" source="tilesets/bg_ruinseasynam3.tsx" />
+  <tileset firstgid="165" source="tilesets/bg_ruinsplaceholder2.tsx" />
+  <tileset firstgid="293" source="tilesets/bg_watertiles_2.tsx" />
+  <tileset firstgid="654" source="tilesets/free_tile_p11_1972_24_20x60.tsx" />
+  <tileset firstgid="655" source="tilesets/free_tile_p11_1992_24_20x40.tsx" />
+  <tileset firstgid="656" source="tilesets/free_tile_p9_1844_672_20x40.tsx" />
+  <tileset firstgid="657" source="tilesets/free_tile_p11_256_1676_44x45.tsx" />
+  <tileset firstgid="659" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="665" source="tilesets/obj_npc_room.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="654" x="0" y="200" width="20" height="60" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,11,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="2" gid="655" x="20" y="180" width="20" height="40" />
+  </objectgroup>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_1000000_free_4">
+    <object id="3" gid="656" x="40" y="160" width="20" height="40" />
+    <object id="4" gid="656" x="60" y="160" width="20" height="40" />
+    <object id="5" gid="656" x="80" y="160" width="20" height="40" />
+    <object id="6" gid="656" x="100" y="160" width="20" height="40" />
+    <object id="7" gid="656" x="120" y="160" width="20" height="40" />
+    <object id="8" gid="656" x="140" y="160" width="20" height="40" />
+    <object id="9" gid="656" x="160" y="160" width="20" height="40" />
+    <object id="10" gid="656" x="180" y="160" width="20" height="40" />
+    <object id="11" gid="656" x="200" y="160" width="20" height="40" />
+    <object id="12" gid="656" x="220" y="160" width="20" height="40" />
+    <object id="13" gid="656" x="240" y="160" width="20" height="40" />
+    <object id="14" gid="656" x="260" y="160" width="20" height="40" />
+    <object id="15" gid="656" x="280" y="160" width="20" height="40" />
+  </objectgroup>
+  <layer id="6" name="depth_1000000_grid_5" width="16" height="12">
+    <data encoding="csv">377,0,377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,17,0,0,15,15,15,15,15,15,15,15,15,15,15,15,15,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,259,29,29,29,29,29,29,29,29,29,29,0,0,0,0,259,29,29,29,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="7" name="depth_1000000_free_6">
+    <object id="16" gid="657" x="155" y="145" width="44" height="45" />
+  </objectgroup>
+  <objectgroup id="8" name="objects">
+    <object id="18" gid="659" type="obj_mainchara" x="90" y="194" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109769" />
+      </properties>
+    </object>
+    <object id="26" gid="665" type="obj_npc_room" x="210" y="149" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109777" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

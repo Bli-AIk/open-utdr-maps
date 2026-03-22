@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="44" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="22">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset_new.tsx" />
+  <tileset firstgid="583" source="tilesets/obj_sumarker.tsx" />
+  <tileset firstgid="584" source="tilesets/obj_genmarker.tsx" />
+  <tileset firstgid="585" source="tilesets/obj_trigger.tsx" />
+  <tileset firstgid="586" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="587" source="tilesets/obj_dw_churchb_bellroom.tsx" />
+  <tileset firstgid="591" source="tilesets/obj_dw_church_fog.tsx" />
+  <layer id="1" name="TILES_UPSIDEDOWN" width="44" height="12">
+    <data encoding="csv">3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225853,3221225852,3221225851,3221225850,3221225552,0,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225949,3221225849,3221225849,3221225849,3221225947,3221225948,3221225849,3221225850,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225923,3221225552,3221225949,0,3221225552,3221225552,3221225949,3221225950,3221225552,3221225949,3221225950,3221225552,3221225552,3221225552,3221225552,3221225552,3221225850,3221225950,3221225950,3221225552,3221225552,3221225949,3221225552,3221225849,3221225947,3221225849,3221225552,3221225552,3221225552,3221225552,3221225552,3221225552,3221225849,3221225947,3221225849,3221225552,3221225949,3221225950,3221225850,3221225552,3221225552,3221225949,3221225552,3221225552,3221225552,3221225552,3221225552,0,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225850,3221225849,3221225849,3221225552,3221225552,3221225552,3221225552,3221225552,3221225552,3221225849,3221225849,3221225825,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,3221225885,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3221225885,3221225885,3221225885,0,0,0,0,0,0,3221225885,3221225885,3221225885,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="583" type="obj_sumarker" x="1324" y="367" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="108371" />
+      </properties>
+    </object>
+    <object id="2" gid="584" type="obj_genmarker" x="1200" y="161" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="108372" />
+      </properties>
+    </object>
+    <object id="3" gid="585" type="obj_trigger" x="1230" y="370" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="108373" />
+      </properties>
+    </object>
+    <object id="4" gid="585" type="obj_trigger" x="640" y="370" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="108374" />
+      </properties>
+    </object>
+    <object id="5" gid="584" type="obj_genmarker" x="670" y="323" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="108375" />
+      </properties>
+    </object>
+    <object id="6" gid="583" type="obj_sumarker" x="734" y="367" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="108376" />
+      </properties>
+    </object>
+    <object id="7" gid="583" type="obj_sumarker" x="-120" y="367" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="108377" />
+      </properties>
+    </object>
+    <object id="8" gid="586" type="obj_mainchara" x="1680" y="363" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="108378" />
+      </properties>
+    </object>
+    <object id="10" gid="587" type="obj_dw_churchb_bellroom" x="-40" y="9" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="108380" />
+      </properties>
+    </object>
+    <object id="11" gid="585" type="obj_trigger" x="380" y="330" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="108381" />
+      </properties>
+    </object>
+    <object id="12" gid="585" type="obj_trigger" x="0" y="370" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="108382" />
+      </properties>
+    </object>
+    <object id="13" gid="585" type="obj_trigger" x="1680" y="370" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="108383" />
+      </properties>
+    </object>
+    <object id="20" gid="591" type="obj_dw_church_fog" x="0" y="231" width="413" height="221">
+      <properties>
+        <property name="instanceId" type="int" value="108390" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

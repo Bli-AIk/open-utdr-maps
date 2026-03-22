@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="14">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_changing_room_tileset.tsx" />
+  <tileset firstgid="197" source="tilesets/obj_mainchara.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,0,0,0,0,0,0,18,18,18,18,18,18,18,168,161,178,0,0,0,0,0,0,159,33,34,159,159,35,36,174,189,192,0,0,0,0,0,0,159,47,48,159,159,49,50,174,89,87,0,0,0,0,0,0,187,187,187,74,187,187,75,188,87,101,0,0,0,0,0,0,102,87,89,87,88,87,87,101,87,87,0,0,0,0,0,0,87,88,87,101,87,87,89,87,87,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="197" type="obj_mainchara" x="12" y="303" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="109654" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

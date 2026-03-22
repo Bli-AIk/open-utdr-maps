@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="29" tilewidth="40" tileheight="40" infinite="0" nextlayerid="10" nextobjectid="61">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_cctiles.tsx" />
+  <tileset firstgid="145" source="tilesets/free_tile_p9_1_841_120x120.tsx" />
+  <tileset firstgid="146" source="tilesets/free_tile_p9_1_561_120x120.tsx" />
+  <tileset firstgid="147" source="tilesets/free_tile_p9_1_241_120x120.tsx" />
+  <tileset firstgid="148" source="tilesets/free_tile_p9_121_841_120x120.tsx" />
+  <tileset firstgid="149" source="tilesets/free_tile_p9_121_721_120x120.tsx" />
+  <tileset firstgid="150" source="tilesets/free_tile_p9_1_121_40x120.tsx" />
+  <tileset firstgid="151" source="tilesets/free_tile_p9_81_121_40x120.tsx" />
+  <tileset firstgid="152" source="tilesets/free_tile_p9_41_201_40x40.tsx" />
+  <tileset firstgid="153" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="154" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="168" source="tilesets/obj_castle_torch.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="150" x="240" y="480" width="40" height="120" />
+    <object id="2" gid="151" x="360" y="480" width="40" height="120" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="29">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="3" gid="150" x="360" y="720" width="40" height="120" />
+    <object id="4" gid="150" x="120" y="720" width="40" height="120" />
+  </objectgroup>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="29">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,3,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,7,0,0,20,20,0,0,9,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,9,0,0,0,0,0,1,2,2,11,0,0,0,0,0,0,10,2,2,3,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,7,0,1,2,2,3,0,0,0,0,0,0,0,9,0,0,7,0,0,20,20,21,0,0,0,20,20,21,0,9,0,0,7,0,0,0,0,27,0,0,0,0,0,27,0,9,0,0,7,0,0,0,0,33,0,0,0,0,0,33,0,9,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,13,14,14,14,14,14,5,4,14,14,14,14,14,15,0,0,0,0,0,0,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,11,10,3,0,0,0,0,0,0,0,0,1,2,2,2,11,0,0,10,2,2,2,3,0,0,0,0,13,14,14,14,14,14,14,14,14,14,14,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_1000000_free_4">
+    <object id="5" gid="152" x="278" y="480" width="40" height="40" />
+    <object id="6" gid="152" x="322" y="480" width="40" height="40" />
+  </objectgroup>
+  <layer id="6" name="depth_1000000_grid_5" width="16" height="29">
+    <data encoding="csv">0,7,0,9,25,0,0,0,0,0,0,27,7,0,9,0,0,7,0,9,25,0,0,0,0,0,0,27,7,0,9,0,0,7,0,9,25,0,0,0,0,0,0,27,7,0,9,0,0,13,14,15,25,0,0,0,0,0,0,27,13,14,15,0,0,25,0,27,25,0,0,0,0,0,0,27,25,0,27,0,0,25,0,27,25,0,0,0,0,0,0,27,25,0,27,0,0,25,0,27,0,0,0,0,0,0,0,0,25,0,27,0,0,25,0,27,0,0,0,0,0,0,0,0,25,0,27,0,0,25,0,27,0,0,0,0,0,0,0,0,25,0,27,0,0,25,0,27,0,0,0,0,0,0,0,0,25,0,27,0,0,25,0,27,0,0,0,0,0,0,0,0,25,0,27,0,0,25,0,27,0,0,0,0,0,0,0,0,25,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="7" name="depth_950000_free_0">
+    <object id="7" gid="145" x="260" y="240" width="120" height="120" />
+    <object id="8" gid="146" x="260" y="476" width="120" height="120" />
+    <object id="9" gid="147" x="140" y="720" width="120" height="120" />
+    <object id="10" gid="148" x="380" y="720" width="120" height="120" />
+    <object id="11" gid="149" x="430" y="1000" width="120" height="120" />
+  </objectgroup>
+  <objectgroup id="8" name="objects">
+    <object id="12" gid="153" type="obj_mainchara" x="315" y="1013" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="103298" />
+      </properties>
+    </object>
+    <object id="13" gid="154" type="obj_savepoint" x="140" y="979" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="103299" />
+      </properties>
+    </object>
+    <object id="56" gid="168" type="obj_castle_torch" x="86" y="300" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103342" />
+      </properties>
+    </object>
+    <object id="57" gid="168" type="obj_castle_torch" x="524" y="300" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103343" />
+      </properties>
+    </object>
+    <object id="58" gid="168" type="obj_castle_torch" x="220" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103344" />
+      </properties>
+    </object>
+    <object id="59" gid="168" type="obj_castle_torch" x="380" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103345" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="26" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="4" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara_fake.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_savepoint_fake.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara_fake" x="144" y="478" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="113497" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_savepoint_fake" x="144" y="179" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="113498" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

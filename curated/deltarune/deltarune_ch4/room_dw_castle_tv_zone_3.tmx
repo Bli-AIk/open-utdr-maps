@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="24">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_stage_tileset.tsx" />
+  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="362" source="tilesets/obj_mouse_drawer.tsx" />
+  <tileset firstgid="363" source="tilesets/obj_mouse_shelf.tsx" />
+  <tileset firstgid="364" source="tilesets/obj_mouse_hat.tsx" />
+  <tileset firstgid="368" source="tilesets/obj_dw_green_room_wall_fx.tsx" />
+  <layer id="1" name="TILES" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,260,259,259,260,0,0,0,0,0,0,0,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,0,0,0,0,0,0,0,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="361" type="obj_mainchara" x="14" y="264" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="113973" />
+      </properties>
+    </object>
+    <object id="5" gid="362" type="obj_mouse_drawer" x="360" y="148" width="40" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="113977" />
+      </properties>
+    </object>
+    <object id="6" gid="363" type="obj_mouse_shelf" x="480" y="88" width="20" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="113978" />
+      </properties>
+    </object>
+    <object id="7" gid="363" type="obj_mouse_shelf" x="560" y="88" width="20" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="113979" />
+      </properties>
+    </object>
+    <object id="8" gid="363" type="obj_mouse_shelf" x="280" y="88" width="20" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="113980" />
+      </properties>
+    </object>
+    <object id="9" gid="364" type="obj_mouse_hat" x="559" y="79" width="21" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="113981" />
+      </properties>
+    </object>
+    <object id="10" gid="364" type="obj_mouse_hat" x="479" y="79" width="21" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="113982" />
+      </properties>
+    </object>
+    <object id="11" gid="364" type="obj_mouse_hat" x="281" y="79" width="21" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="113983" />
+      </properties>
+    </object>
+    <object id="12" gid="363" type="obj_mouse_shelf" x="200" y="88" width="20" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="113984" />
+      </properties>
+    </object>
+    <object id="13" gid="364" type="obj_mouse_hat" x="199" y="79" width="21" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="113985" />
+      </properties>
+    </object>
+    <object id="14" gid="363" type="obj_mouse_shelf" x="640" y="88" width="20" height="8">
+      <properties>
+        <property name="instanceId" type="int" value="113986" />
+      </properties>
+    </object>
+    <object id="15" gid="364" type="obj_mouse_hat" x="639" y="79" width="21" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="113987" />
+      </properties>
+    </object>
+    <object id="21" gid="368" type="obj_dw_green_room_wall_fx" x="0" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="113993" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="41" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_bonedrawer.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_undynewindow.tsx" />
+  <tileset firstgid="6" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="14" source="tilesets/obj_sign_room.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_bonedrawer" x="120" y="104" width="16" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="106208" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_undynewindow" x="20" y="199" width="20" height="79">
+      <properties>
+        <property name="instanceId" type="int" value="106209" />
+      </properties>
+    </object>
+    <object id="7" gid="6" type="obj_mainchara" x="150" y="209" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="106214" />
+      </properties>
+    </object>
+    <object id="21" gid="14" type="obj_sign_room" x="200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="106228" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

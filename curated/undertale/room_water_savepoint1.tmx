@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="30" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx" />
+  <tileset firstgid="361" source="tilesets/free_tile_p10_24_104_20x40.tsx" />
+  <tileset firstgid="362" source="tilesets/free_tile_p10_44_104_20x40.tsx" />
+  <tileset firstgid="363" source="tilesets/obj_mousehole.tsx" />
+  <tileset firstgid="365" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="366" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="368" source="tilesets/obj_echoflower.tsx" />
+  <tileset firstgid="369" source="tilesets/obj_npc_room.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,56,56,56,56,56,56,0,0,0,0,0,0,56,0,56,0,56,56,56,56,0,56,0,0,0,56,56,57,74,74,74,74,74,74,74,74,74,74,55,56,56,56,56,57,128,128,128,128,128,128,128,128,128,128,55,56,56,74,74,75,128,128,128,128,128,128,128,128,128,128,73,74,74,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="361" x="80" y="80" width="20" height="40" />
+    <object id="2" gid="362" x="220" y="80" width="20" height="40" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,58,38,38,38,38,38,38,38,38,38,38,59,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,38,38,39,0,0,0,0,0,0,0,0,0,0,37,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_1000000_grid_4" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="depth_1000000_grid_6" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="objects">
+    <object id="3" gid="363" type="obj_mousehole" x="140" y="74" width="5" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="104851" />
+      </properties>
+    </object>
+    <object id="6" gid="365" type="obj_mainchara" x="140" y="137" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="104854" />
+      </properties>
+    </object>
+    <object id="7" gid="366" type="obj_savepoint" x="210" y="119" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="104855" />
+      </properties>
+    </object>
+    <object id="9" gid="368" type="obj_echoflower" x="170" y="88" width="19" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="104857" />
+      </properties>
+    </object>
+    <object id="10" gid="369" type="obj_npc_room" x="80" y="109" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="104858" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

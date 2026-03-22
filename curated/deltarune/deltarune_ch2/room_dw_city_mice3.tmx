@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="10" nextobjectid="27">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="35" source="tilesets/bg_dw_city_splotches_tileset.tsx" />
+  <tileset firstgid="65" source="tilesets/bg_dw_city_alley_animated_tileset.tsx" />
+  <tileset firstgid="98" source="tilesets/bg_dw_city_alleyway_tileset.tsx" />
+  <tileset firstgid="443" source="tilesets/bg_dw_city_alley_tileset.tsx" />
+  <tileset firstgid="553" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="554" source="tilesets/obj_mouseTowerTrigger.tsx" />
+  <tileset firstgid="556" source="tilesets/obj_trigger_area.tsx" />
+  <tileset firstgid="557" source="tilesets/obj_npc_sign.tsx" />
+  <tileset firstgid="558" source="tilesets/obj_cybercity_mousesign.tsx" />
+  <tileset firstgid="559" source="tilesets/obj_forcefield.tsx" />
+  <tileset firstgid="560" source="tilesets/obj_musicer_city.tsx" />
+  <tileset firstgid="561" source="tilesets/obj_weirdroute_manipulator.tsx" />
+  <tileset firstgid="562" source="tilesets/obj_dw_city_mice3Fence.tsx" />
+  <layer id="1" name="BG_Tiles" width="16" height="12">
+    <data encoding="csv">358,302,268,0,0,0,0,0,0,0,0,386,387,387,387,388,358,302,268,0,0,0,0,0,0,0,0,401,402,402,402,403,358,302,313,258,258,253,0,0,257,258,258,258,258,258,258,258,358,197,192,192,192,193,0,0,197,192,192,192,192,192,192,192,358,156,387,387,387,387,0,0,387,387,387,387,387,387,387,388,358,156,387,387,387,387,0,0,387,387,387,387,387,387,387,387,343,156,402,387,387,387,0,0,387,387,387,387,387,387,387,387,358,173,187,0,0,0,0,0,0,0,0,0,0,0,0,0,358,248,303,0,0,0,0,0,0,0,0,0,0,0,0,0,358,248,303,0,0,0,0,0,0,0,0,0,0,0,0,0,343,387,387,0,0,0,0,0,0,0,0,0,0,0,0,0,358,387,387,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Alley_Sidewalk" width="16" height="12">
+    <data encoding="csv">0,516,516,0,0,0,0,0,0,0,0,0,0,0,0,0,0,516,516,0,0,0,0,0,0,0,0,0,0,0,0,0,0,516,516,530,513,526,0,0,530,513,513,513,513,513,513,513,0,516,516,496,491,504,0,0,496,491,491,491,491,491,491,491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,502,502,0,0,0,0,0,0,0,0,0,0,0,0,0,0,516,516,0,0,0,0,0,0,0,0,0,0,0,0,0,0,516,516,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="BG_Tiles_HiddenPath_Sidewalk" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,513,513,513,513,0,0,0,0,0,0,0,0,0,0,0,491,491,491,491,491,0,0,0,0,0,491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="BG_Tiles_HiddenPath" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,387,387,387,387,0,0,0,0,0,0,0,0,0,0,0,0,387,387,387,387,0,0,0,0,0,0,0,0,0,0,0,0,0,387,387,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="TILES_Alley_Glitch" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="TILES_Alley_Splotches" width="16" height="12">
+    <data encoding="csv">0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="TILES_Dither" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="objects">
+    <object id="1" gid="553" type="obj_mainchara" x="448" y="72" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="103726" />
+      </properties>
+    </object>
+    <object id="3" gid="554" type="obj_mouseTowerTrigger" x="82" y="217" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="103728" />
+      </properties>
+    </object>
+    <object id="6" gid="556" type="obj_trigger_area" x="140" y="90" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103731" />
+      </properties>
+    </object>
+    <object id="7" gid="556" type="obj_trigger_area" x="40" y="139" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="103732" />
+      </properties>
+    </object>
+    <object id="8" gid="557" type="obj_npc_sign" x="40" y="150" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103733" />
+      </properties>
+    </object>
+    <object id="9" gid="557" type="obj_npc_sign" x="40" y="270" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103734" />
+      </properties>
+    </object>
+    <object id="10" gid="557" type="obj_npc_sign" x="80" y="300" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103735" />
+      </properties>
+    </object>
+    <object id="11" gid="558" type="obj_cybercity_mousesign" x="171" y="41" width="120" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103736" />
+      </properties>
+    </object>
+    <object id="12" gid="559" type="obj_forcefield" x="666" y="-56" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103737" />
+      </properties>
+    </object>
+    <object id="13" gid="560" type="obj_musicer_city" x="0" y="-8" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="103738" />
+      </properties>
+    </object>
+    <object id="14" gid="561" type="obj_weirdroute_manipulator" x="40" y="-78" width="54" height="82">
+      <properties>
+        <property name="instanceId" type="int" value="103739" />
+      </properties>
+    </object>
+    <object id="15" gid="562" type="obj_dw_city_mice3Fence" x="80" y="123" width="280" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="103740" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

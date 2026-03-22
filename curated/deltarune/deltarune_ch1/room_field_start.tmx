@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="25" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="30">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="5" source="tilesets/bg_darkfield_tiles.tsx" />
+  <tileset firstgid="77" source="tilesets/free_tile_p5_1530_450_210x182.tsx" />
+  <tileset firstgid="78" source="tilesets/free_tile_p5_1740_450_210x182.tsx" />
+  <tileset firstgid="79" source="tilesets/free_tile_p5_1740_632_210x182.tsx" />
+  <tileset firstgid="80" source="tilesets/free_tile_p5_1530_632_210x182.tsx" />
+  <tileset firstgid="81" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="82" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="87" source="tilesets/obj_musicer_bird.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="25">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,24,24,24,24,24,0,0,0,0,0,0,0,0,0,25,5,5,5,5,5,5,23,0,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,19,5,5,5,5,5,5,5,5,17,0,0,0,0,0,0,0,13,5,5,5,5,5,5,11,0,0,0,0,0,0,0,0,19,5,5,5,5,5,5,17,0,0,0,0,0,0,0,0,19,5,5,5,5,5,5,17,0,0,0,0,0,0,0,0,19,5,5,5,5,5,5,17,0,0,0,0,0,0,0,0,19,5,5,5,5,5,5,17,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_900000_free_0">
+    <object id="1" gid="79" x="460" y="262" width="210" height="182" />
+    <object id="2" gid="79" x="480" y="362" width="210" height="182" />
+    <object id="3" gid="78" x="440" y="462" width="210" height="182" />
+    <object id="4" gid="80" x="-40" y="262" width="210" height="182" />
+    <object id="5" gid="80" x="-60" y="362" width="210" height="182" />
+    <object id="6" gid="77" x="-20" y="462" width="210" height="182" />
+  </objectgroup>
+  <objectgroup id="3" name="depth_10000_free_0">
+    <object id="7" gid="77" x="0" y="642" width="210" height="182" />
+    <object id="8" gid="77" x="-40" y="822" width="210" height="182" />
+    <object id="9" gid="77" x="20" y="982" width="210" height="182" />
+    <object id="10" gid="78" x="420" y="642" width="210" height="182" />
+    <object id="11" gid="78" x="460" y="822" width="210" height="182" />
+    <object id="12" gid="78" x="400" y="982" width="210" height="182" />
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="13" gid="81" type="obj_mainchara" x="300" y="418" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101187" />
+      </properties>
+    </object>
+    <object id="14" gid="82" type="obj_savepoint" x="300" y="599" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="101188" />
+      </properties>
+    </object>
+    <object id="28" gid="87" type="obj_musicer_bird" x="169" y="249" width="180" height="155">
+      <properties>
+        <property name="instanceId" type="int" value="101202" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

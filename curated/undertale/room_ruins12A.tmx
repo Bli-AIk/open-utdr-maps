@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="26" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder2.tsx" />
+  <tileset firstgid="129" source="tilesets/bg_ruinseasynam1.tsx" />
+  <tileset firstgid="169" source="tilesets/bg_ruinseasynam2.tsx" />
+  <tileset firstgid="241" source="tilesets/bg_ruinseasynam3.tsx" />
+  <tileset firstgid="393" source="tilesets/obj_mousehole.tsx" />
+  <tileset firstgid="398" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="399" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="402" source="tilesets/obj_cheesetable1.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,306,306,306,306,306,306,306,306,306,306,306,306,306,306,306,306,177,177,177,177,194,1,1,1,1,1,1,193,177,177,177,177,177,177,177,177,202,1,1,1,1,1,1,201,177,177,177,177,175,175,175,176,1,1,1,1,1,1,1,1,174,175,175,175,0,0,0,144,1,1,1,185,185,1,1,1,142,0,0,0,0,0,0,166,135,135,175,175,175,175,135,135,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="393" type="obj_mousehole" x="110" y="114" width="5" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="100675" />
+      </properties>
+    </object>
+    <object id="14" gid="398" type="obj_mainchara" x="130" y="179" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="100688" />
+      </properties>
+    </object>
+    <object id="15" gid="399" type="obj_savepoint" x="110" y="179" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="100689" />
+      </properties>
+    </object>
+    <object id="19" gid="402" type="obj_cheesetable1" x="180" y="175" width="28" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="100693" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

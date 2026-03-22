@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="37">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="4" source="tilesets/obj_npc_sign.tsx" />
+  <tileset firstgid="7" source="tilesets/obj_flowershop_event.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="30" y="233" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="100585" />
+      </properties>
+    </object>
+    <object id="6" gid="4" type="obj_npc_sign" x="145" y="125" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100590" />
+      </properties>
+    </object>
+    <object id="7" gid="4" type="obj_npc_sign" x="115" y="125" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100591" />
+      </properties>
+    </object>
+    <object id="8" gid="4" type="obj_npc_sign" x="173" y="125" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100592" />
+      </properties>
+    </object>
+    <object id="9" gid="4" type="obj_npc_sign" x="95" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100593" />
+      </properties>
+    </object>
+    <object id="10" gid="4" type="obj_npc_sign" x="192" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100594" />
+      </properties>
+    </object>
+    <object id="11" gid="4" type="obj_npc_sign" x="95" y="165" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100595" />
+      </properties>
+    </object>
+    <object id="12" gid="4" type="obj_npc_sign" x="193" y="165" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="100596" />
+      </properties>
+    </object>
+    <object id="35" gid="7" type="obj_flowershop_event" x="255" y="238" width="47" height="63">
+      <properties>
+        <property name="instanceId" type="int" value="100619" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

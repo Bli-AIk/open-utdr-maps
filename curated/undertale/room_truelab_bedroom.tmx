@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="20" tileheight="20" infinite="0" nextlayerid="9" nextobjectid="82" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_truelab_tiles.tsx" />
+  <tileset firstgid="71" source="tilesets/free_tile_p11_888_1236_80x60.tsx" />
+  <tileset firstgid="72" source="tilesets/free_tile_p11_908_1236_80x60.tsx" />
+  <tileset firstgid="73" source="tilesets/free_tile_p11_968_1236_40x60.tsx" />
+  <tileset firstgid="74" source="tilesets/free_tile_p11_948_1236_20x60.tsx" />
+  <tileset firstgid="75" source="tilesets/free_tile_p11_908_1236_100x60.tsx" />
+  <tileset firstgid="76" source="tilesets/free_tile_p11_888_1236_100x60.tsx" />
+  <tileset firstgid="77" source="tilesets/free_tile_p11_928_1236_20x60.tsx" />
+  <tileset firstgid="78" source="tilesets/free_tile_p11_888_1296_40x60.tsx" />
+  <tileset firstgid="79" source="tilesets/obj_bed_dark.tsx" />
+  <tileset firstgid="80" source="tilesets/obj_wallmonitor.tsx" />
+  <tileset firstgid="81" source="tilesets/obj_bed_watcher.tsx" />
+  <tileset firstgid="83" source="tilesets/obj_labfog.tsx" />
+  <tileset firstgid="84" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="85" source="tilesets/obj_darkplant.tsx" />
+  <tileset firstgid="95" source="tilesets/obj_bed_key.tsx" />
+  <tileset firstgid="96" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="97" source="tilesets/obj_npc_room.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="27" height="27">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2,0,2,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="71" x="120" y="100" width="80" height="60" />
+    <object id="2" gid="72" x="200" y="100" width="80" height="60" />
+    <object id="3" gid="72" x="280" y="100" width="80" height="60" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="27" height="27">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,2,2,2,2,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="4" gid="73" x="380" y="100" width="40" height="60" />
+    <object id="5" gid="74" x="360" y="100" width="20" height="60" />
+    <object id="6" gid="75" x="20" y="380" width="100" height="60" />
+    <object id="7" gid="74" x="0" y="380" width="20" height="60" />
+    <object id="8" gid="76" x="420" y="160" width="100" height="60" />
+    <object id="9" gid="77" x="520" y="160" width="20" height="60" />
+  </objectgroup>
+  <objectgroup id="5" name="depth_990000_free_0">
+    <object id="10" gid="78" x="320" y="100" width="40" height="60" />
+  </objectgroup>
+  <layer id="6" name="depth_990000_grid_1" width="27" height="27">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="7" name="objects">
+    <object id="11" gid="79" type="obj_bed_dark" x="200" y="208" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112592" />
+      </properties>
+    </object>
+    <object id="12" gid="79" type="obj_bed_dark" x="260" y="208" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112593" />
+      </properties>
+    </object>
+    <object id="13" gid="79" type="obj_bed_dark" x="320" y="208" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112594" />
+      </properties>
+    </object>
+    <object id="14" gid="79" type="obj_bed_dark" x="180" y="308" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112595" />
+      </properties>
+    </object>
+    <object id="15" gid="79" type="obj_bed_dark" x="240" y="308" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112596" />
+      </properties>
+    </object>
+    <object id="16" gid="79" type="obj_bed_dark" x="280" y="408" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112597" />
+      </properties>
+    </object>
+    <object id="17" gid="79" type="obj_bed_dark" x="340" y="408" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112598" />
+      </properties>
+    </object>
+    <object id="18" gid="80" type="obj_wallmonitor" x="260" y="84" width="34" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="112599" />
+      </properties>
+    </object>
+    <object id="19" gid="81" type="obj_bed_watcher" x="220" y="408" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112600" />
+      </properties>
+    </object>
+    <object id="27" gid="83" type="obj_labfog" x="36" y="-6" width="18" height="17">
+      <properties>
+        <property name="instanceId" type="int" value="112608" />
+      </properties>
+    </object>
+    <object id="28" gid="84" type="obj_mainchara" x="395" y="159" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112609" />
+      </properties>
+    </object>
+    <object id="29" gid="85" type="obj_darkplant" x="120" y="114" width="16" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="112610" />
+      </properties>
+    </object>
+    <object id="30" gid="85" type="obj_darkplant" x="140" y="114" width="16" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="112611" />
+      </properties>
+    </object>
+    <object id="41" gid="85" type="obj_darkplant" x="380" y="454" width="16" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="112622" />
+      </properties>
+    </object>
+    <object id="42" gid="85" type="obj_darkplant" x="400" y="454" width="16" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="112623" />
+      </properties>
+    </object>
+    <object id="51" gid="95" type="obj_bed_key" x="300" y="308" width="50" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="112632" />
+      </properties>
+    </object>
+    <object id="52" gid="96" type="obj_savepoint" x="395" y="124" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="112633" />
+      </properties>
+    </object>
+    <object id="53" gid="97" type="obj_npc_room" x="150" y="459" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112634" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

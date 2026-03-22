@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="24" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="14">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_cyber_tileset.tsx" />
+  <tileset firstgid="417" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="418" source="tilesets/obj_queenscreen.tsx" />
+  <tileset firstgid="419" source="tilesets/obj_chaseenemy.tsx" />
+  <layer id="1" name="TILES" width="16" height="24">
+    <data encoding="csv">0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,5,5,5,5,2,19,0,0,0,0,0,0,0,0,0,0,31,31,31,31,15,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,4,6,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,19,0,0,0,0,0,17,19,0,0,0,0,0,0,0,17,3,5,5,5,5,5,2,3,5,5,5,0,0,0,0,17,16,31,31,31,31,31,31,31,31,31,31,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="417" type="obj_mainchara" x="39" y="192" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107495" />
+      </properties>
+    </object>
+    <object id="3" gid="418" type="obj_queenscreen" x="456" y="257" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107497" />
+      </properties>
+    </object>
+    <object id="4" gid="419" type="obj_chaseenemy" x="432" y="341" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107498" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>
