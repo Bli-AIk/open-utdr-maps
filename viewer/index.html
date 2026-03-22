@@ -13,15 +13,356 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background-color: #000;
+            background: #111;
         }
         canvas {
+            display: block;
             width: 100vw !important;
             height: 100vh !important;
+        }
+        #tmwv-loader {
+            position: fixed;
+            inset: 0;
+            z-index: 99999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0f1115;
+            color: #f3f4f6;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            transition: opacity 220ms ease, visibility 220ms ease;
+        }
+        #tmwv-loader.is-hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+        .tmwv-loader-card {
+            width: min(360px, calc(100vw - 48px));
+            padding: 24px 0;
+        }
+        .tmwv-loader-title {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.35;
+            letter-spacing: -0.01em;
+        }
+        .tmwv-loader-status {
+            margin-top: 8px;
+            color: rgba(243, 244, 246, 0.78);
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .tmwv-loader-track {
+            margin-top: 16px;
+            height: 3px;
+            overflow: hidden;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.12);
+        }
+        .tmwv-loader-bar {
+            height: 100%;
+            width: 2%;
+            border-radius: inherit;
+            background: #f3f4f6;
+            transition: width 140ms ease;
+        }
+        .tmwv-loader-meta {
+            margin-top: 8px;
+            color: rgba(243, 244, 246, 0.5);
+            font-size: 12px;
+            line-height: 1.45;
+        }
+    </style>
+    <script>
+        (() => {
+            const state = {
+                progress: 0.02,
+                title: "Loading viewer",
+                status: "Preparing page shell...",
+                meta: "Waiting for the WebAssembly bundle...",
+                finished: false,
+            };
+
+            function onDomReady(callback) {
+                if (document.readyState === "loading") {
+                    document.addEventListener("DOMContentLoaded", callback, { once: true });
+                } else {
+                    callback();
+                }
+            }
+
+            function formatBytes(bytes) {
+                if (!Number.isFinite(bytes) || bytes <= 0) {
+                    return "unknown size";
+                }
+                const units = ["B", "KB", "MB", "GB"];
+                let value = bytes;
+                let unit = units[0];
+                for (let i = 0; i < units.length; i += 1) {
+                    unit = units[i];
+                    if (value < 1024 || i === units.length - 1) {
+                        break;
+                    }
+                    value /= 1024;
+                }
+                return `${value.toFixed(value >= 100 ? 0 : value >= 10 ? 1 : 2)} ${unit}`;
+            }
+
+            function render() {
+                const loader = document.getElementById("tmwv-loader");
+                if (!loader) {
+                    return;
+                }
+                const title = document.getElementById("tmwv-loader-title");
+                const status = document.getElementById("tmwv-loader-status");
+                const meta = document.getElementById("tmwv-loader-meta");
+                const bar = document.getElementById("tmwv-loader-bar");
+                if (title) title.textContent = state.title;
+                if (status) status.textContent = state.status;
+                if (meta) meta.textContent = state.meta;
+                if (bar) bar.style.width = `${Math.max(2, Math.min(100, state.progress * 100))}%`;
+            }
+
+            function update(partial) {
+                Object.assign(state, partial);
+                onDomReady(render);
+            }
+
+            function complete() {
+                if (state.finished) {
+                    return;
+                }
+                state.finished = true;
+                update({
+                    progress: 1,
+                    title: "Viewer ready",
+                    status: "Starting the interactive map viewer...",
+                    meta: "The page shell is ready. Handing off to the app.",
+                });
+                onDomReady(() => {
+                    window.requestAnimationFrame(() => {
+                        window.requestAnimationFrame(() => {
+                            const loader = document.getElementById("tmwv-loader");
+                            if (!loader) {
+                                return;
+                            }
+                            loader.classList.add("is-hidden");
+                            window.setTimeout(() => loader.remove(), 260);
+                        });
+                    });
+                });
+            }
+
+            function fail(message) {
+                update({
+                    title: "Viewer failed to load",
+                    status: message,
+                    meta: "Open the browser console for more details.",
+                });
+            }
+
+            window.__tmwvLoader = {
+                update,
+                complete,
+                fail,
+                markAppReady: complete,
+            };
+
+            onDomReady(render);
+
+            const originalFetch = window.fetch.bind(window);
+            window.fetch = async function patchedFetch(input, init) {
+                const url =
+                    typeof input === "string"
+                        ? input
+                        : input instanceof Request
+                          ? input.url
+                          : String(input);
+                if (!/\.wasm(?:\?|$)/.test(url)) {
+                    return originalFetch(input, init);
+                }
+
+                update({
+                    title: "Loading WebAssembly",
+                    status: "Requesting the viewer runtime...",
+                    meta: "Waiting for the server to start streaming the .wasm bundle.",
+                    progress: 0.04,
+                });
+
+                let response;
+                try {
+                    response = await originalFetch(input, init);
+                } catch (error) {
+                    fail("The WebAssembly bundle could not be downloaded.");
+                    throw error;
+                }
+
+                if (!response.ok) {
+                    fail(`The server returned ${response.status} while loading the viewer.`);
+                    return response;
+                }
+
+                update({
+                    title: "Loading WebAssembly",
+                    status: "Downloading the viewer runtime...",
+                    meta: "Streaming the .wasm bundle from the server.",
+                    progress: 0.08,
+                });
+
+                const totalBytes = Number(response.headers.get("content-length") || 0);
+                if (!response.body || !Number.isFinite(totalBytes) || totalBytes <= 0) {
+                    update({
+                        progress: 0.45,
+                        meta: "Download size not provided by the server. Progress is approximate.",
+                    });
+                    return response;
+                }
+
+                const reader = response.body.getReader();
+                let loadedBytes = 0;
+                const trackedStream = new ReadableStream({
+                    async pull(controller) {
+                        const { done, value } = await reader.read();
+                        if (done) {
+                            update({
+                                title: "Initializing WebAssembly",
+                                status: "Download complete. Preparing the runtime...",
+                                meta: `${formatBytes(loadedBytes)} downloaded.`,
+                                progress: 0.82,
+                            });
+                            controller.close();
+                            return;
+                        }
+
+                        loadedBytes += value.byteLength;
+                        update({
+                            progress: 0.08 + (loadedBytes / totalBytes) * 0.7,
+                            meta: `${formatBytes(loadedBytes)} / ${formatBytes(totalBytes)}`,
+                        });
+                        controller.enqueue(value);
+                    },
+                    cancel(reason) {
+                        return reader.cancel(reason);
+                    },
+                });
+
+                return new Response(trackedStream, {
+                    status: response.status,
+                    statusText: response.statusText,
+                    headers: response.headers,
+                });
+            };
+
+            if (typeof WebAssembly.instantiateStreaming === "function") {
+                const originalInstantiateStreaming = WebAssembly.instantiateStreaming.bind(WebAssembly);
+                WebAssembly.instantiateStreaming = async (...args) => {
+                    update({
+                        title: "Compiling WebAssembly",
+                        status: "Optimizing the viewer runtime...",
+                        meta: "This can take a moment on the first load.",
+                        progress: Math.max(state.progress, 0.88),
+                    });
+                    try {
+                        const result = await originalInstantiateStreaming(...args);
+                        update({
+                            title: "Launching viewer",
+                            status: "Wiring the runtime to the page...",
+                            meta: "Finalizing startup.",
+                            progress: 0.96,
+                        });
+                        return result;
+                    } catch (error) {
+                        fail("The WebAssembly bundle could not be compiled.");
+                        throw error;
+                    }
+                };
+            }
+
+            const originalInstantiate = WebAssembly.instantiate.bind(WebAssembly);
+            WebAssembly.instantiate = async (...args) => {
+                update({
+                    title: "Compiling WebAssembly",
+                    status: "Preparing the viewer runtime...",
+                    meta: "Finalizing startup.",
+                    progress: Math.max(state.progress, 0.9),
+                });
+                try {
+                    const result = await originalInstantiate(...args);
+                    update({
+                        title: "Launching viewer",
+                        status: "Wiring the runtime to the page...",
+                        meta: "Almost there.",
+                        progress: 0.96,
+                    });
+                    return result;
+                } catch (error) {
+                    fail("The WebAssembly bundle could not be compiled.");
+                    throw error;
+                }
+            };
+
+            window.addEventListener("load", () => {
+                window.setTimeout(() => {
+                    if (!state.finished) {
+                        update({
+                            title: "Launching viewer",
+                            status: "Waiting for the app to finish initialization...",
+                            meta: "If this takes too long, check the browser console for errors.",
+                            progress: Math.max(state.progress, 0.97),
+                        });
+                    }
+                }, 1200);
+            });
+        })();
+    </script>
+    <script>
+        window.addEventListener("error", (event) => {
+            if (!window.__tmwvLoader) {
+                return;
+            }
+            window.__tmwvLoader.fail(event.message || "An unexpected error occurred during startup.");
+        });
+        window.addEventListener("unhandledrejection", (event) => {
+            if (!window.__tmwvLoader) {
+                return;
+            }
+            const reason = event.reason;
+            const message = typeof reason === "string"
+                ? reason
+                : reason && typeof reason.message === "string"
+                  ? reason.message
+                  : "An unexpected promise rejection occurred during startup.";
+            window.__tmwvLoader.fail(message);
+        });
+    </script>
+    <script>
+        window.addEventListener("bevy-app-ready", () => {
+            if (!window.__tmwvLoader) {
+                return;
+            }
+            window.__tmwvLoader.complete();
+        });
+    </script>
+    <style>
+        body.viewer-ready #tmwv-loader {
+            opacity: 0;
+            visibility: hidden;
         }
     </style>
 </head>
 <body>
+    <div id="tmwv-loader" aria-live="polite" aria-busy="true">
+        <div class="tmwv-loader-card">
+            <h1 id="tmwv-loader-title" class="tmwv-loader-title">Loading viewer</h1>
+            <div id="tmwv-loader-status" class="tmwv-loader-status">Preparing page shell...</div>
+            <div class="tmwv-loader-track" aria-hidden="true">
+                <div id="tmwv-loader-bar" class="tmwv-loader-bar"></div>
+            </div>
+            <div id="tmwv-loader-meta" class="tmwv-loader-meta">Waiting for the WebAssembly bundle...</div>
+        </div>
+    </div>
     <canvas id="the_canvas_id"></canvas>
 </body>
 </html>
