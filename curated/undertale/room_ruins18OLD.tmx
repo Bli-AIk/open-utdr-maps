@@ -1,25 +1,38 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="14" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_ruinseasynam2.tsx" />
-  <tileset firstgid="73" source="tilesets/bg_ruinseasynam1.tsx" />
-  <tileset firstgid="114" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="118" source="tilesets/obj_knife_pickup.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,14,89,89,89,97,81,81,81,81,81,81,98,89,89,89,16,14,89,89,89,105,81,81,81,81,81,81,106,89,89,89,16,22,23,23,23,23,23,31,81,81,30,23,23,23,23,23,24</data>
-  </layer>
-  <objectgroup id="2" name="objects">
-    <object id="4" gid="114" type="obj_mainchara" x="140" y="169" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="101028" />
-      </properties>
-    </object>
-    <object id="9" gid="118" type="obj_knife_pickup" x="44" y="199" width="14" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="101033" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="4" nextobjectid="14">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_ruinseasynam2.tsx"/>
+ <tileset firstgid="73" source="tilesets/bg_ruinseasynam1.tsx"/>
+ <tileset firstgid="113" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="114" source="tilesets/obj_knife_pickup.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,
+14,89,89,89,97,81,81,81,81,81,81,98,89,89,89,16,
+14,89,89,89,105,81,81,81,81,81,81,106,89,89,89,16,
+22,23,23,23,23,23,31,81,81,30,23,23,23,23,23,24
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="4" type="obj_mainchara" gid="113" x="140" y="169" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="101028"/>
+   </properties>
+  </object>
+  <object id="9" type="obj_knife_pickup" gid="114" x="44" y="199" width="14" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="101033"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

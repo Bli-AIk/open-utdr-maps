@@ -1,65 +1,96 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="30" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="83">
-  <properties>
-    <property name="speed" type="int" value="0" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset_new.tsx" />
-  <tileset firstgid="583" source="tilesets/obj_krmarker.tsx" />
-  <tileset firstgid="584" source="tilesets/obj_sumarker.tsx" />
-  <tileset firstgid="585" source="tilesets/obj_ramarker.tsx" />
-  <tileset firstgid="586" source="tilesets/obj_genmarker.tsx" />
-  <tileset firstgid="587" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="591" source="tilesets/obj_musicer_dw_gerson_study.tsx" />
-  <tileset firstgid="593" source="tilesets/obj_trigger.tsx" />
-  <tileset firstgid="594" source="tilesets/obj_savepoint.tsx" />
-  <layer id="1" name="TILES" width="24" height="30">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,74,359,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,354,74,74,359,354,378,80,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,360,80,80,378,86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="2" name="objects">
-    <object id="1" gid="583" type="obj_krmarker" x="462" y="269" width="19" height="39">
-      <properties>
-        <property name="instanceId" type="int" value="102543" />
-      </properties>
-    </object>
-    <object id="2" gid="584" type="obj_sumarker" x="404" y="297" width="26" height="43">
-      <properties>
-        <property name="instanceId" type="int" value="102544" />
-      </properties>
-    </object>
-    <object id="3" gid="585" type="obj_ramarker" x="504" y="299" width="21" height="40">
-      <properties>
-        <property name="instanceId" type="int" value="102545" />
-      </properties>
-    </object>
-    <object id="4" gid="586" type="obj_genmarker" x="400" y="615" width="1" height="1">
-      <properties>
-        <property name="instanceId" type="int" value="102546" />
-      </properties>
-    </object>
-    <object id="5" gid="587" type="obj_mainchara" x="360" y="882" width="19" height="37">
-      <properties>
-        <property name="instanceId" type="int" value="102547" />
-      </properties>
-    </object>
-    <object id="10" gid="591" type="obj_musicer_dw_gerson_study" x="40" y="24" width="26" height="24">
-      <properties>
-        <property name="instanceId" type="int" value="102552" />
-      </properties>
-    </object>
-    <object id="12" gid="593" type="obj_trigger" x="209" y="838" width="10" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="102554" />
-      </properties>
-    </object>
-    <object id="13" gid="593" type="obj_trigger" x="390" y="290" width="10" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="102555" />
-      </properties>
-    </object>
-    <object id="14" gid="594" type="obj_savepoint" x="358" y="820" width="20" height="19">
-      <properties>
-        <property name="instanceId" type="int" value="102556" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="24" height="30" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="83">
+ <properties>
+  <property name="speed" type="int" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_dw_church_tileset_new.tsx"/>
+ <tileset firstgid="601" source="tilesets/obj_krmarker.tsx"/>
+ <tileset firstgid="602" source="tilesets/obj_sumarker.tsx"/>
+ <tileset firstgid="603" source="tilesets/obj_ramarker.tsx"/>
+ <tileset firstgid="604" source="tilesets/obj_genmarker.tsx"/>
+ <tileset firstgid="605" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="606" source="tilesets/obj_musicer_dw_gerson_study.tsx"/>
+ <tileset firstgid="607" source="tilesets/obj_trigger.tsx"/>
+ <tileset firstgid="608" source="tilesets/obj_savepoint.tsx"/>
+ <layer id="1" name="TILES" width="24" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+74,74,359,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,354,74,74,359,
+354,378,80,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,360,80,80,378,
+86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,86,86,86,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="1" type="obj_krmarker" gid="601" x="462" y="269" width="19" height="39">
+   <properties>
+    <property name="instanceId" type="int" value="102543"/>
+   </properties>
+  </object>
+  <object id="2" type="obj_sumarker" gid="602" x="404" y="297" width="26" height="43">
+   <properties>
+    <property name="instanceId" type="int" value="102544"/>
+   </properties>
+  </object>
+  <object id="3" type="obj_ramarker" gid="603" x="504" y="299" width="21" height="40">
+   <properties>
+    <property name="instanceId" type="int" value="102545"/>
+   </properties>
+  </object>
+  <object id="4" type="obj_genmarker" gid="604" x="400" y="615" width="1" height="1">
+   <properties>
+    <property name="instanceId" type="int" value="102546"/>
+   </properties>
+  </object>
+  <object id="5" type="obj_mainchara" gid="605" x="360" y="882" width="19" height="37">
+   <properties>
+    <property name="instanceId" type="int" value="102547"/>
+   </properties>
+  </object>
+  <object id="10" type="obj_musicer_dw_gerson_study" gid="606" x="40" y="24" width="26" height="24">
+   <properties>
+    <property name="instanceId" type="int" value="102552"/>
+   </properties>
+  </object>
+  <object id="12" type="obj_trigger" gid="607" x="209" y="838" width="10" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="102554"/>
+   </properties>
+  </object>
+  <object id="13" type="obj_trigger" gid="607" x="390" y="290" width="10" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="102555"/>
+   </properties>
+  </object>
+  <object id="14" type="obj_savepoint" gid="608" x="358" y="820" width="20" height="19">
+   <properties>
+    <property name="instanceId" type="int" value="102556"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -1,144 +1,194 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="28" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="12" nextobjectid="52" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder.tsx" />
-  <tileset firstgid="17" source="tilesets/bg_ruinsplaceholder2.tsx" />
-  <tileset firstgid="145" source="tilesets/bg_ruinseasynam2.tsx" />
-  <tileset firstgid="217" source="tilesets/bg_ruinseasynam3.tsx" />
-  <tileset firstgid="369" source="tilesets/free_tile_p11_840_1256_20x20.tsx" />
-  <tileset firstgid="370" source="tilesets/obj_fakewatershadowr.tsx" />
-  <tileset firstgid="371" source="tilesets/obj_fakewatershadowl.tsx" />
-  <tileset firstgid="372" source="tilesets/obj_fakewaterl.tsx" />
-  <tileset firstgid="373" source="tilesets/obj_fakewaterr.tsx" />
-  <tileset firstgid="374" source="tilesets/obj_spikes_room.tsx" />
-  <tileset firstgid="376" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="382" source="tilesets/obj_pushrock1.tsx" />
-  <tileset firstgid="383" source="tilesets/obj_pushrock2.tsx" />
-  <tileset firstgid="384" source="tilesets/obj_goofyrock.tsx" />
-  <tileset firstgid="387" source="tilesets/obj_toribuster.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="28" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,147,147,0,147,0,147,147,147,147,147,147,0,147,147,0,147,147,147,147,0,0,0,0,0,0,0,0,147,147,147,147,147,147,147,147,147,0,147,147,147,147,147,147,147,0,147,147,0,0,0,0,147,147,147,148,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,146,0,0,0,147,147,147,148,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,17,146,0,0,0,155,155,155,156,1,1,1,1,1,1,3,3,3,3,0,1,1,17,17,0,0,1,17,17,154,155,155,155,6,6,6,170,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,0,26,26,26,26,6,6,6,178,1,1,1,1,1,3,3,3,3,3,0,1,1,17,17,0,0,1,17,0,26,26,26,26,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,17,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,3,3,3,0,1,1,17,17,0,0,1,17,17,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <layer id="3" name="depth_1000000_grid_2" width="28" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,167,167,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,147,147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,147,147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="4" name="depth_1000000_free_3">
-    <object id="1" gid="369" x="560" y="60" width="20" height="20" />
-  </objectgroup>
-  <layer id="5" name="depth_1000000_grid_4" width="28" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,151,151,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <layer id="7" name="depth_1000000_grid_6" width="28" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,167,167,168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,151,151,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,0,0,182,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,183,0,0,0</data>
-  </layer>
-  <objectgroup id="8" name="depth_1000000_free_7">
-    <object id="2" gid="369" x="-20" y="60" width="20" height="20" />
-  </objectgroup>
-  <layer id="9" name="depth_1000000_grid_8" width="28" height="12">
-    <data encoding="csv">0,0,0,174,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,175,0,0,0,0,0,0,160,0,0,0,173,0,157,0,0,0,0,0,0,157,0,0,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,165,0,0,0,0,0,0,0,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,0,0,0,0,300,302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,289,289,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,0,0,0,0,290,290,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,290,290,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,0,0,0,0,297,299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300,302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="10" name="objects">
-    <object id="3" gid="370" type="obj_fakewatershadowr" x="400" y="100" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100627" />
-      </properties>
-    </object>
-    <object id="4" gid="370" type="obj_fakewatershadowr" x="400" y="200" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100628" />
-      </properties>
-    </object>
-    <object id="5" gid="371" type="obj_fakewatershadowl" x="380" y="100" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100629" />
-      </properties>
-    </object>
-    <object id="6" gid="371" type="obj_fakewatershadowl" x="380" y="200" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100630" />
-      </properties>
-    </object>
-    <object id="7" gid="372" type="obj_fakewaterl" x="380" y="120" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100631" />
-      </properties>
-    </object>
-    <object id="8" gid="372" type="obj_fakewaterl" x="380" y="220" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100632" />
-      </properties>
-    </object>
-    <object id="9" gid="373" type="obj_fakewaterr" x="400" y="220" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100633" />
-      </properties>
-    </object>
-    <object id="10" gid="373" type="obj_fakewaterr" x="400" y="120" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100634" />
-      </properties>
-    </object>
-    <object id="11" gid="374" type="obj_spikes_room" x="380" y="138" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100635" />
-      </properties>
-    </object>
-    <object id="12" gid="374" type="obj_spikes_room" x="400" y="138" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100636" />
-      </properties>
-    </object>
-    <object id="13" gid="374" type="obj_spikes_room" x="400" y="158" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100637" />
-      </properties>
-    </object>
-    <object id="14" gid="374" type="obj_spikes_room" x="380" y="158" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100638" />
-      </properties>
-    </object>
-    <object id="15" gid="374" type="obj_spikes_room" x="380" y="178" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100639" />
-      </properties>
-    </object>
-    <object id="16" gid="374" type="obj_spikes_room" x="400" y="178" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100640" />
-      </properties>
-    </object>
-    <object id="24" gid="376" type="obj_mainchara" x="140" y="129" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="100648" />
-      </properties>
-    </object>
-    <object id="34" gid="382" type="obj_pushrock1" x="180" y="153" width="20" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100658" />
-      </properties>
-    </object>
-    <object id="35" gid="383" type="obj_pushrock2" x="200" y="113" width="20" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100659" />
-      </properties>
-    </object>
-    <object id="36" gid="384" type="obj_goofyrock" x="220" y="193" width="20" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100660" />
-      </properties>
-    </object>
-    <object id="40" gid="387" type="obj_toribuster" x="296" y="160" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100664" />
-      </properties>
-    </object>
-    <object id="41" gid="387" type="obj_toribuster" x="296" y="120" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100665" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="28" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="12" nextobjectid="52">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder.tsx"/>
+ <tileset firstgid="17" source="tilesets/bg_ruinsplaceholder2.tsx"/>
+ <tileset firstgid="145" source="tilesets/bg_ruinseasynam2.tsx"/>
+ <tileset firstgid="217" source="tilesets/bg_ruinseasynam3.tsx"/>
+ <tileset firstgid="369" source="tilesets/free_tile_p11_840_1256_20x20.tsx"/>
+ <tileset firstgid="370" source="tilesets/obj_fakewatershadowr.tsx"/>
+ <tileset firstgid="371" source="tilesets/obj_fakewatershadowl.tsx"/>
+ <tileset firstgid="372" source="tilesets/obj_fakewaterl.tsx"/>
+ <tileset firstgid="373" source="tilesets/obj_fakewaterr.tsx"/>
+ <tileset firstgid="374" source="tilesets/obj_spikes_room.tsx"/>
+ <tileset firstgid="375" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="376" source="tilesets/obj_pushrock1.tsx"/>
+ <tileset firstgid="377" source="tilesets/obj_pushrock2.tsx"/>
+ <tileset firstgid="378" source="tilesets/obj_goofyrock.tsx"/>
+ <tileset firstgid="379" source="tilesets/obj_toribuster.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="28" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,147,147,147,0,147,0,147,147,147,147,147,147,0,147,147,0,147,147,147,147,0,0,0,0,
+0,0,0,0,147,147,147,147,147,147,147,147,147,0,147,147,147,147,147,147,147,0,147,147,0,0,0,0,
+147,147,147,148,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,155,146,0,0,0,
+147,147,147,148,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,17,146,0,0,0,
+155,155,155,156,1,1,1,1,1,1,3,3,3,3,0,1,1,17,17,0,0,1,17,17,154,155,155,155,
+6,6,6,170,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,0,26,26,26,26,
+6,6,6,178,1,1,1,1,1,3,3,3,3,3,0,1,1,17,17,0,0,1,17,0,26,26,26,26,
+0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,17,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,3,3,3,0,1,1,17,17,0,0,1,17,17,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,17,17,0,0,1,17,17,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="depth_1000000_grid_2" width="28" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,167,167,167,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,147,147,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,147,147,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="depth_1000000_free_3"/>
+ <layer id="5" name="depth_1000000_grid_4" width="28" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,169,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,177,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,151,151,151,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="depth_1000000_grid_6" width="28" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+167,167,167,168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+151,151,151,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,
+0,0,0,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,
+0,0,0,182,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,183,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="depth_1000000_grid_8" width="28" height="12">
+  <data encoding="csv">
+0,0,0,174,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,167,175,0,0,0,
+0,0,0,160,0,0,0,173,0,157,0,0,0,0,0,0,157,0,0,173,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,165,0,0,0,0,0,0,0,165,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,297,299,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,0,0,0,0,300,302,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,289,289,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,0,0,0,0,290,290,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,290,290,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,336,0,0,0,0,297,299,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300,302,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="objects">
+  <object id="3" type="obj_fakewatershadowr" gid="370" x="400" y="100" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100627"/>
+   </properties>
+  </object>
+  <object id="4" type="obj_fakewatershadowr" gid="370" x="400" y="200" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100628"/>
+   </properties>
+  </object>
+  <object id="5" type="obj_fakewatershadowl" gid="371" x="380" y="100" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100629"/>
+   </properties>
+  </object>
+  <object id="6" type="obj_fakewatershadowl" gid="371" x="380" y="200" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100630"/>
+   </properties>
+  </object>
+  <object id="7" type="obj_fakewaterl" gid="372" x="380" y="120" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100631"/>
+   </properties>
+  </object>
+  <object id="8" type="obj_fakewaterl" gid="372" x="380" y="220" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100632"/>
+   </properties>
+  </object>
+  <object id="9" type="obj_fakewaterr" gid="373" x="400" y="220" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100633"/>
+   </properties>
+  </object>
+  <object id="10" type="obj_fakewaterr" gid="373" x="400" y="120" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="100634"/>
+   </properties>
+  </object>
+  <object id="11" type="obj_spikes_room" gid="374" x="380" y="138" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100635"/>
+   </properties>
+  </object>
+  <object id="12" type="obj_spikes_room" gid="374" x="400" y="138" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100636"/>
+   </properties>
+  </object>
+  <object id="13" type="obj_spikes_room" gid="374" x="400" y="158" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100637"/>
+   </properties>
+  </object>
+  <object id="14" type="obj_spikes_room" gid="374" x="380" y="158" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100638"/>
+   </properties>
+  </object>
+  <object id="15" type="obj_spikes_room" gid="374" x="380" y="178" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100639"/>
+   </properties>
+  </object>
+  <object id="16" type="obj_spikes_room" gid="374" x="400" y="178" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100640"/>
+   </properties>
+  </object>
+  <object id="24" type="obj_mainchara" gid="375" x="140" y="129" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="100648"/>
+   </properties>
+  </object>
+  <object id="34" type="obj_pushrock1" gid="376" x="180" y="153" width="20" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100658"/>
+   </properties>
+  </object>
+  <object id="35" type="obj_pushrock2" gid="377" x="200" y="113" width="20" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100659"/>
+   </properties>
+  </object>
+  <object id="36" type="obj_goofyrock" gid="378" x="220" y="193" width="20" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100660"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

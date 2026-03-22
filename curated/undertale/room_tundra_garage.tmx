@@ -1,71 +1,84 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="21" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx" />
-  <tileset firstgid="679" source="tilesets/free_tile_p11_332_4_320x240.tsx" />
-  <tileset firstgid="680" source="tilesets/free_tile_p10_1040_1828_64x113.tsx" />
-  <tileset firstgid="683" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="684" source="tilesets/obj_dogfood.tsx" />
-  <tileset firstgid="685" source="tilesets/obj_doggiebed.tsx" />
-  <tileset firstgid="686" source="tilesets/obj_spagnot.tsx" />
-  <tileset firstgid="687" source="tilesets/obj_chewtoy.tsx" />
-  <tileset firstgid="689" source="tilesets/obj_tundragatebar.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="2" name="depth_1000000_free_1">
-    <object id="1" gid="679" x="0" y="240" width="320" height="240" />
-  </objectgroup>
-  <objectgroup id="3" name="depth_2000_free_0">
-    <object id="2" gid="680" x="67" y="139" width="64" height="113" />
-  </objectgroup>
-  <objectgroup id="4" name="objects">
-    <object id="6" gid="683" type="obj_mainchara" x="140" y="129" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103489" />
-      </properties>
-    </object>
-    <object id="7" gid="684" type="obj_dogfood" x="180" y="93" width="19" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="103490" />
-      </properties>
-    </object>
-    <object id="8" gid="685" type="obj_doggiebed" x="200" y="143" width="38" height="23">
-      <properties>
-        <property name="instanceId" type="int" value="103491" />
-      </properties>
-    </object>
-    <object id="9" gid="686" type="obj_spagnot" x="140" y="76" width="13" height="16">
-      <properties>
-        <property name="instanceId" type="int" value="103492" />
-      </properties>
-    </object>
-    <object id="10" gid="687" type="obj_chewtoy" x="140" y="152" width="12" height="12">
-      <properties>
-        <property name="instanceId" type="int" value="103493" />
-      </properties>
-    </object>
-    <object id="13" gid="689" type="obj_tundragatebar" x="80" y="86" width="8" height="50">
-      <properties>
-        <property name="instanceId" type="int" value="103496" />
-      </properties>
-    </object>
-    <object id="14" gid="689" type="obj_tundragatebar" x="90" y="114" width="8" height="50">
-      <properties>
-        <property name="instanceId" type="int" value="103497" />
-      </properties>
-    </object>
-    <object id="15" gid="689" type="obj_tundragatebar" x="100" y="142" width="8" height="50">
-      <properties>
-        <property name="instanceId" type="int" value="103498" />
-      </properties>
-    </object>
-    <object id="16" gid="689" type="obj_tundragatebar" x="110" y="174" width="8" height="50">
-      <properties>
-        <property name="instanceId" type="int" value="103499" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="6" nextobjectid="21">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx"/>
+ <tileset firstgid="676" source="tilesets/free_tile_p11_332_4_320x240.tsx"/>
+ <tileset firstgid="677" source="tilesets/free_tile_p10_1040_1828_64x113.tsx"/>
+ <tileset firstgid="678" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="679" source="tilesets/obj_dogfood.tsx"/>
+ <tileset firstgid="680" source="tilesets/obj_doggiebed.tsx"/>
+ <tileset firstgid="681" source="tilesets/obj_spagnot.tsx"/>
+ <tileset firstgid="682" source="tilesets/obj_chewtoy.tsx"/>
+ <tileset firstgid="683" source="tilesets/obj_tundragatebar.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="depth_1000000_free_1">
+  <object id="1" gid="676" x="0" y="240" width="320" height="240"/>
+ </objectgroup>
+ <objectgroup id="3" name="depth_2000_free_0">
+  <object id="2" gid="677" x="67" y="139" width="64" height="113"/>
+ </objectgroup>
+ <objectgroup id="4" name="objects">
+  <object id="6" type="obj_mainchara" gid="678" x="140" y="129" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103489"/>
+   </properties>
+  </object>
+  <object id="7" type="obj_dogfood" gid="679" x="180" y="93" width="19" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="103490"/>
+   </properties>
+  </object>
+  <object id="8" type="obj_doggiebed" gid="680" x="200" y="143" width="38" height="23">
+   <properties>
+    <property name="instanceId" type="int" value="103491"/>
+   </properties>
+  </object>
+  <object id="9" type="obj_spagnot" gid="681" x="140" y="76" width="13" height="16">
+   <properties>
+    <property name="instanceId" type="int" value="103492"/>
+   </properties>
+  </object>
+  <object id="10" type="obj_chewtoy" gid="682" x="140" y="152" width="12" height="12">
+   <properties>
+    <property name="instanceId" type="int" value="103493"/>
+   </properties>
+  </object>
+  <object id="13" type="obj_tundragatebar" gid="683" x="80" y="86" width="8" height="50">
+   <properties>
+    <property name="instanceId" type="int" value="103496"/>
+   </properties>
+  </object>
+  <object id="14" type="obj_tundragatebar" gid="683" x="90" y="114" width="8" height="50">
+   <properties>
+    <property name="instanceId" type="int" value="103497"/>
+   </properties>
+  </object>
+  <object id="15" type="obj_tundragatebar" gid="683" x="100" y="142" width="8" height="50">
+   <properties>
+    <property name="instanceId" type="int" value="103498"/>
+   </properties>
+  </object>
+  <object id="16" type="obj_tundragatebar" gid="683" x="110" y="174" width="8" height="50">
+   <properties>
+    <property name="instanceId" type="int" value="103499"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="47" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="2" source="tilesets/free_tile_p10_1772_656_240x240.tsx" />
-  <tileset firstgid="4" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="11" source="tilesets/obj_cactus.tsx" />
-  <tileset firstgid="12" source="tilesets/obj_smallchair.tsx" />
-  <objectgroup id="1" name="depth_1000000_free_0">
-    <object id="1" gid="2" x="30" y="248" width="240" height="240" />
-  </objectgroup>
-  <objectgroup id="2" name="objects">
-    <object id="30" gid="4" type="obj_mainchara" x="120" y="171" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="101244" />
-      </properties>
-    </object>
-    <object id="40" gid="11" type="obj_cactus" x="212" y="218" width="35" height="47">
-      <properties>
-        <property name="instanceId" type="int" value="101254" />
-      </properties>
-    </object>
-    <object id="41" gid="12" type="obj_smallchair" x="94" y="175" width="17" height="28">
-      <properties>
-        <property name="instanceId" type="int" value="101255" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="4" nextobjectid="47">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/free_tile_p10_1772_656_240x240.tsx"/>
+ <tileset firstgid="2" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="3" source="tilesets/obj_cactus.tsx"/>
+ <tileset firstgid="4" source="tilesets/obj_smallchair.tsx"/>
+ <objectgroup id="1" name="depth_1000000_free_0">
+  <object id="1" gid="1" x="30" y="248" width="240" height="240"/>
+ </objectgroup>
+ <objectgroup id="2" name="objects">
+  <object id="30" type="obj_mainchara" gid="2" x="120" y="171" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="101244"/>
+   </properties>
+  </object>
+  <object id="40" type="obj_cactus" gid="3" x="212" y="218" width="35" height="47">
+   <properties>
+    <property name="instanceId" type="int" value="101254"/>
+   </properties>
+  </object>
+  <object id="41" type="obj_smallchair" gid="4" x="94" y="175" width="17" height="28">
+   <properties>
+    <property name="instanceId" type="int" value="101255"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

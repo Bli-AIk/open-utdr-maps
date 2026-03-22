@@ -1,66 +1,87 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="35" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder2.tsx" />
-  <tileset firstgid="129" source="tilesets/bg_ruinseasynam2.tsx" />
-  <tileset firstgid="201" source="tilesets/bg_ruinseasynam3.tsx" />
-  <tileset firstgid="353" source="tilesets/obj_spikes_room.tsx" />
-  <tileset firstgid="356" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="358" source="tilesets/obj_pushrock3.tsx" />
-  <tileset firstgid="368" source="tilesets/obj_toribuster.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="24" height="12">
-    <data encoding="csv">0,0,158,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,159,0,151,151,152,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,150,151,131,131,132,131,131,131,131,131,181,131,131,131,131,131,131,131,131,131,131,131,131,131,130,131,131,131,132,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,130,131,139,139,140,1,1,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,1,138,139,10,10,10,10,154,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,153,10,10,10,10,10,10,162,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,161,10,10,135,135,136,1,1,1,1,1,1,3,3,3,320,1,1,320,1,1,1,1,1,1,134,135,0,0,144,1,1,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,1,142,0,0,0,144,1,1,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,1,142,0,0,0,166,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <layer id="2" name="depth_999999_grid_0" width="24" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,287,0,0,0,0,287,0,0,0,0,0,0,0,287,0,0,0,0,0,0,0,0,0,0,287,0,0,0,0,287,0,0,0,0,0,0,0,287,0,0,0,0,0,0,0,0,0,0,287,0,0,0,0,287,0,0,0,0,0,0,0,287,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="3" name="objects">
-    <object id="1" gid="353" type="obj_spikes_room" x="300" y="98" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100545" />
-      </properties>
-    </object>
-    <object id="2" gid="353" type="obj_spikes_room" x="300" y="118" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100546" />
-      </properties>
-    </object>
-    <object id="3" gid="353" type="obj_spikes_room" x="300" y="138" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100547" />
-      </properties>
-    </object>
-    <object id="4" gid="353" type="obj_spikes_room" x="300" y="158" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100548" />
-      </properties>
-    </object>
-    <object id="5" gid="353" type="obj_spikes_room" x="300" y="178" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100549" />
-      </properties>
-    </object>
-    <object id="6" gid="353" type="obj_spikes_room" x="300" y="198" width="18" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100550" />
-      </properties>
-    </object>
-    <object id="10" gid="356" type="obj_mainchara" x="140" y="129" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="100554" />
-      </properties>
-    </object>
-    <object id="17" gid="358" type="obj_pushrock3" x="180" y="153" width="20" height="18">
-      <properties>
-        <property name="instanceId" type="int" value="100561" />
-      </properties>
-    </object>
-    <object id="29" gid="368" type="obj_toribuster" x="256" y="160" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100573" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="5" nextobjectid="35">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder2.tsx"/>
+ <tileset firstgid="129" source="tilesets/bg_ruinseasynam2.tsx"/>
+ <tileset firstgid="201" source="tilesets/bg_ruinseasynam3.tsx"/>
+ <tileset firstgid="353" source="tilesets/obj_spikes_room.tsx"/>
+ <tileset firstgid="354" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="355" source="tilesets/obj_pushrock3.tsx"/>
+ <tileset firstgid="356" source="tilesets/obj_toribuster.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="24" height="12">
+  <data encoding="csv">
+0,0,158,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,151,159,0,
+151,151,152,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,131,150,151,
+131,131,132,131,131,131,131,131,181,131,131,131,131,131,131,131,131,131,131,131,131,131,130,131,
+131,131,132,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,139,130,131,
+139,139,140,1,1,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,1,138,139,
+10,10,10,10,154,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,153,10,10,
+10,10,10,10,162,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,161,10,10,
+135,135,136,1,1,1,1,1,1,3,3,3,320,1,1,320,1,1,1,1,1,1,134,135,
+0,0,144,1,1,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,1,142,0,
+0,0,144,1,1,1,1,1,1,1,1,1,1,1,1,320,1,1,1,1,1,1,142,0,
+0,0,166,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,135,167,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="depth_999999_grid_0" width="24" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,287,0,0,0,0,287,0,0,0,0,0,0,0,287,0,0,0,0,
+0,0,0,0,0,0,287,0,0,0,0,287,0,0,0,0,0,0,0,287,0,0,0,0,
+0,0,0,0,0,0,287,0,0,0,0,287,0,0,0,0,0,0,0,287,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" type="obj_spikes_room" gid="353" x="300" y="98" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100545"/>
+   </properties>
+  </object>
+  <object id="2" type="obj_spikes_room" gid="353" x="300" y="118" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100546"/>
+   </properties>
+  </object>
+  <object id="3" type="obj_spikes_room" gid="353" x="300" y="138" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100547"/>
+   </properties>
+  </object>
+  <object id="4" type="obj_spikes_room" gid="353" x="300" y="158" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100548"/>
+   </properties>
+  </object>
+  <object id="5" type="obj_spikes_room" gid="353" x="300" y="178" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100549"/>
+   </properties>
+  </object>
+  <object id="6" type="obj_spikes_room" gid="353" x="300" y="198" width="18" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100550"/>
+   </properties>
+  </object>
+  <object id="10" type="obj_mainchara" gid="354" x="140" y="129" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="100554"/>
+   </properties>
+  </object>
+  <object id="17" type="obj_pushrock3" gid="355" x="180" y="153" width="20" height="18">
+   <properties>
+    <property name="instanceId" type="int" value="100561"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

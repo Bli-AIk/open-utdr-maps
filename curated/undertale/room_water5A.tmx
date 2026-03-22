@@ -1,73 +1,123 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="51" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx" />
-  <tileset firstgid="361" source="tilesets/free_tile_p10_24_44_20x20.tsx" />
-  <tileset firstgid="362" source="tilesets/free_tile_p10_104_244_20x40.tsx" />
-  <tileset firstgid="363" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="364" source="tilesets/obj_echoflower.tsx" />
-  <tileset firstgid="367" source="tilesets/obj_npc_room.tsx" />
-  <tileset firstgid="370" source="tilesets/obj_dockanim.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,145,145,145,145,145,145,145,145,145,0,0,0,0,0,0,0,145,145,145,148,145,145,148,145,145,0,0,0,0,0,0,0,145,145,145,145,145,145,145,145,145,0,0,0,0,0,0,0,145,145,145,145,145,145,145,145,145,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,188,19,0,0,0,0,0,0,0,0,0,0,205,205,205,205,206,19,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,38,38,38,38,38,38,38,59,0,0,0,0,0,0,56,0,0,0,0,0,0,0,56,19,0,0,0,0,0,0,56,0,0,0,0,0,0,0,56,19,0,0,0,0,0,0,74,0,0,0,0,0,0,0,74,19,0,0,0,38,38,39,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,19,0,0,0,74,74,75,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="4" name="depth_1000000_free_3">
-    <object id="1" gid="361" x="-20" y="120" width="20" height="20" />
-  </objectgroup>
-  <layer id="5" name="depth_1000000_grid_4" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="6" name="depth_1000000_free_5">
-    <object id="2" gid="362" x="80" y="220" width="20" height="40" />
-  </objectgroup>
-  <layer id="7" name="depth_1000000_grid_6" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,92,56,56,56,56,93,56,0,0,0,0,0,0,0,0,0,110,74,74,74,111,74,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,222,222,222,222,0,0,0,0,0,0,0,0,0,0,0,0,187,187,187,187,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="8" name="objects">
-    <object id="3" gid="363" type="obj_mainchara" x="80" y="149" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="104401" />
-      </properties>
-    </object>
-    <object id="4" gid="364" type="obj_echoflower" x="200" y="128" width="19" height="28">
-      <properties>
-        <property name="instanceId" type="int" value="104402" />
-      </properties>
-    </object>
-    <object id="7" gid="367" type="obj_npc_room" x="140" y="149" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="104405" />
-      </properties>
-    </object>
-    <object id="45" gid="370" type="obj_dockanim" x="80" y="210" width="20" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="104443" />
-      </properties>
-    </object>
-    <object id="46" gid="370" type="obj_dockanim" x="60" y="210" width="20" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="104444" />
-      </properties>
-    </object>
-    <object id="47" gid="370" type="obj_dockanim" x="20" y="210" width="20" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="104445" />
-      </properties>
-    </object>
-    <object id="48" gid="370" type="obj_dockanim" x="40" y="210" width="20" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="104446" />
-      </properties>
-    </object>
-    <object id="49" gid="370" type="obj_dockanim" x="0" y="210" width="20" height="10">
-      <properties>
-        <property name="instanceId" type="int" value="104447" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="10" nextobjectid="51">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx"/>
+ <tileset firstgid="361" source="tilesets/free_tile_p10_24_44_20x20.tsx"/>
+ <tileset firstgid="362" source="tilesets/free_tile_p10_104_244_20x40.tsx"/>
+ <tileset firstgid="363" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="364" source="tilesets/obj_echoflower.tsx"/>
+ <tileset firstgid="365" source="tilesets/obj_npc_room.tsx"/>
+ <tileset firstgid="366" source="tilesets/obj_dockanim.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,56,56,56,56,56,56,56,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,145,145,145,145,145,145,145,145,145,0,0,0,0,
+0,0,0,145,145,145,148,145,145,148,145,145,0,0,0,0,
+0,0,0,145,145,145,145,145,145,145,145,145,0,0,0,0,
+0,0,0,145,145,145,145,145,145,145,145,145,0,0,0,0,
+0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,188,19,0,0,0,0,0,0,0,0,0,0,
+205,205,205,205,206,19,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,38,38,38,38,38,38,38,38,59,0,0,0,
+0,0,0,56,0,0,0,0,0,0,0,56,19,0,0,0,
+0,0,0,56,0,0,0,0,0,0,0,56,19,0,0,0,
+0,0,0,74,0,0,0,0,0,0,0,74,19,0,0,0,
+38,38,39,0,0,0,0,0,0,0,0,0,19,0,0,0,
+0,0,57,0,0,0,0,0,0,0,0,0,19,0,0,0,
+0,0,57,0,0,0,0,0,0,0,0,0,19,0,0,0,
+74,74,75,0,0,0,0,0,0,0,0,0,19,0,0,0,
+0,0,0,0,0,0,2,2,2,2,2,2,77,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="depth_1000000_free_3"/>
+ <layer id="5" name="depth_1000000_grid_4" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,58,38,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="depth_1000000_free_5">
+  <object id="2" gid="362" x="80" y="220" width="20" height="40"/>
+ </objectgroup>
+ <layer id="7" name="depth_1000000_grid_6" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,92,56,56,56,56,93,56,0,0,0,0,0,
+0,0,0,0,110,74,74,74,111,74,74,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+222,222,222,222,0,0,0,0,0,0,0,0,0,0,0,0,
+187,187,187,187,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="objects">
+  <object id="3" type="obj_mainchara" gid="363" x="80" y="149" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="104401"/>
+   </properties>
+  </object>
+  <object id="4" type="obj_echoflower" gid="364" x="200" y="128" width="19" height="28">
+   <properties>
+    <property name="instanceId" type="int" value="104402"/>
+   </properties>
+  </object>
+  <object id="7" type="obj_npc_room" gid="365" x="140" y="149" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="104405"/>
+   </properties>
+  </object>
+  <object id="45" type="obj_dockanim" gid="366" x="80" y="210" width="20" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="104443"/>
+   </properties>
+  </object>
+  <object id="46" type="obj_dockanim" gid="366" x="60" y="210" width="20" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="104444"/>
+   </properties>
+  </object>
+  <object id="47" type="obj_dockanim" gid="366" x="20" y="210" width="20" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="104445"/>
+   </properties>
+  </object>
+  <object id="48" type="obj_dockanim" gid="366" x="40" y="210" width="20" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="104446"/>
+   </properties>
+  </object>
+  <object id="49" type="obj_dockanim" gid="366" x="0" y="210" width="20" height="10">
+   <properties>
+    <property name="instanceId" type="int" value="104447"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

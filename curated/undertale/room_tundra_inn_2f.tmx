@@ -1,38 +1,51 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="10" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx" />
-  <tileset firstgid="677" source="tilesets/free_tile_p10_372_844_320x241.tsx" />
-  <tileset firstgid="678" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="680" source="tilesets/obj_snoozer.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,0,20,20,20,20,20,20,0,0,0,0,20,20,20,20,20,0,20,20,20,20,20,20,0,0,0,0,41,41,1,1,1,0,1,41,41,41,41,1,0,0,0,0,41,41,1,1,1,0,1,41,41,41,41,1,0,0,0,0,1,1,1,1,1,0,1,41,41,41,41,1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,1,20,20,1,1,0,1,1,20,20,1,1,0,0,0,0,0,20,20,0,0,0,0,0,20,20,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</data>
-  </layer>
-  <objectgroup id="2" name="depth_1000000_free_1">
-    <object id="1" gid="677" x="0" y="241" width="320" height="241" />
-  </objectgroup>
-  <objectgroup id="3" name="objects">
-    <object id="3" gid="678" type="obj_mainchara" x="50" y="95" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103400" />
-      </properties>
-    </object>
-    <object id="5" gid="680" type="obj_snoozer" x="186" y="95" width="5" height="5">
-      <properties>
-        <property name="instanceId" type="int" value="103402" />
-      </properties>
-    </object>
-    <object id="6" gid="680" type="obj_snoozer" x="188" y="73" width="5" height="5">
-      <properties>
-        <property name="instanceId" type="int" value="103403" />
-      </properties>
-    </object>
-    <object id="7" gid="680" type="obj_snoozer" x="188" y="119" width="5" height="5">
-      <properties>
-        <property name="instanceId" type="int" value="103404" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="5" nextobjectid="10">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx"/>
+ <tileset firstgid="676" source="tilesets/free_tile_p10_372_844_320x241.tsx"/>
+ <tileset firstgid="677" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="678" source="tilesets/obj_snoozer.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,20,20,20,20,20,0,20,20,20,20,20,20,0,0,
+0,0,20,20,20,20,20,0,20,20,20,20,20,20,0,0,
+0,0,41,41,1,1,1,0,1,41,41,41,41,1,0,0,
+0,0,41,41,1,1,1,0,1,41,41,41,41,1,0,0,
+0,0,1,1,1,1,1,0,1,41,41,41,41,1,0,0,
+0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,
+0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,
+0,0,1,20,20,1,1,0,1,1,20,20,1,1,0,0,
+0,0,0,20,20,0,0,0,0,0,20,20,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="2" name="depth_1000000_free_1">
+  <object id="1" gid="676" x="0" y="241" width="320" height="241"/>
+ </objectgroup>
+ <objectgroup id="3" name="objects">
+  <object id="3" type="obj_mainchara" gid="677" x="50" y="95" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103400"/>
+   </properties>
+  </object>
+  <object id="5" type="obj_snoozer" gid="678" x="186" y="95" width="5" height="5">
+   <properties>
+    <property name="instanceId" type="int" value="103402"/>
+   </properties>
+  </object>
+  <object id="6" type="obj_snoozer" gid="678" x="188" y="73" width="5" height="5">
+   <properties>
+    <property name="instanceId" type="int" value="103403"/>
+   </properties>
+  </object>
+  <object id="7" type="obj_snoozer" gid="678" x="188" y="119" width="5" height="5">
+   <properties>
+    <property name="instanceId" type="int" value="103404"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

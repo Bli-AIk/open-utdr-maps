@@ -1,44 +1,83 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="11" nextobjectid="32" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_sansbasement_tiles.tsx" />
-  <tileset firstgid="22" source="tilesets/free_tile_p9_1540_688_20x20.tsx" />
-  <tileset firstgid="23" source="tilesets/free_tile_p11_624_1464_46x17.tsx" />
-  <tileset firstgid="24" source="tilesets/free_tile_p9_1560_628_20x20.tsx" />
-  <tileset firstgid="25" source="tilesets/free_tile_p11_1396_936_61x76.tsx" />
-  <tileset firstgid="27" source="tilesets/obj_mainchara.tsx" />
-  <objectgroup id="1" name="depth_1000000_free_0">
-    <object id="1" gid="22" x="130" y="120" width="20" height="20" />
-  </objectgroup>
-  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,0,0,0,0,0,0,2,0,0,9,2,2,2,2,2,2,7,2,0,0,0,0,2,0,0,9,16,17,17,17,17,18,7,2,0,0,0,0,5,0,0,5,13,0,0,14,14,14,14,14,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="3" name="depth_1000000_free_2">
-    <object id="2" gid="23" x="155" y="97" width="46" height="17" />
-    <object id="3" gid="24" x="110" y="120" width="20" height="20" />
-  </objectgroup>
-  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="5" name="depth_1000000_free_4">
-    <object id="4" gid="22" x="130" y="120" width="20" height="20" />
-  </objectgroup>
-  <layer id="6" name="depth_1000000_grid_5" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="7" name="depth_1000000_free_6">
-    <object id="5" gid="22" x="190" y="120" width="20" height="20" />
-  </objectgroup>
-  <objectgroup id="8" name="depth_1000_free_0">
-    <object id="6" gid="25" x="200" y="166" width="61" height="76" />
-  </objectgroup>
-  <objectgroup id="9" name="objects">
-    <object id="9" gid="27" type="obj_mainchara" x="50" y="139" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103693" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="11" nextobjectid="32">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_sansbasement_tiles.tsx"/>
+ <tileset firstgid="19" source="tilesets/free_tile_p9_1540_688_20x20.tsx"/>
+ <tileset firstgid="20" source="tilesets/free_tile_p11_624_1464_46x17.tsx"/>
+ <tileset firstgid="21" source="tilesets/free_tile_p9_1560_628_20x20.tsx"/>
+ <tileset firstgid="22" source="tilesets/free_tile_p11_1396_936_61x76.tsx"/>
+ <tileset firstgid="23" source="tilesets/obj_mainchara.tsx"/>
+ <objectgroup id="1" name="depth_1000000_free_0">
+  <object id="1" gid="19" x="130" y="120" width="20" height="20"/>
+ </objectgroup>
+ <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2,2,2,2,2,2,0,0,0,0,0,
+0,2,0,0,9,2,2,2,2,2,2,7,2,0,0,0,
+0,2,0,0,9,16,17,17,17,17,18,7,2,0,0,0,
+0,5,0,0,5,13,0,0,14,14,14,14,14,0,0,0,
+0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="depth_1000000_free_2">
+  <object id="2" gid="20" x="155" y="97" width="46" height="17"/>
+  <object id="3" gid="21" x="110" y="120" width="20" height="20"/>
+ </objectgroup>
+ <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,13,0,5,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="depth_1000000_free_4">
+  <object id="4" gid="19" x="130" y="120" width="20" height="20"/>
+ </objectgroup>
+ <layer id="6" name="depth_1000000_grid_5" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="depth_1000000_free_6">
+  <object id="5" gid="19" x="190" y="120" width="20" height="20"/>
+ </objectgroup>
+ <objectgroup id="8" name="depth_1000_free_0">
+  <object id="6" gid="22" x="200" y="166" width="61" height="76"/>
+ </objectgroup>
+ <objectgroup id="9" name="objects">
+  <object id="9" type="obj_mainchara" gid="23" x="50" y="139" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103693"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
