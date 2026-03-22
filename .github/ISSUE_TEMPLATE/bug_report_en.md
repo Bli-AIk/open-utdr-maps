@@ -1,11 +1,15 @@
 ---
 name: Bug Report
 about: Report map data errors or conversion issues
-title: '[Bug | <GAME>] <area or description>'
+title: '[Bug | <GAME> | 🐛] <area or description>'
 labels: bug
 ---
 
 <!--
+Please keep issue titles and bodies in English so triage stays consistent.
+Use the title prefix for quick scanning in the issue list.
+This template applies the base "bug" label automatically; maintainers may add more labels after triage.
+
 <GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
 <area or description>: e.g., "rm_mausoleum_entrance" or "room_ruins_1"
 -->
@@ -18,7 +22,7 @@ Briefly describe the issue.
 
 - Game: (Undertale / Deltarune ChX)
 - Room name:
-- Directory: (raw / curated)
+- Directory: (raw / curated / both)
 
 ## Expected Behavior
 
