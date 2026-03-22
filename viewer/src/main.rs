@@ -1,21 +1,24 @@
-use tiled_map_web_viewer::{MapCategory, MapSection, ViewerConfig};
+use tiled_map_web_viewer::{MapCategory, MapListView, ViewerConfig};
 
 fn main() {
     tiled_map_web_viewer::run(ViewerConfig {
         title: "Open UTDR Maps Viewer".into(),
         resolution: (1280, 720),
-        sections: vec![
-            MapSection {
-                name: "Curated Map List".into(),
-                key: "curated".into(),
+        map_lists: vec![
+            MapListView {
+                id: "map_list".into(),
+                title: "Map List".into(),
                 default_visible: true,
+                section_filter: Some("curated".into()),
             },
-            MapSection {
-                name: "Raw Map List".into(),
-                key: "raw".into(),
+            MapListView {
+                id: "raw_map_list".into(),
+                title: "Raw Map List".into(),
                 default_visible: false,
+                section_filter: Some("raw".into()),
             },
         ],
+        sections: vec![],
         categories: vec![
             MapCategory {
                 name: "Undertale".into(),
