@@ -4,15 +4,15 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx"/>
-  <tileset firstgid="1123" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="1124" source="tilesets/obj_actor_tenna.tsx"/>
-  <tileset firstgid="1125" source="tilesets/obj_screen_channel_change_sprite_test.tsx"/>
-  <tileset firstgid="1126" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="913" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="914" source="tilesets/obj_actor_tenna.tsx"/>
+  <tileset firstgid="915" source="tilesets/obj_screen_channel_change_sprite_test.tsx"/>
+  <tileset firstgid="916" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="BoardTiles" width="20" height="15">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,164,164,164,164,179,164,164,164,164,164,0,0,0,0,0,0,0,0,18,162,162,162,162,162,162,18,18,18,18,162,0,0,0,0,0,0,0,0,18,162,18,18,18,18,162,18,18,18,18,18,0,0,0,0,0,0,0,0,18,162,18,18,18,18,162,18,18,18,20,21,0,0,0,0,0,0,0,0,18,162,162,162,162,162,162,18,18,18,36,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="1123" type="obj_mainchara" x="320" y="397" width="19" height="37">
+    <object id="1" gid="913" type="obj_mainchara" x="320" y="397" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="109421"/>
       </properties>
@@ -22,7 +22,7 @@
         <property name="instanceId" type="int" value="109422"/>
       </properties>
     </object>
-    <object id="3" gid="1124" type="obj_actor_tenna" x="450" y="377" width="58" height="135">
+    <object id="3" gid="914" type="obj_actor_tenna" x="450" y="377" width="58" height="135">
       <properties>
         <property name="instanceId" type="int" value="109424"/>
       </properties>
@@ -37,37 +37,37 @@
         <property name="instanceId" type="int" value="109426"/>
       </properties>
     </object>
-    <object id="6" gid="1125" type="obj_screen_channel_change_sprite_test" x="73" y="322" width="68" height="65">
+    <object id="6" gid="915" type="obj_screen_channel_change_sprite_test" x="73" y="322" width="68" height="65">
       <properties>
         <property name="instanceId" type="int" value="109427"/>
       </properties>
     </object>
-    <object id="7" gid="1126" type="obj_solidblocksized" x="-139" y="420" width="40" height="40">
+    <object id="7" gid="916" type="obj_solidblocksized" x="-139" y="420" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109428"/>
       </properties>
     </object>
-    <object id="8" gid="1126" type="obj_solidblocksized" x="360" y="420" width="40" height="40">
+    <object id="8" gid="916" type="obj_solidblocksized" x="360" y="420" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109429"/>
       </properties>
     </object>
-    <object id="9" gid="1126" type="obj_solidblocksized" x="-139" y="322" width="40" height="40">
+    <object id="9" gid="916" type="obj_solidblocksized" x="-139" y="322" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109430"/>
       </properties>
     </object>
-    <object id="10" gid="1126" type="obj_solidblocksized" x="520" y="341" width="40" height="40">
+    <object id="10" gid="916" type="obj_solidblocksized" x="520" y="341" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109431"/>
       </properties>
     </object>
-    <object id="11" gid="1126" type="obj_solidblocksized" x="80" y="520" width="40" height="40">
+    <object id="11" gid="916" type="obj_solidblocksized" x="80" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109432"/>
       </properties>
     </object>
-    <object id="12" gid="1126" type="obj_solidblocksized" x="-40" y="360" width="40" height="40">
+    <object id="12" gid="916" type="obj_solidblocksized" x="-40" y="360" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="109433"/>
       </properties>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="41" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="52" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_hoteltile.tsx" />
+  <tileset firstgid="80" source="tilesets/free_tile_p9_1080_1368_20x60.tsx" />
+  <tileset firstgid="81" source="tilesets/free_tile_p9_1100_1368_20x60.tsx" />
+  <tileset firstgid="82" source="tilesets/free_tile_p10_2008_1404_36x49.tsx" />
+  <tileset firstgid="84" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="87" source="tilesets/obj_slimejanitor.tsx" />
+  <tileset firstgid="95" source="tilesets/obj_sign_room.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="41" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="80" x="80" y="140" width="20" height="60" />
+    <object id="2" gid="80" x="100" y="140" width="20" height="60" />
+    <object id="3" gid="80" x="120" y="140" width="20" height="60" />
+    <object id="4" gid="80" x="140" y="140" width="20" height="60" />
+    <object id="5" gid="80" x="160" y="140" width="20" height="60" />
+    <object id="6" gid="80" x="180" y="140" width="20" height="60" />
+    <object id="7" gid="80" x="200" y="140" width="20" height="60" />
+    <object id="8" gid="80" x="220" y="140" width="20" height="60" />
+    <object id="9" gid="80" x="240" y="140" width="20" height="60" />
+    <object id="10" gid="80" x="260" y="140" width="20" height="60" />
+    <object id="11" gid="80" x="280" y="140" width="20" height="60" />
+    <object id="12" gid="80" x="300" y="140" width="20" height="60" />
+    <object id="13" gid="80" x="320" y="140" width="20" height="60" />
+    <object id="14" gid="80" x="340" y="140" width="20" height="60" />
+    <object id="15" gid="80" x="360" y="140" width="20" height="60" />
+    <object id="16" gid="80" x="380" y="140" width="20" height="60" />
+    <object id="17" gid="80" x="400" y="140" width="20" height="60" />
+    <object id="18" gid="80" x="420" y="140" width="20" height="60" />
+    <object id="19" gid="81" x="440" y="140" width="20" height="60" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="41" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="20" gid="80" x="60" y="140" width="20" height="60" />
+    <object id="21" gid="80" x="40" y="140" width="20" height="60" />
+    <object id="22" gid="80" x="20" y="140" width="20" height="60" />
+    <object id="23" gid="80" x="0" y="140" width="20" height="60" />
+    <object id="24" gid="80" x="-20" y="140" width="20" height="60" />
+  </objectgroup>
+  <objectgroup id="5" name="depth_900000_free_0">
+    <object id="25" gid="82" x="112" y="141" width="36" height="49" />
+    <object id="26" gid="82" x="188" y="141" width="36" height="49" />
+    <object id="27" gid="82" x="262" y="141" width="36" height="49" />
+    <object id="28" gid="82" x="336" y="141" width="36" height="49" />
+  </objectgroup>
+  <objectgroup id="6" name="objects">
+    <object id="30" gid="84" type="obj_mainchara" x="80" y="169" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110332" />
+      </properties>
+    </object>
+    <object id="35" gid="87" type="obj_slimejanitor" x="388" y="176" width="64" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="110337" />
+      </properties>
+    </object>
+    <object id="50" gid="95" type="obj_sign_room" x="616" y="200" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="110352" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

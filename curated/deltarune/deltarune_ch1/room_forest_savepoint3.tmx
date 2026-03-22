@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="62">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_darkforest_tiles.tsx" />
+  <tileset firstgid="73" source="tilesets/bg_neoruins.tsx" />
+  <tileset firstgid="121" source="tilesets/free_tile_p6_122_984_40x80.tsx" />
+  <tileset firstgid="122" source="tilesets/free_tile_p6_42_944_120x40.tsx" />
+  <tileset firstgid="123" source="tilesets/free_tile_p6_2_984_40x80.tsx" />
+  <tileset firstgid="124" source="tilesets/free_tile_p6_2_944_120x40.tsx" />
+  <tileset firstgid="125" source="tilesets/free_tile_p6_2_984_40x160.tsx" />
+  <tileset firstgid="126" source="tilesets/free_tile_p6_42_984_80x80.tsx" />
+  <tileset firstgid="127" source="tilesets/free_tile_p6_42_984_80x200.tsx" />
+  <tileset firstgid="128" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="129" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="131" source="tilesets/obj_musicer_forest.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,79,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,0,20,20,20,20,0,0,0,0,0,25,26,26,26,26,26,32,32,32,32,32,0,0,0,0,0,25,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,0,32,26,26,32,0,0,0,0,0,0,0,0,0,0,0,0,0,25,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,27,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="1" gid="126" x="440" y="480" width="80" height="80" />
+    <object id="2" gid="126" x="520" y="400" width="80" height="80" />
+    <object id="3" gid="126" x="520" y="480" width="80" height="80" />
+    <object id="4" gid="126" x="600" y="400" width="80" height="80" />
+    <object id="5" gid="126" x="600" y="480" width="80" height="80" />
+    <object id="6" gid="126" x="120" y="480" width="80" height="80" />
+    <object id="7" gid="126" x="40" y="400" width="80" height="80" />
+    <object id="8" gid="126" x="40" y="480" width="80" height="80" />
+    <object id="9" gid="126" x="-40" y="480" width="80" height="80" />
+    <object id="10" gid="126" x="-40" y="400" width="80" height="80" />
+    <object id="11" gid="126" x="40" y="320" width="80" height="80" />
+    <object id="12" gid="126" x="-40" y="320" width="80" height="80" />
+    <object id="13" gid="126" x="40" y="240" width="80" height="80" />
+    <object id="14" gid="126" x="-40" y="240" width="80" height="80" />
+    <object id="15" gid="126" x="-40" y="160" width="80" height="80" />
+    <object id="16" gid="126" x="40" y="160" width="80" height="80" />
+    <object id="17" gid="126" x="-40" y="80" width="80" height="80" />
+    <object id="18" gid="126" x="40" y="80" width="80" height="80" />
+    <object id="19" gid="127" x="120" y="120" width="80" height="200" />
+    <object id="20" gid="127" x="200" y="120" width="80" height="200" />
+    <object id="21" gid="127" x="280" y="120" width="80" height="200" />
+    <object id="22" gid="127" x="360" y="120" width="80" height="200" />
+    <object id="23" gid="127" x="520" y="200" width="80" height="200" />
+    <object id="24" gid="127" x="440" y="120" width="80" height="200" />
+    <object id="25" gid="127" x="600" y="200" width="80" height="200" />
+  </objectgroup>
+  <objectgroup id="4" name="depth_990000_free_0">
+    <object id="26" gid="121" x="120" y="80" width="40" height="80" />
+    <object id="27" gid="121" x="120" y="160" width="40" height="80" />
+    <object id="28" gid="121" x="120" y="240" width="40" height="80" />
+    <object id="29" gid="121" x="120" y="320" width="40" height="80" />
+    <object id="30" gid="121" x="120" y="400" width="40" height="80" />
+    <object id="31" gid="121" x="200" y="480" width="40" height="80" />
+    <object id="32" gid="122" x="120" y="400" width="120" height="40" />
+    <object id="33" gid="123" x="400" y="480" width="40" height="80" />
+    <object id="34" gid="123" x="480" y="400" width="40" height="80" />
+    <object id="35" gid="124" x="400" y="400" width="120" height="40" />
+    <object id="36" gid="124" x="480" y="320" width="120" height="40" />
+  </objectgroup>
+  <layer id="5" name="depth_990000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="depth_990000_free_2">
+    <object id="37" gid="125" x="480" y="160" width="40" height="160" />
+  </objectgroup>
+  <objectgroup id="7" name="objects">
+    <object id="38" gid="128" type="obj_mainchara" x="300" y="198" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102600" />
+      </properties>
+    </object>
+    <object id="39" gid="129" type="obj_savepoint" x="300" y="139" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="102601" />
+      </properties>
+    </object>
+    <object id="42" gid="131" type="obj_musicer_forest" x="120" y="72" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="102604" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

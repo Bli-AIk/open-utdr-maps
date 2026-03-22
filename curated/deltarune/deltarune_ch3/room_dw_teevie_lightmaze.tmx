@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="34" height="23" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="95">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_teevie_land_tileset.tsx" />
+  <tileset firstgid="157" source="tilesets/bg_dw_b3bs_tileset.tsx" />
+  <tileset firstgid="427" source="tilesets/obj_dw_teevie_stealth_chaselamp.tsx" />
+  <tileset firstgid="428" source="tilesets/obj_treasure_room.tsx" />
+  <tileset firstgid="429" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="430" source="tilesets/obj_dw_teevie_lightmaze.tsx" />
+  <tileset firstgid="431" source="tilesets/obj_dw_teevie_cameras_cheer.tsx" />
+  <tileset firstgid="432" source="tilesets/obj_triggervolume.tsx" />
+  <tileset firstgid="434" source="tilesets/obj_dw_ch3_funny_stanchion_controller.tsx" />
+  <layer id="1" name="FarBGTiles" width="34" height="23">
+    <data encoding="csv">0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,175,0,0,175,175,175,175,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,175,175,175,175,175,175,175,0,0,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175,175</data>
+  </layer>
+  <layer id="2" name="BGTiles" width="34" height="23">
+    <data encoding="csv">0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,28,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,0,28,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,0,28,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,0,28,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,0,28,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,41,41,41,41,41,41,41,41,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,28,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,34,46,46,46,46,46,46,46,46,46,46,46,46,46,46,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,41,41,41,41,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,0,0,0,0,0,0,0,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,41,41,41,41,41,41,41,41,41,41,41,41,0,0,0,0,0,0,0,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,0,28,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,34,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="295" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109434" />
+      </properties>
+    </object>
+    <object id="2" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="415" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109435" />
+      </properties>
+    </object>
+    <object id="3" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109436" />
+      </properties>
+    </object>
+    <object id="4" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="355" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109437" />
+      </properties>
+    </object>
+    <object id="5" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="415" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109438" />
+      </properties>
+    </object>
+    <object id="6" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109439" />
+      </properties>
+    </object>
+    <object id="7" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="380" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109440" />
+      </properties>
+    </object>
+    <object id="8" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="340" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109441" />
+      </properties>
+    </object>
+    <object id="9" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="340" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109442" />
+      </properties>
+    </object>
+    <object id="10" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="340" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109443" />
+      </properties>
+    </object>
+    <object id="11" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="715" y="340" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109444" />
+      </properties>
+    </object>
+    <object id="12" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="340" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109445" />
+      </properties>
+    </object>
+    <object id="13" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="725" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109446" />
+      </properties>
+    </object>
+    <object id="14" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109447" />
+      </properties>
+    </object>
+    <object id="15" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109448" />
+      </properties>
+    </object>
+    <object id="16" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109449" />
+      </properties>
+    </object>
+    <object id="17" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109450" />
+      </properties>
+    </object>
+    <object id="18" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="715" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109451" />
+      </properties>
+    </object>
+    <object id="19" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="260" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109452" />
+      </properties>
+    </object>
+    <object id="20" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="220" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109453" />
+      </properties>
+    </object>
+    <object id="21" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="180" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109454" />
+      </properties>
+    </object>
+    <object id="22" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109455" />
+      </properties>
+    </object>
+    <object id="23" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="355" y="500" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109456" />
+      </properties>
+    </object>
+    <object id="24" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="355" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109457" />
+      </properties>
+    </object>
+    <object id="25" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109458" />
+      </properties>
+    </object>
+    <object id="26" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109459" />
+      </properties>
+    </object>
+    <object id="27" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109460" />
+      </properties>
+    </object>
+    <object id="28" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="715" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109461" />
+      </properties>
+    </object>
+    <object id="29" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="580" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109462" />
+      </properties>
+    </object>
+    <object id="30" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="580" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109463" />
+      </properties>
+    </object>
+    <object id="31" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="580" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109464" />
+      </properties>
+    </object>
+    <object id="32" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="540" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109465" />
+      </properties>
+    </object>
+    <object id="33" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="500" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109466" />
+      </properties>
+    </object>
+    <object id="34" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109467" />
+      </properties>
+    </object>
+    <object id="35" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109468" />
+      </properties>
+    </object>
+    <object id="36" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109469" />
+      </properties>
+    </object>
+    <object id="37" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="715" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109470" />
+      </properties>
+    </object>
+    <object id="38" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109471" />
+      </properties>
+    </object>
+    <object id="39" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="835" y="420" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109472" />
+      </properties>
+    </object>
+    <object id="40" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="295" y="700" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109473" />
+      </properties>
+    </object>
+    <object id="41" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="295" y="660" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109474" />
+      </properties>
+    </object>
+    <object id="42" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="415" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109475" />
+      </properties>
+    </object>
+    <object id="43" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="580" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109476" />
+      </properties>
+    </object>
+    <object id="44" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="415" y="700" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109477" />
+      </properties>
+    </object>
+    <object id="45" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="700" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109478" />
+      </properties>
+    </object>
+    <object id="46" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109479" />
+      </properties>
+    </object>
+    <object id="47" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="355" y="540" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109480" />
+      </properties>
+    </object>
+    <object id="48" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="415" y="460" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109481" />
+      </properties>
+    </object>
+    <object id="49" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="420" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109482" />
+      </properties>
+    </object>
+    <object id="50" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="295" y="620" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109483" />
+      </properties>
+    </object>
+    <object id="51" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="295" y="580" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109484" />
+      </properties>
+    </object>
+    <object id="52" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="355" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109485" />
+      </properties>
+    </object>
+    <object id="53" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="415" y="500" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109486" />
+      </properties>
+    </object>
+    <object id="54" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="540" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109487" />
+      </properties>
+    </object>
+    <object id="55" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="660" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109488" />
+      </properties>
+    </object>
+    <object id="56" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="475" y="220" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109489" />
+      </properties>
+    </object>
+    <object id="57" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="220" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109490" />
+      </properties>
+    </object>
+    <object id="58" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="220" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109491" />
+      </properties>
+    </object>
+    <object id="59" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="220" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109492" />
+      </properties>
+    </object>
+    <object id="60" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="775" y="180" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109493" />
+      </properties>
+    </object>
+    <object id="61" gid="428" type="obj_treasure_room" x="170" y="289" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="109494" />
+      </properties>
+    </object>
+    <object id="62" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="715" y="710" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109495" />
+      </properties>
+    </object>
+    <object id="63" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="295" y="340" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109496" />
+      </properties>
+    </object>
+    <object id="64" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109497" />
+      </properties>
+    </object>
+    <object id="65" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109498" />
+      </properties>
+    </object>
+    <object id="66" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="655" y="300" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109499" />
+      </properties>
+    </object>
+    <object id="67" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="535" y="540" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109500" />
+      </properties>
+    </object>
+    <object id="68" gid="427" type="obj_dw_teevie_stealth_chaselamp" x="595" y="540" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="109501" />
+      </properties>
+    </object>
+    <object id="69" gid="429" type="obj_mainchara" x="12" y="375" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="109502" />
+      </properties>
+    </object>
+    <object id="72" gid="430" type="obj_dw_teevie_lightmaze" x="-40" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="109505" />
+      </properties>
+    </object>
+    <object id="73" gid="431" type="obj_dw_teevie_cameras_cheer" x="38" y="460" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109506" />
+      </properties>
+    </object>
+    <object id="74" gid="431" type="obj_dw_teevie_cameras_cheer" x="958" y="740" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109507" />
+      </properties>
+    </object>
+    <object id="75" gid="432" type="obj_triggervolume" x="800" y="604" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="109508" />
+      </properties>
+    </object>
+    <object id="76" gid="431" type="obj_dw_teevie_cameras_cheer" x="400" y="780" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109509" />
+      </properties>
+    </object>
+    <object id="77" gid="432" type="obj_triggervolume" x="760" y="604" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="109510" />
+      </properties>
+    </object>
+    <object id="78" gid="432" type="obj_triggervolume" x="776" y="626" width="4" height="4">
+      <properties>
+        <property name="instanceId" type="int" value="109511" />
+      </properties>
+    </object>
+    <object id="80" gid="434" type="obj_dw_ch3_funny_stanchion_controller" x="80" y="170" width="20" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="109513" />
+      </properties>
+    </object>
+    <object id="81" gid="434" type="obj_dw_ch3_funny_stanchion_controller" x="80" y="368" width="20" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="109514" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

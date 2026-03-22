@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="71" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_paptrash.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_papfridge.tsx" />
+  <tileset firstgid="3" source="tilesets/obj_papsink.tsx" />
+  <tileset firstgid="4" source="tilesets/obj_papstove.tsx" />
+  <tileset firstgid="5" source="tilesets/obj_kitchenchecker.tsx" />
+  <tileset firstgid="6" source="tilesets/obj_sansdoor.tsx" />
+  <tileset firstgid="7" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="8" source="tilesets/obj_paptable.tsx" />
+  <tileset firstgid="11" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="13" source="tilesets/obj_paptv.tsx" />
+  <tileset firstgid="14" source="tilesets/obj_papcouch.tsx" />
+  <tileset firstgid="15" source="tilesets/obj_booktable.tsx" />
+  <tileset firstgid="17" source="tilesets/obj_papyrus_guide.tsx" />
+  <tileset firstgid="18" source="tilesets/obj_papdoor.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_paptrash" x="261" y="131" width="17" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103503" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_papfridge" x="246" y="75" width="34" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="103504" />
+      </properties>
+    </object>
+    <object id="3" gid="3" type="obj_papsink" x="202" y="75" width="33" height="69">
+      <properties>
+        <property name="instanceId" type="int" value="103505" />
+      </properties>
+    </object>
+    <object id="4" gid="4" type="obj_papstove" x="181" y="132" width="22" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103506" />
+      </properties>
+    </object>
+    <object id="5" gid="5" type="obj_kitchenchecker" x="160" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="103507" />
+      </properties>
+    </object>
+    <object id="6" gid="6" type="obj_sansdoor" x="241" y="58" width="36" height="49">
+      <properties>
+        <property name="instanceId" type="int" value="103508" />
+      </properties>
+    </object>
+    <object id="7" gid="7" type="obj_mainchara" x="220" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="103509" />
+      </properties>
+    </object>
+    <object id="8" gid="8" type="obj_paptable" x="262" y="218" width="37" height="68">
+      <properties>
+        <property name="instanceId" type="int" value="103510" />
+      </properties>
+    </object>
+    <object id="39" gid="11" type="obj_npc_room" x="176" y="161" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="103541" />
+      </properties>
+    </object>
+    <object id="43" gid="13" type="obj_paptv" x="115" y="151" width="52" height="46">
+      <properties>
+        <property name="instanceId" type="int" value="103545" />
+      </properties>
+    </object>
+    <object id="44" gid="14" type="obj_papcouch" x="100" y="219" width="80" height="36">
+      <properties>
+        <property name="instanceId" type="int" value="103546" />
+      </properties>
+    </object>
+    <object id="51" gid="15" type="obj_booktable" x="30" y="211" width="25" height="25">
+      <properties>
+        <property name="instanceId" type="int" value="103553" />
+      </properties>
+    </object>
+    <object id="54" gid="17" type="obj_papyrus_guide" x="27" y="183" width="25" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="103556" />
+      </properties>
+    </object>
+    <object id="56" gid="18" type="obj_papdoor" x="33" y="58" width="36" height="49">
+      <properties>
+        <property name="instanceId" type="int" value="103558" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

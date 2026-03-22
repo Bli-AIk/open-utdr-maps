@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="13" nextobjectid="36" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="361" source="tilesets/bg_pipezone_tiles.tsx" />
+  <tileset firstgid="386" source="tilesets/free_tile_p10_324_1020_20x20.tsx" />
+  <tileset firstgid="387" source="tilesets/free_tile_p11_1340_1324_120x100.tsx" />
+  <tileset firstgid="388" source="tilesets/free_tile_p11_4_1892_82x42.tsx" />
+  <tileset firstgid="389" source="tilesets/free_tile_p10_332_2016_83x27.tsx" />
+  <tileset firstgid="390" source="tilesets/free_tile_p11_1972_200_68x41.tsx" />
+  <tileset firstgid="391" source="tilesets/free_tile_p11_148_2000_68x41.tsx" />
+  <tileset firstgid="392" source="tilesets/obj_elevatordoor.tsx" />
+  <tileset firstgid="394" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="403" source="tilesets/obj_hotland_bottomedge.tsx" />
+  <tileset firstgid="404" source="tilesets/obj_elev_floorsign.tsx" />
+  <tileset firstgid="405" source="tilesets/obj_elevatorgem.tsx" />
+  <tileset firstgid="406" source="tilesets/obj_cogsmall.tsx" />
+  <tileset firstgid="407" source="tilesets/obj_gaster_follower_b.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="386" x="140" y="0" width="20" height="20" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,361,362,362,362,362,362,0,0,0,0,0,0,0,0,0,0,366,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,371,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,362,362,362,362,362,362,362,362,362,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,372,372,372,372,372,372,372,372,372,372,372,372,372,372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="6" name="depth_1000000_grid_5" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,367,367,367,367,367,367,367,367,367,367,367,367,367,367,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="8" name="depth_1000000_grid_7" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,376,377,377,377,377,377,377,377,377,377,377,377,377,377,377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="9" name="depth_1000000_free_8">
+    <object id="2" gid="387" x="60" y="100" width="120" height="100" />
+    <object id="3" gid="388" x="80" y="222" width="82" height="42" />
+    <object id="4" gid="389" x="80" y="249" width="83" height="27" />
+  </objectgroup>
+  <objectgroup id="10" name="depth_600000_free_0">
+    <object id="5" gid="390" x="162" y="204" width="68" height="41" />
+    <object id="6" gid="391" x="12" y="204" width="68" height="41" />
+  </objectgroup>
+  <objectgroup id="11" name="objects">
+    <object id="7" gid="392" type="obj_elevatordoor" x="96" y="100" width="57" height="55">
+      <properties>
+        <property name="instanceId" type="int" value="109215" />
+      </properties>
+    </object>
+    <object id="9" gid="394" type="obj_mainchara" x="60" y="144" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109217" />
+      </properties>
+    </object>
+    <object id="25" gid="403" type="obj_hotland_bottomedge" x="20" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109233" />
+      </properties>
+    </object>
+    <object id="26" gid="404" type="obj_elev_floorsign" x="104" y="41" width="33" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="109234" />
+      </properties>
+    </object>
+    <object id="27" gid="405" type="obj_elevatorgem" x="96" y="212" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109235" />
+      </properties>
+    </object>
+    <object id="28" gid="405" type="obj_elevatorgem" x="140" y="212" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109236" />
+      </properties>
+    </object>
+    <object id="29" gid="405" type="obj_elevatorgem" x="96" y="239" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109237" />
+      </properties>
+    </object>
+    <object id="30" gid="405" type="obj_elevatorgem" x="140" y="239" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109238" />
+      </properties>
+    </object>
+    <object id="31" gid="406" type="obj_cogsmall" x="223" y="50" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109239" />
+      </properties>
+    </object>
+    <object id="32" gid="406" type="obj_cogsmall" x="262" y="23" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109240" />
+      </properties>
+    </object>
+    <object id="33" gid="406" type="obj_cogsmall" x="281" y="67" width="15" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109241" />
+      </properties>
+    </object>
+    <object id="34" gid="407" type="obj_gaster_follower_b" x="204" y="112" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109242" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

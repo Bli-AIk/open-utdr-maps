@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="34" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_greyruinsplaceholder.tsx" />
+  <tileset firstgid="129" source="tilesets/obj_coffin.tsx" />
+  <tileset firstgid="130" source="tilesets/obj_mainchara.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,33,33,0,0,33,33,33,33,33,33,33,33,33,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1000000_grid_2" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,33,33,33,33,33,33,33,33,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="129" type="obj_coffin" x="140" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112125" />
+      </properties>
+    </object>
+    <object id="2" gid="129" type="obj_coffin" x="180" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112126" />
+      </properties>
+    </object>
+    <object id="3" gid="129" type="obj_coffin" x="220" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112127" />
+      </properties>
+    </object>
+    <object id="4" gid="129" type="obj_coffin" x="260" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112128" />
+      </properties>
+    </object>
+    <object id="5" gid="129" type="obj_coffin" x="300" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112129" />
+      </properties>
+    </object>
+    <object id="6" gid="129" type="obj_coffin" x="340" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112130" />
+      </properties>
+    </object>
+    <object id="7" gid="129" type="obj_coffin" x="380" y="191" width="33" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="112131" />
+      </properties>
+    </object>
+    <object id="8" gid="130" type="obj_mainchara" x="100" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112132" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

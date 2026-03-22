@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="17" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="76" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_watertiles.tsx" />
+  <tileset firstgid="225" source="tilesets/obj_fakefalls.tsx" />
+  <tileset firstgid="226" source="tilesets/obj_fakefalls_bg.tsx" />
+  <tileset firstgid="227" source="tilesets/obj_groundtorch.tsx" />
+  <tileset firstgid="233" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="242" source="tilesets/obj_waterripple.tsx" />
+  <tileset firstgid="243" source="tilesets/obj_echoflower.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="40" height="17">
+    <data encoding="csv">0,0,0,0,203,203,203,203,203,203,203,203,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,204,204,204,204,204,204,204,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,204,204,204,204,204,204,204,204,0,51,0,102,103,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,204,204,204,204,204,204,204,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,204,204,0,0,0,204,204,204,0,0,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,204,204,0,0,0,204,204,204,0,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,113,147,147,147,147,147,147,147,147,147,175,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,0,113,113,113,147,147,147,147,147,147,147,147,147,175,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,0,113,113,113,147,147,147,147,147,147,147,147,147,175,175,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,175,175,0,0,0,0,202,202,202,202,202,202,202,202,202,0,175,175,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,204,204,204,204,204,204,204,204,0,0,175,175,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,114,114,0,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,114,114,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="depth_1000_grid_0" width="40" height="17">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="225" type="obj_fakefalls" x="140" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113832" />
+      </properties>
+    </object>
+    <object id="2" gid="225" type="obj_fakefalls" x="160" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113833" />
+      </properties>
+    </object>
+    <object id="3" gid="225" type="obj_fakefalls" x="180" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113834" />
+      </properties>
+    </object>
+    <object id="4" gid="226" type="obj_fakefalls_bg" x="80" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113835" />
+      </properties>
+    </object>
+    <object id="5" gid="226" type="obj_fakefalls_bg" x="100" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113836" />
+      </properties>
+    </object>
+    <object id="6" gid="226" type="obj_fakefalls_bg" x="120" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113837" />
+      </properties>
+    </object>
+    <object id="7" gid="226" type="obj_fakefalls_bg" x="200" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113838" />
+      </properties>
+    </object>
+    <object id="8" gid="226" type="obj_fakefalls_bg" x="220" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113839" />
+      </properties>
+    </object>
+    <object id="9" gid="226" type="obj_fakefalls_bg" x="240" y="120" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="113840" />
+      </properties>
+    </object>
+    <object id="10" gid="227" type="obj_groundtorch" x="40" y="146" width="16" height="26">
+      <properties>
+        <property name="instanceId" type="int" value="113841" />
+      </properties>
+    </object>
+    <object id="11" gid="227" type="obj_groundtorch" x="330" y="146" width="16" height="26">
+      <properties>
+        <property name="instanceId" type="int" value="113842" />
+      </properties>
+    </object>
+    <object id="12" gid="227" type="obj_groundtorch" x="160" y="96" width="16" height="26">
+      <properties>
+        <property name="instanceId" type="int" value="113843" />
+      </properties>
+    </object>
+    <object id="24" gid="233" type="obj_mainchara" x="340" y="229" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="113855" />
+      </properties>
+    </object>
+    <object id="56" gid="242" type="obj_waterripple" x="180" y="170" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="113887" />
+      </properties>
+    </object>
+    <object id="57" gid="243" type="obj_echoflower" x="40" y="288" width="19" height="28">
+      <properties>
+        <property name="instanceId" type="int" value="113888" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="31" height="22" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="72">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_cctiles.tsx" />
+  <tileset firstgid="145" source="tilesets/free_tile_p9_121_721_160x120.tsx" />
+  <tileset firstgid="146" source="tilesets/free_tile_p9_121_241_120x120.tsx" />
+  <tileset firstgid="147" source="tilesets/free_tile_p9_1_841_120x120.tsx" />
+  <tileset firstgid="148" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="149" source="tilesets/obj_chaseenemy.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="31" height="22">
+    <data encoding="csv">0,0,25,0,0,0,0,0,0,0,0,0,0,25,0,0,0,27,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,25,0,0,0,27,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,25,0,0,0,27,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,25,0,0,0,27,0,0,0,0,0,0,0,0,0,0,27,0,0,0,0,1,2,2,2,3,0,0,0,1,2,3,25,0,0,0,27,1,2,3,0,0,0,1,2,2,2,3,0,0,0,1,11,4,14,14,15,0,0,0,13,14,15,25,0,0,0,27,13,14,15,0,0,0,13,14,14,5,10,3,0,0,7,4,15,0,0,27,1,2,3,25,0,27,25,0,0,0,27,25,0,27,1,2,3,25,0,0,13,5,9,0,0,7,9,0,0,0,27,13,14,15,25,0,27,25,0,0,0,27,25,0,27,13,14,15,25,0,0,0,7,9,0,0,7,9,0,0,0,27,25,0,27,25,0,27,25,1,2,3,27,25,0,27,25,0,27,25,0,0,0,7,9,0,0,7,9,0,0,0,27,25,0,27,25,0,27,25,7,0,9,27,25,0,27,25,0,27,25,0,0,0,7,9,0,0,7,10,2,3,0,27,25,0,27,25,0,1,2,11,0,10,2,3,0,27,25,0,27,25,0,1,2,11,9,0,0,13,5,0,9,0,27,25,0,27,25,0,7,0,4,14,5,0,9,0,27,25,0,27,25,0,7,0,4,15,0,0,0,13,5,10,2,3,25,0,27,1,2,11,0,9,0,7,0,10,2,3,25,0,27,1,2,11,4,15,0,0,0,0,25,7,0,0,9,25,0,27,7,0,0,0,9,0,7,0,0,0,9,25,0,27,7,0,0,9,27,0,0,0,0,25,7,0,0,10,2,2,2,11,0,0,0,9,0,7,0,0,0,10,2,2,2,11,0,0,9,27,0,0,0,0,25,13,14,14,5,0,0,0,4,14,14,14,15,0,13,14,14,14,5,0,0,0,4,14,14,15,27,0,0,0,0,25,0,0,0,13,5,0,4,15,0,0,0,0,0,0,0,0,0,13,5,0,4,15,0,0,0,27,0,0,0,0,25,0,0,0,0,13,14,15,0,0,0,0,0,0,0,0,0,0,0,13,14,15,0,0,0,0,27,0,0,0,0,25,0,0,0,0,25,0,27,0,0,0,0,0,0,0,0,0,0,0,25,0,27,0,0,0,0,27,0,0,0,0,25,0,0,0,0,25,0,27,0,0,0,0,0,0,0,0,0,0,0,25,0,27,0,0,0,0,27,0,0,0,0,25,0,0,0,0,25,0,27,0,0,0,0,0,0,0,0,0,0,0,25,0,27,0,0,0,0,27,0,0,0,0,25,0,0,0,0,25,0,27,0,0,0,0,0,0,0,0,0,0,0,25,0,27,0,0,0,0,27,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_950000_free_0">
+    <object id="1" gid="145" x="560" y="320" width="160" height="120" />
+    <object id="2" gid="146" x="960" y="160" width="120" height="120" />
+    <object id="3" gid="147" x="160" y="160" width="120" height="120" />
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="4" gid="148" type="obj_mainchara" x="600" y="338" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="103112" />
+      </properties>
+    </object>
+    <object id="6" gid="149" type="obj_chaseenemy" x="120" y="580" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103114" />
+      </properties>
+    </object>
+    <object id="7" gid="149" type="obj_chaseenemy" x="1040" y="580" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="103115" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="29" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="46">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_alleyway_tileset.tsx" />
+  <tileset firstgid="346" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="347" source="tilesets/obj_holemouse_block_clockwise.tsx" />
+  <tileset firstgid="348" source="tilesets/obj_resetBell.tsx" />
+  <tileset firstgid="349" source="tilesets/obj_holemouse_invis_clockwise.tsx" />
+  <tileset firstgid="350" source="tilesets/obj_holemouse_invis_counterclockwise.tsx" />
+  <tileset firstgid="351" source="tilesets/obj_holemouse_generator.tsx" />
+  <tileset firstgid="352" source="tilesets/obj_holemouse_goal.tsx" />
+  <tileset firstgid="353" source="tilesets/obj_holemouse_block_counterclockwise.tsx" />
+  <tileset firstgid="354" source="tilesets/obj_mouseTrigger.tsx" />
+  <tileset firstgid="357" source="tilesets/obj_forcefield.tsx" />
+  <layer id="1" name="BG_Tiles" width="29" height="12">
+    <data encoding="csv">0,0,0,0,0,0,259,260,260,260,260,260,260,260,260,260,260,261,0,0,0,0,0,0,0,0,0,0,0,245,245,245,245,245,246,274,275,275,275,275,275,275,275,275,275,275,276,244,245,245,245,245,245,245,246,0,0,0,260,260,260,260,260,261,289,290,290,290,290,290,290,290,290,290,290,291,259,260,260,260,260,260,260,261,244,245,245,275,275,275,275,275,276,304,305,305,305,305,305,305,305,305,305,305,306,274,275,275,275,275,275,275,276,259,260,260,290,290,290,290,290,291,170,170,170,170,170,170,170,170,170,170,170,170,289,290,290,290,290,290,290,291,274,275,275,305,305,305,305,305,306,170,170,113,113,113,113,113,113,0,0,113,113,304,305,305,305,305,305,305,306,289,290,290,170,170,170,170,170,170,170,170,113,113,0,0,113,113,113,113,113,113,170,113,170,170,170,170,170,170,304,305,305,170,170,170,170,170,170,170,170,113,113,113,113,113,113,113,113,113,113,113,113,170,170,170,170,170,170,170,170,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,113,113,113,170,170,170,170,170,170,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="346" type="obj_mainchara" x="22" y="278" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107623" />
+      </properties>
+    </object>
+    <object id="3" gid="347" type="obj_holemouse_block_clockwise" x="-120" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107625" />
+      </properties>
+    </object>
+    <object id="4" gid="348" type="obj_resetBell" x="-280" y="-90" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107626" />
+      </properties>
+    </object>
+    <object id="5" gid="349" type="obj_holemouse_invis_clockwise" x="-120" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107627" />
+      </properties>
+    </object>
+    <object id="6" gid="350" type="obj_holemouse_invis_counterclockwise" x="-120" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107628" />
+      </properties>
+    </object>
+    <object id="7" gid="351" type="obj_holemouse_generator" x="320" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107629" />
+      </properties>
+    </object>
+    <object id="8" gid="352" type="obj_holemouse_goal" x="720" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107630" />
+      </properties>
+    </object>
+    <object id="9" gid="353" type="obj_holemouse_block_counterclockwise" x="-200" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107631" />
+      </properties>
+    </object>
+    <object id="10" gid="347" type="obj_holemouse_block_clockwise" x="520" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107632" />
+      </properties>
+    </object>
+    <object id="11" gid="353" type="obj_holemouse_block_counterclockwise" x="600" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107633" />
+      </properties>
+    </object>
+    <object id="12" gid="347" type="obj_holemouse_block_clockwise" x="640" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107634" />
+      </properties>
+    </object>
+    <object id="13" gid="347" type="obj_holemouse_block_clockwise" x="680" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107635" />
+      </properties>
+    </object>
+    <object id="14" gid="348" type="obj_resetBell" x="280" y="190" width="20" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107636" />
+      </properties>
+    </object>
+    <object id="15" gid="354" type="obj_mouseTrigger" x="240" y="149" width="19" height="51">
+      <properties>
+        <property name="instanceId" type="int" value="107637" />
+      </properties>
+    </object>
+    <object id="26" gid="357" type="obj_forcefield" x="840" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107648" />
+      </properties>
+    </object>
+    <object id="38" gid="349" type="obj_holemouse_invis_clockwise" x="360" y="140" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107660" />
+      </properties>
+    </object>
+    <object id="39" gid="349" type="obj_holemouse_invis_clockwise" x="560" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107661" />
+      </properties>
+    </object>
+    <object id="40" gid="349" type="obj_holemouse_invis_clockwise" x="400" y="260" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107662" />
+      </properties>
+    </object>
+    <object id="41" gid="349" type="obj_holemouse_invis_clockwise" x="200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107663" />
+      </properties>
+    </object>
+    <object id="42" gid="349" type="obj_holemouse_invis_clockwise" x="760" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107664" />
+      </properties>
+    </object>
+    <object id="43" gid="349" type="obj_holemouse_invis_clockwise" x="320" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107665" />
+      </properties>
+    </object>
+    <object id="44" gid="349" type="obj_holemouse_invis_clockwise" x="640" y="380" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107666" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

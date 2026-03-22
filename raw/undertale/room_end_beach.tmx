@@ -4,42 +4,42 @@
     <property name="speed" type="int" value="30"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_endtileset.tsx"/>
-  <tileset firstgid="120" source="tilesets/bg_beachicecream.tsx"/>
-  <tileset firstgid="121" source="tilesets/free_tile_p11_1484_352_20x60.tsx"/>
-  <tileset firstgid="122" source="tilesets/free_tile_p11_1484_412_20x60.tsx"/>
-  <tileset firstgid="123" source="tilesets/free_tile_p11_112_1440_57x56.tsx"/>
-  <tileset firstgid="124" source="tilesets/obj_endbeachanim.tsx"/>
+  <tileset firstgid="127" source="tilesets/bg_beachicecream.tsx"/>
+  <tileset firstgid="128" source="tilesets/free_tile_p11_1484_352_20x60.tsx"/>
+  <tileset firstgid="129" source="tilesets/free_tile_p11_1484_412_20x60.tsx"/>
+  <tileset firstgid="130" source="tilesets/free_tile_p11_112_1440_57x56.tsx"/>
+  <tileset firstgid="131" source="tilesets/obj_endbeachanim.tsx"/>
   <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
     <data encoding="csv">29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,29,29,29,29,29,29,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="depth_1000000_free_1">
-    <object id="1" gid="121" x="0" y="140" width="20" height="60"/>
-    <object id="2" gid="121" x="20" y="140" width="20" height="60"/>
-    <object id="3" gid="121" x="40" y="140" width="20" height="60"/>
-    <object id="4" gid="121" x="60" y="140" width="20" height="60"/>
-    <object id="5" gid="121" x="80" y="140" width="20" height="60"/>
-    <object id="6" gid="121" x="100" y="140" width="20" height="60"/>
-    <object id="7" gid="121" x="120" y="140" width="20" height="60"/>
-    <object id="8" gid="121" x="140" y="140" width="20" height="60"/>
+    <object id="1" gid="128" x="0" y="140" width="20" height="60"/>
+    <object id="2" gid="128" x="20" y="140" width="20" height="60"/>
+    <object id="3" gid="128" x="40" y="140" width="20" height="60"/>
+    <object id="4" gid="128" x="60" y="140" width="20" height="60"/>
+    <object id="5" gid="128" x="80" y="140" width="20" height="60"/>
+    <object id="6" gid="128" x="100" y="140" width="20" height="60"/>
+    <object id="7" gid="128" x="120" y="140" width="20" height="60"/>
+    <object id="8" gid="128" x="140" y="140" width="20" height="60"/>
   </objectgroup>
   <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="4" name="depth_1000000_free_3">
-    <object id="9" gid="122" x="0" y="240" width="20" height="60"/>
-    <object id="10" gid="122" x="20" y="240" width="20" height="60"/>
-    <object id="11" gid="122" x="40" y="240" width="20" height="60"/>
-    <object id="12" gid="122" x="60" y="240" width="20" height="60"/>
-    <object id="13" gid="122" x="80" y="240" width="20" height="60"/>
-    <object id="14" gid="122" x="100" y="240" width="20" height="60"/>
-    <object id="15" gid="122" x="120" y="240" width="20" height="60"/>
-    <object id="16" gid="122" x="140" y="240" width="20" height="60"/>
+    <object id="9" gid="129" x="0" y="240" width="20" height="60"/>
+    <object id="10" gid="129" x="20" y="240" width="20" height="60"/>
+    <object id="11" gid="129" x="40" y="240" width="20" height="60"/>
+    <object id="12" gid="129" x="60" y="240" width="20" height="60"/>
+    <object id="13" gid="129" x="80" y="240" width="20" height="60"/>
+    <object id="14" gid="129" x="100" y="240" width="20" height="60"/>
+    <object id="15" gid="129" x="120" y="240" width="20" height="60"/>
+    <object id="16" gid="129" x="140" y="240" width="20" height="60"/>
   </objectgroup>
   <objectgroup id="5" name="depth_900000_free_0">
-    <object id="17" gid="123" x="103" y="56" width="57" height="56"/>
+    <object id="17" gid="130" x="103" y="56" width="57" height="56"/>
   </objectgroup>
   <objectgroup id="6" name="objects">
-    <object id="18" gid="124" type="obj_endbeachanim" x="94" y="95" width="21" height="31">
+    <object id="18" gid="131" type="obj_endbeachanim" x="94" y="95" width="21" height="31">
       <properties>
         <property name="instanceId" type="int" value="113483"/>
       </properties>

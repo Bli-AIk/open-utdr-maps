@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="28" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="64" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="363" source="tilesets/free_tile_p9_332_1116_320x560.tsx" />
+  <tileset firstgid="364" source="tilesets/obj_mainchara.tsx" />
+  <objectgroup id="2" name="depth_4000_free_0">
+    <object id="1" gid="363" x="0" y="560" width="320" height="560" />
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="2" gid="364" type="obj_mainchara" x="150" y="499" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110405" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

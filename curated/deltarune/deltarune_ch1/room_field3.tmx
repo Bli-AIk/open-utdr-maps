@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="33">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_neoruins.tsx" />
+  <tileset firstgid="49" source="tilesets/bg_darkfield_tiles.tsx" />
+  <tileset firstgid="125" source="tilesets/free_tile_p5_1530_450_210x182.tsx" />
+  <tileset firstgid="126" source="tilesets/free_tile_p5_1740_450_210x182.tsx" />
+  <tileset firstgid="127" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="133" source="tilesets/obj_musicer_field.tsx" />
+  <tileset firstgid="135" source="tilesets/obj_scarelancerevent.tsx" />
+  <tileset firstgid="136" source="tilesets/obj_shortcut_door.tsx" />
+  <tileset firstgid="137" source="tilesets/obj_purplegrass.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="30" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,68,68,68,68,68,68,0,0,0,0,0,68,68,68,68,68,68,68,0,0,0,0,0,0,68,68,68,68,69,7,7,7,7,7,7,7,67,68,68,68,69,7,7,7,7,7,7,7,67,68,68,68,68,68,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,0,56,56,56,57,7,7,7,7,7,7,7,0,56,56,56,57,7,7,7,7,7,7,7,0,56,56,56,56,56,0,0,0,0,0,56,56,56,56,56,56,56,0,0,0,0,0,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="125" x="480" y="222" width="210" height="182" />
+    <object id="2" gid="126" x="480" y="522" width="210" height="182" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="30" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="3" gid="126" x="0" y="222" width="210" height="182" />
+    <object id="4" gid="125" x="0" y="522" width="210" height="182" />
+    <object id="5" gid="125" x="960" y="522" width="210" height="182" />
+    <object id="6" gid="126" x="940" y="222" width="210" height="182" />
+  </objectgroup>
+  <layer id="5" name="depth_1000000_grid_4" width="30" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="7" gid="127" type="obj_mainchara" x="220" y="288" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101519" />
+      </properties>
+    </object>
+    <object id="14" gid="133" type="obj_musicer_field" x="104" y="84" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101526" />
+      </properties>
+    </object>
+    <object id="25" gid="135" type="obj_scarelancerevent" x="830" y="255" width="36" height="35">
+      <properties>
+        <property name="instanceId" type="int" value="101537" />
+      </properties>
+    </object>
+    <object id="26" gid="136" type="obj_shortcut_door" x="300" y="148" width="36" height="52">
+      <properties>
+        <property name="instanceId" type="int" value="101538" />
+      </properties>
+    </object>
+    <object id="27" gid="137" type="obj_purplegrass" x="0" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101539" />
+      </properties>
+    </object>
+    <object id="28" gid="137" type="obj_purplegrass" x="200" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101540" />
+      </properties>
+    </object>
+    <object id="29" gid="137" type="obj_purplegrass" x="480" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101541" />
+      </properties>
+    </object>
+    <object id="30" gid="137" type="obj_purplegrass" x="680" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101542" />
+      </properties>
+    </object>
+    <object id="31" gid="137" type="obj_purplegrass" x="960" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101543" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

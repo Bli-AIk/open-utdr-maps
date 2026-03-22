@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="35" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_wanderparent.tsx" />
+  <tileset firstgid="9" source="tilesets/obj_fader.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="400" y="349" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="113438" />
+      </properties>
+    </object>
+    <object id="2" gid="2" type="obj_wanderparent" x="680" y="319" width="40" height="79">
+      <properties>
+        <property name="instanceId" type="int" value="113439" />
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_wanderparent" x="440" y="359" width="40" height="79">
+      <properties>
+        <property name="instanceId" type="int" value="113440" />
+      </properties>
+    </object>
+    <object id="4" gid="2" type="obj_wanderparent" x="480" y="399" width="40" height="79">
+      <properties>
+        <property name="instanceId" type="int" value="113441" />
+      </properties>
+    </object>
+    <object id="33" gid="9" type="obj_fader" x="32" y="18" width="2" height="2">
+      <properties>
+        <property name="instanceId" type="int" value="113470" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

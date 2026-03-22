@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="31" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="26">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_castle_1f_tileset.tsx" />
+  <tileset firstgid="129" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="138" source="tilesets/obj_castle_cauldron_glow.tsx" />
+  <tileset firstgid="139" source="tilesets/obj_npc_room_animated.tsx" />
+  <layer id="1" name="TILES" width="31" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,88,89,89,89,89,89,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,75,76,77,78,79,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,89,89,89,89,89,89,90,54,91,92,93,94,95,6,88,89,89,89,89,89,89,89,0,0,0,0,0,0,0,0,54,7,13,14,15,11,54,18,54,107,108,109,110,111,5,2,7,8,9,10,11,54,22,0,0,0,0,0,0,0,0,54,23,29,30,31,27,4,5,35,123,124,125,126,127,37,3,23,24,25,26,27,6,54,0,0,0,0,0,0,0,0,22,54,45,46,47,38,39,18,70,73,86,84,87,73,71,2,54,40,41,42,38,39,4,0,0,0,0,0,0,0,0,36,20,61,62,63,20,36,21,84,84,84,84,84,84,84,19,20,56,57,58,36,20,20,0,0,0,0,0,0,0,0,70,72,86,84,87,72,73,74,52,84,84,84,84,84,84,72,73,86,84,87,72,73,71,0,0,0,0,0,0,0,0,84,84,84,84,52,84,84,84,84,84,84,84,84,84,68,84,84,84,84,84,84,84,66,0,0,0,0,0,0,0,0,84,52,84,84,84,84,84,68,84,84,84,84,84,52,84,84,84,84,68,84,84,84,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,84,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,84,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="129" type="obj_mainchara" x="600" y="397" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101268" />
+      </properties>
+    </object>
+    <object id="22" gid="138" type="obj_castle_cauldron_glow" x="520" y="400" width="200" height="160">
+      <properties>
+        <property name="instanceId" type="int" value="101289" />
+      </properties>
+    </object>
+    <object id="23" gid="139" type="obj_npc_room_animated" x="560" y="285" width="52" height="45">
+      <properties>
+        <property name="instanceId" type="int" value="101290" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

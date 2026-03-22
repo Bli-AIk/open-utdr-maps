@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="25" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="33">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="584" source="tilesets/obj_dw_churchb_man.tsx" />
+  <tileset firstgid="585" source="tilesets/obj_trigger_interact.tsx" />
+  <tileset firstgid="586" source="tilesets/obj_krmarker.tsx" />
+  <layer id="1" name="TILES" width="40" height="25">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="583" type="obj_mainchara" x="1530" y="825" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="111413" />
+      </properties>
+    </object>
+    <object id="3" gid="584" type="obj_dw_churchb_man" x="1000" y="889" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="111415" />
+      </properties>
+    </object>
+    <object id="4" gid="585" type="obj_trigger_interact" x="619" y="573" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111416" />
+      </properties>
+    </object>
+    <object id="5" gid="585" type="obj_trigger_interact" x="495" y="518" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111417" />
+      </properties>
+    </object>
+    <object id="6" gid="585" type="obj_trigger_interact" x="494" y="448" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111418" />
+      </properties>
+    </object>
+    <object id="7" gid="585" type="obj_trigger_interact" x="750" y="416" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111419" />
+      </properties>
+    </object>
+    <object id="8" gid="585" type="obj_trigger_interact" x="904" y="460" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111420" />
+      </properties>
+    </object>
+    <object id="9" gid="585" type="obj_trigger_interact" x="904" y="542" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111421" />
+      </properties>
+    </object>
+    <object id="10" gid="585" type="obj_trigger_interact" x="500" y="692" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111422" />
+      </properties>
+    </object>
+    <object id="11" gid="585" type="obj_trigger_interact" x="740" y="692" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="111423" />
+      </properties>
+    </object>
+    <object id="12" gid="586" type="obj_krmarker" x="665" y="548" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="111424" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

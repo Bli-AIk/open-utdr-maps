@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="16">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_ch3_dw_tvland_stage_tileset.tsx" />
+  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36,36,36,36,36,36,36,36,236,236,36,36,36,36,36,36,36</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="361" type="obj_mainchara" x="899" y="434" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="109957" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

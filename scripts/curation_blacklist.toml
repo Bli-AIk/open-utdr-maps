@@ -1,0 +1,87 @@
+# Blacklist rules for promoting a room from raw/ to curated/.
+# Update this file instead of hard-coding new cleanup rules in the script.
+
+[layer_names]
+exact = ["views"]
+
+[object_types]
+exact = [
+  "obj_overworldcontroller",
+  "obj_bouncetilecontoller",
+  "obj_underground_exit",
+  "obj_readable_room1",
+  "obj_weirdEvent_addison_city_big_2",
+  "obj_controller_dw_city_big_2",
+  "obj_charmarker",
+  "obj_board_solid",
+  "obj_board_checkpoint",
+  "obj_board_boatsolid",
+  "obj_b3lobby",
+  "obj_board_b3_elevatorcheck",
+  "obj_board_warptouch",
+  "obj_chaseenemy_board_spawner",
+  "obj_board_trigger",
+  "obj_dw_church_intro1",
+  "obj_readable_room4",
+  "obj_readable_room5",
+  "obj_trigger_room",
+  "obj_cookshowevent",
+  "obj_quietwatermusic",
+  "obj_mysterymusic",
+  "obj_encounterer_glyde",
+  "obj_icecave_fader",
+  "obj_shockblock",
+  "obj_papyrus2",
+  "obj_sur",
+  "obj_sdr",
+  "obj_triswitchevent",
+  "obj_phonecall_room",
+  "obj_conveyorl",
+  "obj_conveyorr",
+  "obj_notify_room",
+  "obj_plotwall_room",
+  "obj_encounterer_ruins4",
+  "obj_watermusic",
+  "obj_encounterer_water2",
+  "obj_glowshroompuzzle",
+  "obj_sur_dark",
+  "obj_sdl_dark",
+  "obj_event_room",
+]
+keep_exact = [
+  "obj_door_solid",
+  "obj_solidrailing",
+  "obj_solidrailing2",
+  "obj_solidrailing3",
+]
+prefix = [
+  "obj_marker",
+  "obj_solid",
+  "obj_door",
+]
+
+[object_fingerprints]
+# 20x20 generic trigger / event marker sprite shared by many debug and cutscene helper objects.
+# 20x20 readable room helper sprite shared by obj_readable_room1-5 style helpers.
+# 14x14 water spot marker sprite used by obj_inwaterspot-style helpers.
+exact = [
+  "20:20:2aa37a68ffe5114b7804b3936aa176ee208ccb96421b381610bb750aa8442dd3",
+  "20:20:521997ab3f217bd0137b6ff54c9f90731a131521b003e1788b3b7aea8b39af5d",
+  "20:20:84a873fe131ed79699a81e0c1ea4467722bfba2fca766c0c62cff460b3cdc4a2",
+  "20:20:f8658d79c4aed637c67f76539f5fd7f23f001d7f18ba4f854722f533e18eb851",
+  "20:20:b82fc854cc33060a72cbd5fc0c1cae1019b190449b7b958eb8f4f7867fac90a7",
+  "20:20:eabe828557589318bbd48961d5a63ddcdfe29d2a867daf1b305da47cc7257d3b",
+  "23:21:cb112e2174163df0e145a35a452a7b2e0c7913a7c70d98cdcbffd261e55f5c3f",
+  "14:14:f13a53d45b254b36b9a145618749701e0b6ad2cdff315634cf6e22de514e7aca",
+]
+
+[cleanup]
+remove_empty_object_layers = true
+remove_rectangle_objects_without_gid = true
+
+# Optional per-room keeps. Use "<dataset>:<room>" as the key.
+# Example:
+# [rooms."undertale:room_fire2"]
+# keep_object_types_exact = ["obj_doorA"]
+# keep_object_types_prefix = []
+# keep_layer_names_exact = []

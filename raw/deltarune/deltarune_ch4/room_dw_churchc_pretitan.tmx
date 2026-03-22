@@ -4,17 +4,17 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx"/>
-  <tileset firstgid="703" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="704" source="tilesets/obj_dw_churchc_pretitan.tsx"/>
-  <tileset firstgid="705" source="tilesets/obj_ch4_DCC01.tsx"/>
-  <tileset firstgid="706" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="707" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="708" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="584" source="tilesets/obj_dw_churchc_pretitan.tsx"/>
+  <tileset firstgid="585" source="tilesets/obj_ch4_DCC01.tsx"/>
+  <tileset firstgid="586" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="587" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="588" source="tilesets/obj_solidblocksized.tsx"/>
   <layer id="1" name="TILES" width="16" height="66">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,98,98,98,98,0,0,0,0,0,0,0,0,0,0,0,0,0,98,98,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="703" type="obj_mainchara" x="300" y="2591" width="19" height="37">
+    <object id="1" gid="583" type="obj_mainchara" x="300" y="2591" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="110081"/>
       </properties>
@@ -24,32 +24,32 @@
         <property name="instanceId" type="int" value="110082"/>
       </properties>
     </object>
-    <object id="3" gid="704" type="obj_dw_churchc_pretitan" x="-40" y="9" width="9" height="9">
+    <object id="3" gid="584" type="obj_dw_churchc_pretitan" x="-40" y="9" width="9" height="9">
       <properties>
         <property name="instanceId" type="int" value="110083"/>
       </properties>
     </object>
-    <object id="4" gid="705" type="obj_ch4_DCC01" x="-40" y="60" width="20" height="20">
+    <object id="4" gid="585" type="obj_ch4_DCC01" x="-40" y="60" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="110084"/>
       </properties>
     </object>
-    <object id="5" gid="706" type="obj_doorAny" x="200" y="2674" width="40" height="40">
+    <object id="5" gid="586" type="obj_doorAny" x="200" y="2674" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="110087"/>
       </properties>
     </object>
-    <object id="6" gid="707" type="obj_markerAny" x="300" y="2628" width="38" height="74">
+    <object id="6" gid="587" type="obj_markerAny" x="300" y="2628" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="110088"/>
       </properties>
     </object>
-    <object id="7" gid="708" type="obj_solidblocksized" x="440" y="1840" width="40" height="40">
+    <object id="7" gid="588" type="obj_solidblocksized" x="440" y="1840" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="110089"/>
       </properties>
     </object>
-    <object id="8" gid="708" type="obj_solidblocksized" x="0" y="1840" width="40" height="40">
+    <object id="8" gid="588" type="obj_solidblocksized" x="0" y="1840" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="110090"/>
       </properties>

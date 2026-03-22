@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="103" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="86">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx" />
+  <tileset firstgid="583" source="tilesets/obj_climb_climbable.tsx" />
+  <tileset firstgid="584" source="tilesets/obj_climbstartertrig.tsx" />
+  <tileset firstgid="585" source="tilesets/obj_climbstarter.tsx" />
+  <tileset firstgid="586" source="tilesets/obj_climb_watergenerator.tsx" />
+  <tileset firstgid="587" source="tilesets/obj_genmarker.tsx" />
+  <tileset firstgid="588" source="tilesets/obj_ramarker.tsx" />
+  <tileset firstgid="589" source="tilesets/obj_sumarker.tsx" />
+  <tileset firstgid="590" source="tilesets/obj_krmarker.tsx" />
+  <tileset firstgid="591" source="tilesets/obj_climb_landingstrip.tsx" />
+  <tileset firstgid="592" source="tilesets/obj_climb_mover.tsx" />
+  <tileset firstgid="593" source="tilesets/obj_trigger.tsx" />
+  <tileset firstgid="594" source="tilesets/obj_camera_clamper.tsx" />
+  <tileset firstgid="595" source="tilesets/obj_treasure_room.tsx" />
+  <tileset firstgid="596" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="597" source="tilesets/obj_dw_churchc_prophecies.tsx" />
+  <layer id="1" name="TILES" width="103" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,553,553,553,553,553,553,0,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,0,0,0,0,0,0,0,553,553,553,553,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,0,553,553,553,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,0,0,0,0,0,0,0,0,0,0,0,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,0,553,553,553,0,0,0,0,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,553,553,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,0,0,0,0,0,0,0,0,0,0,0,553,553,553,553,553,553,0,0,553,553,553,553,553,553,553,553,0,0,0,0,0,0,0,0,553,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,553,0,0,0,0,0,0,0,0,0,74,74,74,74,74,74,91,92,92,92,92,92,93,74,74,74,74,74,0,0,0,0,0,0,0,0,0,0,530,530,530,530,530,530,530,530,530,530,530,530,530,530,530,530,0,0,0,0,0,0,0,74,74,74,74,74,74,74,74,74,74,74,91,92,92,92,92,92,93,74,74,74,74,0,0,0,0,74,74,74,74,91,92,92,92,92,92,93,74,74,74,74,74,74,74,0,0,0,0,0,0,0,0,80,80,80,80,80,80,103,104,104,104,104,104,105,80,80,80,80,80,0,0,0,0,0,0,0,0,0,0,536,536,536,536,536,536,536,536,536,536,536,536,536,536,536,536,0,0,0,0,0,0,0,80,80,80,80,80,80,80,80,80,80,80,103,104,104,104,104,104,105,80,80,80,80,0,0,0,0,80,80,80,80,103,104,104,104,104,104,105,80,80,80,80,80,80,80,0,0,0,0,0,0,0,0,86,86,86,86,86,86,109,109,111,109,109,109,111,86,86,86,86,86,0,0,0,0,0,0,0,0,0,0,536,536,536,536,536,536,536,536,536,536,536,536,536,536,536,536,0,0,0,0,0,0,0,86,86,86,86,86,86,86,86,86,86,86,109,109,111,109,109,109,111,86,86,86,86,0,0,0,0,86,86,86,86,109,109,111,109,109,109,111,86,86,86,86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,116,117,116,115,116,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,536,536,536,536,536,536,536,536,536,536,542,536,536,536,536,536,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,115,116,117,116,115,116,117,0,0,0,0,0,0,0,0,0,0,0,0,115,116,117,116,115,116,117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,536,536,536,536,536,536,536,536,536,536,0,536,536,536,536,536,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="583" type="obj_climb_climbable" x="640" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112609" />
+      </properties>
+    </object>
+    <object id="2" gid="584" type="obj_climbstartertrig" x="640" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112610" />
+      </properties>
+    </object>
+    <object id="3" gid="585" type="obj_climbstarter" x="640" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112611" />
+      </properties>
+    </object>
+    <object id="4" gid="583" type="obj_climb_climbable" x="680" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112612" />
+      </properties>
+    </object>
+    <object id="5" gid="583" type="obj_climb_climbable" x="1440" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112613" />
+      </properties>
+    </object>
+    <object id="6" gid="583" type="obj_climb_climbable" x="1800" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112614" />
+      </properties>
+    </object>
+    <object id="7" gid="583" type="obj_climb_climbable" x="1960" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112615" />
+      </properties>
+    </object>
+    <object id="8" gid="583" type="obj_climb_climbable" x="1880" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112616" />
+      </properties>
+    </object>
+    <object id="9" gid="583" type="obj_climb_climbable" x="2080" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112617" />
+      </properties>
+    </object>
+    <object id="10" gid="585" type="obj_climbstarter" x="2080" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112618" />
+      </properties>
+    </object>
+    <object id="11" gid="584" type="obj_climbstartertrig" x="2080" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112619" />
+      </properties>
+    </object>
+    <object id="12" gid="586" type="obj_climb_watergenerator" x="1040" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112620" />
+      </properties>
+    </object>
+    <object id="13" gid="586" type="obj_climb_watergenerator" x="1080" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112621" />
+      </properties>
+    </object>
+    <object id="14" gid="586" type="obj_climb_watergenerator" x="760" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112622" />
+      </properties>
+    </object>
+    <object id="15" gid="586" type="obj_climb_watergenerator" x="800" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112623" />
+      </properties>
+    </object>
+    <object id="16" gid="586" type="obj_climb_watergenerator" x="1480" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112624" />
+      </properties>
+    </object>
+    <object id="17" gid="586" type="obj_climb_watergenerator" x="1520" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112625" />
+      </properties>
+    </object>
+    <object id="18" gid="583" type="obj_climb_climbable" x="960" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112626" />
+      </properties>
+    </object>
+    <object id="19" gid="583" type="obj_climb_climbable" x="960" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112627" />
+      </properties>
+    </object>
+    <object id="20" gid="583" type="obj_climb_climbable" x="1120" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112628" />
+      </properties>
+    </object>
+    <object id="21" gid="586" type="obj_climb_watergenerator" x="1440" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112629" />
+      </properties>
+    </object>
+    <object id="22" gid="586" type="obj_climb_watergenerator" x="840" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112630" />
+      </properties>
+    </object>
+    <object id="23" gid="586" type="obj_climb_watergenerator" x="1560" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112631" />
+      </properties>
+    </object>
+    <object id="24" gid="586" type="obj_climb_watergenerator" x="1600" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112632" />
+      </properties>
+    </object>
+    <object id="25" gid="586" type="obj_climb_watergenerator" x="1640" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112633" />
+      </properties>
+    </object>
+    <object id="26" gid="586" type="obj_climb_watergenerator" x="1680" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112634" />
+      </properties>
+    </object>
+    <object id="27" gid="586" type="obj_climb_watergenerator" x="1000" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112635" />
+      </properties>
+    </object>
+    <object id="28" gid="586" type="obj_climb_watergenerator" x="1840" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112636" />
+      </properties>
+    </object>
+    <object id="29" gid="586" type="obj_climb_watergenerator" x="1880" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112637" />
+      </properties>
+    </object>
+    <object id="30" gid="583" type="obj_climb_climbable" x="1720" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112638" />
+      </properties>
+    </object>
+    <object id="31" gid="586" type="obj_climb_watergenerator" x="1200" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112639" />
+      </properties>
+    </object>
+    <object id="32" gid="586" type="obj_climb_watergenerator" x="1240" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112640" />
+      </properties>
+    </object>
+    <object id="33" gid="586" type="obj_climb_watergenerator" x="1160" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112641" />
+      </properties>
+    </object>
+    <object id="34" gid="586" type="obj_climb_watergenerator" x="1280" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112642" />
+      </properties>
+    </object>
+    <object id="35" gid="583" type="obj_climb_climbable" x="3720" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112643" />
+      </properties>
+    </object>
+    <object id="36" gid="584" type="obj_climbstartertrig" x="3720" y="280" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112644" />
+      </properties>
+    </object>
+    <object id="37" gid="585" type="obj_climbstarter" x="3720" y="220" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112645" />
+      </properties>
+    </object>
+    <object id="38" gid="586" type="obj_climb_watergenerator" x="3840" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112646" />
+      </properties>
+    </object>
+    <object id="39" gid="583" type="obj_climb_climbable" x="1120" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112647" />
+      </properties>
+    </object>
+    <object id="40" gid="587" type="obj_genmarker" x="230" y="71" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="112648" />
+      </properties>
+    </object>
+    <object id="41" gid="587" type="obj_genmarker" x="2470" y="71" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="112649" />
+      </properties>
+    </object>
+    <object id="42" gid="588" type="obj_ramarker" x="656" y="287" width="21" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112650" />
+      </properties>
+    </object>
+    <object id="43" gid="589" type="obj_sumarker" x="610" y="285" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="112651" />
+      </properties>
+    </object>
+    <object id="44" gid="590" type="obj_krmarker" x="640" y="319" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112652" />
+      </properties>
+    </object>
+    <object id="45" gid="588" type="obj_ramarker" x="2096" y="287" width="21" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112653" />
+      </properties>
+    </object>
+    <object id="46" gid="589" type="obj_sumarker" x="2050" y="285" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="112654" />
+      </properties>
+    </object>
+    <object id="47" gid="590" type="obj_krmarker" x="2080" y="319" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112655" />
+      </properties>
+    </object>
+    <object id="48" gid="590" type="obj_krmarker" x="560" y="-81" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112656" />
+      </properties>
+    </object>
+    <object id="49" gid="590" type="obj_krmarker" x="2200" y="-81" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112657" />
+      </properties>
+    </object>
+    <object id="50" gid="591" type="obj_climb_landingstrip" x="520" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112658" />
+      </properties>
+    </object>
+    <object id="51" gid="591" type="obj_climb_landingstrip" x="2181" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112659" />
+      </properties>
+    </object>
+    <object id="52" gid="592" type="obj_climb_mover" x="2120" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112660" />
+      </properties>
+    </object>
+    <object id="53" gid="593" type="obj_trigger" x="240" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112661" />
+      </properties>
+    </object>
+    <object id="54" gid="593" type="obj_trigger" x="2480" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112662" />
+      </properties>
+    </object>
+    <object id="55" gid="593" type="obj_trigger" x="1520" y="450" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112663" />
+      </properties>
+    </object>
+    <object id="56" gid="590" type="obj_krmarker" x="3160" y="-81" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112664" />
+      </properties>
+    </object>
+    <object id="57" gid="591" type="obj_climb_landingstrip" x="3120" y="360" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112665" />
+      </properties>
+    </object>
+    <object id="58" gid="594" type="obj_camera_clamper" x="2320" y="40" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112666" />
+      </properties>
+    </object>
+    <object id="59" gid="595" type="obj_treasure_room" x="2860" y="315" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="112667" />
+      </properties>
+    </object>
+    <object id="60" gid="593" type="obj_trigger" x="3840" y="490" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112668" />
+      </properties>
+    </object>
+    <object id="61" gid="594" type="obj_camera_clamper" x="3000" y="-480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112669" />
+      </properties>
+    </object>
+    <object id="62" gid="587" type="obj_genmarker" x="3230" y="71" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="112670" />
+      </properties>
+    </object>
+    <object id="63" gid="593" type="obj_trigger" x="3240" y="290" width="10" height="10">
+      <properties>
+        <property name="instanceId" type="int" value="112671" />
+      </properties>
+    </object>
+    <object id="64" gid="588" type="obj_ramarker" x="3736" y="267" width="21" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112672" />
+      </properties>
+    </object>
+    <object id="65" gid="589" type="obj_sumarker" x="3690" y="265" width="26" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="112673" />
+      </properties>
+    </object>
+    <object id="66" gid="590" type="obj_krmarker" x="3720" y="299" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112674" />
+      </properties>
+    </object>
+    <object id="67" gid="594" type="obj_camera_clamper" x="520" y="-200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112675" />
+      </properties>
+    </object>
+    <object id="68" gid="590" type="obj_krmarker" x="560" y="-201" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="112676" />
+      </properties>
+    </object>
+    <object id="69" gid="596" type="obj_mainchara" x="12" y="295" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="112677" />
+      </properties>
+    </object>
+    <object id="71" gid="597" type="obj_dw_churchc_prophecies" x="-40" y="9" width="9" height="9">
+      <properties>
+        <property name="instanceId" type="int" value="112679" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

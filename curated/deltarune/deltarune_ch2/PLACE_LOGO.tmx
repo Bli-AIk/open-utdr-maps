@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="3">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/PROCESS_LOGO.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="PROCESS_LOGO" x="0" y="130" width="224" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="107325" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

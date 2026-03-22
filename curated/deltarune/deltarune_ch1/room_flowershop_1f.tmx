@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="31">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="10" source="tilesets/obj_flowershop_event.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="150" y="228" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="100556" />
+      </properties>
+    </object>
+    <object id="29" gid="10" type="obj_flowershop_event" x="136" y="93" width="47" height="63">
+      <properties>
+        <property name="instanceId" type="int" value="100584" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

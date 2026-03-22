@@ -4,17 +4,17 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_debug_battle_tileset.tsx"/>
-  <tileset firstgid="197" source="tilesets/bg_darktiles1_tileset.tsx"/>
-  <tileset firstgid="318" source="tilesets/bg_dw_library_tileset.tsx"/>
-  <tileset firstgid="319" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="320" source="tilesets/obj_darkness_overlay.tsx"/>
-  <tileset firstgid="321" source="tilesets/obj_lightsource_traveling.tsx"/>
-  <tileset firstgid="322" source="tilesets/obj_overworld_danmaku_spawner.tsx"/>
-  <tileset firstgid="323" source="tilesets/obj_overworld_darkness_bulletarea.tsx"/>
-  <tileset firstgid="324" source="tilesets/obj_heightfloor_darklight.tsx"/>
-  <tileset firstgid="325" source="tilesets/obj_dw_church_pushableshelf_3x3.tsx"/>
-  <tileset firstgid="326" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="327" source="tilesets/obj_solidenemy.tsx"/>
+  <tileset firstgid="169" source="tilesets/bg_darktiles1_tileset.tsx"/>
+  <tileset firstgid="269" source="tilesets/bg_dw_library_tileset.tsx"/>
+  <tileset firstgid="270" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="271" source="tilesets/obj_darkness_overlay.tsx"/>
+  <tileset firstgid="272" source="tilesets/obj_lightsource_traveling.tsx"/>
+  <tileset firstgid="273" source="tilesets/obj_overworld_danmaku_spawner.tsx"/>
+  <tileset firstgid="274" source="tilesets/obj_overworld_darkness_bulletarea.tsx"/>
+  <tileset firstgid="275" source="tilesets/obj_heightfloor_darklight.tsx"/>
+  <tileset firstgid="276" source="tilesets/obj_dw_church_pushableshelf_3x3.tsx"/>
+  <tileset firstgid="277" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="278" source="tilesets/obj_solidenemy.tsx"/>
   <layer id="1" name="TILES_BASE" width="32" height="24">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
@@ -25,7 +25,7 @@
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,9,37,17,17,17,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,9,11,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,9,11,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,9,11,0,0,0,9,0,0,0,37,17,17,17,17,39,0,0,0,11,0,0,0,2,3,3,4,0,0,0,0,0,0,9,51,3,3,3,53,0,0,0,11,0,0,0,0,9,0,0,0,11,0,0,0,9,0,0,11,0,0,0,0,0,0,16,17,17,17,17,0,0,0,0,11,0,0,0,0,9,0,0,0,11,0,0,0,9,0,0,11,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,11,0,0,2,3,53,0,0,0,11,0,0,0,9,0,0,11,0,0,3,3,3,3,3,3,3,3,3,53,0,0,0,11,0,0,9,0,0,0,0,0,11,0,0,0,9,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,3,3,53,0,0,0,0,0,51,3,3,3,53,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="4" name="objects">
-    <object id="1" gid="319" type="obj_mainchara" x="40" y="637" width="19" height="37">
+    <object id="1" gid="270" type="obj_mainchara" x="40" y="637" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="103887"/>
       </properties>
@@ -35,202 +35,202 @@
         <property name="instanceId" type="int" value="103888"/>
       </properties>
     </object>
-    <object id="3" gid="320" type="obj_darkness_overlay" x="0" y="60" width="40" height="60">
+    <object id="3" gid="271" type="obj_darkness_overlay" x="0" y="60" width="40" height="60">
       <properties>
         <property name="instanceId" type="int" value="103889"/>
       </properties>
     </object>
-    <object id="4" gid="321" type="obj_lightsource_traveling" x="1174" y="538" width="51" height="43">
+    <object id="4" gid="272" type="obj_lightsource_traveling" x="1174" y="538" width="51" height="43">
       <properties>
         <property name="instanceId" type="int" value="103890"/>
       </properties>
     </object>
-    <object id="5" gid="322" type="obj_overworld_danmaku_spawner" x="264" y="454" width="30" height="30">
+    <object id="5" gid="273" type="obj_overworld_danmaku_spawner" x="264" y="454" width="30" height="30">
       <properties>
         <property name="instanceId" type="int" value="103891"/>
       </properties>
     </object>
-    <object id="6" gid="323" type="obj_overworld_darkness_bulletarea" x="120" y="240" width="40" height="40">
+    <object id="6" gid="274" type="obj_overworld_darkness_bulletarea" x="120" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103892"/>
       </properties>
     </object>
-    <object id="7" gid="324" type="obj_heightfloor_darklight" x="600" y="340" width="20" height="20">
+    <object id="7" gid="275" type="obj_heightfloor_darklight" x="600" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103893"/>
       </properties>
     </object>
-    <object id="8" gid="324" type="obj_heightfloor_darklight" x="640" y="340" width="20" height="20">
+    <object id="8" gid="275" type="obj_heightfloor_darklight" x="640" y="340" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103894"/>
       </properties>
     </object>
-    <object id="9" gid="324" type="obj_heightfloor_darklight" x="600" y="300" width="20" height="20">
+    <object id="9" gid="275" type="obj_heightfloor_darklight" x="600" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103895"/>
       </properties>
     </object>
-    <object id="10" gid="324" type="obj_heightfloor_darklight" x="640" y="300" width="20" height="20">
+    <object id="10" gid="275" type="obj_heightfloor_darklight" x="640" y="300" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103896"/>
       </properties>
     </object>
-    <object id="11" gid="324" type="obj_heightfloor_darklight" x="400" y="580" width="20" height="20">
+    <object id="11" gid="275" type="obj_heightfloor_darklight" x="400" y="580" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103897"/>
       </properties>
     </object>
-    <object id="12" gid="324" type="obj_heightfloor_darklight" x="360" y="580" width="20" height="20">
+    <object id="12" gid="275" type="obj_heightfloor_darklight" x="360" y="580" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103898"/>
       </properties>
     </object>
-    <object id="13" gid="324" type="obj_heightfloor_darklight" x="560" y="780" width="20" height="20">
+    <object id="13" gid="275" type="obj_heightfloor_darklight" x="560" y="780" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103899"/>
       </properties>
     </object>
-    <object id="14" gid="324" type="obj_heightfloor_darklight" x="600" y="780" width="20" height="20">
+    <object id="14" gid="275" type="obj_heightfloor_darklight" x="600" y="780" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103900"/>
       </properties>
     </object>
-    <object id="15" gid="324" type="obj_heightfloor_darklight" x="560" y="820" width="20" height="20">
+    <object id="15" gid="275" type="obj_heightfloor_darklight" x="560" y="820" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103901"/>
       </properties>
     </object>
-    <object id="16" gid="324" type="obj_heightfloor_darklight" x="600" y="820" width="20" height="20">
+    <object id="16" gid="275" type="obj_heightfloor_darklight" x="600" y="820" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103902"/>
       </properties>
     </object>
-    <object id="17" gid="324" type="obj_heightfloor_darklight" x="880" y="580" width="20" height="20">
+    <object id="17" gid="275" type="obj_heightfloor_darklight" x="880" y="580" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103903"/>
       </properties>
     </object>
-    <object id="18" gid="324" type="obj_heightfloor_darklight" x="840" y="580" width="20" height="20">
+    <object id="18" gid="275" type="obj_heightfloor_darklight" x="840" y="580" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103904"/>
       </properties>
     </object>
-    <object id="19" gid="324" type="obj_heightfloor_darklight" x="840" y="620" width="20" height="20">
+    <object id="19" gid="275" type="obj_heightfloor_darklight" x="840" y="620" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103905"/>
       </properties>
     </object>
-    <object id="20" gid="324" type="obj_heightfloor_darklight" x="880" y="620" width="20" height="20">
+    <object id="20" gid="275" type="obj_heightfloor_darklight" x="880" y="620" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="103906"/>
       </properties>
     </object>
-    <object id="21" gid="325" type="obj_dw_church_pushableshelf_3x3" x="440" y="660" width="60" height="100">
+    <object id="21" gid="276" type="obj_dw_church_pushableshelf_3x3" x="440" y="660" width="60" height="100">
       <properties>
         <property name="instanceId" type="int" value="103907"/>
       </properties>
     </object>
-    <object id="22" gid="325" type="obj_dw_church_pushableshelf_3x3" x="720" y="380" width="60" height="100">
+    <object id="22" gid="276" type="obj_dw_church_pushableshelf_3x3" x="720" y="380" width="60" height="100">
       <properties>
         <property name="instanceId" type="int" value="103908"/>
       </properties>
     </object>
-    <object id="23" gid="322" type="obj_overworld_danmaku_spawner" x="264" y="414" width="30" height="30">
+    <object id="23" gid="273" type="obj_overworld_danmaku_spawner" x="264" y="414" width="30" height="30">
       <properties>
         <property name="instanceId" type="int" value="103909"/>
       </properties>
     </object>
-    <object id="24" gid="322" type="obj_overworld_danmaku_spawner" x="464" y="894" width="30" height="30">
+    <object id="24" gid="273" type="obj_overworld_danmaku_spawner" x="464" y="894" width="30" height="30">
       <properties>
         <property name="instanceId" type="int" value="103910"/>
       </properties>
     </object>
-    <object id="25" gid="322" type="obj_overworld_danmaku_spawner" x="504" y="894" width="30" height="30">
+    <object id="25" gid="273" type="obj_overworld_danmaku_spawner" x="504" y="894" width="30" height="30">
       <properties>
         <property name="instanceId" type="int" value="103911"/>
       </properties>
     </object>
-    <object id="26" gid="322" type="obj_overworld_danmaku_spawner" x="944" y="694" width="30" height="30">
+    <object id="26" gid="273" type="obj_overworld_danmaku_spawner" x="944" y="694" width="30" height="30">
       <properties>
         <property name="instanceId" type="int" value="103912"/>
       </properties>
     </object>
-    <object id="27" gid="322" type="obj_overworld_danmaku_spawner" x="944" y="734" width="30" height="30">
+    <object id="27" gid="273" type="obj_overworld_danmaku_spawner" x="944" y="734" width="30" height="30">
       <properties>
         <property name="instanceId" type="int" value="103913"/>
       </properties>
     </object>
-    <object id="28" gid="326" type="obj_solidblocksized" x="0" y="880" width="40" height="40">
+    <object id="28" gid="277" type="obj_solidblocksized" x="0" y="880" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103914"/>
       </properties>
     </object>
-    <object id="29" gid="326" type="obj_solidblocksized" x="0" y="600" width="40" height="40">
+    <object id="29" gid="277" type="obj_solidblocksized" x="0" y="600" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103915"/>
       </properties>
     </object>
-    <object id="30" gid="326" type="obj_solidblocksized" x="0" y="320" width="40" height="40">
+    <object id="30" gid="277" type="obj_solidblocksized" x="0" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103916"/>
       </properties>
     </object>
-    <object id="31" gid="326" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
+    <object id="31" gid="277" type="obj_solidblocksized" x="0" y="240" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103917"/>
       </properties>
     </object>
-    <object id="32" gid="326" type="obj_solidblocksized" x="240" y="400" width="40" height="40">
+    <object id="32" gid="277" type="obj_solidblocksized" x="240" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103918"/>
       </properties>
     </object>
-    <object id="33" gid="326" type="obj_solidblocksized" x="920" y="320" width="40" height="40">
+    <object id="33" gid="277" type="obj_solidblocksized" x="920" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103919"/>
       </properties>
     </object>
-    <object id="34" gid="326" type="obj_solidblocksized" x="1200" y="320" width="40" height="40">
+    <object id="34" gid="277" type="obj_solidblocksized" x="1200" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103920"/>
       </properties>
     </object>
-    <object id="35" gid="326" type="obj_solidblocksized" x="1040" y="320" width="40" height="40">
+    <object id="35" gid="277" type="obj_solidblocksized" x="1040" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103921"/>
       </properties>
     </object>
-    <object id="36" gid="326" type="obj_solidblocksized" x="560" y="520" width="40" height="40">
+    <object id="36" gid="277" type="obj_solidblocksized" x="560" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103922"/>
       </properties>
     </object>
-    <object id="37" gid="326" type="obj_solidblocksized" x="640" y="520" width="40" height="40">
+    <object id="37" gid="277" type="obj_solidblocksized" x="640" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103923"/>
       </properties>
     </object>
-    <object id="38" gid="327" type="obj_solidenemy" x="560" y="520" width="40" height="40">
+    <object id="38" gid="278" type="obj_solidenemy" x="560" y="520" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103924"/>
       </properties>
     </object>
-    <object id="39" gid="327" type="obj_solidenemy" x="360" y="800" width="40" height="40">
+    <object id="39" gid="278" type="obj_solidenemy" x="360" y="800" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103925"/>
       </properties>
     </object>
-    <object id="40" gid="327" type="obj_solidenemy" x="840" y="400" width="40" height="40">
+    <object id="40" gid="278" type="obj_solidenemy" x="840" y="400" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103926"/>
       </properties>
     </object>
-    <object id="41" gid="327" type="obj_solidenemy" x="440" y="320" width="40" height="40">
+    <object id="41" gid="278" type="obj_solidenemy" x="440" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103927"/>
       </properties>
     </object>
-    <object id="42" gid="327" type="obj_solidenemy" x="360" y="320" width="40" height="40">
+    <object id="42" gid="278" type="obj_solidenemy" x="360" y="320" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="103928"/>
       </properties>

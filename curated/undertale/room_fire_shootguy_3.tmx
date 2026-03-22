@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="33" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="298" source="tilesets/bg_shottile.tsx" />
+  <tileset firstgid="310" source="tilesets/bg_brownground.tsx" />
+  <tileset firstgid="319" source="tilesets/bg_pipezone_tiles.tsx" />
+  <tileset firstgid="339" source="tilesets/obj_whitebox_o.tsx" />
+  <tileset firstgid="340" source="tilesets/obj_targetguy.tsx" />
+  <tileset firstgid="341" source="tilesets/obj_shootguy.tsx" />
+  <tileset firstgid="343" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="345" source="tilesets/obj_spagnot.tsx" />
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,301,302,302,302,302,302,302,303,0,0,0,0,0,0,0,0,304,305,305,305,305,305,305,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,304,0,0,0,0,0,0,306,0,0,0,0,0,0,0,0,307,308,308,308,308,308,308,309,0,0,0,0,0,0,0,0,313,314,314,314,316,317,318,315,0,0,0,0,0,0,0,0,329,330,330,325,325,325,330,331,0,0,0,0,0,0,0,0,0,0,0,324,325,326,0,0,0,0,0,0,0,0,0,0,0,0,0,324,325,326,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,323,0,322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="339" type="obj_whitebox_o" x="140" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109539" />
+      </properties>
+    </object>
+    <object id="2" gid="339" type="obj_whitebox_o" x="120" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109540" />
+      </properties>
+    </object>
+    <object id="3" gid="339" type="obj_whitebox_o" x="120" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109541" />
+      </properties>
+    </object>
+    <object id="4" gid="339" type="obj_whitebox_o" x="160" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109542" />
+      </properties>
+    </object>
+    <object id="5" gid="339" type="obj_whitebox_o" x="140" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109543" />
+      </properties>
+    </object>
+    <object id="6" gid="339" type="obj_whitebox_o" x="160" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109544" />
+      </properties>
+    </object>
+    <object id="7" gid="339" type="obj_whitebox_o" x="120" y="100" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109545" />
+      </properties>
+    </object>
+    <object id="8" gid="339" type="obj_whitebox_o" x="140" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109546" />
+      </properties>
+    </object>
+    <object id="9" gid="339" type="obj_whitebox_o" x="160" y="60" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109547" />
+      </properties>
+    </object>
+    <object id="10" gid="339" type="obj_whitebox_o" x="200" y="120" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109548" />
+      </properties>
+    </object>
+    <object id="11" gid="339" type="obj_whitebox_o" x="200" y="80" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="109549" />
+      </properties>
+    </object>
+    <object id="12" gid="340" type="obj_targetguy" x="180" y="19" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="109550" />
+      </properties>
+    </object>
+    <object id="13" gid="341" type="obj_shootguy" x="180" y="158" width="18" height="18">
+      <properties>
+        <property name="instanceId" type="int" value="109551" />
+      </properties>
+    </object>
+    <object id="16" gid="343" type="obj_mainchara" x="160" y="209" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109554" />
+      </properties>
+    </object>
+    <object id="23" gid="345" type="obj_spagnot" x="220" y="176" width="13" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="109561" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="7">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_dw_church_organ.tsx" />
+  <tileset firstgid="3" source="tilesets/obj_kris_pianopuppet.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="-80" y="277" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="104918" />
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_dw_church_organ" x="200" y="231" width="161" height="191">
+      <properties>
+        <property name="instanceId" type="int" value="104920" />
+      </properties>
+    </object>
+    <object id="4" gid="3" type="obj_kris_pianopuppet" x="310" y="257" width="19" height="35">
+      <properties>
+        <property name="instanceId" type="int" value="104921" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

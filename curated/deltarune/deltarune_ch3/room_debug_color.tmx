@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="2" nextobjectid="2">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_debug_swatchling.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_debug_swatchling" x="448" y="432" width="68" height="48">
+      <properties>
+        <property name="instanceId" type="int" value="100054" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

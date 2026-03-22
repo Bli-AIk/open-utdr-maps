@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="23">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx" />
+  <tileset firstgid="271" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="272" source="tilesets/obj_chaseenemy_zapper.tsx" />
+  <tileset firstgid="273" source="tilesets/obj_dw__backstagelight.tsx" />
+  <tileset firstgid="274" source="tilesets/obj_dw_b3bs_zapper_a.tsx" />
+  <layer id="1" name="FloorTiles" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,46,47,46,47,46,47,46,47,46,47,46,47,58,0,0,66,46,47,46,47,46,47,46,47,46,47,46,47,67,0,0,66,46,47,46,47,46,47,46,47,46,47,46,47,67,0,0,75,46,47,46,47,46,47,46,47,46,47,46,47,76,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,0,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FloorTiles_Accents" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,77,77,77,77,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="Foreground_Tiles" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,101,102,103,104,100,101,102,103,104,100,101,102,103,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="271" type="obj_mainchara" x="80" y="237" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="108513" />
+      </properties>
+    </object>
+    <object id="3" gid="272" type="obj_chaseenemy_zapper" x="465" y="285" width="14" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="108515" />
+      </properties>
+    </object>
+    <object id="4" gid="273" type="obj_dw__backstagelight" x="185" y="286" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="108516" />
+      </properties>
+    </object>
+    <object id="5" gid="273" type="obj_dw__backstagelight" x="425" y="286" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="108517" />
+      </properties>
+    </object>
+    <object id="6" gid="274" type="obj_dw_b3bs_zapper_a" x="-40" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="108518" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

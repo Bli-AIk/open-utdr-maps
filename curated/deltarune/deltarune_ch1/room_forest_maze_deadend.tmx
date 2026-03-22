@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="62">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_darkforest_tiles.tsx" />
+  <tileset firstgid="73" source="tilesets/free_tile_p6_122_984_40x80.tsx" />
+  <tileset firstgid="74" source="tilesets/free_tile_p6_2_984_40x80.tsx" />
+  <tileset firstgid="75" source="tilesets/free_tile_p6_2_944_120x40.tsx" />
+  <tileset firstgid="76" source="tilesets/free_tile_p6_42_944_120x40.tsx" />
+  <tileset firstgid="77" source="tilesets/free_tile_p6_42_984_80x80.tsx" />
+  <tileset firstgid="78" source="tilesets/free_tile_p6_42_1064_80x80.tsx" />
+  <tileset firstgid="79" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="80" source="tilesets/obj_npc_facing.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,20,20,20,21,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,31,32,26,26,32,33,0,0,0,0,0,0,0,0,0,0,0,0,25,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,27,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="77" x="120" y="480" width="80" height="80" />
+    <object id="2" gid="77" x="40" y="480" width="80" height="80" />
+    <object id="3" gid="77" x="-40" y="480" width="80" height="80" />
+    <object id="4" gid="77" x="40" y="400" width="80" height="80" />
+    <object id="5" gid="77" x="-40" y="400" width="80" height="80" />
+    <object id="6" gid="77" x="40" y="80" width="80" height="80" />
+    <object id="7" gid="77" x="40" y="160" width="80" height="80" />
+    <object id="8" gid="77" x="40" y="240" width="80" height="80" />
+    <object id="9" gid="77" x="40" y="320" width="80" height="80" />
+    <object id="10" gid="77" x="-40" y="80" width="80" height="80" />
+    <object id="11" gid="77" x="-40" y="160" width="80" height="80" />
+    <object id="12" gid="77" x="-40" y="240" width="80" height="80" />
+    <object id="13" gid="77" x="-40" y="320" width="80" height="80" />
+    <object id="14" gid="77" x="120" y="80" width="80" height="80" />
+    <object id="15" gid="77" x="200" y="80" width="80" height="80" />
+    <object id="16" gid="77" x="280" y="80" width="80" height="80" />
+    <object id="17" gid="77" x="360" y="80" width="80" height="80" />
+    <object id="18" gid="77" x="440" y="80" width="80" height="80" />
+    <object id="19" gid="77" x="520" y="80" width="80" height="80" />
+    <object id="20" gid="77" x="600" y="80" width="80" height="80" />
+    <object id="21" gid="77" x="600" y="160" width="80" height="80" />
+    <object id="22" gid="77" x="600" y="240" width="80" height="80" />
+    <object id="23" gid="77" x="600" y="320" width="80" height="80" />
+    <object id="24" gid="77" x="600" y="400" width="80" height="80" />
+    <object id="25" gid="77" x="600" y="480" width="80" height="80" />
+    <object id="26" gid="77" x="520" y="160" width="80" height="80" />
+    <object id="27" gid="77" x="520" y="240" width="80" height="80" />
+    <object id="28" gid="77" x="520" y="320" width="80" height="80" />
+    <object id="29" gid="77" x="520" y="400" width="80" height="80" />
+    <object id="30" gid="77" x="520" y="480" width="80" height="80" />
+    <object id="31" gid="77" x="440" y="480" width="80" height="80" />
+    <object id="32" gid="78" x="120" y="160" width="80" height="80" />
+    <object id="33" gid="78" x="200" y="160" width="80" height="80" />
+    <object id="34" gid="78" x="280" y="160" width="80" height="80" />
+    <object id="35" gid="78" x="360" y="160" width="80" height="80" />
+    <object id="36" gid="78" x="440" y="160" width="80" height="80" />
+  </objectgroup>
+  <objectgroup id="3" name="depth_990000_free_0">
+    <object id="37" gid="73" x="120" y="160" width="40" height="80" />
+    <object id="38" gid="73" x="120" y="240" width="40" height="80" />
+    <object id="39" gid="73" x="120" y="320" width="40" height="80" />
+    <object id="40" gid="73" x="120" y="400" width="40" height="80" />
+    <object id="41" gid="73" x="200" y="480" width="40" height="80" />
+    <object id="42" gid="74" x="480" y="160" width="40" height="80" />
+    <object id="43" gid="74" x="480" y="240" width="40" height="80" />
+    <object id="44" gid="74" x="480" y="320" width="40" height="80" />
+    <object id="45" gid="74" x="480" y="400" width="40" height="80" />
+    <object id="46" gid="74" x="400" y="480" width="40" height="80" />
+    <object id="47" gid="75" x="400" y="400" width="120" height="40" />
+    <object id="48" gid="76" x="120" y="400" width="120" height="40" />
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="49" gid="79" type="obj_mainchara" x="298" y="420" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102535" />
+      </properties>
+    </object>
+    <object id="50" gid="80" type="obj_npc_facing" x="290" y="266" width="20" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="102536" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

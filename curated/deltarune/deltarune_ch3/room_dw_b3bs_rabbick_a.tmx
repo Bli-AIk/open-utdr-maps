@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="26">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx" />
+  <tileset firstgid="271" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="272" source="tilesets/obj_dw_b3bs_placeholdertrash.tsx" />
+  <tileset firstgid="274" source="tilesets/obj_b3bs_ribbick_trash.tsx" />
+  <tileset firstgid="275" source="tilesets/obj_dw__backstagelight.tsx" />
+  <tileset firstgid="276" source="tilesets/obj_npc_sign.tsx" />
+  <tileset firstgid="280" source="tilesets/obj_dw_ch3_b3bs_trashcan.tsx" />
+  <layer id="1" name="FloorTiles" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,58,0,0,0,0,0,46,47,46,58,66,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,67,0,0,0,0,0,46,47,46,67,66,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,67,0,0,0,0,0,46,47,46,67,75,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,47,46,76,0,0,0,0,0,46,47,46,76,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,0,0,0,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,93,92,0,0,0,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,84,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FloorTiles_Accents" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78,78,78,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,77,0,0,0,0,0,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="Foreground_Tiles" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110,111,112,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,102,103,104,101,102,103,104,110,111,112,104,110,111,112,104,110,111,112,104,110,111,112,104,0,0,0,0,0,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,0,0,19,19,0,0,0,0,0,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,0,0,19,19,0,0,0,0,0,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,0,0,19,19,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="271" type="obj_mainchara" x="12" y="273" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="107628" />
+      </properties>
+    </object>
+    <object id="3" gid="272" type="obj_dw_b3bs_placeholdertrash" x="760" y="187" width="44" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="107630" />
+      </properties>
+    </object>
+    <object id="5" gid="274" type="obj_b3bs_ribbick_trash" x="400" y="178" width="37" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="107632" />
+      </properties>
+    </object>
+    <object id="6" gid="275" type="obj_dw__backstagelight" x="423" y="283" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107633" />
+      </properties>
+    </object>
+    <object id="7" gid="275" type="obj_dw__backstagelight" x="791" y="283" width="26" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="107634" />
+      </properties>
+    </object>
+    <object id="8" gid="276" type="obj_npc_sign" x="764" y="218" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="107635" />
+      </properties>
+    </object>
+    <object id="22" gid="280" type="obj_dw_ch3_b3bs_trashcan" x="250" y="178" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107649" />
+      </properties>
+    </object>
+    <object id="23" gid="272" type="obj_dw_b3bs_placeholdertrash" x="392" y="187" width="44" height="43">
+      <properties>
+        <property name="instanceId" type="int" value="107650" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

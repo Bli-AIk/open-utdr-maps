@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="20" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="2" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="9" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="10" source="tilesets/obj_latchkey.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="2" gid="2" type="obj_mainchara" x="80" y="209" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="111889" />
+      </properties>
+    </object>
+    <object id="14" gid="9" type="obj_npc_room" x="146" y="217" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="111901" />
+      </properties>
+    </object>
+    <object id="15" gid="10" type="obj_latchkey" x="122" y="139" width="15" height="13">
+      <properties>
+        <property name="instanceId" type="int" value="111902" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

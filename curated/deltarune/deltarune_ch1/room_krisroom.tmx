@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="29">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="2" source="tilesets/free_tile_p4_646_854_53x52.tsx" />
+  <tileset firstgid="3" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="7" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="9" source="tilesets/obj_krisroom.tsx" />
+  <objectgroup id="1" name="depth_15000_free_0">
+    <object id="1" gid="2" x="41" y="220" width="53" height="52" />
+  </objectgroup>
+  <objectgroup id="2" name="objects">
+    <object id="2" gid="3" type="obj_mainchara" x="246" y="135" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="100005" />
+      </properties>
+    </object>
+    <object id="12" gid="7" type="obj_npc_room" x="235" y="195" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="100015" />
+      </properties>
+    </object>
+    <object id="27" gid="9" type="obj_krisroom" x="232" y="138" width="46" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="100030" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

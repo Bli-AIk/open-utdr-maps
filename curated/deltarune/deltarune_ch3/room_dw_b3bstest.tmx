@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="30">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx" />
+  <tileset firstgid="913" source="tilesets/obj_board_controller.tsx" />
+  <tileset firstgid="914" source="tilesets/obj_board_camera.tsx" />
+  <tileset firstgid="916" source="tilesets/obj_board_lawnmower.tsx" />
+  <tileset firstgid="917" source="tilesets/obj_board_tree.tsx" />
+  <tileset firstgid="918" source="tilesets/obj_board_solidenemy.tsx" />
+  <tileset firstgid="919" source="tilesets/obj_board_grabbleObject.tsx" />
+  <tileset firstgid="922" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="923" source="tilesets/obj_b3bs_console.tsx" />
+  <layer id="1" name="BoardTiles" width="20" height="15">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,164,164,164,164,179,164,164,164,164,164,0,0,0,0,0,0,0,0,18,162,162,162,162,162,162,18,18,18,18,162,0,0,0,0,0,0,0,0,18,162,18,18,18,18,162,18,18,18,18,18,0,0,0,0,0,0,0,0,18,162,18,18,18,18,162,18,18,18,20,21,0,0,0,0,0,0,0,0,18,162,162,162,162,162,162,18,18,18,36,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="913" type="obj_board_controller" x="-32" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106673" />
+      </properties>
+    </object>
+    <object id="2" gid="914" type="obj_board_camera" x="-64" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106674" />
+      </properties>
+    </object>
+    <object id="8" gid="916" type="obj_board_lawnmower" x="224" y="176" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106680" />
+      </properties>
+    </object>
+    <object id="9" gid="917" type="obj_board_tree" x="128" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106681" />
+      </properties>
+    </object>
+    <object id="10" gid="917" type="obj_board_tree" x="128" y="208" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106682" />
+      </properties>
+    </object>
+    <object id="11" gid="917" type="obj_board_tree" x="352" y="208" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106683" />
+      </properties>
+    </object>
+    <object id="12" gid="917" type="obj_board_tree" x="480" y="144" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106684" />
+      </properties>
+    </object>
+    <object id="13" gid="917" type="obj_board_tree" x="480" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106685" />
+      </properties>
+    </object>
+    <object id="14" gid="918" type="obj_board_solidenemy" x="160" y="112" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106686" />
+      </properties>
+    </object>
+    <object id="15" gid="918" type="obj_board_solidenemy" x="160" y="208" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106687" />
+      </properties>
+    </object>
+    <object id="16" gid="918" type="obj_board_solidenemy" x="160" y="144" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106688" />
+      </properties>
+    </object>
+    <object id="17" gid="918" type="obj_board_solidenemy" x="320" y="144" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="106689" />
+      </properties>
+    </object>
+    <object id="18" gid="919" type="obj_board_grabbleObject" x="384" y="142" width="12" height="14">
+      <properties>
+        <property name="instanceId" type="int" value="106690" />
+      </properties>
+    </object>
+    <object id="22" gid="922" type="obj_mainchara" x="320" y="397" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="106694" />
+      </properties>
+    </object>
+    <object id="24" gid="923" type="obj_b3bs_console" x="132" y="298" width="38" height="17">
+      <properties>
+        <property name="instanceId" type="int" value="106696" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

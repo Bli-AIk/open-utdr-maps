@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="60" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="50">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_city_doors_tileset.tsx" />
+  <tileset firstgid="111" source="tilesets/bg_dw_city_street_edges_tileset.tsx" />
+  <tileset firstgid="319" source="tilesets/bg_dw_city_street_tileset.tsx" />
+  <tileset firstgid="429" source="tilesets/obj_silhouette_cover.tsx" />
+  <tileset firstgid="430" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="432" source="tilesets/obj_ch2_keyboardpuzzle_solo_tile.tsx" />
+  <tileset firstgid="433" source="tilesets/obj_ch2_blue_button.tsx" />
+  <tileset firstgid="434" source="tilesets/obj_forcefield.tsx" />
+  <layer id="1" name="TILES" width="60" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,369,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,380,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,404,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,367,368,0,0,0,0,0,0,0,0,0,0,0,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,378,379,0,0,0,0,0,0,0,0,0,0,0,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,389,390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Rooftops" width="60" height="12">
+    <data encoding="csv">137,138,139,160,161,162,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,150,151,152,164,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,164,164,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,164,164,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,164,164,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,148,149,164,164,137,138,139,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,148,149,164,161,162,215,216,217,151,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,161,162,164,164,164,228,229,230,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,137,138,164,164,164,164,164,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,150,151,164,164,164,164,164,164,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,164,164,164,164</data>
+  </layer>
+  <layer id="3" name="TILES_Doors" width="60" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,13,14,15,16,0,0,0,58,59,60,0,0,0,0,0,0,0,0,0,58,59,60,0,0,0,14,15,16,0,0,0,0,0,0,0,0,0,58,59,60,0,0,0,58,59,60,12,13,0,0,0,0,0,0,0,0,0,0,0,23,24,25,26,27,0,0,0,69,70,71,0,0,0,12,13,0,14,15,16,69,70,71,0,0,0,25,26,27,0,0,0,0,12,13,0,0,0,69,70,71,0,0,0,69,70,71,23,24,0,0,0,0,0,0,0,0,0,0,0,34,35,36,37,38,0,0,0,80,81,82,0,0,0,23,24,0,25,26,27,80,81,82,0,0,0,36,37,38,0,0,0,0,23,24,0,0,0,80,81,82,0,0,0,80,81,82,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="429" type="obj_silhouette_cover" x="560" y="360" width="40" height="360">
+      <properties>
+        <property name="instanceId" type="int" value="104563" />
+      </properties>
+    </object>
+    <object id="2" gid="429" type="obj_silhouette_cover" x="840" y="360" width="40" height="360">
+      <properties>
+        <property name="instanceId" type="int" value="104564" />
+      </properties>
+    </object>
+    <object id="3" gid="429" type="obj_silhouette_cover" x="1120" y="360" width="40" height="360">
+      <properties>
+        <property name="instanceId" type="int" value="104565" />
+      </properties>
+    </object>
+    <object id="4" gid="429" type="obj_silhouette_cover" x="1400" y="360" width="40" height="360">
+      <properties>
+        <property name="instanceId" type="int" value="104566" />
+      </properties>
+    </object>
+    <object id="5" gid="429" type="obj_silhouette_cover" x="1680" y="360" width="40" height="360">
+      <properties>
+        <property name="instanceId" type="int" value="104567" />
+      </properties>
+    </object>
+    <object id="6" gid="429" type="obj_silhouette_cover" x="2000" y="360" width="40" height="360">
+      <properties>
+        <property name="instanceId" type="int" value="104568" />
+      </properties>
+    </object>
+    <object id="7" gid="430" type="obj_mainchara" x="42" y="225" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="104569" />
+      </properties>
+    </object>
+    <object id="11" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="400" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104573" />
+      </properties>
+    </object>
+    <object id="12" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="640" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104574" />
+      </properties>
+    </object>
+    <object id="13" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="880" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104575" />
+      </properties>
+    </object>
+    <object id="14" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="1120" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104576" />
+      </properties>
+    </object>
+    <object id="15" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="1360" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104577" />
+      </properties>
+    </object>
+    <object id="16" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="1600" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104578" />
+      </properties>
+    </object>
+    <object id="17" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="1840" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104579" />
+      </properties>
+    </object>
+    <object id="18" gid="432" type="obj_ch2_keyboardpuzzle_solo_tile" x="2080" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104580" />
+      </properties>
+    </object>
+    <object id="19" gid="433" type="obj_ch2_blue_button" x="680" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104581" />
+      </properties>
+    </object>
+    <object id="20" gid="433" type="obj_ch2_blue_button" x="920" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104582" />
+      </properties>
+    </object>
+    <object id="21" gid="433" type="obj_ch2_blue_button" x="1160" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104583" />
+      </properties>
+    </object>
+    <object id="22" gid="433" type="obj_ch2_blue_button" x="1400" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104584" />
+      </properties>
+    </object>
+    <object id="23" gid="433" type="obj_ch2_blue_button" x="1640" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104585" />
+      </properties>
+    </object>
+    <object id="24" gid="433" type="obj_ch2_blue_button" x="1880" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104586" />
+      </properties>
+    </object>
+    <object id="25" gid="433" type="obj_ch2_blue_button" x="2120" y="240" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="104587" />
+      </properties>
+    </object>
+    <object id="26" gid="434" type="obj_forcefield" x="520" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104588" />
+      </properties>
+    </object>
+    <object id="27" gid="434" type="obj_forcefield" x="520" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104589" />
+      </properties>
+    </object>
+    <object id="28" gid="434" type="obj_forcefield" x="760" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104590" />
+      </properties>
+    </object>
+    <object id="29" gid="434" type="obj_forcefield" x="760" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104591" />
+      </properties>
+    </object>
+    <object id="30" gid="434" type="obj_forcefield" x="1000" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104592" />
+      </properties>
+    </object>
+    <object id="31" gid="434" type="obj_forcefield" x="1000" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104593" />
+      </properties>
+    </object>
+    <object id="32" gid="434" type="obj_forcefield" x="1240" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104594" />
+      </properties>
+    </object>
+    <object id="33" gid="434" type="obj_forcefield" x="1240" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104595" />
+      </properties>
+    </object>
+    <object id="34" gid="434" type="obj_forcefield" x="1480" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104596" />
+      </properties>
+    </object>
+    <object id="35" gid="434" type="obj_forcefield" x="1480" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104597" />
+      </properties>
+    </object>
+    <object id="36" gid="434" type="obj_forcefield" x="1720" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104598" />
+      </properties>
+    </object>
+    <object id="37" gid="434" type="obj_forcefield" x="1720" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104599" />
+      </properties>
+    </object>
+    <object id="38" gid="434" type="obj_forcefield" x="1960" y="340" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104600" />
+      </properties>
+    </object>
+    <object id="39" gid="434" type="obj_forcefield" x="1960" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104601" />
+      </properties>
+    </object>
+    <object id="40" gid="434" type="obj_forcefield" x="2200" y="180" width="20" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="104602" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

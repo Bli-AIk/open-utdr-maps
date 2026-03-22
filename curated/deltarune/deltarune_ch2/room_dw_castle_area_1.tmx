@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="22">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_rounded_edges_tileset.tsx" />
+  <tileset firstgid="71" source="tilesets/bg_tiles_castle_tileset.tsx" />
+  <tileset firstgid="111" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="116" source="tilesets/obj_sul_dark.tsx" />
+  <tileset firstgid="117" source="tilesets/obj_sdr_dark.tsx" />
+  <tileset firstgid="121" source="tilesets/obj_dw_leave.tsx" />
+  <layer id="1" name="TILES" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,93,93,93,93,93,93,0,0,0,0,0,0,0,0,0,0,93,93,93,93,93,93,0,0,0,0,0,0,0,0,0,0,93,93,93,93,93,93,0,0,0,0,0,0,0,0,0,0,93,93,93,93,93,93,0,0,0,0,0,0,0,0,0,93,93,93,93,93,93,93,93,0,0,0,0,0,0,0,93,93,93,93,93,93,93,93,93,93,0,0,0,0,0,0,93,93,93,93,93,93,93,93,93,93,0,0,0,0,0,0,93,93,93,93,93,93,93,93,93,93,0,0,0,0,0,0,93,93,93,93,93,93,93,93,93,93,0,0,0,0,0,0,0,93,93,93,93,93,93,93,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="TILES_Edges" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,17,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,18,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,29,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,59,0,0,0,0,0,0,0,56,42,42,42,42,42,42,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="111" type="obj_mainchara" x="299" y="65" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101169" />
+      </properties>
+    </object>
+    <object id="11" gid="116" type="obj_sul_dark" x="120" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101179" />
+      </properties>
+    </object>
+    <object id="12" gid="117" type="obj_sdr_dark" x="480" y="400" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101180" />
+      </properties>
+    </object>
+    <object id="17" gid="116" type="obj_sul_dark" x="160" y="160" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101185" />
+      </properties>
+    </object>
+    <object id="20" gid="121" type="obj_dw_leave" x="270" y="336" width="100" height="240">
+      <properties>
+        <property name="instanceId" type="int" value="101188" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

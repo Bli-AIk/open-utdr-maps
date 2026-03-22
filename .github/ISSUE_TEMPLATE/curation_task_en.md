@@ -1,12 +1,22 @@
 ---
 name: Curation Task
 about: Propose or claim map curation work
-title: '[Curation | <GAME>] <area or description>'
-labels: curation
+title: '[Curation | <GAME> | <EMOJI>] <area or description>'
+labels: curation, help wanted
 ---
 
 <!--
+Please keep issue titles and bodies in English so triage stays consistent.
+Use the title prefix for quick scanning in the issue list.
+This template applies the base "curation" and "help wanted" labels automatically; maintainers may add more labels after triage.
+
 <GAME>: UNDERTALE, DELTARUNE CH1, DELTARUNE CH2, DELTARUNE CH3, DELTARUNE CH4
+<EMOJI>: choose the primary work type for this issue:
+  🧹 = Data Curation
+  📐 = Logic Layers
+  🌍 = World Stitching
+  📝 = Documentation
+  🔧 = Tool Improvements
 <area or description>: e.g., "rm_mausoleum_entrance" or "room_ruins_1"
 -->
 
@@ -17,6 +27,12 @@ Describe the map area or content to be curated.
 ## Affected Rooms
 
 List the room names or areas that need curation.
+
+## Scope & Starting Point
+
+- Directory: (curated / raw reference / both)
+- Current status: (proposal / claimed / in progress / blocked)
+- Starting point: (edit existing curated map / promote from raw / mixed)
 
 ## Curation Scope
 

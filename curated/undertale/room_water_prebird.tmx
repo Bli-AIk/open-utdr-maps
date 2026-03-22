@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="31" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="124" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="225" source="tilesets/free_tile_p10_392_696_20x60.tsx" />
+  <tileset firstgid="226" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="231" source="tilesets/obj_tallgrass.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="225" x="0" y="100" width="20" height="60" />
+    <object id="2" gid="225" x="20" y="100" width="20" height="60" />
+    <object id="3" gid="225" x="40" y="100" width="20" height="60" />
+    <object id="4" gid="225" x="60" y="100" width="20" height="60" />
+    <object id="5" gid="225" x="80" y="100" width="20" height="60" />
+    <object id="6" gid="225" x="100" y="100" width="20" height="60" />
+    <object id="7" gid="225" x="120" y="100" width="20" height="60" />
+    <object id="8" gid="225" x="140" y="100" width="20" height="60" />
+    <object id="9" gid="225" x="160" y="100" width="20" height="60" />
+    <object id="10" gid="225" x="180" y="100" width="20" height="60" />
+    <object id="11" gid="225" x="200" y="100" width="20" height="60" />
+    <object id="12" gid="225" x="220" y="100" width="20" height="60" />
+    <object id="13" gid="225" x="240" y="100" width="20" height="60" />
+    <object id="14" gid="225" x="260" y="100" width="20" height="60" />
+    <object id="15" gid="225" x="280" y="100" width="20" height="60" />
+    <object id="16" gid="225" x="300" y="100" width="20" height="60" />
+    <object id="17" gid="225" x="320" y="100" width="20" height="60" />
+    <object id="18" gid="225" x="0" y="220" width="20" height="60" />
+    <object id="19" gid="225" x="20" y="220" width="20" height="60" />
+    <object id="20" gid="225" x="40" y="220" width="20" height="60" />
+    <object id="21" gid="225" x="60" y="220" width="20" height="60" />
+    <object id="22" gid="225" x="80" y="220" width="20" height="60" />
+    <object id="23" gid="225" x="100" y="220" width="20" height="60" />
+    <object id="24" gid="225" x="120" y="220" width="20" height="60" />
+    <object id="25" gid="225" x="140" y="220" width="20" height="60" />
+    <object id="26" gid="225" x="160" y="220" width="20" height="60" />
+    <object id="27" gid="225" x="180" y="220" width="20" height="60" />
+    <object id="28" gid="225" x="200" y="220" width="20" height="60" />
+    <object id="29" gid="225" x="220" y="220" width="20" height="60" />
+    <object id="30" gid="225" x="240" y="220" width="20" height="60" />
+    <object id="31" gid="225" x="260" y="220" width="20" height="60" />
+    <object id="32" gid="225" x="280" y="220" width="20" height="60" />
+    <object id="33" gid="225" x="300" y="220" width="20" height="60" />
+    <object id="34" gid="225" x="320" y="220" width="20" height="60" />
+    <object id="35" gid="225" x="340" y="220" width="20" height="60" />
+    <object id="36" gid="225" x="360" y="220" width="20" height="60" />
+    <object id="37" gid="225" x="380" y="220" width="20" height="60" />
+    <object id="38" gid="225" x="400" y="220" width="20" height="60" />
+    <object id="39" gid="225" x="420" y="220" width="20" height="60" />
+    <object id="40" gid="225" x="440" y="220" width="20" height="60" />
+    <object id="41" gid="225" x="460" y="220" width="20" height="60" />
+    <object id="42" gid="225" x="480" y="220" width="20" height="60" />
+    <object id="43" gid="225" x="500" y="220" width="20" height="60" />
+    <object id="44" gid="225" x="520" y="220" width="20" height="60" />
+    <object id="45" gid="225" x="540" y="220" width="20" height="60" />
+    <object id="46" gid="225" x="560" y="220" width="20" height="60" />
+    <object id="47" gid="225" x="580" y="220" width="20" height="60" />
+    <object id="48" gid="225" x="600" y="220" width="20" height="60" />
+    <object id="49" gid="225" x="340" y="100" width="20" height="60" />
+    <object id="50" gid="225" x="360" y="100" width="20" height="60" />
+    <object id="51" gid="225" x="380" y="100" width="20" height="60" />
+    <object id="52" gid="225" x="400" y="100" width="20" height="60" />
+    <object id="53" gid="225" x="420" y="100" width="20" height="60" />
+    <object id="54" gid="225" x="440" y="100" width="20" height="60" />
+    <object id="55" gid="225" x="460" y="100" width="20" height="60" />
+    <object id="56" gid="225" x="480" y="100" width="20" height="60" />
+    <object id="57" gid="225" x="500" y="100" width="20" height="60" />
+    <object id="58" gid="225" x="520" y="100" width="20" height="60" />
+    <object id="59" gid="225" x="540" y="100" width="20" height="60" />
+    <object id="60" gid="225" x="560" y="100" width="20" height="60" />
+    <object id="61" gid="225" x="580" y="100" width="20" height="60" />
+    <object id="62" gid="225" x="620" y="120" width="20" height="60" />
+    <object id="63" gid="225" x="600" y="100" width="20" height="60" />
+  </objectgroup>
+  <objectgroup id="2" name="objects">
+    <object id="64" gid="226" type="obj_mainchara" x="140" y="129" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="106409" />
+      </properties>
+    </object>
+    <object id="74" gid="231" type="obj_tallgrass" x="240" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106419" />
+      </properties>
+    </object>
+    <object id="75" gid="231" type="obj_tallgrass" x="270" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106420" />
+      </properties>
+    </object>
+    <object id="76" gid="231" type="obj_tallgrass" x="300" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106421" />
+      </properties>
+    </object>
+    <object id="77" gid="231" type="obj_tallgrass" x="330" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106422" />
+      </properties>
+    </object>
+    <object id="78" gid="231" type="obj_tallgrass" x="360" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106423" />
+      </properties>
+    </object>
+    <object id="79" gid="231" type="obj_tallgrass" x="390" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106424" />
+      </properties>
+    </object>
+    <object id="80" gid="231" type="obj_tallgrass" x="420" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106425" />
+      </properties>
+    </object>
+    <object id="81" gid="231" type="obj_tallgrass" x="210" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106426" />
+      </properties>
+    </object>
+    <object id="82" gid="231" type="obj_tallgrass" x="180" y="112" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106427" />
+      </properties>
+    </object>
+    <object id="83" gid="231" type="obj_tallgrass" x="180" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106428" />
+      </properties>
+    </object>
+    <object id="84" gid="231" type="obj_tallgrass" x="210" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106429" />
+      </properties>
+    </object>
+    <object id="85" gid="231" type="obj_tallgrass" x="240" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106430" />
+      </properties>
+    </object>
+    <object id="86" gid="231" type="obj_tallgrass" x="270" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106431" />
+      </properties>
+    </object>
+    <object id="87" gid="231" type="obj_tallgrass" x="300" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106432" />
+      </properties>
+    </object>
+    <object id="88" gid="231" type="obj_tallgrass" x="330" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106433" />
+      </properties>
+    </object>
+    <object id="89" gid="231" type="obj_tallgrass" x="360" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106434" />
+      </properties>
+    </object>
+    <object id="90" gid="231" type="obj_tallgrass" x="390" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106435" />
+      </properties>
+    </object>
+    <object id="91" gid="231" type="obj_tallgrass" x="420" y="132" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106436" />
+      </properties>
+    </object>
+    <object id="92" gid="231" type="obj_tallgrass" x="180" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106437" />
+      </properties>
+    </object>
+    <object id="93" gid="231" type="obj_tallgrass" x="210" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106438" />
+      </properties>
+    </object>
+    <object id="94" gid="231" type="obj_tallgrass" x="240" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106439" />
+      </properties>
+    </object>
+    <object id="95" gid="231" type="obj_tallgrass" x="270" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106440" />
+      </properties>
+    </object>
+    <object id="96" gid="231" type="obj_tallgrass" x="300" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106441" />
+      </properties>
+    </object>
+    <object id="97" gid="231" type="obj_tallgrass" x="390" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106442" />
+      </properties>
+    </object>
+    <object id="98" gid="231" type="obj_tallgrass" x="420" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106443" />
+      </properties>
+    </object>
+    <object id="108" gid="231" type="obj_tallgrass" x="360" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106453" />
+      </properties>
+    </object>
+    <object id="109" gid="231" type="obj_tallgrass" x="330" y="152" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106454" />
+      </properties>
+    </object>
+    <object id="110" gid="231" type="obj_tallgrass" x="180" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106455" />
+      </properties>
+    </object>
+    <object id="111" gid="231" type="obj_tallgrass" x="180" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106456" />
+      </properties>
+    </object>
+    <object id="112" gid="231" type="obj_tallgrass" x="210" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106457" />
+      </properties>
+    </object>
+    <object id="113" gid="231" type="obj_tallgrass" x="240" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106458" />
+      </properties>
+    </object>
+    <object id="114" gid="231" type="obj_tallgrass" x="270" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106459" />
+      </properties>
+    </object>
+    <object id="115" gid="231" type="obj_tallgrass" x="300" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106460" />
+      </properties>
+    </object>
+    <object id="116" gid="231" type="obj_tallgrass" x="330" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106461" />
+      </properties>
+    </object>
+    <object id="117" gid="231" type="obj_tallgrass" x="360" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106462" />
+      </properties>
+    </object>
+    <object id="118" gid="231" type="obj_tallgrass" x="390" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106463" />
+      </properties>
+    </object>
+    <object id="119" gid="231" type="obj_tallgrass" x="420" y="166" width="40" height="42">
+      <properties>
+        <property name="instanceId" type="int" value="106464" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

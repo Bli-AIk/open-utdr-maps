@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="81" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="56">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx" />
+  <tileset firstgid="583" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="584" source="tilesets/obj_movingBookshelf.tsx" />
+  <tileset firstgid="585" source="tilesets/obj_bookshelfLanding.tsx" />
+  <tileset firstgid="586" source="tilesets/obj_overworld_spinningSpade.tsx" />
+  <tileset firstgid="590" source="tilesets/obj_dw_church_window_parallax.tsx" />
+  <layer id="1" name="TILES" width="81" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,68,68,68,68,68,68,68,68,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,68,68,68,68,68,68,68,68,68,68,73,74,74,74,74,74,74,74,74,74,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,74,74,74,74,74,74,74,74,74,74,79,80,80,80,80,80,80,80,80,80,80,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,80,80,80,80,80,80,80,80,80,80,85,86,87,85,86,87,85,86,87,85,86,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,85,86,87,85,86,87,85,86,87,85,86,87,121,121,121,121,121,121,121,121,121,121,121,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,121,121,121,121,121,121,121,121,121,121,121,121</data>
+  </layer>
+  <layer id="2" name="TILES_STAIRSSHORTCUT_LEFT" width="81" height="12">
+    <data encoding="csv">0,0,0,0,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_STAIRSSHORTCUT_RIGHT" width="81" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="583" type="obj_mainchara" x="26" y="315" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="102017" />
+      </properties>
+    </object>
+    <object id="3" gid="584" type="obj_movingBookshelf" x="480" y="300" width="60" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="102019" />
+      </properties>
+    </object>
+    <object id="4" gid="585" type="obj_bookshelfLanding" x="430" y="291" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102020" />
+      </properties>
+    </object>
+    <object id="5" gid="585" type="obj_bookshelfLanding" x="396" y="333" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102021" />
+      </properties>
+    </object>
+    <object id="6" gid="585" type="obj_bookshelfLanding" x="356" y="297" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102022" />
+      </properties>
+    </object>
+    <object id="7" gid="585" type="obj_bookshelfLanding" x="2836" y="291" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102023" />
+      </properties>
+    </object>
+    <object id="8" gid="585" type="obj_bookshelfLanding" x="2802" y="333" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102024" />
+      </properties>
+    </object>
+    <object id="9" gid="585" type="obj_bookshelfLanding" x="2762" y="297" width="19" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="102025" />
+      </properties>
+    </object>
+    <object id="10" gid="586" type="obj_overworld_spinningSpade" x="902" y="377" width="36" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="102026" />
+      </properties>
+    </object>
+    <object id="11" gid="586" type="obj_overworld_spinningSpade" x="1222" y="257" width="36" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="102027" />
+      </properties>
+    </object>
+    <object id="12" gid="586" type="obj_overworld_spinningSpade" x="1582" y="377" width="36" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="102028" />
+      </properties>
+    </object>
+    <object id="13" gid="586" type="obj_overworld_spinningSpade" x="1902" y="257" width="36" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="102029" />
+      </properties>
+    </object>
+    <object id="14" gid="586" type="obj_overworld_spinningSpade" x="2382" y="377" width="36" height="34">
+      <properties>
+        <property name="instanceId" type="int" value="102030" />
+      </properties>
+    </object>
+    <object id="35" gid="590" type="obj_dw_church_window_parallax" x="80" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102051" />
+      </properties>
+    </object>
+    <object id="36" gid="590" type="obj_dw_church_window_parallax" x="240" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102052" />
+      </properties>
+    </object>
+    <object id="37" gid="590" type="obj_dw_church_window_parallax" x="400" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102053" />
+      </properties>
+    </object>
+    <object id="38" gid="590" type="obj_dw_church_window_parallax" x="560" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102054" />
+      </properties>
+    </object>
+    <object id="39" gid="590" type="obj_dw_church_window_parallax" x="720" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102055" />
+      </properties>
+    </object>
+    <object id="40" gid="590" type="obj_dw_church_window_parallax" x="880" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102056" />
+      </properties>
+    </object>
+    <object id="41" gid="590" type="obj_dw_church_window_parallax" x="1040" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102057" />
+      </properties>
+    </object>
+    <object id="42" gid="590" type="obj_dw_church_window_parallax" x="1200" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102058" />
+      </properties>
+    </object>
+    <object id="43" gid="590" type="obj_dw_church_window_parallax" x="1360" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102059" />
+      </properties>
+    </object>
+    <object id="44" gid="590" type="obj_dw_church_window_parallax" x="1520" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102060" />
+      </properties>
+    </object>
+    <object id="45" gid="590" type="obj_dw_church_window_parallax" x="1680" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102061" />
+      </properties>
+    </object>
+    <object id="46" gid="590" type="obj_dw_church_window_parallax" x="1840" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102062" />
+      </properties>
+    </object>
+    <object id="47" gid="590" type="obj_dw_church_window_parallax" x="2000" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102063" />
+      </properties>
+    </object>
+    <object id="48" gid="590" type="obj_dw_church_window_parallax" x="2160" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102064" />
+      </properties>
+    </object>
+    <object id="49" gid="590" type="obj_dw_church_window_parallax" x="2320" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102065" />
+      </properties>
+    </object>
+    <object id="50" gid="590" type="obj_dw_church_window_parallax" x="2480" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102066" />
+      </properties>
+    </object>
+    <object id="51" gid="590" type="obj_dw_church_window_parallax" x="2640" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102067" />
+      </properties>
+    </object>
+    <object id="52" gid="590" type="obj_dw_church_window_parallax" x="2800" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102068" />
+      </properties>
+    </object>
+    <object id="53" gid="590" type="obj_dw_church_window_parallax" x="2960" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102069" />
+      </properties>
+    </object>
+    <object id="54" gid="590" type="obj_dw_church_window_parallax" x="3120" y="112" width="31" height="72">
+      <properties>
+        <property name="instanceId" type="int" value="102070" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

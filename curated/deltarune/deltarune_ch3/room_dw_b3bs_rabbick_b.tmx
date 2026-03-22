@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="14" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="23">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_b3bs_tileset.tsx" />
+  <tileset firstgid="271" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="272" source="tilesets/obj_dw_ch3_b3bs_trashcan_interactor.tsx" />
+  <tileset firstgid="273" source="tilesets/obj_dw_b3bs_rabbick_b.tsx" />
+  <layer id="1" name="FloorTiles" width="20" height="14">
+    <data encoding="csv">107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,0,0,0,0,55,53,52,53,52,53,52,53,52,56,0,0,0,0,0,0,0,0,0,0,64,53,52,53,52,53,52,53,52,65,57,47,46,47,0,0,0,0,0,0,64,53,52,53,52,53,52,53,52,65,66,47,46,47,0,0,0,0,0,0,73,53,52,53,52,53,52,53,52,74,66,47,46,47,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,75,47,46,47,0,0,0,0,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,0,0,0,0,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,0,0,0,0,0,0,92,93,92,93,92,93,92,93,92,93,92,93,92,93,0,0,0,0,0,0,83,84,83,84,83,84,83,84,83,84,83,84,83,84,0,0,0,0,0,0,0,0,0,93,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,83,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="FloorTiles_Accents" width="20" height="14">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,77,77,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,77,77,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="Foreground_Tiles" width="20" height="14">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,19,19,111,112,113,0,0,109,101,102,103,104,100,101,102,103,0,0,19,19,19,19,19,19,19,0,0,19,19,19,19,19,19,19,19,19,0,0,19,19,19,19,19,19,19,0,0,19,19,19,19,19,19,19,19,19,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="271" type="obj_mainchara" x="300" y="187" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="107773" />
+      </properties>
+    </object>
+    <object id="3" gid="272" type="obj_dw_ch3_b3bs_trashcan_interactor" x="194" y="225" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107775" />
+      </properties>
+    </object>
+    <object id="4" gid="272" type="obj_dw_ch3_b3bs_trashcan_interactor" x="232" y="345" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107776" />
+      </properties>
+    </object>
+    <object id="5" gid="272" type="obj_dw_ch3_b3bs_trashcan_interactor" x="472" y="225" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107777" />
+      </properties>
+    </object>
+    <object id="6" gid="272" type="obj_dw_ch3_b3bs_trashcan_interactor" x="352" y="305" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107778" />
+      </properties>
+    </object>
+    <object id="7" gid="272" type="obj_dw_ch3_b3bs_trashcan_interactor" x="552" y="305" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107779" />
+      </properties>
+    </object>
+    <object id="8" gid="272" type="obj_dw_ch3_b3bs_trashcan_interactor" x="470" y="385" width="28" height="31">
+      <properties>
+        <property name="instanceId" type="int" value="107780" />
+      </properties>
+    </object>
+    <object id="9" gid="273" type="obj_dw_b3bs_rabbick_b" x="-40" y="16" width="16" height="16">
+      <properties>
+        <property name="instanceId" type="int" value="107781" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

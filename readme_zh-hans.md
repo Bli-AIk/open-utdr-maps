@@ -88,6 +88,12 @@ GameMaker、Unity、Godot、Bevy、Love2D、MonoGame 等等。
 你可以重命名图层、清理房间、添加碰撞数据、拼接世界地图，
 甚至只是修复文档中的一个错别字。
 
+在 GitHub 上创建 Issue 时，请统一使用**英文**，方便后续分流与维护。
+Issue 标题格式为 `[Type | GAME | EMOJI] Description`，其中 emoji 用来表示主要工作类型：
+`🧹` 数据整理，`📐` 逻辑图层，`🌍` 世界拼接，`📝` 文档完善，`🔧` 工具改进。
+仓库也会配套使用 `data-curation`、`logic-layers`、`world-stitching`、`documentation`、`tooling`
+等标签，方便筛选任务。
+
 👉 查看 [contributing_zh-hans.md](contributing_zh-hans.md) 了解详细的参与步骤。
 
 ## ⚖️ 许可证
@@ -156,6 +162,32 @@ raw/
     └── deltarune_ch4/
 ```
 
+### 将 raw 地图提升到 curated/
+
+仓库里也自带了一个本地辅助脚本，可以把单个房间从 `raw/` 提升到 `curated/`，同时自动复制它依赖的 `.tsx` 和 `.png`，不用手动追文件引用。
+
+常用示例：
+
+```bash
+# 先做 dry-run，查看将要复制和删除的内容
+just migrate-dry-run dataset=undertale room=room_fire2
+
+# 生成全局黑名单审阅目录，查看所有被黑名单命中的 sprite
+just blacklist-audit
+
+# 真正把一个房间及其依赖复制到 curated/
+just migrate dataset=deltarune_ch2 room=room_dw_city_big_2
+```
+
+关键文件：
+
+- `scripts/curation_migrate.py` — 提升辅助脚本
+- `scripts/curation_blacklist.toml` — 黑名单 / 白名单配置
+- `dev/curation_migration_preview/` — 单房间本地预览输出
+- `dev/curation_blacklist_audit/` — 全局黑名单审阅输出
+
+`dev/` 目录默认被 git 忽略，适合先审查黑名单命中结果，再决定规则是否安全。
+
 ## 📂 仓库结构
 
 ```
@@ -171,7 +203,8 @@ open-utdr-maps/
 │   ├── layer_spec_en.md
 │   └── layer_spec_zh-hans.md
 ├── conversion_info/        # 转换元数据（TOML）
-└── scripts/                # 自动化脚本
+├── scripts/                # 自动化脚本，包括 raw -> curated 辅助工具
+└── dev/                    # 本地审阅输出（git 忽略）
 ```
 
 ## 🔧 技术背景

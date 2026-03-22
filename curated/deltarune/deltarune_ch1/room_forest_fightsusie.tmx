@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="31" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="84">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_darkforest_tiles.tsx" />
+  <tileset firstgid="73" source="tilesets/free_tile_p6_2_984_40x160.tsx" />
+  <tileset firstgid="74" source="tilesets/free_tile_p6_2_984_40x80.tsx" />
+  <tileset firstgid="75" source="tilesets/free_tile_p6_122_984_40x80.tsx" />
+  <tileset firstgid="76" source="tilesets/free_tile_p6_42_944_120x40.tsx" />
+  <tileset firstgid="77" source="tilesets/free_tile_p6_42_944_80x40.tsx" />
+  <tileset firstgid="78" source="tilesets/free_tile_p6_2_944_120x40.tsx" />
+  <tileset firstgid="79" source="tilesets/free_tile_p6_122_984_40x160.tsx" />
+  <tileset firstgid="80" source="tilesets/free_tile_p6_42_984_80x80.tsx" />
+  <tileset firstgid="81" source="tilesets/free_tile_p6_42_984_80x160.tsx" />
+  <tileset firstgid="82" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="87" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="92" source="tilesets/obj_shortcut_door.tsx" />
+  <tileset firstgid="93" source="tilesets/obj_musicer_bird.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="31" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,21,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,27,0,0,0,20,20,20,20,20,20,20,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,20,20,20,32,32,32,32,32,32,32,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,32,32,32,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,27,0,0,0,0,0,0,0,0,0,0,31,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="80" x="120" y="400" width="80" height="80" />
+    <object id="2" gid="80" x="40" y="400" width="80" height="80" />
+    <object id="3" gid="80" x="-40" y="400" width="80" height="80" />
+    <object id="4" gid="80" x="-40" y="480" width="80" height="80" />
+    <object id="5" gid="80" x="40" y="480" width="80" height="80" />
+    <object id="6" gid="80" x="120" y="480" width="80" height="80" />
+    <object id="7" gid="80" x="200" y="480" width="80" height="80" />
+    <object id="8" gid="80" x="280" y="480" width="80" height="80" />
+    <object id="9" gid="80" x="360" y="480" width="80" height="80" />
+    <object id="10" gid="80" x="440" y="480" width="80" height="80" />
+    <object id="11" gid="80" x="520" y="480" width="80" height="80" />
+    <object id="12" gid="80" x="600" y="480" width="80" height="80" />
+    <object id="13" gid="80" x="680" y="480" width="80" height="80" />
+    <object id="14" gid="80" x="760" y="480" width="80" height="80" />
+    <object id="15" gid="80" x="840" y="480" width="80" height="80" />
+    <object id="16" gid="80" x="920" y="480" width="80" height="80" />
+    <object id="17" gid="80" x="1000" y="480" width="80" height="80" />
+    <object id="18" gid="80" x="1080" y="480" width="80" height="80" />
+    <object id="19" gid="80" x="1160" y="480" width="80" height="80" />
+    <object id="20" gid="81" x="0" y="200" width="80" height="160" />
+    <object id="21" gid="81" x="80" y="200" width="80" height="160" />
+    <object id="22" gid="81" x="160" y="200" width="80" height="160" />
+    <object id="23" gid="81" x="240" y="120" width="80" height="160" />
+    <object id="24" gid="81" x="320" y="120" width="80" height="160" />
+    <object id="25" gid="81" x="400" y="120" width="80" height="160" />
+    <object id="26" gid="81" x="480" y="120" width="80" height="160" />
+    <object id="27" gid="81" x="560" y="120" width="80" height="160" />
+    <object id="28" gid="80" x="0" y="40" width="80" height="80" />
+    <object id="29" gid="80" x="80" y="40" width="80" height="80" />
+    <object id="30" gid="80" x="160" y="40" width="80" height="80" />
+    <object id="31" gid="81" x="640" y="120" width="80" height="160" />
+    <object id="32" gid="81" x="720" y="120" width="80" height="160" />
+    <object id="33" gid="81" x="800" y="120" width="80" height="160" />
+    <object id="34" gid="79" x="880" y="120" width="40" height="160" />
+    <object id="35" gid="73" x="1040" y="120" width="40" height="160" />
+    <object id="36" gid="81" x="1080" y="120" width="80" height="160" />
+    <object id="37" gid="81" x="1160" y="200" width="80" height="160" />
+    <object id="38" gid="80" x="1160" y="40" width="80" height="80" />
+    <object id="39" gid="80" x="1160" y="400" width="80" height="80" />
+  </objectgroup>
+  <objectgroup id="3" name="depth_990000_free_0">
+    <object id="40" gid="73" x="1120" y="200" width="40" height="160" />
+    <object id="41" gid="74" x="1120" y="400" width="40" height="80" />
+    <object id="42" gid="75" x="200" y="400" width="40" height="80" />
+    <object id="43" gid="76" x="120" y="320" width="120" height="40" />
+    <object id="44" gid="77" x="40" y="320" width="80" height="40" />
+    <object id="45" gid="77" x="-40" y="320" width="80" height="40" />
+    <object id="46" gid="77" x="200" y="400" width="80" height="40" />
+    <object id="47" gid="77" x="280" y="400" width="80" height="40" />
+    <object id="48" gid="77" x="360" y="400" width="80" height="40" />
+    <object id="49" gid="77" x="440" y="400" width="80" height="40" />
+    <object id="50" gid="77" x="520" y="400" width="80" height="40" />
+    <object id="51" gid="77" x="600" y="400" width="80" height="40" />
+    <object id="52" gid="77" x="680" y="400" width="80" height="40" />
+    <object id="53" gid="77" x="760" y="400" width="80" height="40" />
+    <object id="54" gid="77" x="840" y="400" width="80" height="40" />
+    <object id="55" gid="77" x="920" y="400" width="80" height="40" />
+    <object id="56" gid="77" x="1000" y="400" width="80" height="40" />
+    <object id="57" gid="77" x="1080" y="400" width="80" height="40" />
+    <object id="58" gid="78" x="1120" y="320" width="120" height="40" />
+    <object id="59" gid="79" x="240" y="200" width="40" height="160" />
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="60" gid="82" type="obj_mainchara" x="700" y="233" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="102623" />
+      </properties>
+    </object>
+    <object id="66" gid="87" type="obj_npc_room" x="800" y="80" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="102629" />
+      </properties>
+    </object>
+    <object id="81" gid="92" type="obj_shortcut_door" x="945" y="67" width="36" height="52">
+      <properties>
+        <property name="instanceId" type="int" value="102644" />
+      </properties>
+    </object>
+    <object id="82" gid="93" type="obj_musicer_bird" x="35" y="180" width="180" height="155">
+      <properties>
+        <property name="instanceId" type="int" value="102645" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="18">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_church_tileset_new.tsx" />
+  <tileset firstgid="583" source="tilesets/bg_dw_church_tileset.tsx" />
+  <tileset firstgid="1165" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="1167" source="tilesets/obj_genmarker.tsx" />
+  <tileset firstgid="1168" source="tilesets/obj_darkness_overlay.tsx" />
+  <tileset firstgid="1169" source="tilesets/obj_light_window_textureless_mask.tsx" />
+  <layer id="1" name="TILES" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,662,662,656,656,656,656,656,656,656,656,656,656,656,656,656,656,656,656,656,656,656,662,662,0,0,0,0,0,0,0,0,0,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,662,0,0,0,0,0,0,0,0,0,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,668,662,662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,662,662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,662,662,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,662,662,0,0,0,0,0</data>
+  </layer>
+  <layer id="2" name="Tiles_new_main" width="32" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,378,477,74,353,354,74,74,478,74,377,377,377,475,80,80,80,478,478,80,80,80,478,477,0,0,0,0,0,0,0,0,0,477,478,80,359,360,80,478,478,80,80,80,80,377,377,80,80,80,80,80,80,478,478,478,0,0,0,0,0,0,0,0,0,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,451,478,478,0,0,0,0,0,0,0,0,0,467,0,0,0,467,0,0,0,467,0,0,0,467,0,0,0,467,0,0,0,467,80,80,0,0,0,0,0,0,0,0,0,473,0,0,0,473,0,0,0,473,0,0,0,473,0,0,0,473,0,0,0,473,80,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,80,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="objects">
+    <object id="1" gid="1165" type="obj_mainchara" x="1022" y="412" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="104543" />
+      </properties>
+    </object>
+    <object id="5" gid="1167" type="obj_genmarker" x="360" y="31" width="1" height="1">
+      <properties>
+        <property name="instanceId" type="int" value="104547" />
+      </properties>
+    </object>
+    <object id="6" gid="1168" type="obj_darkness_overlay" x="0" y="100" width="40" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="104548" />
+      </properties>
+    </object>
+    <object id="7" gid="1169" type="obj_light_window_textureless_mask" x="144" y="373" width="65" height="333">
+      <properties>
+        <property name="instanceId" type="int" value="104549" />
+      </properties>
+    </object>
+    <object id="8" gid="1169" type="obj_light_window_textureless_mask" x="320" y="413" width="65" height="333">
+      <properties>
+        <property name="instanceId" type="int" value="104550" />
+      </properties>
+    </object>
+    <object id="9" gid="1169" type="obj_light_window_textureless_mask" x="480" y="413" width="65" height="333">
+      <properties>
+        <property name="instanceId" type="int" value="104551" />
+      </properties>
+    </object>
+    <object id="10" gid="1169" type="obj_light_window_textureless_mask" x="640" y="413" width="65" height="333">
+      <properties>
+        <property name="instanceId" type="int" value="104552" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

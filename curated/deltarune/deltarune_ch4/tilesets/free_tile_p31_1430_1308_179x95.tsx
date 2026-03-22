@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tileset version="1.10" tiledversion="1.10.2" name="free_tile_p31_1430_1308_179x95" tilewidth="179" tileheight="95" tilecount="1" columns="1">
+  <image source="../tile_objects/free_tile_p31_1430_1308_179x95.png" width="179" height="95"/>
+</tileset>

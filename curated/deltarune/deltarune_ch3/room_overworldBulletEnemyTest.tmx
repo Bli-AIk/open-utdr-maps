@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="11">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_battleLayer.tsx" />
+  <tileset firstgid="169" source="tilesets/bg_dw_dither_overlay_tileset.tsx" />
+  <tileset firstgid="203" source="tilesets/bg_darktiles1_tileset.tsx" />
+  <tileset firstgid="303" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="304" source="tilesets/obj_overworld_bulletarea.tsx" />
+  <layer id="1" name="TILES_BASE" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,205,205,205,205,205,205,205,206,0,205,205,205,205,205,205,210,208,210,210,210,210,210,210,211,0,215,215,215,215,215,215,215,210,210,210,210,210,210,210,211,0,220,220,220,220,220,220,209,210,210,210,210,210,210,210,211,0,225,225,225,225,225,225,214,210,210,210,210,210,210,210,216,0,225,225,225,225,225,225,219,220,220,220,220,220,220,220,221,0,225,225,225,225,225,225,223,225,225,225,225,225,225,225,226,0,225,225,225,225,225,225,224,225,225,225,225,225,225,225,217,0</data>
+  </layer>
+  <layer id="2" name="TILES_DITHER" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,178,178,178,178,178,178,0,0,0,0,0,0,0,0,0,0,176,176,176,176,176,176,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="TILES_BATTLEBORDER" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,3,3,3,3,3,3,3,4,0,3,3,3,3,3,3,0,0,0,0,0,0,0,0,11,0,17,17,17,17,17,17,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,16,17,17,17,17,17,17,17,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="objects">
+    <object id="1" gid="303" type="obj_mainchara" x="20" y="219" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101437" />
+      </properties>
+    </object>
+    <object id="3" gid="304" type="obj_overworld_bulletarea" x="240" y="200" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101439" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="50" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_hoteltile.tsx" />
+  <tileset firstgid="78" source="tilesets/free_tile_p9_1060_1428_20x60.tsx" />
+  <tileset firstgid="79" source="tilesets/free_tile_p9_1080_1428_20x60.tsx" />
+  <tileset firstgid="80" source="tilesets/free_tile_p9_1100_1428_20x60.tsx" />
+  <tileset firstgid="81" source="tilesets/obj_finalelevatorpanel.tsx" />
+  <tileset firstgid="83" source="tilesets/obj_mainchara.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,53,53,53,53,53,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,53,53,53,53,53,53,0,0,0,0,0,0,0,0,0,0,0,0,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,53,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="78" x="100" y="120" width="20" height="60" />
+    <object id="2" gid="79" x="120" y="120" width="20" height="60" />
+    <object id="3" gid="79" x="140" y="120" width="20" height="60" />
+    <object id="4" gid="79" x="160" y="120" width="20" height="60" />
+    <object id="5" gid="79" x="180" y="120" width="20" height="60" />
+    <object id="6" gid="80" x="200" y="120" width="20" height="60" />
+  </objectgroup>
+  <objectgroup id="3" name="objects">
+    <object id="7" gid="81" type="obj_finalelevatorpanel" x="140" y="100" width="40" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="112918" />
+      </properties>
+    </object>
+    <object id="9" gid="83" type="obj_mainchara" x="150" y="159" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112920" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

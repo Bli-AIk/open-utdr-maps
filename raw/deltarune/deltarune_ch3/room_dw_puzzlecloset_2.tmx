@@ -4,93 +4,93 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx"/>
-  <tileset firstgid="1123" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
-  <tileset firstgid="1429" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="1430" source="tilesets/obj_dw_puzzlecloset_dooriel.tsx"/>
-  <tileset firstgid="1431" source="tilesets/obj_b3bs_console.tsx"/>
-  <tileset firstgid="1432" source="tilesets/obj_dw_ch3_puzzleclosetbg_effect.tsx"/>
-  <tileset firstgid="1433" source="tilesets/obj_musicer_gen.tsx"/>
-  <tileset firstgid="1434" source="tilesets/obj_doorAny.tsx"/>
-  <tileset firstgid="1435" source="tilesets/obj_markerAny.tsx"/>
-  <tileset firstgid="1436" source="tilesets/obj_solidblocksized.tsx"/>
-  <tileset firstgid="1437" source="tilesets/obj_board_trigger.tsx"/>
-  <tileset firstgid="1438" source="tilesets/obj_solidblock_diagonal_32.tsx"/>
-  <tileset firstgid="1439" source="tilesets/obj_board_camera.tsx"/>
-  <tileset firstgid="1440" source="tilesets/obj_board_controller.tsx"/>
-  <tileset firstgid="1441" source="tilesets/obj_b3bs_chasekey.tsx"/>
-  <tileset firstgid="1442" source="tilesets/obj_b3bs_pointobj.tsx"/>
-  <tileset firstgid="1443" source="tilesets/obj_board_aimoverwrite.tsx"/>
-  <tileset firstgid="1444" source="tilesets/obj_dw_puzzlecloset_warp.tsx"/>
-  <tileset firstgid="1445" source="tilesets/obj_dw_puzzlecloset_1_bush.tsx"/>
-  <tileset firstgid="1446" source="tilesets/obj_board_pc2_sworddoor.tsx"/>
-  <tileset firstgid="1447" source="tilesets/obj_board_solid.tsx"/>
+  <tileset firstgid="913" source="tilesets/bg_dw_b3bs_tileset.tsx"/>
+  <tileset firstgid="1183" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="1184" source="tilesets/obj_dw_puzzlecloset_dooriel.tsx"/>
+  <tileset firstgid="1185" source="tilesets/obj_b3bs_console.tsx"/>
+  <tileset firstgid="1186" source="tilesets/obj_dw_ch3_puzzleclosetbg_effect.tsx"/>
+  <tileset firstgid="1187" source="tilesets/obj_musicer_gen.tsx"/>
+  <tileset firstgid="1188" source="tilesets/obj_doorAny.tsx"/>
+  <tileset firstgid="1189" source="tilesets/obj_markerAny.tsx"/>
+  <tileset firstgid="1190" source="tilesets/obj_solidblocksized.tsx"/>
+  <tileset firstgid="1191" source="tilesets/obj_board_trigger.tsx"/>
+  <tileset firstgid="1192" source="tilesets/obj_solidblock_diagonal_32.tsx"/>
+  <tileset firstgid="1193" source="tilesets/obj_board_camera.tsx"/>
+  <tileset firstgid="1194" source="tilesets/obj_board_controller.tsx"/>
+  <tileset firstgid="1195" source="tilesets/obj_b3bs_chasekey.tsx"/>
+  <tileset firstgid="1196" source="tilesets/obj_b3bs_pointobj.tsx"/>
+  <tileset firstgid="1197" source="tilesets/obj_board_aimoverwrite.tsx"/>
+  <tileset firstgid="1198" source="tilesets/obj_dw_puzzlecloset_warp.tsx"/>
+  <tileset firstgid="1199" source="tilesets/obj_dw_puzzlecloset_1_bush.tsx"/>
+  <tileset firstgid="1200" source="tilesets/obj_board_pc2_sworddoor.tsx"/>
+  <tileset firstgid="1201" source="tilesets/obj_board_solid.tsx"/>
   <objectgroup id="1" name="FloorTiles_objects">
-    <object id="1" gid="1285" x="120" y="400" width="40" height="40"/>
-    <object id="2" gid="1286" x="160" y="400" width="40" height="40"/>
-    <object id="3" gid="1287" x="200" y="400" width="40" height="40"/>
-    <object id="4" gid="1288" x="240" y="400" width="40" height="40"/>
-    <object id="5" gid="1289" x="280" y="400" width="40" height="40"/>
-    <object id="6" gid="1290" x="320" y="400" width="40" height="40"/>
-    <object id="7" gid="1285" x="360" y="400" width="40" height="40"/>
-    <object id="8" gid="1286" x="400" y="400" width="40" height="40"/>
-    <object id="9" gid="1287" x="440" y="400" width="40" height="40"/>
-    <object id="10" gid="1288" x="480" y="400" width="40" height="40"/>
-    <object id="11" gid="1289" x="520" y="400" width="40" height="40"/>
-    <object id="12" gid="1290" x="560" y="400" width="40" height="40"/>
-    <object id="13" gid="1285" x="600" y="400" width="40" height="40"/>
-    <object id="14" gid="1286" x="640" y="400" width="40" height="40"/>
-    <object id="15" gid="1287" x="680" y="400" width="40" height="40"/>
-    <object id="16" gid="1288" x="720" y="400" width="40" height="40"/>
-    <object id="17" gid="1289" x="760" y="400" width="40" height="40"/>
-    <object id="18" gid="1290" x="800" y="400" width="40" height="40"/>
-    <object id="19" gid="1285" x="840" y="400" width="40" height="40"/>
-    <object id="20" gid="1286" x="880" y="400" width="40" height="40"/>
-    <object id="21" gid="1287" x="920" y="400" width="40" height="40"/>
-    <object id="22" gid="1288" x="960" y="400" width="40" height="40"/>
-    <object id="23" gid="1289" x="1000" y="400" width="40" height="40"/>
-    <object id="24" gid="1290" x="1040" y="400" width="40" height="40"/>
-    <object id="25" gid="1285" x="1080" y="400" width="40" height="40"/>
-    <object id="26" gid="1286" x="1120" y="400" width="40" height="40"/>
-    <object id="27" gid="1287" x="1160" y="400" width="40" height="40"/>
-    <object id="28" gid="1288" x="1200" y="400" width="40" height="40"/>
-    <object id="29" gid="1289" x="1240" y="400" width="40" height="40"/>
-    <object id="30" gid="1290" x="1280" y="400" width="40" height="40"/>
-    <object id="31" gid="1294" x="120" y="440" width="40" height="40"/>
-    <object id="32" gid="1295" x="160" y="440" width="40" height="40"/>
-    <object id="33" gid="1296" x="200" y="440" width="40" height="40"/>
-    <object id="34" gid="1297" x="240" y="440" width="40" height="40"/>
-    <object id="35" gid="1298" x="280" y="440" width="40" height="40"/>
-    <object id="36" gid="1299" x="320" y="440" width="40" height="40"/>
-    <object id="37" gid="1294" x="360" y="440" width="40" height="40"/>
-    <object id="38" gid="1295" x="400" y="440" width="40" height="40"/>
-    <object id="39" gid="1296" x="440" y="440" width="40" height="40"/>
-    <object id="40" gid="1297" x="480" y="440" width="40" height="40"/>
-    <object id="41" gid="1298" x="520" y="440" width="40" height="40"/>
-    <object id="42" gid="1299" x="560" y="440" width="40" height="40"/>
-    <object id="43" gid="1294" x="600" y="440" width="40" height="40"/>
-    <object id="44" gid="1295" x="640" y="440" width="40" height="40"/>
-    <object id="45" gid="1296" x="680" y="440" width="40" height="40"/>
-    <object id="46" gid="1297" x="720" y="440" width="40" height="40"/>
-    <object id="47" gid="1298" x="760" y="440" width="40" height="40"/>
-    <object id="48" gid="1299" x="800" y="440" width="40" height="40"/>
-    <object id="49" gid="1294" x="840" y="440" width="40" height="40"/>
-    <object id="50" gid="1295" x="880" y="440" width="40" height="40"/>
-    <object id="51" gid="1296" x="920" y="440" width="40" height="40"/>
-    <object id="52" gid="1297" x="960" y="440" width="40" height="40"/>
-    <object id="53" gid="1298" x="1000" y="440" width="40" height="40"/>
-    <object id="54" gid="1299" x="1040" y="440" width="40" height="40"/>
-    <object id="55" gid="1294" x="1080" y="440" width="40" height="40"/>
-    <object id="56" gid="1295" x="1120" y="440" width="40" height="40"/>
-    <object id="57" gid="1296" x="1160" y="440" width="40" height="40"/>
-    <object id="58" gid="1297" x="1200" y="440" width="40" height="40"/>
-    <object id="59" gid="1298" x="1240" y="440" width="40" height="40"/>
-    <object id="60" gid="1299" x="1280" y="440" width="40" height="40"/>
+    <object id="1" gid="1075" x="120" y="400" width="40" height="40"/>
+    <object id="2" gid="1076" x="160" y="400" width="40" height="40"/>
+    <object id="3" gid="1077" x="200" y="400" width="40" height="40"/>
+    <object id="4" gid="1078" x="240" y="400" width="40" height="40"/>
+    <object id="5" gid="1079" x="280" y="400" width="40" height="40"/>
+    <object id="6" gid="1080" x="320" y="400" width="40" height="40"/>
+    <object id="7" gid="1075" x="360" y="400" width="40" height="40"/>
+    <object id="8" gid="1076" x="400" y="400" width="40" height="40"/>
+    <object id="9" gid="1077" x="440" y="400" width="40" height="40"/>
+    <object id="10" gid="1078" x="480" y="400" width="40" height="40"/>
+    <object id="11" gid="1079" x="520" y="400" width="40" height="40"/>
+    <object id="12" gid="1080" x="560" y="400" width="40" height="40"/>
+    <object id="13" gid="1075" x="600" y="400" width="40" height="40"/>
+    <object id="14" gid="1076" x="640" y="400" width="40" height="40"/>
+    <object id="15" gid="1077" x="680" y="400" width="40" height="40"/>
+    <object id="16" gid="1078" x="720" y="400" width="40" height="40"/>
+    <object id="17" gid="1079" x="760" y="400" width="40" height="40"/>
+    <object id="18" gid="1080" x="800" y="400" width="40" height="40"/>
+    <object id="19" gid="1075" x="840" y="400" width="40" height="40"/>
+    <object id="20" gid="1076" x="880" y="400" width="40" height="40"/>
+    <object id="21" gid="1077" x="920" y="400" width="40" height="40"/>
+    <object id="22" gid="1078" x="960" y="400" width="40" height="40"/>
+    <object id="23" gid="1079" x="1000" y="400" width="40" height="40"/>
+    <object id="24" gid="1080" x="1040" y="400" width="40" height="40"/>
+    <object id="25" gid="1075" x="1080" y="400" width="40" height="40"/>
+    <object id="26" gid="1076" x="1120" y="400" width="40" height="40"/>
+    <object id="27" gid="1077" x="1160" y="400" width="40" height="40"/>
+    <object id="28" gid="1078" x="1200" y="400" width="40" height="40"/>
+    <object id="29" gid="1079" x="1240" y="400" width="40" height="40"/>
+    <object id="30" gid="1080" x="1280" y="400" width="40" height="40"/>
+    <object id="31" gid="1084" x="120" y="440" width="40" height="40"/>
+    <object id="32" gid="1085" x="160" y="440" width="40" height="40"/>
+    <object id="33" gid="1086" x="200" y="440" width="40" height="40"/>
+    <object id="34" gid="1087" x="240" y="440" width="40" height="40"/>
+    <object id="35" gid="1088" x="280" y="440" width="40" height="40"/>
+    <object id="36" gid="1089" x="320" y="440" width="40" height="40"/>
+    <object id="37" gid="1084" x="360" y="440" width="40" height="40"/>
+    <object id="38" gid="1085" x="400" y="440" width="40" height="40"/>
+    <object id="39" gid="1086" x="440" y="440" width="40" height="40"/>
+    <object id="40" gid="1087" x="480" y="440" width="40" height="40"/>
+    <object id="41" gid="1088" x="520" y="440" width="40" height="40"/>
+    <object id="42" gid="1089" x="560" y="440" width="40" height="40"/>
+    <object id="43" gid="1084" x="600" y="440" width="40" height="40"/>
+    <object id="44" gid="1085" x="640" y="440" width="40" height="40"/>
+    <object id="45" gid="1086" x="680" y="440" width="40" height="40"/>
+    <object id="46" gid="1087" x="720" y="440" width="40" height="40"/>
+    <object id="47" gid="1088" x="760" y="440" width="40" height="40"/>
+    <object id="48" gid="1089" x="800" y="440" width="40" height="40"/>
+    <object id="49" gid="1084" x="840" y="440" width="40" height="40"/>
+    <object id="50" gid="1085" x="880" y="440" width="40" height="40"/>
+    <object id="51" gid="1086" x="920" y="440" width="40" height="40"/>
+    <object id="52" gid="1087" x="960" y="440" width="40" height="40"/>
+    <object id="53" gid="1088" x="1000" y="440" width="40" height="40"/>
+    <object id="54" gid="1089" x="1040" y="440" width="40" height="40"/>
+    <object id="55" gid="1084" x="1080" y="440" width="40" height="40"/>
+    <object id="56" gid="1085" x="1120" y="440" width="40" height="40"/>
+    <object id="57" gid="1086" x="1160" y="440" width="40" height="40"/>
+    <object id="58" gid="1087" x="1200" y="440" width="40" height="40"/>
+    <object id="59" gid="1088" x="1240" y="440" width="40" height="40"/>
+    <object id="60" gid="1089" x="1280" y="440" width="40" height="40"/>
   </objectgroup>
   <layer id="2" name="BOARD_Tiles" width="120" height="31">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,233,233,233,233,233,233,233,233,233,233,233,233,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,18,18,18,18,18,18,233,233,233,233,233,180,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,18,18,18,18,18,18,281,233,282,18,18,18,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,18,18,265,266,18,18,18,18,18,18,18,18,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,18,18,281,282,18,18,18,18,18,18,18,18,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,18,18,18,18,18,18,265,233,266,18,18,18,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,18,18,18,18,18,18,233,233,233,18,18,18,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,233,233,233,233,233,233,233,233,233,233,233,233,233,233,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,164,164,164,164,164,164,164,164,164,164,164,164,164,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,451,451,451,451,451,451,451,451,451,451,451,451,451,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,451,451,451,451,451,451,451,451,451,451,451,451,451,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,451,451,451,451,451,451,451,451,451,451,451,451,451,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,451,451,451,451,451,451,451,451,451,451,451,451,451,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,451,451,451,451,451,451,451,451,451,451,451,451,451,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,149,451,451,451,451,451,451,451,451,451,451,451,451,451,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,163,164,164,164,164,164,164,164,164,164,164,164,164,164,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="3" name="objects">
-    <object id="61" gid="1429" type="obj_mainchara" x="200" y="375" width="19" height="37">
+    <object id="61" gid="1183" type="obj_mainchara" x="200" y="375" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="107985"/>
       </properties>
@@ -105,202 +105,202 @@
         <property name="instanceId" type="int" value="107987"/>
       </properties>
     </object>
-    <object id="64" gid="1430" type="obj_dw_puzzlecloset_dooriel" x="1242" y="330" width="40" height="110">
+    <object id="64" gid="1184" type="obj_dw_puzzlecloset_dooriel" x="1242" y="330" width="40" height="110">
       <properties>
         <property name="instanceId" type="int" value="107988"/>
       </properties>
     </object>
-    <object id="65" gid="1431" type="obj_b3bs_console" x="682" y="333" width="38" height="17">
+    <object id="65" gid="1185" type="obj_b3bs_console" x="682" y="333" width="38" height="17">
       <properties>
         <property name="instanceId" type="int" value="107989"/>
       </properties>
     </object>
-    <object id="66" gid="1432" type="obj_dw_ch3_puzzleclosetbg_effect" x="-120" y="240" width="262" height="240">
+    <object id="66" gid="1186" type="obj_dw_ch3_puzzleclosetbg_effect" x="-120" y="240" width="262" height="240">
       <properties>
         <property name="instanceId" type="int" value="107990"/>
       </properties>
     </object>
-    <object id="67" gid="1433" type="obj_musicer_gen" x="-80" y="100" width="20" height="20">
+    <object id="67" gid="1187" type="obj_musicer_gen" x="-80" y="100" width="20" height="20">
       <properties>
         <property name="instanceId" type="int" value="107991"/>
       </properties>
     </object>
-    <object id="68" gid="1434" type="obj_doorAny" x="159" y="384" width="40" height="40">
+    <object id="68" gid="1188" type="obj_doorAny" x="159" y="384" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107992"/>
       </properties>
     </object>
-    <object id="69" gid="1435" type="obj_markerAny" x="200" y="412" width="38" height="74">
+    <object id="69" gid="1189" type="obj_markerAny" x="200" y="412" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107993"/>
       </properties>
     </object>
-    <object id="70" gid="1434" type="obj_doorAny" x="1254" y="414" width="40" height="40">
+    <object id="70" gid="1188" type="obj_doorAny" x="1254" y="414" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107994"/>
       </properties>
     </object>
-    <object id="71" gid="1435" type="obj_markerAny" x="1202" y="412" width="38" height="74">
+    <object id="71" gid="1189" type="obj_markerAny" x="1202" y="412" width="38" height="74">
       <properties>
         <property name="instanceId" type="int" value="107995"/>
       </properties>
     </object>
-    <object id="72" gid="1436" type="obj_solidblocksized" x="80" y="480" width="40" height="40">
+    <object id="72" gid="1190" type="obj_solidblocksized" x="80" y="480" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107996"/>
       </properties>
     </object>
-    <object id="73" gid="1437" type="obj_board_trigger" x="3436" y="252" width="16" height="16">
+    <object id="73" gid="1191" type="obj_board_trigger" x="3436" y="252" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="107997"/>
       </properties>
     </object>
-    <object id="74" gid="1436" type="obj_solidblocksized" x="80" y="352" width="40" height="40">
+    <object id="74" gid="1190" type="obj_solidblocksized" x="80" y="352" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="107998"/>
       </properties>
     </object>
-    <object id="75" gid="1438" type="obj_solidblock_diagonal_32" x="1254" y="407" width="31" height="31">
+    <object id="75" gid="1192" type="obj_solidblock_diagonal_32" x="1254" y="407" width="31" height="31">
       <properties>
         <property name="instanceId" type="int" value="107999"/>
       </properties>
     </object>
-    <object id="76" gid="1438" type="obj_solidblock_diagonal_32" x="252" y="341" width="31" height="31">
+    <object id="76" gid="1192" type="obj_solidblock_diagonal_32" x="252" y="341" width="31" height="31">
       <properties>
         <property name="instanceId" type="int" value="108000"/>
       </properties>
     </object>
-    <object id="77" gid="1439" type="obj_board_camera" x="-32" y="48" width="16" height="16">
+    <object id="77" gid="1193" type="obj_board_camera" x="-32" y="48" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108001"/>
       </properties>
     </object>
-    <object id="78" gid="1440" type="obj_board_controller" x="-32" y="80" width="16" height="16">
+    <object id="78" gid="1194" type="obj_board_controller" x="-32" y="80" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108002"/>
       </properties>
     </object>
-    <object id="79" gid="1441" type="obj_b3bs_chasekey" x="3232" y="400" width="16" height="16">
+    <object id="79" gid="1195" type="obj_b3bs_chasekey" x="3232" y="400" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108003"/>
       </properties>
     </object>
-    <object id="80" gid="1442" type="obj_b3bs_pointobj" x="3072" y="240" width="16" height="16">
+    <object id="80" gid="1196" type="obj_b3bs_pointobj" x="3072" y="240" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108004"/>
       </properties>
     </object>
-    <object id="81" gid="1442" type="obj_b3bs_pointobj" x="3072" y="400" width="16" height="16">
+    <object id="81" gid="1196" type="obj_b3bs_pointobj" x="3072" y="400" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108005"/>
       </properties>
     </object>
-    <object id="82" gid="1442" type="obj_b3bs_pointobj" x="3232" y="400" width="16" height="16">
+    <object id="82" gid="1196" type="obj_b3bs_pointobj" x="3232" y="400" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108006"/>
       </properties>
     </object>
-    <object id="83" gid="1442" type="obj_b3bs_pointobj" x="3232" y="240" width="16" height="16">
+    <object id="83" gid="1196" type="obj_b3bs_pointobj" x="3232" y="240" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108007"/>
       </properties>
     </object>
-    <object id="84" gid="1443" type="obj_board_aimoverwrite" x="3392" y="208" width="16" height="16">
+    <object id="84" gid="1197" type="obj_board_aimoverwrite" x="3392" y="208" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108008"/>
       </properties>
     </object>
-    <object id="85" gid="1444" type="obj_dw_puzzlecloset_warp" x="3424" y="240" width="14" height="16">
+    <object id="85" gid="1198" type="obj_dw_puzzlecloset_warp" x="3424" y="240" width="14" height="16">
       <properties>
         <property name="instanceId" type="int" value="108009"/>
       </properties>
     </object>
-    <object id="86" gid="1445" type="obj_dw_puzzlecloset_1_bush" x="3360" y="400" width="16" height="16">
+    <object id="86" gid="1199" type="obj_dw_puzzlecloset_1_bush" x="3360" y="400" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108010"/>
       </properties>
     </object>
-    <object id="87" gid="1445" type="obj_dw_puzzlecloset_1_bush" x="3424" y="400" width="16" height="16">
+    <object id="87" gid="1199" type="obj_dw_puzzlecloset_1_bush" x="3424" y="400" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108011"/>
       </properties>
     </object>
-    <object id="88" gid="1437" type="obj_board_trigger" x="3088" y="672" width="16" height="16">
+    <object id="88" gid="1191" type="obj_board_trigger" x="3088" y="672" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108012"/>
       </properties>
     </object>
-    <object id="89" gid="1437" type="obj_board_trigger" x="3184" y="672" width="16" height="16">
+    <object id="89" gid="1191" type="obj_board_trigger" x="3184" y="672" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108013"/>
       </properties>
     </object>
-    <object id="90" gid="1437" type="obj_board_trigger" x="3184" y="800" width="16" height="16">
+    <object id="90" gid="1191" type="obj_board_trigger" x="3184" y="800" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108014"/>
       </properties>
     </object>
-    <object id="91" gid="1437" type="obj_board_trigger" x="3216" y="688" width="16" height="16">
+    <object id="91" gid="1191" type="obj_board_trigger" x="3216" y="688" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108015"/>
       </properties>
     </object>
-    <object id="92" gid="1437" type="obj_board_trigger" x="3184" y="736" width="16" height="16">
+    <object id="92" gid="1191" type="obj_board_trigger" x="3184" y="736" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108016"/>
       </properties>
     </object>
-    <object id="93" gid="1437" type="obj_board_trigger" x="3184" y="720" width="16" height="16">
+    <object id="93" gid="1191" type="obj_board_trigger" x="3184" y="720" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108017"/>
       </properties>
     </object>
-    <object id="94" gid="1437" type="obj_board_trigger" x="3264" y="672" width="16" height="16">
+    <object id="94" gid="1191" type="obj_board_trigger" x="3264" y="672" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108018"/>
       </properties>
     </object>
-    <object id="95" gid="1437" type="obj_board_trigger" x="3264" y="800" width="16" height="16">
+    <object id="95" gid="1191" type="obj_board_trigger" x="3264" y="800" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108019"/>
       </properties>
     </object>
-    <object id="96" gid="1437" type="obj_board_trigger" x="3296" y="688" width="16" height="16">
+    <object id="96" gid="1191" type="obj_board_trigger" x="3296" y="688" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108020"/>
       </properties>
     </object>
-    <object id="97" gid="1437" type="obj_board_trigger" x="3264" y="736" width="16" height="16">
+    <object id="97" gid="1191" type="obj_board_trigger" x="3264" y="736" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108021"/>
       </properties>
     </object>
-    <object id="98" gid="1437" type="obj_board_trigger" x="3264" y="720" width="16" height="16">
+    <object id="98" gid="1191" type="obj_board_trigger" x="3264" y="720" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108022"/>
       </properties>
     </object>
-    <object id="99" gid="1437" type="obj_board_trigger" x="3360" y="672" width="16" height="16">
+    <object id="99" gid="1191" type="obj_board_trigger" x="3360" y="672" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108023"/>
       </properties>
     </object>
-    <object id="100" gid="1437" type="obj_board_trigger" x="3360" y="800" width="16" height="16">
+    <object id="100" gid="1191" type="obj_board_trigger" x="3360" y="800" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108024"/>
       </properties>
     </object>
-    <object id="101" gid="1437" type="obj_board_trigger" x="3360" y="688" width="16" height="16">
+    <object id="101" gid="1191" type="obj_board_trigger" x="3360" y="688" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108025"/>
       </properties>
     </object>
-    <object id="102" gid="1437" type="obj_board_trigger" x="3408" y="736" width="16" height="16">
+    <object id="102" gid="1191" type="obj_board_trigger" x="3408" y="736" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108026"/>
       </properties>
     </object>
-    <object id="103" gid="1437" type="obj_board_trigger" x="3360" y="720" width="16" height="16">
+    <object id="103" gid="1191" type="obj_board_trigger" x="3360" y="720" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108027"/>
       </properties>
@@ -310,87 +310,87 @@
         <property name="instanceId" type="int" value="108028"/>
       </properties>
     </object>
-    <object id="105" gid="1437" type="obj_board_trigger" x="3072" y="800" width="16" height="16">
+    <object id="105" gid="1191" type="obj_board_trigger" x="3072" y="800" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108029"/>
       </properties>
     </object>
-    <object id="106" gid="1437" type="obj_board_trigger" x="3120" y="800" width="16" height="16">
+    <object id="106" gid="1191" type="obj_board_trigger" x="3120" y="800" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108030"/>
       </properties>
     </object>
-    <object id="107" gid="1437" type="obj_board_trigger" x="3072" y="672" width="16" height="16">
+    <object id="107" gid="1191" type="obj_board_trigger" x="3072" y="672" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="108031"/>
       </properties>
     </object>
-    <object id="108" gid="1446" type="obj_board_pc2_sworddoor" x="3424" y="240" width="14" height="16">
+    <object id="108" gid="1200" type="obj_board_pc2_sworddoor" x="3424" y="240" width="14" height="16">
       <properties>
         <property name="instanceId" type="int" value="108032"/>
       </properties>
     </object>
-    <object id="109" gid="1447" type="obj_board_solid" x="2976" y="192" width="32" height="32">
+    <object id="109" gid="1201" type="obj_board_solid" x="2976" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108033"/>
       </properties>
     </object>
-    <object id="110" gid="1447" type="obj_board_solid" x="2976" y="448" width="32" height="32">
+    <object id="110" gid="1201" type="obj_board_solid" x="2976" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108034"/>
       </properties>
     </object>
-    <object id="111" gid="1447" type="obj_board_solid" x="2976" y="256" width="32" height="32">
+    <object id="111" gid="1201" type="obj_board_solid" x="2976" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108035"/>
       </properties>
     </object>
-    <object id="112" gid="1447" type="obj_board_solid" x="3456" y="224" width="32" height="32">
+    <object id="112" gid="1201" type="obj_board_solid" x="3456" y="224" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108036"/>
       </properties>
     </object>
-    <object id="113" gid="1447" type="obj_board_solid" x="3360" y="256" width="32" height="32">
+    <object id="113" gid="1201" type="obj_board_solid" x="3360" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108037"/>
       </properties>
     </object>
-    <object id="114" gid="1447" type="obj_board_solid" x="3136" y="320" width="32" height="32">
+    <object id="114" gid="1201" type="obj_board_solid" x="3136" y="320" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108038"/>
       </properties>
     </object>
-    <object id="115" gid="1447" type="obj_board_solid" x="3264" y="256" width="32" height="32">
+    <object id="115" gid="1201" type="obj_board_solid" x="3264" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108039"/>
       </properties>
     </object>
-    <object id="116" gid="1447" type="obj_board_solid" x="3264" y="384" width="32" height="32">
+    <object id="116" gid="1201" type="obj_board_solid" x="3264" y="384" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108040"/>
       </properties>
     </object>
-    <object id="117" gid="1447" type="obj_board_solid" x="3008" y="640" width="32" height="32">
+    <object id="117" gid="1201" type="obj_board_solid" x="3008" y="640" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108041"/>
       </properties>
     </object>
-    <object id="118" gid="1447" type="obj_board_solid" x="3008" y="672" width="32" height="32">
+    <object id="118" gid="1201" type="obj_board_solid" x="3008" y="672" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108042"/>
       </properties>
     </object>
-    <object id="119" gid="1447" type="obj_board_solid" x="3456" y="672" width="32" height="32">
+    <object id="119" gid="1201" type="obj_board_solid" x="3456" y="672" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108043"/>
       </properties>
     </object>
-    <object id="120" gid="1447" type="obj_board_solid" x="3040" y="864" width="32" height="32">
+    <object id="120" gid="1201" type="obj_board_solid" x="3040" y="864" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108044"/>
       </properties>
     </object>
-    <object id="121" gid="1447" type="obj_board_solid" x="3424" y="192" width="32" height="32">
+    <object id="121" gid="1201" type="obj_board_solid" x="3424" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="108045"/>
       </properties>

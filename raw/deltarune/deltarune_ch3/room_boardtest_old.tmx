@@ -4,27 +4,27 @@
     <property name="speed" type="int" value="0"/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_board_adventure_tileset.tsx"/>
-  <tileset firstgid="1123" source="tilesets/obj_ch3_gameshow.tsx"/>
-  <tileset firstgid="1124" source="tilesets/obj_boardtile.tsx"/>
-  <tileset firstgid="1125" source="tilesets/obj_board_solid.tsx"/>
-  <tileset firstgid="1126" source="tilesets/obj_board_readable.tsx"/>
-  <tileset firstgid="1127" source="tilesets/obj_board_oasis_old.tsx"/>
-  <tileset firstgid="1128" source="tilesets/obj_board_camerashifter.tsx"/>
-  <tileset firstgid="1129" source="tilesets/obj_board_touch_warp.tsx"/>
-  <tileset firstgid="1130" source="tilesets/obj_mainchara_board.tsx"/>
-  <tileset firstgid="1131" source="tilesets/obj_board_controller.tsx"/>
-  <tileset firstgid="1132" source="tilesets/obj_board_camera.tsx"/>
-  <tileset firstgid="1133" source="tilesets/obj_board_check_warp.tsx"/>
-  <tileset firstgid="1134" source="tilesets/obj_board_dodgetile.tsx"/>
-  <tileset firstgid="1135" source="tilesets/obj_board_movingEnemy.tsx"/>
-  <tileset firstgid="1136" source="tilesets/obj_mainchara.tsx"/>
-  <tileset firstgid="1137" source="tilesets/obj_soliddark.tsx"/>
-  <tileset firstgid="1138" source="tilesets/obj_board_freeroam_warp_touch.tsx"/>
+  <tileset firstgid="913" source="tilesets/obj_ch3_gameshow.tsx"/>
+  <tileset firstgid="914" source="tilesets/obj_boardtile.tsx"/>
+  <tileset firstgid="915" source="tilesets/obj_board_solid.tsx"/>
+  <tileset firstgid="916" source="tilesets/obj_board_readable.tsx"/>
+  <tileset firstgid="917" source="tilesets/obj_board_oasis_old.tsx"/>
+  <tileset firstgid="918" source="tilesets/obj_board_camerashifter.tsx"/>
+  <tileset firstgid="919" source="tilesets/obj_board_touch_warp.tsx"/>
+  <tileset firstgid="920" source="tilesets/obj_mainchara_board.tsx"/>
+  <tileset firstgid="921" source="tilesets/obj_board_controller.tsx"/>
+  <tileset firstgid="922" source="tilesets/obj_board_camera.tsx"/>
+  <tileset firstgid="923" source="tilesets/obj_board_check_warp.tsx"/>
+  <tileset firstgid="924" source="tilesets/obj_board_dodgetile.tsx"/>
+  <tileset firstgid="925" source="tilesets/obj_board_movingEnemy.tsx"/>
+  <tileset firstgid="926" source="tilesets/obj_mainchara.tsx"/>
+  <tileset firstgid="927" source="tilesets/obj_soliddark.tsx"/>
+  <tileset firstgid="928" source="tilesets/obj_board_freeroam_warp_touch.tsx"/>
   <layer id="1" name="BOARD_Tiles" width="60" height="60">
     <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,51,51,3,51,4,51,51,51,4,51,3,131,132,132,132,132,132,132,132,132,132,132,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,40,9,42,50,179,34,35,40,9,42,4,314,329,297,297,330,276,328,297,297,297,330,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,8,4,8,3,8,50,51,8,19,8,51,147,296,195,197,296,292,296,195,196,197,296,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,25,3,72,9,57,9,9,74,50,25,51,147,296,211,213,360,297,362,211,212,213,296,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,8,20,21,22,8,4,35,34,35,8,4,147,296,211,213,149,148,147,211,212,213,296,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,8,52,53,54,8,50,51,50,51,8,51,147,296,227,229,328,297,330,227,228,229,296,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,72,9,24,9,73,9,9,9,9,73,9,297,345,297,297,361,297,361,297,297,297,362,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,4,51,51,51,51,3,51,51,51,3,51,163,296,164,164,164,164,164,164,164,164,164,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,132,132,132,132,132,132,132,132,132,132,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,162,162,162,162,162,162,162,162,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,130,162,162,162,162,162,146,162,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,162,162,162,162,162,162,162,162,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,130,162,162,162,162,162,162,162,130,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,146,162,131,132,179,132,133,130,276,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,147,162,146,147,289,290,291,149,162,292,162,149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,163,164,164,147,305,306,307,149,164,164,164,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
   </layer>
   <objectgroup id="2" name="objects">
-    <object id="1" gid="1123" type="obj_ch3_gameshow" x="-24" y="-40" width="48" height="139">
+    <object id="1" gid="913" type="obj_ch3_gameshow" x="-24" y="-40" width="48" height="139">
       <properties>
         <property name="instanceId" type="int" value="101575"/>
       </properties>
@@ -34,477 +34,477 @@
         <property name="instanceId" type="int" value="101576"/>
       </properties>
     </object>
-    <object id="3" gid="1124" type="obj_boardtile" x="160" y="288" width="32" height="32">
+    <object id="3" gid="914" type="obj_boardtile" x="160" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101577"/>
       </properties>
     </object>
-    <object id="4" gid="1124" type="obj_boardtile" x="224" y="128" width="32" height="32">
+    <object id="4" gid="914" type="obj_boardtile" x="224" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101578"/>
       </properties>
     </object>
-    <object id="5" gid="1124" type="obj_boardtile" x="384" y="128" width="32" height="32">
+    <object id="5" gid="914" type="obj_boardtile" x="384" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101579"/>
       </properties>
     </object>
-    <object id="6" gid="1124" type="obj_boardtile" x="448" y="128" width="32" height="32">
+    <object id="6" gid="914" type="obj_boardtile" x="448" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101580"/>
       </properties>
     </object>
-    <object id="7" gid="1124" type="obj_boardtile" x="448" y="192" width="32" height="32">
+    <object id="7" gid="914" type="obj_boardtile" x="448" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101581"/>
       </properties>
     </object>
-    <object id="8" gid="1124" type="obj_boardtile" x="160" y="128" width="32" height="32">
+    <object id="8" gid="914" type="obj_boardtile" x="160" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101582"/>
       </properties>
     </object>
-    <object id="9" gid="1125" type="obj_board_solid" x="128" y="96" width="32" height="32">
+    <object id="9" gid="915" type="obj_board_solid" x="128" y="96" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101583"/>
       </properties>
     </object>
-    <object id="10" gid="1125" type="obj_board_solid" x="128" y="128" width="32" height="32">
+    <object id="10" gid="915" type="obj_board_solid" x="128" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101584"/>
       </properties>
     </object>
-    <object id="11" gid="1125" type="obj_board_solid" x="192" y="160" width="32" height="32">
+    <object id="11" gid="915" type="obj_board_solid" x="192" y="160" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101585"/>
       </properties>
     </object>
-    <object id="12" gid="1125" type="obj_board_solid" x="224" y="224" width="32" height="32">
+    <object id="12" gid="915" type="obj_board_solid" x="224" y="224" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101586"/>
       </properties>
     </object>
-    <object id="13" gid="1125" type="obj_board_solid" x="320" y="224" width="32" height="32">
+    <object id="13" gid="915" type="obj_board_solid" x="320" y="224" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101587"/>
       </properties>
     </object>
-    <object id="14" gid="1125" type="obj_board_solid" x="416" y="160" width="32" height="32">
+    <object id="14" gid="915" type="obj_board_solid" x="416" y="160" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101588"/>
       </properties>
     </object>
-    <object id="15" gid="1125" type="obj_board_solid" x="320" y="128" width="32" height="32">
+    <object id="15" gid="915" type="obj_board_solid" x="320" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101589"/>
       </properties>
     </object>
-    <object id="16" gid="1125" type="obj_board_solid" x="256" y="128" width="32" height="32">
+    <object id="16" gid="915" type="obj_board_solid" x="256" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101590"/>
       </properties>
     </object>
-    <object id="17" gid="1125" type="obj_board_solid" x="480" y="128" width="32" height="32">
+    <object id="17" gid="915" type="obj_board_solid" x="480" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101591"/>
       </properties>
     </object>
-    <object id="18" gid="1125" type="obj_board_solid" x="864" y="96" width="32" height="32">
+    <object id="18" gid="915" type="obj_board_solid" x="864" y="96" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101592"/>
       </properties>
     </object>
-    <object id="19" gid="1125" type="obj_board_solid" x="512" y="96" width="32" height="32">
+    <object id="19" gid="915" type="obj_board_solid" x="512" y="96" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101593"/>
       </properties>
     </object>
-    <object id="20" gid="1125" type="obj_board_solid" x="576" y="160" width="32" height="32">
+    <object id="20" gid="915" type="obj_board_solid" x="576" y="160" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101594"/>
       </properties>
     </object>
-    <object id="21" gid="1125" type="obj_board_solid" x="736" y="160" width="32" height="32">
+    <object id="21" gid="915" type="obj_board_solid" x="736" y="160" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101595"/>
       </properties>
     </object>
-    <object id="22" gid="1125" type="obj_board_solid" x="640" y="224" width="32" height="32">
+    <object id="22" gid="915" type="obj_board_solid" x="640" y="224" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101596"/>
       </properties>
     </object>
-    <object id="23" gid="1125" type="obj_board_solid" x="672" y="128" width="32" height="32">
+    <object id="23" gid="915" type="obj_board_solid" x="672" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101597"/>
       </properties>
     </object>
-    <object id="24" gid="1125" type="obj_board_solid" x="512" y="160" width="32" height="32">
+    <object id="24" gid="915" type="obj_board_solid" x="512" y="160" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101598"/>
       </properties>
     </object>
-    <object id="25" gid="1124" type="obj_boardtile" x="512" y="128" width="32" height="32">
+    <object id="25" gid="914" type="obj_boardtile" x="512" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101599"/>
       </properties>
     </object>
-    <object id="26" gid="1124" type="obj_boardtile" x="544" y="128" width="32" height="32">
+    <object id="26" gid="914" type="obj_boardtile" x="544" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101600"/>
       </properties>
     </object>
-    <object id="27" gid="1124" type="obj_boardtile" x="640" y="128" width="32" height="32">
+    <object id="27" gid="914" type="obj_boardtile" x="640" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101601"/>
       </properties>
     </object>
-    <object id="28" gid="1124" type="obj_boardtile" x="640" y="192" width="32" height="32">
+    <object id="28" gid="914" type="obj_boardtile" x="640" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101602"/>
       </properties>
     </object>
-    <object id="29" gid="1124" type="obj_boardtile" x="704" y="192" width="32" height="32">
+    <object id="29" gid="914" type="obj_boardtile" x="704" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101603"/>
       </properties>
     </object>
-    <object id="30" gid="1124" type="obj_boardtile" x="704" y="128" width="32" height="32">
+    <object id="30" gid="914" type="obj_boardtile" x="704" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101604"/>
       </properties>
     </object>
-    <object id="31" gid="1124" type="obj_boardtile" x="832" y="128" width="32" height="32">
+    <object id="31" gid="914" type="obj_boardtile" x="832" y="128" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101605"/>
       </properties>
     </object>
-    <object id="32" gid="1124" type="obj_boardtile" x="832" y="288" width="32" height="32">
+    <object id="32" gid="914" type="obj_boardtile" x="832" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101606"/>
       </properties>
     </object>
-    <object id="33" gid="1124" type="obj_boardtile" x="704" y="288" width="32" height="32">
+    <object id="33" gid="914" type="obj_boardtile" x="704" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101607"/>
       </properties>
     </object>
-    <object id="34" gid="1124" type="obj_boardtile" x="640" y="256" width="32" height="32">
+    <object id="34" gid="914" type="obj_boardtile" x="640" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101608"/>
       </properties>
     </object>
-    <object id="35" gid="1124" type="obj_boardtile" x="640" y="288" width="32" height="32">
+    <object id="35" gid="914" type="obj_boardtile" x="640" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101609"/>
       </properties>
     </object>
-    <object id="36" gid="1124" type="obj_boardtile" x="704" y="256" width="32" height="32">
+    <object id="36" gid="914" type="obj_boardtile" x="704" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101610"/>
       </properties>
     </object>
-    <object id="37" gid="1124" type="obj_boardtile" x="544" y="288" width="32" height="32">
+    <object id="37" gid="914" type="obj_boardtile" x="544" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101611"/>
       </properties>
     </object>
-    <object id="38" gid="1126" type="obj_board_readable" x="448" y="272" width="16" height="16">
+    <object id="38" gid="916" type="obj_board_readable" x="448" y="272" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="101612"/>
       </properties>
     </object>
-    <object id="39" gid="1127" type="obj_board_oasis_old" x="288" y="272" width="16" height="16">
+    <object id="39" gid="917" type="obj_board_oasis_old" x="288" y="272" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="101613"/>
       </properties>
     </object>
-    <object id="40" gid="1128" type="obj_board_camerashifter" x="512" y="288" width="32" height="32">
+    <object id="40" gid="918" type="obj_board_camerashifter" x="512" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101614"/>
       </properties>
     </object>
-    <object id="41" gid="1128" type="obj_board_camerashifter" x="480" y="288" width="32" height="32">
+    <object id="41" gid="918" type="obj_board_camerashifter" x="480" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101615"/>
       </properties>
     </object>
-    <object id="42" gid="1125" type="obj_board_solid" x="576" y="320" width="32" height="32">
+    <object id="42" gid="915" type="obj_board_solid" x="576" y="320" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101616"/>
       </properties>
     </object>
-    <object id="43" gid="1125" type="obj_board_solid" x="736" y="384" width="32" height="32">
+    <object id="43" gid="915" type="obj_board_solid" x="736" y="384" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101617"/>
       </properties>
     </object>
-    <object id="44" gid="1125" type="obj_board_solid" x="608" y="416" width="32" height="32">
+    <object id="44" gid="915" type="obj_board_solid" x="608" y="416" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101618"/>
       </properties>
     </object>
-    <object id="45" gid="1125" type="obj_board_solid" x="384" y="480" width="32" height="32">
+    <object id="45" gid="915" type="obj_board_solid" x="384" y="480" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101619"/>
       </properties>
     </object>
-    <object id="46" gid="1125" type="obj_board_solid" x="224" y="480" width="32" height="32">
+    <object id="46" gid="915" type="obj_board_solid" x="224" y="480" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101620"/>
       </properties>
     </object>
-    <object id="47" gid="1125" type="obj_board_solid" x="128" y="544" width="32" height="32">
+    <object id="47" gid="915" type="obj_board_solid" x="128" y="544" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101621"/>
       </properties>
     </object>
-    <object id="48" gid="1125" type="obj_board_solid" x="128" y="320" width="32" height="32">
+    <object id="48" gid="915" type="obj_board_solid" x="128" y="320" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101622"/>
       </properties>
     </object>
-    <object id="49" gid="1125" type="obj_board_solid" x="192" y="320" width="32" height="32">
+    <object id="49" gid="915" type="obj_board_solid" x="192" y="320" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101623"/>
       </properties>
     </object>
-    <object id="50" gid="1128" type="obj_board_camerashifter" x="480" y="448" width="32" height="32">
+    <object id="50" gid="918" type="obj_board_camerashifter" x="480" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101624"/>
       </properties>
     </object>
-    <object id="51" gid="1128" type="obj_board_camerashifter" x="512" y="448" width="32" height="32">
+    <object id="51" gid="918" type="obj_board_camerashifter" x="512" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101625"/>
       </properties>
     </object>
-    <object id="52" gid="1128" type="obj_board_camerashifter" x="544" y="352" width="32" height="32">
+    <object id="52" gid="918" type="obj_board_camerashifter" x="544" y="352" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101626"/>
       </properties>
     </object>
-    <object id="53" gid="1128" type="obj_board_camerashifter" x="544" y="320" width="32" height="32">
+    <object id="53" gid="918" type="obj_board_camerashifter" x="544" y="320" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101627"/>
       </properties>
     </object>
-    <object id="54" gid="1124" type="obj_boardtile" x="544" y="384" width="32" height="32">
+    <object id="54" gid="914" type="obj_boardtile" x="544" y="384" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101628"/>
       </properties>
     </object>
-    <object id="55" gid="1124" type="obj_boardtile" x="544" y="416" width="32" height="32">
+    <object id="55" gid="914" type="obj_boardtile" x="544" y="416" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101629"/>
       </properties>
     </object>
-    <object id="56" gid="1124" type="obj_boardtile" x="576" y="416" width="32" height="32">
+    <object id="56" gid="914" type="obj_boardtile" x="576" y="416" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101630"/>
       </properties>
     </object>
-    <object id="57" gid="1124" type="obj_boardtile" x="576" y="448" width="32" height="32">
+    <object id="57" gid="914" type="obj_boardtile" x="576" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101631"/>
       </properties>
     </object>
-    <object id="58" gid="1124" type="obj_boardtile" x="704" y="384" width="32" height="32">
+    <object id="58" gid="914" type="obj_boardtile" x="704" y="384" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101632"/>
       </properties>
     </object>
-    <object id="59" gid="1124" type="obj_boardtile" x="448" y="448" width="32" height="32">
+    <object id="59" gid="914" type="obj_boardtile" x="448" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101633"/>
       </properties>
     </object>
-    <object id="60" gid="1124" type="obj_boardtile" x="352" y="448" width="32" height="32">
+    <object id="60" gid="914" type="obj_boardtile" x="352" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101634"/>
       </properties>
     </object>
-    <object id="61" gid="1124" type="obj_boardtile" x="256" y="448" width="32" height="32">
+    <object id="61" gid="914" type="obj_boardtile" x="256" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101635"/>
       </properties>
     </object>
-    <object id="62" gid="1124" type="obj_boardtile" x="192" y="448" width="32" height="32">
+    <object id="62" gid="914" type="obj_boardtile" x="192" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101636"/>
       </properties>
     </object>
-    <object id="63" gid="1124" type="obj_boardtile" x="192" y="512" width="32" height="32">
+    <object id="63" gid="914" type="obj_boardtile" x="192" y="512" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101637"/>
       </properties>
     </object>
-    <object id="64" gid="1124" type="obj_boardtile" x="352" y="512" width="32" height="32">
+    <object id="64" gid="914" type="obj_boardtile" x="352" y="512" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101638"/>
       </properties>
     </object>
-    <object id="65" gid="1129" type="obj_board_touch_warp" x="32" y="188" width="28" height="28">
+    <object id="65" gid="919" type="obj_board_touch_warp" x="32" y="188" width="28" height="28">
       <properties>
         <property name="instanceId" type="int" value="101639"/>
       </properties>
     </object>
-    <object id="66" gid="1129" type="obj_board_touch_warp" x="1376" y="252" width="28" height="28">
+    <object id="66" gid="919" type="obj_board_touch_warp" x="1376" y="252" width="28" height="28">
       <properties>
         <property name="instanceId" type="int" value="101640"/>
       </properties>
     </object>
-    <object id="67" gid="1124" type="obj_boardtile" x="1376" y="288" width="32" height="32">
+    <object id="67" gid="914" type="obj_boardtile" x="1376" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101641"/>
       </properties>
     </object>
-    <object id="68" gid="1124" type="obj_boardtile" x="1536" y="288" width="32" height="32">
+    <object id="68" gid="914" type="obj_boardtile" x="1536" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101642"/>
       </properties>
     </object>
-    <object id="69" gid="1124" type="obj_boardtile" x="1536" y="256" width="32" height="32">
+    <object id="69" gid="914" type="obj_boardtile" x="1536" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101643"/>
       </properties>
     </object>
-    <object id="70" gid="1124" type="obj_boardtile" x="1440" y="256" width="32" height="32">
+    <object id="70" gid="914" type="obj_boardtile" x="1440" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101644"/>
       </properties>
     </object>
-    <object id="71" gid="1125" type="obj_board_solid" x="1280" y="160" width="32" height="32">
+    <object id="71" gid="915" type="obj_board_solid" x="1280" y="160" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101645"/>
       </properties>
     </object>
-    <object id="72" gid="1125" type="obj_board_solid" x="1280" y="320" width="32" height="32">
+    <object id="72" gid="915" type="obj_board_solid" x="1280" y="320" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101646"/>
       </properties>
     </object>
-    <object id="73" gid="1125" type="obj_board_solid" x="1280" y="256" width="32" height="32">
+    <object id="73" gid="915" type="obj_board_solid" x="1280" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101647"/>
       </properties>
     </object>
-    <object id="74" gid="1125" type="obj_board_solid" x="1408" y="256" width="32" height="32">
+    <object id="74" gid="915" type="obj_board_solid" x="1408" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101648"/>
       </properties>
     </object>
-    <object id="75" gid="1125" type="obj_board_solid" x="1568" y="256" width="32" height="32">
+    <object id="75" gid="915" type="obj_board_solid" x="1568" y="256" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101649"/>
       </properties>
     </object>
-    <object id="76" gid="1130" type="obj_mainchara_board" x="160" y="112" width="16" height="16">
+    <object id="76" gid="920" type="obj_mainchara_board" x="160" y="112" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="101650"/>
       </properties>
     </object>
-    <object id="77" gid="1131" type="obj_board_controller" x="-32" y="112" width="16" height="16">
+    <object id="77" gid="921" type="obj_board_controller" x="-32" y="112" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="101651"/>
       </properties>
     </object>
-    <object id="78" gid="1132" type="obj_board_camera" x="-32" y="144" width="16" height="16">
+    <object id="78" gid="922" type="obj_board_camera" x="-32" y="144" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="101652"/>
       </properties>
     </object>
-    <object id="79" gid="1133" type="obj_board_check_warp" x="288" y="32" width="32" height="32">
+    <object id="79" gid="923" type="obj_board_check_warp" x="288" y="32" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101653"/>
       </properties>
     </object>
-    <object id="80" gid="1124" type="obj_boardtile" x="160" y="192" width="32" height="32">
+    <object id="80" gid="914" type="obj_boardtile" x="160" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101654"/>
       </properties>
     </object>
-    <object id="81" gid="1134" type="obj_board_dodgetile" x="224" y="288" width="32" height="32">
+    <object id="81" gid="924" type="obj_board_dodgetile" x="224" y="288" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101655"/>
       </properties>
     </object>
-    <object id="82" gid="1124" type="obj_boardtile" x="384" y="192" width="32" height="32">
+    <object id="82" gid="914" type="obj_boardtile" x="384" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101656"/>
       </properties>
     </object>
-    <object id="83" gid="1135" type="obj_board_movingEnemy" x="368" y="272" width="16" height="16">
+    <object id="83" gid="925" type="obj_board_movingEnemy" x="368" y="272" width="16" height="16">
       <properties>
         <property name="instanceId" type="int" value="101657"/>
       </properties>
     </object>
-    <object id="84" gid="1136" type="obj_mainchara" x="-224" y="229" width="19" height="37">
+    <object id="84" gid="926" type="obj_mainchara" x="-224" y="229" width="19" height="37">
       <properties>
         <property name="instanceId" type="int" value="101658"/>
       </properties>
     </object>
-    <object id="85" gid="1137" type="obj_soliddark" x="-249" y="206" width="40" height="40">
+    <object id="85" gid="927" type="obj_soliddark" x="-249" y="206" width="40" height="40">
       <properties>
         <property name="instanceId" type="int" value="101659"/>
       </properties>
     </object>
-    <object id="86" gid="1124" type="obj_boardtile" x="288" y="192" width="32" height="32">
+    <object id="86" gid="914" type="obj_boardtile" x="288" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101660"/>
       </properties>
     </object>
-    <object id="87" gid="1125" type="obj_board_solid" x="928" y="448" width="32" height="32">
+    <object id="87" gid="915" type="obj_board_solid" x="928" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101661"/>
       </properties>
     </object>
-    <object id="88" gid="1125" type="obj_board_solid" x="1280" y="448" width="32" height="32">
+    <object id="88" gid="915" type="obj_board_solid" x="1280" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101662"/>
       </properties>
     </object>
-    <object id="89" gid="1125" type="obj_board_solid" x="960" y="448" width="32" height="32">
+    <object id="89" gid="915" type="obj_board_solid" x="960" y="448" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101663"/>
       </properties>
     </object>
-    <object id="90" gid="1125" type="obj_board_solid" x="960" y="672" width="32" height="32">
+    <object id="90" gid="915" type="obj_board_solid" x="960" y="672" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101664"/>
       </properties>
     </object>
-    <object id="91" gid="1125" type="obj_board_solid" x="1024" y="608" width="32" height="32">
+    <object id="91" gid="915" type="obj_board_solid" x="1024" y="608" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101665"/>
       </properties>
     </object>
-    <object id="92" gid="1125" type="obj_board_solid" x="1216" y="608" width="32" height="32">
+    <object id="92" gid="915" type="obj_board_solid" x="1216" y="608" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101666"/>
       </properties>
     </object>
-    <object id="93" gid="1125" type="obj_board_solid" x="1120" y="608" width="32" height="32">
+    <object id="93" gid="915" type="obj_board_solid" x="1120" y="608" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101667"/>
       </properties>
     </object>
-    <object id="94" gid="1125" type="obj_board_solid" x="1088" y="640" width="32" height="32">
+    <object id="94" gid="915" type="obj_board_solid" x="1088" y="640" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101668"/>
       </properties>
     </object>
-    <object id="95" gid="1138" type="obj_board_freeroam_warp_touch" x="1088" y="608" width="32" height="32">
+    <object id="95" gid="928" type="obj_board_freeroam_warp_touch" x="1088" y="608" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101669"/>
       </properties>
     </object>
-    <object id="96" gid="1124" type="obj_boardtile" x="224" y="192" width="32" height="32">
+    <object id="96" gid="914" type="obj_boardtile" x="224" y="192" width="32" height="32">
       <properties>
         <property name="instanceId" type="int" value="101670"/>
       </properties>
     </object>
-    <object id="97" gid="1129" type="obj_board_touch_warp" x="288" y="124" width="28" height="28">
+    <object id="97" gid="919" type="obj_board_touch_warp" x="288" y="124" width="28" height="28">
       <properties>
         <property name="instanceId" type="int" value="101671"/>
       </properties>

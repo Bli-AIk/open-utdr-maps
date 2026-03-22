@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="40" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="361" source="tilesets/bg_coretiles_wip.tsx" />
+  <tileset firstgid="721" source="tilesets/free_tile_p10_124_432_20x80.tsx" />
+  <tileset firstgid="722" source="tilesets/free_tile_p10_4_512_40x20.tsx" />
+  <tileset firstgid="725" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="730" source="tilesets/obj_darksausagenpc.tsx" />
+  <tileset firstgid="732" source="tilesets/obj_core_lightstrip_m.tsx" />
+  <objectgroup id="1" name="depth_1000000_free_0">
+    <object id="1" gid="721" x="220" y="80" width="20" height="80" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,386,416,416,416,416,416,416,0,0,0,0,0,0,0,0,381,404,416,436,416,416,436,416,0,379,0,0,0,0,0,0,381,422,0,0,0,0,0,0,0,379,0,0,0,0,0,0,381,440,0,0,0,0,0,383,0,379,0,0,0,0,0,0,381,0,0,0,0,0,0,0,0,379,0,0,0,0,0,0,381,0,0,0,0,0,0,0,0,379,0,0,0,0,0,0,381,0,0,0,0,0,0,0,0,379,0,0,0,0,0,0,381,0,0,0,0,0,0,0,0,379,0,0,0,0,0,0,381,0,0,0,0,0,0,0,0,379,0,0,0,0,0,0,0,363,0,0,0,0,0,0,361,0,0,0,0,0,0,0,0,0,362,363,0,0,361,362,0,0,0,0,0,0,0,0,0,0,0,381,0,0,379,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_2">
+    <object id="2" gid="722" x="100" y="60" width="40" height="20" />
+    <object id="3" gid="722" x="140" y="60" width="40" height="20" />
+    <object id="4" gid="722" x="180" y="60" width="40" height="20" />
+  </objectgroup>
+  <layer id="4" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,507,507,507,507,507,0,0,0,0,0,0,0,0,0,0,507,561,560,561,560,561,560,507,0,0,0,0,0,0,0,0,507,543,542,543,542,543,542,507,0,0,0,0,0,0,0,0,507,561,560,561,560,561,560,507,0,0,0,0,0,0,0,0,507,543,542,543,542,543,542,507,0,0,0,0,0,0,0,0,507,507,507,507,507,507,507,507,0,0,0,0,0,0,0,0,0,507,507,507,507,507,507,0,0,0,0,0,0,0,0,0,0,0,0,507,507,0,0,0,0,0,0,0,0,0,0,0,0,0,0,507,507,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_900000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,676,677,678,677,678,679,0,0,0,0,0,0,0,0,0,625,0,0,0,0,0,0,622,0,0,0,0,0,0,0,0,640,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,640,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,640,0,0,0,0,0,0,643,0,0,0,0,0,0,0,0,640,0,622,623,623,625,0,643,0,0,0,0,0,0,0,0,0,0,658,0,0,661,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="7" gid="725" type="obj_mainchara" x="200" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110670" />
+      </properties>
+    </object>
+    <object id="36" gid="730" type="obj_darksausagenpc" x="150" y="139" width="23" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="110699" />
+      </properties>
+    </object>
+    <object id="38" gid="732" type="obj_core_lightstrip_m" x="100" y="46" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110701" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

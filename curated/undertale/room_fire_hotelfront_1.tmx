@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="7" nextobjectid="51" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_icecave.tsx" />
+  <tileset firstgid="298" source="tilesets/bg_firetiles.tsx" />
+  <tileset firstgid="658" source="tilesets/free_tile_p10_104_1020_60x20.tsx" />
+  <tileset firstgid="660" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="668" source="tilesets/obj_nicecreamguy.tsx" />
+  <tileset firstgid="669" source="tilesets/obj_royal_rabbitbounce.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="658" x="220" y="200" width="60" height="20" />
+    <object id="2" gid="658" x="220" y="220" width="60" height="20" />
+    <object id="3" gid="658" x="220" y="240" width="60" height="20" />
+    <object id="4" gid="658" x="220" y="260" width="60" height="20" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="26" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,334,335,335,335,0,0,0,335,335,335,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,0,0,0,335,335,335,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,0,0,0,335,335,335,336,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,337,338,338,338,0,0,0,338,338,338,339,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,450,451,451,451,375,302,376,451,451,451,452,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,301,302,302,302,302,302,302,302,302,302,303,0,0,0,0,0,0,0,0,451,451,451,451,451,451,451,375,302,302,302,302,302,302,302,302,302,376,451,451,451,451,451,451,451,451,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,302,320,320,320,320,320,320,320,320,320,320,320,393,302,394,320,320,320,320,320,320,320,320,320,320,320,320,335,335,335,335,335,335,335,335,335,335,335,0,0,0,335,335,335,335,335,335,335,335,335,335,335,335,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="4" name="depth_1000000_free_3">
+    <object id="5" gid="658" x="220" y="20" width="60" height="20" />
+    <object id="6" gid="658" x="220" y="40" width="60" height="20" />
+    <object id="7" gid="658" x="220" y="60" width="60" height="20" />
+    <object id="8" gid="658" x="220" y="80" width="60" height="20" />
+  </objectgroup>
+  <objectgroup id="5" name="objects">
+    <object id="13" gid="660" type="obj_mainchara" x="240" y="144" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110026" />
+      </properties>
+    </object>
+    <object id="28" gid="668" type="obj_nicecreamguy" x="140" y="115" width="74" height="60">
+      <properties>
+        <property name="instanceId" type="int" value="110041" />
+      </properties>
+    </object>
+    <object id="29" gid="669" type="obj_royal_rabbitbounce" x="283" y="108" width="34" height="48">
+      <properties>
+        <property name="instanceId" type="int" value="110042" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

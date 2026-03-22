@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="36" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="62" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_truelab_tiles.tsx" />
+  <tileset firstgid="71" source="tilesets/free_tile_p11_888_1236_40x60.tsx" />
+  <tileset firstgid="72" source="tilesets/free_tile_p11_908_1236_80x60.tsx" />
+  <tileset firstgid="73" source="tilesets/free_tile_p11_948_1236_60x60.tsx" />
+  <tileset firstgid="74" source="tilesets/free_tile_p11_888_1296_40x60.tsx" />
+  <tileset firstgid="75" source="tilesets/free_tile_p11_888_1236_80x60.tsx" />
+  <tileset firstgid="76" source="tilesets/free_tile_p11_908_1236_100x60.tsx" />
+  <tileset firstgid="77" source="tilesets/free_tile_p11_948_1236_20x60.tsx" />
+  <tileset firstgid="78" source="tilesets/free_tile_p11_928_1236_20x60.tsx" />
+  <tileset firstgid="79" source="tilesets/obj_labfan.tsx" />
+  <tileset firstgid="80" source="tilesets/obj_darkfridge.tsx" />
+  <tileset firstgid="81" source="tilesets/obj_wallmonitor.tsx" />
+  <tileset firstgid="83" source="tilesets/obj_labfog.tsx" />
+  <tileset firstgid="84" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="93" source="tilesets/obj_amalgam_fridge.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="36" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="depth_1000000_free_1">
+    <object id="1" gid="71" x="40" y="120" width="40" height="60" />
+    <object id="2" gid="72" x="120" y="120" width="80" height="60" />
+    <object id="3" gid="72" x="160" y="120" width="80" height="60" />
+    <object id="4" gid="72" x="240" y="120" width="80" height="60" />
+    <object id="5" gid="72" x="320" y="120" width="80" height="60" />
+    <object id="6" gid="72" x="400" y="120" width="80" height="60" />
+    <object id="7" gid="73" x="480" y="120" width="60" height="60" />
+    <object id="8" gid="74" x="80" y="120" width="40" height="60" />
+    <object id="9" gid="75" x="660" y="140" width="80" height="60" />
+  </objectgroup>
+  <layer id="3" name="depth_1000000_grid_2" width="36" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="4" name="depth_1000000_grid_3" width="36" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="5" name="depth_1000000_free_4">
+    <object id="10" gid="76" x="560" y="120" width="100" height="60" />
+    <object id="11" gid="77" x="540" y="120" width="20" height="60" />
+    <object id="12" gid="78" x="540" y="120" width="20" height="60" />
+    <object id="13" gid="78" x="520" y="120" width="20" height="60" />
+  </objectgroup>
+  <layer id="6" name="depth_1000000_grid_5" width="36" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="depth_1000000_grid_6" width="36" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="8" name="objects">
+    <object id="14" gid="79" type="obj_labfan" x="360" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112821" />
+      </properties>
+    </object>
+    <object id="15" gid="79" type="obj_labfan" x="120" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112822" />
+      </properties>
+    </object>
+    <object id="16" gid="79" type="obj_labfan" x="60" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112823" />
+      </properties>
+    </object>
+    <object id="17" gid="79" type="obj_labfan" x="180" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112824" />
+      </properties>
+    </object>
+    <object id="18" gid="79" type="obj_labfan" x="240" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112825" />
+      </properties>
+    </object>
+    <object id="19" gid="79" type="obj_labfan" x="300" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112826" />
+      </properties>
+    </object>
+    <object id="20" gid="79" type="obj_labfan" x="420" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112827" />
+      </properties>
+    </object>
+    <object id="21" gid="79" type="obj_labfan" x="480" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112828" />
+      </properties>
+    </object>
+    <object id="22" gid="80" type="obj_darkfridge" x="260" y="154" width="34" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="112829" />
+      </properties>
+    </object>
+    <object id="23" gid="80" type="obj_darkfridge" x="360" y="154" width="34" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="112830" />
+      </properties>
+    </object>
+    <object id="24" gid="80" type="obj_darkfridge" x="460" y="154" width="34" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="112831" />
+      </properties>
+    </object>
+    <object id="25" gid="79" type="obj_labfan" x="540" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112832" />
+      </properties>
+    </object>
+    <object id="26" gid="79" type="obj_labfan" x="600" y="60" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="112833" />
+      </properties>
+    </object>
+    <object id="27" gid="80" type="obj_darkfridge" x="560" y="154" width="34" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="112834" />
+      </properties>
+    </object>
+    <object id="28" gid="81" type="obj_wallmonitor" x="610" y="104" width="34" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="112835" />
+      </properties>
+    </object>
+    <object id="29" gid="81" type="obj_wallmonitor" x="410" y="104" width="34" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="112836" />
+      </properties>
+    </object>
+    <object id="30" gid="81" type="obj_wallmonitor" x="310" y="104" width="34" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="112837" />
+      </properties>
+    </object>
+    <object id="32" gid="83" type="obj_labfog" x="-4" y="54" width="18" height="17">
+      <properties>
+        <property name="instanceId" type="int" value="112839" />
+      </properties>
+    </object>
+    <object id="33" gid="84" type="obj_mainchara" x="166" y="193" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112840" />
+      </properties>
+    </object>
+    <object id="54" gid="93" type="obj_amalgam_fridge" x="160" y="154" width="34" height="54">
+      <properties>
+        <property name="instanceId" type="int" value="112861" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

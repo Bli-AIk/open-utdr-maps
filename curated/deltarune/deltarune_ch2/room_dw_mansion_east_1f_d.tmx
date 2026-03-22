@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="58" height="18" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="44">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_dw_mansion_tileset.tsx" />
+  <tileset firstgid="775" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="776" source="tilesets/obj_overworld_bulletarea.tsx" />
+  <tileset firstgid="777" source="tilesets/obj_queenscreen.tsx" />
+  <tileset firstgid="778" source="tilesets/obj_musicer_mansion.tsx" />
+  <layer id="1" name="TILES" width="58" height="18">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,59,59,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,59,59,59,59,59,59,59,59,59,59,0,0,0,0,0,0,59,59,59,59,59,59,59,59,59,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,33,0,0,0,0,0,0,31,32,32,32,32,32,32,32,32,33,0,0,0,0,0,0,31,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,483,51,0,0,0,0,0,0,49,484,68,68,68,68,68,68,483,51,0,0,0,0,0,0,49,484,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,68,0,0,0,0,0,0,0,0,59,59,59,59,59,59,59,59,49,51,0,0,0,0,0,0,49,51,59,59,59,59,59,59,49,51,59,59,59,59,59,59,49,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,59,59,59,59,59,59,59,49,51,0,0,0,0,0,0,49,51,59,59,59,59,59,59,49,51,59,59,59,59,59,59,49,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,466,32,32,32,32,32,32,465,51,0,0,0,0,0,0,49,466,32,32,32,32,32,32,465,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,68,68,68,68,68,68,68,68,69,0,0,0,0,0,0,67,68,68,68,68,68,68,68,68,69,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="775" type="obj_mainchara" x="36" y="300" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="107201" />
+      </properties>
+    </object>
+    <object id="4" gid="776" type="obj_overworld_bulletarea" x="720" y="480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107204" />
+      </properties>
+    </object>
+    <object id="5" gid="776" type="obj_overworld_bulletarea" x="640" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107205" />
+      </properties>
+    </object>
+    <object id="6" gid="776" type="obj_overworld_bulletarea" x="960" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107206" />
+      </properties>
+    </object>
+    <object id="7" gid="776" type="obj_overworld_bulletarea" x="1280" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107207" />
+      </properties>
+    </object>
+    <object id="8" gid="776" type="obj_overworld_bulletarea" x="1600" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107208" />
+      </properties>
+    </object>
+    <object id="9" gid="776" type="obj_overworld_bulletarea" x="1040" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107209" />
+      </properties>
+    </object>
+    <object id="10" gid="776" type="obj_overworld_bulletarea" x="1360" y="480" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107210" />
+      </properties>
+    </object>
+    <object id="11" gid="776" type="obj_overworld_bulletarea" x="1680" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107211" />
+      </properties>
+    </object>
+    <object id="12" gid="776" type="obj_overworld_bulletarea" x="200" y="320" width="40" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="107212" />
+      </properties>
+    </object>
+    <object id="13" gid="777" type="obj_queenscreen" x="296" y="257" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107213" />
+      </properties>
+    </object>
+    <object id="14" gid="777" type="obj_queenscreen" x="496" y="497" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107214" />
+      </properties>
+    </object>
+    <object id="15" gid="777" type="obj_queenscreen" x="1136" y="497" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107215" />
+      </properties>
+    </object>
+    <object id="16" gid="777" type="obj_queenscreen" x="1776" y="497" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107216" />
+      </properties>
+    </object>
+    <object id="17" gid="777" type="obj_queenscreen" x="816" y="337" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107217" />
+      </properties>
+    </object>
+    <object id="18" gid="777" type="obj_queenscreen" x="1456" y="337" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107218" />
+      </properties>
+    </object>
+    <object id="19" gid="777" type="obj_queenscreen" x="1976" y="217" width="48" height="33">
+      <properties>
+        <property name="instanceId" type="int" value="107219" />
+      </properties>
+    </object>
+    <object id="20" gid="778" type="obj_musicer_mansion" x="0" y="192" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="107220" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

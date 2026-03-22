@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="6" nextobjectid="15" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_truelab_tiles.tsx" />
+  <tileset firstgid="73" source="tilesets/free_tile_p11_888_1236_40x60.tsx" />
+  <tileset firstgid="74" source="tilesets/free_tile_p11_988_1236_20x60.tsx" />
+  <tileset firstgid="75" source="tilesets/free_tile_p11_4_1688_59x61.tsx" />
+  <tileset firstgid="76" source="tilesets/obj_showercurtain.tsx" />
+  <tileset firstgid="78" source="tilesets/obj_mainchara.tsx" />
+  <objectgroup id="1" name="depth_1000001_free_0">
+    <object id="1" gid="73" x="140" y="70" width="40" height="60" />
+    <object id="2" gid="74" x="180" y="70" width="20" height="60" />
+  </objectgroup>
+  <layer id="2" name="depth_1000000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="3" name="depth_1000000_free_1">
+    <object id="3" gid="75" x="140" y="81" width="59" height="61" />
+  </objectgroup>
+  <objectgroup id="4" name="objects">
+    <object id="4" gid="76" type="obj_showercurtain" x="140" y="80" width="60" height="50">
+      <properties>
+        <property name="instanceId" type="int" value="112743" />
+      </properties>
+    </object>
+    <object id="7" gid="78" type="obj_mainchara" x="140" y="189" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="112746" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

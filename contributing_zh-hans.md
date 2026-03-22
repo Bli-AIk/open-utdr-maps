@@ -62,6 +62,36 @@
 > ⚠️ **永远不要修改 `raw/` 中的文件** — 那些是原始的自动生成地图。
 > 请将你的工作成果保存到 `curated/`。
 
+### 辅助脚本：raw -> curated 提升
+
+如果你不想手动复制依赖文件，可以直接使用仓库自带的本地辅助脚本：
+
+```bash
+# 先 dry-run 预览
+just migrate-dry-run dataset=undertale room=room_fire2
+
+# 真正提升一个房间到 curated/
+just migrate dataset=undertale room=room_fire2
+```
+
+脚本会做这些事：
+
+1. 解析目标 `raw/.../<room>.tmx`
+2. 收集它引用的 `.tsx`
+3. 再从这些 `.tsx` 收集它们引用的 `.png`
+4. 按 `scripts/curation_blacklist.toml` 执行黑名单清理
+5. 在 `dev/curation_migration_preview/...` 生成本地审阅目录
+6. 将清理后的房间和依赖复制到对应的 `curated/` 子目录
+
+在调整黑名单规则前，建议先生成全局审阅目录：
+
+```bash
+just blacklist-audit
+```
+
+这个命令会把所有命中黑名单的 sprite 预览输出到 `dev/curation_blacklist_audit/`，
+方便你先排查误杀项，再决定是否调整规则。
+
 ### 📐 2. 逻辑图层 *（未来工作）*
 
 > 💡 这**不是当前的工作重点**。你可以暂时跳过，或等待社区通过讨论建立统一规范后再参与。
@@ -116,12 +146,41 @@ Tiled 支持 `.world` 文件，可以将多个地图连接在一起。
 > 你也可以直接在 Issue 中分享修改后的文件，这样也行。
 > 我们在这里是为了帮助你，而不是设置门槛。
 
+### Issue 的语言、标题和标签
+
+Issue 请统一使用**英文**，这样更方便后续分流、检索和维护。
+
+标题格式如下：
+
+```text
+[Type | GAME | EMOJI] Description
+```
+
+示例：
+
+```text
+[Curation | UNDERTALE | 🧹] Garbage Dump cleanup
+[Bug | DELTARUNE CH2 | 📐] Missing collision rectangles in room_dw_city_big_2
+```
+
+emoji 需要和主要工作类型对应：
+
+| Emoji | 含义 | 标签 |
+|-------|------|------|
+| `🧹` | 数据整理 | `data-curation` |
+| `📐` | 逻辑图层 | `logic-layers` |
+| `🌍` | 世界拼接 | `world-stitching` |
+| `📝` | 文档完善 | `documentation` |
+| `🔧` | 工具改进 | `tooling` |
+
+Issue 模板会自动附加基础标签，维护者后续可以继续补充或调整标签。
+
 ## 🚀 手把手教程：你的第一次贡献
 
 ### 0. 提 Issue
 
 前往 [Issues](../../issues) 创建一个新的 Issue。描述你想做的事情
-（比如"清理 room_ruins1 的图层"）。先检查一下有没有人已经在做了！
+（比如 `[Curation | UNDERTALE | 🧹] room_ruins1 cleanup`）。先检查一下有没有人已经在做了！
 
 ### 1. Fork 并克隆
 
@@ -141,6 +200,7 @@ git checkout -b my-contribution
 
 - 在 Tiled 中打开地图，编辑，保存
 - 将整理后的地图放到正确的 `curated/` 子目录
+- 也可以先用上面的辅助脚本生成起始版本，再继续在 Tiled 中整理
 
 ### 4. 提交并推送
 

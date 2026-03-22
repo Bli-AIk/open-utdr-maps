@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="24">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_cctiles.tsx" />
+  <tileset firstgid="145" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="150" source="tilesets/obj_npc_room.tsx" />
+  <tileset firstgid="152" source="tilesets/obj_castle_torch.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="26" height="12">
+    <data encoding="csv">0,0,0,4,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,0,0,0,9,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,9,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="2" name="objects">
+    <object id="1" gid="145" type="obj_mainchara" x="200" y="358" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="103418" />
+      </properties>
+    </object>
+    <object id="7" gid="150" type="obj_npc_room" x="220" y="190" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103424" />
+      </properties>
+    </object>
+    <object id="8" gid="150" type="obj_npc_room" x="360" y="170" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103425" />
+      </properties>
+    </object>
+    <object id="9" gid="150" type="obj_npc_room" x="560" y="130" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103426" />
+      </properties>
+    </object>
+    <object id="10" gid="150" type="obj_npc_room" x="720" y="190" width="34" height="30">
+      <properties>
+        <property name="instanceId" type="int" value="103427" />
+      </properties>
+    </object>
+    <object id="15" gid="152" type="obj_castle_torch" x="240" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103432" />
+      </properties>
+    </object>
+    <object id="16" gid="152" type="obj_castle_torch" x="340" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103433" />
+      </properties>
+    </object>
+    <object id="17" gid="152" type="obj_castle_torch" x="440" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103434" />
+      </properties>
+    </object>
+    <object id="18" gid="152" type="obj_castle_torch" x="540" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103435" />
+      </properties>
+    </object>
+    <object id="19" gid="152" type="obj_castle_torch" x="640" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103436" />
+      </properties>
+    </object>
+    <object id="20" gid="152" type="obj_castle_torch" x="740" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103437" />
+      </properties>
+    </object>
+    <object id="21" gid="152" type="obj_castle_torch" x="840" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103438" />
+      </properties>
+    </object>
+    <object id="22" gid="152" type="obj_castle_torch" x="940" y="100" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="103439" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

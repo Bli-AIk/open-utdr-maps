@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="24" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="20">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_npc_cafe.tsx" />
+  <tileset firstgid="3" source="tilesets/obj_musicer_darkcastle.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="739" y="419" width="19" height="37">
+      <properties>
+        <property name="instanceId" type="int" value="101718" />
+      </properties>
+    </object>
+    <object id="4" gid="2" type="obj_npc_cafe" x="317" y="345" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101721" />
+      </properties>
+    </object>
+    <object id="5" gid="2" type="obj_npc_cafe" x="508" y="345" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101722" />
+      </properties>
+    </object>
+    <object id="6" gid="2" type="obj_npc_cafe" x="610" y="300" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101723" />
+      </properties>
+    </object>
+    <object id="7" gid="2" type="obj_npc_cafe" x="830" y="300" width="35" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="101724" />
+      </properties>
+    </object>
+    <object id="8" gid="3" type="obj_musicer_darkcastle" x="80" y="24" width="26" height="24">
+      <properties>
+        <property name="instanceId" type="int" value="101727" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

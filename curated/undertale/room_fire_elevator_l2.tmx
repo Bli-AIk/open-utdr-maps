@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="17" nextobjectid="31" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_firetiles.tsx" />
+  <tileset firstgid="677" source="tilesets/free_tile_p10_332_2016_83x27.tsx" />
+  <tileset firstgid="678" source="tilesets/free_tile_p10_700_300_85x103.tsx" />
+  <tileset firstgid="679" source="tilesets/free_tile_p10_104_900_40x20.tsx" />
+  <tileset firstgid="680" source="tilesets/obj_elevatordoor.tsx" />
+  <tileset firstgid="682" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="691" source="tilesets/obj_elevatorgem.tsx" />
+  <tileset firstgid="692" source="tilesets/obj_elev_floorsign.tsx" />
+  <tileset firstgid="693" source="tilesets/obj_gaster_follower_c.tsx" />
+  <layer id="1" name="depth_1100000_grid_0" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1100000_grid_2" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,197,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_1100000_grid_4" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,196,196,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="7" name="depth_1100000_grid_6" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38</data>
+  </layer>
+  <objectgroup id="8" name="depth_1100000_free_7">
+    <object id="1" gid="677" x="81" y="40" width="83" height="27" />
+    <object id="2" gid="677" x="81" y="13" width="83" height="27" />
+    <object id="3" gid="678" x="80" y="143" width="85" height="103" />
+  </objectgroup>
+  <layer id="10" name="depth_1000000_grid_1" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,153,154,154,154,0,0,154,154,154,154,154,154,154,154,154,0,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,0,22,23,23,23,23,23,23,23,23,23,23,23,23,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="11" name="depth_1000000_free_2">
+    <object id="4" gid="679" x="100" y="160" width="40" height="20" />
+  </objectgroup>
+  <layer id="12" name="depth_1000000_grid_3" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,38,38,38,38,38,38,38,38,38,38,38,38,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="14" name="depth_1000000_grid_5" width="16" height="12">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,38,0,0,0,38,0,0</data>
+  </layer>
+  <objectgroup id="15" name="objects">
+    <object id="5" gid="680" type="obj_elevatordoor" x="99" y="140" width="57" height="55">
+      <properties>
+        <property name="instanceId" type="int" value="109190" />
+      </properties>
+    </object>
+    <object id="7" gid="682" type="obj_mainchara" x="60" y="184" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="109192" />
+      </properties>
+    </object>
+    <object id="22" gid="691" type="obj_elevatorgem" x="97" y="57" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109207" />
+      </properties>
+    </object>
+    <object id="23" gid="691" type="obj_elevatorgem" x="141" y="57" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109208" />
+      </properties>
+    </object>
+    <object id="24" gid="691" type="obj_elevatorgem" x="97" y="30" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109209" />
+      </properties>
+    </object>
+    <object id="25" gid="691" type="obj_elevatorgem" x="141" y="30" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109210" />
+      </properties>
+    </object>
+    <object id="26" gid="691" type="obj_elevatorgem" x="97" y="3" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109211" />
+      </properties>
+    </object>
+    <object id="27" gid="691" type="obj_elevatorgem" x="141" y="3" width="6" height="15">
+      <properties>
+        <property name="instanceId" type="int" value="109212" />
+      </properties>
+    </object>
+    <object id="28" gid="692" type="obj_elev_floorsign" x="106" y="79" width="33" height="21">
+      <properties>
+        <property name="instanceId" type="int" value="109213" />
+      </properties>
+    </object>
+    <object id="29" gid="693" type="obj_gaster_follower_c" x="206" y="152" width="34" height="40">
+      <properties>
+        <property name="instanceId" type="int" value="109214" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

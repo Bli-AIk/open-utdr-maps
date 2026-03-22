@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="17" tilewidth="20" tileheight="20" infinite="0" nextlayerid="8" nextobjectid="37" backgroundcolor="#000000">
+  <properties>
+    <property name="speed" type="int" value="30" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/bg_coretiles_wip.tsx" />
+  <tileset firstgid="361" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="366" source="tilesets/obj_hearthflame.tsx" />
+  <tileset firstgid="367" source="tilesets/obj_darksausagenpc.tsx" />
+  <tileset firstgid="369" source="tilesets/obj_core_lightstrip.tsx" />
+  <layer id="1" name="depth_1000000_grid_0" width="16" height="17">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,22,23,23,24,0,0,0,0,0,0,0,0,0,0,0,0,40,23,23,42,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="3" name="depth_1000000_grid_2" width="16" height="17">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0</data>
+  </layer>
+  <layer id="5" name="depth_1000000_grid_4" width="16" height="17">
+    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,0,0,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
+  </layer>
+  <objectgroup id="6" name="objects">
+    <object id="1" gid="361" type="obj_mainchara" x="140" y="309" width="19" height="29">
+      <properties>
+        <property name="instanceId" type="int" value="110510" />
+      </properties>
+    </object>
+    <object id="24" gid="366" type="obj_hearthflame" x="156" y="171" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110533" />
+      </properties>
+    </object>
+    <object id="25" gid="366" type="obj_hearthflame" x="168" y="141" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110534" />
+      </properties>
+    </object>
+    <object id="26" gid="366" type="obj_hearthflame" x="90" y="149" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110535" />
+      </properties>
+    </object>
+    <object id="27" gid="366" type="obj_hearthflame" x="140" y="153" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110536" />
+      </properties>
+    </object>
+    <object id="28" gid="366" type="obj_hearthflame" x="118" y="137" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110537" />
+      </properties>
+    </object>
+    <object id="29" gid="366" type="obj_hearthflame" x="100" y="173" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110538" />
+      </properties>
+    </object>
+    <object id="30" gid="366" type="obj_hearthflame" x="198" y="137" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110539" />
+      </properties>
+    </object>
+    <object id="31" gid="366" type="obj_hearthflame" x="198" y="167" width="15" height="11">
+      <properties>
+        <property name="instanceId" type="int" value="110540" />
+      </properties>
+    </object>
+    <object id="32" gid="367" type="obj_darksausagenpc" x="148" y="243" width="23" height="39">
+      <properties>
+        <property name="instanceId" type="int" value="110541" />
+      </properties>
+    </object>
+    <object id="34" gid="369" type="obj_core_lightstrip" x="120" y="286" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110543" />
+      </properties>
+    </object>
+    <object id="35" gid="369" type="obj_core_lightstrip" x="200" y="286" width="20" height="6">
+      <properties>
+        <property name="instanceId" type="int" value="110544" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="29" tilewidth="40" tileheight="40" infinite="0" nextlayerid="3" nextobjectid="56">
+  <properties>
+    <property name="speed" type="int" value="0" />
+  </properties>
+  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
+  <tileset firstgid="2" source="tilesets/obj_savepoint.tsx" />
+  <tileset firstgid="5" source="tilesets/obj_musicer_darkcastle.tsx" />
+  <tileset firstgid="17" source="tilesets/obj_castle_torch.tsx" />
+  <tileset firstgid="18" source="tilesets/obj_castle_house.tsx" />
+  <objectgroup id="1" name="objects">
+    <object id="1" gid="1" type="obj_mainchara" x="300" y="358" width="19" height="38">
+      <properties>
+        <property name="instanceId" type="int" value="101189" />
+      </properties>
+    </object>
+    <object id="3" gid="2" type="obj_savepoint" x="298" y="309" width="20" height="19">
+      <properties>
+        <property name="instanceId" type="int" value="101191" />
+      </properties>
+    </object>
+    <object id="6" gid="5" type="obj_musicer_darkcastle" x="20" y="42" width="32" height="32">
+      <properties>
+        <property name="instanceId" type="int" value="101194" />
+      </properties>
+    </object>
+    <object id="45" gid="17" type="obj_castle_torch" x="38" y="588" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101233" />
+      </properties>
+    </object>
+    <object id="46" gid="17" type="obj_castle_torch" x="572" y="588" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101234" />
+      </properties>
+    </object>
+    <object id="47" gid="17" type="obj_castle_torch" x="16" y="896" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101235" />
+      </properties>
+    </object>
+    <object id="48" gid="17" type="obj_castle_torch" x="144" y="896" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101236" />
+      </properties>
+    </object>
+    <object id="49" gid="17" type="obj_castle_torch" x="466" y="896" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101237" />
+      </properties>
+    </object>
+    <object id="50" gid="17" type="obj_castle_torch" x="594" y="896" width="15" height="20">
+      <properties>
+        <property name="instanceId" type="int" value="101238" />
+      </properties>
+    </object>
+    <object id="51" gid="18" type="obj_castle_house" x="120" y="695" width="79" height="83">
+      <properties>
+        <property name="instanceId" type="int" value="101239" />
+      </properties>
+    </object>
+    <object id="52" gid="18" type="obj_castle_house" x="366" y="695" width="79" height="83">
+      <properties>
+        <property name="instanceId" type="int" value="101240" />
+      </properties>
+    </object>
+    <object id="53" gid="18" type="obj_castle_house" x="124" y="541" width="79" height="83">
+      <properties>
+        <property name="instanceId" type="int" value="101241" />
+      </properties>
+    </object>
+    <object id="54" gid="18" type="obj_castle_house" x="370" y="543" width="79" height="83">
+      <properties>
+        <property name="instanceId" type="int" value="101242" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>
