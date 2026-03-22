@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Copies raw map data into viewer/assets/ (dereferencing symlinks).
-# Uses rsync for fast incremental updates.
+# Creates a generated asset tree for the viewer without manually maintaining
+# duplicated map files. Files are hardlinked from the repository roots so the
+# viewer can build against regular directories while avoiding redundant storage.
 # Run from the repository root (open-utdr-maps/).
 set -euo pipefail
 
@@ -11,30 +12,21 @@ ASSETS_DIR="$VIEWER_DIR/assets"
 
 mkdir -p "$ASSETS_DIR"
 
-# Remove stale symlinks from old approach
-for name in undertale deltarune_ch1 deltarune_ch2 deltarune_ch3 deltarune_ch4; do
-    [ -L "$ASSETS_DIR/$name" ] && rm "$ASSETS_DIR/$name"
-done
+rm -rf \
+  "$ASSETS_DIR/raw" \
+  "$ASSETS_DIR/curated" \
+  "$ASSETS_DIR/undertale" \
+  "$ASSETS_DIR/deltarune_ch1" \
+  "$ASSETS_DIR/deltarune_ch2" \
+  "$ASSETS_DIR/deltarune_ch3" \
+  "$ASSETS_DIR/deltarune_ch4"
 
-DIRS=(
-    "undertale:$REPO_ROOT/raw/undertale"
-    "deltarune_ch1:$REPO_ROOT/raw/deltarune/deltarune_ch1"
-    "deltarune_ch2:$REPO_ROOT/raw/deltarune/deltarune_ch2"
-    "deltarune_ch3:$REPO_ROOT/raw/deltarune/deltarune_ch3"
-    "deltarune_ch4:$REPO_ROOT/raw/deltarune/deltarune_ch4"
-)
+cp -al "$REPO_ROOT/raw" "$ASSETS_DIR/raw"
+cp -al "$REPO_ROOT/curated" "$ASSETS_DIR/curated"
 
-for entry in "${DIRS[@]}"; do
-    name="${entry%%:*}"
-    src="${entry#*:}"
-    if [ -d "$src" ]; then
-        rsync -a --delete "$src/" "$ASSETS_DIR/$name/"
-    else
-        echo "WARNING: source not found: $src"
-    fi
-done
+mkdir -p "$ASSETS_DIR"
+touch "$ASSETS_DIR/manifest.json" "$ASSETS_DIR/manifest.txt"
 
-echo "Assets synced to $ASSETS_DIR"
-
-# Ensure manifest.txt exists (trunk watch needs it for ignore path)
-touch "$ASSETS_DIR/manifest.txt"
+echo "Prepared viewer assets using hardlinked trees:"
+echo "  $ASSETS_DIR/raw <= $REPO_ROOT/raw"
+echo "  $ASSETS_DIR/curated <= $REPO_ROOT/curated"

@@ -5497,8 +5497,9 @@ dependencies = [
 
 [[package]]
 name = "tiled_map_web_viewer"
-version = "0.1.1"
-source = "git+https://github.com/Bli-AIk/tiled_map_web_viewer.git?branch=main#0bdce48ee6b96a9e667db516d35f2fa1641a009e"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "83533ed89d12701e69565e54e9e68e76cab518041b74bfa0aecf59a6790af2e9"
 dependencies = [
  "bevy",
  "bevy_ecs_tiled",
@@ -5506,6 +5507,8 @@ dependencies = [
  "bevy_workbench",
  "egui",
  "getrandom 0.2.17",
+ "serde",
+ "serde_json",
  "web-sys",
 ]
 
