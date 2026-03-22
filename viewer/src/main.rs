@@ -26,6 +26,8 @@ fn main() {
                 directory: "deltarune_ch4".into(),
             },
         ],
+        manifest_path: "assets/manifest.json".into(),
+        default_show_raw_maps: false,
         locale_sources: vec![],
     });
 }

@@ -3,8 +3,8 @@ dist = "dist"
 
 [[hooks]]
 stage = "pre_build"
-command = "python3"
-command_arguments = ["scripts/generate_manifest.py"]
+command = "bash"
+command_arguments = ["scripts/prepare_assets.sh"]
 
 [watch]
-ignore = ["assets/manifest.txt"]
+ignore = ["assets/manifest.txt", "assets/manifest.json"]
