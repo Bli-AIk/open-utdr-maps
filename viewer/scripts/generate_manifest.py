@@ -19,7 +19,11 @@ PROPERTY_MAP = {
     "open_utdr_visual_status": "visual_status",
     "open_utdr_logic_status": "logic_status",
     "open_utdr_scope": "scope",
-    "open_utdr_notes": "notes",
+    "open_utdr_visual_notes": "visual_notes",
+    "open_utdr_logic_notes": "logic_notes",
+    "open_utdr_contributor": "contributor",
+    "open_utdr_world_status": "world_status",
+    "open_utdr_world_notes": "world_notes",
 }
 
 
@@ -95,8 +99,14 @@ def tone_for_badge(label: str, *, kind: str) -> str:
             "curated": "success",
             "reviewed_clean": "info",
             "seeded": "warning",
-            "needs_work": "danger",
+            "needs_work": "warning",
             "unreviewed": "muted",
+            "pass": "success",
+        }.get(label, "accent")
+    if kind == "world_status":
+        return {
+            "needs_work": "warning",
+            "pass": "success",
         }.get(label, "accent")
     if kind == "scope":
         return {
@@ -116,10 +126,18 @@ def build_details(source: str, dataset: str, props: dict[str, str]) -> list[dict
         details.append({"label": "Visual Status", "value": visual})
     if logic := props.get("logic_status"):
         details.append({"label": "Logic Status", "value": logic})
+    if world_status := props.get("world_status"):
+        details.append({"label": "World Status", "value": world_status})
     if scope := props.get("scope"):
         details.append({"label": "Scope", "value": scope})
-    if notes := props.get("notes"):
-        details.append({"label": "Notes", "value": notes})
+    if visual_notes := props.get("visual_notes"):
+        details.append({"label": "Visual Notes", "value": visual_notes})
+    if logic_notes := props.get("logic_notes"):
+        details.append({"label": "Logic Notes", "value": logic_notes})
+    if world_notes := props.get("world_notes"):
+        details.append({"label": "World Notes", "value": world_notes})
+    if contributor := props.get("contributor"):
+        details.append({"label": "Contributor", "value": contributor})
     return details
 
 
@@ -142,11 +160,20 @@ def collect_entries() -> list[dict[str, object]]:
                     "tone": tone_for_badge(source_dir, kind="section"),
                 }
             ]
-            if visual := props.get("visual_status"):
+            status_label = None
+            status_kind = None
+            if map_path.suffix == ".world":
+                status_label = props.get("world_status")
+                status_kind = "world_status"
+            else:
+                status_label = props.get("visual_status")
+                status_kind = "visual_status"
+
+            if status_label:
                 badges.append(
                     {
-                        "label": visual,
-                        "tone": tone_for_badge(visual, kind="visual_status"),
+                        "label": status_label,
+                        "tone": tone_for_badge(status_label, kind=status_kind or "visual_status"),
                     }
                 )
             elif source_dir == "curated":
