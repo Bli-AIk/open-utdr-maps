@@ -62,9 +62,9 @@ jobs:
           ERRORS=0
           while IFS= read -r file; do
             # Check curated files mirror the raw/ structure
-            EXPECTED_PATTERN="^curated/(undertale|deltarune/(deltarune_ch[1-4]))/"
+            EXPECTED_PATTERN="^curated/(undertale|deltarune/(deltarune_ch[1-4])|worlds/undertale|worlds/deltarune/(deltarune_ch[1-4]))/"
             if ! echo "$file" | grep -qE "$EXPECTED_PATTERN"; then
-              echo "::error file=$file::❌ File is not in a valid curated subdirectory. Expected: curated/undertale/ or curated/deltarune/deltarune_ch{1-4}/"
+              echo "::error file=$file::❌ File is not in a valid curated subdirectory. Expected: curated/undertale/, curated/deltarune/deltarune_ch{1-4}/, curated/worlds/undertale/, or curated/worlds/deltarune/deltarune_ch{1-4}/"
               ERRORS=$((ERRORS + 1))
             fi
           done <<< "$CURATED_FILES"
