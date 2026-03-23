@@ -1,53 +1,53 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="35" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  <property name="open_utdr_visual_status" type="string" value=""/>
-  <property name="open_utdr_logic_status" type="string" value=""/>
-  <property name="open_utdr_scope" type="string" value=""/>
-  <property name="open_utdr_notes" type="string" value=""/>
-  </properties>
-  <tileset firstgid="2" source="tilesets/free_tile_p11_504_1428_46x32.tsx" />
-  <tileset firstgid="4" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="8" source="tilesets/obj_blookdiary.tsx" />
-  <objectgroup id="1" name="depth_1000000_free_0">
-    <object id="1" gid="2" x="130" y="54" width="46" height="32" />
-  </objectgroup>
-  <objectgroup id="2" name="objects">
-    <object id="7" gid="4" type="obj_mainchara" x="100" y="169" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="106334" />
-      </properties>
-    </object>
-    <object id="14" gid="8" type="obj_blookdiary" x="70" y="143" width="11" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="106341" />
-      </properties>
-    </object>
-    <object id="15" gid="8" type="obj_blookdiary" x="100" y="123" width="11" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="106342" />
-      </properties>
-    </object>
-    <object id="16" gid="8" type="obj_blookdiary" x="155" y="123" width="11" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="106343" />
-      </properties>
-    </object>
-    <object id="17" gid="8" type="obj_blookdiary" x="125" y="143" width="11" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="106344" />
-      </properties>
-    </object>
-    <object id="18" gid="8" type="obj_blookdiary" x="180" y="148" width="11" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="106345" />
-      </properties>
-    </object>
-    <object id="19" gid="8" type="obj_blookdiary" x="210" y="128" width="11" height="13">
-      <properties>
-        <property name="instanceId" type="int" value="106346" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="4" nextobjectid="35">
+ <properties>
+  <property name="open_utdr_logic_status" value=""/>
+  <property name="open_utdr_notes" value=""/>
+  <property name="open_utdr_scope" value=""/>
+  <property name="open_utdr_visual_status" value=""/>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/free_tile_p11_504_1428_46x32.tsx"/>
+ <tileset firstgid="2" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="3" source="tilesets/obj_blookdiary.tsx"/>
+ <objectgroup id="1" name="depth_1000000_free_0">
+  <object id="1" gid="1" x="130" y="54" width="46" height="32"/>
+ </objectgroup>
+ <objectgroup id="2" name="objects">
+  <object id="7" type="obj_mainchara" gid="2" x="100" y="169" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="106334"/>
+   </properties>
+  </object>
+  <object id="14" type="obj_blookdiary" gid="3" x="70" y="143" width="11" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="106341"/>
+   </properties>
+  </object>
+  <object id="15" type="obj_blookdiary" gid="3" x="100" y="123" width="11" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="106342"/>
+   </properties>
+  </object>
+  <object id="16" type="obj_blookdiary" gid="3" x="155" y="123" width="11" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="106343"/>
+   </properties>
+  </object>
+  <object id="17" type="obj_blookdiary" gid="3" x="125" y="143" width="11" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="106344"/>
+   </properties>
+  </object>
+  <object id="18" type="obj_blookdiary" gid="3" x="180" y="148" width="11" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="106345"/>
+   </properties>
+  </object>
+  <object id="19" type="obj_blookdiary" gid="3" x="210" y="128" width="11" height="13">
+   <properties>
+    <property name="instanceId" type="int" value="106346"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

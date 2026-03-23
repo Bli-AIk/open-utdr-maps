@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="47" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="7" nextobjectid="66">
  <properties>
+  <property name="open_utdr_logic_status" value=""/>
+  <property name="open_utdr_notes" value=""/>
+  <property name="open_utdr_scope" value=""/>
+  <property name="open_utdr_visual_status" value=""/>
   <property name="speed" type="int" value="30"/>
-  <property name="open_utdr_visual_status" type="string" value=""/>
-  <property name="open_utdr_logic_status" type="string" value=""/>
-  <property name="open_utdr_scope" type="string" value=""/>
-  <property name="open_utdr_notes" type="string" value=""/>
  </properties>
  <tileset firstgid="1" source="tilesets/bg_watertiles.tsx"/>
  <tileset firstgid="225" source="tilesets/bg_watertiles_2.tsx"/>
@@ -67,9 +67,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="2" name="depth_1000000_free_1">
-  <object id="1" gid="639" x="-20" y="920" width="20" height="20"/>
- </objectgroup>
+ <objectgroup id="2" name="depth_1000000_free_1"/>
  <layer id="3" name="depth_1000000_grid_2" width="16" height="47">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
