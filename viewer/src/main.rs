@@ -1,6 +1,11 @@
 use tiled_map_web_viewer::{MapCategory, MapListView, ViewerConfig};
 
 fn main() {
+    let asset_root = std::path::Path::new(env!("CARGO_MANIFEST_DIR"))
+        .join("assets")
+        .to_string_lossy()
+        .into_owned();
+
     tiled_map_web_viewer::run(ViewerConfig {
         title: "Open UTDR Maps Viewer".into(),
         resolution: (1280, 720),
@@ -45,6 +50,7 @@ fn main() {
                 key: "deltarune_ch4".into(),
             },
         ],
+        asset_root: Some(asset_root),
         manifest_path: "assets/manifest.json".into(),
         locale_sources: vec![],
     });

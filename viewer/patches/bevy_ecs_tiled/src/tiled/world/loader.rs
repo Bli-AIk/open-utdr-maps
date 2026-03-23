@@ -13,6 +13,22 @@ use bevy::{
     asset::{io::Reader, AssetLoader, AssetPath, LoadContext},
     prelude::*,
 };
+use std::path::{Component, Path, PathBuf};
+
+fn normalize_path(path: &Path) -> PathBuf {
+    let mut result = PathBuf::new();
+    for component in path.components() {
+        match component {
+            Component::ParentDir => {
+                result.pop();
+            }
+            Component::CurDir => {}
+            Component::Normal(part) => result.push(part),
+            other => result.push(other),
+        }
+    }
+    result
+}
 
 /// [`TiledWorldAsset`] loading error.
 #[derive(Debug, thiserror::Error)]
@@ -95,7 +111,7 @@ impl AssetLoader for TiledWorldLoader {
         let mut maps = Vec::new();
         for map in world.maps.iter() {
             // Seems safe to unwrap() here since we do it on the world path (which should always have a parent)
-            let map_path = world_path.parent().unwrap().join(map.filename.clone());
+            let map_path = normalize_path(&world_path.parent().unwrap().join(map.filename.clone()));
 
             let (Some(map_width), Some(map_height)) = (map.width, map.height) else {
                 // Assume that we cannot get map width / map height because it's an infinite map
