@@ -2,6 +2,10 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="35" height="23" tilewidth="40" tileheight="40" infinite="0" nextlayerid="17" nextobjectid="196">
   <properties>
     <property name="speed" type="int" value="0" />
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
   </properties>
   <tileset firstgid="3" source="tilesets/bg_darkforest_tiles.tsx" />
   <tileset firstgid="75" source="tilesets/free_tile_p6_642_979_240x160.tsx" />

@@ -2,6 +2,10 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="37" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="82" backgroundcolor="#000000">
   <properties>
     <property name="speed" type="int" value="30" />
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx" />
   <tileset firstgid="361" source="tilesets/bg_watertiles_supplement.tsx" />

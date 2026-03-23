@@ -37,7 +37,7 @@ def dataset_for_path(path: Path) -> str:
     return "other"
 
 
-def parse_map_properties(tmx_path: Path) -> dict[str, str]:
+def parse_tmx_properties(tmx_path: Path) -> dict[str, str]:
     try:
         root = ET.parse(tmx_path).getroot()
     except ET.ParseError:
@@ -58,6 +58,33 @@ def parse_map_properties(tmx_path: Path) -> dict[str, str]:
         if value:
             properties[PROPERTY_MAP[name]] = value
     return properties
+
+
+def parse_world_properties(world_path: Path) -> dict[str, str]:
+    try:
+        payload = json.loads(world_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    properties: dict[str, str] = {}
+    for prop in payload.get("properties", []):
+        name = prop.get("name")
+        if not name or name not in PROPERTY_MAP:
+            continue
+        value = prop.get("value")
+        if isinstance(value, str):
+            value = value.strip()
+        if value:
+            properties[PROPERTY_MAP[name]] = str(value)
+    return properties
+
+
+def parse_entry_properties(path: Path) -> dict[str, str]:
+    if path.suffix == ".tmx":
+        return parse_tmx_properties(path)
+    if path.suffix == ".world":
+        return parse_world_properties(path)
+    return {}
 
 
 def tone_for_badge(label: str, *, kind: str) -> str:
@@ -108,7 +135,7 @@ def collect_entries() -> list[dict[str, object]]:
             rel_path = map_path.relative_to(REPO_ROOT).as_posix()
             dataset = dataset_for_path(Path(rel_path))
             category = "worlds" if map_path.suffix == ".world" else dataset
-            props = parse_map_properties(map_path) if map_path.suffix == ".tmx" else {}
+            props = parse_entry_properties(map_path)
             badges = [
                 {
                     "label": source_dir,

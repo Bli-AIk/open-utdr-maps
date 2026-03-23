@@ -1,46 +1,68 @@
 {
+    "properties": [
+        {
+            "name": "open_utdr_visual_status",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "open_utdr_logic_status",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "open_utdr_scope",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "open_utdr_notes",
+            "type": "string",
+            "value": ""
+        }
+    ],
     "maps": [
         {
             "fileName": "../../undertale/room_fogroom.tmx",
             "height": 240,
             "width": 900,
-            "x": 0,
-            "y": 0
+            "x": -520,
+            "y": 20
         },
         {
             "fileName": "../../undertale/room_water1.tmx",
             "height": 240,
             "width": 640,
-            "x": 900,
-            "y": 0
+            "x": 380,
+            "y": 20
         },
         {
             "fileName": "../../undertale/room_water2.tmx",
             "height": 240,
             "width": 320,
-            "x": 1540,
-            "y": 0
+            "x": 1020,
+            "y": 20
         },
         {
             "fileName": "../../undertale/room_water3.tmx",
             "height": 540,
             "width": 580,
-            "x": 1860,
-            "y": 20
+            "x": 1340,
+            "y": 40
         },
         {
             "fileName": "../../undertale/room_water3A.tmx",
             "height": 240,
             "width": 320,
-            "x": 2020,
-            "y": -220
+            "x": 1500,
+            "y": -200
         },
         {
             "fileName": "../../undertale/room_water4.tmx",
             "height": 400,
             "width": 560,
-            "x": 2440,
-            "y": -140
+            "x": 1920,
+            "y": -120
         },
         {
             "fileName": "../../undertale/room_water5.tmx",
@@ -83,6 +105,48 @@
             "width": 860,
             "x": 6560,
             "y": -900
+        },
+        {
+            "fileName": "../../undertale/room_water_savepoint1.tmx",
+            "height": 240,
+            "width": 320,
+            "x": 7420,
+            "y": -900
+        },
+        {
+            "fileName": "../../undertale/room_water11.tmx",
+            "height": 340,
+            "width": 660,
+            "x": 7740,
+            "y": -900
+        },
+        {
+            "fileName": "../../undertale/room_water_nicecream.tmx",
+            "height": 440,
+            "width": 320,
+            "x": 7880,
+            "y": -1340
+        },
+        {
+            "fileName": "../../undertale/room_water12.tmx",
+            "height": 820,
+            "width": 1280,
+            "x": 7820,
+            "y": -560
+        },
+        {
+            "fileName": "../../undertale/room_water_onionsan.tmx",
+            "height": 240,
+            "width": 1220,
+            "x": 8720,
+            "y": -800
+        },
+        {
+            "fileName": "../../undertale/room_water_bridgepuzz1.tmx",
+            "height": 240,
+            "width": 520,
+            "x": 2480,
+            "y": 20
         }
     ],
     "onlyShowAdjacentMaps": false,
