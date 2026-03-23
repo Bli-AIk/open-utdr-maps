@@ -114,7 +114,8 @@ jobs:
           echo "✅ All $TOTAL TMX/TSX files are valid XML."
 
   layer-naming:
-    name: Layer naming check
+    if: ${{ false }} # Temporarily disabled until the layer naming spec is finalized.
+    name: Layer naming check (disabled)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
