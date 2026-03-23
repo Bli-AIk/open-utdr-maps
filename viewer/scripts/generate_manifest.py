@@ -29,6 +29,11 @@ def dataset_for_path(path: Path) -> str:
         return "undertale"
     if len(parts) >= 3 and parts[0] in {"raw", "curated"} and parts[1] == "deltarune":
         return parts[2]
+    if len(parts) >= 3 and parts[0] in {"raw", "curated"} and parts[1] == "worlds":
+        if parts[2] == "undertale":
+            return "undertale"
+        if len(parts) >= 4 and parts[2] == "deltarune":
+            return parts[3]
     return "other"
 
 
@@ -97,10 +102,12 @@ def collect_entries() -> list[dict[str, object]]:
         root = REPO_ROOT / source_dir
         if not root.exists():
             continue
-        for tmx_path in sorted(root.rglob("*.tmx")):
-            rel_path = tmx_path.relative_to(REPO_ROOT).as_posix()
+        for map_path in sorted(
+            path for path in root.rglob("*") if path.suffix in {".tmx", ".world"}
+        ):
+            rel_path = map_path.relative_to(REPO_ROOT).as_posix()
             dataset = dataset_for_path(Path(rel_path))
-            props = parse_map_properties(tmx_path)
+            props = parse_map_properties(map_path) if map_path.suffix == ".tmx" else {}
             badges = [
                 {
                     "label": source_dir,
@@ -127,7 +134,7 @@ def collect_entries() -> list[dict[str, object]]:
 
             entry = {
                 "path": rel_path,
-                "title": tmx_path.stem,
+                "title": map_path.stem,
                 "section": source_dir,
                 "category": dataset,
                 "badges": badges,
