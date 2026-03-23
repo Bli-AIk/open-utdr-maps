@@ -92,6 +92,65 @@ just blacklist-audit
 That command writes all blacklist-matched sprite previews to `dev/curation_blacklist_audit/`.
 Use it to catch false positives before promoting rooms.
 
+### Curated metadata
+
+For files under `curated/`, use different metadata depending on whether the file is a single map (`.tmx`) or a stitched world (`.world`).
+
+If a field is left blank, treat it as "not filled yet".
+
+#### TMX metadata
+
+Use these fields on `curated/**/*.tmx`:
+
+| Field | Meaning | Allowed values / format |
+|-------|---------|-------------------------|
+| `open_utdr_visual_status` | Visual curation state | blank / `needs_work` / `reviewed_clean` / `pass` |
+| `open_utdr_logic_status` | Logic-layer curation state | blank / `needs_work` / `reviewed_clean` / `pass` |
+| `open_utdr_scope` | Whether the map is part of the main usable map set or mainly archival | `normal` / `archival` |
+| `open_utdr_visual_notes` | Notes about visual cleanup | English text, prefixed with name and date |
+| `open_utdr_logic_notes` | Notes about logic-layer work | English text, prefixed with name and date |
+| `open_utdr_contributor` | Main contributor identifier for the current curated version | Free-form name / handle / ID |
+
+Status guidance:
+
+- `needs_work`: reviewed and confirmed to still need more work
+- `reviewed_clean`: reviewed and currently clean enough to use
+- `pass`: curated to the current standard
+
+Scope guidance:
+
+- `normal`: this is part of the main map set. Contributors can use it directly, keep improving it, and use it for future world stitching or logic-layer work.
+- `archival`: this map is mainly kept for reference, research, or completeness. Typical examples include menu rooms, initialization rooms, test rooms, placeholder rooms, or other rooms that are not useful as part of the finished public map collection.
+
+#### WORLD metadata
+
+Use these fields on `curated/**/*.world`:
+
+| Field | Meaning | Allowed values / format |
+|-------|---------|-------------------------|
+| `open_utdr_world_status` | World stitching state | blank / `needs_work` / `pass` |
+| `open_utdr_world_notes` | Notes about world stitching | English text, prefixed with name and date |
+| `open_utdr_contributor` | Main contributor identifier for the current curated version | Free-form name / handle / ID |
+
+World guidance:
+
+- `needs_work`: the world file exists, but map placement or inclusion still needs work
+- `pass`: the world is organized well enough for current use
+
+Use world metadata for the stitched world itself. Do not copy the full TMX visual/logic status model onto `.world` files.
+
+Notes format:
+
+- Use English
+- Prefix each note with the contributor name and date
+- Example: `[aik | 2026-03-23] bridge trigger objects still need cleanup`
+- When a note is replaced, the new note must keep the previous commit hash for traceability
+- Example: `[aik | 2026-03-23 | replaces 1a2b3c4] visual pass for community use`
+
+Contributor format:
+
+- You may use a GitHub username, Discord name, or another stable contributor identifier
+
 ### 📐 2. Logic layers *(future work)*
 
 > 💡 This is **not a current priority**. You can skip this for now, or wait until the
