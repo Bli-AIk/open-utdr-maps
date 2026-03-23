@@ -106,7 +106,7 @@ fn normalize_path(path: &Path) -> PathBuf {
 /// Resolves a potentially relative path against a base directory,
 /// normalizing `..` components.
 fn resolve_relative_path(base: &Path, relative: &Path) -> PathBuf {
-    let mut result = normalize_path(base);
+    let mut result = base.to_path_buf();
     for component in relative.components() {
         match component {
             std::path::Component::ParentDir => {
@@ -115,13 +115,10 @@ fn resolve_relative_path(base: &Path, relative: &Path) -> PathBuf {
             std::path::Component::Normal(s) => {
                 result.push(s);
             }
-            std::path::Component::CurDir => {}
-            other => {
-                result.push(other);
-            }
+            _ => {}
         }
     }
-    normalize_path(&result)
+    result
 }
 
 /// Pre-loads all external .tsx/.tx resources referenced by the given XML content.
@@ -146,7 +143,6 @@ pub(crate) async fn preload_external_resources(
     let mut queue: Vec<PathBuf> = initial_paths;
 
     while let Some(path) = queue.pop() {
-        let path = normalize_path(&path);
         if cache.contains_key(&path) {
             continue;
         }
@@ -154,10 +150,9 @@ pub(crate) async fn preload_external_resources(
             Ok(data) => {
                 // Scan loaded file for nested references
                 let nested_xml = String::from_utf8_lossy(&data);
-                let nested_dir = normalize_path(path.parent().unwrap_or(Path::new("")));
+                let nested_dir = path.parent().unwrap_or(Path::new("")).to_path_buf();
                 let nested_paths = extract_external_paths(&nested_xml, &nested_dir);
                 for np in nested_paths {
-                    let np = normalize_path(&np);
                     if !cache.contains_key(&np) {
                         queue.push(np);
                     }

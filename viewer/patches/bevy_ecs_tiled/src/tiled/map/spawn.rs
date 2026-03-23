@@ -6,6 +6,7 @@
 
 use crate::{prelude::*, tiled::event::TiledMessageWriters, tiled::layer::TiledLayerParallax};
 use bevy::{platform::collections::HashMap, prelude::*, sprite::Anchor};
+use std::sync::atomic::{AtomicBool, Ordering};
 
 #[cfg(feature = "render")]
 use bevy_ecs_tilemap::prelude::{TilemapBundle, TilemapSpacing};
@@ -14,6 +15,9 @@ use bevy_ecs_tilemap::prelude::{TilemapBundle, TilemapSpacing};
 use crate::tiled::properties::command::PropertiesCommandExt;
 
 use super::loader::tileset_label;
+
+static WARNED_ANIM_NON_CONSTANT_DURATION: AtomicBool = AtomicBool::new(false);
+static WARNED_ANIM_NON_ALIGNED_FRAMES: AtomicBool = AtomicBool::new(false);
 
 pub(crate) fn spawn_map(
     commands: &mut Commands,
@@ -637,12 +641,20 @@ fn get_animated_tile(tile: &tiled::Tile) -> Option<AnimatedTile> {
     // Sanity checks: current limitations from bevy_ecs_tilemap
     for frame in animation_data {
         if frame.duration != first_tile.duration {
-            log::warn!("Animated tile with non constant frame duration is currently not supported");
+            if !WARNED_ANIM_NON_CONSTANT_DURATION.swap(true, Ordering::Relaxed) {
+                log::warn!(
+                    "Animated tile with non constant frame duration is currently not supported"
+                );
+            }
             return None;
         }
         if let Some(id) = previous_tile_id {
             if frame.tile_id != id + 1 {
-                log::warn!("Animated tile with non-aligned frame tiles is currently not supported");
+                if !WARNED_ANIM_NON_ALIGNED_FRAMES.swap(true, Ordering::Relaxed) {
+                    log::warn!(
+                        "Animated tile with non-aligned frame tiles is currently not supported"
+                    );
+                }
                 return None;
             }
         }
