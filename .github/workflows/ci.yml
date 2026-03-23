@@ -56,6 +56,9 @@ jobs:
           shared-key: "ci-test"
           workspaces: "viewer"
 
+      - name: Prepare viewer assets
+        run: bash scripts/prepare_assets.sh
+
       - name: Check formatting
         run: cargo fmt -- --check
 
@@ -88,6 +91,9 @@ jobs:
         with:
           shared-key: "ci-wasm"
           workspaces: "viewer"
+
+      - name: Prepare viewer assets
+        run: bash scripts/prepare_assets.sh
 
       - name: Check WASM build
         run: cargo check --target wasm32-unknown-unknown
