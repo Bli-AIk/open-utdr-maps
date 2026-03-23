@@ -21,6 +21,10 @@ fn main() {
         sections: vec![],
         categories: vec![
             MapCategory {
+                name: "Worlds".into(),
+                key: "worlds".into(),
+            },
+            MapCategory {
                 name: "Undertale".into(),
                 key: "undertale".into(),
             },

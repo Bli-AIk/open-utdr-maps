@@ -107,6 +107,7 @@ def collect_entries() -> list[dict[str, object]]:
         ):
             rel_path = map_path.relative_to(REPO_ROOT).as_posix()
             dataset = dataset_for_path(Path(rel_path))
+            category = "worlds" if map_path.suffix == ".world" else dataset
             props = parse_map_properties(map_path) if map_path.suffix == ".tmx" else {}
             badges = [
                 {
@@ -136,7 +137,7 @@ def collect_entries() -> list[dict[str, object]]:
                 "path": rel_path,
                 "title": map_path.stem,
                 "section": source_dir,
-                "category": dataset,
+                "category": category,
                 "badges": badges,
                 "details": build_details(source_dir, dataset, props),
             }
