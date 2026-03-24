@@ -1,3 +1,5 @@
+#[cfg(all(not(target_arch = "wasm32"), feature = "viewer-brp"))]
+use bevy_brp_extras::BrpExtrasPlugin;
 use tiled_map_web_viewer::{MapCategory, MapListView, ViewerConfig};
 
 fn main() {
@@ -20,7 +22,7 @@ fn main() {
             .into_owned()
     };
 
-    tiled_map_web_viewer::run(ViewerConfig {
+    let config = ViewerConfig {
         title: "Open UTDR Maps Viewer".into(),
         resolution: (1280, 720),
         map_lists: vec![
@@ -67,5 +69,17 @@ fn main() {
         asset_root,
         manifest_path,
         locale_sources: vec![],
-    });
+    };
+
+    #[cfg(all(not(target_arch = "wasm32"), feature = "viewer-brp"))]
+    {
+        tiled_map_web_viewer::run_with_app_hook(config, |app| {
+            app.add_plugins(BrpExtrasPlugin::default());
+        });
+    }
+
+    #[cfg(not(all(not(target_arch = "wasm32"), feature = "viewer-brp")))]
+    {
+        tiled_map_web_viewer::run(config);
+    }
 }

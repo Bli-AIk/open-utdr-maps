@@ -27,6 +27,14 @@ build-wasm: setup
 run: setup
     cd viewer && cargo run
 
+# Run desktop version with BRP enabled for scene inspection
+run-brp: setup
+    cd viewer && BRP_EXTRAS_PORT=${BRP_EXTRAS_PORT:-15702} cargo run --features viewer-brp
+
+# Run desktop release build with BRP enabled for scene inspection
+run-release-brp: setup
+    cd viewer && BRP_EXTRAS_PORT=${BRP_EXTRAS_PORT:-15702} cargo run --release --features viewer-brp
+
 # Check compilation (native + WASM)
 check:
     cd viewer && cargo check
