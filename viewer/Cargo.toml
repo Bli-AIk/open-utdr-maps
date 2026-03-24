@@ -11,7 +11,7 @@ default = []
 viewer-brp = ["dep:bevy_brp_extras"]
 
 [dependencies]
-tiled_map_web_viewer = "0.5"
+tiled_map_web_viewer = "0.5.1"
 bevy_ecs_tiled = "0.11"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
@@ -27,4 +27,3 @@ getrandom = { version = "0.2", features = ["js"] }
 
 [patch.crates-io]
 bevy_ecs_tiled = { path = "patches/bevy_ecs_tiled" }
-tiled_map_web_viewer = { path = "../../tiled_map_web_viewer" }
