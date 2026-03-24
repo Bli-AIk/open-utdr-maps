@@ -1,36 +1,53 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="4" nextobjectid="18" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx" />
-  <tileset firstgid="678" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="679" source="tilesets/obj_sanssnowman.tsx" />
-  <tileset firstgid="680" source="tilesets/obj_papyrussnowman.tsx" />
-  <tileset firstgid="683" source="tilesets/obj_icecap_npcb.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,51,2,1,58,59,59,59,59,59,59,59,59,59,59,0,0,51,1,1,10,11,11,11,11,11,11,11,12,1,1,46,0,51,1,1,19,20,20,20,20,20,20,20,21,1,1,49,0,51,1,2,19,20,20,20,20,20,20,20,21,2,1,49,0,51,1,1,28,29,29,29,29,29,29,29,30,3,1,49,0,56,1,1,1,1,1,1,1,1,1,1,1,1,1,55,0,65,66,66,66,66,66,66,66,66,66,66,66,66,66,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="2" name="objects">
-    <object id="5" gid="678" type="obj_mainchara" x="140" y="169" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="102646" />
-      </properties>
-    </object>
-    <object id="6" gid="679" type="obj_sanssnowman" x="180" y="144" width="27" height="14">
-      <properties>
-        <property name="instanceId" type="int" value="102647" />
-      </properties>
-    </object>
-    <object id="7" gid="680" type="obj_papyrussnowman" x="100" y="144" width="30" height="44">
-      <properties>
-        <property name="instanceId" type="int" value="102648" />
-      </properties>
-    </object>
-    <object id="12" gid="683" type="obj_icecap_npcb" x="240" y="175" width="21" height="35">
-      <properties>
-        <property name="instanceId" type="int" value="102653" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="4" nextobjectid="18">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx"/>
+ <tileset firstgid="676" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="677" source="tilesets/obj_sanssnowman.tsx"/>
+ <tileset firstgid="678" source="tilesets/obj_papyrussnowman.tsx"/>
+ <tileset firstgid="679" source="tilesets/obj_icecap_npcb.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,
+51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,
+51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,
+51,1,1,49,0,0,0,0,0,0,0,0,0,0,0,0,
+51,2,1,58,59,59,59,59,59,59,59,59,59,59,0,0,
+51,1,1,10,11,11,11,11,11,11,11,12,1,1,46,0,
+51,1,1,19,20,20,20,20,20,20,20,21,1,1,49,0,
+51,1,2,19,20,20,20,20,20,20,20,21,2,1,49,0,
+51,1,1,28,29,29,29,29,29,29,29,30,3,1,49,0,
+56,1,1,1,1,1,1,1,1,1,1,1,1,1,55,0,
+65,66,66,66,66,66,66,66,66,66,66,66,66,66,64,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="5" type="obj_mainchara" gid="676" x="140" y="169" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="102646"/>
+   </properties>
+  </object>
+  <object id="6" type="obj_sanssnowman" gid="677" x="180" y="144" width="27" height="14">
+   <properties>
+    <property name="instanceId" type="int" value="102647"/>
+   </properties>
+  </object>
+  <object id="7" type="obj_papyrussnowman" gid="678" x="100" y="144" width="30" height="44">
+   <properties>
+    <property name="instanceId" type="int" value="102648"/>
+   </properties>
+  </object>
+  <object id="12" type="obj_icecap_npcb" gid="679" x="240" y="175" width="21" height="35">
+   <properties>
+    <property name="instanceId" type="int" value="102653"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

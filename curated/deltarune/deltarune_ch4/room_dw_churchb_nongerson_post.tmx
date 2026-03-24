@@ -2,6 +2,10 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="36" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="14">
   <properties>
     <property name="speed" type="int" value="0" />
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
   </properties>
   <tileset firstgid="1" source="tilesets/bg_dw_church_tileset.tsx" />
   <tileset firstgid="583" source="tilesets/bg_dw_church_tileset_new.tsx" />

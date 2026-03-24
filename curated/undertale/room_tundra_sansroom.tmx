@@ -1,26 +1,30 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="53" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="10" source="tilesets/obj_trashnado.tsx" />
-  <tileset firstgid="11" source="tilesets/obj_npc_room.tsx" />
-  <objectgroup id="1" name="objects">
-    <object id="1" gid="1" type="obj_mainchara" x="80" y="225" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103618" />
-      </properties>
-    </object>
-    <object id="46" gid="10" type="obj_trashnado" x="172" y="193" width="9" height="9">
-      <properties>
-        <property name="instanceId" type="int" value="103663" />
-      </properties>
-    </object>
-    <object id="49" gid="11" type="obj_npc_room" x="88" y="153" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103666" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="3" nextobjectid="53">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="2" source="tilesets/obj_trashnado.tsx"/>
+ <tileset firstgid="3" source="tilesets/obj_npc_room.tsx"/>
+ <objectgroup id="1" name="objects">
+  <object id="1" type="obj_mainchara" gid="1" x="80" y="225" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103618"/>
+   </properties>
+  </object>
+  <object id="46" type="obj_trashnado" gid="2" x="172" y="193" width="9" height="9">
+   <properties>
+    <property name="instanceId" type="int" value="103663"/>
+   </properties>
+  </object>
+  <object id="49" type="obj_npc_room" gid="3" x="88" y="153" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103666"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

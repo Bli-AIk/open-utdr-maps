@@ -92,6 +92,68 @@ just blacklist-audit
 这个命令会把所有命中黑名单的 sprite 预览输出到 `dev/curation_blacklist_audit/`，
 方便你先排查误杀项，再决定是否调整规则。
 
+### Curated metadata 约定
+
+对于 `curated/` 下的文件，请根据文件类型分别填写 metadata：
+
+- 单张地图 `.tmx` 用一套字段
+- 世界拼接文件 `.world` 用一套更简单的字段
+
+如果某个字段留空，就表示“尚未填写”。
+
+#### TMX metadata
+
+`curated/**/*.tmx` 使用以下字段：
+
+| 字段 | 含义 | 可用值 / 格式 |
+|------|------|---------------|
+| `open_utdr_visual_status` | 视觉整理状态 | 留空 / `needs_work` / `reviewed_clean` / `pass` |
+| `open_utdr_logic_status` | 逻辑层整理状态 | 留空 / `needs_work` / `reviewed_clean` / `pass` |
+| `open_utdr_scope` | 这张地图是主地图集的一部分，还是主要用于存档/参考 | `normal` / `archival` |
+| `open_utdr_visual_notes` | 视觉整理备注 | 英文文本，前面附带名字和日期 |
+| `open_utdr_logic_notes` | 逻辑层整理备注 | 英文文本，前面附带名字和日期 |
+| `open_utdr_contributor` | 当前整理版本的主要贡献者标识 | 自由填写名字 / 昵称 / id |
+
+状态建议：
+
+- `needs_work`：已经看过，并确认还需要继续整理
+- `reviewed_clean`：已经看过，当前版本已经足够干净，可直接使用
+- `pass`：已经整理到当前标准
+
+`scope` 的判断方式：
+
+- `normal`：这张地图属于主地图集的一部分。社区可以直接使用、继续整理，也可以作为后续世界拼接或逻辑层整理的基础。
+- `archival`：这张地图主要为了资料保存、技术研究或保持完整性而保留。典型例子包括菜单房、初始化房、测试房、占位房，或其他不适合作为公开地图集成品一部分的房间。
+
+#### WORLD metadata
+
+`curated/**/*.world` 使用以下字段：
+
+| 字段 | 含义 | 可用值 / 格式 |
+|------|------|---------------|
+| `open_utdr_world_status` | 世界拼接状态 | 留空 / `needs_work` / `pass` |
+| `open_utdr_world_notes` | 世界拼接备注 | 英文文本，前面附带名字和日期 |
+| `open_utdr_contributor` | 当前整理版本的主要贡献者标识 | 自由填写名字 / 昵称 / id |
+
+World 的判断方式：
+
+- `needs_work`：world 已经建立，但地图收录或坐标摆放还需要继续整理
+- `pass`：这个 world 在当前标准下已经可以使用
+
+`.world` 只需要描述“这组地图组织得怎么样”，不需要照搬 `.tmx` 的视觉/逻辑状态字段。
+
+备注格式要求：
+
+- 统一使用英文
+- 每条备注前附带贡献者名字和日期
+- 示例：`[aik | 2026-03-23] bridge trigger objects still need cleanup`
+- 当备注被新备注替换时，新备注里必须保留上一条备注对应提交的哈希，方便追溯
+- 示例：`[aik | 2026-03-23 | replaces 1a2b3c4] visual pass for community use`
+
+贡献者字段：
+
+- 可以填写 GitHub 用户名、Discord 名称，或其他稳定的贡献者标识
+
 ### 📐 2. 逻辑图层 *（未来工作）*
 
 > 💡 这**不是当前的工作重点**。你可以暂时跳过，或等待社区通过讨论建立统一规范后再参与。

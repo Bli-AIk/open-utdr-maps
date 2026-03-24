@@ -106,7 +106,7 @@ fn normalize_path(path: &Path) -> PathBuf {
 /// Resolves a potentially relative path against a base directory,
 /// normalizing `..` components.
 fn resolve_relative_path(base: &Path, relative: &Path) -> PathBuf {
-    let mut result = base.to_path_buf();
+    let mut result = normalize_path(base);
     for component in relative.components() {
         match component {
             std::path::Component::ParentDir => {
@@ -130,34 +130,31 @@ pub(crate) async fn preload_external_resources(
     load_context: &mut LoadContext<'_>,
 ) -> HashMap<PathBuf, Vec<u8>> {
     let mut cache = HashMap::new();
-    let base_dir = load_context
-        .path()
-        .path()
-        .parent()
-        .unwrap_or(Path::new(""))
-        .to_path_buf();
+    let base_dir = normalize_path(load_context.path().path().parent().unwrap_or(Path::new("")));
 
     let xml = String::from_utf8_lossy(bytes);
     let initial_paths = extract_external_paths(&xml, &base_dir);
 
-    let mut queue: Vec<PathBuf> = initial_paths;
+    let mut queue: Vec<PathBuf> = initial_paths.into_iter().map(|p| normalize_path(&p)).collect();
 
     while let Some(path) = queue.pop() {
         if cache.contains_key(&path) {
             continue;
         }
-        match load_context.read_asset_bytes(path.clone()).await {
+        let normalized = normalize_path(&path);
+        match load_context.read_asset_bytes(normalized.clone()).await {
             Ok(data) => {
                 // Scan loaded file for nested references
                 let nested_xml = String::from_utf8_lossy(&data);
-                let nested_dir = path.parent().unwrap_or(Path::new("")).to_path_buf();
+                let nested_dir = normalize_path(path.parent().unwrap_or(Path::new("")));
                 let nested_paths = extract_external_paths(&nested_xml, &nested_dir);
                 for np in nested_paths {
-                    if !cache.contains_key(&np) {
-                        queue.push(np);
+                    let normalized_np = normalize_path(&np);
+                    if !cache.contains_key(&normalized_np) {
+                        queue.push(normalized_np);
                     }
                 }
-                cache.insert(path, data);
+                cache.insert(normalized, data);
             }
             Err(e) => {
                 log::warn!("Failed to pre-load resource {}: {}", path.display(), e);

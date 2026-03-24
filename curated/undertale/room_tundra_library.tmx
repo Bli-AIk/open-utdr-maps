@@ -1,58 +1,75 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="41" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx" />
-  <tileset firstgid="677" source="tilesets/free_tile_p11_4_4_320x240.tsx" />
-  <tileset firstgid="679" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="680" source="tilesets/obj_libcounter.tsx" />
-  <tileset firstgid="681" source="tilesets/obj_cutetable.tsx" />
-  <tileset firstgid="683" source="tilesets/obj_librarynpc_lizard2.tsx" />
-  <tileset firstgid="684" source="tilesets/obj_librarynpc_lizard1.tsx" />
-  <tileset firstgid="689" source="tilesets/obj_librarynpc_wordsearch.tsx" />
-  <tileset firstgid="690" source="tilesets/obj_librarynpc_jumbler.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137,137,137,137,137,137,137,137,137,137,137,137,0,0,0,0,137,20,137,20,137,20,137,20,137,20,137,137,0,0,0,0,20,20,20,20,20,20,20,20,20,20,20,20,0,0,0,0,20,20,20,20,20,20,20,20,20,20,20,1,0,0,0,0,137,137,137,137,20,20,20,137,137,137,137,1,0,0,0,0,137,137,137,137,20,20,20,137,137,137,137,1,0,0,0,0,20,20,20,137,20,20,20,137,137,137,137,20,0,0,0,0,20,20,20,137,20,20,20,20,20,20,20,20,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="2" name="depth_1000000_free_1">
-    <object id="1" gid="677" x="0" y="235" width="320" height="240" />
-  </objectgroup>
-  <objectgroup id="3" name="objects">
-    <object id="4" gid="679" type="obj_mainchara" x="140" y="129" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103450" />
-      </properties>
-    </object>
-    <object id="5" gid="680" type="obj_libcounter" x="40" y="160" width="81" height="40">
-      <properties>
-        <property name="instanceId" type="int" value="103451" />
-      </properties>
-    </object>
-    <object id="6" gid="681" type="obj_cutetable" x="190" y="168" width="66" height="48">
-      <properties>
-        <property name="instanceId" type="int" value="103452" />
-      </properties>
-    </object>
-    <object id="8" gid="683" type="obj_librarynpc_lizard2" x="190" y="129" width="28" height="41">
-      <properties>
-        <property name="instanceId" type="int" value="103454" />
-      </properties>
-    </object>
-    <object id="9" gid="684" type="obj_librarynpc_lizard1" x="80" y="180" width="32" height="40">
-      <properties>
-        <property name="instanceId" type="int" value="103455" />
-      </properties>
-    </object>
-    <object id="14" gid="689" type="obj_librarynpc_wordsearch" x="230" y="137" width="25" height="47">
-      <properties>
-        <property name="instanceId" type="int" value="103460" />
-      </properties>
-    </object>
-    <object id="15" gid="690" type="obj_librarynpc_jumbler" x="220" y="179" width="23" height="27">
-      <properties>
-        <property name="instanceId" type="int" value="103461" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="5" nextobjectid="41">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_tundratiles.tsx"/>
+ <tileset firstgid="676" source="tilesets/free_tile_p11_4_4_320x240.tsx"/>
+ <tileset firstgid="677" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="678" source="tilesets/obj_libcounter.tsx"/>
+ <tileset firstgid="679" source="tilesets/obj_cutetable.tsx"/>
+ <tileset firstgid="680" source="tilesets/obj_librarynpc_lizard2.tsx"/>
+ <tileset firstgid="681" source="tilesets/obj_librarynpc_lizard1.tsx"/>
+ <tileset firstgid="682" source="tilesets/obj_librarynpc_wordsearch.tsx"/>
+ <tileset firstgid="683" source="tilesets/obj_librarynpc_jumbler.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,137,137,137,137,137,137,137,137,137,137,137,137,0,0,
+0,0,137,20,137,20,137,20,137,20,137,20,137,137,0,0,
+0,0,20,20,20,20,20,20,20,20,20,20,20,20,0,0,
+0,0,20,20,20,20,20,20,20,20,20,20,20,1,0,0,
+0,0,137,137,137,137,20,20,20,137,137,137,137,1,0,0,
+0,0,137,137,137,137,20,20,20,137,137,137,137,1,0,0,
+0,0,20,20,20,137,20,20,20,137,137,137,137,20,0,0,
+0,0,20,20,20,137,20,20,20,20,20,20,20,20,0,0,
+0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,20,20,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="depth_1000000_free_1">
+  <object id="1" gid="676" x="0" y="235" width="320" height="240"/>
+ </objectgroup>
+ <objectgroup id="3" name="objects">
+  <object id="4" type="obj_mainchara" gid="677" x="140" y="129" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103450"/>
+   </properties>
+  </object>
+  <object id="5" type="obj_libcounter" gid="678" x="40" y="160" width="81" height="40">
+   <properties>
+    <property name="instanceId" type="int" value="103451"/>
+   </properties>
+  </object>
+  <object id="6" type="obj_cutetable" gid="679" x="190" y="168" width="66" height="48">
+   <properties>
+    <property name="instanceId" type="int" value="103452"/>
+   </properties>
+  </object>
+  <object id="8" type="obj_librarynpc_lizard2" gid="680" x="190" y="129" width="28" height="41">
+   <properties>
+    <property name="instanceId" type="int" value="103454"/>
+   </properties>
+  </object>
+  <object id="9" type="obj_librarynpc_lizard1" gid="681" x="80" y="180" width="32" height="40">
+   <properties>
+    <property name="instanceId" type="int" value="103455"/>
+   </properties>
+  </object>
+  <object id="14" type="obj_librarynpc_wordsearch" gid="682" x="230" y="137" width="25" height="47">
+   <properties>
+    <property name="instanceId" type="int" value="103460"/>
+   </properties>
+  </object>
+  <object id="15" type="obj_librarynpc_jumbler" gid="683" x="220" y="179" width="23" height="27">
+   <properties>
+    <property name="instanceId" type="int" value="103461"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

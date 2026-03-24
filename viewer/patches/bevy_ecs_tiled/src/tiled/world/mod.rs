@@ -10,7 +10,7 @@ pub mod loader;
 pub mod storage;
 
 use crate::{prelude::*, tiled::event::TiledMessageWriters};
-use bevy::{asset::RecursiveDependencyLoadState, prelude::*};
+use bevy::prelude::*;
 
 /// Main component for loading and managing a Tiled world in the ECS world.
 ///
@@ -108,55 +108,48 @@ fn process_loaded_worlds(
     mut message_writers: TiledMessageWriters,
 ) {
     for (world_entity, world_handle, mut world_storage) in world_query.iter_mut() {
-        if let Some(load_state) = asset_server.get_recursive_dependency_load_state(&world_handle.0)
-        {
-            if !load_state.is_loaded() {
-                if let RecursiveDependencyLoadState::Failed(_) = load_state {
-                    error!(
-                        "World failed to load, despawn it (handle = {:?} / entity = {:?})",
-                        world_handle.0, world_entity
-                    );
-                    commands.entity(world_entity).despawn();
-                } else {
-                    // If not fully loaded yet, insert the 'Respawn' marker so we will try to load it at next frame
-                    debug!(
-                        "World is not fully loaded yet, will try again next frame (handle = {:?} / entity = {:?})",
-                        world_handle.0, world_entity
-                    );
-                    commands.entity(world_entity).insert(RespawnTiledWorld);
-                }
-                continue;
-            }
-
-            // World should be loaded at this point
-            let Some(tiled_world) = worlds.get(&world_handle.0) else {
-                error!("Cannot get a valid TiledWorld out of Handle<TiledWorld>: has the last strong reference to the asset been dropped ? (handle = {:?} / entity = {:?})", world_handle.0, world_entity);
+        let load_state = asset_server.load_state(&world_handle.0);
+        if !load_state.is_loaded() {
+            if load_state.is_failed() {
+                error!(
+                    "World failed to load, despawn it (handle = {:?} / entity = {:?})",
+                    world_handle.0, world_entity
+                );
                 commands.entity(world_entity).despawn();
-                continue;
-            };
-
-            debug!(
-                "World has finished loading, spawn world maps (handle = {:?})",
-                world_handle.0
-            );
-
-            // Clean previous maps before trying to spawn the new ones
-            world_storage.clear(&mut commands);
-
-            // Remove the 'Respawn' marker and insert additional components
-            // Actual map spawn is handled by world_chunking() system
-            commands
-                .entity(world_entity)
-                .insert(Name::new(format!(
-                    "TiledWorld: {}",
-                    tiled_world.world.source.display()
-                )))
-                .remove::<RespawnTiledWorld>();
-
-            TiledEvent::new(world_entity, WorldCreated)
-                .with_world(world_entity, world_handle.0.id())
-                .send(&mut commands, &mut message_writers.world_created);
+            } else {
+                debug!(
+                    "World asset is not loaded yet, will try again next frame (handle = {:?} / entity = {:?})",
+                    world_handle.0, world_entity
+                );
+                commands.entity(world_entity).insert(RespawnTiledWorld);
+            }
+            continue;
         }
+
+        let Some(tiled_world) = worlds.get(&world_handle.0) else {
+            error!("Cannot get a valid TiledWorld out of Handle<TiledWorld>: has the last strong reference to the asset been dropped ? (handle = {:?} / entity = {:?})", world_handle.0, world_entity);
+            commands.entity(world_entity).despawn();
+            continue;
+        };
+
+        debug!(
+            "World has finished loading, spawn world maps (handle = {:?})",
+            world_handle.0
+        );
+
+        world_storage.clear(&mut commands);
+
+        commands
+            .entity(world_entity)
+            .insert(Name::new(format!(
+                "TiledWorld: {}",
+                tiled_world.world.source.display()
+            )))
+            .remove::<RespawnTiledWorld>();
+
+        TiledEvent::new(world_entity, WorldCreated)
+            .with_world(world_entity, world_handle.0.id())
+            .send(&mut commands, &mut message_writers.world_created);
     }
 }
 

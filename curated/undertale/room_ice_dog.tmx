@@ -1,69 +1,112 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="9" nextobjectid="37" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_icecave.tsx" />
-  <tileset firstgid="298" source="tilesets/bg_watertiles_2.tsx" />
-  <tileset firstgid="661" source="tilesets/free_tile_p11_400_1424_46x35.tsx" />
-  <tileset firstgid="662" source="tilesets/free_tile_p10_24_64_20x40.tsx" />
-  <tileset firstgid="663" source="tilesets/free_tile_p10_704_2032_17x12.tsx" />
-  <tileset firstgid="664" source="tilesets/free_tile_p11_276_1656_11x10.tsx" />
-  <tileset firstgid="666" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="669" source="tilesets/obj_papcomputer.tsx" />
-  <tileset firstgid="670" source="tilesets/obj_iceroom_dog.tsx" />
-  <tileset firstgid="671" source="tilesets/obj_npc_room.tsx" />
-  <tileset firstgid="672" source="tilesets/obj_iceroom_fakedog.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0</data>
-  </layer>
-  <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="4" name="depth_1000000_free_3">
-    <object id="1" gid="661" x="130" y="135" width="46" height="35" />
-    <object id="2" gid="662" x="80" y="60" width="20" height="40" />
-    <object id="3" gid="662" x="100" y="60" width="20" height="40" />
-    <object id="4" gid="662" x="120" y="60" width="20" height="40" />
-    <object id="5" gid="662" x="140" y="60" width="20" height="40" />
-    <object id="6" gid="662" x="160" y="60" width="20" height="40" />
-    <object id="7" gid="662" x="180" y="60" width="20" height="40" />
-    <object id="8" gid="662" x="200" y="60" width="20" height="40" />
-  </objectgroup>
-  <layer id="5" name="depth_1000000_grid_4" width="16" height="12">
-    <data encoding="csv">0,0,0,355,335,335,335,335,335,335,335,356,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,0,0,0,373,299,299,300,0,0,298,299,374,0,0,0,0,0,0,0,0,0,0,318,0,0,316,0,0,0,0,0,0,0,0,0,0,0,0,318,0,0,316,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="6" name="depth_900000_free_0">
-    <object id="9" gid="663" x="195" y="167" width="17" height="12" />
-    <object id="10" gid="664" x="200" y="115" width="11" height="10" />
-    <object id="11" gid="664" x="195" y="120" width="11" height="10" />
-    <object id="12" gid="664" x="205" y="125" width="11" height="10" />
-  </objectgroup>
-  <objectgroup id="7" name="objects">
-    <object id="18" gid="666" type="obj_mainchara" x="150" y="179" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="113051" />
-      </properties>
-    </object>
-    <object id="22" gid="669" type="obj_papcomputer" x="160" y="83" width="56" height="53">
-      <properties>
-        <property name="instanceId" type="int" value="113055" />
-      </properties>
-    </object>
-    <object id="23" gid="670" type="obj_iceroom_dog" x="142" y="121" width="27" height="12">
-      <properties>
-        <property name="instanceId" type="int" value="113056" />
-      </properties>
-    </object>
-    <object id="24" gid="671" type="obj_npc_room" x="90" y="84" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="113057" />
-      </properties>
-    </object>
-    <object id="25" gid="672" type="obj_iceroom_fakedog" x="90" y="169" width="20" height="19">
-      <properties>
-        <property name="instanceId" type="int" value="113058" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="9" nextobjectid="37">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_icecave.tsx"/>
+ <tileset firstgid="298" source="tilesets/bg_watertiles_2.tsx"/>
+ <tileset firstgid="658" source="tilesets/free_tile_p11_400_1424_46x35.tsx"/>
+ <tileset firstgid="659" source="tilesets/free_tile_p10_24_64_20x40.tsx"/>
+ <tileset firstgid="660" source="tilesets/free_tile_p10_704_2032_17x12.tsx"/>
+ <tileset firstgid="661" source="tilesets/free_tile_p11_276_1656_11x10.tsx"/>
+ <tileset firstgid="662" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="663" source="tilesets/obj_papcomputer.tsx"/>
+ <tileset firstgid="664" source="tilesets/obj_iceroom_dog.tsx"/>
+ <tileset firstgid="665" source="tilesets/obj_npc_room.tsx"/>
+ <tileset firstgid="666" source="tilesets/obj_iceroom_fakedog.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="depth_1000000_grid_2" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="depth_1000000_free_3">
+  <object id="1" gid="658" x="130" y="135" width="46" height="35"/>
+  <object id="2" gid="659" x="80" y="60" width="20" height="40"/>
+  <object id="3" gid="659" x="100" y="60" width="20" height="40"/>
+  <object id="4" gid="659" x="120" y="60" width="20" height="40"/>
+  <object id="5" gid="659" x="140" y="60" width="20" height="40"/>
+  <object id="6" gid="659" x="160" y="60" width="20" height="40"/>
+  <object id="7" gid="659" x="180" y="60" width="20" height="40"/>
+  <object id="8" gid="659" x="200" y="60" width="20" height="40"/>
+ </objectgroup>
+ <layer id="5" name="depth_1000000_grid_4" width="16" height="12">
+  <data encoding="csv">
+0,0,0,355,335,335,335,335,335,335,335,356,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,318,0,0,0,0,0,0,0,316,0,0,0,0,
+0,0,0,373,299,299,300,0,0,298,299,374,0,0,0,0,
+0,0,0,0,0,0,318,0,0,316,0,0,0,0,0,0,
+0,0,0,0,0,0,318,0,0,316,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="depth_900000_free_0">
+  <object id="9" gid="660" x="195" y="167" width="17" height="12"/>
+  <object id="10" gid="661" x="200" y="115" width="11" height="10"/>
+  <object id="11" gid="661" x="195" y="120" width="11" height="10"/>
+  <object id="12" gid="661" x="205" y="125" width="11" height="10"/>
+ </objectgroup>
+ <objectgroup id="7" name="objects">
+  <object id="18" type="obj_mainchara" gid="662" x="150" y="179" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="113051"/>
+   </properties>
+  </object>
+  <object id="22" type="obj_papcomputer" gid="663" x="160" y="83" width="56" height="53">
+   <properties>
+    <property name="instanceId" type="int" value="113055"/>
+   </properties>
+  </object>
+  <object id="23" type="obj_iceroom_dog" gid="664" x="142" y="121" width="27" height="12">
+   <properties>
+    <property name="instanceId" type="int" value="113056"/>
+   </properties>
+  </object>
+  <object id="24" type="obj_npc_room" gid="665" x="90" y="84" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="113057"/>
+   </properties>
+  </object>
+  <object id="25" type="obj_iceroom_fakedog" gid="666" x="90" y="169" width="20" height="19">
+   <properties>
+    <property name="instanceId" type="int" value="113058"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

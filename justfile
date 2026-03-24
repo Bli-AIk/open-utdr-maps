@@ -15,6 +15,10 @@ setup:
 serve: setup
     cd viewer && trunk serve
 
+# Serve WASM release build locally (http://127.0.0.1:8080)
+serve-release: setup
+    cd viewer && env -u NO_COLOR trunk serve --release
+
 # Build WASM version (release, output in viewer/dist/)
 build-wasm: setup
     cd viewer && trunk build --release
@@ -22,6 +26,14 @@ build-wasm: setup
 # Run desktop version
 run: setup
     cd viewer && cargo run
+
+# Run desktop version with BRP enabled for scene inspection
+run-brp: setup
+    cd viewer && BRP_EXTRAS_PORT=${BRP_EXTRAS_PORT:-15702} cargo run --features viewer-brp
+
+# Run desktop release build with BRP enabled for scene inspection
+run-release-brp: setup
+    cd viewer && BRP_EXTRAS_PORT=${BRP_EXTRAS_PORT:-15702} cargo run --release --features viewer-brp
 
 # Check compilation (native + WASM)
 check:

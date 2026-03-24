@@ -40,8 +40,8 @@ jobs:
       - name: Install Trunk
         run: cargo install trunk
 
-      - name: Create asset symlinks
-        run: bash viewer/scripts/link_assets.sh
+      - name: Prepare viewer assets
+        run: bash viewer/scripts/prepare_assets.sh
 
       - name: Build WASM release
         working-directory: viewer

@@ -2,6 +2,10 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="40" tileheight="40" infinite="0" nextlayerid="4" nextobjectid="24">
   <properties>
     <property name="speed" type="int" value="0" />
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
   </properties>
   <tileset firstgid="2" source="tilesets/free_tile_p32_122_1555_320x240.tsx" />
   <tileset firstgid="3" source="tilesets/obj_mainchara.tsx" />

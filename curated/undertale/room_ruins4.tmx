@@ -1,42 +1,67 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="5" nextobjectid="27" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder.tsx" />
-  <tileset firstgid="17" source="tilesets/bg_ruinsplaceholder2.tsx" />
-  <tileset firstgid="145" source="tilesets/bg_ruinseasynam1.tsx" />
-  <tileset firstgid="185" source="tilesets/bg_ruinseasynam3.tsx" />
-  <tileset firstgid="338" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="345" source="tilesets/obj_torinteractable4.tsx" />
-  <tileset firstgid="346" source="tilesets/obj_dummy1.tsx" />
-  <tileset firstgid="347" source="tilesets/obj_toribuster.tsx" />
-  <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
-    <data encoding="csv">0,0,0,174,167,167,168,0,0,166,167,167,175,0,0,0,0,0,174,168,147,242,148,0,0,146,147,147,166,175,0,0,0,174,168,148,147,147,148,0,0,146,147,147,146,166,0,0,167,168,148,148,155,155,156,0,0,154,155,155,146,146,158,0,147,148,148,156,1,1,1,6,6,1,1,1,154,146,158,0,147,148,156,1,1,1,1,6,6,153,153,170,1,154,158,0,155,156,1,1,1,1,32,6,6,153,153,178,1,1,158,0,6,6,6,6,6,6,6,6,6,1,1,1,1,1,158,0,6,6,6,6,6,6,6,6,46,1,1,1,1,1,158,0,151,151,152,1,1,1,1,1,1,1,1,1,1,150,183,0,0,0,182,152,1,1,1,1,1,1,1,1,150,183,0,0,0,0,0,182,151,151,151,151,151,151,151,151,183,0,0,0</data>
-  </layer>
-  <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,0,0,0,0,271,0,0,0,0,0,0,0,0,0,0,271,0,0,0,0,271,0,0,0,0,0,0,0,0,0,0,271,0,0,0,0,271,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="3" name="objects">
-    <object id="3" gid="338" type="obj_mainchara" x="240" y="189" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="100244" />
-      </properties>
-    </object>
-    <object id="20" gid="345" type="obj_torinteractable4" x="144" y="93" width="25" height="52">
-      <properties>
-        <property name="instanceId" type="int" value="100261" />
-      </properties>
-    </object>
-    <object id="21" gid="346" type="obj_dummy1" x="200" y="118" width="17" height="28">
-      <properties>
-        <property name="instanceId" type="int" value="100262" />
-      </properties>
-    </object>
-    <object id="22" gid="347" type="obj_toribuster" x="149" y="58" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="100263" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="5" nextobjectid="27">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_ruinsplaceholder.tsx"/>
+ <tileset firstgid="17" source="tilesets/bg_ruinsplaceholder2.tsx"/>
+ <tileset firstgid="145" source="tilesets/bg_ruinseasynam1.tsx"/>
+ <tileset firstgid="185" source="tilesets/bg_ruinseasynam3.tsx"/>
+ <tileset firstgid="337" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="338" source="tilesets/obj_torinteractable4.tsx"/>
+ <tileset firstgid="339" source="tilesets/obj_dummy1.tsx"/>
+ <tileset firstgid="340" source="tilesets/obj_toribuster.tsx"/>
+ <layer id="1" name="depth_1000000_grid_0" width="16" height="12">
+  <data encoding="csv">
+0,0,0,174,167,167,168,0,0,166,167,167,175,0,0,0,
+0,0,174,168,147,242,148,0,0,146,147,147,166,175,0,0,
+0,174,168,148,147,147,148,0,0,146,147,147,146,166,0,0,
+167,168,148,148,155,155,156,0,0,154,155,155,146,146,158,0,
+147,148,148,156,1,1,1,6,6,1,1,1,154,146,158,0,
+147,148,156,1,1,1,1,6,6,153,153,170,1,154,158,0,
+155,156,1,1,1,1,32,6,6,153,153,178,1,1,158,0,
+6,6,6,6,6,6,6,6,6,1,1,1,1,1,158,0,
+6,6,6,6,6,6,6,6,46,1,1,1,1,1,158,0,
+151,151,152,1,1,1,1,1,1,1,1,1,1,150,183,0,
+0,0,182,152,1,1,1,1,1,1,1,1,150,183,0,0,
+0,0,0,182,151,151,151,151,151,151,151,151,183,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="depth_1000000_grid_1" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,271,0,0,0,0,271,0,0,0,0,0,
+0,0,0,0,0,271,0,0,0,0,271,0,0,0,0,0,
+0,0,0,0,0,271,0,0,0,0,271,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="3" type="obj_mainchara" gid="337" x="240" y="189" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="100244"/>
+   </properties>
+  </object>
+  <object id="20" type="obj_torinteractable4" gid="338" x="144" y="93" width="25" height="52">
+   <properties>
+    <property name="instanceId" type="int" value="100261"/>
+   </properties>
+  </object>
+  <object id="21" type="obj_dummy1" gid="339" x="200" y="118" width="17" height="28">
+   <properties>
+    <property name="instanceId" type="int" value="100262"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

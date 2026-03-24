@@ -19,7 +19,11 @@ PROPERTY_MAP = {
     "open_utdr_visual_status": "visual_status",
     "open_utdr_logic_status": "logic_status",
     "open_utdr_scope": "scope",
-    "open_utdr_notes": "notes",
+    "open_utdr_visual_notes": "visual_notes",
+    "open_utdr_logic_notes": "logic_notes",
+    "open_utdr_contributor": "contributor",
+    "open_utdr_world_status": "world_status",
+    "open_utdr_world_notes": "world_notes",
 }
 
 
@@ -29,10 +33,15 @@ def dataset_for_path(path: Path) -> str:
         return "undertale"
     if len(parts) >= 3 and parts[0] in {"raw", "curated"} and parts[1] == "deltarune":
         return parts[2]
+    if len(parts) >= 3 and parts[0] in {"raw", "curated"} and parts[1] == "worlds":
+        if parts[2] == "undertale":
+            return "undertale"
+        if len(parts) >= 4 and parts[2] == "deltarune":
+            return parts[3]
     return "other"
 
 
-def parse_map_properties(tmx_path: Path) -> dict[str, str]:
+def parse_tmx_properties(tmx_path: Path) -> dict[str, str]:
     try:
         root = ET.parse(tmx_path).getroot()
     except ET.ParseError:
@@ -55,6 +64,33 @@ def parse_map_properties(tmx_path: Path) -> dict[str, str]:
     return properties
 
 
+def parse_world_properties(world_path: Path) -> dict[str, str]:
+    try:
+        payload = json.loads(world_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    properties: dict[str, str] = {}
+    for prop in payload.get("properties", []):
+        name = prop.get("name")
+        if not name or name not in PROPERTY_MAP:
+            continue
+        value = prop.get("value")
+        if isinstance(value, str):
+            value = value.strip()
+        if value:
+            properties[PROPERTY_MAP[name]] = str(value)
+    return properties
+
+
+def parse_entry_properties(path: Path) -> dict[str, str]:
+    if path.suffix == ".tmx":
+        return parse_tmx_properties(path)
+    if path.suffix == ".world":
+        return parse_world_properties(path)
+    return {}
+
+
 def tone_for_badge(label: str, *, kind: str) -> str:
     if kind == "section":
         return "success" if label == "curated" else "muted"
@@ -63,8 +99,14 @@ def tone_for_badge(label: str, *, kind: str) -> str:
             "curated": "success",
             "reviewed_clean": "info",
             "seeded": "warning",
-            "needs_work": "danger",
+            "needs_work": "warning",
             "unreviewed": "muted",
+            "pass": "success",
+        }.get(label, "accent")
+    if kind == "world_status":
+        return {
+            "needs_work": "warning",
+            "pass": "success",
         }.get(label, "accent")
     if kind == "scope":
         return {
@@ -84,10 +126,18 @@ def build_details(source: str, dataset: str, props: dict[str, str]) -> list[dict
         details.append({"label": "Visual Status", "value": visual})
     if logic := props.get("logic_status"):
         details.append({"label": "Logic Status", "value": logic})
+    if world_status := props.get("world_status"):
+        details.append({"label": "World Status", "value": world_status})
     if scope := props.get("scope"):
         details.append({"label": "Scope", "value": scope})
-    if notes := props.get("notes"):
-        details.append({"label": "Notes", "value": notes})
+    if visual_notes := props.get("visual_notes"):
+        details.append({"label": "Visual Notes", "value": visual_notes})
+    if logic_notes := props.get("logic_notes"):
+        details.append({"label": "Logic Notes", "value": logic_notes})
+    if world_notes := props.get("world_notes"):
+        details.append({"label": "World Notes", "value": world_notes})
+    if contributor := props.get("contributor"):
+        details.append({"label": "Contributor", "value": contributor})
     return details
 
 
@@ -97,21 +147,33 @@ def collect_entries() -> list[dict[str, object]]:
         root = REPO_ROOT / source_dir
         if not root.exists():
             continue
-        for tmx_path in sorted(root.rglob("*.tmx")):
-            rel_path = tmx_path.relative_to(REPO_ROOT).as_posix()
+        for map_path in sorted(
+            path for path in root.rglob("*") if path.suffix in {".tmx", ".world"}
+        ):
+            rel_path = map_path.relative_to(REPO_ROOT).as_posix()
             dataset = dataset_for_path(Path(rel_path))
-            props = parse_map_properties(tmx_path)
+            category = "worlds" if map_path.suffix == ".world" else dataset
+            props = parse_entry_properties(map_path)
             badges = [
                 {
                     "label": source_dir,
                     "tone": tone_for_badge(source_dir, kind="section"),
                 }
             ]
-            if visual := props.get("visual_status"):
+            status_label = None
+            status_kind = None
+            if map_path.suffix == ".world":
+                status_label = props.get("world_status")
+                status_kind = "world_status"
+            else:
+                status_label = props.get("visual_status")
+                status_kind = "visual_status"
+
+            if status_label:
                 badges.append(
                     {
-                        "label": visual,
-                        "tone": tone_for_badge(visual, kind="visual_status"),
+                        "label": status_label,
+                        "tone": tone_for_badge(status_label, kind=status_kind or "visual_status"),
                     }
                 )
             elif source_dir == "curated":
@@ -127,9 +189,9 @@ def collect_entries() -> list[dict[str, object]]:
 
             entry = {
                 "path": rel_path,
-                "title": tmx_path.stem,
+                "title": map_path.stem,
                 "section": source_dir,
-                "category": dataset,
+                "category": category,
                 "badges": badges,
                 "details": build_details(source_dir, dataset, props),
             }

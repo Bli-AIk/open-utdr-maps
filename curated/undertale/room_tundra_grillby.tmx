@@ -1,110 +1,114 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" nextlayerid="3" nextobjectid="44" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/obj_bigdog.tsx" />
-  <tileset firstgid="3" source="tilesets/obj_grillbynpc_hotandbothered.tsx" />
-  <tileset firstgid="4" source="tilesets/obj_grillbynpc_foodmonster.tsx" />
-  <tileset firstgid="5" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="6" source="tilesets/obj_booth.tsx" />
-  <tileset firstgid="7" source="tilesets/obj_pokertable.tsx" />
-  <tileset firstgid="8" source="tilesets/obj_bottomtable.tsx" />
-  <tileset firstgid="9" source="tilesets/obj_lessdogtable.tsx" />
-  <tileset firstgid="12" source="tilesets/obj_grillbynpc_lesserdog.tsx" />
-  <tileset firstgid="13" source="tilesets/obj_grillbynpc_womandog.tsx" />
-  <tileset firstgid="14" source="tilesets/obj_grillbynpc_mandog.tsx" />
-  <tileset firstgid="15" source="tilesets/obj_grillbynpc_doggo.tsx" />
-  <tileset firstgid="16" source="tilesets/obj_townnpc_weirdfish.tsx" />
-  <tileset firstgid="17" source="tilesets/obj_townnpc_hatescity.tsx" />
-  <tileset firstgid="18" source="tilesets/obj_grillbynpc_grillby.tsx" />
-  <tileset firstgid="19" source="tilesets/obj_grillbynpc_hot2.tsx" />
-  <tileset firstgid="21" source="tilesets/obj_grillbynpc_sansdate.tsx" />
-  <objectgroup id="1" name="objects">
-    <object id="1" gid="1" type="obj_bigdog" x="70" y="146" width="48" height="35">
-      <properties>
-        <property name="instanceId" type="int" value="103406" />
-      </properties>
-    </object>
-    <object id="4" gid="3" type="obj_grillbynpc_hotandbothered" x="227" y="193" width="23" height="26">
-      <properties>
-        <property name="instanceId" type="int" value="103409" />
-      </properties>
-    </object>
-    <object id="5" gid="4" type="obj_grillbynpc_foodmonster" x="228" y="143" width="29" height="32">
-      <properties>
-        <property name="instanceId" type="int" value="103410" />
-      </properties>
-    </object>
-    <object id="6" gid="5" type="obj_mainchara" x="200" y="149" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="103411" />
-      </properties>
-    </object>
-    <object id="7" gid="6" type="obj_booth" x="223" y="230" width="75" height="109">
-      <properties>
-        <property name="instanceId" type="int" value="103412" />
-      </properties>
-    </object>
-    <object id="8" gid="7" type="obj_pokertable" x="64" y="188" width="78" height="53">
-      <properties>
-        <property name="instanceId" type="int" value="103413" />
-      </properties>
-    </object>
-    <object id="9" gid="8" type="obj_bottomtable" x="43" y="230" width="36" height="32">
-      <properties>
-        <property name="instanceId" type="int" value="103414" />
-      </properties>
-    </object>
-    <object id="10" gid="9" type="obj_lessdogtable" x="22" y="116" width="44" height="50">
-      <properties>
-        <property name="instanceId" type="int" value="103415" />
-      </properties>
-    </object>
-    <object id="13" gid="12" type="obj_grillbynpc_lesserdog" x="64" y="110" width="28" height="50">
-      <properties>
-        <property name="instanceId" type="int" value="103418" />
-      </properties>
-    </object>
-    <object id="14" gid="13" type="obj_grillbynpc_womandog" x="142" y="174" width="33" height="43">
-      <properties>
-        <property name="instanceId" type="int" value="103419" />
-      </properties>
-    </object>
-    <object id="15" gid="14" type="obj_grillbynpc_mandog" x="110" y="192" width="33" height="43">
-      <properties>
-        <property name="instanceId" type="int" value="103420" />
-      </properties>
-    </object>
-    <object id="16" gid="15" type="obj_grillbynpc_doggo" x="40" y="177" width="25" height="42">
-      <properties>
-        <property name="instanceId" type="int" value="103421" />
-      </properties>
-    </object>
-    <object id="17" gid="16" type="obj_townnpc_weirdfish" x="98" y="106" width="29" height="41">
-      <properties>
-        <property name="instanceId" type="int" value="103422" />
-      </properties>
-    </object>
-    <object id="18" gid="17" type="obj_townnpc_hatescity" x="239" y="87" width="21" height="41">
-      <properties>
-        <property name="instanceId" type="int" value="103423" />
-      </properties>
-    </object>
-    <object id="19" gid="18" type="obj_grillbynpc_grillby" x="154" y="74" width="24" height="46">
-      <properties>
-        <property name="instanceId" type="int" value="103424" />
-      </properties>
-    </object>
-    <object id="20" gid="19" type="obj_grillbynpc_hot2" x="126" y="105" width="27" height="35">
-      <properties>
-        <property name="instanceId" type="int" value="103425" />
-      </properties>
-    </object>
-    <object id="27" gid="21" type="obj_grillbynpc_sansdate" x="165" y="204" width="23" height="30">
-      <properties>
-        <property name="instanceId" type="int" value="103432" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="3" nextobjectid="44">
+ <properties>
+  <property name="speed" type="int" value="30"/>
+  <property name="open_utdr_visual_status" type="string" value=""/>
+  <property name="open_utdr_logic_status" type="string" value=""/>
+  <property name="open_utdr_scope" type="string" value=""/>
+  <property name="open_utdr_notes" type="string" value=""/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/obj_bigdog.tsx"/>
+ <tileset firstgid="2" source="tilesets/obj_grillbynpc_hotandbothered.tsx"/>
+ <tileset firstgid="3" source="tilesets/obj_grillbynpc_foodmonster.tsx"/>
+ <tileset firstgid="4" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="5" source="tilesets/obj_booth.tsx"/>
+ <tileset firstgid="6" source="tilesets/obj_pokertable.tsx"/>
+ <tileset firstgid="7" source="tilesets/obj_bottomtable.tsx"/>
+ <tileset firstgid="8" source="tilesets/obj_lessdogtable.tsx"/>
+ <tileset firstgid="9" source="tilesets/obj_grillbynpc_lesserdog.tsx"/>
+ <tileset firstgid="10" source="tilesets/obj_grillbynpc_womandog.tsx"/>
+ <tileset firstgid="11" source="tilesets/obj_grillbynpc_mandog.tsx"/>
+ <tileset firstgid="12" source="tilesets/obj_grillbynpc_doggo.tsx"/>
+ <tileset firstgid="13" source="tilesets/obj_townnpc_weirdfish.tsx"/>
+ <tileset firstgid="14" source="tilesets/obj_townnpc_hatescity.tsx"/>
+ <tileset firstgid="15" source="tilesets/obj_grillbynpc_grillby.tsx"/>
+ <tileset firstgid="16" source="tilesets/obj_grillbynpc_hot2.tsx"/>
+ <tileset firstgid="17" source="tilesets/obj_grillbynpc_sansdate.tsx"/>
+ <objectgroup id="1" name="objects">
+  <object id="1" type="obj_bigdog" gid="1" x="70" y="146" width="48" height="35">
+   <properties>
+    <property name="instanceId" type="int" value="103406"/>
+   </properties>
+  </object>
+  <object id="4" type="obj_grillbynpc_hotandbothered" gid="2" x="227" y="193" width="23" height="26">
+   <properties>
+    <property name="instanceId" type="int" value="103409"/>
+   </properties>
+  </object>
+  <object id="5" type="obj_grillbynpc_foodmonster" gid="3" x="228" y="143" width="29" height="32">
+   <properties>
+    <property name="instanceId" type="int" value="103410"/>
+   </properties>
+  </object>
+  <object id="6" type="obj_mainchara" gid="4" x="200" y="149" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="103411"/>
+   </properties>
+  </object>
+  <object id="7" type="obj_booth" gid="5" x="223" y="230" width="75" height="109">
+   <properties>
+    <property name="instanceId" type="int" value="103412"/>
+   </properties>
+  </object>
+  <object id="8" type="obj_pokertable" gid="6" x="64" y="188" width="78" height="53">
+   <properties>
+    <property name="instanceId" type="int" value="103413"/>
+   </properties>
+  </object>
+  <object id="9" type="obj_bottomtable" gid="7" x="43" y="230" width="36" height="32">
+   <properties>
+    <property name="instanceId" type="int" value="103414"/>
+   </properties>
+  </object>
+  <object id="10" type="obj_lessdogtable" gid="8" x="22" y="116" width="44" height="50">
+   <properties>
+    <property name="instanceId" type="int" value="103415"/>
+   </properties>
+  </object>
+  <object id="13" type="obj_grillbynpc_lesserdog" gid="9" x="64" y="110" width="28" height="50">
+   <properties>
+    <property name="instanceId" type="int" value="103418"/>
+   </properties>
+  </object>
+  <object id="14" type="obj_grillbynpc_womandog" gid="10" x="142" y="174" width="33" height="43">
+   <properties>
+    <property name="instanceId" type="int" value="103419"/>
+   </properties>
+  </object>
+  <object id="15" type="obj_grillbynpc_mandog" gid="11" x="110" y="192" width="33" height="43">
+   <properties>
+    <property name="instanceId" type="int" value="103420"/>
+   </properties>
+  </object>
+  <object id="16" type="obj_grillbynpc_doggo" gid="12" x="40" y="177" width="25" height="42">
+   <properties>
+    <property name="instanceId" type="int" value="103421"/>
+   </properties>
+  </object>
+  <object id="17" type="obj_townnpc_weirdfish" gid="13" x="98" y="106" width="29" height="41">
+   <properties>
+    <property name="instanceId" type="int" value="103422"/>
+   </properties>
+  </object>
+  <object id="18" type="obj_townnpc_hatescity" gid="14" x="239" y="87" width="21" height="41">
+   <properties>
+    <property name="instanceId" type="int" value="103423"/>
+   </properties>
+  </object>
+  <object id="19" type="obj_grillbynpc_grillby" gid="15" x="154" y="74" width="24" height="46">
+   <properties>
+    <property name="instanceId" type="int" value="103424"/>
+   </properties>
+  </object>
+  <object id="20" type="obj_grillbynpc_hot2" gid="16" x="126" y="105" width="27" height="35">
+   <properties>
+    <property name="instanceId" type="int" value="103425"/>
+   </properties>
+  </object>
+  <object id="27" type="obj_grillbynpc_sansdate" gid="17" x="165" y="204" width="23" height="30">
+   <properties>
+    <property name="instanceId" type="int" value="103432"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

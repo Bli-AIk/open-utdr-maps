@@ -1,292 +1,445 @@
-<?xml version='1.0' encoding='utf-8'?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="37" tilewidth="20" tileheight="20" infinite="0" nextlayerid="10" nextobjectid="82" backgroundcolor="#000000">
-  <properties>
-    <property name="speed" type="int" value="30" />
-  </properties>
-  <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx" />
-  <tileset firstgid="361" source="tilesets/bg_watertiles_supplement.tsx" />
-  <tileset firstgid="415" source="tilesets/free_tile_p10_24_144_20x20.tsx" />
-  <tileset firstgid="416" source="tilesets/free_tile_p10_144_4_20x20.tsx" />
-  <tileset firstgid="417" source="tilesets/free_tile_p11_1036_1348_20x20.tsx" />
-  <tileset firstgid="419" source="tilesets/obj_mainchara.tsx" />
-  <tileset firstgid="427" source="tilesets/obj_magicglass.tsx" />
-  <objectgroup id="1" name="depth_1000020_free_0">
-    <object id="1" gid="415" x="255" y="663" width="20" height="20" />
-  </objectgroup>
-  <layer id="2" name="depth_1000020_grid_1" width="16" height="37">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="3" name="depth_1000000_free_0">
-    <object id="2" gid="416" x="-20" y="660" width="20" height="20" />
-    <object id="3" gid="416" x="-40" y="660" width="20" height="20" />
-  </objectgroup>
-  <layer id="4" name="depth_1000000_grid_1" width="16" height="37">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,364,365,0,0,364,365,0,0,0,0,0,0,0,0,0,0,373,22,145,145,24,374,0,0,0,0,0,0,0,0,0,0,0,22,145,145,24,0,0,0,0,0,0,0,0,0,0,0,0,22,145,145,24,0,0,0,0,0,0,0,0,0,0,0,0,22,145,145,24,0,0,0,0,0,0,145,145,145,145,145,145,145,145,145,145,145,145,145,145,0,0,145,145,145,145,145,145,145,145,145,145,145,145,145,145,0,0,145,145,145,145,145,145,145,145,145,145,145,145,145,145,0,0,56,56,56,56,56,56,56,56,56,56,56,56,56,57,0,0,56,56,56,56,56,56,56,56,56,56,56,56,56,57,0,0</data>
-  </layer>
-  <layer id="5" name="depth_990000_grid_0" width="16" height="37">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,362,362,362,362,362,362,374,0,0,373,362,362,362,363,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,372,0,0,380,380,380,380,380,380,380,380,380,380,380,380,380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="6" name="depth_990000_free_1">
-    <object id="4" gid="417" x="272" y="652" width="20" height="20" />
-  </objectgroup>
-  <layer id="7" name="depth_990000_grid_2" width="16" height="37">
-    <data encoding="csv">0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</data>
-  </layer>
-  <objectgroup id="8" name="objects">
-    <object id="10" gid="419" type="obj_mainchara" x="60" y="669" width="19" height="29">
-      <properties>
-        <property name="instanceId" type="int" value="107293" />
-      </properties>
-    </object>
-    <object id="31" gid="427" type="obj_magicglass" x="200" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107314" />
-      </properties>
-    </object>
-    <object id="32" gid="427" type="obj_magicglass" x="220" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107315" />
-      </properties>
-    </object>
-    <object id="33" gid="427" type="obj_magicglass" x="200" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107316" />
-      </properties>
-    </object>
-    <object id="34" gid="427" type="obj_magicglass" x="220" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107317" />
-      </properties>
-    </object>
-    <object id="35" gid="427" type="obj_magicglass" x="240" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107318" />
-      </properties>
-    </object>
-    <object id="36" gid="427" type="obj_magicglass" x="240" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107319" />
-      </properties>
-    </object>
-    <object id="37" gid="427" type="obj_magicglass" x="260" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107320" />
-      </properties>
-    </object>
-    <object id="38" gid="427" type="obj_magicglass" x="260" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107321" />
-      </properties>
-    </object>
-    <object id="39" gid="427" type="obj_magicglass" x="200" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107322" />
-      </properties>
-    </object>
-    <object id="40" gid="427" type="obj_magicglass" x="200" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107323" />
-      </properties>
-    </object>
-    <object id="41" gid="427" type="obj_magicglass" x="220" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107324" />
-      </properties>
-    </object>
-    <object id="42" gid="427" type="obj_magicglass" x="240" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107325" />
-      </properties>
-    </object>
-    <object id="43" gid="427" type="obj_magicglass" x="260" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107326" />
-      </properties>
-    </object>
-    <object id="44" gid="427" type="obj_magicglass" x="220" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107327" />
-      </properties>
-    </object>
-    <object id="45" gid="427" type="obj_magicglass" x="240" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107328" />
-      </properties>
-    </object>
-    <object id="46" gid="427" type="obj_magicglass" x="260" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107329" />
-      </properties>
-    </object>
-    <object id="47" gid="427" type="obj_magicglass" x="200" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107330" />
-      </properties>
-    </object>
-    <object id="48" gid="427" type="obj_magicglass" x="220" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107331" />
-      </properties>
-    </object>
-    <object id="49" gid="427" type="obj_magicglass" x="240" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107332" />
-      </properties>
-    </object>
-    <object id="50" gid="427" type="obj_magicglass" x="260" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107333" />
-      </properties>
-    </object>
-    <object id="51" gid="427" type="obj_magicglass" x="100" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107334" />
-      </properties>
-    </object>
-    <object id="52" gid="427" type="obj_magicglass" x="80" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107335" />
-      </properties>
-    </object>
-    <object id="53" gid="427" type="obj_magicglass" x="60" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107336" />
-      </properties>
-    </object>
-    <object id="54" gid="427" type="obj_magicglass" x="40" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107337" />
-      </properties>
-    </object>
-    <object id="55" gid="427" type="obj_magicglass" x="20" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107338" />
-      </properties>
-    </object>
-    <object id="56" gid="427" type="obj_magicglass" x="20" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107339" />
-      </properties>
-    </object>
-    <object id="57" gid="427" type="obj_magicglass" x="40" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107340" />
-      </properties>
-    </object>
-    <object id="58" gid="427" type="obj_magicglass" x="60" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107341" />
-      </properties>
-    </object>
-    <object id="59" gid="427" type="obj_magicglass" x="80" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107342" />
-      </properties>
-    </object>
-    <object id="60" gid="427" type="obj_magicglass" x="100" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107343" />
-      </properties>
-    </object>
-    <object id="61" gid="427" type="obj_magicglass" x="20" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107344" />
-      </properties>
-    </object>
-    <object id="62" gid="427" type="obj_magicglass" x="40" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107345" />
-      </properties>
-    </object>
-    <object id="63" gid="427" type="obj_magicglass" x="60" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107346" />
-      </properties>
-    </object>
-    <object id="64" gid="427" type="obj_magicglass" x="80" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107347" />
-      </properties>
-    </object>
-    <object id="65" gid="427" type="obj_magicglass" x="100" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107348" />
-      </properties>
-    </object>
-    <object id="66" gid="427" type="obj_magicglass" x="100" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107349" />
-      </properties>
-    </object>
-    <object id="67" gid="427" type="obj_magicglass" x="80" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107350" />
-      </properties>
-    </object>
-    <object id="68" gid="427" type="obj_magicglass" x="60" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107351" />
-      </properties>
-    </object>
-    <object id="69" gid="427" type="obj_magicglass" x="40" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107352" />
-      </properties>
-    </object>
-    <object id="70" gid="427" type="obj_magicglass" x="20" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107353" />
-      </properties>
-    </object>
-    <object id="71" gid="427" type="obj_magicglass" x="100" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107354" />
-      </properties>
-    </object>
-    <object id="72" gid="427" type="obj_magicglass" x="80" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107355" />
-      </properties>
-    </object>
-    <object id="73" gid="427" type="obj_magicglass" x="60" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107356" />
-      </properties>
-    </object>
-    <object id="74" gid="427" type="obj_magicglass" x="40" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107357" />
-      </properties>
-    </object>
-    <object id="75" gid="427" type="obj_magicglass" x="20" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107358" />
-      </properties>
-    </object>
-    <object id="76" gid="427" type="obj_magicglass" x="0" y="640" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107359" />
-      </properties>
-    </object>
-    <object id="77" gid="427" type="obj_magicglass" x="0" y="620" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107360" />
-      </properties>
-    </object>
-    <object id="78" gid="427" type="obj_magicglass" x="0" y="600" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107361" />
-      </properties>
-    </object>
-    <object id="79" gid="427" type="obj_magicglass" x="0" y="580" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107362" />
-      </properties>
-    </object>
-    <object id="80" gid="427" type="obj_magicglass" x="0" y="560" width="20" height="20">
-      <properties>
-        <property name="instanceId" type="int" value="107363" />
-      </properties>
-    </object>
-  </objectgroup>
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.0" orientation="orthogonal" renderorder="right-down" width="16" height="37" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#000000" nextlayerid="10" nextobjectid="82">
+ <properties>
+  <property name="open_utdr_logic_status" value=""/>
+  <property name="open_utdr_notes" value=""/>
+  <property name="open_utdr_scope" value=""/>
+  <property name="open_utdr_visual_status" value=""/>
+  <property name="speed" type="int" value="30"/>
+ </properties>
+ <tileset firstgid="1" source="tilesets/bg_watertiles_2.tsx"/>
+ <tileset firstgid="361" source="tilesets/bg_watertiles_supplement.tsx"/>
+ <tileset firstgid="415" source="tilesets/free_tile_p10_24_144_20x20.tsx"/>
+ <tileset firstgid="416" source="tilesets/free_tile_p10_144_4_20x20.tsx"/>
+ <tileset firstgid="417" source="tilesets/free_tile_p11_1036_1348_20x20.tsx"/>
+ <tileset firstgid="418" source="tilesets/obj_mainchara.tsx"/>
+ <tileset firstgid="419" source="tilesets/obj_magicglass.tsx"/>
+ <objectgroup id="1" name="depth_1000020_free_0">
+  <object id="1" gid="415" x="255" y="663" width="20" height="20"/>
+ </objectgroup>
+ <layer id="2" name="depth_1000020_grid_1" width="16" height="37">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="depth_1000000_free_0"/>
+ <layer id="4" name="depth_1000000_grid_1" width="16" height="37">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,364,365,0,0,364,365,0,0,0,0,0,
+0,0,0,0,0,373,22,145,145,24,374,0,0,0,0,0,
+0,0,0,0,0,0,22,145,145,24,0,0,0,0,0,0,
+0,0,0,0,0,0,22,145,145,24,0,0,0,0,0,0,
+0,0,0,0,0,0,22,145,145,24,0,0,0,0,0,0,
+145,145,145,145,145,145,145,145,145,145,145,145,145,145,0,0,
+145,145,145,145,145,145,145,145,145,145,145,145,145,145,0,0,
+145,145,145,145,145,145,145,145,145,145,145,145,145,145,0,0,
+56,56,56,56,56,56,56,56,56,56,56,56,56,57,0,0,
+56,56,56,56,56,56,56,56,56,56,56,56,56,57,0,0
+</data>
+ </layer>
+ <layer id="5" name="depth_990000_grid_0" width="16" height="37">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+362,362,362,362,362,362,374,0,0,373,362,362,362,363,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,372,0,0,
+380,380,380,380,380,380,380,380,380,380,380,380,380,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="depth_990000_free_1">
+  <object id="4" gid="417" x="272" y="652" width="20" height="20"/>
+ </objectgroup>
+ <layer id="7" name="depth_990000_grid_2" width="16" height="37">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="objects">
+  <object id="10" type="obj_mainchara" gid="418" x="60" y="669" width="19" height="29">
+   <properties>
+    <property name="instanceId" type="int" value="107293"/>
+   </properties>
+  </object>
+  <object id="31" type="obj_magicglass" gid="419" x="200" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107314"/>
+   </properties>
+  </object>
+  <object id="32" type="obj_magicglass" gid="419" x="220" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107315"/>
+   </properties>
+  </object>
+  <object id="33" type="obj_magicglass" gid="419" x="200" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107316"/>
+   </properties>
+  </object>
+  <object id="34" type="obj_magicglass" gid="419" x="220" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107317"/>
+   </properties>
+  </object>
+  <object id="35" type="obj_magicglass" gid="419" x="240" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107318"/>
+   </properties>
+  </object>
+  <object id="36" type="obj_magicglass" gid="419" x="240" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107319"/>
+   </properties>
+  </object>
+  <object id="37" type="obj_magicglass" gid="419" x="260" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107320"/>
+   </properties>
+  </object>
+  <object id="38" type="obj_magicglass" gid="419" x="260" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107321"/>
+   </properties>
+  </object>
+  <object id="39" type="obj_magicglass" gid="419" x="200" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107322"/>
+   </properties>
+  </object>
+  <object id="40" type="obj_magicglass" gid="419" x="200" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107323"/>
+   </properties>
+  </object>
+  <object id="41" type="obj_magicglass" gid="419" x="220" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107324"/>
+   </properties>
+  </object>
+  <object id="42" type="obj_magicglass" gid="419" x="240" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107325"/>
+   </properties>
+  </object>
+  <object id="43" type="obj_magicglass" gid="419" x="260" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107326"/>
+   </properties>
+  </object>
+  <object id="44" type="obj_magicglass" gid="419" x="220" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107327"/>
+   </properties>
+  </object>
+  <object id="45" type="obj_magicglass" gid="419" x="240" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107328"/>
+   </properties>
+  </object>
+  <object id="46" type="obj_magicglass" gid="419" x="260" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107329"/>
+   </properties>
+  </object>
+  <object id="47" type="obj_magicglass" gid="419" x="200" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107330"/>
+   </properties>
+  </object>
+  <object id="48" type="obj_magicglass" gid="419" x="220" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107331"/>
+   </properties>
+  </object>
+  <object id="49" type="obj_magicglass" gid="419" x="240" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107332"/>
+   </properties>
+  </object>
+  <object id="50" type="obj_magicglass" gid="419" x="260" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107333"/>
+   </properties>
+  </object>
+  <object id="51" type="obj_magicglass" gid="419" x="100" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107334"/>
+   </properties>
+  </object>
+  <object id="52" type="obj_magicglass" gid="419" x="80" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107335"/>
+   </properties>
+  </object>
+  <object id="53" type="obj_magicglass" gid="419" x="60" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107336"/>
+   </properties>
+  </object>
+  <object id="54" type="obj_magicglass" gid="419" x="40" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107337"/>
+   </properties>
+  </object>
+  <object id="55" type="obj_magicglass" gid="419" x="20" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107338"/>
+   </properties>
+  </object>
+  <object id="56" type="obj_magicglass" gid="419" x="20" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107339"/>
+   </properties>
+  </object>
+  <object id="57" type="obj_magicglass" gid="419" x="40" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107340"/>
+   </properties>
+  </object>
+  <object id="58" type="obj_magicglass" gid="419" x="60" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107341"/>
+   </properties>
+  </object>
+  <object id="59" type="obj_magicglass" gid="419" x="80" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107342"/>
+   </properties>
+  </object>
+  <object id="60" type="obj_magicglass" gid="419" x="100" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107343"/>
+   </properties>
+  </object>
+  <object id="61" type="obj_magicglass" gid="419" x="20" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107344"/>
+   </properties>
+  </object>
+  <object id="62" type="obj_magicglass" gid="419" x="40" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107345"/>
+   </properties>
+  </object>
+  <object id="63" type="obj_magicglass" gid="419" x="60" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107346"/>
+   </properties>
+  </object>
+  <object id="64" type="obj_magicglass" gid="419" x="80" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107347"/>
+   </properties>
+  </object>
+  <object id="65" type="obj_magicglass" gid="419" x="100" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107348"/>
+   </properties>
+  </object>
+  <object id="66" type="obj_magicglass" gid="419" x="100" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107349"/>
+   </properties>
+  </object>
+  <object id="67" type="obj_magicglass" gid="419" x="80" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107350"/>
+   </properties>
+  </object>
+  <object id="68" type="obj_magicglass" gid="419" x="60" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107351"/>
+   </properties>
+  </object>
+  <object id="69" type="obj_magicglass" gid="419" x="40" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107352"/>
+   </properties>
+  </object>
+  <object id="70" type="obj_magicglass" gid="419" x="20" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107353"/>
+   </properties>
+  </object>
+  <object id="71" type="obj_magicglass" gid="419" x="100" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107354"/>
+   </properties>
+  </object>
+  <object id="72" type="obj_magicglass" gid="419" x="80" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107355"/>
+   </properties>
+  </object>
+  <object id="73" type="obj_magicglass" gid="419" x="60" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107356"/>
+   </properties>
+  </object>
+  <object id="74" type="obj_magicglass" gid="419" x="40" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107357"/>
+   </properties>
+  </object>
+  <object id="75" type="obj_magicglass" gid="419" x="20" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107358"/>
+   </properties>
+  </object>
+  <object id="76" type="obj_magicglass" gid="419" x="0" y="640" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107359"/>
+   </properties>
+  </object>
+  <object id="77" type="obj_magicglass" gid="419" x="0" y="620" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107360"/>
+   </properties>
+  </object>
+  <object id="78" type="obj_magicglass" gid="419" x="0" y="600" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107361"/>
+   </properties>
+  </object>
+  <object id="79" type="obj_magicglass" gid="419" x="0" y="580" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107362"/>
+   </properties>
+  </object>
+  <object id="80" type="obj_magicglass" gid="419" x="0" y="560" width="20" height="20">
+   <properties>
+    <property name="instanceId" type="int" value="107363"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
