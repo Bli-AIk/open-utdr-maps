@@ -15,6 +15,10 @@ setup:
 serve: setup
     cd viewer && trunk serve
 
+# Serve WASM release build locally (http://127.0.0.1:8080)
+serve-release: setup
+    cd viewer && env -u NO_COLOR trunk serve --release
+
 # Build WASM version (release, output in viewer/dist/)
 build-wasm: setup
     cd viewer && trunk build --release
