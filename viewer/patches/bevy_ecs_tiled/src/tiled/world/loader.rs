@@ -13,7 +13,7 @@ use bevy::{
     asset::{io::Reader, AssetLoader, AssetPath, LoadContext},
     prelude::*,
 };
-use std::path::Path;
+use std::path::{Component, Path, PathBuf};
 
 /// [`TiledWorldAsset`] loading error.
 #[derive(Debug, thiserror::Error)]
@@ -61,7 +61,7 @@ impl AssetLoader for TiledWorldLoader {
 
         debug!("Start loading world '{}'", load_context.path());
 
-        let world_path = load_context.path().path().to_path_buf();
+        let world_path = normalize_path(load_context.path().path());
         let cache = preload_external_resources(&bytes, load_context).await;
 
         let world = {
@@ -82,7 +82,7 @@ impl AssetLoader for TiledWorldLoader {
         let mut world_maps = Vec::new();
         let mut world_rect = Rect::new(0.0, 0.0, 0.0, 0.0);
         for map in world.maps.iter() {
-            let map_path = world_dir.join(map.filename.clone());
+            let map_path = normalize_path(&world_dir.join(map.filename.clone()));
             let (map_width, map_height) =
                 world_map_pixel_size(load_context, &map_path, map.width, map.height).await?;
             let map_rect = Rect::new(
@@ -187,6 +187,21 @@ fn xml_attr(text: &str, name: &str) -> Option<String> {
     let start = text.find(&needle)? + needle.len();
     let end = start + text[start..].find('"')?;
     Some(text[start..end].to_string())
+}
+
+fn normalize_path(path: &Path) -> PathBuf {
+    let mut result = PathBuf::new();
+    for component in path.components() {
+        match component {
+            Component::ParentDir => {
+                result.pop();
+            }
+            Component::CurDir => {}
+            Component::Normal(s) => result.push(s),
+            other => result.push(other),
+        }
+    }
+    result
 }
 
 pub(crate) fn plugin(app: &mut App) {
