@@ -12,6 +12,11 @@ ASSETS_DIR="$VIEWER_DIR/assets"
 
 mkdir -p "$ASSETS_DIR"
 
+if [[ -d "$ASSETS_DIR/raw" && -d "$ASSETS_DIR/curated" && "${FORCE_PREPARE_ASSETS:-0}" != "1" ]]; then
+  echo "Viewer assets already prepared; reusing existing hardlinked trees."
+  exit 0
+fi
+
 rm -rf \
   "$ASSETS_DIR/raw" \
   "$ASSETS_DIR/curated" \

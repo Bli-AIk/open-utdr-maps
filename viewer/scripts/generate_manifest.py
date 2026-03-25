@@ -203,15 +203,13 @@ def main() -> None:
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
     entries = collect_entries()
     payload = {"maps": entries}
+    json_text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    txt_text = "\n".join(entry["path"] for entry in entries) + "\n"
 
-    OUTPUT_JSON.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    OUTPUT_TXT.write_text(
-        "\n".join(entry["path"] for entry in entries) + "\n",
-        encoding="utf-8",
-    )
+    if not OUTPUT_JSON.exists() or OUTPUT_JSON.read_text(encoding="utf-8") != json_text:
+        OUTPUT_JSON.write_text(json_text, encoding="utf-8")
+    if not OUTPUT_TXT.exists() or OUTPUT_TXT.read_text(encoding="utf-8") != txt_text:
+        OUTPUT_TXT.write_text(txt_text, encoding="utf-8")
     print(f"Generated {OUTPUT_JSON} with {len(entries)} maps")
 
 
