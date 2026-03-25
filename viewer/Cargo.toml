@@ -11,7 +11,7 @@ default = []
 viewer-brp = ["dep:bevy_brp_extras"]
 
 [dependencies]
-tiled_map_web_viewer = "0.5.1"
+tiled_map_web_viewer = "0.5.2"
 bevy_ecs_tiled = "0.11"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
