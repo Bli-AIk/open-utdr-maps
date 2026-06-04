@@ -144,6 +144,29 @@ Issue 标题格式为 `[Type | GAME | EMOJI] Description`，其中 emoji 用来�
    ```
 4. 完成！相关资源会从相邻的 `tilesets/`、`textures/`、`sprites/` 和 `tile_objects/` 文件夹自动加载。
 
+### 在自己的项目中使用 curated 房间
+
+对游戏项目来说，建议把一个整理过的房间和它引用的 tileset、图片一起复制到目标项目中。推荐使用紧凑的目录结构：
+
+```
+assets/
+├── rooms/<alias>/<room>.tmx
+├── rooms/<alias>/<room>.json
+└── tilesets/<pack>/
+    ├── tilesets/*.tsx
+    ├── textures/*.png
+    ├── sprites/*.png
+    └── tile_objects/*.png  # 被引用时才会出现
+```
+
+Linux 用户可以把 `scripts/export-macroquad-room` 当作这个流程的模板脚本：
+
+```bash
+scripts/export-macroquad-room room_dark1 --as gfc0 --target /path/to/game
+```
+
+脚本会在 `curated/` 中查找房间，把 `.tmx`、引用到的 `.tsx` 和 `.png` 复制到目标项目的 `assets/` 目录，并调用 Tiled 导出对 `macroquad-tiled` 友好的 JSON。它依赖 Tiled CLI（`tiled`）存在于 `PATH`；如果在 headless 环境中 Tiled 无法正常启动，可以用 `xvfb-run` 包一层运行。
+
 ### 目录浏览
 
 ```

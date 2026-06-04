@@ -1,0 +1,241 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  cat <<'USAGE'
+Usage:
+  export-macroquad-room <room> [--as <alias>] [--target <project-root>]
+
+Examples:
+  export-macroquad-room room_dark1 --as gfc0
+  export-macroquad-room room_dark1 --as gfc0 --target /path/to/game
+
+Imports one curated open-utdr-maps room into:
+  <target>/assets/rooms/<alias>/<room>.tmx
+  <target>/assets/rooms/<alias>/<room>.json
+  <target>/assets/tilesets/<pack>/tilesets/*.tsx
+  <target>/assets/tilesets/<pack>/textures/*.png
+  <target>/assets/tilesets/<pack>/sprites/*.png
+
+The target defaults to the current working directory.
+USAGE
+}
+
+die() {
+  printf 'error: %s\n' "$*" >&2
+  exit 1
+}
+
+info() {
+  printf '%s\n' "$*" >&2
+}
+
+require_value() {
+  local flag="$1"
+  local value="${2:-}"
+  [[ -n "$value" ]] || die "$flag requires a value"
+}
+
+require_safe_name() {
+  local kind="$1"
+  local value="$2"
+
+  [[ -n "$value" ]] || die "$kind must not be empty"
+  [[ "$value" != *'/'* ]] || die "$kind must be a short name, not a path: $value"
+  [[ "$value" != "." && "$value" != ".." ]] || die "$kind must not be $value"
+}
+
+list_relative_candidates() {
+  local root="$1"
+  shift
+
+  if (($# == 0)); then
+    printf '  (no candidates)\n' >&2
+    return
+  fi
+
+  local path
+  for path in "$@"; do
+    printf '  %s\n' "${path#"$root"/}" >&2
+  done
+}
+
+extract_tileset_sources() {
+  perl -nE 'while (/<tileset\b[^>]*\bsource=(["'\''"])(.*?)\1/g) { say $2 }' "$@"
+}
+
+extract_image_sources() {
+  perl -nE 'while (/<image\b[^>]*\bsource=(["'\''"])(.*?)\1/g) { say $2 }' "$@"
+}
+
+copy_file() {
+  local src="$1"
+  local dest="$2"
+
+  mkdir -p -- "$(dirname -- "$dest")"
+  cp -f -- "$src" "$dest"
+}
+
+ensure_within_dir() {
+  local path="$1"
+  local dir="$2"
+  local label="$3"
+
+  case "$path" in
+    "$dir" | "$dir"/*) ;;
+    *) die "$label would escape $dir: $path" ;;
+  esac
+}
+
+script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+repo_root="$(realpath "$script_dir/..")"
+curated_root="$repo_root/curated"
+
+room_query=""
+alias=""
+target_root="$PWD"
+
+while (($# > 0)); do
+  case "$1" in
+    --as)
+      require_value "$1" "${2:-}"
+      alias="$2"
+      shift 2
+      ;;
+    --target)
+      require_value "$1" "${2:-}"
+      target_root="$2"
+      shift 2
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --)
+      shift
+      break
+      ;;
+    -*)
+      die "unknown option: $1"
+      ;;
+    *)
+      [[ -z "$room_query" ]] || die "expected one room name, got extra argument: $1"
+      room_query="$1"
+      shift
+      ;;
+  esac
+done
+
+[[ -n "$room_query" ]] || { usage >&2; exit 2; }
+[[ $# -eq 0 ]] || die "unexpected argument after --: $1"
+[[ -d "$curated_root" ]] || die "could not find curated directory from script path: $curated_root"
+[[ -d "$target_root" ]] || die "target project root does not exist: $target_root"
+
+command -v tiled >/dev/null 2>&1 || die "tiled was not found on PATH. Install Tiled and make sure the 'tiled' command is available."
+
+room_name="${room_query%.tmx}"
+alias="${alias:-$room_name}"
+
+require_safe_name "room" "$room_name"
+require_safe_name "alias" "$alias"
+
+target_root="$(realpath "$target_root")"
+
+mapfile -t room_matches < <(find "$curated_root" -type f -name "$room_name.tmx" | sort)
+
+if ((${#room_matches[@]} == 0)); then
+  info "No curated room matched '$room_name'."
+  mapfile -t close_matches < <(find "$curated_root" -type f -name "*$room_name*.tmx" | sort | head -40)
+  info "Candidates:"
+  list_relative_candidates "$curated_root" "${close_matches[@]}"
+  exit 1
+fi
+
+if ((${#room_matches[@]} > 1)); then
+  info "Room name '$room_name' is ambiguous. Use a room name that has only one curated match."
+  info "Candidates:"
+  list_relative_candidates "$curated_root" "${room_matches[@]}"
+  exit 1
+fi
+
+source_tmx="${room_matches[0]}"
+source_room_dir="$(dirname -- "$source_tmx")"
+pack="$(basename -- "$source_room_dir")"
+
+room_out_dir="$target_root/assets/rooms/$alias"
+target_tmx="$room_out_dir/$room_name.tmx"
+target_json="$room_out_dir/$room_name.json"
+tileset_out_root="$target_root/assets/tilesets/$pack"
+
+mkdir -p -- "$room_out_dir" "$tileset_out_root"
+
+mapfile -t tileset_sources < <(extract_tileset_sources "$source_tmx" | sort -u)
+
+mapping_file="$(mktemp)"
+tiled_log="$(mktemp)"
+cleanup() {
+  rm -f -- "$mapping_file" "$tiled_log"
+}
+trap cleanup EXIT
+
+for tileset_rel in "${tileset_sources[@]}"; do
+  [[ "$tileset_rel" != /* ]] || die "absolute tileset source is not supported: $tileset_rel"
+
+  source_tsx="$(realpath -m "$source_room_dir/$tileset_rel")"
+  [[ -f "$source_tsx" ]] || die "tileset not found for $room_name: $tileset_rel"
+
+  target_tsx="$(realpath -m "$tileset_out_root/$tileset_rel")"
+  ensure_within_dir "$target_tsx" "$tileset_out_root" "tileset output"
+  copy_file "$source_tsx" "$target_tsx"
+
+  printf '%s\t%s\n' "$tileset_rel" "../../tilesets/$pack/$tileset_rel" >> "$mapping_file"
+
+  source_tsx_dir="$(dirname -- "$source_tsx")"
+  target_tsx_dir="$(dirname -- "$target_tsx")"
+
+  mapfile -t image_sources < <(extract_image_sources "$source_tsx" | sort -u)
+  for image_rel in "${image_sources[@]}"; do
+    [[ "$image_rel" != data:* ]] || continue
+    [[ "$image_rel" != /* ]] || die "absolute image source is not supported in $tileset_rel: $image_rel"
+
+    source_image="$(realpath -m "$source_tsx_dir/$image_rel")"
+    [[ -f "$source_image" ]] || die "image not found for $tileset_rel: $image_rel"
+
+    target_image="$(realpath -m "$target_tsx_dir/$image_rel")"
+    ensure_within_dir "$target_image" "$tileset_out_root" "image output"
+    copy_file "$source_image" "$target_image"
+  done
+done
+
+perl -Mstrict -Mwarnings -e '
+  my ($mapping_file, $source_tmx, $target_tmx) = @ARGV;
+
+  open my $mapping, "<", $mapping_file or die "open $mapping_file: $!";
+  my %source_for;
+  while (my $line = <$mapping>) {
+    chomp $line;
+    my ($old, $new) = split /\t/, $line, 2;
+    $source_for{$old} = $new if defined $old && defined $new;
+  }
+
+  open my $in, "<", $source_tmx or die "open $source_tmx: $!";
+  local $/;
+  my $xml = <$in>;
+  close $in;
+
+  $xml =~ s{(<tileset\b[^>]*\bsource=)(["\047])([^"\047]+)\2}{
+    exists $source_for{$3} ? "$1$2$source_for{$3}$2" : $&
+  }gex;
+
+  open my $out, ">", $target_tmx or die "open $target_tmx: $!";
+  print {$out} $xml;
+' "$mapping_file" "$source_tmx" "$target_tmx"
+
+if ! tiled --export-map json --embed-tilesets "$target_tmx" "$target_json" 2>"$tiled_log"; then
+  cat "$tiled_log" >&2
+  die "Tiled failed to export JSON. In a headless environment, try running this script through xvfb-run."
+fi
+
+info "Imported $room_name from ${source_tmx#"$repo_root"/}"
+info "Wrote $target_tmx"
+info "Wrote $target_json"

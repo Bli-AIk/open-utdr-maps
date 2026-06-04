@@ -152,6 +152,29 @@ Infringing content will be removed upon request.
    ```
 4. That's it! Referenced assets load automatically from the adjacent `tilesets/`, `textures/`, `sprites/`, and `tile_objects/` folders.
 
+### Use a curated room in your project
+
+For game projects, prefer copying a curated room together with the tilesets and images it references. A compact target layout works well:
+
+```
+assets/
+├── rooms/<alias>/<room>.tmx
+├── rooms/<alias>/<room>.json
+└── tilesets/<pack>/
+    ├── tilesets/*.tsx
+    ├── textures/*.png
+    ├── sprites/*.png
+    └── tile_objects/*.png  # when referenced
+```
+
+Linux users can use `scripts/export-macroquad-room` as a small template script for this workflow:
+
+```bash
+scripts/export-macroquad-room room_dark1 --as gfc0 --target /path/to/game
+```
+
+The script searches `curated/` for the room, copies the `.tmx`, referenced `.tsx` files, and referenced `.png` images into the target project's `assets/` tree, then runs Tiled to export a `macroquad-tiled` friendly JSON file. It requires the Tiled CLI (`tiled`) on `PATH`; in headless environments, run it through `xvfb-run` if Tiled cannot start normally.
+
 ### Browse the directory
 
 ```
