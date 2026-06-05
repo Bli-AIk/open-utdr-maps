@@ -14,6 +14,7 @@ Imports one curated open-utdr-maps room into:
   <target>/assets/rooms/<alias>/<room>.tmx
   <target>/assets/rooms/<alias>/<room>.json
   <target>/assets/tilesets/<pack>/tilesets/*.tsx
+  <target>/assets/tilesets/<pack>/tilesets/*.json
   <target>/assets/tilesets/<pack>/textures/*.png
   <target>/assets/tilesets/<pack>/sprites/*.png
 
@@ -173,6 +174,7 @@ mapfile -t tileset_sources < <(extract_tileset_sources "$source_tmx" | sort -u)
 
 mapping_file="$(mktemp)"
 tiled_log="$(mktemp)"
+generated_tileset_jsons=()
 cleanup() {
   rm -f -- "$mapping_file" "$tiled_log"
 }
@@ -205,6 +207,16 @@ for tileset_rel in "${tileset_sources[@]}"; do
     ensure_within_dir "$target_image" "$tileset_out_root" "image output"
     copy_file "$source_image" "$target_image"
   done
+
+  case "$target_tsx" in
+    *.tsx) target_tileset_json="${target_tsx%.tsx}.json" ;;
+    *) target_tileset_json="$target_tsx.json" ;;
+  esac
+  if ! tiled --export-tileset json "$target_tsx" "$target_tileset_json" 2>"$tiled_log"; then
+    cat "$tiled_log" >&2
+    die "Tiled failed to export tileset JSON for $tileset_rel. In a headless environment, try running this script through xvfb-run."
+  fi
+  generated_tileset_jsons+=("$target_tileset_json")
 done
 
 perl -Mstrict -Mwarnings -e '
@@ -231,7 +243,7 @@ perl -Mstrict -Mwarnings -e '
   print {$out} $xml;
 ' "$mapping_file" "$source_tmx" "$target_tmx"
 
-if ! tiled --export-map json --embed-tilesets "$target_tmx" "$target_json" 2>"$tiled_log"; then
+if ! tiled --export-map json "$target_tmx" "$target_json" 2>"$tiled_log"; then
   cat "$tiled_log" >&2
   die "Tiled failed to export JSON. In a headless environment, try running this script through xvfb-run."
 fi
@@ -239,3 +251,6 @@ fi
 info "Imported $room_name from ${source_tmx#"$repo_root"/}"
 info "Wrote $target_tmx"
 info "Wrote $target_json"
+for tileset_json in "${generated_tileset_jsons[@]}"; do
+  info "Wrote $tileset_json"
+done
